@@ -6,6 +6,19 @@
       "name": "Big Swining Schmidts",
       "tags": [],
       "source": "RPG_Knowledge_Base\\01_World_Lore\\Big Swining Schmidts.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Past Campaigns",
+        "title": "Big Swining Schmidts",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-08-22T04:18:56.419Z",
+        "creationDate": "2025-08-21 23:18",
+        "modificationDate": "2025-08-21 23:26",
+        "tags": [],
+        "coverImage": null
+      },
+      "body_excerpt": "# Big Swining Schmidts\n\nA song written by the Bard Raferty Amcathra\n​\n​\n\n**\n\nBig Swinging Schmidts\n\nthere once was a farmer\n\nhis name was called Schmidt \n\nto levys and nobles\n\nhe would not submit \n\nhis children were shoeless \n\nhis cupboards were bare \n\nhis wife stuffed the pillows \n\nwith locks of her hair \n\nnobles would tax him \n\njust for the sport \n\nbut Schmidt didn’t care \n\nhe was hung like a horse!\n\nhe had a big swinging dick \n\nwe have big swinging dicks \n\nif not for our members \n\nwe’d be in a fix \n\nwe have big swinging dicks \n\nwe have big swinging dicks \n\nwhen our day finally comes \n\nwe will bugger the rich!\n\n[FIDDLE SOLO]\n\nGood Sallie Schmidt\n\ndown Cumberton Way\n\nin matters of freedom\n\ncould lecture all day\n\nher fingers were calloused\n\nher shoulders were strong\n\nher head full of rebel…",
       "raw": {}
     },
     {
@@ -16,6 +29,21 @@
         "CampaignHistory"
       ],
       "source": "RPG_Knowledge_Base\\01_World_Lore\\Rupert_s Welcome Speech.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Past Campaigns",
+        "title": "Rupert's Welcome Speech",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-08-22T04:17:29.464Z",
+        "creationDate": "2025-08-21 23:17",
+        "modificationDate": "2025-08-21 23:24",
+        "tags": [
+          "CampaignHistory"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Rupert's Welcome Speech\n\nI am Rupert Richthorn, yes THEE Rupert Richthorn, and you all are unemployed but I hope to change your fortunes. Some of you come highly recommended and others of you...do not. In fact, some of you appear to have left no familial or social footprint anywhere. However, your breeding, or inbreeding, is no concern of mine.  What is of concern are your capabilities and your appreciation of wealth and opportunity\n\nAs you may know (if you have half a brain and a nose for rot), the land is awash in foul magics and mages my friends are the worst bunch of megalomaniacal bastards faerun has to offer. In fact I would venture to say that Wizards rank among the most self-interested, miserable, cheating, sanctimonious and gratuitously self-aggrandizing shit stains you’ll ever …",
       "raw": {}
     },
     {
@@ -24,6 +52,8 @@
       "name": "Island of Sedna",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Island of Sedna.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -39,6 +69,99 @@
         "aberration-hunter"
       ],
       "source": "RPG_Knowledge_Base\\09_Player_Characters\\Andromida.md",
+      "fm": {
+        "type": "npc",
+        "name": "Andromeda",
+        "aliases": [
+          "The Starborn",
+          "Drom"
+        ],
+        "race": "Human",
+        "class": "Druid",
+        "background": "Noble Outcast",
+        "alignment": "Chaotic Neutral",
+        "pronouns": "she/her",
+        "status": "Former crew member, suing the crew for back wages",
+        "location": "Pending legal proceedings in Black Brine (likely Mistwalk or Salt Crown)",
+        "tags": [
+          "druid",
+          "former-ally",
+          "litigation",
+          "estranged",
+          "noble",
+          "aberration-hunter"
+        ],
+        "appearance": {
+          "build": "Slender and athletic",
+          "hair": "Flowing white, worn loose or in a braid",
+          "skin": "Pale, weatherworn",
+          "eyes": "Light gray, with a distant, searching quality",
+          "attire": "Long storm-dyed robes, adorned with stitched stars and natural charms",
+          "notable_features": [
+            "Has a faint scar down her right cheek",
+            "Wears a crystal pendant that glows faintly when touched by moonlight"
+          ]
+        },
+        "personality": {
+          "traits": [
+            "Principled and headstrong",
+            "Emotionally distant, but deeply loyal when trust is earned",
+            "Keeps grudges quietly—until it’s time to strike"
+          ],
+          "ideals": "“Justice isn't about law—it's about setting things right.”",
+          "bonds": "Haunted by the death of her mentor, Nymh",
+          "flaws": "Prideful, easily offended by perceived betrayal or injustice"
+        },
+        "backstory": "Andromeda was born to a minor aristocratic family in a coastal city but abandoned her station after years of neglect. She wandered as a hedge-druid until finding purpose under the mentorship of Nymh, a wise druid slain by an aberration. Swearing vengeance, Andromeda has tracked strange creatures, prophecies, and magical disturbances across Faerûn.",
+        "recent_history": [
+          "Joined the crew alongside Franklin, Sy, and Pinch",
+          "Helped secure the treasure beneath the ruined temple of Shar",
+          "Was instrumental in the capture and navigation of the magical airship",
+          "Departed the crew abruptly after a dispute over treasure division",
+          "Now suing the crew in Black Brine’s Charter House for unpaid shares and personal injury compensation"
+        ],
+        "legal_action": {
+          "claim": "Failure to uphold verbal contract of shared treasure and compensation",
+          "evidence": [
+            "Notes from a temple ledger implicating the crew",
+            "Witness testimony from Ruben, the minotaur ally",
+            "Her own detailed journal"
+          ],
+          "representation": "Self-represented, with growing support from the Temple of the Chained God"
+        },
+        "abilities_and_specialties": [
+          {
+            "Aberration hunter": "Skilled in tracking, identifying, and warding against unnatural creatures"
+          },
+          "Control over elemental flora and fauna",
+          "Druidic spellcasting focused on decay, storm, and starlight"
+        ],
+        "relationships": [
+          {
+            "Franklin": "Suing him personally; believes he manipulated the crew into shortchanging her"
+          },
+          {
+            "Sy": "Tense but respectful; they shared a mutual disdain for the cultists"
+          },
+          {
+            "Pinch": "Mistrustful; thinks he doctored the map ledger to erase her share"
+          },
+          {
+            "Sinker": "Occasional customer—he’s offered her odd legal advice"
+          }
+        ],
+        "reputation": [
+          "Among Black Brine’s legal circles, she’s become a minor curiosity",
+          {
+            "A polarizing figure in local gossip": "either a noble wronged or a scheming star-witch"
+          }
+        ],
+        "notes": [
+          "The lawsuit may be part of a deeper investigation into Sedna’s cult or the Rogue Wave",
+          "Rumors claim she’s been approached by rival captains offering coin to testify further"
+        ]
+      },
+      "body_excerpt": "",
       "raw": {
         "location": "Pending legal proceedings in Black Brine (likely Mistwalk or Salt Crown)"
       }
@@ -56,6 +179,91 @@
         "gambler"
       ],
       "source": "RPG_Knowledge_Base\\09_Player_Characters\\Franklin Pierce.md",
+      "fm": {
+        "type": "player_character",
+        "name": "Franklin Pierce",
+        "race": "Human",
+        "class": "Bard (College of Whispers)",
+        "background": "Charlatan",
+        "alignment": "Chaotic Neutral",
+        "player": "Cole",
+        "pronouns": "he/him",
+        "level": [
+          "Insert Level Here"
+        ],
+        "tags": [
+          "bard",
+          "con artist",
+          "document forger",
+          "silver-tongued",
+          "runaway",
+          "gambler"
+        ],
+        "appearance": {
+          "build": "Lean and wiry",
+          "hair": "Dark brown, slicked back with a careless charm",
+          "eyes": "Hazel, always scanning for opportunity",
+          "clothing": "Finely tailored but threadbare finery, always just shy of honest",
+          "notable_features": [
+            "A charming grin with too many meanings",
+            "A stolen rapier with a gilded hilt",
+            "A subtle tattoo on his forearm marking him as a member of a long-defunct thieves' guild"
+          ]
+        },
+        "personality": {
+          "traits": [
+            "Quick-witted and smooth-talking",
+            "Untrustworthy but oddly loyal to those he respects",
+            "Greedy, but not cruel"
+          ],
+          "ideals": "“Truth is flexible. Coin is real.”",
+          "bonds": "Feels a grudging loyalty to his new crew",
+          "flaws": "Can’t resist a good con—even when it’s a bad idea"
+        },
+        "backstory": "Franklin never knew his parents, growing up on the streets of Zazesspur, surviving by charm and deception. He learned early that fake promises pay better than honest work. His life of scams eventually forced him out of town after betraying a merchant partner. Since then, he’s impersonated adventurers, faked quests, and spun elaborate lies to part fools from their gold. His rapier was stolen from that same merchant—his only true trophy.",
+        "recent_history": [
+          "Imprisoned aboard a merchant vessel for forgery and gambling scams.",
+          "Escaped the brig alongside Sy and Pinch, forming a bond of necessity.",
+          "Helped overtake a ruined temple and survived a cursed catacomb.",
+          "Claimed a magical ship and fled the pirate vessel *The Malign*.",
+          "Currently en route to Black Brine under an invitation from Captain Tasty Bite."
+        ],
+        "skills_and_expertise": [
+          "Master forger and mimic",
+          "Skilled performer, gambler, and liar",
+          "Talented duelist when cornered"
+        ],
+        "inventory": [
+          "Weighted dice and marked playing cards",
+          "Forged deeds and travel papers",
+          "Elegant rapier with a stolen merchant seal",
+          "Magical trinkets gained through deceit"
+        ],
+        "relationships": [
+          {
+            "Sy": "Trusted companion and fellow outcast"
+          },
+          {
+            "Pinch": "Finds his obsession with maps odd but useful"
+          },
+          {
+            "Andromeda": "Former crew member now sueing them for back wages"
+          },
+          {
+            "Tasty Bite": "Doesn’t trust him, but respects the hustle"
+          }
+        ],
+        "reputation": [
+          "Known in some circles as a con man named “The Silver Scribe”",
+          "Has a price on his head in at least two ports",
+          "Can lie his way into a fortress… or out of one"
+        ],
+        "notes": [
+          "May seek redemption, may just seek a bigger score.",
+          "Knows something about the contents of the sealed chest recovered near Mezro, but isn’t telling."
+        ]
+      },
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -73,6 +281,97 @@
         "clever"
       ],
       "source": "RPG_Knowledge_Base\\09_Player_Characters\\Pinch.md",
+      "fm": {
+        "type": "player_character",
+        "name": "Pinch",
+        "race": "Deep Gnome (Svirfneblin)",
+        "class": [
+          "Rogue (Thief)",
+          "Wizard (Illusionist)"
+        ],
+        "background": "Scholar",
+        "alignment": "Neutral",
+        "player": "Stu",
+        "pronouns": "he/him",
+        "level": [
+          "Insert Level Here"
+        ],
+        "tags": [
+          "deep gnome",
+          "rogue",
+          "illusion",
+          "wizard",
+          "cartographer",
+          "scribe",
+          "curious",
+          "clever"
+        ],
+        "appearance": {
+          "build": "Small, wiry",
+          "skin": "Dusty gray with a chalky undertone",
+          "hair": "Wild white shock, often unkempt",
+          "eyes": "Large and ink-black, always moving",
+          "clothing": "A patchwork mix of leather and scholar’s robes",
+          "notable_features": [
+            "Always carries a scroll case and ink-stained satchel",
+            "Wears a set of magnifying spectacles strung around his neck",
+            "Emits a faint scent of musty parchment and dried ink"
+          ]
+        },
+        "personality": {
+          "traits": [
+            "Obsessively curious, especially about written language",
+            "Socially awkward but not shy; speaks in long, excited bursts",
+            "Values cleverness above strength"
+          ],
+          "ideals": "“The world is a puzzle—every riddle has a key.”",
+          "bonds": "His personal journal of maps and lore, which he guards with his life",
+          "flaws": "Will risk everything for knowledge or rare texts"
+        },
+        "backstory": "An outcast among his people for his fascination with writing, Pinch left his subterranean home to pursue the written word. Without a formal language of their own, the Svirfneblin viewed his calligraphy and map-making with suspicion. On the surface, he found acceptance among thieves and scholars alike, who valued his precision and ability to disappear when it counted.",
+        "recent_history": [
+          "Imprisoned on a merchant vessel alongside Sy and Franklin",
+          "Escaped using illusions and wit, then raided a ruined temple of Shar",
+          "Brokered a deal with a minotaur guardian named Ruben for treasure and passage",
+          "Helped seize a mysterious, magical ship without sails",
+          "Currently en route to Black Brine under invitation from Captain Tasty Bite"
+        ],
+        "skills_and_expertise": [
+          "Master of illusions, stealth, and lockpicking",
+          "Fluent in multiple written languages, expert calligrapher and cartographer",
+          "Knows secret lore about forgotten places and forbidden magic"
+        ],
+        "inventory": [
+          "Custom calligraphy kit and scroll case",
+          "Book of Illusions, heavily annotated",
+          "Lockpicks hidden in the seams of his belt",
+          "Personal map case filled with half-finished charts",
+          "Driftwood mask from a ruined jungle shrine (magical, echoes of the past)"
+        ],
+        "relationships": [
+          {
+            "Franklin": "Friendly rivals; Pinch admires his charm, but not his shortcuts"
+          },
+          {
+            "Sy": "A rare intellectual equal—often lost in deep discussions"
+          },
+          {
+            "Andromeda": "Finds her mysticism odd but fascinating"
+          },
+          {
+            "Sinker (NPC)": "Hopes to trade books with him in Black Brine"
+          }
+        ],
+        "reputation": [
+          "Unknown in most ports, but whispered of in certain scribe circles",
+          "Has sold maps to both noble explorers and notorious thieves"
+        ],
+        "notes": [
+          "Pinch's illusions are growing stranger—mirroring memories not his own",
+          "Carries a subtle magical curse from the jungle temple; not yet understood"
+        ]
+      },
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -88,6 +387,93 @@
         "exile"
       ],
       "source": "RPG_Knowledge_Base\\09_Player_Characters\\Sy.md",
+      "fm": {
+        "type": "player_character",
+        "name": "Syltorin",
+        "nickname": "Sy",
+        "race": "Half-Aquatic Elf",
+        "class": "Warlock (Hexblade Patron)",
+        "subclass": "Pact of the Blade",
+        "background": "Smuggler",
+        "alignment": "Neutral",
+        "player": "Joe",
+        "pronouns": "he/him",
+        "level": [
+          "Insert Level Here"
+        ],
+        "tags": [
+          "warlock",
+          "aquatic",
+          "smuggler",
+          "dagger",
+          "brooding",
+          "exile"
+        ],
+        "appearance": {
+          "build": "Lithe, swimmer’s frame",
+          "skin": "Sea-toned, pale with a faint green-blue sheen",
+          "hair": "Long and dark, often slicked back or braided in cords",
+          "eyes": "Deep green, reflective like a fish's in moonlight",
+          "clothing": "Salt-stained leathers and a cloak that smells faintly of brine",
+          "notable_features": [
+            "Ritual scarring along his ribs",
+            "A sentient dagger shaped like a trident, always on his belt",
+            "Fingers webbed slightly from aquatic heritage"
+          ]
+        },
+        "personality": {
+          "traits": [
+            "Quiet, intense, always watching",
+            "Hates being lied to—yet keeps many secrets himself",
+            "Surprisingly loyal to those who earn it"
+          ],
+          "ideals": "“Power comes from the depths—earned, not inherited.”",
+          "bonds": "His mysterious dagger, a final connection to his father",
+          "flaws": "Carries guilt for Nymh’s death and the fate of his father"
+        },
+        "backstory": "Son of a smuggler queen in Ithmong, Sy was raised among backroom deals and coastal black markets. His aquatic elf father vanished under suspicious circumstances after warning Sy of Winifred’s true nature. He found a dagger hidden in her chambers—mystical, bound to him—and fled before he could become a pawn in her ambitions.",
+        "recent_history": [
+          "Jailed aboard a merchant vessel for suspected sabotage",
+          "Escaped with Pinch and Franklin, forming an uneasy alliance",
+          "Helped overthrow a priest of Shar and bargain with undead in a cursed ruin",
+          "Took the helm of a magical, mastless ship powered by planar forces",
+          "En route to Black Brine under invitation from Captain Tasty Bite"
+        ],
+        "skills_and_expertise": [
+          "Skilled in stealth, sabotage, and underwater navigation",
+          "Pact-bound to a mysterious entity linked to the dagger",
+          "Knows smuggler routes and secret docks across Faerûn’s coast"
+        ],
+        "inventory": [
+          "Trident-like magical dagger (Hexblade)",
+          "Smoking journal of arcane sketches and sea lore",
+          "Waterproof smuggler’s satchel with salt-sealed compartments",
+          "Tokens from his mother’s old network—some still redeemable"
+        ],
+        "relationships": [
+          {
+            "Franklin": "Suspicious but fond; appreciates his wit"
+          },
+          {
+            "Pinch": "Respects his intellect; finds him amusing"
+          },
+          {
+            "Andromeda": "Curious about her magic and sense of justice"
+          },
+          {
+            "Tasty Bite": "Doesn’t trust him, but recognizes a predator when he sees one"
+          }
+        ],
+        "reputation": [
+          "Known along the coast as a quiet ghost of a sailor—whispers only",
+          "A few cults of the deep recognize the blade he carries"
+        ],
+        "notes": [
+          "His dagger may hold more secrets than he realizes",
+          "Something in the deep still calls to him—and not always kindly"
+        ]
+      },
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -98,6 +484,21 @@
         "Encounter"
       ],
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\Encounter 1.md",
+      "fm": {
+        "type": "Page",
+        "collections": "The Deep Green",
+        "title": "Encounter 1",
+        "description": null,
+        "icon": "📓",
+        "createdAt": "2025-06-02T22:02:12.614Z",
+        "creationDate": "2025-06-02 17:02",
+        "modificationDate": "2025-06-18 17:03",
+        "tags": [
+          "Encounter"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Encounter 1\n\n1. UP RIVER - 6 HOURS PER HEX, 3 HEX PER DAY\n\n\n\nThreat Level = 0\n\nRupert has chartered a non-descript fishing boat to sail them to the mouth of the Black River\n​Strange bones will guide them to the mouth of the Black River Inlet and will jump off on the shore.  Sy will navigate the boat up stream.\n\nWEATHER\n\n5-**Dense Jungle Fog**\n\nDisadvantage on ranged attacks and Perception. Encounter chance increased by +1.\n\n11-**Jungle Silence**\n\nNo insects, birds, or rustling. PCs gain advantage on Stealth, but encounter DC lowered (higher risk).\n\nENCOUNTER\n\n9-Twisting currents—boats must **navigate or capsize** in whirlpool\n\n11-A pod of **river spirits** swim alongside silently; they vanish if spoken to\n\n5-**Floating fungal mat**—causes mild hallucinations for 1 hour\n\n**Mood**: Tense, …",
       "raw": {}
     },
     {
@@ -106,6 +507,19 @@
       "name": "Encounter 2",
       "tags": [],
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\Encounter 2.md",
+      "fm": {
+        "type": "Page",
+        "collections": "The Deep Green",
+        "title": "Encounter 2",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-06-17T13:44:35.641Z",
+        "creationDate": "2025-06-17 08:44",
+        "modificationDate": "2025-06-17 20:36",
+        "tags": [],
+        "coverImage": null
+      },
+      "body_excerpt": "# Encounter 2\n\nThreat Level = 1\n\nDay 1 - hex 1 - 3 miles in 8 hours\n\nThey stand on the banks of the river.\n\nWEATHER\n\n**Humid -**\n\n**Mood**: The jungle canopy, high above is alive with movement as the wind buffets the tree tops.  The jungle floor is still.\n\nNAVIGATION CHECK - No check required\n​\n\nNARRATIVE\n\nThe jungle is alive with sound. Insects drone in the undergrowth and the haunting calls of unknow birds fill the humid air. You are surrounded by thick lush greenery in all directions cut through with a single narrow dirt path that rises and falls over hills concealed in a dense layer of plant life, dead falls and the dry blanket of leaves from season past conceal the soil below.\n\nHigh above the canopy sways in the wind giving the appearance of a living ceiling of green and gray so thick…",
       "raw": {}
     },
     {
@@ -114,6 +528,19 @@
       "name": "Encounter 3",
       "tags": [],
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\Encounter 3.md",
+      "fm": {
+        "type": "Page",
+        "collections": "The Deep Green",
+        "title": "Encounter 3",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-06-18T01:29:19.353Z",
+        "creationDate": "2025-06-17 20:29",
+        "modificationDate": "2025-06-18 14:20",
+        "tags": [],
+        "coverImage": null
+      },
+      "body_excerpt": "# Encounter 3\n\n[8F2943D1-5291-48C4-A7BB-1347C604A6F0](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/3529da77-ccb0-48e7-bd50-5cd8ae379af6)\n\nThreat Level = 1\n\nDay 1 - hex 1 - 3 miles in 4 hours\n\nWEATHER\n\n**Sweltering Winds & Humidity -** All scent-based tracking is impossible. Adv on Stealth, Disadv on perception\n\n**Mood**: The jungle canopy, high above is alive with movement as the wind buffets the tree tops.  The jungle floor is still.\n\nNAVIGATION CHECK - Bird, check reveals the location of Mount Vexir\n​\n\nNARRATIVE\n\nPart one - having obtained a baring you begin picking your way through the jungle.  The move through the undergrowth finding your way through clusters of massive trees and thick vines. You arrive at the bank of a small creek.  This area is shallow with a series…",
       "raw": {}
     },
     {
@@ -122,6 +549,19 @@
       "name": "Encounter 4",
       "tags": [],
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\Encounter 4.md",
+      "fm": {
+        "type": "Page",
+        "collections": "The Deep Green",
+        "title": "Encounter 4",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-06-18T19:17:10.767Z",
+        "creationDate": "2025-06-18 14:17",
+        "modificationDate": "2025-06-18 14:53",
+        "tags": [],
+        "coverImage": null
+      },
+      "body_excerpt": "# Encounter 4\n\nThreat level = \n\nDay 2 - hex 1 - 3 miles in 6 hours\n\nWEATHER\n\n**Sudden Chill -** Jungle temperature drops. Each PC must succeed CON save DC 12 or lose 1 hour of travel to stiffness/frostbite.\n\n**Mood**: The jungle canopy, thins beyond the thicket and the temperature drops\n\nNAVIGATION CHECK - No check required, vexir is visible\n\n\n\nNARRATIVE\n\nAs the party exits the thicket they are struck by a cold wind slaps you in the face.  The trees in this area are dead and fallen forming a maze of deadfalls and with no tree cover to insulate you, wind chills you to the bone.  The foothills begin to rise to the east and west and mount Vexir looms before you, snow capped and forbidding. a distant plume of ash rises from the peak and is scattered by the wind.  Beyond the fallen trees, miles…",
       "raw": {}
     },
     {
@@ -132,6 +572,21 @@
         "Encounter"
       ],
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\Encounter 5 - Short Cut.md",
+      "fm": {
+        "type": "Page",
+        "collections": "The Deep Green",
+        "title": "Encounter 5 - Short Cut",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-07-15T16:30:35.711Z",
+        "creationDate": "2025-07-15 11:30",
+        "modificationDate": "2025-07-15 11:49",
+        "tags": [
+          "Encounter"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Encounter 5 - Short Cut\n\nThey have made it through the maze and enter the jungle.  They will have 2 hexes to cover before the approach begins.\n​\n​Travel = 8 hours per hex\n​Weather = Ash fall - dampened sound, half visibility - Mount Vexhir ejects ash into the sky and it settles like snow on the jungle below.\n\n**Hex 1**\n\nThe ridge or the basin?\n\n1. Ridge increases time by 2 hour - Bone field - skeletal remains are tied to trees and bone chimes hang from the branches by the thousands. -5 Stealth - If a Stealth check is failed they will encounter shaman\n\n2. ​Basin decreases time by 2 hours - Razor ferns - PCs take 1d4 slashing damage if they try to pass quickly. Can be burned (draws attention).\n\n\n\nHex 2\n\nThe gorge crossing\n\n1. a deep gorge must be crossed via a rope bridge\n\n\n\nWhy would they…",
       "raw": {}
     },
     {
@@ -142,6 +597,21 @@
         "Encounter"
       ],
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\Infiltration - Little Sedna.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Infiltration - Little Sedna",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-05-21T21:11:14.824Z",
+        "creationDate": "2025-05-21 16:11",
+        "modificationDate": "2025-05-21 16:47",
+        "tags": [
+          "Encounter"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Infiltration - Little Sedna\n\n---\n\n[SednaInterior](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/5d466963-d411-45e0-b930-8cbd26c3281e)\n\n# 🧭 Temple of Sedna Infiltration – GM Area Guide\n\n*Level 6 adventure for Pinch, Franklin, and Sy – 2 to 3 hours*\n\n---\n\n## 🗺️ AREA 1: **Entrance Tunnel**\n\n**Description**\n\nSlippery, barnacle-covered steps descend into salt-choked air. The temple is quiet, but the deeper rooms hiss and breathe with the tide.\n\n**Hazards**\n\n- **Salt Scab Trap** – Pressure plate covered in salt crystals.\n\n    - Trigger: Spike erupts (Dex Save DC 14 or 3d10 piercing + grappled).\n\n- **Bioluminescent Barnacles** – Loud movement causes them to glow (Stealth Disadvantage for 1 minute).\n\n**Clues**\n\n- **Fresco on the wall**: A woman with a sewn mouth, three ritual bo…",
       "raw": {}
     },
     {
@@ -152,6 +622,21 @@
         "CampaignHistory"
       ],
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\Dead Sons Campaign Narrative.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Past Campaigns",
+        "title": "Dead Sons Campaign Narrative",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-08-22T04:12:06.584Z",
+        "creationDate": "2025-08-21 23:12",
+        "modificationDate": "2025-08-21 23:18",
+        "tags": [
+          "CampaignHistory"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Dead Sons Campaign Narrative\n\n**\n\nEpisode 1\n\n1. Readings\n\n    1. General Von Nevel addresses the company*\n\n    2. Rupert Toasts the fallen heroes*\n\n2. Scenes\n\n    1. Command Tent - Open QA around the command fire\n\n    2. Cutty and Luka - \n\n        1. How to feed an army\n\n            1. savory barley porridge made with broth, bone, chicken, beef, mutton bacon\n\n            2. dried mushrooms, scallions and peppers, goodberries promote nutrition, flavor punch and filling \n\n        2. how to serve an army\n\n            1. one serving\n\n            2. gold piece on pay day (golden slop) and 2 flagons of ale\n\n        3. foraging \n\n            1. Water\n\n            2. Greens\n\n            3. root vegetables\n\n            4. Salt\n\n            5. Tobacco\n\n        4. Secrets\n\n            1. spice pouc…",
       "raw": {}
     },
     {
@@ -162,6 +647,21 @@
         "CampaignHistory"
       ],
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\Dead Sons Campaign Structure.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Past Campaigns",
+        "title": "Dead Sons Campaign Structure",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-08-22T04:08:48.635Z",
+        "creationDate": "2025-08-21 23:08",
+        "modificationDate": "2025-08-21 23:19",
+        "tags": [
+          "CampaignHistory"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Dead Sons Campaign Structure\n\nCampaign Structure\n\nAct 1\nSession 1\nLanding Party - Hlondeth\nThe party is sent to investigate the fate of Lord Quwen\nGreeted at the port by Caleo and escorted to the camp\nInfo about the Dead Sons\n459 men and horse\n115 light Cavalry company\n232 heavy Cavalry company\n52 support\n60 scouting company\nDead Sons Base\nCity of Westgate\nDragon Coast\nDragonmere Sea\nSailed through the Sea of Fallen Stars around Turmish up the Vilhon Reach\nOrganization\nMembership is voluntary\nHighly experienced\nMembers must have reputation or demonstrate skill\n1 gp per week pay\n2 gp per week for officers\nDead Sons Code of Conduct\nNo rape\nNo torture\nNo pillage- unless authorized\nNo in-fighting\nParty will be approached by the horses of the dead mage corps, horses will aproach one at a time…",
       "raw": {}
     },
     {
@@ -172,6 +672,21 @@
         "CampaignHistory"
       ],
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\Fallen City Campaign Structure.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Past Campaigns",
+        "title": "Fallen City Campaign Structure",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-08-22T04:14:43.949Z",
+        "creationDate": "2025-08-21 23:14",
+        "modificationDate": "2025-08-21 23:21",
+        "tags": [
+          "CampaignHistory"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Fallen City Campaign Structure\n\n**\n\nFrozen City\n\nAct1 - The Missing Mage\n\nPart 1 - Fear for a friend - A mysterious crime scene\n\nPart 2 - Investigation - The trail leads to old friends\n\nPart 3 - Rescue mission - Rupert’s alive and the plot thickens (held captive)\n\nAct 2 - The Search is on\n\nPart 1 - A friend is in trouble but where is he - Tracking the Unborn\n\nPart 2 - Piecing together events - Trail of destruction & the helpful mage\n\nPart 3 - An astral gate and a key - Rupert’s location revealed and the plot thickens (communication is cut but not for long)\n\nAct 3 - The Frozen City\n\nSub-plots\n\n1. Tempting Offers - Ongoing dialogue with the vermin lord\n\n    1. Deal 1 - Give me the girl and I will give you Rupert\n\n    2. Temptation 1 - Give you riches and look the other way\n\n    3. Temptati…",
       "raw": {}
     },
     {
@@ -182,6 +697,21 @@
         "CampaignHistory"
       ],
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\Fallen City Rupert Richthorn Memory Palace.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Past Campaigns",
+        "title": "Fallen City Rupert Richthorn Memory Palace",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-08-22T04:16:02.642Z",
+        "creationDate": "2025-08-21 23:16",
+        "modificationDate": "2025-08-21 23:22",
+        "tags": [
+          "CampaignHistory"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Fallen City Rupert Richthorn Memory Palace\n\nRuper Richthorn\n\nIn the memory palace\n\n1. What does he know?\n\n    1. He was transported by an Astral Projection spell\n\n    2. The spell was hidden inside a Glyph of Warding spell\n\n        1. This means it was cast onsite\n\n        2. The Astral Projection spell was unfamiliar\n\n            1. It is a similar spell but designed to target an individual\n\n            2. Requires an extremely advanced understanding of spell engineering\n\n            3. In the box was a chunk of stone broken from a structure he was able to match to a piece of architecture at the destination\n\n            4. The stone is not native to the Orsauran Mountains\n\n        3. The traditional rules of Astral Projection\n\n            1. Technically he could kill his astral self and…",
       "raw": {}
     },
     {
@@ -195,6 +725,24 @@
         "Faction"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\Challenge Coins.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Challenge Coins",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-02-11T04:28:27.522Z",
+        "creationDate": "2025-02-10 22:28",
+        "modificationDate": "2025-02-10 22:54",
+        "tags": [
+          "laws",
+          "Town",
+          "Hooks",
+          "Faction"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Challenge Coins\n\n## **Magical Safeguards on Black Brine’s Challenge Coins**\n\nSince the **pirate captains of Black Brine** would never let something so valuable be stolen **without protection**, here’s how the coins are **secured**:\n\n### **1. Every Coin is Marked with a Magical Signature**\n\n- Each Challenge Coin is **inscribed with a unique sigil**, tied to the **captain’s blood or soul** at the time of forging.\n\n- This makes it **difficult to duplicate**, as each coin’s **magic is distinct** and **can be sensed by those trained to do so**.\n\n#### **How This Affects the Enemy**\n\n- The Corsair-worshipers **cannot simply forge a new coin**—they must **use the stolen one carefully** or **find a way to erase its signature**.\n\n- If a **pirate lord or mage examines the coin**, they **can tell it…",
       "raw": {}
     },
     {
@@ -203,16 +751,44 @@
       "name": "Codex of Salt and Shadow",
       "tags": [],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\Codex of Salt and Shadow.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Codex of Salt and Shadow",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-05-21T21:17:55.462Z",
+        "creationDate": "2025-05-21 16:17",
+        "modificationDate": "2025-05-21 16:46",
+        "tags": [],
+        "coverImage": null
+      },
+      "body_excerpt": "# Codex of Salt and Shadow\n\n[couchwarrior_A_heavy_tome_bound_in_water-logged_eelhide_slick_t_9b59cac2-f650-47df-ad99-8cb4a45528ea](Images/couchwarrior_A_heavy_tome_bound_in_water-logged_eelhide_slick_t_9b59cac2-f650-47.md)\n\n\n# 📖 **The Codex of Salt and Shadow**\n\n### 🐚 Physical Description\n\nA heavy tome bound in **water-logged eelhide**, slick to the touch. Its pages are **translucent** and shimmer like oil on water. When opened, **ink moves slowly** across the pages—never smudging, but subtly rearranging itself when not observed. Some pages appear **empty until submerged in saltwater**, at which point **hidden glyphs emerge** in fluid, spiraling scripts.\n\nThe codex smells of **brine, old blood, and rain-soaked stone**. It whispers faintly in silence and is warm when near seawater or leylin…",
       "raw": {}
     },
     {
-      "id": "bb:Page:how-do-apertures-work!",
+      "id": "bb:Page:how-do-apertures-work",
       "type": "Page",
       "name": "How do apertures work!",
       "tags": [
         "CampaignHistory"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\How do apertures work!.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Past Campaigns",
+        "title": "How do apertures work!",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-08-22T04:06:11.632Z",
+        "creationDate": "2025-08-21 23:06",
+        "modificationDate": "2025-08-21 23:14",
+        "tags": [
+          "CampaignHistory"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# How do apertures work!\n\n- How do apertures work!\n\n- Allows for the transfer of power (spell slots).\n\n- Each wielder must use an attunement slot\n\n- any caster can use an aperture. If you have spell slots or pact slots you may attune to an aperture.\n\n- Each individual chooses how many slots they will contribute to the pool.\n\n- Power: One spell slot equals one spell level.\n\n    1. Focus may take levels to cast spells they already know to a maximum of 9th level\n\n    2. Levels may be used to “upcast” as spell as stated in the spell description\n\n- Configuration: The arrangement of casters imparts special benefits\n\n    1. Discovering Configurations - Must be done through experimentation\n\n        1. A configuration may be attempted with successful arcana check DC18\n\n        2. Following a config…",
       "raw": {}
     },
     {
@@ -221,6 +797,19 @@
       "name": "The Blind Chef_s Almanac",
       "tags": [],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\The Blind Chef_s Almanac.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "The Blind Chef's Almanac",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-08-22T04:21:15.367Z",
+        "creationDate": "2025-08-21 23:21",
+        "modificationDate": "2025-08-21 23:28",
+        "tags": [],
+        "coverImage": null
+      },
+      "body_excerpt": "# The Blind Chef's Almanac\n\nThis book is in the possession of the player character Pinch the Rogue\n\n### A Practical Guide to Cooking in the Deep Places of the World\n\n## Table of Contents\n\n1. Introduction\n\n2. A Note on Ingredients\n\n3. Soups & Stews\n\n4. Savory Dishes\n\n5. Baked & Preserved Goods\n\n6. Snacks & Quick Bites\n\n7. Exotic Drinks & Brews\n\n8. Cooking Superstitions & Rituals\n\n9. Annotated Notes & Additional Discoveries\n\n---\n\n## Introduction\n\n*The Blind Chef’s Almanac* is an unofficial, pirated copy of a much older deep gnome cooking manual. Passed down, recopied, and annotated by countless hands, this version is riddled with scribbled notes, substitutions, and dubious modifications. Some recipes are masterpieces of the Underdark’s culinary tradition. Others? Likely deadly mistakes waiti…",
       "raw": {}
     },
     {
@@ -232,6 +821,22 @@
         "Encounter"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Environmental Threat Level.md",
+      "fm": {
+        "type": "Page",
+        "collections": "The Deep Green",
+        "title": "Environmental Threat Level",
+        "description": null,
+        "icon": "☠️",
+        "createdAt": "2025-06-03T13:52:14.647Z",
+        "creationDate": "2025-06-03 08:52",
+        "modificationDate": "2025-06-03 08:58",
+        "tags": [
+          "GameMechanics",
+          "Encounter"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Environmental Threat Level\n\n### **Enemy or Environmental Threat Stealth Checks**\n\n- **Approaching a hostile creature, predator, or patrol** (Passive Perception vs. Stealth check).\n\n- **Crossing an open space** (when there’s no immediate cover).\n\n- **Evading the Whispering Fog** (if their **Jungle Alert Level** is high, they must roll **disadvantage**).\n\n- **Using fire or magic** (fire and bright light increase the need for stealth checks, unless precautions are taken).\n\n### **Advantage or Disadvantage Modifiers**\n\n| **Preparedness Level**                           | **Stealth Check Effect**         |\n| :----------------------------------------------- | :------------------------------- |\n| **Moving slowly (half speed)**                   | **Advantage** on Stealth         |\n| **Wrapped ge…",
       "raw": {}
     },
     {
@@ -243,6 +848,22 @@
         "Encounter"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Event Threat Level.md",
+      "fm": {
+        "type": "Page",
+        "collections": "The Deep Green",
+        "title": "Event Threat Level",
+        "description": null,
+        "icon": "🏕️",
+        "createdAt": "2025-06-03T13:54:43.583Z",
+        "creationDate": "2025-06-03 08:54",
+        "modificationDate": "2025-06-03 08:58",
+        "tags": [
+          "GameMechanics",
+          "Encounter"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Event Threat Level\n\n### **Event-Based Stealth Rolls**\n\nCharacters must make a Stealth check when they:\n\n- **Move through high-alert zones** (predator territory, near enemy camps, through dense hunting grounds).\n\n- **Pass through foliage, water, or terrain that naturally makes noise** (crunching leaves, deep mud, running streams).\n\n- **Climb or descend obstacles** (trees, cliffs, temple ruins) where movement might be noticed.\n\n- **Interact with the jungle** (pushing through thick brush, dislodging vines, moving objects).\n\n- **Kill an enemy** in an area where others might hear the struggle.\n\n- **Rest in unsafe areas** (Stealth check for setting up camp silently).\n\n🛑 **Stealth Checks Are NOT Needed** when:\n\n- Moving through **cleared paths** (already scouted by Strange Bones).\n\n- Traveling …",
       "raw": {}
     },
     {
@@ -254,6 +875,22 @@
         "Encounter"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Firearms Training Mechanics.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Firearms Training Mechanics",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-03-18T20:28:08.390Z",
+        "creationDate": "2025-03-18 15:28",
+        "modificationDate": "2025-03-18 15:37",
+        "tags": [
+          "GameMechanics",
+          "Encounter"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Firearms Training Mechanics\n\n### **Fenrith’s Firearms Training Mini-Game: \"The Black Powder Crucible\"**\n\nFenrith doesn’t train amateurs—he **breaks them down and rebuilds them** into **disciplined gunners**. His training is **grueling**, focusing on **speed, precision, and nerves of steel** in high-pressure combat.\n\nThe mini-game has **three phases** to simulate real firearms use:\n\n1. **Loading Under Fire (Speed & Stress)**\n\n2. **Marksmanship (Accuracy & Control)**\n\n3. **Misfires & Malfunctions (Risk Management)**\n\nEach phase uses **checks, modifiers, and risks** to make every shot feel **deliberate and dangerous**.\n\n---\n\n## **Phase 1: \"Loading Under Fire\" (Speed & Stress)**\n\n🔥 **Goal:** Successfully **load and fire** a musket or flintlock pistol **before an advancing enemy reaches you.*…",
       "raw": {}
     },
     {
@@ -267,6 +904,24 @@
         "Encounter"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Jungle Stealth Mechanics.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Jungle Stealth Mechanics",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-03-18T20:14:19.702Z",
+        "creationDate": "2025-03-18 15:14",
+        "modificationDate": "2025-06-03 08:57",
+        "tags": [
+          "GameMechanics",
+          "LandFeatures",
+          "Island",
+          "Encounter"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Jungle Stealth Mechanics\n\n### **When to Roll Stealth Checks in the Jungle**\n\nStealth checks should not be rolled **every step of the way**—instead, they should be prompted by **specific events, environmental conditions, and enemy presence**. The key is to **balance tension without exhausting the players** with constant rolls.\n\nHere’s how to determine when **stealth rolls** are required:\n\n---\n\n### **1. Event-Based Stealth Rolls**\n\nCharacters must make a Stealth check when they:\n\n- **Move through high-alert zones** (predator territory, near enemy camps, through dense hunting grounds).\n\n- **Pass through foliage, water, or terrain that naturally makes noise** (crunching leaves, deep mud, running streams).\n\n- **Climb or descend obstacles** (trees, cliffs, temple ruins) where movement might be…",
       "raw": {}
     },
     {
@@ -278,6 +933,25 @@
         "Encounter"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Jungle Survival Training Mechanics.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Jungle Survival Training Mechanics",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-03-18T20:20:38.322Z",
+        "creationDate": "2025-03-18 15:20",
+        "modificationDate": "2025-03-18 15:30",
+        "tags": [
+          "GameMechanics",
+          "Encounter"
+        ],
+        "coverImage": null,
+        "controls": [
+          "bb:Page:strange-bones"
+        ]
+      },
+      "body_excerpt": "# Jungle Survival Training Mechanics\n\n### **Strange Bones’ Survival Training: \"The Jungle Does Not Care About You\"**\n\nBefore he lets the party step foot in the **forbidden western jungle**, Strange Bones **drills them in the only things that will keep them alive**. His methods are brutal, unpredictable, and **designed to break their bad habits** before the jungle does.\n\n**\"You wanna live? You gotta be quieter than the moss. Smarter than the snakes. You mess up in here? The jungle don’t kill you quick—it eats you slow.\"**\n\n---\n\n## **Phase 1: The Silence Test (Stealth & Alert Level Training)**\n\n**Goal:** The party must navigate a **controlled jungle course** without **raising the alert level past 2**.\n\n### **The Challenge**\n\n- Strange Bones has **set up tripwires of woven vines, hanging bone…",
       "raw": {
         "controls": [
           "bb:Page:strange-bones"
@@ -295,6 +969,24 @@
         "LandFeatures"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Jungle Survival.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Jungle Survival",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-03-18T20:09:52.238Z",
+        "creationDate": "2025-03-18 15:09",
+        "modificationDate": "2025-03-18 15:16",
+        "tags": [
+          "Encounter",
+          "GameMechanics",
+          "Island",
+          "LandFeatures"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Jungle Survival\n\n## **1. Jungle Stealth & Detection Mechanics**\n\n### **Jungle Alert Level (Dynamic Threat System)**\n\nThe jungle is filled with **predators, hidden sentinels, and supernatural forces**. Use an **escalating threat level** that increases as the party makes mistakes:\n\n- **Level 0**: Unseen – The jungle is unaware of them.\n\n- **Level 1**: Signs of disturbance – Something is watching.\n\n- **Level 2**: Hunters have been dispatched – Predators or patrols are tracking them.\n\n- **Level 3**: The jungle **calls** – They are hunted by something **they cannot escape**.\n\n**How It Works:**\n\n- **Every noise, fire, or broken branch** increases the Alert Level.\n\n- **Failing stealth checks, killing loudly, or staying in one place too long** also raises it.\n\n- **Critical failures in survival, …",
       "raw": {}
     },
     {
@@ -310,6 +1002,26 @@
         "GameMechanics"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Navigating the Mists of Sedna.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Navigating the Mists of Sedna",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-02-11T04:03:07.219Z",
+        "creationDate": "2025-02-10 22:03",
+        "modificationDate": "2025-03-18 15:16",
+        "tags": [
+          "Island",
+          "Campaign",
+          "Encounter",
+          "Act1",
+          "Chapter1",
+          "GameMechanics"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Navigating the Mists of Sedna\n\n### **Navigating the Mist and Reefs (Skill Challenge)**\n\n#### **Setup**\n\n- The **Coin** provides guidance, but the **mist and reefs require careful maneuvering**.\n\n- The **ship has a crew**, but the players must take **active roles** to ensure safe passage.\n\n- This is a **complex challenge**, requiring **multiple successful checks** before accumulating **3 failures**.\n\n- If they **fail 3 times**, they **crash into a reef**, suffer ship damage, or encounter an unforeseen danger.\n\n---\n\n### **Skill Challenge Rules**\n\n- Players must accumulate **5 total successes** before they reach **3 failures**.\n\n- Each round, players describe how they help the ship navigate.\n\n- Each round represents **10-20 minutes of sailing**.\n\n- The DM determines **who rolls** based on t…",
       "raw": {}
     },
     {
@@ -322,6 +1034,23 @@
         "ForgottenWind"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Navigation Events.md",
+      "fm": {
+        "type": "Page",
+        "collections": "The Deep Green",
+        "title": "Navigation Events",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-06-02T16:11:40.227Z",
+        "creationDate": "2025-06-02 11:11",
+        "modificationDate": "2025-06-02 16:35",
+        "tags": [
+          "GameMechanics",
+          "Encounter",
+          "ForgottenWind"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Navigation Events\n\n\n\nNavigation Event Table (1d12)\n\n| d12 | Navigation Event                                                                                                                     |\n| :-- | :----------------------------------------------------------------------------------------------------------------------------------- |\n| 1   | **Faint Footpath** – a long-abandoned trail appears. PCs may follow it (50/50 chance of speeding travel or leading into danger).     |\n| 2   | **Treefall Maze** – tangled wreckage of collapsed trees. Choose: 1 extra hour to climb or DC 14 Acrobatics to squeeze through.       |\n| 3   | **Confusing Sunlight** – light refracts strangely in the canopy. Disadvantage on Spot Mountain rolls for this hex.                   |\n| 4   | **Animal Sign** – fresh…",
       "raw": {}
     },
     {
@@ -333,6 +1062,22 @@
         "Encounter"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Passive Threat Level.md",
+      "fm": {
+        "type": "Page",
+        "collections": "The Deep Green",
+        "title": "Passive Threat Level",
+        "description": null,
+        "icon": "⏰️",
+        "createdAt": "2025-06-03T13:49:28.696Z",
+        "creationDate": "2025-06-03 08:49",
+        "modificationDate": "2025-06-03 08:58",
+        "tags": [
+          "GameMechanics",
+          "Encounter"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Passive Threat Level\n\n### **Time-Based Stealth Checks**\n\n- **Every 30–60 minutes** (real-world time) OR after **significant travel** (e.g., entering a new biome, crossing a river, passing a predator's lair).\n\n- **During major weather shifts** (rain might grant advantage by muffling sounds, while dry seasons make everything crunchier).\n\n- **After a combat encounter** (to see if something else has been alerted).\n\n### **Advantage or Disadvantage Modifiers**\n\n| **Preparedness Level**                           | **Stealth Check Effect**         |\n| :----------------------------------------------- | :------------------------------- |\n| **Moving slowly (half speed)**                   | **Advantage** on Stealth         |\n| **Wrapped gear (no clanking metal)**             | **Advantage**        …",
       "raw": {}
     },
     {
@@ -344,6 +1089,22 @@
         "Encounter"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Stealth Preparation.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Stealth Preparation",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-03-18T20:38:09.005Z",
+        "creationDate": "2025-03-18 15:38",
+        "modificationDate": "2025-03-18 15:45",
+        "tags": [
+          "GameMechanics",
+          "Encounter"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Stealth Preparation\n\n## **1. Gear Modifications for Maximum Stealth**\n\nStrange Bones will **strip down and alter** their gear to minimize noise and visibility.\n\n### **🔹 Clothing & Armor Adjustments**\n\n✅ **Muted Colors & Camouflage**:\n\n- **Dye bright fabrics** using jungle **moss, crushed berries, or charcoal.**\n\n- Use **mud smearing & leafy coverings** to blend into the jungle.\n\n✅ **Silence Metal Armor & Weapons**:\n\n- **No chainmail or plate armor**—switch to **leather, padded armor, or cloth wrappings**.\n\n- **Wrap all buckles, weapons, and tools** in cloth, soft leather, or vine bindings to **prevent clanking.**\n\n- **Padded footwear** (softened leather or jungle moss insoles) to **reduce footstep noise.**\n\n✅ **Secure All Loose Gear**:\n\n- **Tightly wrap** rations, water skins, and suppli…",
       "raw": {}
     },
     {
@@ -356,6 +1117,23 @@
         "ForgottenWind"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Travel Phases.md",
+      "fm": {
+        "type": "Page",
+        "collections": "The Deep Green",
+        "title": "Travel Phases",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-06-02T16:05:59.905Z",
+        "creationDate": "2025-06-02 11:05",
+        "modificationDate": "2025-06-02 16:40",
+        "tags": [
+          "Encounter",
+          "GameMechanics",
+          "ForgottenWind"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Travel Phases\n\n**Travel Speed = Default**\n\n1 hex =  6 miles\n\nTravel time per hex = 8 hours\n\nTravel time per day = 2 hex\n\n\n\n## **PHASE 1 – The Wild River & Outer Jungle**\n\n*Hex Range: Starting area up to 4 hexes from Vexir*\n\n**Tone**: Natural danger, subtle strangeness\n\nRiver Travel (1d12)\n\n| Roll | Encounter                                                                       |\n| :--- | :------------------------------------------------------------------------------ |\n| 1    | Crocodilian beast (CR 2–4), camouflaged, strikes the boat mid-channel           |\n| 2    | River narrows—PCs must **pull the boat** through shallows, exposed to ambush    |\n| 3    | A body tangled in reeds—clutching a **rusted holy symbol of Sedna**             |\n| 4    | Flock of **squawking reef bats** circles—ha…",
       "raw": {}
     },
     {
@@ -368,10 +1146,27 @@
         "ForgottenWind"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Weather Events.md",
+      "fm": {
+        "type": "Page",
+        "collections": "The Deep Green",
+        "title": "Weather Events",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-06-02T16:12:25.226Z",
+        "creationDate": "2025-06-02 11:12",
+        "modificationDate": "2025-06-02 16:30",
+        "tags": [
+          "GameMechanics",
+          "Encounter",
+          "ForgottenWind"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Weather Events\n\n| d20 | Weather Event              | Effects on Travel, Danger, and Rest                                                                                               |    |    |\n| :-- | :------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- | :- | :- |\n| 1   | **Blistering Sun**         | Travel speed -½ hex. PCs in light armor roll CON save DC 12 or gain 1 Exhaustion.                                                 |    |    |\n| 2   | **Suffocating Humidity**   | Disadvantage on Stealth checks and any Wisdom (Survival) check due to discomfort.                                                 |    |    |\n| 3   | **Torrential Rain**        | Visibility reduced to 20 ft. …",
       "raw": {}
     },
     {
-      "id": "bb:Page:🌒-phased-threat-escalation-–-the-road-to-the-hollow-song",
+      "id": "bb:Page:phased-threat-escalation---the-road-to-the-hollow-song",
       "type": "Page",
       "name": "🌒 PHASED THREAT ESCALATION – The Road to the Hollow Song",
       "tags": [
@@ -381,6 +1176,24 @@
         "ForgottenWind"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\🌒 PHASED THREAT ESCALATION – The Road to the Hollow Song.md",
+      "fm": {
+        "type": "Page",
+        "collections": "The Deep Green",
+        "title": "🌒 PHASED THREAT ESCALATION – The Road to the Hollow Song",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-06-02T21:37:11.307Z",
+        "creationDate": "2025-06-02 16:37",
+        "modificationDate": "2025-06-02 16:43",
+        "tags": [
+          "GameMechanics",
+          "LandFeatures",
+          "Encounter",
+          "ForgottenWind"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# 🌒 PHASED THREAT ESCALATION – The Road to the Hollow Song\n\n### **🌿 Phase 1: Wild Jungle (Outer Hexes)**\n\n**Mood**: Tense, oppressive, but natural\n\n**Threats**: Predators, curses, old ruins, weather\n\n**Encounters**:\n\n- Beast ambushes (serpent swarms, corpse lizards)\n\n- Jungle diseases\n\n- Forgotten shrines to Sedna and false gods\n\n- Warnings carved in druidic or abyssal script\n\n🌀 *Effect*: Threats feel *indifferent*, but deadly—nature is not yet aware of the intruders.\n\n---\n\n### **🌘 Phase 2: The Encroached Zone (Mid-Jungle)**\n\n**Mood**: Wrongness seeps into the air—**rot without flies**, trees without birds, stone with veins.\n\n**Trigger**: Once within **3 hexes of Vexir**\n\n**Effects**:\n\n- **Normal jungle encounters shift** to include **cult influence and residual magic**\n\n- All Perception a…",
       "raw": {}
     },
     {
@@ -397,6 +1210,58 @@
         "secrets"
       ],
       "source": "RPG_Knowledge_Base\\04_Factions\\Criminal\\The Twilight Society.md",
+      "fm": {
+        "type": "organization",
+        "name": "Twilight Society",
+        "location": "Salt Crown – Velvet Nest (rooftop garden of the Lending House of Black Brine)",
+        "tags": [
+          "faction",
+          "nobility",
+          "cult",
+          "debauchery",
+          "politics",
+          "seduction",
+          "secrets"
+        ],
+        "overview": "The Twilight Society is an exclusive circle of wealthy, beautiful, and dangerous elites who worship pleasure, secrecy, and subtle power. Cloaked in hedonism and mysticism, they operate under the guise of socialites and art patrons, but beneath the velvet and wine lies a hidden devotion to the goddess Sharess. The society manipulates, corrupts, and blackmails its way through Black Brine’s high places, cloaking vice in the perfume of nobility.\n",
+        "leader": {
+          "name": "Vel Corven",
+          "race": "Androgynous Elf (unknown lineage)",
+          "role": "High Host of the Society",
+          "description": "A radiant figure of ambiguous gender, velvety voice, and effortless charm. Vel is rumored to be centuries old and never seen in daylight. Their mask changes nightly.\n"
+        },
+        "members": {
+          "demographics": "Nobles, entertainers, fallen clerics, ex-pirates, ambitious merchants",
+          "initiation": "Invitation-only. New members must offer a personal secret of value, to be held in trust—or used for leverage."
+        },
+        "beliefs": [
+          "Pleasure is the highest form of power",
+          "Secrets are the purest form of currency",
+          "Pain and joy are divine instruments of transformation",
+          "Public morality is a lie for the weak"
+        ],
+        "customs": [
+          "Midnight gatherings marked by masked revels and silent auctions of forbidden artifacts",
+          "Rituals held in perfumed candlelight involving wine, veils, and whispered prayers to Sharess",
+          "The “Velvet Mark” – a perfume blend unique to each member, meant to intoxicate and signal allegiance"
+        ],
+        "notable_location": {
+          "name": "The Velvet Nest",
+          "description": "A rooftop pleasure garden above the Lending House, filled with exotic flora, silken cushions, and concealed passageways. Protected by enchantments of illusion and silence.\n"
+        },
+        "rivalries": [
+          "Opposed by Rosy and the Church of Sedna for undermining discipline and tradition",
+          "Viewed with disdain by the Temple of the Chained God, which considers them a moral plague",
+          "In quiet competition with the Red Door Alchemy Shop for arcane and sensual potions"
+        ],
+        "influence": "The Twilight Society has its hooks in lenders, officers, aristocrats, and entertainers. Many owe them favors—few dare to admit it. Their decadence masks an efficient intelligence network.\n",
+        "hooks": [
+          "A member's secret has been stolen and threatens to unravel the society",
+          "The Velvet Nest is hosting an invite-only masquerade—and someone isn’t on the list",
+          "A Twilight acolyte is selling sacred pleasure elixirs that seem to drive users mad"
+        ]
+      },
+      "body_excerpt": "",
       "raw": {
         "location": "Salt Crown – Velvet Nest (rooftop garden of the Lending House of Black Brine)"
       }
@@ -415,6 +1280,27 @@
         "ForgottenWind"
       ],
       "source": "RPG_Knowledge_Base\\04_Factions\\Religious\\Cult - Forgotten Wind.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Cult - Forgotten Wind",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-02-11T04:42:34.200Z",
+        "creationDate": "2025-02-10 22:42",
+        "modificationDate": "2025-02-10 22:58",
+        "tags": [
+          "NPC",
+          "legends",
+          "Hooks",
+          "Faction",
+          "Act1",
+          "Chapter1",
+          "ForgottenWind"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Cult - Forgotten Wind\n\n**The Caste System of the Cult of the Forgotten Wind**\n\n**After centuries of isolation, jungle survival, and devotion to a false god, the cult has degenerated into a monstrous hierarchy of fanatics. Each caste serves a distinct role, ensuring their survival as they await the return of their imprisoned goddess.**\n\n---\n\n## **1. The Howling Ones** *(Lowest Caste – Savage Hunters)*\n\n> *\"You will hear them before you see them—if you're lucky. If you're not, you will only hear the breath in your ear before the teeth sink in.\"*\n\n— Old Black Brine superstition\n\n- These **twisted remnants** of the original civilization have **lost most of their humanity** after centuries in the jungle.\n\n- Their **bones are warped**, their **eyes reflective like a predator’s**, and their **l…",
       "raw": {}
     },
     {
@@ -427,6 +1313,23 @@
         "Faction"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\Arlo The Noose Vex.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Arlo \"The Noose\" Vex",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-03-18T19:15:58.403Z",
+        "creationDate": "2025-03-18 14:15",
+        "modificationDate": "2025-03-18 14:47",
+        "tags": [
+          "Town",
+          "NPC",
+          "Faction"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Arlo \"The Noose\" Vex\n\n[[IMG_2193]]\n\n**Smuggler King of Salt Crown | The Gentleman Executioner | Black Brine’s Silent Hangman**\n\n---\n\n**No one escapes The Noose.** Not the debtors who beg for time, not the rivals who overstep, not the fools who think they can cheat him. **Arlo Vex tightens his grip slowly, deliberately—until there’s no escape.**\n\nA **study in contrasts**, Arlo Vex is both **a refined businessman and a ruthless enforcer**. He wears **tailored suits, silk cravats, and gold cufflinks**, his presence more akin to a noble than a crime lord. But those who mistake him for **just another merchant of vice** soon learn the truth—he fights with **bare fists and a butcher’s cleaver**, and he has **never lost a fight he intended to win**. He doesn’t yell, doesn’t gloat—he simply **bre…",
       "raw": {}
     },
     {
@@ -440,6 +1343,24 @@
         "CouncilOfCaptains"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\Captain Gun Deck Rosy.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Captain \"Gun Deck\" Rosy",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-02-11T03:43:30.465Z",
+        "creationDate": "2025-02-10 21:43",
+        "modificationDate": "2025-03-18 14:48",
+        "tags": [
+          "NPC",
+          "Rosy",
+          "Captain",
+          "CouncilOfCaptains"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Captain \"Gun Deck\" Rosy\n\n[[image]]\n\n### **Gun Deck Rosy’s Devotion to Sedna**\n\n- Her **fanaticism commands both fear and loyalty**, as people whisper of her **rituals and sacrifices**.\n\n- She might possess **Sedna’s blessings**, granting her unnerving resilience, visions from the depths, or **hexblade powers**.\n\n- **Her ship could be a shrine**—its hull reinforced with deep-sea bones, its figurehead depicting Sedna’s **twisted, hag-like visage**.",
       "raw": {}
     },
     {
@@ -448,6 +1369,8 @@
       "name": "Inquisitor Zunizar",
       "tags": [],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\Inquisitor Zunizar.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -459,6 +1382,22 @@
         "Rupert"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\Rupert Richthorn.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Rupert Richthorn",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-02-11T03:20:56.771Z",
+        "creationDate": "2025-02-10 21:20",
+        "modificationDate": "2025-03-18 14:49",
+        "tags": [
+          "NPC",
+          "Rupert"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Rupert Richthorn\n\n[image](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/5099e89a-c1ed-4155-a37f-37effec12bc6)\n\nRupert’s presence in Black Brine makes him a **feared and enigmatic figure**, adding tension and intrigue to the town. His nickname, **“The Kraken,”** suggests that the townspeople see him as **something vast, dangerous, and lurking beneath the surface**—a fitting reputation for an exiled archwizard.\n\n### **Potential Dynamics & Conflicts**\n\n- **A Power Play with Rosy**: Their **tenuous agreement** could shift at any moment—if Rupert oversteps, Rosy may be forced to act.\n\n- **His Forbidden Tower**: Settling **west of town** could lead to **strange magical occurrences, Sedna’s cultists taking interest, or old secrets awakening**.\n\n- **Merchants’ Fear**: Despite hi…",
       "raw": {}
     },
     {
@@ -473,6 +1412,62 @@
         "independents"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Organizations\\Council of Free Captains.md",
+      "fm": {
+        "type": "organization",
+        "name": "Council of Free Captains",
+        "location": "Black Brine - various districts, primarily Salt Crown and Crosswater taverns",
+        "tags": [
+          "pirates",
+          "politics",
+          "factions",
+          "captains",
+          "independents"
+        ],
+        "overview": "The Council of Free Captains is a loose alliance of ship captains who do not belong to the major ruling fleets but still command enough wealth, crews, or notoriety to demand respect. They maintain their independence fiercely, walking the fine line between cooperation and chaos. While not on the Captain’s Council, they are too influential to ignore—and too unpredictable to fully trust.\n",
+        "members": "30–50 captains",
+        "leadership": {
+          "structure": "Informal rotating chair, no fixed hierarchy",
+          "most_influential": [
+            {
+              "name": "Captain Tella \"Coincutter\" Varne",
+              "race": "Tiefling",
+              "ship": "The Gilded Fang",
+              "reputation": "Ruthless trader with a flair for cutting off middlemen—literally"
+            },
+            {
+              "name": "Sallow Fen",
+              "race": "Undead Elf (presumed revenant)",
+              "ship": "The Hollow Smile",
+              "reputation": "Runs ghost routes through cursed waters, speaks only in whispers"
+            }
+          ]
+        },
+        "goals": [
+          "Maintain autonomy from the ruling fleets",
+          "Protect trade routes and crew rights",
+          "Undermine monopolies held by Rosy’s allies",
+          "Gain influence on the Captain’s Council through leverage or seats"
+        ],
+        "customs": [
+          "Each captain must present a unique artifact from a past voyage to be heard at a full moot",
+          "Duels are allowed but only on water or rooftops—never on docks",
+          "Decisions made at sea under a full moon are considered binding among members"
+        ],
+        "meeting_place": "While the council has no formal hall, they often meet at the upper mezzanine of the Powder Keg Tavern or aboard the floating wreck-ship called \"The Drift,\" anchored just outside the harbor.\n",
+        "reputation": "Seen as necessary troublemakers by the ruling fleets and unpredictable allies by the people. Feared by merchants for their power to collectively blockade or raid, should negotiations go poorly.\n",
+        "tensions": [
+          "Frequently clash with the Widowmakers over assassination bounties",
+          "Harbor resentment toward Gun Deck Rosy's dominance",
+          "Dispute sea lanes with Tasty Bite's fleet",
+          "Occasionally act as mediators between hostile factions—if paid well enough"
+        ],
+        "hooks": [
+          "A major vote among the Free Captains could sway a Council decision—if someone can sway the swing captains",
+          "A captain seeks help smuggling a sensitive cargo past Rosy’s patrols",
+          "A Free Captain’s artifact has gone missing, and without it, their seat is forfeit"
+        ]
+      },
+      "body_excerpt": "",
       "raw": {
         "location": "Black Brine - various districts, primarily Salt Crown and Crosswater taverns"
       }
@@ -483,6 +1478,77 @@
       "name": "Fisherman's Union of Black Brine",
       "tags": [],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Organizations\\Fishermens Union.md",
+      "fm": {
+        "type": "organization",
+        "name": "Fisherman's Union of Black Brine",
+        "factions": [
+          {
+            "name": "East Bank Union",
+            "location": "Salt Crown, eastern shore of the Black Brine River",
+            "leadership": {
+              "name": "Harlan Tugg",
+              "title": "Dockmaster of the East Bank",
+              "race": "Half-Orc",
+              "traits": "Gruff, superstitious, loyal to Rosy"
+            },
+            "culture": {
+              "practices": [
+                "Observes traditional rites of Sedna before each voyage",
+                "Refuses to discuss the West Bank or those who fish there"
+              ],
+              "superstitions": [
+                "Believes fishing north of the Red Chain Bridge invites curses",
+                "Places black salt on nets to ward off sea-spirits"
+              ]
+            },
+            "membership": "200+ fishers and dockworkers",
+            "fleet": "Dozens of small sea trawlers and rowboats",
+            "reputation": "More traditional and pious; aligned with Sedna’s clergy",
+            "rival": "West Bank Union",
+            "symbols": "Blue fishhook carved into driftwood, worn on cord necklaces"
+          },
+          {
+            "name": "West Bank Union",
+            "location": "Crosswater District, western shore of the Black Brine River",
+            "leadership": {
+              "name": "Mira Sedge",
+              "title": "Union Forewoman of the West Bank",
+              "race": "Human",
+              "traits": "Sharp-witted, ambitious, secretly funds smuggling"
+            },
+            "culture": {
+              "practices": [
+                "Embraces riskier deepwater fishing beyond the Maw",
+                "Sells to offshore buyers and black market traders"
+              ],
+              "superstitions": [
+                "Considers Sedna’s rituals a tool of control",
+                "Pays tribute to the river itself, not the sea"
+              ]
+            },
+            "membership": "150+ fishers, smugglers, and haulers",
+            "fleet": "Sleek longboats and flat-bottom rafts for river work",
+            "reputation": "Daring and independent; rumored ties to Tasty Bite",
+            "rival": "East Bank Union",
+            "symbols": "Twisted silver eel on braided rope, worn at the belt"
+          }
+        ],
+        "union_conflict": {
+          "summary": "The East and West Bank Unions are locked in a quiet feud—centering on faith, profit, and which side of the Red Chain Bridge holds the city’s future.",
+          "tensions": [
+            "Occasional dockside brawls",
+            "Competing fishing routes and markets",
+            "Rumors of sabotage and poaching nets at night"
+          ],
+          "city_response": "Mostly ignored by the Captain's Council unless trade is disrupted",
+          "potential_hooks": [
+            "A union leader is found dead—murder or political ploy?",
+            "A shipment of black-market river eels goes missing",
+            "Sedna cultists demand the East Bank purge the “heretics” of the West"
+          ]
+        }
+      },
+      "body_excerpt": "",
       "raw": {
         "factions": [
           {
@@ -549,6 +1615,24 @@
         "Faction"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Captain Bloodshot.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Captain Bloodshot",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-03-18T19:31:31.049Z",
+        "creationDate": "2025-03-18 14:31",
+        "modificationDate": "2025-03-18 14:56",
+        "tags": [
+          "NPC",
+          "Captain",
+          "CouncilOfCaptains",
+          "Faction"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Captain Bloodshot\n\n---\n\n\n---\n\n\n\n---\n\n[IMG_2024](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/a31fb0a3-c3f3-47d0-92a6-311f60c0a0ee)\n\n## **Master of The Miasma Fleet**\n\n- **Ships:** 3 cursed vessels, including *The Miasma*\n\n- **Crew:** **Warped, mutated, and terrifying sailors**\n\n- **Flag:** \n\n- **Style:** **Terror tactics, eldritch magic, and unpredictable cruelty**\n\n- **Reputation:** **The only crew feared more dead than alive**\n\n- **Specialties:** **Psychological warfare, disease spreading, necrotic rituals**\n\n- **Notoriety:** **Those captured by Bloodshot’s fleet are never seen again—or return… changed**\n\n- **Customs & Norms:**\n\n    - **The Blackened Chalice** – Before battle, each crew member drinks from a chalice said to contain **the blood of the unborn**.\n\n    - *…",
       "raw": {}
     },
     {
@@ -562,6 +1646,24 @@
         "Faction"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Captain Bor Driftwood Harvann.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Captain Bor \"Driftwood\" Harvann",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-03-18T19:48:54.850Z",
+        "creationDate": "2025-03-18 14:48",
+        "modificationDate": "2025-03-18 14:53",
+        "tags": [
+          "CouncilOfCaptains",
+          "Captain",
+          "NPC",
+          "Faction"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Captain Bor \"Driftwood\" Harvann\n\n[couchwarrior_Dungeons__Dragons_male_Goliath_pirate_Captain_blue_a98ac226-ad9b-477c-a79b-015ca606b8db](Images/couchwarrior_Dungeons__Dragons_male_Goliath_pirate_Captain_blue_a98ac226-ad9b-47.md)\n\n## **Warlord of The Red Wakes**\n\n- **Ships:** 7 brutal warships, including *The Iron Shrike*\n\n- **Crew:** **Brawlers, siege experts, and armored marines**\n\n- **Flag:** **Deep red with an axe splitting a ship in half**\n\n- **Style:** **Overwhelming force, no negotiations**\n\n- **Reputation:** **Takes ships the hard way—by killing every soul on board**\n\n- **Specialties:** **Boarding, siege tactics, and brawling**\n\n- **Notoriety:** **Once burned a captured ship just to prove a point**\n\n- **Customs & Norms:**\n\n    - **Battle Booze** – Before battle, the crew smashes **…",
       "raw": {}
     },
     {
@@ -576,6 +1678,25 @@
         "Town"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Captain Garrick Golden Tooth Salt.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Captain Garrick \"Golden Tooth\" Salt",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-03-18T19:53:59.950Z",
+        "creationDate": "2025-03-18 14:53",
+        "modificationDate": "2025-03-18 14:58",
+        "tags": [
+          "CouncilOfCaptains",
+          "Captain",
+          "NPC",
+          "Faction",
+          "Town"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Captain Garrick \"Golden Tooth\" Salt\n\n[couchwarrior_Dungeons__Dragons_male_middle-aged_kender_pirate_c_87283ac9-dbf1-4147-8804-60ba40c83374](Images/couchwarrior_Dungeons__Dragons_male_middle-aged_kender_pirate_c_87283ac9-dbf1-41.md)\n\n## **Merchant-Lord of The Gilded Rats**\n\n- **Ships:** 5 well-armed merchant galleons\n\n- **Crew:** **Wealthy traders, spies, and thieves**\n\n- **Flag:** **Gold with a rat holding a dagger**\n\n- **Style:** **Bribery over battles, deception over strength**\n\n- **Reputation:** **The most hated captain in Black Brine—because he always profits**\n\n- **Specialties:** **Trade, forgery, and black-market deals**\n\n- **Notoriety:** **His fleet never fires a shot, yet still wins every fight**\n\n- **Customs & Norms:**\n\n    - **The Stolen Jewel** – Each crew member must own **on…",
       "raw": {}
     },
     {
@@ -589,6 +1710,24 @@
         "Faction"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Captain Lysara Vale.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Captain Lysara Vale",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-03-18T19:51:40.614Z",
+        "creationDate": "2025-03-18 14:51",
+        "modificationDate": "2025-03-18 14:55",
+        "tags": [
+          "CouncilOfCaptains",
+          "Captain",
+          "NPC",
+          "Faction"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Captain Lysara Vale\n\n[couchwarrior_Dungeons_and_dragons_undead_female_orc_pirate_capt_2cb8d7ed-ac68-40c5-ab3b-826fd069b481](Images/couchwarrior_Dungeons_and_dragons_undead_female_orc_pirate_capt_2cb8d7ed-ac68-40.md)\n\n## **The Phantom of The Hollow Fangs**\n\n- **Ships:** 3 ghostly vessels, including *The Silken Noose*\n\n- **Crew:** **Silent, spectral, and possibly undead**\n\n- **Flag:** **Pale gray with no emblem, just tattered edges**\n\n- **Style:** **Fear, illusions, and supernatural terror**\n\n- **Reputation:** **Her fleet vanishes into the mist, appearing only to take lives**\n\n- **Specialties:** **Mist-travel, magic, and soul-stealing tactics**\n\n- **Notoriety:** **Some believe she was once hanged from the Red Chain Bridge… and lived**\n\n- **Customs & Norms:**\n\n    - **The Noose’s Whisper** …",
       "raw": {}
     },
     {
@@ -603,6 +1742,25 @@
         "Town"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Captain Tasty Bite.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Captain Tasty Bite",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-03-18T19:33:57.568Z",
+        "creationDate": "2025-03-18 14:33",
+        "modificationDate": "2025-03-18 14:56",
+        "tags": [
+          "NPC",
+          "Captain",
+          "CouncilOfCaptains",
+          "Faction",
+          "Town"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Captain Tasty Bite\n\n[IMG_2041](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/380d4e57-c920-4444-9063-00a2037e998b)\n\n## **The Smuggler-King of The Malign Crew**\n\n- **Ships:** 4 sleek corsairs, including *The Malign*\n\n- **Crew:** **Amphibious fighters, expert navigators, and spies**\n\n- **Flag:** **Dark blue with silver waves and a jagged shark bite**\n\n- **Style:** **Bribes over battles, ambushes over sieges**\n\n- **Reputation:** **No deal is ever truly fair—except to him**\n\n- **Specialties:** **Smuggling, espionage, under-the-table trading**\n\n- **Notoriety:** **Black Brine’s richest criminal outside the Council**\n\n- **Customs & Norms:**\n\n    - **The Shark’s Mark** – Every captain in his fleet wears a **necklace of shark teeth, each taken from a fallen rival**.\n\n    - **The …",
       "raw": {}
     },
     {
@@ -616,6 +1774,24 @@
         "Faction"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Captain Veyla Cold Tide Dren.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Captain Veyla \"Cold Tide\" Dren",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-03-18T19:35:24.339Z",
+        "creationDate": "2025-03-18 14:35",
+        "modificationDate": "2025-03-18 14:55",
+        "tags": [
+          "NPC",
+          "Captain",
+          "CouncilOfCaptains",
+          "Faction"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Captain Veyla \"Cold Tide\" Dren\n\n[couchwarrior_Dungeons_and_Dragons_female_human_pirate_captain_b_cebe0ee8-7c54-4487-ac59-b5e03d278c76](Images/couchwarrior_Dungeons_and_Dragons_female_human_pirate_captain_b_cebe0ee8-7c54-44.md)\n\n## **Mistress of The Widowmakers**\n\n- **Ships:** 6 deadly assassins' sloops, including *The Hollow Dagger*\n\n- **Crew:** **Silent killers, master tacticians, and bounty hunters**\n\n- **Flag:** **Black with a single silver dagger through a wave**\n\n- **Style:** **Stealth, ambush, and precise assassination**\n\n- **Reputation:** **No one survives a Widowmaker attack—except one, to spread the legend**\n\n- **Specialties:** **Night raids, poison, high-value assassinations**\n\n- **Notoriety:** **Her fleet has sunk more ships than any other, and no one knows where they strike f…",
       "raw": {}
     },
     {
@@ -628,6 +1804,23 @@
         "Rupert"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Chef Gellard The Slop Sage DuMarque.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Chef Gellard \"The Slop Sage\" DuMarque",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-03-18T19:26:33.294Z",
+        "creationDate": "2025-03-18 14:26",
+        "modificationDate": "2025-03-18 14:56",
+        "tags": [
+          "NPC",
+          "Faction",
+          "Rupert"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Chef Gellard \"The Slop Sage\" DuMarque\n\n[couchwarrior_Dungeons_and_Dragons_fantasy_portrait_broad-should_2f5f3e5b-a762-4185-b731-61d42a51b092](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/8934ba3b-66ef-4287-a047-1fd04d5a2f9f)\n\n- **Race**: Dwarf\n\n- **Age**: 130\n\n- **Appearance**: A **broad-shouldered dwarven woman** with **dark, curly hair pinned messily under a bandana**, a **weathered face**, and **ink-stained fingers** from writing down experimental recipes.\n\n- **Personality**:\n\n    - **Gruff, no-nonsense, and fiercely proud** of her craft.\n\n    - Hates **picky eaters, dietary restrictions, and anyone who messes with her kitchen** (including Rupert).\n\n    - **Curses in four languages** but has a heart of gold.\n\n    - Believes **a good meal can solve most problems**, an…",
       "raw": {}
     },
     {
@@ -640,10 +1833,27 @@
         "Faction"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Fenrith.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Fenrith",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-03-18T20:07:52.215Z",
+        "creationDate": "2025-03-18 15:07",
+        "modificationDate": "2025-03-18 15:12",
+        "tags": [
+          "NPC",
+          "Rupert",
+          "Faction"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Fenrith\n\n[[IMG_1584]]\n\n### **The Venom-Eyed Gunslinger**\n\n**Race:** Yuan-Ti Pureblood\n\n**Class:** Fighter (Gunslinger) / Rogue (Inquisitive)\n\n**Alignment:** Neutral Evil (But Pragmatic)\n\n**Age:** Unknown (Appears in his prime)\n\n**Languages:** Common, Draconic, Abyssal, Yuan-Ti Cant\n\n**Expertise:** Firearms, long-range combat, tracking, tactics, and assassination\n\n---\n\n### **Overview**\n\nFenrith is a name whispered **in fear and respect** across the lawless corners of Faerûn. A **gunfighter without equal**, he sees the world through the **cold calculation of a predator**, lining up every shot with the precision of a serpent striking its prey.\n\nThe PCs may seek him out **to learn the art of firearms**, but Fenrith does not **teach the weak**. He will train **only those he deems worthy**, an…",
       "raw": {}
     },
     {
-      "id": "bb:Page:lady-jackdaw-(rupert-s-butler)",
+      "id": "bb:Page:lady-jackdaw--rupert-s-butler",
       "type": "Page",
       "name": "Lady Jackdaw (Rupert_s Butler)",
       "tags": [
@@ -652,6 +1862,23 @@
         "Rupert"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Lady Jackdaw (Rupert_s Butler).md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Lady Jackdaw (Rupert's Butler)",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-03-18T19:22:24.209Z",
+        "creationDate": "2025-03-18 14:22",
+        "modificationDate": "2025-03-18 14:56",
+        "tags": [
+          "NPC",
+          "Faction",
+          "Rupert"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Lady Jackdaw (Rupert's Butler)\n\n[couchwarrior_A_diminutive_wiry_Kenku_with_sleek_black_feathers__5d66bfbc-c6d7-416b-a47c-96feb5c6b6dc](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/17107d7f-aae5-44f8-8183-6163828cec45)\n\n### **Lady Jackdaw – Rupert Richthorn’s Butler**\n\n**Race:** Kenku\n\n**Class:** Rogue (Mastermind) / Bard (College of Whispers)\n\n**Alignment:** Lawful Neutral\n\n**Age:** Unknown (Appears Middle-Aged)\n\n**Languages:** Common, Thieves' Cant, Auran, and an uncanny ability to mimic voices perfectly\n\n---\n\n### **Overview**\n\nLady Jackdaw is Rupert Richthorn’s personal butler, confidante, and, when necessary, shadowy enforcer. Unlike most Kenku, who scurry in the gutters of society, she carries herself with an air of poise and refinement, as if she were born to serve…",
       "raw": {}
     },
     {
@@ -667,6 +1894,80 @@
         "potion-maker"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Maelia Gorse.md",
+      "fm": {
+        "type": "npc",
+        "name": "Maelia Gorse",
+        "title": "Alchemist of the Red Door",
+        "location": "Red Door Alchemy, Salt Crown Shores",
+        "race": "Half-Elf",
+        "gender": "Female",
+        "age": "Appears early 40s (actual age unknown)",
+        "pronouns": "she/her",
+        "profession": "Alchemist, potion dealer, arcane biologist",
+        "affiliations": "Independent (rumored past ties to Sedna’s cult)",
+        "tags": [
+          "alchemy",
+          "arcane",
+          "salt crown",
+          "shopkeeper",
+          "reclusive",
+          "potion-maker"
+        ],
+        "appearance": {
+          "build": "Slender, wiry frame",
+          "hair": "Ash blonde streaked with white, usually tied back with twine",
+          "eyes": "Mismatched—one silver, one dark green",
+          "clothing": "Ink-stained robes layered with stitched pockets and leather apron",
+          "notable_features": [
+            "Fingers permanently stained with herbs and ink",
+            "Faint tattoos of alchemical symbols across her forearms",
+            "Always wears a pendant made of petrified coral and glass"
+          ]
+        },
+        "personality": {
+          "traits": [
+            "Sharp-tongued and coldly professional",
+            "Holds grudges with surgical precision",
+            "Respects intelligence, despises theatrics"
+          ],
+          "quirks": [
+            "Refuses to sell love potions to “emotional fools”",
+            "Talks to her potions as if they’re alive",
+            "Keeps a talking crow named Marrow who handles sarcasm for her"
+          ],
+          "ideals": "Knowledge over morality; Control over chaos",
+          "flaws": "Deep paranoia, avoids meaningful connections, haunted by past experiments"
+        },
+        "skills": [
+          "Expert in alchemy, arcane biology, and poisoncraft",
+          "Fluent in three dead languages",
+          "Has an uncanny sense for lies and magical disguises"
+        ],
+        "inventory": [
+          "Custom herbalist’s kit",
+          "Spellbook disguised as a shipping manifest",
+          "Several experimental potions of unknown effect",
+          "Small vial of blood labeled “In case of betrayal”"
+        ],
+        "backstory": "Maelia once served as an alchemical quartermaster for a splinter sect of Sedna’s cult, developing elixirs from sea-warped creatures and drowned offerings. After a falling out—or perhaps a betrayal—she fled the western shore and vanished into Salt Crown’s warrens. Her past is a sealed flask, but her knowledge of forbidden processes remains unmatched. She now sells her wares with cold detachment, refusing to discuss the sea, religion, or loyalty.",
+        "reputation": [
+          "Respected by pirates, feared by rivals",
+          "Whispers say she can “brew memories” or “unmake a soul”",
+          "Banned from three alchemist guilds on the mainland"
+        ],
+        "relationships": [
+          {
+            "Apprentice": "Brin, a mute human teenager skilled in bonework"
+          },
+          {
+            "Sinker": "Occasional trading partner"
+          },
+          {
+            "The Noose": "Avoids him at all costs"
+          }
+        ]
+      },
+      "body_excerpt": "",
       "raw": {
         "location": "Red Door Alchemy, Salt Crown Shores"
       }
@@ -677,6 +1978,8 @@
       "name": "Ritas Kess",
       "tags": [],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Ritas Kess.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -689,6 +1992,23 @@
         "Rupert"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Strange Bones.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Strange Bones",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-03-18T19:55:53.821Z",
+        "creationDate": "2025-03-18 14:55",
+        "modificationDate": "2025-03-18 15:06",
+        "tags": [
+          "NPC",
+          "Faction",
+          "Rupert"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Strange Bones\n\n[couchwarrior_Dungeons_and_dragons_middle_aged_male_goblin_range_e2c766b0-32bc-4ea9-a248-f9d2322f1f73](Images/couchwarrior_Dungeons_and_dragons_middle_aged_male_goblin_range_e2c766b0-32bc-4e.md)\n\n### **The Silent Jungle Stalker**\n\n**Race:** Goblin\n\n**Class:** Ranger (Gloom Stalker) / Druid (Circle of the Land – Jungle)\n\n**Alignment:** True Neutral\n\n**Age:** Unknown (appears ancient for a goblin, but still spry)\n\n**Languages:** Common, Goblin, Chultan, Druidic\n\n**Expertise:** Jungle survival, tracking, herbalism, poisons, monster avoidance\n\n---\n\n### **Overview**\n\nThere are only a **handful of souls** who have entered the **Western Jungles** and lived to tell of it. **Strange Bones** is one of them—if he ever **felt inclined to tell.**\n\nA **mysterious, soft-footed goblin**, …",
       "raw": {}
     },
     {
@@ -704,6 +2024,73 @@
         "secretive"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Vel Corven.md",
+      "fm": {
+        "type": "npc",
+        "name": "Vel Corven",
+        "aliases": [
+          "The Velvet Flame",
+          "The Masked Host",
+          "Whisper of Midnight"
+        ],
+        "race": "Elf (androgynous, possibly half-fey or changeling)",
+        "gender": "Unknown",
+        "age": "Appears ageless",
+        "occupation": "High Host of the Twilight Society",
+        "affiliation": "Twilight Society",
+        "location": "Salt Crown – Velvet Nest, Lending House of Black Brine",
+        "tags": [
+          "noble",
+          "cult leader",
+          "socialite",
+          "manipulator",
+          "feytouched",
+          "secretive"
+        ],
+        "appearance": "Vel is a vision of elegance and mystery. Slender and tall, they glide rather than walk, draped in flowing silks and adorned in moonstone jewelry. Their mask—different every night—hides all but their piercing eyes, which shimmer like still water under starlight. Their scent, a heady blend of rare spices and midnight blooms, clings to every room they leave.\n",
+        "personality": "Vel speaks in riddles and rhymes, weaving gossip with prophecy. They are seductively persuasive, rarely raise their voice, and command a room with poise alone. Devoted to beauty, sensation, and the subtle accumulation of power, Vel exudes patience, menace, and allure in equal measure. They reward loyalty with luxury—and betrayal with elegant ruin.\n",
+        "abilities": [
+          {
+            "Enchanting Presence": "Disadvantage on Insight checks to detect deception"
+          },
+          {
+            "Fey Charm (1/day)": "Can charm a humanoid with a whispered phrase and gaze"
+          },
+          {
+            "Mask of Many Faces": "Always appears calm, alluring, and unreadable"
+          },
+          {
+            "Whispers of the Velvet Nest": "Commands a network of spies, lovers, and blackmailers"
+          }
+        ],
+        "backstory": "No one knows where Vel came from. Some say they arrived from the feywild during a blood moon; others whisper they were once a noble cast out for scandal. What is known: they built the Twilight Society from whispered promises and forbidden pleasures, binding nobles and misfits alike in a web of secrets. They may serve Sharess—or something far older, far stranger.\n",
+        "motivations": [
+          "Preserve and expand the influence of the Twilight Society",
+          "Maintain the illusion of luxury, freedom, and control",
+          "Collect secrets as currency and leverage over Black Brine's elite",
+          "Undermine Rosy’s grip on public morality and control"
+        ],
+        "allies": [
+          "The Twilight Society inner circle",
+          "Certain members of the Lending House and City Hull",
+          "A masked fey emissary known only as \"The Lanternless\""
+        ],
+        "rivals": [
+          "Gun Deck Rosy",
+          "The Temple of the Chained God",
+          "Several captains on the Council who fear their influence"
+        ],
+        "secrets": [
+          "Vel has not aged in over a century",
+          "Their mask is enchanted to conceal their true form… which may not be entirely elven",
+          "Keeps a ledger of favors owed—sealed in silver ink and protected by geas"
+        ],
+        "hooks": [
+          "A stolen mask reveals Vel’s true origin… and a debt owed to something in the jungle",
+          "Vel offers the party a favor, but demands a secret in return",
+          "The Chained God’s priests are plotting Vel’s public ruin—unless they strike first"
+        ]
+      },
+      "body_excerpt": "",
       "raw": {
         "location": "Salt Crown – Velvet Nest, Lending House of Black Brine",
         "allies": [
@@ -728,6 +2115,23 @@
         "river"
       ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\Black Brine River.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Black Brine River",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-02-11T03:17:05.158Z",
+        "creationDate": "2025-02-10 21:17",
+        "modificationDate": "2025-08-21 15:35",
+        "tags": [
+          "Island",
+          "LandFeatures",
+          "river"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Black Brine River\n\n### **The Significance of the Brine Flow & the Black Flow freshwater Tributary**\n\nWhere Black meets Brine\n\nThe **meeting point** of the **Brine and the western jungle Black tributary** creates a **natural divide** not just in **salinity, but in culture, survival, and superstition**.\n\n---\n\n### **1. The Brackish Divide – A Natural Marker of Territory**\n\n- The **northern side** of the junction remains **salty**, blending with the Maelstrom’s pull.\n\n- The **southern side** is **freshwater-dominant**, feeding **life, settlements, and resources**.\n\n- This divide creates **a hidden border within Black Brine**, separating those who **fish the sea from those who rely on the land**.\n\n**Cultural Impact:**\n\n- **Sea-born pirates** consider the **saltier northern waters sacred**—a r…",
       "raw": {}
     },
     {
@@ -736,6 +2140,109 @@
       "name": "Black Brine",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\City of Black Brine.md",
+      "fm": {
+        "type": "city",
+        "name": "Black Brine",
+        "location": "Black Brine Island, ten miles south of the confluence of the Black and Brine Rivers",
+        "region": "The Shattered Coast",
+        "population": "~20,000 (varied, transient)",
+        "government": "The Captain’s Council, ruled in practice by Governor \"Gun Deck\" Rosy",
+        "factions": [
+          {
+            "name": "The Captain’s Council",
+            "description": "Pirate lords and faction leaders who oversee city-wide governance and naval strategy"
+          },
+          {
+            "name": "Sedna’s Cult",
+            "description": "Religious faction worshipping the goddess of the deep; enforces law through fear and sacrifice"
+          },
+          {
+            "name": "Independent Pirate Fleets",
+            "description": "Semi-loyal pirate crews with their own agendas and territories, some members of the Council"
+          },
+          {
+            "name": "The Butchers",
+            "description": "Brutal crime syndicate led by the Noose, controlling extortion, secrets, and smuggling in Salt Crown"
+          }
+        ],
+        "districts": [
+          {
+            "name": "Salt Crown",
+            "type": "mercantile",
+            "description": "Center of trade, craft, and power; elegant and dangerous; nobles and criminals rub elbows"
+          },
+          {
+            "name": "Mistwalk",
+            "type": "civic/religious",
+            "description": "Political and spiritual core; houses City Hull, Gallows Market, and the Temple of the Chained God"
+          },
+          {
+            "name": "KeelHauls",
+            "type": "industrial/port",
+            "description": "Ratty, loud, and reeking of brine; ship berths, warehouses, and primary import hub"
+          },
+          {
+            "name": "Little Sedna",
+            "type": "residential/religious",
+            "description": "Quiet lower-class district built into ancient stone ruins; home to the Temple of Sedna"
+          },
+          {
+            "name": "Salt Crown Shores",
+            "type": "mixed",
+            "description": "Dockside trade area at river’s edge; jungle nearby; home to Sinker’s Curiosities and the Charter House"
+          }
+        ],
+        "landmarks": [
+          {
+            "name": "City Hull",
+            "type": "governmental",
+            "description": "A grounded war galleon turned fortress, serving as seat of power for the Captain’s Council"
+          },
+          {
+            "name": "Red Chain Bridge",
+            "type": "geographic",
+            "description": "Massive stone bridge spanning the Black Brine River, scarred and haunted by legend"
+          },
+          {
+            "name": "Temple of Sedna",
+            "type": "religious",
+            "description": "A tidal cave temple dedicated to the deep goddess; its chambers flood with the tide"
+          },
+          {
+            "name": "Temple of the Chained God",
+            "type": "religious",
+            "description": "Mainland church presence in Gallows Market; feeds veterans, secretly indoctrinates"
+          },
+          {
+            "name": "The Broadside Inn",
+            "type": "tavern/bathhouse",
+            "description": "Converted riverside temple, now a drinking den with geothermal pools and secrets"
+          }
+        ],
+        "notable_features": [
+          {
+            "Black Brine River": "Formed from the confluence of the Black River and Brine River; runs through city"
+          },
+          {
+            "Perpetual Mist": "Envelops the coastline; natural defense and superstition-enshrouded mystery"
+          },
+          {
+            "Pirate Fleets": "Each fleet holds influence; some sit on the council, others challenge it from shadows"
+          },
+          {
+            "Challenge Coins": "Magical tokens needed to navigate through the mist and deadly reefs surrounding the island"
+          }
+        ],
+        "tone": "Dark, nautical, grimy, arcane",
+        "themes": "Power at a price, old gods, shifting loyalties, nautical horror, post-war survival",
+        "hooks": [
+          "The Nameless Watcher stands on the Red Chain Bridge at night. No one knows why. Or what it wants.",
+          "Rumors of a vault beneath City Hull, sealed since the last island war.",
+          "Sedna stirs beneath the temple. The tides are rising.",
+          "A missing Challenge Coin threatens to throw fleet alliances into chaos."
+        ]
+      },
+      "body_excerpt": "",
       "raw": {
         "location": "Black Brine Island, ten miles south of the confluence of the Black and Brine Rivers",
         "factions": [
@@ -764,6 +2271,8 @@
       "name": "District of Blackmire",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\District of Blackmire.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -772,6 +2281,8 @@
       "name": "District of Crosswater",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\District of Crosswater.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -780,6 +2291,8 @@
       "name": "District of Keelhauls",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\District of Keelhauls.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -788,6 +2301,8 @@
       "name": "District of Little Sedna",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\District of Little Sedna.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -796,6 +2311,8 @@
       "name": "District of Mistwalk",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\District of Mistwalk.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -804,6 +2321,8 @@
       "name": "District of Salt Crown",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\District of Salt Crown.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -816,6 +2335,23 @@
         "Districts"
       ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\Geography of Black Brine.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Geography of Black Brine",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-02-11T03:35:12.909Z",
+        "creationDate": "2025-02-10 21:35",
+        "modificationDate": "2025-02-10 22:14",
+        "tags": [
+          "Town",
+          "location",
+          "Districts"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Geography of Black Brine\n\n### **Black Brine – City Geography & Key Locations**\n\nBlack Brine is a **sprawling pirate stronghold** built along the **river delta** on the **island of Sedna**, hidden by **ever-present mist** and **treacherous reefs**. The city is a mix of **rickety docks, repurposed ship hulls, stone ruins, and pirate estates**, all built into the **rugged, jungle-choked coastline**.\n\n#### **City Layout**\n\n- **The Dagger Docks** – The **primary port**, a maze of **haphazard piers, gangplanks, and ship hulls** repurposed into taverns, smuggler dens, and storehouses.\n\n- **The Keelhauls** – A rough slum where **pirates without a crew** or **disgraced captains** scrape by. Home to **cutthroats, informants, and desperate souls**.\n\n- **The Salt Crown** – The wealthiest part of Bla…",
       "raw": {}
     },
     {
@@ -828,6 +2364,23 @@
         "laws"
       ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\Government.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Government",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-02-11T03:47:15.879Z",
+        "creationDate": "2025-02-10 21:47",
+        "modificationDate": "2025-02-10 21:50",
+        "tags": [
+          "Town",
+          "Rosy",
+          "laws"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Government\n\n### **The Council of Captains**\n\n- The **eight most powerful and prosperous captains** make up the ruling body.\n\n- Likely each has their own fleet, resources, and strongholds within or beyond Black Brine.\n\n- They govern by a mix of tradition, strength, and negotiation, with alliances shifting frequently.\n\n### **Governor \"Gun Deck\" Rosy**\n\n- A **female tiefling**, suggesting she may have an infernal heritage that adds to her mystique.\n\n- Her nickname **\"Gun Deck\"** implies expertise in naval warfare, possibly a pioneer in gunpowder tactics.\n\n- As an elected leader, she must balance the **volatile ambitions** of the captains while maintaining Black Brine’s prosperity.",
       "raw": {}
     },
     {
@@ -839,6 +2392,25 @@
         "laws"
       ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\The Code of Black Brine.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "The Code of Black Brine",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-02-11T03:12:34.675Z",
+        "creationDate": "2025-02-10 21:12",
+        "modificationDate": "2025-02-10 21:22",
+        "tags": [
+          "Town",
+          "laws"
+        ],
+        "coverImage": null,
+        "controls": [
+          "bb:city:city-of-black-brine"
+        ]
+      },
+      "body_excerpt": "# The Code of Black Brine\n\n**The Code of Black Brine**\n\nBlack Brine is a pirate stronghold, but **even pirates need rules**—not for justice, but for **survival**. The **Council of Captains** enforces a **simple but brutal code**, ensuring order in a city filled with cutthroats, thieves, and fugitives.\n\n---\n\n### **The Five Laws of Black Brine**\n\n1. **The Island Stays Secret**\n\n    - No one speaks of **Sedna’s waters, Black Brine’s location, or the ways to find it**—not in port, not in letters, not even in drunken whispers.\n\n    - Those who **break this silence** are labeled **Breachers**—and **no Breacher leaves the island alive**.\n\n2. **The Right to Keep What You Take**\n\n    - **Theft is legal—until the owner catches you.** If you steal, be ready to **fight for it**.\n\n    - If **you are ca…",
       "raw": {
         "controls": [
           "bb:city:city-of-black-brine"
@@ -851,6 +2423,8 @@
       "name": "Bleached Bones Beach",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Bleached Bones Beach.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -865,6 +2439,25 @@
         "CouncilOfCaptains"
       ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Captain_s Club.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Captain's Club",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-02-11T03:34:37.110Z",
+        "creationDate": "2025-02-10 21:34",
+        "modificationDate": "2025-03-18 14:41",
+        "tags": [
+          "Town",
+          "location",
+          "NPC",
+          "tavern",
+          "CouncilOfCaptains"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Captain's Club\n\n### **The Captain’s Club – Black Brine’s Most Exclusive Tavern**\n\n- A **private and exclusive tavern**, built inside the **hull of an old warship**, reserved **only for ship captains (current and former)**.\n\n- Located **off the main docks**, it serves as **a meeting place for Black Brine’s elite pirates, mercenary leaders, and smugglers**.\n\n- The atmosphere is **dimly lit and thick with pipe smoke**, with **fine but stolen furnishings, barrels of rare rum, and high-stakes gambling tables**.\n\n- **Tavern staff are sworn to secrecy**, and **betraying the confidence of another captain within these walls is considered a death sentence**.\n\n- The **back rooms** are often used for **private negotiations, alliances, and covert deals**.\n\n- While it is a place of prestige, it is **n…",
       "raw": {}
     },
     {
@@ -873,6 +2466,8 @@
       "name": "Chase Gun Condos",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Chase Gun Condos.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -881,6 +2476,8 @@
       "name": "City Hull",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\City Hull.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -889,6 +2486,8 @@
       "name": "Cuttys Blades",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Cuttys Blades.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -897,6 +2496,8 @@
       "name": "Drowned Market",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Drowned Market.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -905,6 +2506,8 @@
       "name": "Drunken Satyr",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Drunken Satyr.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -913,6 +2516,8 @@
       "name": "Dry Docks",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Dry Docks.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -921,6 +2526,8 @@
       "name": "Gallows Market",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Gallows Market.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -929,6 +2536,8 @@
       "name": "Gentle Rest Inn",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Gentle Rest Inn.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -937,6 +2546,8 @@
       "name": "House of Questions",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\House of Questions.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -945,6 +2556,10 @@
       "name": "Lending House",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Lending House.md",
+      "fm": {
+        "parent_location": "bb:city:city-of-black-brine"
+      },
+      "body_excerpt": "---\ntype: location\nname: Lending House of Black Brine\nlocation_type: financial institution\ndistrict: Salt Crown\nparent_location: Black Brine\nmaps_available: true\nmap_files: [SaltCrown-Day.jpg]\ntags: [bank, politics, twilight society, wealth, intrigue]\n\noverview: >\n  The Lending House of Black Brine is the beating heart of the city’s wealth, where fortunes are made, ruined, and whispered into shadow. Towering and ivy-draped, its fortress-like stone walls house vaults deeper than most cellars dare to dig, and its interest rates are whispered with more fear than most curses.\n\nappearance: >\n  The building looms over Salt Crown like a silent warden of gold. Its architecture is high-walled and austere—gilded ironwork over glass, rust-red ivy crawling up polished limestone, and gargoyle spouts sh…",
       "raw": {
         "parent_location": "bb:city:city-of-black-brine"
       }
@@ -955,6 +2570,8 @@
       "name": "Old Salt Eatery",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Old Salt Eatery.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -963,6 +2580,8 @@
       "name": "Powder_Keg_Tavern",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Powder_Keg_Tavern.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -975,6 +2594,23 @@
         "location"
       ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Red Chain Bridge.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Red Chain Bridge",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-02-11T03:27:17.951Z",
+        "creationDate": "2025-02-10 21:27",
+        "modificationDate": "2025-02-10 21:30",
+        "tags": [
+          "Town",
+          "legends",
+          "location"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Red Chain Bridge\n\n### **The Nameless Watcher – The Phantom of the Red Chain Bridge**\n\nA **silent, hooded figure** is sometimes **seen standing motionless** on the Red Chain Bridge, usually on **fog-drenched nights or during storms**. No one knows **who or what it is**, but everyone agrees on a few chilling details:\n\n- The Watcher **never moves, never speaks**, and never reacts to anyone who passes.\n\n- It always stands **facing the west side of Black Brine**, as if **watching for something beyond the Daggerflow**.\n\n- Those who **attempt to approach it** report feeling **a deep, paralyzing dread**, as if **they are being watched by something far worse**.\n\n- Some sailors claim that **if you see the Watcher, you should never set sail the next morning**—or **you will not return**.\n\n---\n\n### *…",
       "raw": {}
     },
     {
@@ -983,6 +2619,8 @@
       "name": "Red Door Alchemy",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Red Door Alchemy.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -991,6 +2629,8 @@
       "name": "Ritas Smithy",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Ritas Smithy.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -999,6 +2639,8 @@
       "name": "Ruperts Rest",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Ruperts Rest.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -1012,6 +2654,24 @@
         "NPC"
       ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Sinker_s Curiosity Shop.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Sinker's Curiosity Shop",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-02-11T03:33:29.155Z",
+        "creationDate": "2025-02-10 21:33",
+        "modificationDate": "2025-02-10 22:36",
+        "tags": [
+          "Town",
+          "location",
+          "Shop",
+          "NPC"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Sinker's Curiosity Shop\n\n### **Sinker’s Curiosity Shop – Black Brine’s Most Unusual Emporium**\n\nA **floating shop built inside the gutted hull of an old ship**, **half-sunken in the shallows** of Black Brine’s harbor. The crooked masts serve as **hanging racks for strange trinkets**, and the entire structure is kept afloat by **patched-together pontoons, barnacle-crusted beams, and a web of rope bridges**. It looks **like it should have collapsed into the sea long ago**, but somehow, it remains standing.\n\nInside, the shop is a **maze of stacked crates, dusty shelves, and hanging charms**—a **chaotic but mesmerizing** collection of **rare artifacts, cursed trinkets, and forgotten relics**. Dim lanterns cast eerie **green and blue light**, revealing **bizarre curios from across Faerûn and …",
       "raw": {}
     },
     {
@@ -1020,6 +2680,10 @@
       "name": "Soggy Town Play House",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Soggy Town Play House.md",
+      "fm": {
+        "parent_location": "bb:city:city-of-black-brine"
+      },
+      "body_excerpt": "---\ntype: location\nname: Soggy Town Playhouse\nlocation_type: theater\ndistrict: Crosswater\nparent_location: Black Brine\nmaps_available: false\nmap_files: []\ntags: [entertainment, theater, crosswater, arts, eccentric]\n\noverview: >\n  The Soggy Town Playhouse is a half-sunken old frigate dragged ashore and reborn as Black Brine’s most raucous and beloved stage. Its boards creak with drama, comedy, and scandal in equal measure.\n\nappearance: >\n  The ship’s hull leans slightly, propped by scaffolding and optimism. Plankwalks lead into candlelit corridors strung with costumes, driftwood masks, and faded playbills. The stage is where the gun deck once was—still bearing scorched boards from its former life.\n\nrole_in_society: >\n  Part community refuge, part cultural lighthouse, the Playhouse draws sai…",
       "raw": {
         "parent_location": "bb:city:city-of-black-brine"
       }
@@ -1030,6 +2694,8 @@
       "name": "String and Powder",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\String and Powder.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -1038,6 +2704,8 @@
       "name": "Temple of the Chained God",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Temple of the Chained God.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -1046,6 +2714,10 @@
       "name": "The Golden Gull",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\The Golden Gull.md",
+      "fm": {
+        "parent_location": "bb:city:city-of-black-brine"
+      },
+      "body_excerpt": "---\ntype: location\nname: The Golden Gull\nlocation_type: tavern\ndistrict: Crosswater\nparent_location: Black Brine\nmaps_available: false\nmap_files: []\ntags: [tavern, upscale, music, intrigue, crosswater, social hub]\n\noverview: >\n  The Golden Gull is an upscale tavern nestled between warehouses and sea-captain estates in the Crosswater District. Known for its fine drink, softer lighting, and whispered dealings, it serves merchants, smugglers, and off-duty fleet officers looking for luxury without judgment.\n\nappearance: >\n  Lanterns hang from curved brass arms, casting golden pools of light across polished wood and sea-glass windows. A mounted gull in mid-flight—wings spread and dipped in gold leaf—hangs from the ceiling. Sea breezes curl through tall shuttered windows.\n\nrole_in_society: >\n  T…",
       "raw": {
         "parent_location": "bb:city:city-of-black-brine"
       }
@@ -1056,6 +2728,8 @@
       "name": "Wet Bar",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Wet Bar.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -1070,6 +2744,25 @@
         "Ship"
       ],
       "source": "RPG_Knowledge_Base\\01_World_Lore\\History\\Djinn.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Djinn",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-02-11T03:50:31.304Z",
+        "creationDate": "2025-02-10 21:50",
+        "modificationDate": "2025-05-07 21:08",
+        "tags": [
+          "legends",
+          "Hooks",
+          "Djinn",
+          "RogueWave",
+          "Ship"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Djinn\n\n[image](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/50571822-c841-4cd5-9f42-23cbb376599d)\n\n### **Hints & Early Interactions**\n\n[image](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/2c83c11a-401f-4b70-bb82-7564791471ad)\n\nCalzuran \n\n- **Whispers on the Wind**: When the ship **changes direction sharply** or moves **unnaturally fast**, they might hear **faint, echoing whispers** from the shrine, as if something is **straining against invisible bonds**.\n\n- **Touching the Shrine**: If a player touches it, they might **feel static electricity** on their fingertips, hear **a voice in an unknown tongue**, or **see brief flashes of a swirling storm** in their mind’s eye.\n\n- **Sensing Power**: A detect magic spell could reveal **concentrated air and bindin…",
       "raw": {}
     },
     {
@@ -1082,6 +2775,23 @@
         "RogueWave"
       ],
       "source": "RPG_Knowledge_Base\\01_World_Lore\\History\\Rogue Wave.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Rogue Wave",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-02-11T03:59:02.063Z",
+        "creationDate": "2025-02-10 21:59",
+        "modificationDate": "2025-02-10 22:02",
+        "tags": [
+          "legends",
+          "Ship",
+          "RogueWave"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Rogue Wave\n\n**The Legend of the Ship**\n\n- Known throughout **Black Brine’s pirate history**, it is whispered that every **few centuries**, the ship **emerges from the mist**, seeking a new crew.\n\n- Those who sail it are **destined for legendary deeds**, their names woven into the **dark and glorious history of the seas**.\n\n- After their time is done, the ship **disappears once more**, vanishing into **fog, the depths, or perhaps another plane altogether**.\n\n- No one knows where it **goes between its appearances**, though some say it **returns to Sedna’s embrace** or **wanders the Elemental Plane of Air**, waiting for the right moment to return.\n\n- **Those who have tried to take it by force have failed**—the ship **will not be claimed**, only **accepted**.\n\n### **Reactions to the Ship's R…",
       "raw": {}
     },
     {
@@ -1096,6 +2806,25 @@
         "quest"
       ],
       "source": "RPG_Knowledge_Base\\01_World_Lore\\History\\Tavern Rivalry.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Tavern Rivalry",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-02-11T03:30:28.960Z",
+        "creationDate": "2025-02-10 21:30",
+        "modificationDate": "2025-02-10 21:33",
+        "tags": [
+          "Town",
+          "NPC",
+          "location",
+          "Hooks",
+          "quest"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Tavern Rivalry\n\n### **The Powder Keg vs. The Golden Gull**\n\nWhile **both taverns serve Black Brine’s rough and ruthless clientele**, they cater to **very different crowds**—and the rivalry between them is **as explosive as a Powder Keg barrel lit with a Golden Gull cigar**.\n\nThe feud isn’t just about **class—it’s about power**. Each tavern serves as **a hub for different factions**, and tensions have been **boiling for years**.\n\n---\n\n### **The Core Rivalry: Money vs. Might**\n\n- The **Golden Gull** represents **wealth, influence, and cunning politics**—it’s where **deals are made, alliances are forged, and assassins are hired**.\n\n- The **Powder Keg** represents **raw strength, survival, and chaos**—it’s where **mercenaries, gunslingers, and pirates prove their worth through fists and fire…",
       "raw": {}
     },
     {
@@ -1108,6 +2837,23 @@
         "sea"
       ],
       "source": "RPG_Knowledge_Base\\01_World_Lore\\Religions\\Goddess Sedna.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Goddess Sedna",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-02-11T04:22:35.812Z",
+        "creationDate": "2025-02-10 22:22",
+        "modificationDate": "2025-03-18 14:47",
+        "tags": [
+          "Island",
+          "legends",
+          "sea"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Goddess Sedna\n\n[[image]]\n\nA crazed goddess of witchcraft and the dark depths. She appears as a sea hag, with fingers that end in ragged stumps. Sedna shares a domain with Prince Sashelas, and is occasionally allied with him. Sedna was once a beautiful goddess of druids who walked along the land. Her father, the wild god Malar, desired a pact with the Dark Lords of the Depths, and promised Sedna’s hand to the the Void of the Sea. When Sedna clung to his canoe to save herself from the depths, Malar bit off her fingers. In the dark depths, Sedna became the unwilling Bride of the Void, and learned many dark rituals that cannot be spoken in the light of day. Using these dark rituals, Sedna betrayed her husband, and sealed his monstrous body within his palace, behind a barrier of blood magic. …",
       "raw": {}
     },
     {
@@ -1118,6 +2864,21 @@
         "legends"
       ],
       "source": "RPG_Knowledge_Base\\01_World_Lore\\Religions\\Sedna Lore Poem.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Sedna Lore Poem",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-08-22T04:23:29.959Z",
+        "creationDate": "2025-08-21 23:23",
+        "modificationDate": "2025-08-21 23:29",
+        "tags": [
+          "legends"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Sedna Lore Poem\n\n**\n\nIn the days when breath walked freely and the tides bowed to song, there came a voice not born of brine.\n\nShe rode upon winds unchained, with a laugh that bent the trees and eyes that stole worship from stone.\n\nThe people, once bent to the One Beneath, turned their faces skyward.\n\nThe drowning songs ceased. The deep altars lay dry. The temples opened to air, and incense climbed where blood once fell.\n\nThey called her the Shaper of the High Current,\n\nThe Sky-Blessed Flame,\n\nThe One Who Sings Without Chains.\n\nBut the Deep Mother does not forget. The Taker of Breath, She Who Waits Below—\n\nShe stirred in the silence left behind.\n\nIn a single tide without wave, the silence took shape. The sky was split. The earth wept salt.\n\nHer vengeance fell not in rage, but in erasure.…",
       "raw": {}
     },
     {
@@ -1126,6 +2887,8 @@
       "name": "Temple of Sedna",
       "tags": [],
       "source": "RPG_Knowledge_Base\\01_World_Lore\\Religions\\Temple of Sedna.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     }
   ],
@@ -1146,5 +2909,9 @@
       "target": "bb:city:city-of-black-brine"
     }
   ],
-  "unresolved": []
+  "unresolved": [],
+  "stats": {
+    "nodes": 96,
+    "edges": 3
+  }
 }
