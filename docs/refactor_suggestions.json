@@ -9,7 +9,7 @@
     {
       "path": "RPG_Knowledge_Base\\09_Player_Characters\\Andromida.md",
       "field": "location",
-      "value": "Pending legal proceedings in Black Brine (likely Mistwalk or Salt Crown)",
+      "value": "Mainland, city of Mezzro",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -25,12 +25,21 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Jungle Survival Training Mechanics.md",
+      "field": "controls",
+      "value": "bb:location:ruperts-rest",
+      "resolved_id": "bb:location:ruperts-rest",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\04_Factions\\Criminal\\The Twilight Society.md",
       "field": "location",
-      "value": "Salt Crown – Velvet Nest (rooftop garden of the Lending House of Black Brine)",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "value": "bb:location:lending-house",
+      "resolved_id": "bb:location:lending-house",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -99,19 +108,19 @@
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Vel Corven.md",
       "field": "rivals",
-      "value": "The Temple of the Chained God",
-      "resolved_id": "bb:location:temple-of-the-chained-god",
-      "method": "fuzzy",
-      "score": 0.926,
+      "value": "Several captains on the Council who fear their influence",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Vel Corven.md",
       "field": "rivals",
-      "value": "Several captains on the Council who fear their influence",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "value": "bb:location:temple-of-the-chained-god",
+      "resolved_id": "bb:location:temple-of-the-chained-god",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {

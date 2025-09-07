@@ -82,7 +82,7 @@
         "alignment": "Chaotic Neutral",
         "pronouns": "she/her",
         "status": "Former crew member, suing the crew for back wages",
-        "location": "Pending legal proceedings in Black Brine (likely Mistwalk or Salt Crown)",
+        "location": "Mainland, city of Mezzro",
         "tags": [
           "druid",
           "former-ally",
@@ -163,7 +163,7 @@
       },
       "body_excerpt": "",
       "raw": {
-        "location": "Pending legal proceedings in Black Brine (likely Mistwalk or Salt Crown)"
+        "location": "Mainland, city of Mezzro"
       }
     },
     {
@@ -948,13 +948,15 @@
         ],
         "coverImage": null,
         "controls": [
-          "bb:Page:strange-bones"
+          "bb:Page:strange-bones",
+          "bb:location:ruperts-rest"
         ]
       },
       "body_excerpt": "# Jungle Survival Training Mechanics\n\n### **Strange Bones’ Survival Training: \"The Jungle Does Not Care About You\"**\n\nBefore he lets the party step foot in the **forbidden western jungle**, Strange Bones **drills them in the only things that will keep them alive**. His methods are brutal, unpredictable, and **designed to break their bad habits** before the jungle does.\n\n**\"You wanna live? You gotta be quieter than the moss. Smarter than the snakes. You mess up in here? The jungle don’t kill you quick—it eats you slow.\"**\n\n---\n\n## **Phase 1: The Silence Test (Stealth & Alert Level Training)**\n\n**Goal:** The party must navigate a **controlled jungle course** without **raising the alert level past 2**.\n\n### **The Challenge**\n\n- Strange Bones has **set up tripwires of woven vines, hanging bone…",
       "raw": {
         "controls": [
-          "bb:Page:strange-bones"
+          "bb:Page:strange-bones",
+          "bb:location:ruperts-rest"
         ]
       }
     },
@@ -1213,7 +1215,7 @@
       "fm": {
         "type": "organization",
         "name": "Twilight Society",
-        "location": "Salt Crown – Velvet Nest (rooftop garden of the Lending House of Black Brine)",
+        "location": "bb:location:lending-house",
         "tags": [
           "faction",
           "nobility",
@@ -1263,7 +1265,7 @@
       },
       "body_excerpt": "",
       "raw": {
-        "location": "Salt Crown – Velvet Nest (rooftop garden of the Lending House of Black Brine)"
+        "location": "bb:location:lending-house"
       }
     },
     {
