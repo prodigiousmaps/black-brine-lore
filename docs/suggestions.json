@@ -1,12 +1,6 @@
 {
-  "patches": [
-    "patches\\jungle-survival-training-mechanics.yml",
-    "patches\\the-code-of-black-brine.yml",
-    "patches\\lending-house.yml",
-    "patches\\soggy-town-play-house.yml",
-    "patches\\the-golden-gull.yml"
-  ],
-  "count": 30,
+  "patches": [],
+  "count": 32,
   "suggestions": [
     {
       "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\01_World_Lore\\Rupert_s Welcome Speech.md",
@@ -55,6 +49,16 @@
       "value": "Fenrith",
       "resolved_id": "bb:Page:fenrith",
       "method": "phrase+alias",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Jungle Survival Training Mechanics.md",
+      "kind": "relation",
+      "field": "controls",
+      "value": "bb:Page:strange-bones",
+      "resolved_id": "bb:Page:strange-bones",
+      "method": "id",
       "score": 1.0,
       "note": ""
     },
@@ -242,6 +246,16 @@
       "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\02_Locations\\Cities\\The Code of Black Brine.md",
       "kind": "relation",
       "field": "controls",
+      "value": "bb:city:city-of-black-brine",
+      "resolved_id": "bb:city:city-of-black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\02_Locations\\Cities\\The Code of Black Brine.md",
+      "kind": "relation",
+      "field": "controls",
       "value": "Black Brine",
       "resolved_id": "bb:city:city-of-black-brine",
       "method": "phrase+alias",
@@ -252,9 +266,9 @@
       "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Lending House.md",
       "kind": "relation",
       "field": "located_in",
-      "value": "Black Brine",
+      "value": "bb:city:city-of-black-brine",
       "resolved_id": "bb:city:city-of-black-brine",
-      "method": "alias",
+      "method": "id",
       "score": 1.0,
       "note": ""
     },
@@ -262,9 +276,9 @@
       "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Soggy Town Play House.md",
       "kind": "relation",
       "field": "located_in",
-      "value": "Black Brine",
+      "value": "bb:city:city-of-black-brine",
       "resolved_id": "bb:city:city-of-black-brine",
-      "method": "alias",
+      "method": "id",
       "score": 1.0,
       "note": ""
     },
@@ -272,9 +286,9 @@
       "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\The Golden Gull.md",
       "kind": "relation",
       "field": "located_in",
-      "value": "Black Brine",
+      "value": "bb:city:city-of-black-brine",
       "resolved_id": "bb:city:city-of-black-brine",
-      "method": "alias",
+      "method": "id",
       "score": 1.0,
       "note": ""
     },
