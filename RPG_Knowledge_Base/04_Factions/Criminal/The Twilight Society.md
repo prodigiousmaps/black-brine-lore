@@ -1,7 +1,7 @@
 ---
 type: organization
 name: Twilight Society
-location: Salt Crown – Velvet Nest (rooftop garden of the Lending House of Black Brine)
+location: bb:location:lending-house
 tags: [faction, nobility, cult, debauchery, politics, seduction, secrets]
 
 overview: >

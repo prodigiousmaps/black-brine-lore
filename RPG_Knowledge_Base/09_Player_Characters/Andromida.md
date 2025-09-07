@@ -8,7 +8,7 @@ background: Noble Outcast
 alignment: Chaotic Neutral
 pronouns: she/her
 status: Former crew member, suing the crew for back wages
-location: Pending legal proceedings in Black Brine (likely Mistwalk or Salt Crown)
+location: Mainland, city of Mezzro
 tags: [druid, former-ally, litigation, estranged, noble, aberration-hunter]
 
 appearance:

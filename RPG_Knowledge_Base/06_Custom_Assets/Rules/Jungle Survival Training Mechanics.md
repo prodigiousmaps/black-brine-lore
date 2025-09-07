@@ -13,6 +13,7 @@ tags:
 coverImage: null
 controls:
 - bb:Page:strange-bones
+- bb:location:ruperts-rest
 ---
 # Jungle Survival Training Mechanics
 
