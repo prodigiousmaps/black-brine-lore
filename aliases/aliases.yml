@@ -1,0 +1,7 @@
+aliases:
+  # Format: "Name used in files": canonical-id
+  "Salt Crown": bb:district:salt-crown
+  "Lending House of Black Brine": bb:org:lending-house
+  "Twilight Society": bb:faction:twilight-society
+  "Council of Free Captains": bb:faction:council-free-captains
+  "Inquisitor Zunizar": bb:npc:inquisitor-zunizar
