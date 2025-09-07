@@ -1,7 +1,7 @@
-path: C:\Users\FiveA\OneDrive\Documents\GitHub\black-brine-lore\RPG_Knowledge_Base\03_NPCs\Supporting
-  Cast\Vel Corven.md
+path: C:\Users\FiveA\OneDrive\Documents\GitHub\black-brine-lore\RPG_Knowledge_Base\03_NPCs\Antagonists\Vel
+  Corven.md
 set:
   rivals:
-  - Gun Deck Rosy
   - Several captains on the Council who fear their influence
+  - bb:Page:captain-gun-deck-rosy
   - bb:location:temple-of-the-chained-god

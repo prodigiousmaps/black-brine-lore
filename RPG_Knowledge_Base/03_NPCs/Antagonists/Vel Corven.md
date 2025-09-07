@@ -54,8 +54,8 @@ allies:
 - Certain members of the Lending House and City Hull
 - A masked fey emissary known only as "The Lanternless"
 rivals:
-- Captain Gun Deck Rosy
 - Several captains on the Council who fear their influence
+- bb:Page:captain-gun-deck-rosy
 - bb:location:temple-of-the-chained-god
 secrets:
 - Vel has not aged in over a century
