@@ -1,0 +1,59 @@
+name: Enrich Lore
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "22 3 * * *"   # daily 03:22 UTC
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pyyaml rapidfuzz
+          # spaCy is optional; uncomment to enable
+          # python -m pip install spacy && python -m spacy download en_core_web_sm
+
+      - name: Run indexer (ensure docs/graph.json exists)
+        run: |
+          python indexer.py || true
+
+      - name: Run enricher (create suggestions, report, patches)
+        run: |
+          python enricher.py
+
+      - name: Apply safe patches
+        run: |
+          python apply_patches.py
+
+      - name: Rebuild graph after patches
+        run: |
+          python indexer.py || true
+
+      - name: Create PR with changes
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: chore/enrich-links
+          title: "Lore enrichment suggestions & canonicalization"
+          body: |
+            This automated PR includes:
+            - Canonicalized IDs in location/faction fields (aliases → ids)
+            - docs/suggestions.json with all proposed relations
+            - docs/report.html for human review (open in GitHub Pages)
+          commit-message: "Apply safe enrichment patches; update docs/report.html & docs/graph.json"
+          add-paths: |
+            RPG_Knowledge_Base/**
+            patches/**
+            docs/**

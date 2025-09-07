@@ -1,4 +1,7 @@
 ---
+parent_location: bb:city:city-of-black-brine
+---
+---
 type: location
 name: Lending House of Black Brine
 location_type: financial institution

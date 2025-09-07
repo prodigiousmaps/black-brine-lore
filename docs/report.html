@@ -1,0 +1,20 @@
+<!doctype html><meta charset="utf-8"><title>Enrichment Report</title>
+<style>body{font:14px/1.5 system-ui,sans-serif;background:#0a0a0b;color:#e8e8ea;margin:18px}
+h1{font-size:22px;margin:0 0 8px} table{width:100%;border-collapse:collapse}
+td,th{border-bottom:1px solid #2a2d36;padding:6px 8px;text-align:left;font-size:13px}
+.small{opacity:.8} code{background:#111215;padding:1px 4px;border-radius:4px}</style>
+<h1>Enrichment Suggestions</h1>
+<div class="small">participants→appears_in • leaders→leads • controls→controls now supported.</div>
+<table><thead><tr><th>File</th><th>Kind</th><th>Field</th><th>Value</th><th>Resolved</th><th>Method</th><th>Score</th></tr></thead><tbody id="tb"></tbody></table>
+<script>
+fetch('suggestions.json').then(r=>r.json()).then(d=>{
+  const tb=document.getElementById('tb');
+  d.suggestions.forEach(s=>{
+    const tr=document.createElement('tr');
+    tr.innerHTML=`<td>${s.path.replace(/^.*RPG_Knowledge_Base\//,'')}</td>
+      <td>${s.kind}</td><td>${s.field}</td><td><code>${(s.value||'').toString().replace(/</g,'&lt;')}</code></td>
+      <td>${s.resolved_id||'—'}</td><td>${s.method}</td><td>${(s.score||0).toFixed(2)}</td>`;
+    tb.appendChild(tr);
+  });
+});
+</script>

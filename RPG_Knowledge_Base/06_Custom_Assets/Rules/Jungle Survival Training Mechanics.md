@@ -7,10 +7,13 @@ icon: null
 createdAt: '2025-03-18T20:20:38.322Z'
 creationDate: 2025-03-18 15:20
 modificationDate: 2025-03-18 15:30
-tags: [GameMechanics, Encounter]
+tags:
+- GameMechanics
+- Encounter
 coverImage: null
+controls:
+- bb:Page:strange-bones
 ---
-
 # Jungle Survival Training Mechanics
 
 ### **Strange Bones’ Survival Training: "The Jungle Does Not Care About You"**

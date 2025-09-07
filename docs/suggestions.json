@@ -1,0 +1,312 @@
+{
+  "patches": [
+    "patches\\jungle-survival-training-mechanics.yml",
+    "patches\\the-code-of-black-brine.yml",
+    "patches\\lending-house.yml",
+    "patches\\soggy-town-play-house.yml",
+    "patches\\the-golden-gull.yml"
+  ],
+  "count": 30,
+  "suggestions": [
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\01_World_Lore\\Rupert_s Welcome Speech.md",
+      "kind": "relation",
+      "field": "ally_of",
+      "value": "Rupert Richthorn",
+      "resolved_id": "bb:Page:rupert-richthorn",
+      "method": "phrase+alias",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\09_Player_Characters\\Andromida.md",
+      "kind": "unresolved",
+      "field": "location",
+      "value": "Pending legal proceedings in Black Brine (likely Mistwalk or Salt Crown)",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": "add to aliases.yaml or create node"
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\06_Custom_Assets\\Items\\Challenge Coins.md",
+      "kind": "relation",
+      "field": "rival_of",
+      "value": "Black Brine",
+      "resolved_id": "bb:city:city-of-black-brine",
+      "method": "phrase+alias",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\06_Custom_Assets\\Items\\Challenge Coins.md",
+      "kind": "relation",
+      "field": "enemy_of",
+      "value": "Black Brine",
+      "resolved_id": "bb:city:city-of-black-brine",
+      "method": "phrase+alias",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Firearms Training Mechanics.md",
+      "kind": "relation",
+      "field": "enemy_of",
+      "value": "Fenrith",
+      "resolved_id": "bb:Page:fenrith",
+      "method": "phrase+alias",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Jungle Survival Training Mechanics.md",
+      "kind": "relation",
+      "field": "controls",
+      "value": "Strange Bones",
+      "resolved_id": "bb:Page:strange-bones",
+      "method": "phrase+alias",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Travel Phases.md",
+      "kind": "relation",
+      "field": "enemy_of",
+      "value": "Encounter",
+      "resolved_id": "bb:Page:encounter-1",
+      "method": "phrase+fuzzy",
+      "score": 0.9,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\04_Factions\\Criminal\\The Twilight Society.md",
+      "kind": "unresolved",
+      "field": "location",
+      "value": "Salt Crown – Velvet Nest (rooftop garden of the Lending House of Black Brine)",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": "add to aliases.yaml or create node"
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\04_Factions\\Religious\\Cult - Forgotten Wind.md",
+      "kind": "relation",
+      "field": "enemy_of",
+      "value": "Djinn",
+      "resolved_id": "bb:Page:djinn",
+      "method": "phrase+alias",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\Rupert Richthorn.md",
+      "kind": "relation",
+      "field": "ally_of",
+      "value": "Black Brine",
+      "resolved_id": "bb:city:city-of-black-brine",
+      "method": "phrase+alias",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\Rupert Richthorn.md",
+      "kind": "relation",
+      "field": "enemy_of",
+      "value": "Black Brine",
+      "resolved_id": "bb:city:city-of-black-brine",
+      "method": "phrase+alias",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\03_NPCs\\Organizations\\Council of Free Captains.md",
+      "kind": "unresolved",
+      "field": "location",
+      "value": "Black Brine - various districts, primarily Salt Crown and Crosswater taverns",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": "add to aliases.yaml or create node"
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Maelia Gorse.md",
+      "kind": "unresolved",
+      "field": "location",
+      "value": "Red Door Alchemy, Salt Crown Shores",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": "add to aliases.yaml or create node"
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Vel Corven.md",
+      "kind": "unresolved",
+      "field": "location",
+      "value": "Salt Crown – Velvet Nest, Lending House of Black Brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": "add to aliases.yaml or create node"
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Vel Corven.md",
+      "kind": "unresolved",
+      "field": "allies",
+      "value": "The Twilight Society inner circle",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": "add to aliases.yaml or create node"
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Vel Corven.md",
+      "kind": "unresolved",
+      "field": "allies",
+      "value": "Certain members of the Lending House and City Hull",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": "add to aliases.yaml or create node"
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Vel Corven.md",
+      "kind": "unresolved",
+      "field": "allies",
+      "value": "A masked fey emissary known only as \"The Lanternless\"",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": "add to aliases.yaml or create node"
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Vel Corven.md",
+      "kind": "unresolved",
+      "field": "rivals",
+      "value": "Gun Deck Rosy",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": "add to aliases.yaml or create node"
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Vel Corven.md",
+      "kind": "relation",
+      "field": "rival_of",
+      "value": "The Temple of the Chained God",
+      "resolved_id": "bb:page:temple-of-the-chained-god",
+      "method": "fuzzy",
+      "score": 0.926,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Vel Corven.md",
+      "kind": "unresolved",
+      "field": "rivals",
+      "value": "Several captains on the Council who fear their influence",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": "add to aliases.yaml or create node"
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\02_Locations\\Cities\\Black Brine River.md",
+      "kind": "relation",
+      "field": "enemy_of",
+      "value": "Black Brine",
+      "resolved_id": "bb:city:city-of-black-brine",
+      "method": "phrase+alias",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\02_Locations\\Cities\\City of Black Brine.md",
+      "kind": "unresolved",
+      "field": "location",
+      "value": "Black Brine Island, ten miles south of the confluence of the Black and Brine Rivers",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": "add to aliases.yaml or create node"
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\02_Locations\\Cities\\Government.md",
+      "kind": "relation",
+      "field": "leads",
+      "value": "Black Brine",
+      "resolved_id": "bb:city:city-of-black-brine",
+      "method": "phrase+alias",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\02_Locations\\Cities\\The Code of Black Brine.md",
+      "kind": "relation",
+      "field": "controls",
+      "value": "Black Brine",
+      "resolved_id": "bb:city:city-of-black-brine",
+      "method": "phrase+alias",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Lending House.md",
+      "kind": "relation",
+      "field": "located_in",
+      "value": "Black Brine",
+      "resolved_id": "bb:city:city-of-black-brine",
+      "method": "alias",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Soggy Town Play House.md",
+      "kind": "relation",
+      "field": "located_in",
+      "value": "Black Brine",
+      "resolved_id": "bb:city:city-of-black-brine",
+      "method": "alias",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\The Golden Gull.md",
+      "kind": "relation",
+      "field": "located_in",
+      "value": "Black Brine",
+      "resolved_id": "bb:city:city-of-black-brine",
+      "method": "alias",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\01_World_Lore\\History\\Tavern Rivalry.md",
+      "kind": "relation",
+      "field": "rival_of",
+      "value": "Black Brine",
+      "resolved_id": "bb:city:city-of-black-brine",
+      "method": "phrase+alias",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\01_World_Lore\\History\\Tavern Rivalry.md",
+      "kind": "relation",
+      "field": "ally_of",
+      "value": "Black Brine",
+      "resolved_id": "bb:city:city-of-black-brine",
+      "method": "phrase+alias",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "C:\\Users\\FiveA\\OneDrive\\Documents\\GitHub\\black-brine-lore\\RPG_Knowledge_Base\\01_World_Lore\\History\\Tavern Rivalry.md",
+      "kind": "relation",
+      "field": "enemy_of",
+      "value": "Black Brine",
+      "resolved_id": "bb:city:city-of-black-brine",
+      "method": "phrase+alias",
+      "score": 1.0,
+      "note": ""
+    }
+  ]
+}

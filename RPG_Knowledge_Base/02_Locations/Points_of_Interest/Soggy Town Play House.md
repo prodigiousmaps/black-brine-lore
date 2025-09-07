@@ -1,4 +1,7 @@
 ---
+parent_location: bb:city:city-of-black-brine
+---
+---
 type: location
 name: Soggy Town Playhouse
 location_type: theater

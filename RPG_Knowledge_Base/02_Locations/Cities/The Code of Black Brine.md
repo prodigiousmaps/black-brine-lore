@@ -7,10 +7,13 @@ icon: null
 createdAt: '2025-02-11T03:12:34.675Z'
 creationDate: 2025-02-10 21:12
 modificationDate: 2025-02-10 21:22
-tags: [Town, laws]
+tags:
+- Town
+- laws
 coverImage: null
+controls:
+- bb:city:city-of-black-brine
 ---
-
 # The Code of Black Brine
 
 **The Code of Black Brine**
