@@ -10,7 +10,7 @@ gender: Unknown
 age: Appears ageless
 occupation: High Host of the Twilight Society
 affiliation: Twilight Society
-location: Salt Crown – Velvet Nest, Lending House of Black Brine
+location: bb:location:lending-house
 tags:
 - noble
 - cult leader
@@ -54,7 +54,7 @@ allies:
 - Certain members of the Lending House and City Hull
 - A masked fey emissary known only as "The Lanternless"
 rivals:
-- Gun Deck Rosy
+- Captain Gun Deck Rosy
 - Several captains on the Council who fear their influence
 - bb:location:temple-of-the-chained-god
 secrets:
