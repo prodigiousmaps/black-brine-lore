@@ -1,2 +1,86 @@
-# Black Brine YAML Standard v1
-# See README for details.
+# Black Brine YAML Standard v1 (human-readable guide)
+# --------------------------------------------------
+# This file describes required/optional fields per type and the relationship
+# fields the tooling understands. Keep front-matter in YAML between --- blocks.
+#
+# General rules
+# - Every file should have: type, id, name, summary
+# - id format: bb:<type>:<slug>  (lowercase, hyphens)
+# - names used in other files should be added to aliases/aliases.yaml once
+# - relationship fields accept either canonical ids or human names; names are
+#   resolved via aliases+fuzzy matching during enrichment
+#
+# Shared fields (any type)
+#   type: npc | faction | organization | location | district | city | item | story | event | page
+#   id:   bb:<type>:<slug>
+#   name: "Readable Name"
+#   summary: >
+#     One or two sentences that capture essence.
+#   aliases: [ "Alt Name A", "Alt Name B" ]   # optional
+#   tags:    [ "tag1", "tag2" ]               # optional
+#
+# Relationship fields (recognized by indexer/enricher)
+#   parent_location: <id or name> | [ ... ]   # becomes located_in
+#   location:         <id or name> | [ ... ]  # becomes located_in
+#   city:             <id or name> | [ ... ]  # becomes located_in
+#   faction:          <id or name>            # becomes member_of
+#   factions:         [ <id or name>, ... ]   # becomes member_of
+#   allies:           [ <id or name>, ... ]   # becomes ally_of
+#   rivals:           [ <id or name>, ... ]   # becomes rival_of
+#   enemies:          [ <id or name>, ... ]   # becomes enemy_of
+#   appears_in:       [ <story/event id or name>, ... ] # node → appears_in
+#
+# Special fields by type
+#
+# npc:
+#   required: [id, name, summary]
+#   recommended: location | parent_location | city, faction(s)
+#   optional: allies, rivals, enemies
+#
+# faction / organization:
+#   required: [id, name, summary]
+#   recommended: location/parent_location/city
+#   leaders:  [ <npc id or name>, ... ]   # creates npc → leads → faction
+#   controls: [ <location id or name>, ... ] # creates faction → controls → location
+#   allies/rivals/enemies: as above
+#
+# city / district / location (poi):
+#   required: [id, name]
+#   recommended: parent_location (district→city, poi→district/city)
+#
+# story / event:
+#   required: [id, name, summary]
+#   location: <id or name>   # where the story mainly happens
+#   participants: [ <id or name>, ... ]  # creates participant → appears_in → story
+#
+# item:
+#   required: [id, name, summary]
+#   recommended: location/parent_location/city, factions (owner/forge), appears_in
+#
+# Narrative body
+# - Below the front-matter, write any amount of Markdown narrative.
+# - Tools will capture a short body_excerpt for display.
+#
+# Example (npc)
+# ---
+# type: npc
+# id: bb:npc:inquisitor-zunizar
+# name: Inquisitor Zunizar
+# summary: >-
+#   An appointed inquisitor of the House of Questions, feared in Salt Crown.
+# location: Salt Crown
+# factions: [ Twilight Society ]
+# allies: [ "Lending House of Black Brine" ]
+# rivals: [ "Vel Corven" ]
+# tags: [ inquisitor, arc:season-2 ]
+# ---
+#
+# Example (story)
+# ---
+# type: story
+# id: bb:story:inquest-at-salt-crown
+# name: The Inquest at Salt Crown
+# summary: A tribunal that reshaped power around the docks.
+# location: Salt Crown
+# participants: [ Inquisitor Zunizar, Twilight Society ]
+# ---

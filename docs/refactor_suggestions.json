@@ -1,0 +1,163 @@
+{
+  "total_files": 96,
+  "patches": [
+    "patches\\jungle-survival-training-mechanics.yml",
+    "patches\\vel-corven.yml",
+    "patches\\the-code-of-black-brine.yml"
+  ],
+  "suggestions": [
+    {
+      "path": "RPG_Knowledge_Base\\09_Player_Characters\\Andromida.md",
+      "field": "location",
+      "value": "Pending legal proceedings in Black Brine (likely Mistwalk or Salt Crown)",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Jungle Survival Training Mechanics.md",
+      "field": "controls",
+      "value": "bb:Page:strange-bones",
+      "resolved_id": "bb:Page:strange-bones",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Criminal\\The Twilight Society.md",
+      "field": "location",
+      "value": "Salt Crown – Velvet Nest (rooftop garden of the Lending House of Black Brine)",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Organizations\\Council of Free Captains.md",
+      "field": "location",
+      "value": "Black Brine - various districts, primarily Salt Crown and Crosswater taverns",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Maelia Gorse.md",
+      "field": "location",
+      "value": "Red Door Alchemy, Salt Crown Shores",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Vel Corven.md",
+      "field": "location",
+      "value": "Salt Crown – Velvet Nest, Lending House of Black Brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Vel Corven.md",
+      "field": "allies",
+      "value": "The Twilight Society inner circle",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Vel Corven.md",
+      "field": "allies",
+      "value": "Certain members of the Lending House and City Hull",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Vel Corven.md",
+      "field": "allies",
+      "value": "A masked fey emissary known only as \"The Lanternless\"",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Vel Corven.md",
+      "field": "rivals",
+      "value": "Gun Deck Rosy",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Vel Corven.md",
+      "field": "rivals",
+      "value": "The Temple of the Chained God",
+      "resolved_id": "bb:location:temple-of-the-chained-god",
+      "method": "fuzzy",
+      "score": 0.926,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Vel Corven.md",
+      "field": "rivals",
+      "value": "Several captains on the Council who fear their influence",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\City of Black Brine.md",
+      "field": "location",
+      "value": "Black Brine Island, ten miles south of the confluence of the Black and Brine Rivers",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\The Code of Black Brine.md",
+      "field": "controls",
+      "value": "bb:city:city-of-black-brine",
+      "resolved_id": "bb:city:city-of-black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Lending House.md",
+      "field": "parent_location",
+      "value": "bb:city:city-of-black-brine",
+      "resolved_id": "bb:city:city-of-black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Soggy Town Play House.md",
+      "field": "parent_location",
+      "value": "bb:city:city-of-black-brine",
+      "resolved_id": "bb:city:city-of-black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\The Golden Gull.md",
+      "field": "parent_location",
+      "value": "bb:city:city-of-black-brine",
+      "resolved_id": "bb:city:city-of-black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    }
+  ]
+}

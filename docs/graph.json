@@ -2076,8 +2076,8 @@
         ],
         "rivals": [
           "Gun Deck Rosy",
-          "The Temple of the Chained God",
-          "Several captains on the Council who fear their influence"
+          "Several captains on the Council who fear their influence",
+          "bb:location:temple-of-the-chained-god"
         ],
         "secrets": [
           "Vel has not aged in over a century",
@@ -2100,8 +2100,8 @@
         ],
         "rivals": [
           "Gun Deck Rosy",
-          "The Temple of the Chained God",
-          "Several captains on the Council who fear their influence"
+          "Several captains on the Council who fear their influence",
+          "bb:location:temple-of-the-chained-god"
         ]
       }
     },

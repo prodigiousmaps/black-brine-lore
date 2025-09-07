@@ -1,0 +1,38 @@
+
+<!doctype html><meta charset="utf-8"><title>Refactor Report</title>
+<style>
+body{font:14px/1.6 system-ui,sans-serif;background:#0a0a0b;color:#e8e8ea;margin:18px}
+h1{font-size:22px;margin:0 0 8px}
+table{width:100%;border-collapse:collapse;margin-top:10px}
+td,th{border-bottom:1px solid #2a2d36;padding:6px 8px;text-align:left;font-size:13px}
+.small{opacity:.8}
+code{background:#111215;padding:1px 4px;border-radius:4px}
+</style>
+<h1>Black Brine Refactor Suggestions</h1>
+<div class="small">Files: 96 • Patches: 3 (see /patches)</div>
+<table>
+  <thead>
+    <tr><th>File</th><th>Field</th><th>Value</th><th>Resolved</th><th>Method</th><th>Score</th></tr>
+  </thead>
+  <tbody id="tb"></tbody>
+</table>
+<script>
+fetch('refactor_suggestions.json').then(r => r.json()).then(d => {
+  const tb = document.getElementById('tb');
+  d.suggestions.forEach(s => {
+    const tr = document.createElement('tr');
+    const file = s.path.replace(/^.*RPG_Knowledge_Base\//,'');
+    const val  = String(s.value || '').replace(/</g,'&lt;');
+    const rid  = s.resolved_id || '—';
+    const score = (s.score || 0).toFixed(2);
+    tr.innerHTML =
+      '<td>'+file+'</td>' +
+      '<td>'+s.field+'</td>' +
+      '<td><code>'+val+'</code></td>' +
+      '<td>'+rid+'</td>' +
+      '<td>'+s.method+'</td>' +
+      '<td>'+score+'</td>';
+    tb.appendChild(tr);
+  });
+});
+</script>
