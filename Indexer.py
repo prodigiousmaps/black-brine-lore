@@ -1,154 +1,254 @@
 #!/usr/bin/env python3
-# indexer.py — builds docs/graph.json (now with appears_in, leads, controls)
-import pathlib, re, yaml, json
+"""
+indexer.py — Build docs/graph.json from YAML/Markdown lore.
+
+Features:
+- Parses YAML front-matter (and falls back to whole-file YAML if no front-matter).
+- Embeds each node's full front matter as `fm` and a short `body_excerpt`.
+- Resolves names via aliases/aliases.yaml and in-file aliases.
+- Emits edges:
+  - located_in      ← parent_location, location, city
+  - member_of       ← faction, factions
+  - ally_of/rival_of/enemy_of
+  - appears_in      ← (story/event).participants → npc/faction/item/etc
+  - appears_in      ← any_node.appears_in (direct)
+  - leads           ← (faction/org).leaders → npc
+  - controls        ← (faction/org).controls → location/poi
+- Skips locked/unreadable files instead of crashing.
+- Skips 08_Templates and *.ignore files.
+- Outputs docs/graph.json
+"""
+
+import json
+import pathlib
+import re
+import sys
+import yaml
 
 ROOT = pathlib.Path(__file__).parent
 CONTENT_DIRS = ["RPG_Knowledge_Base"]
 ALIAS_FILE = ROOT / "aliases" / "aliases.yaml"
-OUT = ROOT / "docs"
-OUT.mkdir(exist_ok=True, parents=True)
+OUT_DIR = ROOT / "docs"
+OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 FRONTMATTER = re.compile(r'^---\s*\n(.*?)\n---\s*\n', re.DOTALL)
 
-def parse_file(p: pathlib.Path):
-    text = p.read_text(encoding="utf-8", errors="ignore")
+# ------------------------
+# Helpers
+# ------------------------
+def safe_read_text(p: pathlib.Path) -> str | None:
+    """Read file text safely; return None if unreadable/locked."""
+    try:
+        return p.read_text(encoding="utf-8", errors="ignore")
+    except Exception as e:
+        print(f"[indexer] WARN: cannot read {p}: {e}", file=sys.stderr)
+        return None
+
+def parse_file_with_body(p: pathlib.Path):
+    """
+    Return (front_matter_dict, body_text).
+    Tries YAML front-matter first; falls back to whole-file YAML; else empty fm.
+    """
+    text = safe_read_text(p)
+    if text is None:
+        return {}, ""
     m = FRONTMATTER.match(text)
     if m:
         try:
-            return yaml.safe_load(m.group(1)) or {}
+            fm = yaml.safe_load(m.group(1)) or {}
+            if not isinstance(fm, dict):
+                fm = {}
         except Exception:
-            return {}
-    else:
-        try:
-            data = yaml.safe_load(text) or {}
-            return data if isinstance(data, dict) else {}
-        except Exception:
-            return {}
+            fm = {}
+        body = text[m.end():]
+        return fm, body
+    # fallback: whole-file YAML
+    try:
+        fm = yaml.safe_load(text) or {}
+        if not isinstance(fm, dict):
+            fm = {}
+    except Exception:
+        fm = {}
+    return fm, ""
 
-def slugify(stem): return stem.replace('_','-').replace(' ','-').lower()
-def as_list(x): 
+def slugify(s: str) -> str:
+    return re.sub(r'[^a-z0-9\-]+', '-', s.lower().replace(' ', '-')).strip('-')
+
+def as_list(x):
     if x is None: return []
     return x if isinstance(x, list) else [x]
 
+# ------------------------
 # Load aliases
-aliases = {}
+# ------------------------
+aliases_map: dict[str, str] = {}
 if ALIAS_FILE.exists():
     try:
-        aliases_doc = yaml.safe_load(ALIAS_FILE.read_text(encoding="utf-8")) or {}
-        aliases = aliases_doc.get("aliases", {}) or {}
-    except Exception:
-        pass
+        alias_doc = yaml.safe_load(ALIAS_FILE.read_text(encoding="utf-8")) or {}
+        aliases_map = alias_doc.get("aliases", {}) or {}
+    except Exception as e:
+        print(f"[indexer] WARN: could not parse {ALIAS_FILE}: {e}", file=sys.stderr)
+        aliases_map = {}
 
+# ------------------------
 # Pass 1: collect nodes
-nodes, nodes_by_id, name_to_id = [], {}, {}
+# ------------------------
+nodes: list[dict] = []
+nodes_by_id: dict[str, dict] = {}
+name_to_id: dict[str, str] = {}
+
 for folder in CONTENT_DIRS:
-    for p in ROOT.joinpath(folder).rglob("*.md"):
-        # skip any *.ignore files or template folders
-        if p.suffix == ".ignore" or "08_Templates" in p.parts:
+    base = ROOT / folder
+    if not base.exists():
+        continue
+    for p in base.rglob("*.md"):
+        # skip templates / ignored
+        if "08_Templates" in p.parts or p.name.endswith(".ignore"):
             continue
-        data = parse_file(p)
-        ntype = data.get("type", "page")
-        name  = data.get("name") or p.stem
-        nid   = data.get("id") or f"bb:{ntype}:{slugify(p.stem)}"
+
+        fm, body = parse_file_with_body(p)
+        ntype = fm.get("type", "page")
+        name = fm.get("name") or p.stem
+        nid = fm.get("id") or f"bb:{ntype}:{slugify(p.stem)}"
+
         node = {
-            "id": nid, "type": ntype, "name": name,
-            "tags": data.get("tags", []), "source": str(p.relative_to(ROOT)),
-            # expose raw fields (handy for debugging)
-            "raw": {k: data.get(k) for k in [
+            "id": nid,
+            "type": ntype,
+            "name": name,
+            "tags": fm.get("tags", []),
+            "source": str(p.relative_to(ROOT)),
+            "fm": fm,  # full front-matter for UI
+            "body_excerpt": (body.strip()[:800] + ("…" if len(body.strip()) > 800 else "")),
+            # also mirror only common fields for quick debugging
+            "raw": {k: fm.get(k) for k in [
                 "parent_location","location","city","faction","factions",
-                "allies","rivals","enemies","participants","appears_in",
-                "leaders","controls"
-            ] if k in data}
+                "allies","rivals","enemies",
+                "participants","appears_in","leaders","controls"
+            ] if k in fm}
         }
         nodes.append(node)
         nodes_by_id[nid] = node
         name_to_id[name.lower()] = nid
-        for aka in as_list(data.get("aliases")):
+        for aka in as_list(fm.get("aliases")):
             if isinstance(aka, str):
                 name_to_id[aka.lower()] = nid
 
-# fold aliases.yaml into lookup
-for k, v in aliases.items():
+# fold aliases.yaml entries into lookup (name → id)
+for k, v in aliases_map.items():
     if isinstance(k, str) and isinstance(v, str):
         name_to_id[k.lower()] = v
 
-def resolve(s):
-    if not isinstance(s, str): return None
-    s = s.strip()
-    if s in nodes_by_id: return s
-    if s in aliases.values(): return s
-    hit = name_to_id.get(s.lower())
-    return hit
+def resolve(ref: str | None) -> str | None:
+    """
+    Resolve a reference which may be:
+      - canonical id (already 'bb:...') present in nodes_by_id
+      - an alias id from aliases_map values
+      - a name found in name_to_id (case-insensitive)
+    Return canonical id or None.
+    """
+    if not isinstance(ref, str):
+        return None
+    val = ref.strip()
+    if not val:
+        return None
+    # direct node id
+    if val in nodes_by_id:
+        return val
+    # if the alias map already points to an id, accept it
+    if val in aliases_map.values() and val in nodes_by_id:
+        return val
+    # name → id via lookup
+    hit = name_to_id.get(val.lower())
+    return hit if hit in nodes_by_id else None
 
+# ------------------------
 # Pass 2: build edges
-edges = []
-def add_edge(src, rel, tgt):
+# ------------------------
+edges: list[dict] = []
+
+def add_edge(src: str | None, rel: str, tgt: str | None):
     if src and tgt and src != tgt:
         edges.append({"source": src, "rel": rel, "target": tgt})
 
+# Structured relationships from fields
 for n in nodes:
     src = n["id"]
-    data_fields = n.get("raw", {})
+    fm = n.get("fm", {})
 
-    # locations
-    for key in ["parent_location","location","city"]:
-        for v in as_list(data_fields.get(key)):
-            rid = resolve(v) if isinstance(v,str) else None
-            if rid: add_edge(src, "located_in", rid)
+    # Locations → located_in
+    for key in ("parent_location", "location", "city"):
+        for v in as_list(fm.get(key)):
+            rid = resolve(v) if isinstance(v, str) else None
+            if rid:
+                add_edge(src, "located_in", rid)
 
-    # factions / organizations
-    if isinstance(data_fields.get("faction"), str):
-        rid = resolve(data_fields["faction"])
-        if rid: add_edge(src, "member_of", rid)
-    for v in as_list(data_fields.get("factions")):
-        rid = resolve(v) if isinstance(v,str) else None
-        if rid: add_edge(src, "member_of", rid)
+    # Factions/Organizations → member_of
+    if isinstance(fm.get("faction"), str):
+        rid = resolve(fm["faction"])
+        if rid:
+            add_edge(src, "member_of", rid)
+    for v in as_list(fm.get("factions")):
+        rid = resolve(v) if isinstance(v, str) else None
+        if rid:
+            add_edge(src, "member_of", rid)
 
-    # allies / rivals / enemies
-    for key, rel in [("allies","ally_of"), ("rivals","rival_of"), ("enemies","enemy_of")]:
-        for v in as_list(data_fields.get(key)):
-            rid = resolve(v) if isinstance(v,str) else None
-            if rid: add_edge(src, rel, rid)
+    # Allies/Rivals/Enemies
+    for key, rel in (("allies","ally_of"), ("rivals","rival_of"), ("enemies","enemy_of")):
+        for v in as_list(fm.get(key)):
+            rid = resolve(v) if isinstance(v, str) else None
+            if rid:
+                add_edge(src, rel, rid)
 
-# NEW: participants (on stories/events) → appears_in edges
+# Story/Event participants → appears_in (participant → story)
 for n in nodes:
-    if n["type"] in {"story","event"}:
-        src_story = n["id"]
-        parts = as_list(n.get("raw", {}).get("participants"))
-        for v in parts:
-            rid = resolve(v) if isinstance(v,str) else None
-            if rid: add_edge(rid, "appears_in", src_story)
+    if n["type"] in {"story", "event"}:
+        story_id = n["id"]
+        for v in as_list(n["fm"].get("participants")):
+            rid = resolve(v) if isinstance(v, str) else None
+            if rid:
+                add_edge(rid, "appears_in", story_id)
 
-# NEW: appears_in (directly on nodes) → appears_in edges
+# Direct appears_in list on any node (node → story/event)
 for n in nodes:
-    apps = as_list(n.get("raw", {}).get("appears_in"))
-    for v in apps:
-        rid = resolve(v) if isinstance(v,str) else None
-        if rid: add_edge(n["id"], "appears_in", rid)
+    for v in as_list(n["fm"].get("appears_in")):
+        rid = resolve(v) if isinstance(v, str) else None
+        if rid:
+            add_edge(n["id"], "appears_in", rid)
 
-# NEW: leaders (on factions/orgs) → leads edges (npc → faction)
+# Faction/Org leaders → leads (npc → faction/org)
 for n in nodes:
-    if n["type"] in {"faction","organization"}:
+    if n["type"] in {"faction", "organization"}:
         fid = n["id"]
-        for v in as_list(n.get("raw", {}).get("leaders")):
-            rid = resolve(v) if isinstance(v,str) else None
-            if rid: add_edge(rid, "leads", fid)
+        for v in as_list(n["fm"].get("leaders")):
+            rid = resolve(v) if isinstance(v, str) else None
+            if rid:
+                add_edge(rid, "leads", fid)
 
-# NEW: controls (on factions/orgs) → controls edges (faction → location)
+# Faction/Org controls → controls (faction/org → location)
 for n in nodes:
-    if n["type"] in {"faction","organization"}:
+    if n["type"] in {"faction", "organization"}:
         fid = n["id"]
-        for v in as_list(n.get("raw", {}).get("controls")):
-            rid = resolve(v) if isinstance(v,str) else None
-            if rid: add_edge(fid, "controls", rid)
+        for v in as_list(n["fm"].get("controls")):
+            rid = resolve(v) if isinstance(v, str) else None
+            if rid:
+                add_edge(fid, "controls", rid)
 
-# Emit graph + basic unresolved list (for reference)
+# ------------------------
+# Emit
+# ------------------------
 node_ids = {n["id"] for n in nodes}
-unresolved = []
-for e in edges:
-    if e["source"] not in node_ids or e["target"] not in node_ids:
-        unresolved.append(e)
+unresolved = [e for e in edges if e["source"] not in node_ids or e["target"] not in node_ids]
 
-graph = {"nodes": nodes, "edges": edges, "unresolved": unresolved}
-(OUT / "graph.json").write_text(json.dumps(graph, ensure_ascii=False, indent=2), encoding="utf-8")
-print(f"[indexer] nodes={len(nodes)} edges={len(edges)} unresolved={len(unresolved)} → docs/graph.json")
+graph = {
+    "nodes": nodes,
+    "edges": edges,
+    "unresolved": unresolved,
+    "stats": {
+        "nodes": len(nodes),
+        "edges": len(edges)
+    }
+}
+
+out_path = OUT_DIR / "graph.json"
+out_path.write_text(json.dumps(graph, ensure_ascii=False, indent=2), encoding="utf-8")
+print(f"[indexer] nodes={len(nodes)} edges={len(edges)} unresolved={len(unresolved)} → {out_path}")
