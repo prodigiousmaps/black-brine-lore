@@ -639,8 +639,8 @@
     {
       "path": "RPG_Knowledge_Base\\04_Factions\\Criminal\\butchers.md",
       "field": "controls",
-      "value": "bb:location:miremarket",
-      "resolved_id": "bb:location:miremarket",
+      "value": "bb:location:foghouse-row",
+      "resolved_id": "bb:location:foghouse-row",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -648,8 +648,8 @@
     {
       "path": "RPG_Knowledge_Base\\04_Factions\\Criminal\\butchers.md",
       "field": "controls",
-      "value": "bb:location:foghouse-row",
-      "resolved_id": "bb:location:foghouse-row",
+      "value": "bb:location:miremarket",
+      "resolved_id": "bb:location:miremarket",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -702,8 +702,8 @@
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\arlo-the-noose.md",
       "field": "appears_in",
-      "value": "bb:location:miremarket",
-      "resolved_id": "bb:location:miremarket",
+      "value": "bb:location:foghouse-row",
+      "resolved_id": "bb:location:foghouse-row",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -711,8 +711,8 @@
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\arlo-the-noose.md",
       "field": "appears_in",
-      "value": "bb:location:foghouse-row",
-      "resolved_id": "bb:location:foghouse-row",
+      "value": "bb:location:miremarket",
+      "resolved_id": "bb:location:miremarket",
       "method": "id",
       "score": 1.0,
       "note": ""
