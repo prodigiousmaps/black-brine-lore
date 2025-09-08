@@ -2354,7 +2354,7 @@
           "high-priestess",
           "sedna"
         ],
-        "portrait": "06_Custom_Assets/Portraits/gun-deck-rosy.png",
+        "portrait": "assets/portraits/gun-deck-rosy.png",
         "sheet_url": "https://prodigiousmaps.github.io/black-brine-lore/sheets/gun-deck-rosy.pdf",
         "system": "5e",
         "level": 10,

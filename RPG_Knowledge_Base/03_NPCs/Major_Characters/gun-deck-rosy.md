@@ -10,7 +10,7 @@ rivals: []
 appears_in:
   - bb:location:city-hull
 tags: [mistwalk, governor, high-priestess, sedna]
-portrait: 06_Custom_Assets/Portraits/gun-deck-rosy.png
+portrait: assets/portraits/gun-deck-rosy.png
 sheet_url: https://prodigiousmaps.github.io/black-brine-lore/sheets/gun-deck-rosy.pdf   # or external link
 system: 5e
 level: 10
