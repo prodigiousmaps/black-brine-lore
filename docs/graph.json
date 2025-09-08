@@ -2353,6 +2353,14 @@
           "governor",
           "high-priestess",
           "sedna"
+        ],
+        "portrait": "06_Custom_Assets/Portraits/gun-deck-rosy.png",
+        "sheet_url": "https://prodigiousmaps.github.io/black-brine-lore/sheets/gun-deck-rosy.pdf",
+        "system": "5e",
+        "level": 10,
+        "classes": [
+          "Sorcerer 4",
+          "Fighter 6"
         ]
       },
       "body_excerpt": "# Captain \"Gun Deck\" Rosy\n\n### **Gun Deck Rosy’s Devotion to Sedna**\n\n- Her **fanaticism commands both fear and loyalty**, as people whisper of her **rituals and sacrifices**.\n\n- She might possess **Sedna’s blessings**, granting her unnerving resilience, visions from the depths, or **hexblade powers**.\n\n- **Her ship could be a shrine**—its hull reinforced with deep-sea bones, its figurehead depicting Sedna’s **twisted, hag-like visage**.",
