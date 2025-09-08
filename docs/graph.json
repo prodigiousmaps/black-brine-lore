@@ -2962,26 +2962,6 @@
       }
     },
     {
-      "id": "bb:page:district-of-crosswater",
-      "type": "page",
-      "name": "District of Crosswater",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\District of Crosswater.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
-    },
-    {
-      "id": "bb:page:district-of-keelhauls",
-      "type": "page",
-      "name": "District of Keelhauls",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\District of Keelhauls.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
-    },
-    {
       "id": "bb:page:district-of-little-sedna",
       "type": "page",
       "name": "District of Little Sedna",
@@ -3087,6 +3067,47 @@
         ]
       },
       "body_excerpt": "# Overview\nCrosswater is the industrial lung of Black Brine—loud, grimy, and always working. Straddling the Daggerflow’s eastern bank just south of Salt Crown, it is where wood, steel, and sweat become ships, weapons, and coin. Tar, metal, and salt hang in the air while cranes groan overhead.  \n\n# Geography\n- Cobbled lanes between slanted buildings and stacked warehouses.  \n- Dry docks housing half-gutted hulls.  \n- Soot-blackened chimneys belching smoke.  \n- Flood-prone alleys crusted with seaweed at high tide.  \n\n# Notable Features\n- **Dry Docks of Crosswater** – Constant clang of repairs; “where ships bleed and are reborn.”  \n- **The Wet Bar** – Sunken two-level tavern catering to aquatic folk; half-submerged.  \n- **String & Power** – Famous weaponsmiths, the feuding Gunderson brothers …",
+      "raw": {
+        "parent_location": "bb:city:black-brine"
+      }
+    },
+    {
+      "id": "bb:district:keelhauls",
+      "type": "district",
+      "name": "Keelhauls",
+      "tags": [
+        "district",
+        "docks",
+        "trade",
+        "industry",
+        "smuggling",
+        "crime",
+        "labor"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\district-of-keel-hauls.md",
+      "fm": {
+        "type": "district",
+        "id": "bb:district:keelhauls",
+        "name": "Keelhauls",
+        "parent_location": "bb:city:black-brine",
+        "location_type": "district",
+        "population": "~4,500",
+        "government": "Loosely governed by dock captains under the distant eye of the Captain’s Council",
+        "maps_available": true,
+        "map_files": [
+          "KeelhaulsDock.jpg"
+        ],
+        "tags": [
+          "district",
+          "docks",
+          "trade",
+          "industry",
+          "smuggling",
+          "crime",
+          "labor"
+        ]
+      },
+      "body_excerpt": "# Overview\nKeelhauls is the city’s rust-stained gut—the place where cargo is hauled, backs are broken, and blood washes into the sea. It is home to the cheapest berths, the foulest grog, and the roughest crews. For newcomers it’s the first step ashore; for corpses, often the last. Brutal, industrial, and always in motion.\n\n# Geography\n- Piers, cranes, warehouses, and rusted hulls along Black Brine’s southern edge.  \n- River reeks of brine, fish rot, and fuel.  \n- Cobbled streets dissolve into mud and broken planks.  \n- Air filled with shouting, gulls, and the clang of iron.  \n\n# Notable Features\n- **The Low Berths** – Dockside moorings for poor or wanted ships.  \n- **Rustgate** – Customs checkpoint for sea goods entering the city.  \n- **Fishbone Row** – Street of taverns, fishmongers, debt…",
       "raw": {
         "parent_location": "bb:city:black-brine"
       }
@@ -3260,6 +3281,43 @@
       "raw": {}
     },
     {
+      "id": "bb:location:chain-wharf",
+      "type": "location",
+      "name": "Chain Wharf",
+      "tags": [
+        "keelhauls",
+        "docks",
+        "wharf",
+        "military",
+        "smuggling",
+        "cult"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\chain-warf.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:chain-wharf",
+        "name": "Chain Wharf",
+        "parent_location": "bb:district:keelhauls",
+        "location_type": "dock",
+        "population": "~300 (Harbor Guard, Butchers, cultists, dockworkers)",
+        "government": "guarded by Harbor Guard but dominated by Butchers and Sedna’s cult",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "keelhauls",
+          "docks",
+          "wharf",
+          "military",
+          "smuggling",
+          "cult"
+        ]
+      },
+      "body_excerpt": "# Overview\nA fortified section of the docks reserved for official fleets and sensitive cargo. Massive chains secure moored ships, and guards patrol constantly. Despite appearances, much of its traffic is smuggling and cult activity.  \n\n# Notable Features\n- Chain-clad piers with heavy winches.  \n- Guard towers manned by Harbor Guard.  \n- Sealed warehouses marked with cult sigils.  \n\n# Adventure Hooks\n- A cursed relic arrives and the PCs are tasked with intercepting it.  \n- A disguised fleet captain requests secret passage through.  \n- The guards suddenly vanish one night, leaving the Wharf undefended.  \n\n# Secrets (DM Only)\n- Cult relics are funneled through Chain Wharf to Sedna’s shrines.  \n- A hidden tunnel leads beneath the river wall into Mistwalk.  \n\n# Connected Locations\n- **bb:distri…",
+      "raw": {
+        "parent_location": "bb:district:keelhauls"
+      }
+    },
+    {
       "id": "bb:page:chase-gun-condos",
       "type": "page",
       "name": "Chase Gun Condos",
@@ -3381,6 +3439,43 @@
       "body_excerpt": "# Overview\n“Where the ships bleed and are reborn.”  \nThe Dry Docks are the bristling, hammer-struck heart of Black Brine’s maritime might. Hulls are ripped open and stitched anew day and night, surrounded by curses, pitch, and ghosts of ships long sunk.\n\n# Geography & Layout\n- **Repair Slips** – Massive cradles for damaged vessels.  \n- **Crane Yard** – Pulley towers swinging timbers, cargo, and cannon.  \n- **Tarp Halls** – Semi-covered work zones reeking of pitch and salt.  \n- **Slip Boss Shanties** – Offices built from wrecks where contracts are signed or cut.  \n- **Flood Channels** – Drainage lines sluicing salt water and blood alike.  \n\n# Culture & Economy\n- Neutral ground for all captains, though brawls are common.  \n- Workers are tough, territorial, and tattooed with crew sigils.  \n- …",
       "raw": {
         "parent_location": "bb:district:crosswater"
+      }
+    },
+    {
+      "id": "bb:location:fishbone-row",
+      "type": "location",
+      "name": "Fishbone Row",
+      "tags": [
+        "keelhauls",
+        "taverns",
+        "docks",
+        "trade",
+        "debt",
+        "crime"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\fish-bone-row.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:fishbone-row",
+        "name": "Fishbone Row",
+        "parent_location": "bb:district:keelhauls",
+        "location_type": "street",
+        "population": "~800 (dockworkers, fishmongers, tavern-goers)",
+        "government": "none (unofficially run by debt collectors and brokers)",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "keelhauls",
+          "taverns",
+          "docks",
+          "trade",
+          "debt",
+          "crime"
+        ]
+      },
+      "body_excerpt": "# Overview\nA noisy dockside street lined with taverns, fishmongers, and debt houses. The air is thick with salt, ale, and the stench of fish rot. By day, it’s crowded with trade and hawkers; by night, it’s brawls, dice, and smuggling.  \n\n# Notable Features\n- Shanty taverns stacked against each other.  \n- Debt collectors’ dens and pawn shops.  \n- Fish stalls that stay open until dawn.  \n\n# Adventure Hooks\n- A tavern fire uncovers a hidden smuggler’s vault.  \n- Debt collectors hound a PC for an ancestor’s unpaid debt.  \n- A brawl spills into the street, dragging the PCs into a faction conflict.  \n\n# Secrets (DM Only)\n- Certain taverns are fronts for Sedna’s cult recruiters.  \n- Smugglers tunnel beneath the fishmongers to Chain Wharf.  \n\n# Connected Locations\n- **bb:district:keelhauls**",
+      "raw": {
+        "parent_location": "bb:district:keelhauls"
       }
     },
     {
@@ -3709,6 +3804,41 @@
       "body_excerpt": "---\ntype: location\nname: The Golden Gull\nlocation_type: tavern\ndistrict: Crosswater\nparent_location: Black Brine\nmaps_available: false\nmap_files: []\ntags: [tavern, upscale, music, intrigue, crosswater, social hub]\n\noverview: >\n  The Golden Gull is an upscale tavern nestled between warehouses and sea-captain estates in the Crosswater District. Known for its fine drink, softer lighting, and whispered dealings, it serves merchants, smugglers, and off-duty fleet officers looking for luxury without judgment.\n\nappearance: >\n  Lanterns hang from curved brass arms, casting golden pools of light across polished wood and sea-glass windows. A mounted gull in mid-flight—wings spread and dipped in gold leaf—hangs from the ceiling. Sea breezes curl through tall shuttered windows.\n\nrole_in_society: >\n  T…",
       "raw": {
         "parent_location": "bb:city:city-of-black-brine"
+      }
+    },
+    {
+      "id": "bb:location:the-sump",
+      "type": "location",
+      "name": "The Sump",
+      "tags": [
+        "keelhauls",
+        "fighting-pit",
+        "gambling",
+        "crime",
+        "smuggling"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\the-sump.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:the-sump",
+        "name": "The Sump",
+        "parent_location": "bb:district:keelhauls",
+        "location_type": "fighting-pit",
+        "population": "fluctuates (50–200 spectators, fighters, bookies)",
+        "government": "none",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "keelhauls",
+          "fighting-pit",
+          "gambling",
+          "crime",
+          "smuggling"
+        ]
+      },
+      "body_excerpt": "# Overview\nA half-sunken warehouse converted into a brutal pit for fights, wagers, and smuggler meetings. Water seeps through broken stone, pooling around the fighting floor.  \n\n# Notable Features\n- Underground pit ringed by torches and smoke.  \n- Gambling booths, debt collectors, and Butchers’ guards.  \n- Hidden catwalks where deals and sabotage occur.  \n\n# Adventure Hooks\n- A fighter begs for help after refusing to throw a match.  \n- A new beast has been brought in for spectacle, but it’s unnatural.  \n- The PCs are challenged to settle a dispute in the pit.  \n\n# Secrets (DM Only)\n- A sunken vault beneath the pit is bound with Sedna’s runes.  \n- The Butchers use The Sump as a drop point for cult relics.  \n\n# Connected Locations\n- **bb:district:keelhauls**",
+      "raw": {
+        "parent_location": "bb:district:keelhauls"
       }
     },
     {
@@ -4092,9 +4222,19 @@
       "target": "bb:city:black-brine"
     },
     {
+      "source": "bb:district:keelhauls",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
       "source": "bb:location:black-brine-library",
       "rel": "located_in",
       "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:location:chain-wharf",
+      "rel": "located_in",
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:location:crooked-lantern",
@@ -4105,6 +4245,11 @@
       "source": "bb:location:dry-docks-crosswater",
       "rel": "located_in",
       "target": "bb:district:crosswater"
+    },
+    {
+      "source": "bb:location:fishbone-row",
+      "rel": "located_in",
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:location:foghouse-row",
@@ -4125,6 +4270,11 @@
       "source": "bb:location:string-and-power",
       "rel": "located_in",
       "target": "bb:district:crosswater"
+    },
+    {
+      "source": "bb:location:the-sump",
+      "rel": "located_in",
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:location:volcanic-peak-sedna",
@@ -4289,7 +4439,7 @@
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 120,
-    "edges": 63
+    "nodes": 122,
+    "edges": 67
   }
 }

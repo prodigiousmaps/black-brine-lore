@@ -1,5 +1,5 @@
 {
-  "total_files": 120,
+  "total_files": 122,
   "patches": [
     "patches\\skull-garden-black-river.yml",
     "patches\\into-deep-green-short-cut.yml",
@@ -934,6 +934,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\district-of-keel-hauls.md",
+      "field": "parent_location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\The Code of Black Brine.md",
       "field": "controls",
       "value": "bb:city:city-of-black-brine",
@@ -952,6 +961,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\chain-warf.md",
+      "field": "parent_location",
+      "value": "bb:district:keelhauls",
+      "resolved_id": "bb:district:keelhauls",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\crooked-lantern.md",
       "field": "parent_location",
       "value": "bb:district:blackmire",
@@ -965,6 +983,15 @@
       "field": "parent_location",
       "value": "bb:district:crosswater",
       "resolved_id": "bb:district:crosswater",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\fish-bone-row.md",
+      "field": "parent_location",
+      "value": "bb:district:keelhauls",
+      "resolved_id": "bb:district:keelhauls",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -1030,6 +1057,15 @@
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\the-sump.md",
+      "field": "parent_location",
+      "value": "bb:district:keelhauls",
+      "resolved_id": "bb:district:keelhauls",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {

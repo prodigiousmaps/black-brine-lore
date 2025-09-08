@@ -1,0 +1,6 @@
+path: RPG_Knowledge_Base/05_Locations/district-keelhauls.md
+set:
+  factions:
+    - bb:faction:butchers
+  participants:
+    - bb:npc:the-noose
