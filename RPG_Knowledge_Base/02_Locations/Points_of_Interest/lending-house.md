@@ -5,15 +5,21 @@ name: Lending House of Black Brine
 parent_location: bb:district:salt-crown
 location_type: financial institution
 maps_available: true
-map_files: [SaltCrown-Day.jpg]
-tags: [salt-crown, bank, wealth, intrigue, twilight-society]
-factions: [ bb:faction:twilight-society ]
+map_files:
+- SaltCrown-Day.jpg
+tags:
+- salt-crown
+- bank
+- wealth
+- intrigue
+- twilight-society
+factions:
+- bb:faction:twilight-society
 participants:
-  - bb:npc:maelia-gorse
-  - bb:npc:vel-corven
-  - bb:npc:high-numerator-fex
+- bb:npc:high-numerator-fex
+- bb:npc:maelia-gorse
+- bb:npc:vel-corven
 ---
-
 # Overview
 Fortress-bank of the city—treasury, mint, and spider’s web of obligation. Vaults run deeper than most cellars; interest rates are feared like curses.
 

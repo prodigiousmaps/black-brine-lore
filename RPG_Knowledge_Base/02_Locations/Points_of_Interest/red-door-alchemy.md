@@ -8,12 +8,16 @@ population: 1 owner, 1 assistant
 government: private business (light harbor-watch oversight)
 maps_available: false
 map_files: []
-tags: [salt-crown, alchemy, magic, apothecary, shop]
+tags:
+- salt-crown
+- alchemy
+- magic
+- apothecary
+- shop
 participants:
-  - bb:npc:maelia-gorse
-  - bb:npc:brin
+- bb:npc:brin
+- bb:npc:maelia-gorse
 ---
-
 # Overview
 A windowless, crimson-doored apothecary in the warrens, steeped in exotic scents. Potions, poisons, and oddities—sold for coin, favors, or equal weirdness.
 

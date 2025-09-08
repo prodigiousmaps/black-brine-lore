@@ -1,0 +1,7 @@
+path: C:\Users\FiveA\OneDrive\Documents\GitHub\black-brine-lore\RPG_Knowledge_Base\03_NPCs\Supporting
+  Cast\brin.md
+set:
+  allies:
+  - bb:npc:maelia-gorse
+  appears_in:
+  - bb:location:red-door-alchemy

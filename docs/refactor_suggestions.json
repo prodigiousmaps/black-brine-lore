@@ -1,5 +1,5 @@
 {
-  "total_files": 122,
+  "total_files": 128,
   "patches": [
     "patches\\skull-garden-black-river.yml",
     "patches\\into-deep-green-short-cut.yml",
@@ -17,11 +17,20 @@
     "patches\\journal-fragment-viii.yml",
     "patches\\jungle-survival-training-mechanics.yml",
     "patches\\butchers.yml",
+    "patches\\twilight-society.yml",
     "patches\\arlo-the-noose.yml",
     "patches\\vel-corven.yml",
+    "patches\\brin.yml",
+    "patches\\crank.yml",
+    "patches\\high-numerator-fex.yml",
+    "patches\\maelia-gorse.yml",
     "patches\\mister-blight.yml",
+    "patches\\rita-kess.yml",
+    "patches\\sinker.yml",
     "patches\\three-tooth-mavin.yml",
-    "patches\\yurra-the-mireborn.yml"
+    "patches\\yurra-the-mireborn.yml",
+    "patches\\lending-house.yml",
+    "patches\\red-door-alchemy.yml"
   ],
   "suggestions": [
     {
@@ -655,10 +664,19 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\04_Factions\\Criminal\\The Twilight Society.md",
+      "path": "RPG_Knowledge_Base\\04_Factions\\Criminal\\twilight-society.md",
       "field": "location",
-      "value": "bb:location:lending-house",
-      "resolved_id": "bb:location:lending-house",
+      "value": "bb:district:salt-crown",
+      "resolved_id": "bb:district:salt-crown",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Criminal\\twilight-society.md",
+      "field": "controls",
+      "value": "bb:location:lending-house-black-brine",
+      "resolved_id": "bb:location:lending-house-black-brine",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -667,9 +685,9 @@
       "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\arlo-the-noose.md",
       "field": "location",
       "value": "bb:district:salt-crown",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "resolved_id": "bb:district:salt-crown",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -721,9 +739,9 @@
       "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
       "field": "location",
       "value": "bb:location:lending-house",
-      "resolved_id": "bb:location:lending-house",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
@@ -781,6 +799,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
+      "field": "appears_in",
+      "value": "bb:location:lending-house-black-brine",
+      "resolved_id": "bb:location:lending-house-black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Organizations\\Council of Free Captains.md",
       "field": "location",
       "value": "Black Brine - various districts, primarily Salt Crown and Crosswater taverns",
@@ -790,12 +817,111 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\brin.md",
+      "field": "location",
+      "value": "bb:location:red-door-alchemy",
+      "resolved_id": "bb:location:red-door-alchemy",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\brin.md",
+      "field": "allies",
+      "value": "bb:npc:maelia-gorse",
+      "resolved_id": "bb:npc:maelia-gorse",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\brin.md",
+      "field": "appears_in",
+      "value": "bb:location:red-door-alchemy",
+      "resolved_id": "bb:location:red-door-alchemy",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\crank.md",
+      "field": "location",
+      "value": "bb:location:chase-gun-condos",
+      "resolved_id": "bb:location:chase-gun-condos",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\crank.md",
+      "field": "appears_in",
+      "value": "bb:location:chase-gun-condos",
+      "resolved_id": "bb:location:chase-gun-condos",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\high-numerator-fex.md",
+      "field": "location",
+      "value": "bb:location:lending-house-black-brine",
+      "resolved_id": "bb:location:lending-house-black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\high-numerator-fex.md",
+      "field": "factions*",
+      "value": "bb:faction:twilight-society",
+      "resolved_id": "bb:faction:twilight-society",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\high-numerator-fex.md",
+      "field": "appears_in",
+      "value": "bb:location:lending-house-black-brine",
+      "resolved_id": "bb:location:lending-house-black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Maelia Gorse.md",
       "field": "location",
       "value": "Red Door Alchemy, Salt Crown Shores",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\maelia-gorse.md",
+      "field": "location",
+      "value": "bb:location:red-door-alchemy",
+      "resolved_id": "bb:location:red-door-alchemy",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\maelia-gorse.md",
+      "field": "allies",
+      "value": "bb:npc:brin",
+      "resolved_id": "bb:npc:brin",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\maelia-gorse.md",
+      "field": "appears_in",
+      "value": "bb:location:red-door-alchemy",
+      "resolved_id": "bb:location:red-door-alchemy",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -830,6 +956,51 @@
       "field": "appears_in",
       "value": "bb:location:miremarket",
       "resolved_id": "bb:location:miremarket",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\rita-kess.md",
+      "field": "location",
+      "value": "bb:location:ritas-smithy",
+      "resolved_id": "bb:location:ritas-smithy",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\rita-kess.md",
+      "field": "appears_in",
+      "value": "bb:location:ritas-smithy",
+      "resolved_id": "bb:location:ritas-smithy",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\sinker.md",
+      "field": "location",
+      "value": "bb:location:sinkers-curiosities",
+      "resolved_id": "bb:location:sinkers-curiosities",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\sinker.md",
+      "field": "rivals",
+      "value": "bb:npc:the-noose",
+      "resolved_id": "bb:npc:the-noose",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\sinker.md",
+      "field": "appears_in",
+      "value": "bb:location:sinkers-curiosities",
+      "resolved_id": "bb:location:sinkers-curiosities",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -916,6 +1087,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\code-of-black-brine.md",
+      "field": "controls",
+      "value": "bb:city:city-of-black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\district-of-blackmire.md",
       "field": "parent_location",
       "value": "bb:city:black-brine",
@@ -943,12 +1123,12 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\The Code of Black Brine.md",
-      "field": "controls",
-      "value": "bb:city:city-of-black-brine",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\district-of-saltcrown.md",
+      "field": "parent_location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -974,6 +1154,15 @@
       "field": "parent_location",
       "value": "bb:district:blackmire",
       "resolved_id": "bb:district:blackmire",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\drunken-satyr.md",
+      "field": "parent_location",
+      "value": "bb:district:salt-crown",
+      "resolved_id": "bb:district:salt-crown",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -1015,12 +1204,66 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Lending House.md",
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\gentle-rest-inn.md",
+      "field": "parent_location",
+      "value": "bb:district:salt-crown",
+      "resolved_id": "bb:district:salt-crown",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\golden-gull.md",
       "field": "parent_location",
       "value": "bb:city:city-of-black-brine",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\lending-house.md",
+      "field": "parent_location",
+      "value": "bb:district:salt-crown",
+      "resolved_id": "bb:district:salt-crown",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\lending-house.md",
+      "field": "factions*",
+      "value": "bb:faction:twilight-society",
+      "resolved_id": "bb:faction:twilight-society",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\lending-house.md",
+      "field": "participants",
+      "value": "bb:npc:maelia-gorse",
+      "resolved_id": "bb:npc:maelia-gorse",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\lending-house.md",
+      "field": "participants",
+      "value": "bb:npc:vel-corven",
+      "resolved_id": "bb:npc:vel-corven",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\lending-house.md",
+      "field": "participants",
+      "value": "bb:npc:high-numerator-fex",
+      "resolved_id": "bb:npc:high-numerator-fex",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -1033,7 +1276,52 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Soggy Town Play House.md",
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\red-door-alchemy.md",
+      "field": "parent_location",
+      "value": "bb:district:salt-crown",
+      "resolved_id": "bb:district:salt-crown",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\red-door-alchemy.md",
+      "field": "participants",
+      "value": "bb:npc:maelia-gorse",
+      "resolved_id": "bb:npc:maelia-gorse",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\red-door-alchemy.md",
+      "field": "participants",
+      "value": "bb:npc:brin",
+      "resolved_id": "bb:npc:brin",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\ritas-smithy.md",
+      "field": "parent_location",
+      "value": "bb:district:salt-crown",
+      "resolved_id": "bb:district:salt-crown",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\sinkers-curiosity-shop.md",
+      "field": "parent_location",
+      "value": "bb:district:salt-crown",
+      "resolved_id": "bb:district:salt-crown",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\soggy-town-playhouse.md",
       "field": "parent_location",
       "value": "bb:city:city-of-black-brine",
       "resolved_id": null,
@@ -1051,12 +1339,12 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\The Golden Gull.md",
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\the-bonewalk.md",
       "field": "parent_location",
-      "value": "bb:city:city-of-black-brine",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "value": "bb:district:salt-crown",
+      "resolved_id": "bb:district:salt-crown",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {

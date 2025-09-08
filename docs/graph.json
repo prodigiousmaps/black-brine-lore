@@ -1828,73 +1828,44 @@
       }
     },
     {
-      "id": "bb:organization:the-twilight-society",
-      "type": "organization",
-      "name": "Twilight Society",
+      "id": "bb:faction:twilight-society",
+      "type": "faction",
+      "name": "The Twilight Society",
       "tags": [
-        "faction",
-        "nobility",
-        "cult",
-        "debauchery",
-        "politics",
-        "seduction",
-        "secrets"
+        "salt-crown",
+        "elite",
+        "salons",
+        "intrigue"
       ],
-      "source": "RPG_Knowledge_Base\\04_Factions\\Criminal\\The Twilight Society.md",
+      "source": "RPG_Knowledge_Base\\04_Factions\\Criminal\\twilight-society.md",
       "fm": {
-        "type": "organization",
-        "name": "Twilight Society",
-        "location": "bb:location:lending-house",
+        "type": "faction",
+        "id": "bb:faction:twilight-society",
+        "name": "The Twilight Society",
+        "summary": "Velvet-gloved cabal of aristocrats and financiers who pull strings from lounges and ledgers.",
+        "location": "bb:district:salt-crown",
+        "leaders": [],
+        "controls": [
+          "bb:location:lending-house-black-brine"
+        ],
+        "allies": [],
+        "rivals": [],
         "tags": [
-          "faction",
-          "nobility",
-          "cult",
-          "debauchery",
-          "politics",
-          "seduction",
-          "secrets"
-        ],
-        "overview": "The Twilight Society is an exclusive circle of wealthy, beautiful, and dangerous elites who worship pleasure, secrecy, and subtle power. Cloaked in hedonism and mysticism, they operate under the guise of socialites and art patrons, but beneath the velvet and wine lies a hidden devotion to the goddess Sharess. The society manipulates, corrupts, and blackmails its way through Black Brine’s high places, cloaking vice in the perfume of nobility.\n",
-        "leader": {
-          "name": "Vel Corven",
-          "race": "Androgynous Elf (unknown lineage)",
-          "role": "High Host of the Society",
-          "description": "A radiant figure of ambiguous gender, velvety voice, and effortless charm. Vel is rumored to be centuries old and never seen in daylight. Their mask changes nightly.\n"
-        },
-        "members": {
-          "demographics": "Nobles, entertainers, fallen clerics, ex-pirates, ambitious merchants",
-          "initiation": "Invitation-only. New members must offer a personal secret of value, to be held in trust—or used for leverage."
-        },
-        "beliefs": [
-          "Pleasure is the highest form of power",
-          "Secrets are the purest form of currency",
-          "Pain and joy are divine instruments of transformation",
-          "Public morality is a lie for the weak"
-        ],
-        "customs": [
-          "Midnight gatherings marked by masked revels and silent auctions of forbidden artifacts",
-          "Rituals held in perfumed candlelight involving wine, veils, and whispered prayers to Sharess",
-          "The “Velvet Mark” – a perfume blend unique to each member, meant to intoxicate and signal allegiance"
-        ],
-        "notable_location": {
-          "name": "The Velvet Nest",
-          "description": "A rooftop pleasure garden above the Lending House, filled with exotic flora, silken cushions, and concealed passageways. Protected by enchantments of illusion and silence.\n"
-        },
-        "rivalries": [
-          "Opposed by Rosy and the Church of Sedna for undermining discipline and tradition",
-          "Viewed with disdain by the Temple of the Chained God, which considers them a moral plague",
-          "In quiet competition with the Red Door Alchemy Shop for arcane and sensual potions"
-        ],
-        "influence": "The Twilight Society has its hooks in lenders, officers, aristocrats, and entertainers. Many owe them favors—few dare to admit it. Their decadence masks an efficient intelligence network.\n",
-        "hooks": [
-          "A member's secret has been stolen and threatens to unravel the society",
-          "The Velvet Nest is hosting an invite-only masquerade—and someone isn’t on the list",
-          "A Twilight acolyte is selling sacred pleasure elixirs that seem to drive users mad"
+          "salt-crown",
+          "elite",
+          "salons",
+          "intrigue"
         ]
       },
-      "body_excerpt": "",
+      "body_excerpt": "overview: >\n  The Twilight Society is an exclusive circle of wealthy, beautiful, and dangerous elites who worship pleasure, secrecy, and subtle power. Cloaked in hedonism and mysticism, they operate under the guise of socialites and art patrons, but beneath the velvet and wine lies a hidden devotion to the goddess Sharess. The society manipulates, corrupts, and blackmails its way through Black Brine’s high places, cloaking vice in the perfume of nobility.\n\nleader:\n  name: Vel Corven\n  race: Androgynous Elf (unknown lineage)\n  role: High Host of the Society\n  description: >\n    A radiant figure of ambiguous gender, velvety voice, and effortless charm. Vel is rumored to be centuries old and never seen in daylight. Their mask changes nightly.\n\nmembers:\n  demographics: Nobles, entertainers, fa…",
       "raw": {
-        "location": "bb:location:lending-house"
+        "location": "bb:district:salt-crown",
+        "allies": [],
+        "rivals": [],
+        "leaders": [],
+        "controls": [
+          "bb:location:lending-house-black-brine"
+        ]
       }
     },
     {
@@ -1995,12 +1966,17 @@
         "socialite",
         "manipulator",
         "feytouched",
-        "secretive"
+        "secretive",
+        "salt-crown",
+        "broker",
+        "twilight-society"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
       "fm": {
         "type": "npc",
+        "id": "bb:npc:vel-corven",
         "name": "Vel Corven",
+        "summary": "Twilight Society fixture; schmoozes deals in the Velvet Nest above the Lending House.",
         "aliases": [
           "The Velvet Flame",
           "The Masked Host",
@@ -2012,13 +1988,19 @@
         "occupation": "High Host of the Twilight Society",
         "affiliation": "Twilight Society",
         "location": "bb:location:lending-house",
+        "appears_in": [
+          "bb:location:lending-house-black-brine"
+        ],
         "tags": [
           "noble",
           "cult leader",
           "socialite",
           "manipulator",
           "feytouched",
-          "secretive"
+          "secretive",
+          "salt-crown",
+          "broker",
+          "twilight-society"
         ],
         "appearance": "Vel is a vision of elegance and mystery. Slender and tall, they glide rather than walk, draped in flowing silks and adorned in moonstone jewelry. Their mask—different every night—hides all but their piercing eyes, which shimmer like still water under starlight. Their scent, a heady blend of rare spices and midnight blooms, clings to every room they leave.\n",
         "personality": "Vel speaks in riddles and rhymes, weaving gossip with prophecy. They are seductively persuasive, rarely raise their voice, and command a room with poise alone. Devoted to beauty, sensation, and the subtle accumulation of power, Vel exudes patience, menace, and allure in equal measure. They reward loyalty with luxury—and betrayal with elegant ruin.\n",
@@ -2076,6 +2058,9 @@
           "Several captains on the Council who fear their influence",
           "bb:Page:captain-gun-deck-rosy",
           "bb:location:temple-of-the-chained-god"
+        ],
+        "appears_in": [
+          "bb:location:lending-house-black-brine"
         ]
       }
     },
@@ -2352,6 +2337,49 @@
       }
     },
     {
+      "id": "bb:npc:brin",
+      "type": "npc",
+      "name": "Brin",
+      "tags": [
+        "salt-crown",
+        "apprentice",
+        "alchemy"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\brin.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:brin",
+        "name": "Brin",
+        "summary": "Mute apprentice at Red Door Alchemy; precise hands, quicker with a bone saw than words.",
+        "location": "bb:location:red-door-alchemy",
+        "factions": [],
+        "allies": [
+          "bb:npc:maelia-gorse"
+        ],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:red-door-alchemy"
+        ],
+        "tags": [
+          "salt-crown",
+          "apprentice",
+          "alchemy"
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "location": "bb:location:red-door-alchemy",
+        "factions": [],
+        "allies": [
+          "bb:npc:maelia-gorse"
+        ],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:red-door-alchemy"
+        ]
+      }
+    },
+    {
       "id": "bb:Page:captain-bloodshot",
       "type": "Page",
       "name": "Captain Bloodshot",
@@ -2571,6 +2599,45 @@
       "raw": {}
     },
     {
+      "id": "bb:npc:crank",
+      "type": "npc",
+      "name": "Crank",
+      "tags": [
+        "salt-crown",
+        "steward",
+        "security"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\crank.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:crank",
+        "name": "Crank",
+        "summary": "Retired bosun turned steward and doorman of the Chase Gun Condos; keeps a very quiet ledger.",
+        "location": "bb:location:chase-gun-condos",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:chase-gun-condos"
+        ],
+        "tags": [
+          "salt-crown",
+          "steward",
+          "security"
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "location": "bb:location:chase-gun-condos",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:chase-gun-condos"
+        ]
+      }
+    },
+    {
       "id": "bb:Page:fenrith",
       "type": "Page",
       "name": "Fenrith",
@@ -2598,6 +2665,49 @@
       },
       "body_excerpt": "# Fenrith\n\n[[IMG_1584]]\n\n### **The Venom-Eyed Gunslinger**\n\n**Race:** Yuan-Ti Pureblood\n\n**Class:** Fighter (Gunslinger) / Rogue (Inquisitive)\n\n**Alignment:** Neutral Evil (But Pragmatic)\n\n**Age:** Unknown (Appears in his prime)\n\n**Languages:** Common, Draconic, Abyssal, Yuan-Ti Cant\n\n**Expertise:** Firearms, long-range combat, tracking, tactics, and assassination\n\n---\n\n### **Overview**\n\nFenrith is a name whispered **in fear and respect** across the lawless corners of Faerûn. A **gunfighter without equal**, he sees the world through the **cold calculation of a predator**, lining up every shot with the precision of a serpent striking its prey.\n\nThe PCs may seek him out **to learn the art of firearms**, but Fenrith does not **teach the weak**. He will train **only those he deems worthy**, an…",
       "raw": {}
+    },
+    {
+      "id": "bb:npc:high-numerator-fex",
+      "type": "npc",
+      "name": "High Numerator Fex",
+      "tags": [
+        "salt-crown",
+        "coinmage",
+        "vault"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\high-numerator-fex.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:high-numerator-fex",
+        "name": "High Numerator Fex",
+        "summary": "Secretive coin-mage rumored to keep Vault 9’s wards and ledgers.",
+        "location": "bb:location:lending-house-black-brine",
+        "factions": [
+          "bb:faction:twilight-society"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:lending-house-black-brine"
+        ],
+        "tags": [
+          "salt-crown",
+          "coinmage",
+          "vault"
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "location": "bb:location:lending-house-black-brine",
+        "factions": [
+          "bb:faction:twilight-society"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:lending-house-black-brine"
+        ]
+      }
     },
     {
       "id": "bb:Page:lady-jackdaw--rupert-s-butler",
@@ -2720,6 +2830,49 @@
       }
     },
     {
+      "id": "bb:npc:maelia-gorse",
+      "type": "npc",
+      "name": "Maelia Gorse",
+      "tags": [
+        "salt-crown",
+        "alchemist",
+        "apothecary"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\maelia-gorse.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:maelia-gorse",
+        "name": "Maelia Gorse",
+        "summary": "Pale, ink-stained alchemist of Red Door Alchemy; encyclopedic on venoms and cures.",
+        "location": "bb:location:red-door-alchemy",
+        "factions": [],
+        "allies": [
+          "bb:npc:brin"
+        ],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:red-door-alchemy"
+        ],
+        "tags": [
+          "salt-crown",
+          "alchemist",
+          "apothecary"
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "location": "bb:location:red-door-alchemy",
+        "factions": [],
+        "allies": [
+          "bb:npc:brin"
+        ],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:red-door-alchemy"
+        ]
+      }
+    },
+    {
       "id": "bb:npc:mister-blight",
       "type": "npc",
       "name": "Mister Blight",
@@ -2765,14 +2918,88 @@
       }
     },
     {
-      "id": "bb:page:ritas-kess",
-      "type": "page",
-      "name": "Ritas Kess",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Ritas Kess.md",
-      "fm": {},
+      "id": "bb:npc:rita-kess",
+      "type": "npc",
+      "name": "Rita Kess",
+      "tags": [
+        "salt-crown",
+        "smith",
+        "gond"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\rita-kess.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:rita-kess",
+        "name": "Rita Kess",
+        "summary": "Black Brine’s finest weaponsmith; runs a disciplined forge-compound in Salt Crown.",
+        "location": "bb:location:ritas-smithy",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:ritas-smithy"
+        ],
+        "tags": [
+          "salt-crown",
+          "smith",
+          "gond"
+        ]
+      },
+      "body_excerpt": "# Rita Kess\n\n## Appearance\nBroad-shouldered and iron-eyed, Rita wears soot like a second skin. Her hair, once red, is now streaked with gray and always tied back under a leather bandana. Thick arms, burn-scarred hands, and an ever-present blacksmith’s apron mark her trade. Her boots are steel-toed and her voice has the rumble of hammer on anvil.\n\n## Personality\nBlunt, disciplined, and proud. Rita values precision over praise and effort over excuses. She has little patience for fools and less for flattery. Beneath the tough exterior lies a quiet care for her apprentices and a deep love for her work. She believes every blade tells a story, and poorly made ones are lies.\n\n## Backstory\nRita fought in her youth—ships, raids, skirmishes across the southern coasts. But when her captain fell and h…",
+      "raw": {
+        "location": "bb:location:ritas-smithy",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:ritas-smithy"
+        ]
+      }
+    },
+    {
+      "id": "bb:npc:sinker",
+      "type": "npc",
+      "name": "Sinker",
+      "tags": [
+        "salt-crown",
+        "shopkeeper",
+        "relics",
+        "oddities"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\sinker.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:sinker",
+        "name": "Sinker",
+        "summary": "Half-mad, half-genius proprietor of Sinker’s Curiosities who claims to hear relics “speak.” Trades in cursed objects and impossible stories.\n",
+        "location": "bb:location:sinkers-curiosities",
+        "factions": [],
+        "allies": [],
+        "rivals": [
+          "bb:npc:the-noose"
+        ],
+        "appears_in": [
+          "bb:location:sinkers-curiosities"
+        ],
+        "tags": [
+          "salt-crown",
+          "shopkeeper",
+          "relics",
+          "oddities"
+        ]
+      },
       "body_excerpt": "",
-      "raw": {}
+      "raw": {
+        "location": "bb:location:sinkers-curiosities",
+        "factions": [],
+        "allies": [],
+        "rivals": [
+          "bb:npc:the-noose"
+        ],
+        "appears_in": [
+          "bb:location:sinkers-curiosities"
+        ]
+      }
     },
     {
       "id": "bb:Page:strange-bones",
@@ -2900,13 +3127,13 @@
     {
       "id": "bb:Page:black-brine-river",
       "type": "Page",
-      "name": "Black Brine River",
+      "name": "black-brine-river",
       "tags": [
         "Island",
         "LandFeatures",
         "river"
       ],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\Black Brine River.md",
+      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\black-brine-river.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -2962,6 +3189,40 @@
       }
     },
     {
+      "id": "bb:Page:code-of-black-brine",
+      "type": "Page",
+      "name": "code-of-black-brine",
+      "tags": [
+        "Town",
+        "laws"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\code-of-black-brine.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "The Code of Black Brine",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-02-11T03:12:34.675Z",
+        "creationDate": "2025-02-10 21:12",
+        "modificationDate": "2025-02-10 21:22",
+        "tags": [
+          "Town",
+          "laws"
+        ],
+        "coverImage": null,
+        "controls": [
+          "bb:city:city-of-black-brine"
+        ]
+      },
+      "body_excerpt": "# The Code of Black Brine\n\n**The Code of Black Brine**\n\nBlack Brine is a pirate stronghold, but **even pirates need rules**—not for justice, but for **survival**. The **Council of Captains** enforces a **simple but brutal code**, ensuring order in a city filled with cutthroats, thieves, and fugitives.\n\n---\n\n### **The Five Laws of Black Brine**\n\n1. **The Island Stays Secret**\n\n    - No one speaks of **Sedna’s waters, Black Brine’s location, or the ways to find it**—not in port, not in letters, not even in drunken whispers.\n\n    - Those who **break this silence** are labeled **Breachers**—and **no Breacher leaves the island alive**.\n\n2. **The Right to Keep What You Take**\n\n    - **Theft is legal—until the owner catches you.** If you steal, be ready to **fight for it**.\n\n    - If **you are ca…",
+      "raw": {
+        "controls": [
+          "bb:city:city-of-black-brine"
+        ]
+      }
+    },
+    {
       "id": "bb:page:district-of-little-sedna",
       "type": "page",
       "name": "District of Little Sedna",
@@ -2977,16 +3238,6 @@
       "name": "District of Mistwalk",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\District of Mistwalk.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
-    },
-    {
-      "id": "bb:page:district-of-salt-crown",
-      "type": "page",
-      "name": "District of Salt Crown",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\District of Salt Crown.md",
       "fm": {},
       "body_excerpt": "",
       "raw": {}
@@ -3113,15 +3364,56 @@
       }
     },
     {
+      "id": "bb:district:salt-crown",
+      "type": "district",
+      "name": "Salt Crown",
+      "tags": [
+        "district",
+        "docks",
+        "smuggling",
+        "crime",
+        "lore",
+        "low-class",
+        "eccentric"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\district-of-saltcrown.md",
+      "fm": {
+        "type": "district",
+        "id": "bb:district:salt-crown",
+        "name": "Salt Crown",
+        "parent_location": "bb:city:black-brine",
+        "location_type": "district",
+        "population": "~3,000",
+        "government": "Controlled by pirate gangs and smugglers, nominal oversight from the Captain’s Council",
+        "maps_available": true,
+        "map_files": [
+          "SaltCrownDistrict.jpg"
+        ],
+        "tags": [
+          "district",
+          "docks",
+          "smuggling",
+          "crime",
+          "lore",
+          "low-class",
+          "eccentric"
+        ]
+      },
+      "body_excerpt": "# Overview\nSalt Crown clings to the jagged shoreline like a rusted barnacle, half-rotted and wholly dangerous. A district of leaning taverns, secret stairways, and alleys that turn back on themselves, it is home to smugglers, gamblers, storytellers, and killers with a grin. It’s where the stories start, the coin changes hands, and the trouble always finds you—if you don’t find it first.\n\n# Geography\n- Crumbling bluff above southern docks.  \n- Tide-battered piers and reef-side caverns.  \n- Uneven stone stairs, rope bridges, and stacked driftwood towers.  \n- Basalt outcroppings and ancient ruins jutting through streets.  \n\n# Notable Features\n- **Sinker’s Curiosities** – A repurposed sloop turned curiosity shop of strange magical items and dangerous oddities. Home of the enigmatic shopkeeper …",
+      "raw": {
+        "parent_location": "bb:city:black-brine"
+      }
+    },
+    {
       "id": "bb:Page:geography-of-black-brine",
       "type": "Page",
-      "name": "Geography of Black Brine",
+      "name": "geography-of-black-brine",
       "tags": [
         "Town",
         "location",
         "Districts"
       ],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\Geography of Black Brine.md",
+      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\geography-of-black-brine.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -3144,13 +3436,13 @@
     {
       "id": "bb:Page:government",
       "type": "Page",
-      "name": "Government",
+      "name": "government",
       "tags": [
         "Town",
         "Rosy",
         "laws"
       ],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\Government.md",
+      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\government.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -3169,40 +3461,6 @@
       },
       "body_excerpt": "# Government\n\n### **The Council of Captains**\n\n- The **eight most powerful and prosperous captains** make up the ruling body.\n\n- Likely each has their own fleet, resources, and strongholds within or beyond Black Brine.\n\n- They govern by a mix of tradition, strength, and negotiation, with alliances shifting frequently.\n\n### **Governor \"Gun Deck\" Rosy**\n\n- A **female tiefling**, suggesting she may have an infernal heritage that adds to her mystique.\n\n- Her nickname **\"Gun Deck\"** implies expertise in naval warfare, possibly a pioneer in gunpowder tactics.\n\n- As an elected leader, she must balance the **volatile ambitions** of the captains while maintaining Black Brine’s prosperity.",
       "raw": {}
-    },
-    {
-      "id": "bb:Page:the-code-of-black-brine",
-      "type": "Page",
-      "name": "The Code of Black Brine",
-      "tags": [
-        "Town",
-        "laws"
-      ],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\The Code of Black Brine.md",
-      "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "The Code of Black Brine",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-02-11T03:12:34.675Z",
-        "creationDate": "2025-02-10 21:12",
-        "modificationDate": "2025-02-10 21:22",
-        "tags": [
-          "Town",
-          "laws"
-        ],
-        "coverImage": null,
-        "controls": [
-          "bb:city:city-of-black-brine"
-        ]
-      },
-      "body_excerpt": "# The Code of Black Brine\n\n**The Code of Black Brine**\n\nBlack Brine is a pirate stronghold, but **even pirates need rules**—not for justice, but for **survival**. The **Council of Captains** enforces a **simple but brutal code**, ensuring order in a city filled with cutthroats, thieves, and fugitives.\n\n---\n\n### **The Five Laws of Black Brine**\n\n1. **The Island Stays Secret**\n\n    - No one speaks of **Sedna’s waters, Black Brine’s location, or the ways to find it**—not in port, not in letters, not even in drunken whispers.\n\n    - Those who **break this silence** are labeled **Breachers**—and **no Breacher leaves the island alive**.\n\n2. **The Right to Keep What You Take**\n\n    - **Theft is legal—until the owner catches you.** If you steal, be ready to **fight for it**.\n\n    - If **you are ca…",
-      "raw": {
-        "controls": [
-          "bb:city:city-of-black-brine"
-        ]
-      }
     },
     {
       "id": "bb:location:black-brine-library",
@@ -3248,9 +3506,9 @@
       "raw": {}
     },
     {
-      "id": "bb:Page:captain-s-club",
+      "id": "bb:Page:captains-club",
       "type": "Page",
-      "name": "Captain_s Club",
+      "name": "captains-club",
       "tags": [
         "Town",
         "location",
@@ -3258,7 +3516,7 @@
         "tavern",
         "CouncilOfCaptains"
       ],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Captain_s Club.md",
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\captains-club.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -3320,19 +3578,19 @@
     {
       "id": "bb:page:chase-gun-condos",
       "type": "page",
-      "name": "Chase Gun Condos",
+      "name": "chase-gun-condos",
       "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Chase Gun Condos.md",
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\chase-gun-condos.md",
       "fm": {},
-      "body_excerpt": "",
+      "body_excerpt": "# Overview\nA lavish multi-tiered residence carved from an old artillery barracks. Cannons now serve as décor in courtyards where captains and quartermasters buy prestige as much as privacy.\n\n# Geography\nUphill from the Salt Crown market with balconies over the harbor; fortified timber-and-stone frame.\n\n# Notable Features\n- Private guard & doorman (retired bosun “Crank”)\n- Rooftop watch deck for spotting fleet arrivals\n- Courtyard well; cannon-fountain centerpiece\n\n# Demographics\nSuccessful pirates, retired smugglers, wealthy merchants tied to fleet politics.\n\n# Culture & Daily Life\nQuiet competition in ostentation; gossip spreads balcony-to-balcony. Duels banned on premises.\n\n# Secrets (DM Only)\nA panic room from the barracks era connects to a hidden tunnel. Crank’s “logs” of comings/going…",
       "raw": {}
     },
     {
       "id": "bb:page:city-hull",
       "type": "page",
-      "name": "City Hull",
+      "name": "city-hull",
       "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\City Hull.md",
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\city-hull.md",
       "fm": {},
       "body_excerpt": "",
       "raw": {}
@@ -3373,9 +3631,9 @@
     {
       "id": "bb:page:cuttys-blades",
       "type": "page",
-      "name": "Cuttys Blades",
+      "name": "cuttys-blades",
       "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Cuttys Blades.md",
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\cuttys-blades.md",
       "fm": {},
       "body_excerpt": "",
       "raw": {}
@@ -3383,22 +3641,47 @@
     {
       "id": "bb:page:drowned-market",
       "type": "page",
-      "name": "Drowned Market",
+      "name": "drowned-market",
       "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Drowned Market.md",
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\drowned-market.md",
       "fm": {},
       "body_excerpt": "",
       "raw": {}
     },
     {
-      "id": "bb:page:drunken-satyr",
-      "type": "page",
-      "name": "Drunken Satyr",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Drunken Satyr.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
+      "id": "bb:location:drunken-satyr",
+      "type": "location",
+      "name": "The Drunken Satyr",
+      "tags": [
+        "salt-crown",
+        "tavern",
+        "rumors",
+        "rustic",
+        "eccentric"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\drunken-satyr.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:drunken-satyr",
+        "name": "The Drunken Satyr",
+        "parent_location": "bb:district:salt-crown",
+        "location_type": "tavern",
+        "population": "transient (varies)",
+        "government": "private ownership",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "salt-crown",
+          "tavern",
+          "rumors",
+          "rustic",
+          "eccentric"
+        ]
+      },
+      "body_excerpt": "# Overview\nA crooked two-story tavern of driftwood and sea-scavenged beams. Music from nowhere, rooms that never look the same twice, and a barkeep who never sleeps.\n\n# Geography\nStilted into a cliff hollow; rope-anchored against tides; lantern-lit path down from the market.\n\n# Notable Features\n- Layout & décor subtly shift between visits\n- Stage for bards and storytellers\n- Strange upper rooms—some locked for decades\n- Cellar rumored to open into something older\n\n# Demographics\nFishers, poets, hedge-wizards, nobles “slumming.”\n\n# Culture & Daily Life\nBarter, coin, or riddles accepted. Brawls end within a minute—something unseen intervenes.\n\n# Secrets (DM Only)\nBuilt atop a druidic circle—or the tavern’s founder was a cursed fey. Lights in upper windows after midnight.\n\n# Adventure Hooks\n-…",
+      "raw": {
+        "parent_location": "bb:district:salt-crown"
+      }
     },
     {
       "id": "bb:location:dry-docks-crosswater",
@@ -3549,45 +3832,123 @@
     {
       "id": "bb:page:gallows-market",
       "type": "page",
-      "name": "Gallows Market",
+      "name": "gallows-market",
       "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Gallows Market.md",
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\gallows-market.md",
       "fm": {},
       "body_excerpt": "",
       "raw": {}
     },
     {
-      "id": "bb:page:gentle-rest-inn",
+      "id": "bb:location:gentle-rest-inn",
+      "type": "location",
+      "name": "The Gentle Rest Inn",
+      "tags": [
+        "salt-crown",
+        "tavern",
+        "butchers",
+        "crime",
+        "torture",
+        "deals"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\gentle-rest-inn.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:gentle-rest-inn",
+        "name": "The Gentle Rest Inn",
+        "parent_location": "bb:district:salt-crown",
+        "location_type": "tavern",
+        "population": "80–120 (patrons, enforcers) on busy nights",
+        "government": "none (run by the Butchers under The Noose)",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "salt-crown",
+          "tavern",
+          "butchers",
+          "crime",
+          "torture",
+          "deals"
+        ]
+      },
+      "body_excerpt": "# Overview\nA raucous tavern where laughter turns to screams below the floorboards. Contracts are sealed in blood; debts are collected in the cellar. The Butchers call it “neutral ground,” but only fools believe that.\n\n# Notable Features\n- Private back rooms with sound-dampening planks.\n- Cellar with hooks, drains, and prayer-scarred posts.\n- Balcony booths where The Noose watches undisturbed.\n\n# Adventure Hooks\n- A debtor begs the PCs to extract them before “last call.”\n- A blood-inked contract must be stolen and burned to break it.\n- A hidden witness saw a Council envoy meet The Noose here.\n\n# Secrets (DM Only)\n- A tunnel under the cellar links to reef caves used by the cult.\n- The floorboards are inlaid with runes that bind oaths.\n\n# Connected Locations\n- **bb:district:salt-crown**",
+      "raw": {
+        "parent_location": "bb:district:salt-crown"
+      }
+    },
+    {
+      "id": "bb:page:golden-gull",
       "type": "page",
-      "name": "Gentle Rest Inn",
+      "name": "golden-gull",
       "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Gentle Rest Inn.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\golden-gull.md",
+      "fm": {
+        "parent_location": "bb:city:city-of-black-brine"
+      },
+      "body_excerpt": "---\ntype: location\nname: The Golden Gull\nlocation_type: tavern\ndistrict: Crosswater\nparent_location: Black Brine\nmaps_available: false\nmap_files: []\ntags: [tavern, upscale, music, intrigue, crosswater, social hub]\n\noverview: >\n  The Golden Gull is an upscale tavern nestled between warehouses and sea-captain estates in the Crosswater District. Known for its fine drink, softer lighting, and whispered dealings, it serves merchants, smugglers, and off-duty fleet officers looking for luxury without judgment.\n\nappearance: >\n  Lanterns hang from curved brass arms, casting golden pools of light across polished wood and sea-glass windows. A mounted gull in mid-flight—wings spread and dipped in gold leaf—hangs from the ceiling. Sea breezes curl through tall shuttered windows.\n\nrole_in_society: >\n  T…",
+      "raw": {
+        "parent_location": "bb:city:city-of-black-brine"
+      }
     },
     {
       "id": "bb:page:house-of-questions",
       "type": "page",
-      "name": "House of Questions",
+      "name": "house-of-questions",
       "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\House of Questions.md",
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\house-of-questions.md",
       "fm": {},
       "body_excerpt": "",
       "raw": {}
     },
     {
-      "id": "bb:page:lending-house",
-      "type": "page",
-      "name": "Lending House",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Lending House.md",
+      "id": "bb:location:lending-house-black-brine",
+      "type": "location",
+      "name": "Lending House of Black Brine",
+      "tags": [
+        "salt-crown",
+        "bank",
+        "wealth",
+        "intrigue",
+        "twilight-society"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\lending-house.md",
       "fm": {
-        "parent_location": "bb:city:city-of-black-brine"
+        "type": "location",
+        "id": "bb:location:lending-house-black-brine",
+        "name": "Lending House of Black Brine",
+        "parent_location": "bb:district:salt-crown",
+        "location_type": "financial institution",
+        "maps_available": true,
+        "map_files": [
+          "SaltCrown-Day.jpg"
+        ],
+        "tags": [
+          "salt-crown",
+          "bank",
+          "wealth",
+          "intrigue",
+          "twilight-society"
+        ],
+        "factions": [
+          "bb:faction:twilight-society"
+        ],
+        "participants": [
+          "bb:npc:high-numerator-fex",
+          "bb:npc:maelia-gorse",
+          "bb:npc:vel-corven"
+        ]
       },
-      "body_excerpt": "---\ntype: location\nname: Lending House of Black Brine\nlocation_type: financial institution\ndistrict: Salt Crown\nparent_location: Black Brine\nmaps_available: true\nmap_files: [SaltCrown-Day.jpg]\ntags: [bank, politics, twilight society, wealth, intrigue]\n\noverview: >\n  The Lending House of Black Brine is the beating heart of the city’s wealth, where fortunes are made, ruined, and whispered into shadow. Towering and ivy-draped, its fortress-like stone walls house vaults deeper than most cellars dare to dig, and its interest rates are whispered with more fear than most curses.\n\nappearance: >\n  The building looms over Salt Crown like a silent warden of gold. Its architecture is high-walled and austere—gilded ironwork over glass, rust-red ivy crawling up polished limestone, and gargoyle spouts sh…",
+      "body_excerpt": "# Overview\nFortress-bank of the city—treasury, mint, and spider’s web of obligation. Vaults run deeper than most cellars; interest rates are feared like curses.\n\n# Appearance\nHigh-walled stone, gilded ironwork, rust-red ivy, gargoyle spouts like open purses. A rooftop garden lounge—**the Velvet Nest**—hosts whispered soirees.\n\n# Role in Society\nIssues coin, holds war chests, underwrites fleets, enforces loans with arcane clauses.\n\n# Services\n- Vault storage (arcane wards available)\n- Loans & investments\n- Magical/rare item appraisal\n- Expedition sponsorships\n- Velvet Nest access (by invitation)\n\n# Notable Features\n- Velvet Nest (Twilight Society haunt)\n- Vault 9 (unknown wards; rumored “god’s IOU”)\n- Hall of Promissory Chains (debts float as script)\n\n# Rumors\n- Sedna’s original challenge c…",
       "raw": {
-        "parent_location": "bb:city:city-of-black-brine"
+        "parent_location": "bb:district:salt-crown",
+        "factions": [
+          "bb:faction:twilight-society"
+        ],
+        "participants": [
+          "bb:npc:high-numerator-fex",
+          "bb:npc:maelia-gorse",
+          "bb:npc:vel-corven"
+        ]
       }
     },
     {
@@ -3626,9 +3987,9 @@
     {
       "id": "bb:page:old-salt-eatery",
       "type": "page",
-      "name": "Old Salt Eatery",
+      "name": "old-salt-eatery",
       "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Old Salt Eatery.md",
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\old-salt-eatery.md",
       "fm": {},
       "body_excerpt": "",
       "raw": {}
@@ -3673,72 +4034,138 @@
       "raw": {}
     },
     {
-      "id": "bb:page:red-door-alchemy",
-      "type": "page",
+      "id": "bb:location:red-door-alchemy",
+      "type": "location",
       "name": "Red Door Alchemy",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Red Door Alchemy.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
+      "tags": [
+        "salt-crown",
+        "alchemy",
+        "magic",
+        "apothecary",
+        "shop"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\red-door-alchemy.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:red-door-alchemy",
+        "name": "Red Door Alchemy",
+        "parent_location": "bb:district:salt-crown",
+        "location_type": "shop",
+        "population": "1 owner, 1 assistant",
+        "government": "private business (light harbor-watch oversight)",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "salt-crown",
+          "alchemy",
+          "magic",
+          "apothecary",
+          "shop"
+        ],
+        "participants": [
+          "bb:npc:brin",
+          "bb:npc:maelia-gorse"
+        ]
+      },
+      "body_excerpt": "# Overview\nA windowless, crimson-doored apothecary in the warrens, steeped in exotic scents. Potions, poisons, and oddities—sold for coin, favors, or equal weirdness.\n\n# Geography\nBuilt into the bluff with cool cellars; a crooked chimney leaks foul smoke night and day.\n\n# Notable Features\n- Runes ward the crimson door\n- Chilled potion cases behind glass\n- Constant incense to “stabilize” reactions\n- Talking crow **Marrow** at the till\n\n# Proprietor\n**Maelia Gorse**, pale, ink-stained, encyclopedic on venoms/cures. Apprentice **Brin** is mute—and fast with a bone saw.\n\n# Culture & Policy\nNo sales to the “emotionally compromised.” Fleet captains send coded orders.\n\n# Secrets (DM Only)\nA sealed sub-chamber hosts experiments; rumors tie Maelia to Sedna’s cult.\n\n# Adventure Hooks\n- Love-tonic ov…",
+      "raw": {
+        "parent_location": "bb:district:salt-crown",
+        "participants": [
+          "bb:npc:brin",
+          "bb:npc:maelia-gorse"
+        ]
+      }
     },
     {
-      "id": "bb:page:ritas-smithy",
-      "type": "page",
-      "name": "Ritas Smithy",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Ritas Smithy.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
+      "id": "bb:location:ritas-smithy",
+      "type": "location",
+      "name": "Rita’s Smithy",
+      "tags": [
+        "salt-crown",
+        "smithy",
+        "weaponsmith",
+        "shrine",
+        "forge",
+        "artisan",
+        "gond"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\ritas-smithy.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:ritas-smithy",
+        "name": "Rita’s Smithy",
+        "parent_location": "bb:district:salt-crown",
+        "location_type": "compound",
+        "population": "1 master smith, 4 journeymen, 2 apprentices",
+        "government": "independent guildcraft (subject to Salt Crown trade laws)",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "salt-crown",
+          "smithy",
+          "weaponsmith",
+          "shrine",
+          "forge",
+          "artisan",
+          "gond"
+        ]
+      },
+      "body_excerpt": "# Overview\nA renowned forge-compound for crafting and teaching masterwork arms and tools under Rita Kess—Black Brine’s finest weaponsmith.\n\n# Geography & Layout\nMulti-building compound of dark stone and volcanic brick on a rising slope:\n- **Main Forge** (domed, open-sided, perpetual glow)\n- **Housing Wing** (journeymen quarters)\n- **Learning Hall** (blueprints & masterworks)\n- **Shrine Chamber** to **Gond**, god of craft\n\n# Notable Features\n- **Forge of Echoes**: ancient dwarven anvil that “remembers” techniques\n- Shrine alcove of clockwork sculpture and gears\n\n# Culture & Operations\nGuild-like discipline; apprentices forge their own tools; journeymen rotate market, commission, and defense-contract duties.\n\n# Lore & Rumors\nElemental fire gifted by a salamander; a rival’s shattered hammer h…",
+      "raw": {
+        "parent_location": "bb:district:salt-crown"
+      }
     },
     {
       "id": "bb:page:ruperts-rest",
       "type": "page",
-      "name": "Ruperts Rest",
+      "name": "ruperts-rest",
       "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Ruperts Rest.md",
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\ruperts-rest.md",
       "fm": {},
       "body_excerpt": "",
       "raw": {}
     },
     {
-      "id": "bb:Page:sinker-s-curiosity-shop",
-      "type": "Page",
-      "name": "Sinker_s Curiosity Shop",
+      "id": "bb:location:sinkers-curiosities",
+      "type": "location",
+      "name": "Sinker’s Curiosities",
       "tags": [
-        "Town",
-        "location",
-        "Shop",
-        "NPC"
+        "salt-crown",
+        "curiosities",
+        "magic-items",
+        "oddities",
+        "shop"
       ],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Sinker_s Curiosity Shop.md",
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\sinkers-curiosity-shop.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Sinker's Curiosity Shop",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-02-11T03:33:29.155Z",
-        "creationDate": "2025-02-10 21:33",
-        "modificationDate": "2025-02-10 22:36",
+        "type": "location",
+        "id": "bb:location:sinkers-curiosities",
+        "name": "Sinker’s Curiosities",
+        "parent_location": "bb:district:salt-crown",
+        "location_type": "shop",
+        "population": "transient (patrons and lookers)",
+        "government": "none",
+        "maps_available": false,
+        "map_files": [],
         "tags": [
-          "Town",
-          "location",
-          "Shop",
-          "NPC"
-        ],
-        "coverImage": null
+          "salt-crown",
+          "curiosities",
+          "magic-items",
+          "oddities",
+          "shop"
+        ]
       },
-      "body_excerpt": "# Sinker's Curiosity Shop\n\n### **Sinker’s Curiosity Shop – Black Brine’s Most Unusual Emporium**\n\nA **floating shop built inside the gutted hull of an old ship**, **half-sunken in the shallows** of Black Brine’s harbor. The crooked masts serve as **hanging racks for strange trinkets**, and the entire structure is kept afloat by **patched-together pontoons, barnacle-crusted beams, and a web of rope bridges**. It looks **like it should have collapsed into the sea long ago**, but somehow, it remains standing.\n\nInside, the shop is a **maze of stacked crates, dusty shelves, and hanging charms**—a **chaotic but mesmerizing** collection of **rare artifacts, cursed trinkets, and forgotten relics**. Dim lanterns cast eerie **green and blue light**, revealing **bizarre curios from across Faerûn and …",
-      "raw": {}
+      "body_excerpt": "# Overview\nA repurposed river sloop beached into the cliffside, its hull now a cramped emporium of cursed trinkets, bottled seas, and whispering relics. The deck creaks under the weight of impossible things; Sinker claims the shop moves when it wants to.\n\n# Notable Features\n- Cabinet of “once-blessed, twice-cursed” relics.\n- Nets hung with bones, shells, and charms against drowning.\n- Locked sea-chest Sinker refuses to sell—ever.\n\n# Adventure Hooks\n- A “harmless” charm sold here begins haunting its buyer.\n- A rival fence wants a particular bottle back—before it opens.\n- A ledger reveals buyers tied to Sedna’s shrines.\n\n# Secrets (DM Only)\n- The sloop’s bilge hides a sealed idol that warps tides nearby.\n- Sinker can hear items “speak” the last words of their owners.\n\n# Connected Locations\n-…",
+      "raw": {
+        "parent_location": "bb:district:salt-crown"
+      }
     },
     {
-      "id": "bb:page:soggy-town-play-house",
+      "id": "bb:page:soggy-town-playhouse",
       "type": "page",
-      "name": "Soggy Town Play House",
+      "name": "soggy-town-playhouse",
       "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Soggy Town Play House.md",
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\soggy-town-playhouse.md",
       "fm": {
         "parent_location": "bb:city:city-of-black-brine"
       },
@@ -3785,25 +4212,46 @@
     {
       "id": "bb:page:temple-of-the-chained-god",
       "type": "page",
-      "name": "Temple of the Chained God",
+      "name": "temple-of-the-chained-god",
       "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Temple of the Chained God.md",
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\temple-of-the-chained-god.md",
       "fm": {},
       "body_excerpt": "",
       "raw": {}
     },
     {
-      "id": "bb:page:the-golden-gull",
-      "type": "page",
-      "name": "The Golden Gull",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\The Golden Gull.md",
+      "id": "bb:location:the-bonewalk",
+      "type": "location",
+      "name": "The Bonewalk",
+      "tags": [
+        "salt-crown",
+        "pier",
+        "bone",
+        "shipwrecks",
+        "omen"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\the-bonewalk.md",
       "fm": {
-        "parent_location": "bb:city:city-of-black-brine"
+        "type": "location",
+        "id": "bb:location:the-bonewalk",
+        "name": "The Bonewalk",
+        "parent_location": "bb:district:salt-crown",
+        "location_type": "pier",
+        "population": "sparse (fishers, smugglers)",
+        "government": "none",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "salt-crown",
+          "pier",
+          "bone",
+          "shipwrecks",
+          "omen"
+        ]
       },
-      "body_excerpt": "---\ntype: location\nname: The Golden Gull\nlocation_type: tavern\ndistrict: Crosswater\nparent_location: Black Brine\nmaps_available: false\nmap_files: []\ntags: [tavern, upscale, music, intrigue, crosswater, social hub]\n\noverview: >\n  The Golden Gull is an upscale tavern nestled between warehouses and sea-captain estates in the Crosswater District. Known for its fine drink, softer lighting, and whispered dealings, it serves merchants, smugglers, and off-duty fleet officers looking for luxury without judgment.\n\nappearance: >\n  Lanterns hang from curved brass arms, casting golden pools of light across polished wood and sea-glass windows. A mounted gull in mid-flight—wings spread and dipped in gold leaf—hangs from the ceiling. Sea breezes curl through tall shuttered windows.\n\nrole_in_society: >\n  T…",
+      "body_excerpt": "# Overview\nA narrow pier stitched from shipwreck timbers and whale bone. It groans like a dying hull when storms near, and lanterns along its spine gutter without wind.\n\n# Notable Features\n- Bone-pins and rib-arches carved with sailor prayers.\n- Hidden mooring rings used by smugglers at low tide.\n- Tide-pools that occasionally whisper back.\n\n# Adventure Hooks\n- At moonrise the Bonewalk keens; something comes in with the fog.\n- A smuggler cache is wedged in a whale skull far below the tide line.\n- A child goes missing; footprints end atop the pier’s last rib.\n\n# Secrets (DM Only)\n- The final pylon is driven through a drowned altar; it’s waking.\n- Bone-carvings are a crude ward—removing them invites the sea in.\n\n# Connected Locations\n- **bb:district:salt-crown**",
       "raw": {
-        "parent_location": "bb:city:city-of-black-brine"
+        "parent_location": "bb:district:salt-crown"
       }
     },
     {
@@ -4157,6 +4605,16 @@
       "target": "bb:city:black-brine"
     },
     {
+      "source": "bb:faction:twilight-society",
+      "rel": "located_in",
+      "target": "bb:district:salt-crown"
+    },
+    {
+      "source": "bb:npc:the-noose",
+      "rel": "located_in",
+      "target": "bb:district:salt-crown"
+    },
+    {
       "source": "bb:npc:the-noose",
       "rel": "member_of",
       "target": "bb:faction:butchers"
@@ -4167,6 +4625,36 @@
       "target": "bb:Page:captain-gun-deck-rosy"
     },
     {
+      "source": "bb:npc:brin",
+      "rel": "located_in",
+      "target": "bb:location:red-door-alchemy"
+    },
+    {
+      "source": "bb:npc:brin",
+      "rel": "ally_of",
+      "target": "bb:npc:maelia-gorse"
+    },
+    {
+      "source": "bb:npc:high-numerator-fex",
+      "rel": "located_in",
+      "target": "bb:location:lending-house-black-brine"
+    },
+    {
+      "source": "bb:npc:high-numerator-fex",
+      "rel": "member_of",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:npc:maelia-gorse",
+      "rel": "located_in",
+      "target": "bb:location:red-door-alchemy"
+    },
+    {
+      "source": "bb:npc:maelia-gorse",
+      "rel": "ally_of",
+      "target": "bb:npc:brin"
+    },
+    {
       "source": "bb:npc:mister-blight",
       "rel": "located_in",
       "target": "bb:location:crooked-lantern"
@@ -4175,6 +4663,21 @@
       "source": "bb:npc:mister-blight",
       "rel": "rival_of",
       "target": "bb:npc:three-tooth-mavin"
+    },
+    {
+      "source": "bb:npc:rita-kess",
+      "rel": "located_in",
+      "target": "bb:location:ritas-smithy"
+    },
+    {
+      "source": "bb:npc:sinker",
+      "rel": "located_in",
+      "target": "bb:location:sinkers-curiosities"
+    },
+    {
+      "source": "bb:npc:sinker",
+      "rel": "rival_of",
+      "target": "bb:npc:the-noose"
     },
     {
       "source": "bb:npc:three-tooth-mavin",
@@ -4227,6 +4730,11 @@
       "target": "bb:city:black-brine"
     },
     {
+      "source": "bb:district:salt-crown",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
       "source": "bb:location:black-brine-library",
       "rel": "located_in",
       "target": "bb:district:blackmire"
@@ -4240,6 +4748,11 @@
       "source": "bb:location:crooked-lantern",
       "rel": "located_in",
       "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:location:drunken-satyr",
+      "rel": "located_in",
+      "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:location:dry-docks-crosswater",
@@ -4262,14 +4775,49 @@
       "target": "bb:location:island-of-sedna"
     },
     {
+      "source": "bb:location:gentle-rest-inn",
+      "rel": "located_in",
+      "target": "bb:district:salt-crown"
+    },
+    {
+      "source": "bb:location:lending-house-black-brine",
+      "rel": "located_in",
+      "target": "bb:district:salt-crown"
+    },
+    {
+      "source": "bb:location:lending-house-black-brine",
+      "rel": "member_of",
+      "target": "bb:faction:twilight-society"
+    },
+    {
       "source": "bb:location:miremarket",
       "rel": "located_in",
       "target": "bb:district:blackmire"
     },
     {
+      "source": "bb:location:red-door-alchemy",
+      "rel": "located_in",
+      "target": "bb:district:salt-crown"
+    },
+    {
+      "source": "bb:location:ritas-smithy",
+      "rel": "located_in",
+      "target": "bb:district:salt-crown"
+    },
+    {
+      "source": "bb:location:sinkers-curiosities",
+      "rel": "located_in",
+      "target": "bb:district:salt-crown"
+    },
+    {
       "source": "bb:location:string-and-power",
       "rel": "located_in",
       "target": "bb:district:crosswater"
+    },
+    {
+      "source": "bb:location:the-bonewalk",
+      "rel": "located_in",
+      "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:location:the-sump",
@@ -4402,6 +4950,26 @@
       "target": "bb:location:miremarket"
     },
     {
+      "source": "bb:npc:vel-corven",
+      "rel": "appears_in",
+      "target": "bb:location:lending-house-black-brine"
+    },
+    {
+      "source": "bb:npc:brin",
+      "rel": "appears_in",
+      "target": "bb:location:red-door-alchemy"
+    },
+    {
+      "source": "bb:npc:high-numerator-fex",
+      "rel": "appears_in",
+      "target": "bb:location:lending-house-black-brine"
+    },
+    {
+      "source": "bb:npc:maelia-gorse",
+      "rel": "appears_in",
+      "target": "bb:location:red-door-alchemy"
+    },
+    {
       "source": "bb:npc:mister-blight",
       "rel": "appears_in",
       "target": "bb:location:crooked-lantern"
@@ -4410,6 +4978,16 @@
       "source": "bb:npc:mister-blight",
       "rel": "appears_in",
       "target": "bb:location:miremarket"
+    },
+    {
+      "source": "bb:npc:rita-kess",
+      "rel": "appears_in",
+      "target": "bb:location:ritas-smithy"
+    },
+    {
+      "source": "bb:npc:sinker",
+      "rel": "appears_in",
+      "target": "bb:location:sinkers-curiosities"
     },
     {
       "source": "bb:npc:three-tooth-mavin",
@@ -4435,11 +5013,16 @@
       "source": "bb:faction:butchers",
       "rel": "controls",
       "target": "bb:location:miremarket"
+    },
+    {
+      "source": "bb:faction:twilight-society",
+      "rel": "controls",
+      "target": "bb:location:lending-house-black-brine"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 122,
-    "edges": 67
+    "nodes": 128,
+    "edges": 94
   }
 }
