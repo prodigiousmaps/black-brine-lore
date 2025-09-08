@@ -1,13 +1,14 @@
+---
 type: location
+id: bb:location:string-and-power
 name: String & Power
-parent_location: Crosswater District, Black Brine
-location_type: specialty shop
-population: 6–10 (Gunderson brothers, apprentices, customers)
-government: private ownership, minor council influence
-maps_available: true
-map_files: [GundersonBrothers-Map.jpg]
-tags: [crosswater, ranged weapons, bows, guns, npc shop, gunderson brothers, black brine]
-
+parent_location: bb:district:crosswater
+location_type: workshop
+population: ~12 apprentices and staff
+government: guild oversight (loosely enforced)
+maps_available: false
+map_files: []
+tags: [weapons, smithy, bows, firearms, crosswater]
 ---
 
 # String & Power

@@ -1,5 +1,5 @@
 {
-  "total_files": 119,
+  "total_files": 120,
   "patches": [
     "patches\\skull-garden-black-river.yml",
     "patches\\into-deep-green-short-cut.yml",
@@ -925,6 +925,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\district-of-crosswater.md",
+      "field": "parent_location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\The Code of Black Brine.md",
       "field": "controls",
       "value": "bb:city:city-of-black-brine",
@@ -947,6 +956,15 @@
       "field": "parent_location",
       "value": "bb:district:blackmire",
       "resolved_id": "bb:district:blackmire",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\dry-docks.md",
+      "field": "parent_location",
+      "value": "bb:district:crosswater",
+      "resolved_id": "bb:district:crosswater",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -997,6 +1015,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\string-and-powder.md",
+      "field": "parent_location",
+      "value": "bb:district:crosswater",
+      "resolved_id": "bb:district:crosswater",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\The Golden Gull.md",
       "field": "parent_location",
       "value": "bb:city:city-of-black-brine",
@@ -1010,6 +1037,15 @@
       "field": "parent_location",
       "value": "bb:region:forbidden-west-sedna",
       "resolved_id": "bb:region:forbidden-west-sedna",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\wet-bar.md",
+      "field": "parent_location",
+      "value": "bb:district:crosswater",
+      "resolved_id": "bb:district:crosswater",
       "method": "id",
       "score": 1.0,
       "note": ""

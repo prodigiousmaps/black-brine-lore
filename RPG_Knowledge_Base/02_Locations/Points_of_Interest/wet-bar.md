@@ -1,13 +1,14 @@
+---
 type: location
+id: bb:location:wet-bar
 name: The Wet Bar
-parent_location: Crosswater District, Black Brine
-location_type: tavern / social club
-population: 20–40 patrons (varies by tide)
-government: privately owned, politically neutral
-maps_available: true
-map_files: [WetBar-Map.jpg]
-tags: [tavern, aquatic, sea races, crosswater, black brine, upscale, social club, partially submerged]
-
+parent_location: bb:district:crosswater
+location_type: tavern
+population: ~60 patrons on a busy night
+government: none
+maps_available: false
+map_files: []
+tags: [tavern, aquatic, crosswater]
 ---
 
 # The Wet Bar

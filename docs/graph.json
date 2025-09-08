@@ -3051,6 +3051,47 @@
       }
     },
     {
+      "id": "bb:district:crosswater",
+      "type": "district",
+      "name": "Crosswater",
+      "tags": [
+        "district",
+        "industry",
+        "docks",
+        "shipwrights",
+        "smiths",
+        "weapons",
+        "working-class"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\district-of-crosswater.md",
+      "fm": {
+        "type": "district",
+        "id": "bb:district:crosswater",
+        "name": "Crosswater",
+        "parent_location": "bb:city:black-brine",
+        "location_type": "district",
+        "population": "2,000–3,000",
+        "government": "Mixed authority — local guilds, district enforcers, captains’ influence",
+        "maps_available": true,
+        "map_files": [
+          "Crosswater-District-Map.jpg"
+        ],
+        "tags": [
+          "district",
+          "industry",
+          "docks",
+          "shipwrights",
+          "smiths",
+          "weapons",
+          "working-class"
+        ]
+      },
+      "body_excerpt": "# Overview\nCrosswater is the industrial lung of Black Brine—loud, grimy, and always working. Straddling the Daggerflow’s eastern bank just south of Salt Crown, it is where wood, steel, and sweat become ships, weapons, and coin. Tar, metal, and salt hang in the air while cranes groan overhead.  \n\n# Geography\n- Cobbled lanes between slanted buildings and stacked warehouses.  \n- Dry docks housing half-gutted hulls.  \n- Soot-blackened chimneys belching smoke.  \n- Flood-prone alleys crusted with seaweed at high tide.  \n\n# Notable Features\n- **Dry Docks of Crosswater** – Constant clang of repairs; “where ships bleed and are reborn.”  \n- **The Wet Bar** – Sunken two-level tavern catering to aquatic folk; half-submerged.  \n- **String & Power** – Famous weaponsmiths, the feuding Gunderson brothers …",
+      "raw": {
+        "parent_location": "bb:city:black-brine"
+      }
+    },
+    {
       "id": "bb:Page:geography-of-black-brine",
       "type": "Page",
       "name": "Geography of Black Brine",
@@ -3302,14 +3343,45 @@
       "raw": {}
     },
     {
-      "id": "bb:page:dry-docks",
-      "type": "page",
-      "name": "Dry Docks",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Dry Docks.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
+      "id": "bb:location:dry-docks-crosswater",
+      "type": "location",
+      "name": "Dry Docks of Crosswater",
+      "tags": [
+        "crosswater",
+        "dry-docks",
+        "industry",
+        "shipwrights",
+        "repair",
+        "ships",
+        "labor"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\dry-docks.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:dry-docks-crosswater",
+        "name": "Dry Docks of Crosswater",
+        "parent_location": "bb:district:crosswater",
+        "location_type": "industrial",
+        "population": "300–500 (workers, shipwrights, guards)",
+        "government": "Overseen by guildmasters and licensed captains, with informal enforcer presence",
+        "maps_available": true,
+        "map_files": [
+          "DryDock-32x22-Day.jpg"
+        ],
+        "tags": [
+          "crosswater",
+          "dry-docks",
+          "industry",
+          "shipwrights",
+          "repair",
+          "ships",
+          "labor"
+        ]
+      },
+      "body_excerpt": "# Overview\n“Where the ships bleed and are reborn.”  \nThe Dry Docks are the bristling, hammer-struck heart of Black Brine’s maritime might. Hulls are ripped open and stitched anew day and night, surrounded by curses, pitch, and ghosts of ships long sunk.\n\n# Geography & Layout\n- **Repair Slips** – Massive cradles for damaged vessels.  \n- **Crane Yard** – Pulley towers swinging timbers, cargo, and cannon.  \n- **Tarp Halls** – Semi-covered work zones reeking of pitch and salt.  \n- **Slip Boss Shanties** – Offices built from wrecks where contracts are signed or cut.  \n- **Flood Channels** – Drainage lines sluicing salt water and blood alike.  \n\n# Culture & Economy\n- Neutral ground for all captains, though brawls are common.  \n- Workers are tough, territorial, and tattooed with crew sigils.  \n- …",
+      "raw": {
+        "parent_location": "bb:district:crosswater"
+      }
     },
     {
       "id": "bb:location:foghouse-row",
@@ -3581,14 +3653,39 @@
       }
     },
     {
-      "id": "bb:page:string-and-powder",
-      "type": "page",
-      "name": "String and Powder",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\String and Powder.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
+      "id": "bb:location:string-and-power",
+      "type": "location",
+      "name": "String & Power",
+      "tags": [
+        "weapons",
+        "smithy",
+        "bows",
+        "firearms",
+        "crosswater"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\string-and-powder.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:string-and-power",
+        "name": "String & Power",
+        "parent_location": "bb:district:crosswater",
+        "location_type": "workshop",
+        "population": "~12 apprentices and staff",
+        "government": "guild oversight (loosely enforced)",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "weapons",
+          "smithy",
+          "bows",
+          "firearms",
+          "crosswater"
+        ]
+      },
+      "body_excerpt": "# String & Power\n\n## Overview\nOnce a cozy cottage on a grassy bluff, **String & Power** is now one of the most well-known and volatile weapon shops in Black Brine. Split down the middle—half bowyer, half gunsmith—it’s the lifelong project of the Gunderson brothers, Reevey and Darnell, whose bickering is only matched by their brilliance. Their shared home has become the go-to location for custom bows, rifles, and professional-grade projectiles of all kinds.\n\n## Appearance\nThe old home leans into its charm: red-tinted ivy climbs stone chimneys, and hydrangea bushes bloom beneath hand-wrought windows. But the cozy impression shatters the moment you see the porch—littered with shattered arrow shafts, broken barrels, and a lopsided target dummy wearing a dented breastplate. Smoke wafts from bot…",
+      "raw": {
+        "parent_location": "bb:district:crosswater"
+      }
     },
     {
       "id": "bb:page:temple-of-the-chained-god",
@@ -3650,14 +3747,35 @@
       }
     },
     {
-      "id": "bb:page:wet-bar",
-      "type": "page",
-      "name": "Wet Bar",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Wet Bar.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
+      "id": "bb:location:wet-bar",
+      "type": "location",
+      "name": "The Wet Bar",
+      "tags": [
+        "tavern",
+        "aquatic",
+        "crosswater"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\wet-bar.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:wet-bar",
+        "name": "The Wet Bar",
+        "parent_location": "bb:district:crosswater",
+        "location_type": "tavern",
+        "population": "~60 patrons on a busy night",
+        "government": "none",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "tavern",
+          "aquatic",
+          "crosswater"
+        ]
+      },
+      "body_excerpt": "# The Wet Bar\n\n## Overview\nA refined watering hole built for those who live half their lives below the waves, **The Wet Bar** is the city’s only fully aquatic-access tavern. Built into the riverbank at the southern edge of Crosswater, it caters to the sea-bound elite and curious land-dwellers eager to rub elbows with them—sometimes literally.\n\n## Appearance\nFrom the bluff, the Wet Bar appears like a low-slung villa of marble and lacquered wood with stained-glass portholes. Below, its first floor is entirely submerged, with glowing runes illuminating its waterlogged interior. River light filters through enchanted glass, casting ripples across silk-draped booths and coral chandeliers. The second floor, half-dry and half-damp, features aquatic gardens, soft seating, and open river balconies.\n…",
+      "raw": {
+        "parent_location": "bb:district:crosswater"
+      }
     },
     {
       "id": "bb:location:whisperers-hollow",
@@ -3969,6 +4087,11 @@
       "target": "bb:city:black-brine"
     },
     {
+      "source": "bb:district:crosswater",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
       "source": "bb:location:black-brine-library",
       "rel": "located_in",
       "target": "bb:district:blackmire"
@@ -3977,6 +4100,11 @@
       "source": "bb:location:crooked-lantern",
       "rel": "located_in",
       "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:location:dry-docks-crosswater",
+      "rel": "located_in",
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:location:foghouse-row",
@@ -3994,9 +4122,19 @@
       "target": "bb:district:blackmire"
     },
     {
+      "source": "bb:location:string-and-power",
+      "rel": "located_in",
+      "target": "bb:district:crosswater"
+    },
+    {
       "source": "bb:location:volcanic-peak-sedna",
       "rel": "located_in",
       "target": "bb:region:forbidden-west-sedna"
+    },
+    {
+      "source": "bb:location:wet-bar",
+      "rel": "located_in",
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:location:whisperers-hollow",
@@ -4151,7 +4289,7 @@
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 119,
-    "edges": 59
+    "nodes": 120,
+    "edges": 63
   }
 }
