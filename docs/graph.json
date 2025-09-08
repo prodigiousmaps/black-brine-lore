@@ -4170,7 +4170,7 @@
         "government": "Seat of the Captain’s Council",
         "maps_available": true,
         "map_files": [
-          "cityhull-dusk-43x35.jpg"
+          "assets/maps/cityhull-dusk-43x35.jpg"
         ],
         "tags": [
           "mistwalk",
