@@ -20,7 +20,7 @@ classes: [Sorcerer 4, Fighter 6]
 
 # Captain "Gun Deck" Rosy
 
-### **Gun Deck Rosy’s Devotion to Sedna**
+### **Gun Deck Rosy’s Devotion to Sedna is absolute**
 
 - Her **fanaticism commands both fear and loyalty**, as people whisper of her **rituals and sacrifices**.
 
