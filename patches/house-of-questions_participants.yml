@@ -1,0 +1,9 @@
+path: RPG_Knowledge_Base/05_Locations/house-of-questions.md
+set:
+  participants:
+    - bb:npc:inquisitor-zunizar
+    - bb:npc:inquisitor-morwen-plagueglass
+    - bb:npc:inquisitor-iria-boardcutter
+    - bb:npc:inquisitor-denara-gilt
+    - bb:npc:inquisitor-whisper-keel
+    - bb:npc:inquisitor-shark-eye-neris

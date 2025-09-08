@@ -1,0 +1,5 @@
+path: RPG_Knowledge_Base/06_NPCs/inquisitor-morwen-plagueglass.md
+set:
+  factions:
+    - bb:fleet:miasma
+    - bb:faction:house-of-questions

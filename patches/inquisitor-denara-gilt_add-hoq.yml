@@ -1,0 +1,5 @@
+path: RPG_Knowledge_Base/06_NPCs/inquisitor-denara-gilt.md
+set:
+  factions:
+    - bb:fleet:gilded-rats
+    - bb:faction:house-of-questions

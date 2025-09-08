@@ -1,5 +1,5 @@
 {
-  "total_files": 128,
+  "total_files": 141,
   "patches": [
     "patches\\skull-garden-black-river.yml",
     "patches\\into-deep-green-short-cut.yml",
@@ -18,11 +18,21 @@
     "patches\\jungle-survival-training-mechanics.yml",
     "patches\\butchers.yml",
     "patches\\twilight-society.yml",
+    "patches\\house-of-questions.yml",
     "patches\\arlo-the-noose.yml",
     "patches\\vel-corven.yml",
+    "patches\\gun-deck-rosy.yml",
+    "patches\\inquisitor-zunizar.yml",
     "patches\\brin.yml",
     "patches\\crank.yml",
+    "patches\\cutty.yml",
+    "patches\\father-karr.yml",
     "patches\\high-numerator-fex.yml",
+    "patches\\inquisitor-denara-gilt.yml",
+    "patches\\inquisitor-iria-boardcutter.yml",
+    "patches\\inquisitor-morwen-plagueglass.yml",
+    "patches\\inquisitor-shark-eye-neris.yml",
+    "patches\\inquisitor-whisper-keel.yml",
     "patches\\maelia-gorse.yml",
     "patches\\mister-blight.yml",
     "patches\\rita-kess.yml",
@@ -682,6 +692,177 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\gilded-rats.md",
+      "field": "location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\gilded-rats.md",
+      "field": "leaders",
+      "value": "bb:npc:captain-garrick-salt",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\hollow-fangs.md",
+      "field": "location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\hollow-fangs.md",
+      "field": "leaders",
+      "value": "bb:npc:captain-lysara-vale",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\house-of-questions.md",
+      "field": "location",
+      "value": "bb:district:mistwalk",
+      "resolved_id": "bb:district:mistwalk",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\house-of-questions.md",
+      "field": "participants",
+      "value": "bb:npc:inquisitor-zunizar",
+      "resolved_id": "bb:npc:inquisitor-zunizar",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\house-of-questions.md",
+      "field": "participants",
+      "value": "bb:npc:inquisitor-morwen-plagueglass",
+      "resolved_id": "bb:npc:inquisitor-morwen-plagueglass",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\house-of-questions.md",
+      "field": "participants",
+      "value": "bb:npc:inquisitor-iria-boardcutter",
+      "resolved_id": "bb:npc:inquisitor-iria-boardcutter",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\house-of-questions.md",
+      "field": "participants",
+      "value": "bb:npc:inquisitor-denara-gilt",
+      "resolved_id": "bb:npc:inquisitor-denara-gilt",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\house-of-questions.md",
+      "field": "participants",
+      "value": "bb:npc:inquisitor-whisper-keel",
+      "resolved_id": "bb:npc:inquisitor-whisper-keel",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\house-of-questions.md",
+      "field": "participants",
+      "value": "bb:npc:inquisitor-shark-eye-neris",
+      "resolved_id": "bb:npc:inquisitor-shark-eye-neris",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\malign-crew.md",
+      "field": "location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\malign-crew.md",
+      "field": "leaders",
+      "value": "bb:npc:captain-tasty-bite",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\miasma-fleet.md",
+      "field": "location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\miasma-fleet.md",
+      "field": "leaders",
+      "value": "bb:npc:captain-bloodshot",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\red-wakes.md",
+      "field": "location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\red-wakes.md",
+      "field": "leaders",
+      "value": "bb:npc:captain-bor-harvann",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\widowmakers.md",
+      "field": "location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\widowmakers.md",
+      "field": "leaders",
+      "value": "bb:npc:captain-veyla-dren",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\arlo-the-noose.md",
       "field": "location",
       "value": "bb:district:salt-crown",
@@ -784,18 +965,18 @@
       "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
       "field": "rivals",
       "value": "bb:Page:captain-gun-deck-rosy",
-      "resolved_id": "bb:Page:captain-gun-deck-rosy",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
       "field": "rivals",
       "value": "bb:location:temple-of-the-chained-god",
-      "resolved_id": "bb:location:temple-of-the-chained-god",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
@@ -803,6 +984,60 @@
       "field": "appears_in",
       "value": "bb:location:lending-house-black-brine",
       "resolved_id": "bb:location:lending-house-black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\gun-deck-rosy.md",
+      "field": "location",
+      "value": "bb:location:city-hull",
+      "resolved_id": "bb:location:city-hull",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\gun-deck-rosy.md",
+      "field": "appears_in",
+      "value": "bb:location:city-hull",
+      "resolved_id": "bb:location:city-hull",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\inquisitor-zunizar.md",
+      "field": "location",
+      "value": "bb:location:house-of-questions",
+      "resolved_id": "bb:location:house-of-questions",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\inquisitor-zunizar.md",
+      "field": "factions*",
+      "value": "bb:fleet:widowmakers",
+      "resolved_id": "bb:fleet:widowmakers",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\inquisitor-zunizar.md",
+      "field": "appears_in",
+      "value": "bb:location:house-of-questions",
+      "resolved_id": "bb:location:house-of-questions",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\inquisitor-zunizar.md",
+      "field": "appears_in",
+      "value": "bb:location:cuttys-blades",
+      "resolved_id": "bb:location:cuttys-blades",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -862,6 +1097,42 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\cutty.md",
+      "field": "location",
+      "value": "bb:location:cuttys-blades",
+      "resolved_id": "bb:location:cuttys-blades",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\cutty.md",
+      "field": "appears_in",
+      "value": "bb:location:cuttys-blades",
+      "resolved_id": "bb:location:cuttys-blades",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\father-karr.md",
+      "field": "location",
+      "value": "bb:location:temple-chained-god",
+      "resolved_id": "bb:location:temple-chained-god",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\father-karr.md",
+      "field": "appears_in",
+      "value": "bb:location:temple-chained-god",
+      "resolved_id": "bb:location:temple-chained-god",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\high-numerator-fex.md",
       "field": "location",
       "value": "bb:location:lending-house-black-brine",
@@ -889,12 +1160,138 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Maelia Gorse.md",
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-denara-gilt.md",
       "field": "location",
-      "value": "Red Door Alchemy, Salt Crown Shores",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "value": "bb:location:house-of-questions",
+      "resolved_id": "bb:location:house-of-questions",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-denara-gilt.md",
+      "field": "factions*",
+      "value": "bb:fleet:gilded-rats",
+      "resolved_id": "bb:fleet:gilded-rats",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-denara-gilt.md",
+      "field": "appears_in",
+      "value": "bb:location:house-of-questions",
+      "resolved_id": "bb:location:house-of-questions",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-iria-boardcutter.md",
+      "field": "location",
+      "value": "bb:location:house-of-questions",
+      "resolved_id": "bb:location:house-of-questions",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-iria-boardcutter.md",
+      "field": "factions*",
+      "value": "bb:fleet:red-wakes",
+      "resolved_id": "bb:fleet:red-wakes",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-iria-boardcutter.md",
+      "field": "appears_in",
+      "value": "bb:location:house-of-questions",
+      "resolved_id": "bb:location:house-of-questions",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-morwen-plagueglass.md",
+      "field": "location",
+      "value": "bb:location:house-of-questions",
+      "resolved_id": "bb:location:house-of-questions",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-morwen-plagueglass.md",
+      "field": "factions*",
+      "value": "bb:fleet:miasma",
+      "resolved_id": "bb:fleet:miasma",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-morwen-plagueglass.md",
+      "field": "appears_in",
+      "value": "bb:location:house-of-questions",
+      "resolved_id": "bb:location:house-of-questions",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-shark-eye-neris.md",
+      "field": "location",
+      "value": "bb:location:house-of-questions",
+      "resolved_id": "bb:location:house-of-questions",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-shark-eye-neris.md",
+      "field": "factions*",
+      "value": "bb:fleet:malign-crew",
+      "resolved_id": "bb:fleet:malign-crew",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-shark-eye-neris.md",
+      "field": "appears_in",
+      "value": "bb:location:house-of-questions",
+      "resolved_id": "bb:location:house-of-questions",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-whisper-keel.md",
+      "field": "location",
+      "value": "bb:location:house-of-questions",
+      "resolved_id": "bb:location:house-of-questions",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-whisper-keel.md",
+      "field": "factions*",
+      "value": "bb:fleet:hollow-fangs",
+      "resolved_id": "bb:fleet:hollow-fangs",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-whisper-keel.md",
+      "field": "appears_in",
+      "value": "bb:location:house-of-questions",
+      "resolved_id": "bb:location:house-of-questions",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -1123,6 +1520,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\district-of-mistwalk.md",
+      "field": "parent_location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\district-of-saltcrown.md",
       "field": "parent_location",
       "value": "bb:city:black-brine",
@@ -1150,10 +1556,28 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\city-hull.md",
+      "field": "parent_location",
+      "value": "bb:district:mistwalk",
+      "resolved_id": "bb:district:mistwalk",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\crooked-lantern.md",
       "field": "parent_location",
       "value": "bb:district:blackmire",
       "resolved_id": "bb:district:blackmire",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\cuttys-blades.md",
+      "field": "parent_location",
+      "value": "bb:district:mistwalk",
+      "resolved_id": "bb:district:mistwalk",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -1204,6 +1628,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\gallows-market.md",
+      "field": "parent_location",
+      "value": "bb:district:mistwalk",
+      "resolved_id": "bb:district:mistwalk",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\gentle-rest-inn.md",
       "field": "parent_location",
       "value": "bb:district:salt-crown",
@@ -1219,6 +1652,15 @@
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\house-of-questions.md",
+      "field": "parent_location",
+      "value": "bb:district:mistwalk",
+      "resolved_id": "bb:district:mistwalk",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -1242,6 +1684,15 @@
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\lending-house.md",
       "field": "participants",
+      "value": "bb:npc:high-numerator-fex",
+      "resolved_id": "bb:npc:high-numerator-fex",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\lending-house.md",
+      "field": "participants",
       "value": "bb:npc:maelia-gorse",
       "resolved_id": "bb:npc:maelia-gorse",
       "method": "id",
@@ -1253,15 +1704,6 @@
       "field": "participants",
       "value": "bb:npc:vel-corven",
       "resolved_id": "bb:npc:vel-corven",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\lending-house.md",
-      "field": "participants",
-      "value": "bb:npc:high-numerator-fex",
-      "resolved_id": "bb:npc:high-numerator-fex",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -1287,8 +1729,8 @@
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\red-door-alchemy.md",
       "field": "participants",
-      "value": "bb:npc:maelia-gorse",
-      "resolved_id": "bb:npc:maelia-gorse",
+      "value": "bb:npc:brin",
+      "resolved_id": "bb:npc:brin",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -1296,8 +1738,8 @@
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\red-door-alchemy.md",
       "field": "participants",
-      "value": "bb:npc:brin",
-      "resolved_id": "bb:npc:brin",
+      "value": "bb:npc:maelia-gorse",
+      "resolved_id": "bb:npc:maelia-gorse",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -1334,6 +1776,15 @@
       "field": "parent_location",
       "value": "bb:district:crosswater",
       "resolved_id": "bb:district:crosswater",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\temple-of-the-chained-god.md",
+      "field": "parent_location",
+      "value": "bb:district:mistwalk",
+      "resolved_id": "bb:district:mistwalk",
       "method": "id",
       "score": 1.0,
       "note": ""

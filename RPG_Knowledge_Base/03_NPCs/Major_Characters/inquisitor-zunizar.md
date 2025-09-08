@@ -1,14 +1,22 @@
 ---
 type: npc
+id: bb:npc:inquisitor-zunizar
 name: Inquisitor Zunizar
-parent_location: House of Questions
-location_type: government_agent
-population: N/A
-government: Captain’s Council (affiliated with the Widowmakers)
-maps_available: false
-map_files: []
-tags: [npc, inquisitor, widowmakers, investigation, law, intimidation]
-
+summary: Widowmakers’ appointed inquisitor; precise, surgical, and impossible to shake
+  once on a trail.
+location: bb:location:house-of-questions
+factions:
+- bb:fleet:widowmakers
+allies: []
+rivals: []
+appears_in:
+- bb:location:cuttys-blades
+- bb:location:house-of-questions
+tags:
+- inquisitor
+- widowmakers
+- mistwalk
+---
 # Inquisitor Zunizar
 
 ## Overview

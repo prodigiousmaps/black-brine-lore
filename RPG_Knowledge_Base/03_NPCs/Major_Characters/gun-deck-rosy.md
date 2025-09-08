@@ -1,19 +1,19 @@
 ---
-type: Page
-collections: Black Brine
-title: Captain "Gun Deck" Rosy
-description: null
-icon: null
-createdAt: '2025-02-11T03:43:30.465Z'
-creationDate: 2025-02-10 21:43
-modificationDate: 2025-03-18 14:48
-tags: [NPC, Rosy, Captain, CouncilOfCaptains]
-coverImage: null
+type: npc
+id: bb:npc:gun-deck-rosy
+name: Gun Deck Rosy
+summary: Governor of Black Brine and Sedna’s high priestess; rules from City Hull with iron poise and ritual scars.
+location: bb:location:city-hull
+factions: []
+allies: []
+rivals: []
+appears_in:
+  - bb:location:city-hull
+tags: [mistwalk, governor, high-priestess, sedna]
 ---
 
-# Captain "Gun Deck" Rosy
 
-[[image]]
+# Captain "Gun Deck" Rosy
 
 ### **Gun Deck Rosy’s Devotion to Sedna**
 

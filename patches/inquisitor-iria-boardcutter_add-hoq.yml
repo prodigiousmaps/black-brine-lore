@@ -1,0 +1,5 @@
+path: RPG_Knowledge_Base/06_NPCs/inquisitor-iria-boardcutter.md
+set:
+  factions:
+    - bb:fleet:red-wakes
+    - bb:faction:house-of-questions

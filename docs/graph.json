@@ -1869,6 +1869,267 @@
       }
     },
     {
+      "id": "bb:fleet:gilded-rats",
+      "type": "faction",
+      "name": "The Gilded Rats",
+      "tags": [
+        "fleet",
+        "merchant",
+        "spies",
+        "deception"
+      ],
+      "source": "RPG_Knowledge_Base\\04_Factions\\Political\\gilded-rats.md",
+      "fm": {
+        "type": "faction",
+        "id": "bb:fleet:gilded-rats",
+        "name": "The Gilded Rats",
+        "summary": "Garrick “Golden Tooth” Salt’s merchant-lord flotilla. They buy, bribe, and forge rather than fight—until they have to.\n",
+        "location": "bb:city:black-brine",
+        "leaders": [
+          "bb:npc:captain-garrick-salt"
+        ],
+        "tags": [
+          "fleet",
+          "merchant",
+          "spies",
+          "deception"
+        ]
+      },
+      "body_excerpt": "# Customs\n- The Stolen Jewel  \n- Deals Over Death  \n- The Gold Coin Gambit",
+      "raw": {
+        "location": "bb:city:black-brine",
+        "leaders": [
+          "bb:npc:captain-garrick-salt"
+        ]
+      }
+    },
+    {
+      "id": "bb:fleet:hollow-fangs",
+      "type": "faction",
+      "name": "The Hollow Fangs",
+      "tags": [
+        "fleet",
+        "spectral",
+        "mist",
+        "supernatural"
+      ],
+      "source": "RPG_Knowledge_Base\\04_Factions\\Political\\hollow-fangs.md",
+      "fm": {
+        "type": "faction",
+        "id": "bb:fleet:hollow-fangs",
+        "name": "The Hollow Fangs",
+        "summary": "Captain Lysara Vale’s spectral armada. Ghost-lanterns and mist-veiled hulls that slip past watchfires and into dreams.\n",
+        "location": "bb:city:black-brine",
+        "leaders": [
+          "bb:npc:captain-lysara-vale"
+        ],
+        "tags": [
+          "fleet",
+          "spectral",
+          "mist",
+          "supernatural"
+        ]
+      },
+      "body_excerpt": "# Customs\n- The Noose’s Whisper  \n- The Drowned Hand  \n- The Forgotten Coins",
+      "raw": {
+        "location": "bb:city:black-brine",
+        "leaders": [
+          "bb:npc:captain-lysara-vale"
+        ]
+      }
+    },
+    {
+      "id": "bb:faction:house-of-questions",
+      "type": "faction",
+      "name": "The House of Questions",
+      "tags": [
+        "faction",
+        "inquisitors",
+        "mistwalk",
+        "captains-council",
+        "law",
+        "intrigue"
+      ],
+      "source": "RPG_Knowledge_Base\\04_Factions\\Political\\house-of-questions.md",
+      "fm": {
+        "type": "faction",
+        "id": "bb:faction:house-of-questions",
+        "name": "The House of Questions",
+        "summary": "The inquisitorial order of Black Brine, headquartered in Mistwalk. Each ruling fleet appoints an inquisitor, creating a volatile alliance of spies, judges, and executioners under the Captain’s Council.\n",
+        "location": "bb:district:mistwalk",
+        "leaders": [],
+        "participants": [
+          "bb:npc:inquisitor-denara-gilt",
+          "bb:npc:inquisitor-iria-boardcutter",
+          "bb:npc:inquisitor-morwen-plagueglass",
+          "bb:npc:inquisitor-shark-eye-neris",
+          "bb:npc:inquisitor-whisper-keel",
+          "bb:npc:inquisitor-zunizar"
+        ],
+        "tags": [
+          "faction",
+          "inquisitors",
+          "mistwalk",
+          "captains-council",
+          "law",
+          "intrigue"
+        ]
+      },
+      "body_excerpt": "# Structure\n- Overseen nominally by the Captain’s Council, though each inquisitor serves a fleet first.\n- Files, ledgers, and testimonies are stored in the Ledger Vault.\n- Interrogations held in rune-locked chambers, some public in the Stone Court.\n\n# Culture\nFeared and politically volatile. Inquisitors undermine each other as often as they pursue justice.\n\n# Secrets (DM Only)\n- Several inquisitors are secretly loyal to Sedna’s cult.\n- The Ledger Vault holds blackmail on every captain.\n- Relics beneath the Stone Court bind truth to blood.",
+      "raw": {
+        "location": "bb:district:mistwalk",
+        "participants": [
+          "bb:npc:inquisitor-denara-gilt",
+          "bb:npc:inquisitor-iria-boardcutter",
+          "bb:npc:inquisitor-morwen-plagueglass",
+          "bb:npc:inquisitor-shark-eye-neris",
+          "bb:npc:inquisitor-whisper-keel",
+          "bb:npc:inquisitor-zunizar"
+        ],
+        "leaders": []
+      }
+    },
+    {
+      "id": "bb:fleet:malign-crew",
+      "type": "faction",
+      "name": "The Malign Crew",
+      "tags": [
+        "fleet",
+        "smuggling",
+        "espionage"
+      ],
+      "source": "RPG_Knowledge_Base\\04_Factions\\Political\\malign-crew.md",
+      "fm": {
+        "type": "faction",
+        "id": "bb:fleet:malign-crew",
+        "name": "The Malign Crew",
+        "summary": "Tasty Bite’s corsairs—amphibious fighters and spies who rule the smuggling lanes and backroom deals.\n",
+        "location": "bb:city:black-brine",
+        "leaders": [
+          "bb:npc:captain-tasty-bite"
+        ],
+        "tags": [
+          "fleet",
+          "smuggling",
+          "espionage"
+        ]
+      },
+      "body_excerpt": "# Customs\n- The Shark’s Mark  \n- The First Bite  \n- Silent Currents",
+      "raw": {
+        "location": "bb:city:black-brine",
+        "leaders": [
+          "bb:npc:captain-tasty-bite"
+        ]
+      }
+    },
+    {
+      "id": "bb:fleet:miasma",
+      "type": "faction",
+      "name": "The Miasma Fleet",
+      "tags": [
+        "fleet",
+        "cursed",
+        "terror",
+        "disease",
+        "eldritch"
+      ],
+      "source": "RPG_Knowledge_Base\\04_Factions\\Political\\miasma-fleet.md",
+      "fm": {
+        "type": "faction",
+        "id": "bb:fleet:miasma",
+        "name": "The Miasma Fleet",
+        "summary": "Cursed vessels crewed by warped sailors. They fight with disease, fear, and necromancy as much as cutlass and shot.\n",
+        "location": "bb:city:black-brine",
+        "leaders": [
+          "bb:npc:captain-bloodshot"
+        ],
+        "tags": [
+          "fleet",
+          "cursed",
+          "terror",
+          "disease",
+          "eldritch"
+        ]
+      },
+      "body_excerpt": "# Customs\n- The Blackened Chalice – blood-drinking ritual before battle  \n- The Bone Hunt – recruits trophy hunt or die  \n- The Silent Decks – whispers only, never laughter",
+      "raw": {
+        "location": "bb:city:black-brine",
+        "leaders": [
+          "bb:npc:captain-bloodshot"
+        ]
+      }
+    },
+    {
+      "id": "bb:fleet:red-wakes",
+      "type": "faction",
+      "name": "The Red Wakes",
+      "tags": [
+        "fleet",
+        "war",
+        "siege",
+        "brutality"
+      ],
+      "source": "RPG_Knowledge_Base\\04_Factions\\Political\\red-wakes.md",
+      "fm": {
+        "type": "faction",
+        "id": "bb:fleet:red-wakes",
+        "name": "The Red Wakes",
+        "summary": "Bor “Driftwood” Harvann’s brutal warfleet. Masters of boarding and siege, infamous for taking no quarter.\n",
+        "location": "bb:city:black-brine",
+        "leaders": [
+          "bb:npc:captain-bor-harvann"
+        ],
+        "tags": [
+          "fleet",
+          "war",
+          "siege",
+          "brutality"
+        ]
+      },
+      "body_excerpt": "# Customs\n- Battle Booze before battle  \n- No Quarter Given  \n- First to Board, First to Lead",
+      "raw": {
+        "location": "bb:city:black-brine",
+        "leaders": [
+          "bb:npc:captain-bor-harvann"
+        ]
+      }
+    },
+    {
+      "id": "bb:fleet:widowmakers",
+      "type": "faction",
+      "name": "The Widowmakers",
+      "tags": [
+        "fleet",
+        "assassins",
+        "ambush",
+        "terror"
+      ],
+      "source": "RPG_Knowledge_Base\\04_Factions\\Political\\widowmakers.md",
+      "fm": {
+        "type": "faction",
+        "id": "bb:fleet:widowmakers",
+        "name": "The Widowmakers",
+        "summary": "Veyla “Cold Tide” Dren’s assassins’ sloops—precision strikes, no witnesses, and vanishing wakes.\n",
+        "location": "bb:city:black-brine",
+        "leaders": [
+          "bb:npc:captain-veyla-dren"
+        ],
+        "tags": [
+          "fleet",
+          "assassins",
+          "ambush",
+          "terror"
+        ]
+      },
+      "body_excerpt": "# Customs\n- The First Kill  \n- No Witnesses, Except One  \n- The Mark of the Tide",
+      "raw": {
+        "location": "bb:city:black-brine",
+        "leaders": [
+          "bb:npc:captain-veyla-dren"
+        ]
+      }
+    },
+    {
       "id": "bb:Page:cult---forgotten-wind",
       "type": "Page",
       "name": "Cult - Forgotten Wind",
@@ -2065,55 +2326,100 @@
       }
     },
     {
-      "id": "bb:Page:captain-gun-deck-rosy",
-      "type": "Page",
-      "name": "Captain Gun Deck Rosy",
+      "id": "bb:npc:gun-deck-rosy",
+      "type": "npc",
+      "name": "Gun Deck Rosy",
       "tags": [
-        "NPC",
-        "Rosy",
-        "Captain",
-        "CouncilOfCaptains"
+        "mistwalk",
+        "governor",
+        "high-priestess",
+        "sedna"
       ],
-      "source": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\Captain Gun Deck Rosy.md",
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\gun-deck-rosy.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Captain \"Gun Deck\" Rosy",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-02-11T03:43:30.465Z",
-        "creationDate": "2025-02-10 21:43",
-        "modificationDate": "2025-03-18 14:48",
-        "tags": [
-          "NPC",
-          "Rosy",
-          "Captain",
-          "CouncilOfCaptains"
+        "type": "npc",
+        "id": "bb:npc:gun-deck-rosy",
+        "name": "Gun Deck Rosy",
+        "summary": "Governor of Black Brine and Sedna’s high priestess; rules from City Hull with iron poise and ritual scars.",
+        "location": "bb:location:city-hull",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:city-hull"
         ],
-        "coverImage": null
+        "tags": [
+          "mistwalk",
+          "governor",
+          "high-priestess",
+          "sedna"
+        ]
       },
-      "body_excerpt": "# Captain \"Gun Deck\" Rosy\n\n[[image]]\n\n### **Gun Deck Rosy’s Devotion to Sedna**\n\n- Her **fanaticism commands both fear and loyalty**, as people whisper of her **rituals and sacrifices**.\n\n- She might possess **Sedna’s blessings**, granting her unnerving resilience, visions from the depths, or **hexblade powers**.\n\n- **Her ship could be a shrine**—its hull reinforced with deep-sea bones, its figurehead depicting Sedna’s **twisted, hag-like visage**.",
-      "raw": {}
+      "body_excerpt": "# Captain \"Gun Deck\" Rosy\n\n### **Gun Deck Rosy’s Devotion to Sedna**\n\n- Her **fanaticism commands both fear and loyalty**, as people whisper of her **rituals and sacrifices**.\n\n- She might possess **Sedna’s blessings**, granting her unnerving resilience, visions from the depths, or **hexblade powers**.\n\n- **Her ship could be a shrine**—its hull reinforced with deep-sea bones, its figurehead depicting Sedna’s **twisted, hag-like visage**.",
+      "raw": {
+        "location": "bb:location:city-hull",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:city-hull"
+        ]
+      }
     },
     {
-      "id": "bb:page:inquisitor-zunizar",
-      "type": "page",
+      "id": "bb:npc:inquisitor-zunizar",
+      "type": "npc",
       "name": "Inquisitor Zunizar",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\Inquisitor Zunizar.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
+      "tags": [
+        "inquisitor",
+        "widowmakers",
+        "mistwalk"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\inquisitor-zunizar.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:inquisitor-zunizar",
+        "name": "Inquisitor Zunizar",
+        "summary": "Widowmakers’ appointed inquisitor; precise, surgical, and impossible to shake once on a trail.",
+        "location": "bb:location:house-of-questions",
+        "factions": [
+          "bb:fleet:widowmakers"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:cuttys-blades",
+          "bb:location:house-of-questions"
+        ],
+        "tags": [
+          "inquisitor",
+          "widowmakers",
+          "mistwalk"
+        ]
+      },
+      "body_excerpt": "# Inquisitor Zunizar\n\n## Overview\nZunizar is one of the most feared inquisitors in Black Brine. Tall, gaunt, and always draped in a long jet-black coat and highly polished boots lined with widow silk, he moves like smoke and strikes like venom. Appointed by the Widowmakers, he balances his duties to the House of Questions with quiet loyalty to his fleet. Where Zunizar walks, silence follows—and no secret stays buried.\n\n## Appearance\nHe wears a fine velvet coat stitched with silver thread in the shape of floral designs mixed with tentacles. He carries a black walking cane with a silver head in the shape of an octopus. His breath smells faintly of cloves and pipe tobacco. He has a badge of office pinned to his lapel in the shape of an octopus gripping an obsidian stone.\n\n## Personality\nCold,…",
+      "raw": {
+        "location": "bb:location:house-of-questions",
+        "factions": [
+          "bb:fleet:widowmakers"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:cuttys-blades",
+          "bb:location:house-of-questions"
+        ]
+      }
     },
     {
       "id": "bb:Page:rupert-richthorn",
       "type": "Page",
-      "name": "Rupert Richthorn",
+      "name": "rupert-richthorn",
       "tags": [
         "NPC",
         "Rupert"
       ],
-      "source": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\Rupert Richthorn.md",
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\rupert-richthorn.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -2382,14 +2688,14 @@
     {
       "id": "bb:Page:captain-bloodshot",
       "type": "Page",
-      "name": "Captain Bloodshot",
+      "name": "captain-bloodshot",
       "tags": [
         "NPC",
         "Captain",
         "CouncilOfCaptains",
         "Faction"
       ],
-      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Captain Bloodshot.md",
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-bloodshot.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -2413,14 +2719,14 @@
     {
       "id": "bb:Page:captain-bor-driftwood-harvann",
       "type": "Page",
-      "name": "Captain Bor Driftwood Harvann",
+      "name": "captain-bor-driftwood-harvann",
       "tags": [
         "CouncilOfCaptains",
         "Captain",
         "NPC",
         "Faction"
       ],
-      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Captain Bor Driftwood Harvann.md",
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-bor-driftwood-harvann.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -2444,7 +2750,7 @@
     {
       "id": "bb:Page:captain-garrick-golden-tooth-salt",
       "type": "Page",
-      "name": "Captain Garrick Golden Tooth Salt",
+      "name": "captain-garrick-golden-tooth-salt",
       "tags": [
         "CouncilOfCaptains",
         "Captain",
@@ -2452,7 +2758,7 @@
         "Faction",
         "Town"
       ],
-      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Captain Garrick Golden Tooth Salt.md",
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-garrick-golden-tooth-salt.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -2477,14 +2783,14 @@
     {
       "id": "bb:Page:captain-lysara-vale",
       "type": "Page",
-      "name": "Captain Lysara Vale",
+      "name": "captain-lysara-vale",
       "tags": [
         "CouncilOfCaptains",
         "Captain",
         "NPC",
         "Faction"
       ],
-      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Captain Lysara Vale.md",
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-lysara-vale.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -2508,7 +2814,7 @@
     {
       "id": "bb:Page:captain-tasty-bite",
       "type": "Page",
-      "name": "Captain Tasty Bite",
+      "name": "captain-tasty-bite",
       "tags": [
         "NPC",
         "Captain",
@@ -2516,7 +2822,7 @@
         "Faction",
         "Town"
       ],
-      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Captain Tasty Bite.md",
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-tasty-bite.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -2541,14 +2847,14 @@
     {
       "id": "bb:Page:captain-veyla-cold-tide-dren",
       "type": "Page",
-      "name": "Captain Veyla Cold Tide Dren",
+      "name": "captain-veyla-cold-tide dren",
       "tags": [
         "NPC",
         "Captain",
         "CouncilOfCaptains",
         "Faction"
       ],
-      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Captain Veyla Cold Tide Dren.md",
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-veyla-cold-tide dren.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -2638,15 +2944,97 @@
       }
     },
     {
+      "id": "bb:npc:cutty",
+      "type": "npc",
+      "name": "Cutty",
+      "tags": [
+        "mistwalk",
+        "duelist",
+        "merchant",
+        "widowmakers-adjacent"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\cutty.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:cutty",
+        "name": "Cutty",
+        "summary": "Merchant-duelist and proprietor of Cutty’s Blades; smiles while he measures opponents for coffins.",
+        "location": "bb:location:cuttys-blades",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:cuttys-blades"
+        ],
+        "tags": [
+          "mistwalk",
+          "duelist",
+          "merchant",
+          "widowmakers-adjacent"
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "location": "bb:location:cuttys-blades",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:cuttys-blades"
+        ]
+      }
+    },
+    {
+      "id": "bb:npc:father-karr",
+      "type": "npc",
+      "name": "Father Karr",
+      "tags": [
+        "mistwalk",
+        "priest",
+        "chained-god",
+        "indoctrination"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\father-karr.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:father-karr",
+        "name": "Father Karr",
+        "summary": "Serene-faced priest of the Chained God; offers charity that tastes like shackles.",
+        "location": "bb:location:temple-chained-god",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:temple-chained-god"
+        ],
+        "tags": [
+          "mistwalk",
+          "priest",
+          "chained-god",
+          "indoctrination"
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "location": "bb:location:temple-chained-god",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:temple-chained-god"
+        ]
+      }
+    },
+    {
       "id": "bb:Page:fenrith",
       "type": "Page",
-      "name": "Fenrith",
+      "name": "fenrith",
       "tags": [
         "NPC",
         "Rupert",
         "Faction"
       ],
-      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Fenrith.md",
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\fenrith.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -2710,15 +3098,230 @@
       }
     },
     {
-      "id": "bb:Page:lady-jackdaw--rupert-s-butler",
+      "id": "bb:npc:inquisitor-denara-gilt",
+      "type": "npc",
+      "name": "Inquisitor Denara Gilt",
+      "tags": [
+        "inquisitor",
+        "gilded-rats",
+        "broker"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-denara-gilt.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:inquisitor-denara-gilt",
+        "name": "Inquisitor Denara Gilt",
+        "summary": "Smiles like a ledger in balance; buys answers, sells futures, never pays twice.",
+        "location": "bb:location:house-of-questions",
+        "factions": [
+          "bb:fleet:gilded-rats"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:house-of-questions"
+        ],
+        "tags": [
+          "inquisitor",
+          "gilded-rats",
+          "broker"
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "location": "bb:location:house-of-questions",
+        "factions": [
+          "bb:fleet:gilded-rats"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:house-of-questions"
+        ]
+      }
+    },
+    {
+      "id": "bb:npc:inquisitor-iria-boardcutter",
+      "type": "npc",
+      "name": "Inquisitor Iria “Boardcutter”",
+      "tags": [
+        "inquisitor",
+        "red-wakes",
+        "warfare"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-iria-boardcutter.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:inquisitor-iria-boardcutter",
+        "name": "Inquisitor Iria “Boardcutter”",
+        "summary": "War-law inquisitor who treats testimony like a siege—breach, enter, secure.",
+        "location": "bb:location:house-of-questions",
+        "factions": [
+          "bb:fleet:red-wakes"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:house-of-questions"
+        ],
+        "tags": [
+          "inquisitor",
+          "red-wakes",
+          "warfare"
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "location": "bb:location:house-of-questions",
+        "factions": [
+          "bb:fleet:red-wakes"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:house-of-questions"
+        ]
+      }
+    },
+    {
+      "id": "bb:npc:inquisitor-morwen-plagueglass",
+      "type": "npc",
+      "name": "Inquisitor Morwen “Plagueglass”",
+      "tags": [
+        "inquisitor",
+        "miasma",
+        "pathology"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-morwen-plagueglass.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:inquisitor-morwen-plagueglass",
+        "name": "Inquisitor Morwen “Plagueglass”",
+        "summary": "Pathologist of fear; reads rot like scripture and wrings truth from the sick.",
+        "location": "bb:location:house-of-questions",
+        "factions": [
+          "bb:fleet:miasma"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:house-of-questions"
+        ],
+        "tags": [
+          "inquisitor",
+          "miasma",
+          "pathology"
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "location": "bb:location:house-of-questions",
+        "factions": [
+          "bb:fleet:miasma"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:house-of-questions"
+        ]
+      }
+    },
+    {
+      "id": "bb:npc:inquisitor-shark-eye-neris",
+      "type": "npc",
+      "name": "Inquisitor Shark-Eye Neris",
+      "tags": [
+        "inquisitor",
+        "malign-crew",
+        "amphibious"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-shark-eye-neris.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:inquisitor-shark-eye-neris",
+        "name": "Inquisitor Shark-Eye Neris",
+        "summary": "Amphibious interrogator who hears lies in breath and current; vanishes beneath the piers.",
+        "location": "bb:location:house-of-questions",
+        "factions": [
+          "bb:fleet:malign-crew"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:house-of-questions"
+        ],
+        "tags": [
+          "inquisitor",
+          "malign-crew",
+          "amphibious"
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "location": "bb:location:house-of-questions",
+        "factions": [
+          "bb:fleet:malign-crew"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:house-of-questions"
+        ]
+      }
+    },
+    {
+      "id": "bb:npc:inquisitor-whisper-keel",
+      "type": "npc",
+      "name": "Inquisitor Whisper-Keel",
+      "tags": [
+        "inquisitor",
+        "hollow-fangs",
+        "dreams"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-whisper-keel.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:inquisitor-whisper-keel",
+        "name": "Inquisitor Whisper-Keel",
+        "summary": "Veil-walker who questions in dreams and writes confessions in fog on waking glass.",
+        "location": "bb:location:house-of-questions",
+        "factions": [
+          "bb:fleet:hollow-fangs"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:house-of-questions"
+        ],
+        "tags": [
+          "inquisitor",
+          "hollow-fangs",
+          "dreams"
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "location": "bb:location:house-of-questions",
+        "factions": [
+          "bb:fleet:hollow-fangs"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:house-of-questions"
+        ]
+      }
+    },
+    {
+      "id": "bb:Page:lady-jackdaw",
       "type": "Page",
-      "name": "Lady Jackdaw (Rupert_s Butler)",
+      "name": "lady-jackdaw",
       "tags": [
         "NPC",
         "Faction",
         "Rupert"
       ],
-      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Lady Jackdaw (Rupert_s Butler).md",
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\lady-jackdaw.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -2737,97 +3340,6 @@
       },
       "body_excerpt": "# Lady Jackdaw (Rupert's Butler)\n\n[couchwarrior_A_diminutive_wiry_Kenku_with_sleek_black_feathers__5d66bfbc-c6d7-416b-a47c-96feb5c6b6dc](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/17107d7f-aae5-44f8-8183-6163828cec45)\n\n### **Lady Jackdaw – Rupert Richthorn’s Butler**\n\n**Race:** Kenku\n\n**Class:** Rogue (Mastermind) / Bard (College of Whispers)\n\n**Alignment:** Lawful Neutral\n\n**Age:** Unknown (Appears Middle-Aged)\n\n**Languages:** Common, Thieves' Cant, Auran, and an uncanny ability to mimic voices perfectly\n\n---\n\n### **Overview**\n\nLady Jackdaw is Rupert Richthorn’s personal butler, confidante, and, when necessary, shadowy enforcer. Unlike most Kenku, who scurry in the gutters of society, she carries herself with an air of poise and refinement, as if she were born to serve…",
       "raw": {}
-    },
-    {
-      "id": "bb:npc:maelia-gorse",
-      "type": "npc",
-      "name": "Maelia Gorse",
-      "tags": [
-        "alchemy",
-        "arcane",
-        "salt crown",
-        "shopkeeper",
-        "reclusive",
-        "potion-maker"
-      ],
-      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Maelia Gorse.md",
-      "fm": {
-        "type": "npc",
-        "name": "Maelia Gorse",
-        "title": "Alchemist of the Red Door",
-        "location": "Red Door Alchemy, Salt Crown Shores",
-        "race": "Half-Elf",
-        "gender": "Female",
-        "age": "Appears early 40s (actual age unknown)",
-        "pronouns": "she/her",
-        "profession": "Alchemist, potion dealer, arcane biologist",
-        "affiliations": "Independent (rumored past ties to Sedna’s cult)",
-        "tags": [
-          "alchemy",
-          "arcane",
-          "salt crown",
-          "shopkeeper",
-          "reclusive",
-          "potion-maker"
-        ],
-        "appearance": {
-          "build": "Slender, wiry frame",
-          "hair": "Ash blonde streaked with white, usually tied back with twine",
-          "eyes": "Mismatched—one silver, one dark green",
-          "clothing": "Ink-stained robes layered with stitched pockets and leather apron",
-          "notable_features": [
-            "Fingers permanently stained with herbs and ink",
-            "Faint tattoos of alchemical symbols across her forearms",
-            "Always wears a pendant made of petrified coral and glass"
-          ]
-        },
-        "personality": {
-          "traits": [
-            "Sharp-tongued and coldly professional",
-            "Holds grudges with surgical precision",
-            "Respects intelligence, despises theatrics"
-          ],
-          "quirks": [
-            "Refuses to sell love potions to “emotional fools”",
-            "Talks to her potions as if they’re alive",
-            "Keeps a talking crow named Marrow who handles sarcasm for her"
-          ],
-          "ideals": "Knowledge over morality; Control over chaos",
-          "flaws": "Deep paranoia, avoids meaningful connections, haunted by past experiments"
-        },
-        "skills": [
-          "Expert in alchemy, arcane biology, and poisoncraft",
-          "Fluent in three dead languages",
-          "Has an uncanny sense for lies and magical disguises"
-        ],
-        "inventory": [
-          "Custom herbalist’s kit",
-          "Spellbook disguised as a shipping manifest",
-          "Several experimental potions of unknown effect",
-          "Small vial of blood labeled “In case of betrayal”"
-        ],
-        "backstory": "Maelia once served as an alchemical quartermaster for a splinter sect of Sedna’s cult, developing elixirs from sea-warped creatures and drowned offerings. After a falling out—or perhaps a betrayal—she fled the western shore and vanished into Salt Crown’s warrens. Her past is a sealed flask, but her knowledge of forbidden processes remains unmatched. She now sells her wares with cold detachment, refusing to discuss the sea, religion, or loyalty.",
-        "reputation": [
-          "Respected by pirates, feared by rivals",
-          "Whispers say she can “brew memories” or “unmake a soul”",
-          "Banned from three alchemist guilds on the mainland"
-        ],
-        "relationships": [
-          {
-            "Apprentice": "Brin, a mute human teenager skilled in bonework"
-          },
-          {
-            "Sinker": "Occasional trading partner"
-          },
-          {
-            "The Noose": "Avoids him at all costs"
-          }
-        ]
-      },
-      "body_excerpt": "",
-      "raw": {
-        "location": "Red Door Alchemy, Salt Crown Shores"
-      }
     },
     {
       "id": "bb:npc:maelia-gorse",
@@ -3004,13 +3516,13 @@
     {
       "id": "bb:Page:strange-bones",
       "type": "Page",
-      "name": "Strange Bones",
+      "name": "strange-bones",
       "tags": [
         "NPC",
         "Faction",
         "Rupert"
       ],
-      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Strange Bones.md",
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\strange-bones.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -3223,26 +3735,6 @@
       }
     },
     {
-      "id": "bb:page:district-of-little-sedna",
-      "type": "page",
-      "name": "District of Little Sedna",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\District of Little Sedna.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
-    },
-    {
-      "id": "bb:page:district-of-mistwalk",
-      "type": "page",
-      "name": "District of Mistwalk",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\District of Mistwalk.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
-    },
-    {
       "id": "bb:district:blackmire",
       "type": "district",
       "name": "Blackmire",
@@ -3359,6 +3851,57 @@
         ]
       },
       "body_excerpt": "# Overview\nKeelhauls is the city’s rust-stained gut—the place where cargo is hauled, backs are broken, and blood washes into the sea. It is home to the cheapest berths, the foulest grog, and the roughest crews. For newcomers it’s the first step ashore; for corpses, often the last. Brutal, industrial, and always in motion.\n\n# Geography\n- Piers, cranes, warehouses, and rusted hulls along Black Brine’s southern edge.  \n- River reeks of brine, fish rot, and fuel.  \n- Cobbled streets dissolve into mud and broken planks.  \n- Air filled with shouting, gulls, and the clang of iron.  \n\n# Notable Features\n- **The Low Berths** – Dockside moorings for poor or wanted ships.  \n- **Rustgate** – Customs checkpoint for sea goods entering the city.  \n- **Fishbone Row** – Street of taverns, fishmongers, debt…",
+      "raw": {
+        "parent_location": "bb:city:black-brine"
+      }
+    },
+    {
+      "id": "bb:page:district-of-little-sedna",
+      "type": "page",
+      "name": "district-of-little-sedna",
+      "tags": [],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\district-of-little-sedna.md",
+      "fm": {},
+      "body_excerpt": "",
+      "raw": {}
+    },
+    {
+      "id": "bb:district:mistwalk",
+      "type": "district",
+      "name": "Mistwalk",
+      "tags": [
+        "district",
+        "politics",
+        "elite",
+        "cult",
+        "religion",
+        "trade",
+        "intrigue"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\district-of-mistwalk.md",
+      "fm": {
+        "type": "district",
+        "id": "bb:district:mistwalk",
+        "name": "Mistwalk",
+        "parent_location": "bb:city:black-brine",
+        "location_type": "district",
+        "population": "~6,000",
+        "government": "Directly overseen by the Captain’s Council; influence split between captains, Sedna’s cult, and wealthy merchants",
+        "maps_available": true,
+        "map_files": [
+          "Mistwalk-Level1-37x33-Day.jpg"
+        ],
+        "tags": [
+          "district",
+          "politics",
+          "elite",
+          "cult",
+          "religion",
+          "trade",
+          "intrigue"
+        ]
+      },
+      "body_excerpt": "# Overview\nMistwalk is the nerve center of Black Brine—equal parts gilded theater and dagger’s edge. It is where captains rule, cults whisper, and merchants trade in blood and coin. Fog swirls through perfumed streets, thick with incense, secrets, and the weight of eyes watching from every balcony.\n\n# Geography\n- Tiered terraces overlooking the Black Brine River  \n- Ornate bridges and cobbled plazas  \n- Upper levels: opulent and maze-like  \n- Lower alleys: shrines, markets, and informants  \n- Fog lingers heavier here than anywhere else in the city  \n\n# Notable Features\n- **City Hull** – Grounded galleon serving as fortress and government hall  \n- **Gallows Market** – Multicolored plaza of fashion, shadowed by the Chained God temple  \n- **The Captain’s Club** – Private den for gambling, mus…",
       "raw": {
         "parent_location": "bb:city:black-brine"
       }
@@ -3586,14 +4129,39 @@
       "raw": {}
     },
     {
-      "id": "bb:page:city-hull",
-      "type": "page",
-      "name": "city-hull",
-      "tags": [],
+      "id": "bb:location:city-hull",
+      "type": "location",
+      "name": "City Hull",
+      "tags": [
+        "mistwalk",
+        "government",
+        "captains-council",
+        "fortress"
+      ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\city-hull.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
+      "fm": {
+        "type": "location",
+        "id": "bb:location:city-hull",
+        "name": "City Hull",
+        "parent_location": "bb:district:mistwalk",
+        "location_type": "government hall",
+        "population": "~200 (guards, clerks, council staff)",
+        "government": "Seat of the Captain’s Council",
+        "maps_available": true,
+        "map_files": [
+          "CityHull-Interior.jpg"
+        ],
+        "tags": [
+          "mistwalk",
+          "government",
+          "captains-council",
+          "fortress"
+        ]
+      },
+      "body_excerpt": "# Overview\nA grounded war galleon remade into a fortress and hall of rule. Its scarred hull looms over Mistwalk, sails long gone, masts cut into watchtowers. From here the Captain’s Council governs Black Brine with iron tongues and shifting loyalties.  \n\n# Notable Features\n- **Council Chamber** – Deck-turned-courtroom where captains bicker and scheme.  \n- **Hull Vaults** – Former powder holds now storing city records and cursed relics.  \n- **The Figurehead** – A warped angel, rumored to whisper to the Governor.  \n\n# Adventure Hooks\n- A ledger from the Hull Vaults is stolen, implicating multiple captains.  \n- An assassin infiltrates via the figurehead’s secret stair.  \n- The PCs are invited as “witnesses” to a council trial gone wrong.  \n\n# Secrets (DM Only)\n- A cursed relic from Sedna’s fi…",
+      "raw": {
+        "parent_location": "bb:district:mistwalk"
+      }
     },
     {
       "id": "bb:location:crooked-lantern",
@@ -3629,14 +4197,39 @@
       }
     },
     {
-      "id": "bb:page:cuttys-blades",
-      "type": "page",
-      "name": "cuttys-blades",
-      "tags": [],
+      "id": "bb:location:cuttys-blades",
+      "type": "location",
+      "name": "Cutty’s Blades",
+      "tags": [
+        "mistwalk",
+        "weapons",
+        "duel",
+        "widowmakers",
+        "intrigue"
+      ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\cuttys-blades.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
+      "fm": {
+        "type": "location",
+        "id": "bb:location:cuttys-blades",
+        "name": "Cutty’s Blades",
+        "parent_location": "bb:district:mistwalk",
+        "location_type": "workshop & dueling hall",
+        "population": "~50 (staff, duelists, Widowmakers)",
+        "government": "private ownership, tied to the Widowmakers fleet",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "mistwalk",
+          "weapons",
+          "duel",
+          "widowmakers",
+          "intrigue"
+        ]
+      },
+      "body_excerpt": "# Overview\nA boutique weapons shop and dueling hall, owned by Cutty the duelist-merchant. Above the showroom, the Widowmakers fleet maintains their hidden headquarters, plotting under the guise of commerce.  \n\n# Notable Features\n- **Showroom** – Exquisite blades, dueling pistols, and enchanted gear.  \n- **Dueling Hall** – Marble-floored, always crowded with wagers.  \n- **Fleet Rooms** – Upper chambers sealed against prying eyes.  \n\n# Adventure Hooks\n- A duel invitation is delivered to a PC with no sender.  \n- A weapon sings in its sheath, seeking its “true owner.”  \n- A Widowmakers captain plots a mutiny upstairs.  \n\n# Secrets (DM Only)\n- The Widowmakers plan an assassination from this base.  \n- Some blades are soulbound, their owners never escaped.  \n\n# Connected Locations\n- **bb:district…",
+      "raw": {
+        "parent_location": "bb:district:mistwalk"
+      }
     },
     {
       "id": "bb:page:drowned-market",
@@ -3830,14 +4423,39 @@
       }
     },
     {
-      "id": "bb:page:gallows-market",
-      "type": "page",
-      "name": "gallows-market",
-      "tags": [],
+      "id": "bb:location:gallows-market",
+      "type": "location",
+      "name": "Gallows Market",
+      "tags": [
+        "mistwalk",
+        "market",
+        "gallows",
+        "cult",
+        "intrigue"
+      ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\gallows-market.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
+      "fm": {
+        "type": "location",
+        "id": "bb:location:gallows-market",
+        "name": "Gallows Market",
+        "parent_location": "bb:district:mistwalk",
+        "location_type": "market",
+        "population": "~1,000 (shoppers, hawkers, cultists)",
+        "government": "Mixed — market overseers, but heavy presence from cults",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "mistwalk",
+          "market",
+          "gallows",
+          "cult",
+          "intrigue"
+        ]
+      },
+      "body_excerpt": "# Overview\nA broad plaza where stalls of fashion and finery press against gallows beams still stained with blood. Fog and incense mix above the crowd. Sedna’s cult and the Chained God’s priests vie for dominance in plain sight.  \n\n# Notable Features\n- **Stalls of Finery** – Rare silks, jewelry, charms.  \n- **Gallows Stage** – Hangings at dawn, sermons by dusk.  \n- **Shrine Corners** – Sedna’s and the Chained God’s icons both take offerings.  \n\n# Adventure Hooks\n- A fashion merchant sells clothes sewn with cursed thread.  \n- An execution victim vanishes before the noose tightens.  \n- A duel erupts between rival cult preachers in the market.  \n\n# Secrets (DM Only)\n- A Sednan altar lies sealed beneath the cobbles.  \n- The market overseers are bribed to let cult relics through unchecked.  \n\n# …",
+      "raw": {
+        "parent_location": "bb:district:mistwalk"
+      }
     },
     {
       "id": "bb:location:gentle-rest-inn",
@@ -3891,14 +4509,45 @@
       }
     },
     {
-      "id": "bb:page:house-of-questions",
-      "type": "page",
-      "name": "house-of-questions",
-      "tags": [],
+      "id": "bb:location:house-of-questions",
+      "type": "location",
+      "name": "House of Questions",
+      "tags": [
+        "mistwalk",
+        "inquisitors",
+        "law",
+        "justice",
+        "political",
+        "intrigue",
+        "fleets",
+        "government"
+      ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\house-of-questions.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
+      "fm": {
+        "type": "location",
+        "id": "bb:location:house-of-questions",
+        "name": "House of Questions",
+        "parent_location": "bb:district:mistwalk",
+        "location_type": "government",
+        "population": "fluctuates (12–20 core personnel)",
+        "government": "Operates under the authority of the Captain’s Council; each ruling fleet appoints one inquisitor",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "mistwalk",
+          "inquisitors",
+          "law",
+          "justice",
+          "political",
+          "intrigue",
+          "fleets",
+          "government"
+        ]
+      },
+      "body_excerpt": "# Overview\nA brooding, stone-faced building in Mistwalk known more by whispers than signage, the House of Questions is the investigative arm of the Captain’s Council. Each ruling fleet appoints one inquisitor, creating a dangerous alliance of spies, judges, and executioners. Citizens dread their knock; rivals fear their dossiers.\n\n# Role in Society\nThe House uncovers treason, corruption, conspiracy, and crimes threatening Black Brine’s stability. They answer only to the Council, extending their reach into every district, guild, and fleet.\n\n# Inquisitors\n- Appointed by each ruling fleet; loyalty split between fleet and city.  \n- Brutal enforcers, honey-tongued schemers, torture artists, and quiet ghosts all serve here.  \n- Known to clash politically and physically—even investigating each ot…",
+      "raw": {
+        "parent_location": "bb:district:mistwalk"
+      }
     },
     {
       "id": "bb:location:lending-house-black-brine",
@@ -4210,14 +4859,39 @@
       }
     },
     {
-      "id": "bb:page:temple-of-the-chained-god",
-      "type": "page",
-      "name": "temple-of-the-chained-god",
-      "tags": [],
+      "id": "bb:location:temple-chained-god",
+      "type": "location",
+      "name": "Temple of the Chained God",
+      "tags": [
+        "mistwalk",
+        "temple",
+        "chained-god",
+        "cult",
+        "religion"
+      ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\temple-of-the-chained-god.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
+      "fm": {
+        "type": "location",
+        "id": "bb:location:temple-chained-god",
+        "name": "Temple of the Chained God",
+        "parent_location": "bb:district:mistwalk",
+        "location_type": "temple",
+        "population": "~300 (priests, acolytes, veterans)",
+        "government": "run by priests of the Chained God",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "mistwalk",
+          "temple",
+          "chained-god",
+          "cult",
+          "religion"
+        ]
+      },
+      "body_excerpt": "# Overview\nA towering cathedral built from mainland stone and gold. It feeds, shelters, and indoctrinates retired pirates. Incense-laden halls echo with chants, promising peace but hiding manipulation.  \n\n# Notable Features\n- **Sanctuary** – Echoing nave filled with chained idols.  \n- **Veteran’s Quarters** – Dormitories for aged pirates.  \n- **Scriptorium** – Where priests pen new indoctrination tracts.  \n\n# Adventure Hooks\n- A veteran cared for here begins speaking in tongues.  \n- Priests offer PCs sanctuary—at the cost of vows.  \n- A forbidden scroll is smuggled out by a young acolyte.  \n\n# Secrets (DM Only)\n- Veterans are brainwashed into sleeper agents.  \n- The high altar drains life essence into chained idols.  \n\n# Connected Locations\n- **bb:district:mistwalk**",
+      "raw": {
+        "parent_location": "bb:district:mistwalk"
+      }
     },
     {
       "id": "bb:location:the-bonewalk",
@@ -4610,6 +5284,41 @@
       "target": "bb:district:salt-crown"
     },
     {
+      "source": "bb:fleet:gilded-rats",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:fleet:hollow-fangs",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:faction:house-of-questions",
+      "rel": "located_in",
+      "target": "bb:district:mistwalk"
+    },
+    {
+      "source": "bb:fleet:malign-crew",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:fleet:miasma",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:fleet:red-wakes",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:fleet:widowmakers",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
       "source": "bb:npc:the-noose",
       "rel": "located_in",
       "target": "bb:district:salt-crown"
@@ -4620,9 +5329,19 @@
       "target": "bb:faction:butchers"
     },
     {
-      "source": "bb:npc:vel-corven",
-      "rel": "rival_of",
-      "target": "bb:Page:captain-gun-deck-rosy"
+      "source": "bb:npc:gun-deck-rosy",
+      "rel": "located_in",
+      "target": "bb:location:city-hull"
+    },
+    {
+      "source": "bb:npc:inquisitor-zunizar",
+      "rel": "located_in",
+      "target": "bb:location:house-of-questions"
+    },
+    {
+      "source": "bb:npc:inquisitor-zunizar",
+      "rel": "member_of",
+      "target": "bb:fleet:widowmakers"
     },
     {
       "source": "bb:npc:brin",
@@ -4635,6 +5354,16 @@
       "target": "bb:npc:maelia-gorse"
     },
     {
+      "source": "bb:npc:cutty",
+      "rel": "located_in",
+      "target": "bb:location:cuttys-blades"
+    },
+    {
+      "source": "bb:npc:father-karr",
+      "rel": "located_in",
+      "target": "bb:location:temple-chained-god"
+    },
+    {
       "source": "bb:npc:high-numerator-fex",
       "rel": "located_in",
       "target": "bb:location:lending-house-black-brine"
@@ -4643,6 +5372,56 @@
       "source": "bb:npc:high-numerator-fex",
       "rel": "member_of",
       "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:npc:inquisitor-denara-gilt",
+      "rel": "located_in",
+      "target": "bb:location:house-of-questions"
+    },
+    {
+      "source": "bb:npc:inquisitor-denara-gilt",
+      "rel": "member_of",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:npc:inquisitor-iria-boardcutter",
+      "rel": "located_in",
+      "target": "bb:location:house-of-questions"
+    },
+    {
+      "source": "bb:npc:inquisitor-iria-boardcutter",
+      "rel": "member_of",
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:npc:inquisitor-morwen-plagueglass",
+      "rel": "located_in",
+      "target": "bb:location:house-of-questions"
+    },
+    {
+      "source": "bb:npc:inquisitor-morwen-plagueglass",
+      "rel": "member_of",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:npc:inquisitor-shark-eye-neris",
+      "rel": "located_in",
+      "target": "bb:location:house-of-questions"
+    },
+    {
+      "source": "bb:npc:inquisitor-shark-eye-neris",
+      "rel": "member_of",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:npc:inquisitor-whisper-keel",
+      "rel": "located_in",
+      "target": "bb:location:house-of-questions"
+    },
+    {
+      "source": "bb:npc:inquisitor-whisper-keel",
+      "rel": "member_of",
+      "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:npc:maelia-gorse",
@@ -4730,6 +5509,11 @@
       "target": "bb:city:black-brine"
     },
     {
+      "source": "bb:district:mistwalk",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
       "source": "bb:district:salt-crown",
       "rel": "located_in",
       "target": "bb:city:black-brine"
@@ -4745,9 +5529,19 @@
       "target": "bb:district:keelhauls"
     },
     {
+      "source": "bb:location:city-hull",
+      "rel": "located_in",
+      "target": "bb:district:mistwalk"
+    },
+    {
       "source": "bb:location:crooked-lantern",
       "rel": "located_in",
       "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:location:cuttys-blades",
+      "rel": "located_in",
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:location:drunken-satyr",
@@ -4775,9 +5569,19 @@
       "target": "bb:location:island-of-sedna"
     },
     {
+      "source": "bb:location:gallows-market",
+      "rel": "located_in",
+      "target": "bb:district:mistwalk"
+    },
+    {
       "source": "bb:location:gentle-rest-inn",
       "rel": "located_in",
       "target": "bb:district:salt-crown"
+    },
+    {
+      "source": "bb:location:house-of-questions",
+      "rel": "located_in",
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:location:lending-house-black-brine",
@@ -4813,6 +5617,11 @@
       "source": "bb:location:string-and-power",
       "rel": "located_in",
       "target": "bb:district:crosswater"
+    },
+    {
+      "source": "bb:location:temple-chained-god",
+      "rel": "located_in",
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:location:the-bonewalk",
@@ -4955,14 +5764,64 @@
       "target": "bb:location:lending-house-black-brine"
     },
     {
+      "source": "bb:npc:gun-deck-rosy",
+      "rel": "appears_in",
+      "target": "bb:location:city-hull"
+    },
+    {
+      "source": "bb:npc:inquisitor-zunizar",
+      "rel": "appears_in",
+      "target": "bb:location:cuttys-blades"
+    },
+    {
+      "source": "bb:npc:inquisitor-zunizar",
+      "rel": "appears_in",
+      "target": "bb:location:house-of-questions"
+    },
+    {
       "source": "bb:npc:brin",
       "rel": "appears_in",
       "target": "bb:location:red-door-alchemy"
     },
     {
+      "source": "bb:npc:cutty",
+      "rel": "appears_in",
+      "target": "bb:location:cuttys-blades"
+    },
+    {
+      "source": "bb:npc:father-karr",
+      "rel": "appears_in",
+      "target": "bb:location:temple-chained-god"
+    },
+    {
       "source": "bb:npc:high-numerator-fex",
       "rel": "appears_in",
       "target": "bb:location:lending-house-black-brine"
+    },
+    {
+      "source": "bb:npc:inquisitor-denara-gilt",
+      "rel": "appears_in",
+      "target": "bb:location:house-of-questions"
+    },
+    {
+      "source": "bb:npc:inquisitor-iria-boardcutter",
+      "rel": "appears_in",
+      "target": "bb:location:house-of-questions"
+    },
+    {
+      "source": "bb:npc:inquisitor-morwen-plagueglass",
+      "rel": "appears_in",
+      "target": "bb:location:house-of-questions"
+    },
+    {
+      "source": "bb:npc:inquisitor-shark-eye-neris",
+      "rel": "appears_in",
+      "target": "bb:location:house-of-questions"
+    },
+    {
+      "source": "bb:npc:inquisitor-whisper-keel",
+      "rel": "appears_in",
+      "target": "bb:location:house-of-questions"
     },
     {
       "source": "bb:npc:maelia-gorse",
@@ -5022,7 +5881,7 @@
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 128,
-    "edges": 94
+    "nodes": 141,
+    "edges": 131
   }
 }

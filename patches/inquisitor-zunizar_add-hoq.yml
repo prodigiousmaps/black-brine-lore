@@ -1,0 +1,5 @@
+path: RPG_Knowledge_Base/06_NPCs/inquisitor-zunizar.md
+set:
+  factions:
+    - bb:fleet:widowmakers
+    - bb:faction:house-of-questions
