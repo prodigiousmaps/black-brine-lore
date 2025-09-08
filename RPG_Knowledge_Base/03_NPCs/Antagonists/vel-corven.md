@@ -1,6 +1,8 @@
 ---
 type: npc
+id: bb:npc:vel-corven
 name: Vel Corven
+summary: Twilight Society fixture; schmoozes deals in the Velvet Nest above the Lending House.
 aliases:
 - The Velvet Flame
 - The Masked Host
@@ -11,6 +13,8 @@ age: Appears ageless
 occupation: High Host of the Twilight Society
 affiliation: Twilight Society
 location: bb:location:lending-house
+appears_in:
+  - bb:location:lending-house-black-brine
 tags:
 - noble
 - cult leader
@@ -18,6 +22,9 @@ tags:
 - manipulator
 - feytouched
 - secretive
+- salt-crown
+- broker
+- twilight-society
 appearance: 'Vel is a vision of elegance and mystery. Slender and tall, they glide
   rather than walk, draped in flowing silks and adorned in moonstone jewelry. Their
   mask—different every night—hides all but their piercing eyes, which shimmer like

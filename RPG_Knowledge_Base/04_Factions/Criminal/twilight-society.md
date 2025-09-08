@@ -1,8 +1,17 @@
 ---
-type: organization
-name: Twilight Society
-location: bb:location:lending-house
-tags: [faction, nobility, cult, debauchery, politics, seduction, secrets]
+type: faction
+id: bb:faction:twilight-society
+name: The Twilight Society
+summary: Velvet-gloved cabal of aristocrats and financiers who pull strings from lounges and ledgers.
+location: bb:district:salt-crown
+leaders: []
+controls:
+  - bb:location:lending-house-black-brine
+allies: []
+rivals: []
+tags: [salt-crown, elite, salons, intrigue]
+---
+
 
 overview: >
   The Twilight Society is an exclusive circle of wealthy, beautiful, and dangerous elites who worship pleasure, secrecy, and subtle power. Cloaked in hedonism and mysticism, they operate under the guise of socialites and art patrons, but beneath the velvet and wine lies a hidden devotion to the goddess Sharess. The society manipulates, corrupts, and blackmails its way through Black Brine’s high places, cloaking vice in the perfume of nobility.

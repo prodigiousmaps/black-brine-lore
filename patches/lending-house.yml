@@ -1,4 +1,15 @@
-path: C:\Users\FiveA\OneDrive\Documents\GitHub\black-brine-lore\RPG_Knowledge_Base\02_Locations\Points_of_Interest\Lending
-  House.md
+path: RPG_Knowledge_Base/05_Locations/Lending House.md
 set:
-  parent_location: bb:city:city-of-black-brine
+  type: location
+  id: bb:location:lending-house-black-brine
+  parent_location: bb:district:salt-crown
+  location_type: financial institution
+  maps_available: true
+  map_files: [SaltCrown-Day.jpg]
+  tags: [salt-crown, bank, wealth, intrigue, twilight-society]
+  factions:
+    - bb:faction:twilight-society
+  participants:
+    - bb:npc:maelia-gorse
+    - bb:npc:vel-corven
+    - bb:npc:high-numerator-fex

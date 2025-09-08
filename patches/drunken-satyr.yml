@@ -1,0 +1,11 @@
+path: RPG_Knowledge_Base/05_Locations/Drunken Satyr.md
+set:
+  type: location
+  id: bb:location:drunken-satyr
+  parent_location: bb:district:salt-crown
+  location_type: tavern
+  population: transient
+  government: private ownership
+  maps_available: false
+  map_files: []
+  tags: [salt-crown, tavern, rumors, rustic, eccentric]

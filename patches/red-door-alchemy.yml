@@ -1,0 +1,14 @@
+path: RPG_Knowledge_Base/05_Locations/Red Door Alchemy.md
+set:
+  type: location
+  id: bb:location:red-door-alchemy
+  parent_location: bb:district:salt-crown
+  location_type: shop
+  population: "1 owner, 1 assistant"
+  government: "private business (light harbor-watch oversight)"
+  maps_available: false
+  map_files: []
+  tags: [salt-crown, alchemy, magic, apothecary, shop]
+  participants:
+    - bb:npc:maelia-gorse
+    - bb:npc:brin

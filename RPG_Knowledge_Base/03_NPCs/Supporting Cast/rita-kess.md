@@ -1,16 +1,17 @@
-type: npc
-name: Rita Kess
-title: Master Smith of Salt Crown
-race: Human
-class: Fighter (Retired) / Master Artisan
-alignment: Lawful Neutral
-gender: Female
-age: 49
-affiliation: Independent (respected by the Captains’ Council)
-location: Rita’s Smithy, Salt Crown, Black Brine
-tags: [npc, smith, salt crown, master artisan, black brine, forge, mentor]
-
 ---
+type: npc
+id: bb:npc:rita-kess
+name: Rita Kess
+summary: Black Brine’s finest weaponsmith; runs a disciplined forge-compound in Salt Crown.
+location: bb:location:ritas-smithy
+factions: []
+allies: []
+rivals: []
+appears_in:
+  - bb:location:ritas-smithy
+tags: [salt-crown, smith, gond]
+---
+
 
 # Rita Kess
 

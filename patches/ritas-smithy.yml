@@ -1,0 +1,13 @@
+path: RPG_Knowledge_Base/05_Locations/Ritas Smithy.md
+set:
+  type: location
+  id: bb:location:ritas-smithy
+  parent_location: bb:district:salt-crown
+  location_type: compound
+  population: "1 master smith, 4 journeymen, 2 apprentices"
+  government: "independent guildcraft (subject to Salt Crown trade laws)"
+  maps_available: false
+  map_files: []
+  tags: [salt-crown, smithy, weaponsmith, shrine, forge, artisan, gond]
+  participants:
+    - bb:npc:rita-kess

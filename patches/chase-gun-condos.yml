@@ -1,0 +1,13 @@
+path: RPG_Knowledge_Base/05_Locations/Chase Gun Condos.md
+set:
+  type: location
+  id: bb:location:chase-gun-condos
+  parent_location: bb:district:salt-crown
+  location_type: residential
+  population: "~10 residents"
+  government: "private ownership (building steward: Crank)"
+  maps_available: false
+  map_files: []
+  tags: [salt-crown, residential, luxury, pirate-elite, condos]
+  participants:
+    - bb:npc:crank
