@@ -1,0 +1,4 @@
+path: RPG_Knowledge_Base/05_Locations/black-brine-river.md
+set:
+  connected_locations:
+    - bb:location:red-chain-bridge

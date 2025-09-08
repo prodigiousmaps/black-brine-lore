@@ -39,12 +39,13 @@
     "patches\\sinker.yml",
     "patches\\three-tooth-mavin.yml",
     "patches\\yurra-the-mireborn.yml",
+    "patches\\code-of-black-brine.yml",
     "patches\\lending-house.yml",
     "patches\\red-door-alchemy.yml"
   ],
   "suggestions": [
     {
-      "path": "RPG_Knowledge_Base\\02_Locations\\Island of Sedna.md",
+      "path": "RPG_Knowledge_Base\\02_Locations\\island-of-sedna.md",
       "field": "parent_location",
       "value": "bb:archipelago:mother-of-mists",
       "resolved_id": null,
@@ -739,17 +740,8 @@
     {
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\house-of-questions.md",
       "field": "participants",
-      "value": "bb:npc:inquisitor-zunizar",
-      "resolved_id": "bb:npc:inquisitor-zunizar",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\house-of-questions.md",
-      "field": "participants",
-      "value": "bb:npc:inquisitor-morwen-plagueglass",
-      "resolved_id": "bb:npc:inquisitor-morwen-plagueglass",
+      "value": "bb:npc:inquisitor-denara-gilt",
+      "resolved_id": "bb:npc:inquisitor-denara-gilt",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -766,8 +758,17 @@
     {
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\house-of-questions.md",
       "field": "participants",
-      "value": "bb:npc:inquisitor-denara-gilt",
-      "resolved_id": "bb:npc:inquisitor-denara-gilt",
+      "value": "bb:npc:inquisitor-morwen-plagueglass",
+      "resolved_id": "bb:npc:inquisitor-morwen-plagueglass",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\house-of-questions.md",
+      "field": "participants",
+      "value": "bb:npc:inquisitor-shark-eye-neris",
+      "resolved_id": "bb:npc:inquisitor-shark-eye-neris",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -784,8 +785,8 @@
     {
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\house-of-questions.md",
       "field": "participants",
-      "value": "bb:npc:inquisitor-shark-eye-neris",
-      "resolved_id": "bb:npc:inquisitor-shark-eye-neris",
+      "value": "bb:npc:inquisitor-zunizar",
+      "resolved_id": "bb:npc:inquisitor-zunizar",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -1027,8 +1028,8 @@
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\inquisitor-zunizar.md",
       "field": "appears_in",
-      "value": "bb:location:house-of-questions",
-      "resolved_id": "bb:location:house-of-questions",
+      "value": "bb:location:cuttys-blades",
+      "resolved_id": "bb:location:cuttys-blades",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -1036,8 +1037,8 @@
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\inquisitor-zunizar.md",
       "field": "appears_in",
-      "value": "bb:location:cuttys-blades",
-      "resolved_id": "bb:location:cuttys-blades",
+      "value": "bb:location:house-of-questions",
+      "resolved_id": "bb:location:house-of-questions",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -1475,6 +1476,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\black-brine-river.md",
+      "field": "parent_location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\city-of-black-brine.md",
       "field": "parent_location",
       "value": "bb:location:island-of-sedna",
@@ -1485,11 +1495,20 @@
     },
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\code-of-black-brine.md",
+      "field": "parent_location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\code-of-black-brine.md",
       "field": "controls",
-      "value": "bb:city:city-of-black-brine",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -1530,6 +1549,24 @@
     },
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\district-of-saltcrown.md",
+      "field": "parent_location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\geography-of-black-brine.md",
+      "field": "parent_location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\government-of-black-brine.md",
       "field": "parent_location",
       "value": "bb:city:black-brine",
       "resolved_id": "bb:city:black-brine",

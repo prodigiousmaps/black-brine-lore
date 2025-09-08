@@ -1,0 +1,7 @@
+path: RPG_Knowledge_Base/05_Locations/city-black-brine.md
+set:
+  appears_in:
+    - bb:lore:geography-black-brine
+    - bb:location:black-brine-river
+    - bb:lore:code-of-black-brine
+    - bb:faction:captains-council

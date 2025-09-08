@@ -58,7 +58,7 @@
         "mist",
         "ruin"
       ],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Island of Sedna.md",
+      "source": "RPG_Knowledge_Base\\02_Locations\\island-of-sedna.md",
       "fm": {
         "type": "location",
         "id": "bb:location:island-of-sedna",
@@ -3637,33 +3637,39 @@
       }
     },
     {
-      "id": "bb:Page:black-brine-river",
-      "type": "Page",
-      "name": "black-brine-river",
+      "id": "bb:location:black-brine-river",
+      "type": "location",
+      "name": "Black Brine River",
       "tags": [
-        "Island",
-        "LandFeatures",
-        "river"
+        "river",
+        "geography",
+        "superstition",
+        "trade",
+        "salt-fresh-divide"
       ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\black-brine-river.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Black Brine River",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-02-11T03:17:05.158Z",
-        "creationDate": "2025-02-10 21:17",
-        "modificationDate": "2025-08-21 15:35",
+        "type": "location",
+        "id": "bb:location:black-brine-river",
+        "name": "Black Brine River",
+        "parent_location": "bb:city:black-brine",
+        "location_type": "river",
+        "population": "none",
+        "government": "none",
+        "maps_available": false,
+        "map_files": [],
         "tags": [
-          "Island",
-          "LandFeatures",
-          "river"
-        ],
-        "coverImage": null
+          "river",
+          "geography",
+          "superstition",
+          "trade",
+          "salt-fresh-divide"
+        ]
       },
-      "body_excerpt": "# Black Brine River\n\n### **The Significance of the Brine Flow & the Black Flow freshwater Tributary**\n\nWhere Black meets Brine\n\nThe **meeting point** of the **Brine and the western jungle Black tributary** creates a **natural divide** not just in **salinity, but in culture, survival, and superstition**.\n\n---\n\n### **1. The Brackish Divide – A Natural Marker of Territory**\n\n- The **northern side** of the junction remains **salty**, blending with the Maelstrom’s pull.\n\n- The **southern side** is **freshwater-dominant**, feeding **life, settlements, and resources**.\n\n- This divide creates **a hidden border within Black Brine**, separating those who **fish the sea from those who rely on the land**.\n\n**Cultural Impact:**\n\n- **Sea-born pirates** consider the **saltier northern waters sacred**—a r…",
-      "raw": {}
+      "body_excerpt": "# Overview\nWhere the salt Brine River meets the freshwater Black tributary, the waters form a natural divide in salinity, culture, and superstition.\n\n# Geography\n- Northern flow: salty, tied to the Maelstrom and Sedna’s favor.  \n- Southern flow: freshwater, feeding settlements and trade.  \n- Junction creates eerie visual divides of black and clear water.  \n\n# Cultural Impact\n- Saltwater pirates scorn freshwater “soft hands.”  \n- “South Water Rum” prized from distilleries south of the junction.  \n- Offerings to Sedna cast into the salty side.  \n- Pirates refuse to sleep near the river on black-water nights.  \n\n# Strategic Role\n- Junction is a smuggling ground.  \n- Red Chain Bridge guards the crossing.  \n- Poisoning the southern tributary would be devastating in war.  \n\n# Secrets (DM Only)\n-…",
+      "raw": {
+        "parent_location": "bb:city:black-brine"
+      }
     },
     {
       "id": "bb:city:black-brine",
@@ -3701,36 +3707,39 @@
       }
     },
     {
-      "id": "bb:Page:code-of-black-brine",
-      "type": "Page",
-      "name": "code-of-black-brine",
+      "id": "bb:lore:code-of-black-brine",
+      "type": "lore",
+      "name": "The Code of Black Brine",
       "tags": [
-        "Town",
-        "laws"
+        "laws",
+        "pirates",
+        "justice",
+        "survival",
+        "council"
       ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\code-of-black-brine.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "The Code of Black Brine",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-02-11T03:12:34.675Z",
-        "creationDate": "2025-02-10 21:12",
-        "modificationDate": "2025-02-10 21:22",
+        "type": "lore",
+        "id": "bb:lore:code-of-black-brine",
+        "name": "The Code of Black Brine",
+        "parent_location": "bb:city:black-brine",
+        "location_type": "law",
         "tags": [
-          "Town",
-          "laws"
+          "laws",
+          "pirates",
+          "justice",
+          "survival",
+          "council"
         ],
-        "coverImage": null,
         "controls": [
-          "bb:city:city-of-black-brine"
+          "bb:city:black-brine"
         ]
       },
-      "body_excerpt": "# The Code of Black Brine\n\n**The Code of Black Brine**\n\nBlack Brine is a pirate stronghold, but **even pirates need rules**—not for justice, but for **survival**. The **Council of Captains** enforces a **simple but brutal code**, ensuring order in a city filled with cutthroats, thieves, and fugitives.\n\n---\n\n### **The Five Laws of Black Brine**\n\n1. **The Island Stays Secret**\n\n    - No one speaks of **Sedna’s waters, Black Brine’s location, or the ways to find it**—not in port, not in letters, not even in drunken whispers.\n\n    - Those who **break this silence** are labeled **Breachers**—and **no Breacher leaves the island alive**.\n\n2. **The Right to Keep What You Take**\n\n    - **Theft is legal—until the owner catches you.** If you steal, be ready to **fight for it**.\n\n    - If **you are ca…",
+      "body_excerpt": "# Overview\nThe Code is Black Brine’s brutal law of survival, enforced by the Council of Captains. Pirates live by it—or die by it.\n\n# The Five Laws\n1. **The Island Stays Secret** – Breakers are executed.  \n2. **The Right to Keep What You Take** – Theft is legal until contested. Losers pay in flesh.  \n3. **No Blood Without Cause** – Murder only in duel, revenge, or battle.  \n4. **Debts Must Be Paid** – Run from debt and the Black Marks carve your flesh.  \n5. **The Captains Rule the Waves** – Defiance means exile or worse.  \n\n# Punishments\n- Secrecy breach → execution.  \n- Petty theft → maiming.  \n- Murder without cause → fed to the sea.  \n- Unpaid debt → branding, maiming, or death.  \n- Defying council → exile, loss of ship, or execution.  \n\n# Ultimate Code\n“The Sea Forgets, So Must We.” Si…",
       "raw": {
+        "parent_location": "bb:city:black-brine",
         "controls": [
-          "bb:city:city-of-black-brine"
+          "bb:city:black-brine"
         ]
       }
     },
@@ -3948,62 +3957,66 @@
       }
     },
     {
-      "id": "bb:Page:geography-of-black-brine",
-      "type": "Page",
-      "name": "geography-of-black-brine",
+      "id": "bb:lore:geography-black-brine",
+      "type": "lore",
+      "name": "Geography of Black Brine",
       "tags": [
-        "Town",
-        "location",
-        "Districts"
+        "city",
+        "geography",
+        "districts",
+        "ruins",
+        "docks"
       ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\geography-of-black-brine.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Geography of Black Brine",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-02-11T03:35:12.909Z",
-        "creationDate": "2025-02-10 21:35",
-        "modificationDate": "2025-02-10 22:14",
+        "type": "lore",
+        "id": "bb:lore:geography-black-brine",
+        "name": "Geography of Black Brine",
+        "parent_location": "bb:city:black-brine",
+        "location_type": "geography",
         "tags": [
-          "Town",
-          "location",
-          "Districts"
-        ],
-        "coverImage": null
+          "city",
+          "geography",
+          "districts",
+          "ruins",
+          "docks"
+        ]
       },
-      "body_excerpt": "# Geography of Black Brine\n\n### **Black Brine – City Geography & Key Locations**\n\nBlack Brine is a **sprawling pirate stronghold** built along the **river delta** on the **island of Sedna**, hidden by **ever-present mist** and **treacherous reefs**. The city is a mix of **rickety docks, repurposed ship hulls, stone ruins, and pirate estates**, all built into the **rugged, jungle-choked coastline**.\n\n#### **City Layout**\n\n- **The Dagger Docks** – The **primary port**, a maze of **haphazard piers, gangplanks, and ship hulls** repurposed into taverns, smuggler dens, and storehouses.\n\n- **The Keelhauls** – A rough slum where **pirates without a crew** or **disgraced captains** scrape by. Home to **cutthroats, informants, and desperate souls**.\n\n- **The Salt Crown** – The wealthiest part of Bla…",
-      "raw": {}
+      "body_excerpt": "# Overview\nBlack Brine sprawls across the river delta of Sedna Island, hidden by reefs and mist. Its districts rise from docks, ruins, and estates.\n\n# Key Districts & Features\n- **Dagger Docks** – Primary port of piers, dens, and taverns.  \n- **Keelhauls** – Slums of the crewless and disgraced.  \n- **Salt Crown** – Wealthiest quarter, home to captain estates and council hall.  \n- **Gallows Market** – Bazaar of stolen goods and illegal magic.  \n- **Velvet Hammer** – Gambling hall and brothel run by thieves’ guild.  \n- **Rusted Anchor** – Tavern of plots and brawls.  \n- **Reefgate** – Only safe harbor entrance, guarded by wards and cannons.  \n- **Shrine of Sedna** – Temple where sacrifices are made.  \n- **Shipbreaker’s Yard** – Graveyard of ships, raw material for the city.  \n- **Black Mire*…",
+      "raw": {
+        "parent_location": "bb:city:black-brine"
+      }
     },
     {
-      "id": "bb:Page:government",
-      "type": "Page",
-      "name": "government",
+      "id": "bb:lore:geography-black-brine",
+      "type": "lore",
+      "name": "Geography of Black Brine",
       "tags": [
-        "Town",
-        "Rosy",
-        "laws"
+        "city",
+        "geography",
+        "districts",
+        "ruins",
+        "docks"
       ],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\government.md",
+      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\government-of-black-brine.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Government",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-02-11T03:47:15.879Z",
-        "creationDate": "2025-02-10 21:47",
-        "modificationDate": "2025-02-10 21:50",
+        "type": "lore",
+        "id": "bb:lore:geography-black-brine",
+        "name": "Geography of Black Brine",
+        "parent_location": "bb:city:black-brine",
+        "location_type": "geography",
         "tags": [
-          "Town",
-          "Rosy",
-          "laws"
-        ],
-        "coverImage": null
+          "city",
+          "geography",
+          "districts",
+          "ruins",
+          "docks"
+        ]
       },
-      "body_excerpt": "# Government\n\n### **The Council of Captains**\n\n- The **eight most powerful and prosperous captains** make up the ruling body.\n\n- Likely each has their own fleet, resources, and strongholds within or beyond Black Brine.\n\n- They govern by a mix of tradition, strength, and negotiation, with alliances shifting frequently.\n\n### **Governor \"Gun Deck\" Rosy**\n\n- A **female tiefling**, suggesting she may have an infernal heritage that adds to her mystique.\n\n- Her nickname **\"Gun Deck\"** implies expertise in naval warfare, possibly a pioneer in gunpowder tactics.\n\n- As an elected leader, she must balance the **volatile ambitions** of the captains while maintaining Black Brine’s prosperity.",
-      "raw": {}
+      "body_excerpt": "# Overview\nBlack Brine sprawls across the river delta of Sedna Island, hidden by reefs and mist. Its districts rise from docks, ruins, and estates.\n\n# Key Districts & Features\n- **Dagger Docks** – Primary port of piers, dens, and taverns.  \n- **Keelhauls** – Slums of the crewless and disgraced.  \n- **Salt Crown** – Wealthiest quarter, home to captain estates and council hall.  \n- **Gallows Market** – Bazaar of stolen goods and illegal magic.  \n- **Velvet Hammer** – Gambling hall and brothel run by thieves’ guild.  \n- **Rusted Anchor** – Tavern of plots and brawls.  \n- **Reefgate** – Only safe harbor entrance, guarded by wards and cannons.  \n- **Shrine of Sedna** – Temple where sacrifices are made.  \n- **Shipbreaker’s Yard** – Graveyard of ships, raw material for the city.  \n- **Black Mire*…",
+      "raw": {
+        "parent_location": "bb:city:black-brine"
+      }
     },
     {
       "id": "bb:location:black-brine-library",
@@ -5489,9 +5502,19 @@
       "target": "bb:npc:three-tooth-mavin"
     },
     {
+      "source": "bb:location:black-brine-river",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
       "source": "bb:city:black-brine",
       "rel": "located_in",
       "target": "bb:location:island-of-sedna"
+    },
+    {
+      "source": "bb:lore:code-of-black-brine",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
     },
     {
       "source": "bb:district:blackmire",
@@ -5515,6 +5538,16 @@
     },
     {
       "source": "bb:district:salt-crown",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:lore:geography-black-brine",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:lore:geography-black-brine",
       "rel": "located_in",
       "target": "bb:city:black-brine"
     },
@@ -5882,6 +5915,6 @@
   "unresolved": [],
   "stats": {
     "nodes": 141,
-    "edges": 131
+    "edges": 135
   }
 }

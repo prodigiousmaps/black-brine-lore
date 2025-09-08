@@ -1,0 +1,4 @@
+path: RPG_Knowledge_Base/05_Locations/house-of-questions.md
+set:
+  factions:
+    - bb:faction:captains-council
