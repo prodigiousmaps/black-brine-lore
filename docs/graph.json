@@ -57,6 +57,63 @@
       "raw": {}
     },
     {
+      "id": "bb:story:skull-garden-black-river",
+      "type": "story",
+      "name": "The Skull Garden of the Black River",
+      "tags": [
+        "encounter",
+        "jungle",
+        "black-river"
+      ],
+      "source": "RPG_Knowledge_Base\\08_Stories\\skull-garden-black-river.md",
+      "fm": {
+        "type": "story",
+        "id": "bb:story:skull-garden-black-river",
+        "name": "The Skull Garden of the Black River",
+        "summary": "Sy, Franklin, and Pinch journey upriver with Rupert and Strange Bones, reaching a barricaded stretch of the Black River. On the sandy bank lies the Skull Garden, where carnivorous vines and ravethings await.\n",
+        "location": "bb:river:black-river",
+        "participants": [
+          "bb:npc:sy",
+          "bb:npc:franklin-pierce",
+          "bb:npc:pinch",
+          "bb:npc:rupert-richthorn",
+          "bb:npc:strange-bones"
+        ],
+        "factions": [
+          "bb:faction:the-soiled"
+        ],
+        "appears_in": [
+          "bb:beast:ravething",
+          "bb:hazard:false-beauty-vines",
+          "bb:item:final-verse"
+        ],
+        "tags": [
+          "encounter",
+          "jungle",
+          "black-river"
+        ]
+      },
+      "body_excerpt": "# Act I – Up River\n- Travel pace: 6 hours/hex, 3 hex/day\n- Weather events: dense fog, jungle silence\n- Encounters: capsizing currents, river spirits, fungal mats\n\n# Act II – Barricade\n- The Soiled’s blockade forces the raft ashore.\n- PCs discover the Skull Garden.\n\n# Lore Clues\n- Carvings reference “The First Hunger.”\n- Scroll fragment: “The Fifth Mouth Never Closes.”\n- Ties to the Hollow Song cult and the Fifth Mouth sea god.",
+      "raw": {
+        "location": "bb:river:black-river",
+        "factions": [
+          "bb:faction:the-soiled"
+        ],
+        "participants": [
+          "bb:npc:sy",
+          "bb:npc:franklin-pierce",
+          "bb:npc:pinch",
+          "bb:npc:rupert-richthorn",
+          "bb:npc:strange-bones"
+        ],
+        "appears_in": [
+          "bb:beast:ravething",
+          "bb:hazard:false-beauty-vines",
+          "bb:item:final-verse"
+        ]
+      }
+    },
+    {
       "id": "bb:npc:andromida",
       "type": "npc",
       "name": "Andromeda",
@@ -477,126 +534,13 @@
       "raw": {}
     },
     {
-      "id": "bb:Page:encounter-1",
+      "id": "bb:Page:infiltration-temple-of-sedna",
       "type": "Page",
-      "name": "Encounter 1",
+      "name": "infiltration-temple-of-sedna",
       "tags": [
         "Encounter"
       ],
-      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\Encounter 1.md",
-      "fm": {
-        "type": "Page",
-        "collections": "The Deep Green",
-        "title": "Encounter 1",
-        "description": null,
-        "icon": "📓",
-        "createdAt": "2025-06-02T22:02:12.614Z",
-        "creationDate": "2025-06-02 17:02",
-        "modificationDate": "2025-06-18 17:03",
-        "tags": [
-          "Encounter"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Encounter 1\n\n1. UP RIVER - 6 HOURS PER HEX, 3 HEX PER DAY\n\n\n\nThreat Level = 0\n\nRupert has chartered a non-descript fishing boat to sail them to the mouth of the Black River\n​Strange bones will guide them to the mouth of the Black River Inlet and will jump off on the shore.  Sy will navigate the boat up stream.\n\nWEATHER\n\n5-**Dense Jungle Fog**\n\nDisadvantage on ranged attacks and Perception. Encounter chance increased by +1.\n\n11-**Jungle Silence**\n\nNo insects, birds, or rustling. PCs gain advantage on Stealth, but encounter DC lowered (higher risk).\n\nENCOUNTER\n\n9-Twisting currents—boats must **navigate or capsize** in whirlpool\n\n11-A pod of **river spirits** swim alongside silently; they vanish if spoken to\n\n5-**Floating fungal mat**—causes mild hallucinations for 1 hour\n\n**Mood**: Tense, …",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:encounter-2",
-      "type": "Page",
-      "name": "Encounter 2",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\Encounter 2.md",
-      "fm": {
-        "type": "Page",
-        "collections": "The Deep Green",
-        "title": "Encounter 2",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-06-17T13:44:35.641Z",
-        "creationDate": "2025-06-17 08:44",
-        "modificationDate": "2025-06-17 20:36",
-        "tags": [],
-        "coverImage": null
-      },
-      "body_excerpt": "# Encounter 2\n\nThreat Level = 1\n\nDay 1 - hex 1 - 3 miles in 8 hours\n\nThey stand on the banks of the river.\n\nWEATHER\n\n**Humid -**\n\n**Mood**: The jungle canopy, high above is alive with movement as the wind buffets the tree tops.  The jungle floor is still.\n\nNAVIGATION CHECK - No check required\n​\n\nNARRATIVE\n\nThe jungle is alive with sound. Insects drone in the undergrowth and the haunting calls of unknow birds fill the humid air. You are surrounded by thick lush greenery in all directions cut through with a single narrow dirt path that rises and falls over hills concealed in a dense layer of plant life, dead falls and the dry blanket of leaves from season past conceal the soil below.\n\nHigh above the canopy sways in the wind giving the appearance of a living ceiling of green and gray so thick…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:encounter-3",
-      "type": "Page",
-      "name": "Encounter 3",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\Encounter 3.md",
-      "fm": {
-        "type": "Page",
-        "collections": "The Deep Green",
-        "title": "Encounter 3",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-06-18T01:29:19.353Z",
-        "creationDate": "2025-06-17 20:29",
-        "modificationDate": "2025-06-18 14:20",
-        "tags": [],
-        "coverImage": null
-      },
-      "body_excerpt": "# Encounter 3\n\n[8F2943D1-5291-48C4-A7BB-1347C604A6F0](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/3529da77-ccb0-48e7-bd50-5cd8ae379af6)\n\nThreat Level = 1\n\nDay 1 - hex 1 - 3 miles in 4 hours\n\nWEATHER\n\n**Sweltering Winds & Humidity -** All scent-based tracking is impossible. Adv on Stealth, Disadv on perception\n\n**Mood**: The jungle canopy, high above is alive with movement as the wind buffets the tree tops.  The jungle floor is still.\n\nNAVIGATION CHECK - Bird, check reveals the location of Mount Vexir\n​\n\nNARRATIVE\n\nPart one - having obtained a baring you begin picking your way through the jungle.  The move through the undergrowth finding your way through clusters of massive trees and thick vines. You arrive at the bank of a small creek.  This area is shallow with a series…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:encounter-4",
-      "type": "Page",
-      "name": "Encounter 4",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\Encounter 4.md",
-      "fm": {
-        "type": "Page",
-        "collections": "The Deep Green",
-        "title": "Encounter 4",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-06-18T19:17:10.767Z",
-        "creationDate": "2025-06-18 14:17",
-        "modificationDate": "2025-06-18 14:53",
-        "tags": [],
-        "coverImage": null
-      },
-      "body_excerpt": "# Encounter 4\n\nThreat level = \n\nDay 2 - hex 1 - 3 miles in 6 hours\n\nWEATHER\n\n**Sudden Chill -** Jungle temperature drops. Each PC must succeed CON save DC 12 or lose 1 hour of travel to stiffness/frostbite.\n\n**Mood**: The jungle canopy, thins beyond the thicket and the temperature drops\n\nNAVIGATION CHECK - No check required, vexir is visible\n\n\n\nNARRATIVE\n\nAs the party exits the thicket they are struck by a cold wind slaps you in the face.  The trees in this area are dead and fallen forming a maze of deadfalls and with no tree cover to insulate you, wind chills you to the bone.  The foothills begin to rise to the east and west and mount Vexir looms before you, snow capped and forbidding. a distant plume of ash rises from the peak and is scattered by the wind.  Beyond the fallen trees, miles…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:encounter-5---short-cut",
-      "type": "Page",
-      "name": "Encounter 5 - Short Cut",
-      "tags": [
-        "Encounter"
-      ],
-      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\Encounter 5 - Short Cut.md",
-      "fm": {
-        "type": "Page",
-        "collections": "The Deep Green",
-        "title": "Encounter 5 - Short Cut",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-07-15T16:30:35.711Z",
-        "creationDate": "2025-07-15 11:30",
-        "modificationDate": "2025-07-15 11:49",
-        "tags": [
-          "Encounter"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Encounter 5 - Short Cut\n\nThey have made it through the maze and enter the jungle.  They will have 2 hexes to cover before the approach begins.\n​\n​Travel = 8 hours per hex\n​Weather = Ash fall - dampened sound, half visibility - Mount Vexhir ejects ash into the sky and it settles like snow on the jungle below.\n\n**Hex 1**\n\nThe ridge or the basin?\n\n1. Ridge increases time by 2 hour - Bone field - skeletal remains are tied to trees and bone chimes hang from the branches by the thousands. -5 Stealth - If a Stealth check is failed they will encounter shaman\n\n2. ​Basin decreases time by 2 hours - Razor ferns - PCs take 1d4 slashing damage if they try to pass quickly. Can be burned (draws attention).\n\n\n\nHex 2\n\nThe gorge crossing\n\n1. a deep gorge must be crossed via a rope bridge\n\n\n\nWhy would they…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:infiltration---little-sedna",
-      "type": "Page",
-      "name": "Infiltration - Little Sedna",
-      "tags": [
-        "Encounter"
-      ],
-      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\Infiltration - Little Sedna.md",
+      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\infiltration-temple-of-sedna.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -613,6 +557,239 @@
       },
       "body_excerpt": "# Infiltration - Little Sedna\n\n---\n\n[SednaInterior](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/5d466963-d411-45e0-b930-8cbd26c3281e)\n\n# 🧭 Temple of Sedna Infiltration – GM Area Guide\n\n*Level 6 adventure for Pinch, Franklin, and Sy – 2 to 3 hours*\n\n---\n\n## 🗺️ AREA 1: **Entrance Tunnel**\n\n**Description**\n\nSlippery, barnacle-covered steps descend into salt-choked air. The temple is quiet, but the deeper rooms hiss and breathe with the tide.\n\n**Hazards**\n\n- **Salt Scab Trap** – Pressure plate covered in salt crystals.\n\n    - Trigger: Spike erupts (Dex Save DC 14 or 3d10 piercing + grappled).\n\n- **Bioluminescent Barnacles** – Loud movement causes them to glow (Stealth Disadvantage for 1 minute).\n\n**Clues**\n\n- **Fresco on the wall**: A woman with a sewn mouth, three ritual bo…",
       "raw": {}
+    },
+    {
+      "id": "bb:story:encounter-2-deep-green",
+      "type": "story",
+      "name": "Encounter 2 – The Deep Green",
+      "tags": [
+        "encounter",
+        "jungle",
+        "cave",
+        "supplies"
+      ],
+      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-jungle-camp.md",
+      "fm": {
+        "type": "story",
+        "id": "bb:story:encounter-2-deep-green",
+        "name": "Encounter 2 – The Deep Green",
+        "summary": "Sy, Franklin, and Pinch follow the narrow jungle trail into the Deep Green, where they discover an abandoned base camp in a small cave littered with relics, journals, and ominous signs of past expeditions.\n",
+        "location": "bb:region:deep-green",
+        "participants": [
+          "bb:npc:sy",
+          "bb:npc:franklin-pierce",
+          "bb:npc:pinch"
+        ],
+        "factions": [
+          "bb:faction:fifth-mouth-cult"
+        ],
+        "tags": [
+          "encounter",
+          "jungle",
+          "cave",
+          "supplies"
+        ]
+      },
+      "body_excerpt": "# Narrative\nThe jungle canopy sways like a living ceiling while the forest floor lies in\nstifling stillness. The path winds through massive trees, deadfalls, and mossy\nstone. At trail’s end lies a dry cave, etched with ship names and tally marks.\nDiscarded supplies and strange offerings hint at failed expeditions.\n\n# The Cave\n- Old base camp with crates, lanterns, maps, and journals.\n- A clay statue of a serene figure sits on a shelf.\n- From behind massive roots, a slow rhythmic clicking is heard.\n- Signs of Fifth Mouth cult influence are scattered among the items.\n\n# Mechanics\n- If the party rests here, the cave amplifies dreams, especially when handling\n  the mask or shrine.\n- Use this encounter to foreshadow the Hollow Song’s effects.",
+      "raw": {
+        "location": "bb:region:deep-green",
+        "factions": [
+          "bb:faction:fifth-mouth-cult"
+        ],
+        "participants": [
+          "bb:npc:sy",
+          "bb:npc:franklin-pierce",
+          "bb:npc:pinch"
+        ]
+      }
+    },
+    {
+      "id": "bb:story:encounter-5-short-cut",
+      "type": "story",
+      "name": "Encounter 5 – Short Cut",
+      "tags": [
+        "encounter",
+        "jungle",
+        "ash-fall",
+        "vexir"
+      ],
+      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-short-cut.md",
+      "fm": {
+        "type": "story",
+        "id": "bb:story:encounter-5-short-cut",
+        "name": "Encounter 5 – Short Cut",
+        "summary": "After escaping the Treefall Maze, Sy, Franklin, and Pinch cut across two hexes of jungle. Ash fall from Mount Vexir dampens sound and sight. They must choose between ridge or basin, then cross a deep gorge by rope bridge.\n",
+        "location": "bb:region:deep-green",
+        "participants": [
+          "bb:npc:sy",
+          "bb:npc:franklin-pierce",
+          "bb:npc:pinch"
+        ],
+        "tags": [
+          "encounter",
+          "jungle",
+          "ash-fall",
+          "vexir"
+        ],
+        "appears_in": [
+          "bb:hazard:bone-field",
+          "bb:hazard:razor-ferns",
+          "bb:hazard:rope-bridge-gorge"
+        ]
+      },
+      "body_excerpt": "# Travel\n- Distance: 2 hexes (8 hours per hex).\n- Weather: Ash fall, muffled sound, half visibility.\n\n# Hex 1 Choice\n- **Ridge Path:** +2 hours. Leads through a Bone Field (see hazard).  \n- **Basin Path:** -2 hours. Crosses Razor Ferns (see hazard).\n\n# Hex 2\n- **Gorge Crossing:** must cross via rope bridge (see hazard).",
+      "raw": {
+        "location": "bb:region:deep-green",
+        "participants": [
+          "bb:npc:sy",
+          "bb:npc:franklin-pierce",
+          "bb:npc:pinch"
+        ],
+        "appears_in": [
+          "bb:hazard:bone-field",
+          "bb:hazard:razor-ferns",
+          "bb:hazard:rope-bridge-gorge"
+        ]
+      }
+    },
+    {
+      "id": "bb:story:skull-garden-black-river",
+      "type": "story",
+      "name": "The Skull Garden of the Black River",
+      "tags": [
+        "encounter",
+        "jungle",
+        "black-river"
+      ],
+      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-skull-garden.md",
+      "fm": {
+        "type": "story",
+        "id": "bb:story:skull-garden-black-river",
+        "name": "The Skull Garden of the Black River",
+        "summary": "Sy, Franklin, and Pinch journey upriver aboard Rupert’s chartered fishing boat. Guided by Strange Bones, they reach a ruined barricade where the river is blocked and must continue on foot. On the sandy bank lies the Skull Garden, where carnivorous vines and scavengers await.\n",
+        "location": "bb:river:black-river",
+        "participants": [
+          "bb:npc:sy",
+          "bb:npc:franklin-pierce",
+          "bb:npc:pinch",
+          "bb:npc:rupert-richthorn",
+          "bb:npc:strange-bones"
+        ],
+        "factions": [
+          "bb:faction:the-soiled"
+        ],
+        "tags": [
+          "encounter",
+          "jungle",
+          "black-river"
+        ]
+      },
+      "body_excerpt": "# Act I – Up River\n- Travel pace: 6 hours/hex, 3 hex/day\n- Weather tables:\n  - Dense Jungle Fog: ranged disadvantage, perception disadvantage, encounter chance +1\n  - Jungle Silence: stealth advantage, encounter DC lowered\n- Minor encounters:\n  - Twisting currents force navigation or capsizing\n  - Pod of river spirits vanish if spoken to\n  - Floating fungal mats cause mild hallucinations\n\n# Act II – River Barricade\n- The Soiled have collapsed ruins, forcing the raft aground.\n- PCs encounter the Skull Garden.\n\n# Skull Garden Encounter\n**Atmosphere**\n- Left bank: vine-choked ruins, obelisk, silent jungle birds.\n- Right bank: sandy beach, half-buried skull tangled in flowering vines, armored corpse.\n\n**Hazards**\n- False Beauty Vines (CR 3 plant hazard). Lure with blossoms, grapple and drag pr…",
+      "raw": {
+        "location": "bb:river:black-river",
+        "factions": [
+          "bb:faction:the-soiled"
+        ],
+        "participants": [
+          "bb:npc:sy",
+          "bb:npc:franklin-pierce",
+          "bb:npc:pinch",
+          "bb:npc:rupert-richthorn",
+          "bb:npc:strange-bones"
+        ]
+      }
+    },
+    {
+      "id": "bb:story:encounter-4-treefall-maze",
+      "type": "story",
+      "name": "Encounter 4 – The Treefall Maze",
+      "tags": [
+        "encounter",
+        "jungle",
+        "deadfall",
+        "vexir"
+      ],
+      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-treefall-maze.md",
+      "fm": {
+        "type": "story",
+        "id": "bb:story:encounter-4-treefall-maze",
+        "name": "Encounter 4 – The Treefall Maze",
+        "summary": "Sy, Franklin, and Pinch push beyond the thicket into a deadfall of collapsed trees at the base of Mount Vexir. Sudden cold sets in, the jungle thins, and a maze of toppled trunks forces hard choices, skill checks, and hazards.\n",
+        "location": "bb:region:deep-green",
+        "participants": [
+          "bb:npc:sy",
+          "bb:npc:franklin-pierce",
+          "bb:npc:pinch"
+        ],
+        "tags": [
+          "encounter",
+          "jungle",
+          "deadfall",
+          "vexir"
+        ],
+        "appears_in": [
+          "bb:monster:twig-blight-jungle-variant"
+        ]
+      },
+      "body_excerpt": "# Weather\n- **Sudden Chill:** CON save DC 12 or lose 1 hour of travel.\n- Mood: canopy thins, winds bite, Mount Vexir looms snowcapped with an ash plume.\n\n# Treefall Maze\n- Navigation: no check; Vexir visible.\n- Maze choice: +1 hour to climb or Acrobatics DC 14 to squeeze through.\n- Progress rolls:\n  - 20+: advance smoothly, gain Shortcut Die (1d4).\n  - 15–19: progress 1 hour closer.\n  - 10–14: delay, lose 1 hour.\n  - <10: lost → roll a complication.\n\n# Complications (d6)\n1. Roots collapse—DEX save DC14 or prone, 1d6 dmg.  \n2. Carved glyph or animal totem—WIS save DC12 or lose direction.  \n3. Predator’s lair (swarm/panther).  \n4. Soundless zone for 10 minutes (disadvantage on sound checks).  \n5. Treefall trap—DEX/STR save DC13 to escape.  \n6. Strange lights—INT save DC12 or wander, separate…",
+      "raw": {
+        "location": "bb:region:deep-green",
+        "participants": [
+          "bb:npc:sy",
+          "bb:npc:franklin-pierce",
+          "bb:npc:pinch"
+        ],
+        "appears_in": [
+          "bb:monster:twig-blight-jungle-variant"
+        ]
+      }
+    },
+    {
+      "id": "bb:story:encounter-3-vine-sanctum",
+      "type": "story",
+      "name": "Encounter 3 – The Vine Sanctum",
+      "tags": [
+        "encounter",
+        "jungle",
+        "vines",
+        "sanctum"
+      ],
+      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-vine-sanctum.md",
+      "fm": {
+        "type": "story",
+        "id": "bb:story:encounter-3-vine-sanctum",
+        "name": "Encounter 3 – The Vine Sanctum",
+        "summary": "Sy, Franklin, and Pinch press deeper into the Deep Green. Sweltering winds buffet the canopy while the jungle floor lies still. Navigation challenges lead them to a creek crossing, an abandoned camp with copper chimes, and finally a towering wall of False Beauty Vines concealing a sanctum of death.\n",
+        "location": "bb:region:deep-green",
+        "participants": [
+          "bb:npc:sy",
+          "bb:npc:franklin-pierce",
+          "bb:npc:pinch"
+        ],
+        "tags": [
+          "encounter",
+          "jungle",
+          "vines",
+          "sanctum"
+        ],
+        "appears_in": [
+          "bb:hazard:false-beauty-vines",
+          "bb:hazard:insect-swarm-blood-flies"
+        ]
+      },
+      "body_excerpt": "# Part I – Creek Crossing\n- Weather: Sweltering winds & humidity (scent tracking impossible, stealth adv., perception disadv.)\n- Navigation: survival DC13 to identify faint path; DC15 Arcana (bird check) or DC14 Acrobatics (climb check).\n- Stealth DC15 to move silently.\n- Hazard: insect swarm attack (see bb:hazard:insect-swarm-blood-flies).\n\n# Part II – Copper Chime Clearing\n- Clearing ~20x20 ft with abandoned fire ring.\n- Perimeter: faded strings with green-patina copper bells.\n- Navigation DC14 Arcana: reveals approaching vine wall ~300' thick.\n\n# Part III – Vine Wall\n- 10 rounds to cross.\n- Illusion maintenance DC12 Arcana (Pinch).\n- Each round: stealth DC12 or vines attack.\n- Vines: AC 12, HP 10, +5 to hit, 2d6 piercing + 1d6 acid, grapple DC14 STR save.\n- Casters concentrating: DC10 c…",
+      "raw": {
+        "location": "bb:region:deep-green",
+        "participants": [
+          "bb:npc:sy",
+          "bb:npc:franklin-pierce",
+          "bb:npc:pinch"
+        ],
+        "appears_in": [
+          "bb:hazard:false-beauty-vines",
+          "bb:hazard:insect-swarm-blood-flies"
+        ]
+      }
     },
     {
       "id": "bb:Page:dead-sons-campaign-narrative",
@@ -715,6 +892,272 @@
       "raw": {}
     },
     {
+      "id": "bb:hazard:false-beauty-vines",
+      "type": "hazard",
+      "name": "False Beauty Vines",
+      "tags": [
+        "plant",
+        "hazard",
+        "jungle"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\false-beauty-vines.md",
+      "fm": {
+        "type": "hazard",
+        "id": "bb:hazard:false-beauty-vines",
+        "name": "False Beauty Vines",
+        "summary": "Carnivorous flowering vines that lure with blossoms, grapple prey, and dissolve victims alive. Immune to charm, vulnerable to fire.\n",
+        "location": "bb:story:skull-garden-black-river",
+        "appears_in": [
+          "bb:story:skull-garden-black-river"
+        ],
+        "tags": [
+          "plant",
+          "hazard",
+          "jungle"
+        ]
+      },
+      "body_excerpt": "# False Beauty Vines\n- AC 12, HP 60\n- Actions:\n  - Vine Whip: +5 to hit, reach 10 ft, 2d6 piercing + 1d6 acid, grapple (DC 14)\n- Tactics: vines trigger when approached, pin prey for scavengers.",
+      "raw": {
+        "location": "bb:story:skull-garden-black-river",
+        "appears_in": [
+          "bb:story:skull-garden-black-river"
+        ]
+      }
+    },
+    {
+      "id": "bb:hazard:insect-swarm-blood-flies",
+      "type": "hazard",
+      "name": "Insect Swarm – Blood Flies",
+      "tags": [
+        "insects",
+        "swarm",
+        "jungle"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\insect-swarm-blood-flies.md",
+      "fm": {
+        "type": "hazard",
+        "id": "bb:hazard:insect-swarm-blood-flies",
+        "name": "Insect Swarm – Blood Flies",
+        "summary": "A swarm of biting flies that clouds around travelers in the Deep Green. Their bites distract, wound, and disrupt concentration.\n",
+        "location": "bb:story:encounter-3-vine-sanctum",
+        "appears_in": [
+          "bb:story:encounter-3-vine-sanctum"
+        ],
+        "tags": [
+          "insects",
+          "swarm",
+          "jungle"
+        ]
+      },
+      "body_excerpt": "# Blood Flies\n- Trigger: random PC targeted when entering vine thicket.\n- Save: DC14 CON or suffer 1d4 damage, lose concentration, disadvantage on ability checks.\n- Countermeasure: coating in mud grants advantage on save.",
+      "raw": {
+        "location": "bb:story:encounter-3-vine-sanctum",
+        "appears_in": [
+          "bb:story:encounter-3-vine-sanctum"
+        ]
+      }
+    },
+    {
+      "id": "bb:beast:ravething",
+      "type": "monster",
+      "name": "Ravething",
+      "tags": [
+        "beast",
+        "jungle",
+        "scavenger"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\ravething.md",
+      "fm": {
+        "type": "monster",
+        "id": "bb:beast:ravething",
+        "name": "Ravething",
+        "summary": "Hairless scavenger with jagged spines, hunts in packs and preys on restrained victims.\n",
+        "location": "bb:story:skull-garden-black-river",
+        "appears_in": [
+          "bb:story:skull-garden-black-river"
+        ],
+        "tags": [
+          "beast",
+          "jungle",
+          "scavenger"
+        ]
+      },
+      "body_excerpt": "# Ravething\n- AC 13, HP 18\n- Traits:\n  - Pack Hunter: advantage vs grappled/ restrained targets\n  - Opportunist: bonus 10 ft move when ally attacks nearby\n- Actions:\n  - Claw: +4 to hit, 1d6+3 slashing\n  - Spine Flurry (Recharge 5–6): DC 13 DEX save, 2d6 piercing",
+      "raw": {
+        "location": "bb:story:skull-garden-black-river",
+        "appears_in": [
+          "bb:story:skull-garden-black-river"
+        ]
+      }
+    },
+    {
+      "id": "bb:monster:twig-blight-jungle-variant",
+      "type": "monster",
+      "name": "Twig Blight – Jungle Variant",
+      "tags": [
+        "plant",
+        "monster",
+        "jungle"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\twig-blight-jungle-variant.md",
+      "fm": {
+        "type": "monster",
+        "id": "bb:monster:twig-blight-jungle-variant",
+        "name": "Twig Blight – Jungle Variant",
+        "summary": "A corrupted plant creature disguised as roots or shrubs. Releases spores when destroyed and clings with roots to slow movement.\n",
+        "location": "bb:story:encounter-4-treefall-maze",
+        "appears_in": [
+          "bb:story:encounter-4-treefall-maze"
+        ],
+        "tags": [
+          "plant",
+          "monster",
+          "jungle"
+        ]
+      },
+      "body_excerpt": "# Twig Blight (Jungle Variant)\n- Small Plant, Neutral Evil\n- AC 13 (natural armor)\n- HP 4 (1d6+1)\n- Speed 20 ft.\n- Skills: Stealth +3\n- Vulnerable: fire\n- Resistant: piercing\n- Immune: blinded\n- Senses: blindsight 60 ft., passive Perception 9\n- Languages: understands Common\n- CR 1/8 (25 XP), PB +2\n\n## Traits\n- **False Appearance:** Indistinguishable from dead roots while still.\n- **Mossdrip Spores:** On 0 HP, releases spores. DC11 CON save or poisoned until end of next turn.\n- **Root Cling:** 10-ft. radius difficult terrain unless DC12 Athletics succeeds.\n\n## Actions\n- **Claws:** +3 to hit, 5 ft., 1d4+1 slashing dmg.",
+      "raw": {
+        "location": "bb:story:encounter-4-treefall-maze",
+        "appears_in": [
+          "bb:story:encounter-4-treefall-maze"
+        ]
+      }
+    },
+    {
+      "id": "bb:hazard:ash-fall",
+      "type": "hazard",
+      "name": "Ash Fall",
+      "tags": [
+        "hazard",
+        "weather",
+        "vexir",
+        "ash"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\ash-fall.md",
+      "fm": {
+        "type": "hazard",
+        "id": "bb:hazard:ash-fall",
+        "name": "Ash Fall",
+        "summary": "Fine volcanic ash from Mount Vexir drifts through the jungle, muffling sound and obscuring sight. It reduces visibility, clogs lungs, and covers the ground in a pale layer that deadens tracks and noise.\n",
+        "location": "bb:region:mount-vexir",
+        "tags": [
+          "hazard",
+          "weather",
+          "vexir",
+          "ash"
+        ]
+      },
+      "body_excerpt": "# Ash Fall Effects\n- Visibility: reduced to half normal distance.\n- Perception: disadvantage on Wisdom (Perception) checks relying on sight.\n- Stealth: advantage on Dexterity (Stealth) checks (muffled sound).\n- Fatigue: after 8 hours of exposure, CON save DC12 or gain 1 level of exhaustion.\n- Environmental Flavor: ash falls like snow, drifting into canyons and clinging to skin.",
+      "raw": {
+        "location": "bb:region:mount-vexir"
+      }
+    },
+    {
+      "id": "bb:hazard:bone-field",
+      "type": "hazard",
+      "name": "Bone Field",
+      "tags": [
+        "hazard",
+        "ridge",
+        "bones",
+        "chimes"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\bone-field.md",
+      "fm": {
+        "type": "hazard",
+        "id": "bb:hazard:bone-field",
+        "name": "Bone Field",
+        "summary": "Ridge path filled with skeletal remains tied to trees, thousands of bone chimes hanging in the canopy. Creates eerie noise and risks alerting watchers.\n",
+        "location": "bb:story:encounter-5-short-cut",
+        "appears_in": [
+          "bb:story:encounter-5-short-cut"
+        ],
+        "tags": [
+          "hazard",
+          "ridge",
+          "bones",
+          "chimes"
+        ]
+      },
+      "body_excerpt": "# Bone Field\n- Effect: –5 penalty to Stealth checks.\n- On failed Stealth, PCs attract attention (e.g., a jungle shaman encounter).\n- Atmosphere: endless clattering of bone chimes in the ash-fall gloom.",
+      "raw": {
+        "location": "bb:story:encounter-5-short-cut",
+        "appears_in": [
+          "bb:story:encounter-5-short-cut"
+        ]
+      }
+    },
+    {
+      "id": "bb:hazard:razor-ferns",
+      "type": "hazard",
+      "name": "Razor Ferns",
+      "tags": [
+        "hazard",
+        "basin",
+        "plants",
+        "jungle"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\razor-ferns.md",
+      "fm": {
+        "type": "hazard",
+        "id": "bb:hazard:razor-ferns",
+        "name": "Razor Ferns",
+        "summary": "Dense ferns with razor-edged fronds cutting through clothes and skin. Offer a faster route through the basin, but at a painful cost.\n",
+        "location": "bb:story:encounter-5-short-cut",
+        "appears_in": [
+          "bb:story:encounter-5-short-cut"
+        ],
+        "tags": [
+          "hazard",
+          "basin",
+          "plants",
+          "jungle"
+        ]
+      },
+      "body_excerpt": "# Razor Ferns\n- Saves: none; moving quickly inflicts 1d4 slashing damage per PC.\n- Workaround: burning clears a path, but smoke/noise draws attention.\n- Benefit: reduces travel time by 2 hours.",
+      "raw": {
+        "location": "bb:story:encounter-5-short-cut",
+        "appears_in": [
+          "bb:story:encounter-5-short-cut"
+        ]
+      }
+    },
+    {
+      "id": "bb:hazard:rope-bridge-gorge",
+      "type": "hazard",
+      "name": "Rope Bridge Gorge",
+      "tags": [
+        "hazard",
+        "gorge",
+        "bridge",
+        "jungle"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\rope-bridge-gorge.md",
+      "fm": {
+        "type": "hazard",
+        "id": "bb:hazard:rope-bridge-gorge",
+        "name": "Rope Bridge Gorge",
+        "summary": "A deep jungle gorge with only a frayed rope bridge spanning it. Crossing is perilous, but no other safe route exists.\n",
+        "location": "bb:story:encounter-5-short-cut",
+        "appears_in": [
+          "bb:story:encounter-5-short-cut"
+        ],
+        "tags": [
+          "hazard",
+          "gorge",
+          "bridge",
+          "jungle"
+        ]
+      },
+      "body_excerpt": "# Rope Bridge Gorge\n- Check: DC13 Acrobatics to cross without issue.\n- On fail: slip, requiring DC12 Strength save or fall (4d6 damage).\n- Crossing time: 10 minutes per PC.\n- Atmosphere: ash fall drifts into the chasm, muffling depth perception.",
+      "raw": {
+        "location": "bb:story:encounter-5-short-cut",
+        "appears_in": [
+          "bb:story:encounter-5-short-cut"
+        ]
+      }
+    },
+    {
       "id": "bb:Page:challenge-coins",
       "type": "Page",
       "name": "Challenge Coins",
@@ -767,6 +1210,79 @@
       "raw": {}
     },
     {
+      "id": "bb:item:deep-green-supplies",
+      "type": "item",
+      "name": "Abandoned Expedition Supplies",
+      "tags": [
+        "supplies",
+        "loot",
+        "fifth-mouth"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\deep-green-supplies.md",
+      "fm": {
+        "type": "item",
+        "id": "bb:item:deep-green-supplies",
+        "name": "Abandoned Expedition Supplies",
+        "summary": "Gear and remnants left in a jungle cave base camp, including rations, rope, journals, oddities, and ritual objects. Many are decayed, though some retain strange potency.\n",
+        "location": "bb:story:encounter-2-deep-green",
+        "appears_in": [
+          "bb:story:encounter-2-deep-green"
+        ],
+        "tags": [
+          "supplies",
+          "loot",
+          "fifth-mouth"
+        ]
+      },
+      "body_excerpt": "# Supplies & Gear\n- Crate of dried rations (spoiled or partially edible)\n- Bundle of jungle climbing rope\n- Explorer’s gear chest with compass and goggles\n- Lanterns and whale oil marked “From Baldur’s Gate”\n- Jungle journal (clues about Temple, whispers, black sun)\n- Rusted bear traps\n- Crates stamped “FM” for Fifth Mouth\n\n# Containers & Chemicals\n- Two corked vials (poison resistance potion possible)\n- Brass cookpot with teeth motifs\n- Dried tea leaves inducing vivid dreams\n\n# Oddities\n- Ceremonial mask of the Fifth Mouth (whispers when worn)\n- Sack of carved tokens (faces not in the party)\n- Love letter from “R” to Dovain\n- Shrine stone with salt dish (reacts to seawater)\n\n# Evidence of Time & Rot\n- Scattered halfling/gnome bones (jaw runes)\n- Jungle vermin nest (use as bait)\n- Unnatura…",
+      "raw": {
+        "location": "bb:story:encounter-2-deep-green",
+        "appears_in": [
+          "bb:story:encounter-2-deep-green"
+        ]
+      }
+    },
+    {
+      "id": "bb:item:final-verse",
+      "type": "item",
+      "name": "Final Verse",
+      "tags": [
+        "weapon",
+        "cursed",
+        "hollow-song"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\final-verse.md",
+      "fm": {
+        "type": "item",
+        "id": "bb:item:final-verse",
+        "name": "Final Verse",
+        "summary": "A jagged shortsword found in the Skull Garden. Whispers fragments of the dying as it kills; wielder may wound themselves to resist charms.\n",
+        "rarity": "uncommon",
+        "slot": "weapon",
+        "weapon_type": "shortsword",
+        "properties": [
+          "finesse",
+          "light"
+        ],
+        "location": "bb:story:skull-garden-black-river",
+        "appears_in": [
+          "bb:story:skull-garden-black-river"
+        ],
+        "tags": [
+          "weapon",
+          "cursed",
+          "hollow-song"
+        ]
+      },
+      "body_excerpt": "# Final Verse\n- Damage: 1d6 piercing\n- Effects:\n  - On kill: wielder hears target’s last memory fragment.\n  - Once per long rest: wound self for 1d6 damage to reroll a failed CHA/WIS save vs charm/possession.",
+      "raw": {
+        "location": "bb:story:skull-garden-black-river",
+        "appears_in": [
+          "bb:story:skull-garden-black-river"
+        ]
+      }
+    },
+    {
       "id": "bb:Page:how-do-apertures-work",
       "type": "Page",
       "name": "How do apertures work!",
@@ -790,6 +1306,41 @@
       },
       "body_excerpt": "# How do apertures work!\n\n- How do apertures work!\n\n- Allows for the transfer of power (spell slots).\n\n- Each wielder must use an attunement slot\n\n- any caster can use an aperture. If you have spell slots or pact slots you may attune to an aperture.\n\n- Each individual chooses how many slots they will contribute to the pool.\n\n- Power: One spell slot equals one spell level.\n\n    1. Focus may take levels to cast spells they already know to a maximum of 9th level\n\n    2. Levels may be used to “upcast” as spell as stated in the spell description\n\n- Configuration: The arrangement of casters imparts special benefits\n\n    1. Discovering Configurations - Must be done through experimentation\n\n        1. A configuration may be attempted with successful arcana check DC18\n\n        2. Following a config…",
       "raw": {}
+    },
+    {
+      "id": "bb:lore:journal-fragment-viii",
+      "type": "lore",
+      "name": "Journal Fragment VIII",
+      "tags": [
+        "journal",
+        "lore",
+        "fifth-mouth",
+        "hollow-song"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\journal-fragment-viii.md",
+      "fm": {
+        "type": "lore",
+        "id": "bb:lore:journal-fragment-viii",
+        "name": "Journal Fragment VIII",
+        "summary": "A faded expedition journal recovered from the Deep Green cave. Describes strange canopy intent, marked trees, dreams beneath roots, and a sense of the jungle’s hunger.\n",
+        "location": "bb:story:encounter-2-deep-green",
+        "appears_in": [
+          "bb:story:encounter-2-deep-green"
+        ],
+        "tags": [
+          "journal",
+          "lore",
+          "fifth-mouth",
+          "hollow-song"
+        ]
+      },
+      "body_excerpt": "# Excerpt\n- The canopy seems to lean closer, as if listening.\n- A coin like Waterdeep’s, but with an open mouth instead of a crown.\n- Marked three trees; by dusk, there were four.\n- Dovain listens for something he calls “shape, not sound.”\n- Dreams beneath roots with a song that made teeth ache.\n- Expedition may have been doomed from the start.\n- “The jungle has no gold. Only hunger.” — J.",
+      "raw": {
+        "location": "bb:story:encounter-2-deep-green",
+        "appears_in": [
+          "bb:story:encounter-2-deep-green"
+        ]
+      }
     },
     {
       "id": "bb:Page:the-blind-chef-s-almanac",
@@ -2896,6 +3447,56 @@
   ],
   "edges": [
     {
+      "source": "bb:hazard:false-beauty-vines",
+      "rel": "located_in",
+      "target": "bb:story:skull-garden-black-river"
+    },
+    {
+      "source": "bb:hazard:insect-swarm-blood-flies",
+      "rel": "located_in",
+      "target": "bb:story:encounter-3-vine-sanctum"
+    },
+    {
+      "source": "bb:beast:ravething",
+      "rel": "located_in",
+      "target": "bb:story:skull-garden-black-river"
+    },
+    {
+      "source": "bb:monster:twig-blight-jungle-variant",
+      "rel": "located_in",
+      "target": "bb:story:encounter-4-treefall-maze"
+    },
+    {
+      "source": "bb:hazard:bone-field",
+      "rel": "located_in",
+      "target": "bb:story:encounter-5-short-cut"
+    },
+    {
+      "source": "bb:hazard:razor-ferns",
+      "rel": "located_in",
+      "target": "bb:story:encounter-5-short-cut"
+    },
+    {
+      "source": "bb:hazard:rope-bridge-gorge",
+      "rel": "located_in",
+      "target": "bb:story:encounter-5-short-cut"
+    },
+    {
+      "source": "bb:item:deep-green-supplies",
+      "rel": "located_in",
+      "target": "bb:story:encounter-2-deep-green"
+    },
+    {
+      "source": "bb:item:final-verse",
+      "rel": "located_in",
+      "target": "bb:story:skull-garden-black-river"
+    },
+    {
+      "source": "bb:lore:journal-fragment-viii",
+      "rel": "located_in",
+      "target": "bb:story:encounter-2-deep-green"
+    },
+    {
       "source": "bb:npc:vel-corven",
       "rel": "rival_of",
       "target": "bb:Page:captain-gun-deck-rosy"
@@ -2914,11 +3515,106 @@
       "source": "bb:page:the-golden-gull",
       "rel": "located_in",
       "target": "bb:city:city-of-black-brine"
+    },
+    {
+      "source": "bb:story:skull-garden-black-river",
+      "rel": "appears_in",
+      "target": "bb:beast:ravething"
+    },
+    {
+      "source": "bb:story:skull-garden-black-river",
+      "rel": "appears_in",
+      "target": "bb:hazard:false-beauty-vines"
+    },
+    {
+      "source": "bb:story:skull-garden-black-river",
+      "rel": "appears_in",
+      "target": "bb:item:final-verse"
+    },
+    {
+      "source": "bb:story:encounter-5-short-cut",
+      "rel": "appears_in",
+      "target": "bb:hazard:bone-field"
+    },
+    {
+      "source": "bb:story:encounter-5-short-cut",
+      "rel": "appears_in",
+      "target": "bb:hazard:razor-ferns"
+    },
+    {
+      "source": "bb:story:encounter-5-short-cut",
+      "rel": "appears_in",
+      "target": "bb:hazard:rope-bridge-gorge"
+    },
+    {
+      "source": "bb:story:encounter-4-treefall-maze",
+      "rel": "appears_in",
+      "target": "bb:monster:twig-blight-jungle-variant"
+    },
+    {
+      "source": "bb:story:encounter-3-vine-sanctum",
+      "rel": "appears_in",
+      "target": "bb:hazard:false-beauty-vines"
+    },
+    {
+      "source": "bb:story:encounter-3-vine-sanctum",
+      "rel": "appears_in",
+      "target": "bb:hazard:insect-swarm-blood-flies"
+    },
+    {
+      "source": "bb:hazard:false-beauty-vines",
+      "rel": "appears_in",
+      "target": "bb:story:skull-garden-black-river"
+    },
+    {
+      "source": "bb:hazard:insect-swarm-blood-flies",
+      "rel": "appears_in",
+      "target": "bb:story:encounter-3-vine-sanctum"
+    },
+    {
+      "source": "bb:beast:ravething",
+      "rel": "appears_in",
+      "target": "bb:story:skull-garden-black-river"
+    },
+    {
+      "source": "bb:monster:twig-blight-jungle-variant",
+      "rel": "appears_in",
+      "target": "bb:story:encounter-4-treefall-maze"
+    },
+    {
+      "source": "bb:hazard:bone-field",
+      "rel": "appears_in",
+      "target": "bb:story:encounter-5-short-cut"
+    },
+    {
+      "source": "bb:hazard:razor-ferns",
+      "rel": "appears_in",
+      "target": "bb:story:encounter-5-short-cut"
+    },
+    {
+      "source": "bb:hazard:rope-bridge-gorge",
+      "rel": "appears_in",
+      "target": "bb:story:encounter-5-short-cut"
+    },
+    {
+      "source": "bb:item:deep-green-supplies",
+      "rel": "appears_in",
+      "target": "bb:story:encounter-2-deep-green"
+    },
+    {
+      "source": "bb:item:final-verse",
+      "rel": "appears_in",
+      "target": "bb:story:skull-garden-black-river"
+    },
+    {
+      "source": "bb:lore:journal-fragment-viii",
+      "rel": "appears_in",
+      "target": "bb:story:encounter-2-deep-green"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 96,
-    "edges": 4
+    "nodes": 108,
+    "edges": 33
   }
 }
