@@ -1,84 +1,56 @@
+---
 type: location
+id: bb:location:island-of-sedna
 name: Island of Sedna
-parent_location: Mother of Mists
+parent_location: bb:archipelago:mother-of-mists
 location_type: island
 population: unknown
 government: none
 maps_available: true
 map_files: [IMG_2090.jpg]
-tags: [Island, LandFeatures, Legends, Forbidden, Jungle, Sedna]
-
+tags: [island, forbidden, jungle, sedna, mist, ruin]
 ---
 
-# Island of Sedna
+# Overview
+The Island of Sedna is the cursed, mist-shrouded heart of the Mother of Mists archipelago. Said to be the domain of the forgotten goddess Sedna, it is wrapped in legends of blood, betrayal, and the sea. Treacherous reefs and eternal fog conceal it, and the river that bisects the island is regarded as the last boundary of sanity before plunging into the wilderness.
 
-## Overview
-The Island of Sedna is the cursed, mist-shrouded heart of the Mother of Mists archipelago. Said to be the domain of the forgotten goddess Sedna, it is wrapped in legends of blood, betrayal, and the sea. Treacherous reefs and thick fog protect it from outsiders, and the river that bisects the island is regarded as the last boundary of sanity before plunging into the wilderness. Only the bold or the mad venture west.
+# Geography
+- **Black Brine River**: Where the freshwater Black River from the west meets the Brine River from the east; serves as a spiritual and cultural boundary.
+- **East Sedna**: Populated and cultivated; home to Black Brine city, fishing coves, and highlands.
+- **West Sedna**: Forbidden jungle, ruins, shrines, volcanic peaks; cursed and unexplored.
+- **Misty Shores**: Reef-choked coasts in eternal fog, nearly impassable without magical guidance.
+- **Volcanic Peak**: Dormant but rumored to hold fire spirits, relics, and treasure.
+- **Eastern Highlands**: Sparse settlements of hermits and cultists on storm-battered cliffs.
+- **Southern Trade Post**: Hidden pirate and smuggler market.
+- **Shrouded Grotto**: Secret cave network bound to Sedna’s magic.
 
-## Geography
+# Notable Features
+- **Forbidden West**: Sedna’s shrines, lost expeditions, and voices in the mist; the land resists intrusion.
+- **Jungle Ruins**: Moss-covered temples and altars of a vanished people, cursed relics, and undead guardians.
+- **Eternal Mist**: Divine curse or magical ward tied to Sedna’s dominion.
+- **Ghost Ships**: Crewless vessels that appear without warning, hunting intruders.
 
-### The River
-- **Name**: Black Brine River  
-- **Origin**: Formed where the freshwater Black River from the western jungles meets the saltwater Brine River  
-- **Significance**: Acts as a spiritual and cultural barrier between civilized East Sedna and the Forbidden West
+# Culture & Lore
+- The river is a sacred boundary; no one from Black Brine ventures west.
+- Children grow up on stories of Sedna’s wrath and jungle shrines.
+- Sedna’s name is spoken in both reverence and fear.
 
-### Key Regions
-- **East Sedna**: Populated and cultivated; home to the city of Black Brine, fishing coves, and highlands
-- **West Sedna**: Unexplored jungle, ruins, volcanic peaks, sacred shrines; considered cursed
-- **Misty Shores**: Reef-choked coasts wrapped in eternal fog; inaccessible without magical or expert navigation
-- **Volcanic Peak**: Possibly dormant; rumored to hold fire spirits, treasure hoards, and ancient power
-- **Eastern Highlands**: Storm-battered cliffs and sparse settlements of hermits and cultists
-- **Southern Trade Post**: A hidden marketplace used by pirates and smugglers
-- **Shrouded Grotto**: A secretive cave network tied to Sedna’s power, hidden beneath cliffs or mountains
+# Adventure Hooks
+- A captain vanished west of the river; his ship returned empty.
+- A map to an untouched ruin surfaces on the black market.
+- The mist begins to recede, heralding change.
+- A cult claims Sedna’s voice calls them inland.
 
-## Notable Features
+# Secrets (DM Only)
+- The mist comes from a blood-sealed relic beneath the volcanic peak.
+- Sedna’s shrines are portals or foci for her power.
+- The Lost Keepers, once Sedna’s priests, are now jungle horrors.
+- The Shrouded Grotto is a planar gateway to sea, shadow, and memory.
 
-### Forbidden West
-- Shrines to Sedna carved into cliff faces or swallowed by jungle
-- Lost expeditions, never returned
-- Voices in the mist lure travelers deeper
-- The land itself resists intrusion
+# Connected Locations
+- **bb:city:black-brine** – Pirate stronghold of East Sedna.
+- **bb:archipelago:mother-of-mists** – The wider archipelago.
+- **bb:region:chult** – Mainland continent across the sea.
 
-### Jungle Ruins
-- Stone temples and altars covered in moss and vines
-- Signs of a vanished civilization
-- Rumored to contain cursed relics and undead guardians
-
-### Eternal Mist
-- Possibly a magical defense or divine curse
-- Said to be tied to Sedna's dominion and a relic lost to time
-
-### Ghost Ships
-- Appear without warning, crewed by the lost and damned
-- Said to hunt trespassers on Sedna’s waters
-
-## Culture & Lore
-
-- The river is more than water—it is a boundary, a warning
-- Black Brine citizens do not venture west of the river
-- Children are told stories of Sedna’s wrath and the shrines in the jungle
-- Sedna’s name is spoken in reverence and fear
-
-## Adventure Hooks
-
-- A captain has gone missing west of the river—his ship returned without a crew
-- A map leading to an unplundered ruin appears on the black market
-- The mist is receding—something is coming
-- A cult claims to hear Sedna’s voice calling them inland
-
-## Secrets & Hidden Information (DM Only)
-
-- The mist originates from an ancient blood-sealed relic beneath the volcanic peak
-- Sedna’s shrines serve as portals or focal points for her magic
-- The Lost Keepers were Sedna’s original worshippers—now transformed into jungle-dwelling horrors
-- The Shrouded Grotto is a gateway to another plane—one of sea, shadow, and memory
-
-## Connected Locations
-
-- **Black Brine**: Pirate city on the east coast
-- **Mother of Mists**: Archipelago where Sedna resides
-- **Chult**: Mainland continent across the sea
-
-## Maps
-
-- IMG_2090.jpg – full island map
+# Maps
+- `IMG_2090.jpg` – full island map

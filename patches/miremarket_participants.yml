@@ -1,0 +1,8 @@
+path: RPG_Knowledge_Base/05_Locations/miremarket.md
+set:
+  participants:
+    - bb:npc:three-tooth-mavin
+    - bb:npc:yurra-the-mireborn
+    - bb:npc:mister-blight
+  factions:
+    - bb:faction:butchers

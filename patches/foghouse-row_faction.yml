@@ -1,0 +1,4 @@
+path: RPG_Knowledge_Base/05_Locations/foghouse-row.md
+set:
+  factions:
+    - bb:faction:butchers

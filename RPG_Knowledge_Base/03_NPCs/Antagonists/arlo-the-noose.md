@@ -1,14 +1,19 @@
 ---
-type: Page
-collections: Black Brine
-title: Arlo "The Noose" Vex
-description: null
-icon: null
-createdAt: '2025-03-18T19:15:58.403Z'
-creationDate: 2025-03-18 14:15
-modificationDate: 2025-03-18 14:47
-tags: [Town, NPC, Faction]
-coverImage: null
+type: npc
+id: bb:npc:the-noose
+name: "The Noose"
+summary: >
+  Enforcer boss who leads the Butchers; a ruthless organizer of smuggling and fear.
+location: bb:district:salt-crown
+factions: [ bb:faction:butchers ]
+allies: []
+rivals: [ bb:faction:captains-council ]
+appears_in:
+  - bb:faction:butchers
+  - bb:location:miremarket
+  - bb:location:foghouse-row
+tags: [crime-lord, enforcer, black-brine]
+
 ---
 
 # Arlo "The Noose" Vex
