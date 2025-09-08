@@ -1,0 +1,7 @@
+path: C:\Users\FiveA\OneDrive\Documents\GitHub\black-brine-lore\RPG_Knowledge_Base\04_Factions\Criminal\butchers.md
+set:
+  leaders:
+  - bb:npc:the-noose
+  controls:
+  - bb:location:foghouse-row
+  - bb:location:miremarket

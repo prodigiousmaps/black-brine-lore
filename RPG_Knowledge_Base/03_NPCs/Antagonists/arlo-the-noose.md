@@ -1,21 +1,26 @@
 ---
 type: npc
 id: bb:npc:the-noose
-name: "The Noose"
-summary: >
-  Enforcer boss who leads the Butchers; a ruthless organizer of smuggling and fear.
+name: The Noose
+summary: 'Enforcer boss who leads the Butchers; a ruthless organizer of smuggling
+  and fear.
+
+  '
 location: bb:district:salt-crown
-factions: [ bb:faction:butchers ]
+factions:
+- bb:faction:butchers
 allies: []
-rivals: [ bb:faction:captains-council ]
+rivals:
+- bb:faction:captains-council
 appears_in:
-  - bb:faction:butchers
-  - bb:location:miremarket
-  - bb:location:foghouse-row
-tags: [crime-lord, enforcer, black-brine]
-
+- bb:faction:butchers
+- bb:location:foghouse-row
+- bb:location:miremarket
+tags:
+- crime-lord
+- enforcer
+- black-brine
 ---
-
 # Arlo "The Noose" Vex
 
 [[IMG_2193]]

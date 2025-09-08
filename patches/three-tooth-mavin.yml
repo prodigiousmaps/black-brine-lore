@@ -1,0 +1,7 @@
+path: C:\Users\FiveA\OneDrive\Documents\GitHub\black-brine-lore\RPG_Knowledge_Base\03_NPCs\Supporting
+  Cast\three-tooth-mavin.md
+set:
+  rivals:
+  - bb:npc:mister-blight
+  appears_in:
+  - bb:location:miremarket

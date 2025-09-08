@@ -47,14 +47,43 @@
       "raw": {}
     },
     {
-      "id": "bb:page:island-of-sedna",
-      "type": "page",
+      "id": "bb:location:island-of-sedna",
+      "type": "location",
       "name": "Island of Sedna",
-      "tags": [],
+      "tags": [
+        "island",
+        "forbidden",
+        "jungle",
+        "sedna",
+        "mist",
+        "ruin"
+      ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Island of Sedna.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
+      "fm": {
+        "type": "location",
+        "id": "bb:location:island-of-sedna",
+        "name": "Island of Sedna",
+        "parent_location": "bb:archipelago:mother-of-mists",
+        "location_type": "island",
+        "population": "unknown",
+        "government": "none",
+        "maps_available": true,
+        "map_files": [
+          "IMG_2090.jpg"
+        ],
+        "tags": [
+          "island",
+          "forbidden",
+          "jungle",
+          "sedna",
+          "mist",
+          "ruin"
+        ]
+      },
+      "body_excerpt": "# Overview\nThe Island of Sedna is the cursed, mist-shrouded heart of the Mother of Mists archipelago. Said to be the domain of the forgotten goddess Sedna, it is wrapped in legends of blood, betrayal, and the sea. Treacherous reefs and eternal fog conceal it, and the river that bisects the island is regarded as the last boundary of sanity before plunging into the wilderness.\n\n# Geography\n- **Black Brine River**: Where the freshwater Black River from the west meets the Brine River from the east; serves as a spiritual and cultural boundary.\n- **East Sedna**: Populated and cultivated; home to Black Brine city, fishing coves, and highlands.\n- **West Sedna**: Forbidden jungle, ruins, shrines, volcanic peaks; cursed and unexplored.\n- **Misty Shores**: Reef-choked coasts in eternal fog, nearly im…",
+      "raw": {
+        "parent_location": "bb:archipelago:mother-of-mists"
+      }
     },
     {
       "id": "bb:story:skull-garden-black-river",
@@ -1750,6 +1779,55 @@
       "raw": {}
     },
     {
+      "id": "bb:faction:butchers",
+      "type": "faction",
+      "name": "The Butchers",
+      "tags": [
+        "crime",
+        "syndicate",
+        "blackmire"
+      ],
+      "source": "RPG_Knowledge_Base\\04_Factions\\Criminal\\butchers.md",
+      "fm": {
+        "type": "faction",
+        "id": "bb:faction:butchers",
+        "name": "The Butchers",
+        "summary": "A brutal syndicate running extortion, protection, and black-market routes across Black Brine—pressing hardest into Blackmire.\n",
+        "location": "bb:city:black-brine",
+        "leaders": [
+          "bb:npc:the-noose"
+        ],
+        "controls": [
+          "bb:location:foghouse-row",
+          "bb:location:miremarket"
+        ],
+        "allies": [],
+        "rivals": [
+          "bb:faction:captains-council"
+        ],
+        "tags": [
+          "crime",
+          "syndicate",
+          "blackmire"
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "location": "bb:city:black-brine",
+        "allies": [],
+        "rivals": [
+          "bb:faction:captains-council"
+        ],
+        "leaders": [
+          "bb:npc:the-noose"
+        ],
+        "controls": [
+          "bb:location:foghouse-row",
+          "bb:location:miremarket"
+        ]
+      }
+    },
+    {
       "id": "bb:organization:the-twilight-society",
       "type": "organization",
       "name": "Twilight Society",
@@ -1857,6 +1935,57 @@
       "raw": {}
     },
     {
+      "id": "bb:npc:the-noose",
+      "type": "npc",
+      "name": "The Noose",
+      "tags": [
+        "crime-lord",
+        "enforcer",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\arlo-the-noose.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:the-noose",
+        "name": "The Noose",
+        "summary": "Enforcer boss who leads the Butchers; a ruthless organizer of smuggling and fear.\n",
+        "location": "bb:district:salt-crown",
+        "factions": [
+          "bb:faction:butchers"
+        ],
+        "allies": [],
+        "rivals": [
+          "bb:faction:captains-council"
+        ],
+        "appears_in": [
+          "bb:faction:butchers",
+          "bb:location:foghouse-row",
+          "bb:location:miremarket"
+        ],
+        "tags": [
+          "crime-lord",
+          "enforcer",
+          "black-brine"
+        ]
+      },
+      "body_excerpt": "# Arlo \"The Noose\" Vex\n\n[[IMG_2193]]\n\n**Smuggler King of Salt Crown | The Gentleman Executioner | Black Brine’s Silent Hangman**\n\n---\n\n**No one escapes The Noose.** Not the debtors who beg for time, not the rivals who overstep, not the fools who think they can cheat him. **Arlo Vex tightens his grip slowly, deliberately—until there’s no escape.**\n\nA **study in contrasts**, Arlo Vex is both **a refined businessman and a ruthless enforcer**. He wears **tailored suits, silk cravats, and gold cufflinks**, his presence more akin to a noble than a crime lord. But those who mistake him for **just another merchant of vice** soon learn the truth—he fights with **bare fists and a butcher’s cleaver**, and he has **never lost a fight he intended to win**. He doesn’t yell, doesn’t gloat—he simply **bre…",
+      "raw": {
+        "location": "bb:district:salt-crown",
+        "factions": [
+          "bb:faction:butchers"
+        ],
+        "allies": [],
+        "rivals": [
+          "bb:faction:captains-council"
+        ],
+        "appears_in": [
+          "bb:faction:butchers",
+          "bb:location:foghouse-row",
+          "bb:location:miremarket"
+        ]
+      }
+    },
+    {
       "id": "bb:npc:vel-corven",
       "type": "npc",
       "name": "Vel Corven",
@@ -1868,7 +1997,7 @@
         "feytouched",
         "secretive"
       ],
-      "source": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\Vel Corven.md",
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
       "fm": {
         "type": "npc",
         "name": "Vel Corven",
@@ -1949,35 +2078,6 @@
           "bb:location:temple-of-the-chained-god"
         ]
       }
-    },
-    {
-      "id": "bb:Page:arlo-the-noose-vex",
-      "type": "Page",
-      "name": "Arlo The Noose Vex",
-      "tags": [
-        "Town",
-        "NPC",
-        "Faction"
-      ],
-      "source": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\Arlo The Noose Vex.md",
-      "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Arlo \"The Noose\" Vex",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-03-18T19:15:58.403Z",
-        "creationDate": "2025-03-18 14:15",
-        "modificationDate": "2025-03-18 14:47",
-        "tags": [
-          "Town",
-          "NPC",
-          "Faction"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Arlo \"The Noose\" Vex\n\n[[IMG_2193]]\n\n**Smuggler King of Salt Crown | The Gentleman Executioner | Black Brine’s Silent Hangman**\n\n---\n\n**No one escapes The Noose.** Not the debtors who beg for time, not the rivals who overstep, not the fools who think they can cheat him. **Arlo Vex tightens his grip slowly, deliberately—until there’s no escape.**\n\nA **study in contrasts**, Arlo Vex is both **a refined businessman and a ruthless enforcer**. He wears **tailored suits, silk cravats, and gold cufflinks**, his presence more akin to a noble than a crime lord. But those who mistake him for **just another merchant of vice** soon learn the truth—he fights with **bare fists and a butcher’s cleaver**, and he has **never lost a fight he intended to win**. He doesn’t yell, doesn’t gloat—he simply **bre…",
-      "raw": {}
     },
     {
       "id": "bb:Page:captain-gun-deck-rosy",
@@ -2620,6 +2720,51 @@
       }
     },
     {
+      "id": "bb:npc:mister-blight",
+      "type": "npc",
+      "name": "Mister Blight",
+      "tags": [
+        "broker",
+        "rumors",
+        "blackmire"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\mister-blight.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:mister-blight",
+        "name": "Mister Blight",
+        "summary": "A sharp-tongued fixer with a blind eye and a long memory; trades favors for secrets.\n",
+        "location": "bb:location:crooked-lantern",
+        "factions": [],
+        "allies": [],
+        "rivals": [
+          "bb:npc:three-tooth-mavin"
+        ],
+        "appears_in": [
+          "bb:location:crooked-lantern",
+          "bb:location:miremarket"
+        ],
+        "tags": [
+          "broker",
+          "rumors",
+          "blackmire"
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "location": "bb:location:crooked-lantern",
+        "factions": [],
+        "allies": [],
+        "rivals": [
+          "bb:npc:three-tooth-mavin"
+        ],
+        "appears_in": [
+          "bb:location:crooked-lantern",
+          "bb:location:miremarket"
+        ]
+      }
+    },
+    {
       "id": "bb:page:ritas-kess",
       "type": "page",
       "name": "Ritas Kess",
@@ -2659,6 +2804,100 @@
       "raw": {}
     },
     {
+      "id": "bb:npc:three-tooth-mavin",
+      "type": "npc",
+      "name": "Three-Tooth Mavin",
+      "tags": [
+        "blackmire",
+        "crime",
+        "fixer"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\three-tooth-mavin.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:three-tooth-mavin",
+        "name": "Three-Tooth Mavin",
+        "summary": "Greasy market boss and Butchers lieutenant who skims every deal in Miremarket.\n",
+        "location": "bb:location:miremarket",
+        "factions": [
+          "bb:faction:butchers"
+        ],
+        "allies": [],
+        "rivals": [
+          "bb:npc:mister-blight"
+        ],
+        "appears_in": [
+          "bb:location:miremarket"
+        ],
+        "tags": [
+          "blackmire",
+          "crime",
+          "fixer"
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "location": "bb:location:miremarket",
+        "factions": [
+          "bb:faction:butchers"
+        ],
+        "allies": [],
+        "rivals": [
+          "bb:npc:mister-blight"
+        ],
+        "appears_in": [
+          "bb:location:miremarket"
+        ]
+      }
+    },
+    {
+      "id": "bb:npc:yurra-the-mireborn",
+      "type": "npc",
+      "name": "Yurra the Mireborn",
+      "tags": [
+        "herbalist",
+        "alchemy",
+        "blackmire"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\yurra-the-mireborn.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:yurra-the-mireborn",
+        "name": "Yurra the Mireborn",
+        "summary": "Herbalist and poisoner who trades tinctures, poultices, and dreams in Miremarket’s shadows.\n",
+        "location": "bb:location:miremarket",
+        "factions": [],
+        "allies": [
+          "bb:npc:mister-blight"
+        ],
+        "rivals": [
+          "bb:npc:three-tooth-mavin"
+        ],
+        "appears_in": [
+          "bb:location:miremarket"
+        ],
+        "tags": [
+          "herbalist",
+          "alchemy",
+          "blackmire"
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "location": "bb:location:miremarket",
+        "factions": [],
+        "allies": [
+          "bb:npc:mister-blight"
+        ],
+        "rivals": [
+          "bb:npc:three-tooth-mavin"
+        ],
+        "appears_in": [
+          "bb:location:miremarket"
+        ]
+      }
+    },
+    {
       "id": "bb:Page:black-brine-river",
       "type": "Page",
       "name": "Black Brine River",
@@ -2688,145 +2927,39 @@
       "raw": {}
     },
     {
-      "id": "bb:city:city-of-black-brine",
+      "id": "bb:city:black-brine",
       "type": "city",
       "name": "Black Brine",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\City of Black Brine.md",
+      "tags": [
+        "city",
+        "pirate",
+        "sedna",
+        "nautical",
+        "mist"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\city-of-black-brine.md",
       "fm": {
         "type": "city",
+        "id": "bb:city:black-brine",
         "name": "Black Brine",
-        "location": "Black Brine Island, ten miles south of the confluence of the Black and Brine Rivers",
-        "region": "The Shattered Coast",
+        "parent_location": "bb:location:island-of-sedna",
+        "location_type": "city",
         "population": "~20,000 (varied, transient)",
-        "government": "The Captain’s Council, ruled in practice by Governor \"Gun Deck\" Rosy",
-        "factions": [
-          {
-            "name": "The Captain’s Council",
-            "description": "Pirate lords and faction leaders who oversee city-wide governance and naval strategy"
-          },
-          {
-            "name": "Sedna’s Cult",
-            "description": "Religious faction worshipping the goddess of the deep; enforces law through fear and sacrifice"
-          },
-          {
-            "name": "Independent Pirate Fleets",
-            "description": "Semi-loyal pirate crews with their own agendas and territories, some members of the Council"
-          },
-          {
-            "name": "The Butchers",
-            "description": "Brutal crime syndicate led by the Noose, controlling extortion, secrets, and smuggling in Salt Crown"
-          }
-        ],
-        "districts": [
-          {
-            "name": "Salt Crown",
-            "type": "mercantile",
-            "description": "Center of trade, craft, and power; elegant and dangerous; nobles and criminals rub elbows"
-          },
-          {
-            "name": "Mistwalk",
-            "type": "civic/religious",
-            "description": "Political and spiritual core; houses City Hull, Gallows Market, and the Temple of the Chained God"
-          },
-          {
-            "name": "KeelHauls",
-            "type": "industrial/port",
-            "description": "Ratty, loud, and reeking of brine; ship berths, warehouses, and primary import hub"
-          },
-          {
-            "name": "Little Sedna",
-            "type": "residential/religious",
-            "description": "Quiet lower-class district built into ancient stone ruins; home to the Temple of Sedna"
-          },
-          {
-            "name": "Salt Crown Shores",
-            "type": "mixed",
-            "description": "Dockside trade area at river’s edge; jungle nearby; home to Sinker’s Curiosities and the Charter House"
-          }
-        ],
-        "landmarks": [
-          {
-            "name": "City Hull",
-            "type": "governmental",
-            "description": "A grounded war galleon turned fortress, serving as seat of power for the Captain’s Council"
-          },
-          {
-            "name": "Red Chain Bridge",
-            "type": "geographic",
-            "description": "Massive stone bridge spanning the Black Brine River, scarred and haunted by legend"
-          },
-          {
-            "name": "Temple of Sedna",
-            "type": "religious",
-            "description": "A tidal cave temple dedicated to the deep goddess; its chambers flood with the tide"
-          },
-          {
-            "name": "Temple of the Chained God",
-            "type": "religious",
-            "description": "Mainland church presence in Gallows Market; feeds veterans, secretly indoctrinates"
-          },
-          {
-            "name": "The Broadside Inn",
-            "type": "tavern/bathhouse",
-            "description": "Converted riverside temple, now a drinking den with geothermal pools and secrets"
-          }
-        ],
-        "notable_features": [
-          {
-            "Black Brine River": "Formed from the confluence of the Black River and Brine River; runs through city"
-          },
-          {
-            "Perpetual Mist": "Envelops the coastline; natural defense and superstition-enshrouded mystery"
-          },
-          {
-            "Pirate Fleets": "Each fleet holds influence; some sit on the council, others challenge it from shadows"
-          },
-          {
-            "Challenge Coins": "Magical tokens needed to navigate through the mist and deadly reefs surrounding the island"
-          }
-        ],
-        "tone": "Dark, nautical, grimy, arcane",
-        "themes": "Power at a price, old gods, shifting loyalties, nautical horror, post-war survival",
-        "hooks": [
-          "The Nameless Watcher stands on the Red Chain Bridge at night. No one knows why. Or what it wants.",
-          "Rumors of a vault beneath City Hull, sealed since the last island war.",
-          "Sedna stirs beneath the temple. The tides are rising.",
-          "A missing Challenge Coin threatens to throw fleet alliances into chaos."
+        "government": "The Captain’s Council, dominated by Governor \"Gun Deck\" Rosy",
+        "maps_available": true,
+        "map_files": [],
+        "tags": [
+          "city",
+          "pirate",
+          "sedna",
+          "nautical",
+          "mist"
         ]
       },
-      "body_excerpt": "",
+      "body_excerpt": "# Overview\nBlack Brine is the infamous pirate city on Sedna’s eastern shore, ten miles south of the confluence of the Black and Brine Rivers. Shrouded in mist and ruled by cutthroat politics, it is both a stronghold and prison for those who dwell within. Power shifts like the tide, always at a cost.\n\n# Geography\n- Built along the Black Brine River, anchored by docks and districts that spill into jungle ruins.  \n- Mist and reefs surround the island, isolating the city.  \n- The Red Chain Bridge spans the river, scarred and haunted by legend.  \n\n# Districts\n- **Salt Crown (mercantile):** Elegant yet dangerous center of trade and intrigue. Nobles and criminals mingle here.  \n- **Mistwalk (civic/religious):** Political and spiritual hub; home to City Hull, Gallows Market, and the Temple of the …",
       "raw": {
-        "location": "Black Brine Island, ten miles south of the confluence of the Black and Brine Rivers",
-        "factions": [
-          {
-            "name": "The Captain’s Council",
-            "description": "Pirate lords and faction leaders who oversee city-wide governance and naval strategy"
-          },
-          {
-            "name": "Sedna’s Cult",
-            "description": "Religious faction worshipping the goddess of the deep; enforces law through fear and sacrifice"
-          },
-          {
-            "name": "Independent Pirate Fleets",
-            "description": "Semi-loyal pirate crews with their own agendas and territories, some members of the Council"
-          },
-          {
-            "name": "The Butchers",
-            "description": "Brutal crime syndicate led by the Noose, controlling extortion, secrets, and smuggling in Salt Crown"
-          }
-        ]
+        "parent_location": "bb:location:island-of-sedna"
       }
-    },
-    {
-      "id": "bb:page:district-of-blackmire",
-      "type": "page",
-      "name": "District of Blackmire",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\District of Blackmire.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
     },
     {
       "id": "bb:page:district-of-crosswater",
@@ -2877,6 +3010,45 @@
       "fm": {},
       "body_excerpt": "",
       "raw": {}
+    },
+    {
+      "id": "bb:district:blackmire",
+      "type": "district",
+      "name": "Blackmire",
+      "tags": [
+        "district",
+        "swamp",
+        "industry",
+        "crime",
+        "slums",
+        "mystery"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\district-of-blackmire.md",
+      "fm": {
+        "type": "district",
+        "id": "bb:district:blackmire",
+        "name": "Blackmire",
+        "parent_location": "bb:city:black-brine",
+        "location_type": "district",
+        "population": "moderate",
+        "government": "Overseen by the Captain’s Council, loosely administered by rotating magistrates",
+        "maps_available": true,
+        "map_files": [
+          "Blackmire-District-Map.jpg"
+        ],
+        "tags": [
+          "district",
+          "swamp",
+          "industry",
+          "crime",
+          "slums",
+          "mystery"
+        ]
+      },
+      "body_excerpt": "# Overview\nBlackmire squats in the low basin of Black Brine’s northeastern edge, a fetid sprawl of half-sunken alleys, leaning shanties, and broken boardwalks. Mist and moss choke the air, steeped in the smell of tar, rot, and stagnant water. It is where the city’s filth collects—runoff, secrets, and broken lives.\n\n# Geography\n- Flood-prone bog streets, stilted homes, and narrow canals  \n- Crumbling docks on fetid inlets  \n- Mangroves of the Mire Fen pressing into the district  \n- Abandoned, flooded warehouses along the river  \n\n# Notable Features\n- **Miremarket** – Black market disguised as salvage bazaar.  \n- **The Crooked Lantern** – Crumbling tavern, center of rumors and disappearances.  \n- **Whisperer’s Hollow** – Old well filled with offerings to a swamp spirit.  \n- **Foghouse Row** …",
+      "raw": {
+        "parent_location": "bb:city:black-brine"
+      }
     },
     {
       "id": "bb:Page:geography-of-black-brine",
@@ -2971,6 +3143,39 @@
       }
     },
     {
+      "id": "bb:location:black-brine-library",
+      "type": "location",
+      "name": "Black Brine Library",
+      "tags": [
+        "library",
+        "knowledge",
+        "meeting-hall",
+        "blackmire"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\black-brine-library.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:black-brine-library",
+        "name": "Black Brine Library",
+        "parent_location": "bb:district:blackmire",
+        "location_type": "library",
+        "population": "small (scribes, fortune-tellers, students)",
+        "government": "loosely overseen by Captain’s Council envoys",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "library",
+          "knowledge",
+          "meeting-hall",
+          "blackmire"
+        ]
+      },
+      "body_excerpt": "# Overview\nA converted chapel turned into a public library and meeting hall. The Library is one of the few places in Blackmire where learning, gossip, and records are freely exchanged. Its shelves mix genuine tomes with forgeries and cursed scrolls.  \n\n# Notable Features\n- Lecterns scarred with old prayers.  \n- Shelves crammed with damp books and sailor’s journals.  \n- Alcoves where secret societies gather by night.  \n\n# Adventure Hooks\n- A forbidden tome on Sedna’s cult surfaces among the stacks.  \n- A missing scribe vanished into Foghouse Row tunnels.  \n- The Council seeks PCs to recover lost ledgers stolen from the library.  \n\n# Secrets (DM Only)\n- Beneath the library is a sealed reliquary chamber.  \n- Its curators are informants for multiple factions — including the Butchers.",
+      "raw": {
+        "parent_location": "bb:district:blackmire"
+      }
+    },
+    {
       "id": "bb:page:bleached-bones-beach",
       "type": "page",
       "name": "Bleached Bones Beach",
@@ -3034,6 +3239,39 @@
       "raw": {}
     },
     {
+      "id": "bb:location:crooked-lantern",
+      "type": "location",
+      "name": "The Crooked Lantern",
+      "tags": [
+        "tavern",
+        "rumors",
+        "disappearances",
+        "haunt"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\crooked-lantern.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:crooked-lantern",
+        "name": "The Crooked Lantern",
+        "parent_location": "bb:district:blackmire",
+        "location_type": "tavern",
+        "population": "~40 (patrons on any given night)",
+        "government": "none",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "tavern",
+          "rumors",
+          "disappearances",
+          "haunt"
+        ]
+      },
+      "body_excerpt": "# Overview\nA half-sunken tavern propped on stilts above a stagnant canal. The Crooked Lantern is a haven for drunks, smugglers, and those seeking secrets whispered over cheap grog. Its warped beams and swaying lantern give it its name.  \n\n# Notable Features\n- Rumors traded more freely than coin.  \n- Patrons vanish without explanation, feeding superstition.  \n- Staff often found dazed, as if waking from dreams.  \n\n# Adventure Hooks\n- A barkeep begs for help after a string of vanishings.  \n- A dream-plagued NPC recounts visions of Sedna’s shrines.  \n- A mysterious patron offers the PCs cursed ale.  \n\n# Secrets (DM Only)\n- A spirit bound to the tavern feeds on despair.  \n- Disappearances are tied to Foghouse Row tunnels.",
+      "raw": {
+        "parent_location": "bb:district:blackmire"
+      }
+    },
+    {
       "id": "bb:page:cuttys-blades",
       "type": "page",
       "name": "Cuttys Blades",
@@ -3072,6 +3310,74 @@
       "fm": {},
       "body_excerpt": "",
       "raw": {}
+    },
+    {
+      "id": "bb:location:foghouse-row",
+      "type": "location",
+      "name": "Foghouse Row",
+      "tags": [
+        "ruin",
+        "smuggling",
+        "haunt",
+        "tunnels"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\foghouse-row.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:foghouse-row",
+        "name": "Foghouse Row",
+        "parent_location": "bb:district:blackmire",
+        "location_type": "ruin",
+        "population": "none (squatters and monsters occasionally)",
+        "government": "none",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "ruin",
+          "smuggling",
+          "haunt",
+          "tunnels"
+        ]
+      },
+      "body_excerpt": "# Overview\nOnce a thriving street of smuggler dens and boarding houses, Foghouse Row has collapsed into ruin. The air is thick with mist, the wood perpetually damp, and shadows shift unnaturally. Locals avoid the area, claiming it swallows the unwary.  \n\n# Notable Features\n- Rotting timbers lean across narrow alleys.  \n- Submerged basements hide forgotten caches.  \n- Tunnels connect to Miremarket and the Crooked Lantern.  \n\n# Adventure Hooks\n- Vanishings in Blackmire trace back to Foghouse Row.  \n- A rival crew claims to have found an “unopened” smuggler vault.  \n- Strange lights flicker at night; investigation reveals otherworldly activity.  \n\n# Secrets (DM Only)\n- Tunnels open into cult chambers tied to Sedna’s chained power.  \n- Creatures from the mire nest here, feeding on fear and dre…",
+      "raw": {
+        "parent_location": "bb:district:blackmire"
+      }
+    },
+    {
+      "id": "bb:region:forbidden-west-sedna",
+      "type": "location",
+      "name": "Forbidden West (Sedna)",
+      "tags": [
+        "sedna",
+        "jungle",
+        "forbidden",
+        "ruins",
+        "cursed"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\forbidden-west-sedna.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:region:forbidden-west-sedna",
+        "name": "Forbidden West (Sedna)",
+        "parent_location": "bb:location:island-of-sedna",
+        "location_type": "jungle",
+        "population": "none (ruins and cursed remnants)",
+        "government": "none",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "sedna",
+          "jungle",
+          "forbidden",
+          "ruins",
+          "cursed"
+        ]
+      },
+      "body_excerpt": "# Overview\nThe western half of Sedna is a cursed jungle, avoided by all who dwell in Black Brine. The land is hostile and resists intrusion. Voices whisper from the mist, and expedition parties vanish without trace.\n\n# Geography\n- Dense jungle canopy and flooded gullies.  \n- Crumbled shrines to Sedna and other ancient gods.  \n- Entrances to hidden cave networks.  \n\n# Notable Features\n- **Jungle Ruins**: Moss-choked altars and temples where Sedna’s power lingers.  \n- **Shrines**: Portals or foci for Sedna’s magic.  \n- **Haunted Trails**: Paths that loop endlessly, leading explorers in circles.  \n\n# Adventure Hooks\n- A pirate lord pays handsomely for relics retrieved from the ruins.  \n- A haunting voice calls to Sy, Franklin, or Pinch in their dreams.  \n- A rival expedition is already inside…",
+      "raw": {
+        "parent_location": "bb:location:island-of-sedna"
+      }
     },
     {
       "id": "bb:page:gallows-market",
@@ -3115,6 +3421,39 @@
       "body_excerpt": "---\ntype: location\nname: Lending House of Black Brine\nlocation_type: financial institution\ndistrict: Salt Crown\nparent_location: Black Brine\nmaps_available: true\nmap_files: [SaltCrown-Day.jpg]\ntags: [bank, politics, twilight society, wealth, intrigue]\n\noverview: >\n  The Lending House of Black Brine is the beating heart of the city’s wealth, where fortunes are made, ruined, and whispered into shadow. Towering and ivy-draped, its fortress-like stone walls house vaults deeper than most cellars dare to dig, and its interest rates are whispered with more fear than most curses.\n\nappearance: >\n  The building looms over Salt Crown like a silent warden of gold. Its architecture is high-walled and austere—gilded ironwork over glass, rust-red ivy crawling up polished limestone, and gargoyle spouts sh…",
       "raw": {
         "parent_location": "bb:city:city-of-black-brine"
+      }
+    },
+    {
+      "id": "bb:location:miremarket",
+      "type": "location",
+      "name": "Miremarket",
+      "tags": [
+        "market",
+        "black-market",
+        "salvage",
+        "smuggling"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\miremarket.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:miremarket",
+        "name": "Miremarket",
+        "parent_location": "bb:district:blackmire",
+        "location_type": "market",
+        "population": "transient",
+        "government": "none (ruled by gangs, especially the Butchers and Three-Tooth Mavin)",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "market",
+          "black-market",
+          "salvage",
+          "smuggling"
+        ]
+      },
+      "body_excerpt": "# Overview\nA chaotic sprawl of tents and leaning stalls, disguised as a salvage bazaar but truly the beating heart of Blackmire’s black market. Anything forbidden, stolen, or cursed can be found here — for a price.  \n\n# Notable Features\n- Shack-stalls selling swamp herbs, relics, and contraband.  \n- Faded banners claiming legitimacy as a “trade fair.”  \n- Gangs patrol in shifts, taking cuts from every sale.  \n\n# Adventure Hooks\n- A relic trader offers a map fragment to Sedna’s shrines.  \n- The Butchers crack down on competition, sparking a turf war.  \n- A buyer wants an item smuggled through Miremarket — no questions asked.  \n\n# Secrets (DM Only)\n- A hidden tunnel beneath the Miremarket connects to Foghouse Row.  \n- The Butchers fund much of their influence here.",
+      "raw": {
+        "parent_location": "bb:district:blackmire"
       }
     },
     {
@@ -3276,6 +3615,41 @@
       }
     },
     {
+      "id": "bb:location:volcanic-peak-sedna",
+      "type": "location",
+      "name": "Vexir - Volcanic Peak (Sedna)",
+      "tags": [
+        "sedna",
+        "volcano",
+        "peak",
+        "relics",
+        "fire"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\vexir-volcanic-peak-sedna.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:volcanic-peak-sedna",
+        "name": "Vexir - Volcanic Peak (Sedna)",
+        "parent_location": "bb:region:forbidden-west-sedna",
+        "location_type": "mountain",
+        "population": "none",
+        "government": "none",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "sedna",
+          "volcano",
+          "peak",
+          "relics",
+          "fire"
+        ]
+      },
+      "body_excerpt": "# Overview\nThe dormant volcanic peak called Vexir towers above Sedna’s jungle. Though long inactive, ash plumes sometimes rise, hinting at spirits and energies beneath. Few dare to climb its slopes.\n\n# Geography\n- Jagged volcanic ridges and obsidian scree.  \n- Ash fields that choke air and scorch skin.  \n- Hidden tunnels leading deep below the mountain.  \n\n# Notable Features\n- **Blood-Sealed Relic**: Heart of the mist curse, buried beneath the peak.  \n- **Fire Spirits**: Embers that walk the ash, remnants of forgotten rituals.  \n- **Ancient Forge**: Said to craft Sedna’s weapons of wrath.  \n\n# Adventure Hooks\n- Relic hunters seek the sealed chamber beneath the peak.  \n- An eruption tremor shakes Black Brine—foreshadowing disaster.  \n- The Hollow Goddess’s followers believe breaking the rel…",
+      "raw": {
+        "parent_location": "bb:region:forbidden-west-sedna"
+      }
+    },
+    {
       "id": "bb:page:wet-bar",
       "type": "page",
       "name": "Wet Bar",
@@ -3284,6 +3658,39 @@
       "fm": {},
       "body_excerpt": "",
       "raw": {}
+    },
+    {
+      "id": "bb:location:whisperers-hollow",
+      "type": "location",
+      "name": "Whisperer’s Hollow",
+      "tags": [
+        "shrine",
+        "swamp",
+        "cult",
+        "whispers"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\whisperers-hollow.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:whisperers-hollow",
+        "name": "Whisperer’s Hollow",
+        "parent_location": "bb:district:blackmire",
+        "location_type": "shrine",
+        "population": "none (visited only by cultists and the desperate)",
+        "government": "none",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "shrine",
+          "swamp",
+          "cult",
+          "whispers"
+        ]
+      },
+      "body_excerpt": "# Overview\nAn ancient stone well at the heart of Blackmire, filled with offerings to a swamp spirit known as the Whisperer. Locals toss coins, charms, and blood into its depths, praying for secrets or protection.  \n\n# Notable Features\n- Moss-draped stones and fetid water.  \n- Offerings cling to the edges: charms, teeth, and bone tokens.  \n- Voices echo faintly when the fog is thickest.  \n\n# Adventure Hooks\n- The PCs overhear their own secrets whispered back from the well.  \n- A cult of the Whisperer demands a blood tithe.  \n- A noble seeks a relic from the bottom of the well.  \n\n# Secrets (DM Only)\n- The Whisperer is a fragment of Sedna’s chained power.  \n- At new moon, the well becomes a portal to the Shrouded Grotto.",
+      "raw": {
+        "parent_location": "bb:district:blackmire"
+      }
     },
     {
       "id": "bb:Page:djinn",
@@ -3497,24 +3904,104 @@
       "target": "bb:story:encounter-2-deep-green"
     },
     {
+      "source": "bb:faction:butchers",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:npc:the-noose",
+      "rel": "member_of",
+      "target": "bb:faction:butchers"
+    },
+    {
       "source": "bb:npc:vel-corven",
       "rel": "rival_of",
       "target": "bb:Page:captain-gun-deck-rosy"
     },
     {
-      "source": "bb:page:lending-house",
+      "source": "bb:npc:mister-blight",
       "rel": "located_in",
-      "target": "bb:city:city-of-black-brine"
+      "target": "bb:location:crooked-lantern"
     },
     {
-      "source": "bb:page:soggy-town-play-house",
-      "rel": "located_in",
-      "target": "bb:city:city-of-black-brine"
+      "source": "bb:npc:mister-blight",
+      "rel": "rival_of",
+      "target": "bb:npc:three-tooth-mavin"
     },
     {
-      "source": "bb:page:the-golden-gull",
+      "source": "bb:npc:three-tooth-mavin",
       "rel": "located_in",
-      "target": "bb:city:city-of-black-brine"
+      "target": "bb:location:miremarket"
+    },
+    {
+      "source": "bb:npc:three-tooth-mavin",
+      "rel": "member_of",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:npc:three-tooth-mavin",
+      "rel": "rival_of",
+      "target": "bb:npc:mister-blight"
+    },
+    {
+      "source": "bb:npc:yurra-the-mireborn",
+      "rel": "located_in",
+      "target": "bb:location:miremarket"
+    },
+    {
+      "source": "bb:npc:yurra-the-mireborn",
+      "rel": "ally_of",
+      "target": "bb:npc:mister-blight"
+    },
+    {
+      "source": "bb:npc:yurra-the-mireborn",
+      "rel": "rival_of",
+      "target": "bb:npc:three-tooth-mavin"
+    },
+    {
+      "source": "bb:city:black-brine",
+      "rel": "located_in",
+      "target": "bb:location:island-of-sedna"
+    },
+    {
+      "source": "bb:district:blackmire",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:location:black-brine-library",
+      "rel": "located_in",
+      "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:location:crooked-lantern",
+      "rel": "located_in",
+      "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:location:foghouse-row",
+      "rel": "located_in",
+      "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:region:forbidden-west-sedna",
+      "rel": "located_in",
+      "target": "bb:location:island-of-sedna"
+    },
+    {
+      "source": "bb:location:miremarket",
+      "rel": "located_in",
+      "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:location:volcanic-peak-sedna",
+      "rel": "located_in",
+      "target": "bb:region:forbidden-west-sedna"
+    },
+    {
+      "source": "bb:location:whisperers-hollow",
+      "rel": "located_in",
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:story:skull-garden-black-river",
@@ -3610,11 +4097,61 @@
       "source": "bb:lore:journal-fragment-viii",
       "rel": "appears_in",
       "target": "bb:story:encounter-2-deep-green"
+    },
+    {
+      "source": "bb:npc:the-noose",
+      "rel": "appears_in",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:npc:the-noose",
+      "rel": "appears_in",
+      "target": "bb:location:foghouse-row"
+    },
+    {
+      "source": "bb:npc:the-noose",
+      "rel": "appears_in",
+      "target": "bb:location:miremarket"
+    },
+    {
+      "source": "bb:npc:mister-blight",
+      "rel": "appears_in",
+      "target": "bb:location:crooked-lantern"
+    },
+    {
+      "source": "bb:npc:mister-blight",
+      "rel": "appears_in",
+      "target": "bb:location:miremarket"
+    },
+    {
+      "source": "bb:npc:three-tooth-mavin",
+      "rel": "appears_in",
+      "target": "bb:location:miremarket"
+    },
+    {
+      "source": "bb:npc:yurra-the-mireborn",
+      "rel": "appears_in",
+      "target": "bb:location:miremarket"
+    },
+    {
+      "source": "bb:npc:the-noose",
+      "rel": "leads",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:faction:butchers",
+      "rel": "controls",
+      "target": "bb:location:foghouse-row"
+    },
+    {
+      "source": "bb:faction:butchers",
+      "rel": "controls",
+      "target": "bb:location:miremarket"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 108,
-    "edges": 33
+    "nodes": 119,
+    "edges": 59
   }
 }

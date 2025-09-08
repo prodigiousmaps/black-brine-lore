@@ -1,5 +1,5 @@
 {
-  "total_files": 108,
+  "total_files": 119,
   "patches": [
     "patches\\skull-garden-black-river.yml",
     "patches\\into-deep-green-short-cut.yml",
@@ -16,10 +16,23 @@
     "patches\\final-verse.yml",
     "patches\\journal-fragment-viii.yml",
     "patches\\jungle-survival-training-mechanics.yml",
+    "patches\\butchers.yml",
+    "patches\\arlo-the-noose.yml",
     "patches\\vel-corven.yml",
-    "patches\\the-code-of-black-brine.yml"
+    "patches\\mister-blight.yml",
+    "patches\\three-tooth-mavin.yml",
+    "patches\\yurra-the-mireborn.yml"
   ],
   "suggestions": [
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Island of Sedna.md",
+      "field": "parent_location",
+      "value": "bb:archipelago:mother-of-mists",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
     {
       "path": "RPG_Knowledge_Base\\08_Stories\\skull-garden-black-river.md",
       "field": "location",
@@ -597,6 +610,51 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Criminal\\butchers.md",
+      "field": "location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Criminal\\butchers.md",
+      "field": "rivals",
+      "value": "bb:faction:captains-council",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Criminal\\butchers.md",
+      "field": "leaders",
+      "value": "bb:npc:the-noose",
+      "resolved_id": "bb:npc:the-noose",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Criminal\\butchers.md",
+      "field": "controls",
+      "value": "bb:location:miremarket",
+      "resolved_id": "bb:location:miremarket",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Criminal\\butchers.md",
+      "field": "controls",
+      "value": "bb:location:foghouse-row",
+      "resolved_id": "bb:location:foghouse-row",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\04_Factions\\Criminal\\The Twilight Society.md",
       "field": "location",
       "value": "bb:location:lending-house",
@@ -606,7 +664,61 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\Vel Corven.md",
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\arlo-the-noose.md",
+      "field": "location",
+      "value": "bb:district:salt-crown",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\arlo-the-noose.md",
+      "field": "factions*",
+      "value": "bb:faction:butchers",
+      "resolved_id": "bb:faction:butchers",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\arlo-the-noose.md",
+      "field": "rivals",
+      "value": "bb:faction:captains-council",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\arlo-the-noose.md",
+      "field": "appears_in",
+      "value": "bb:faction:butchers",
+      "resolved_id": "bb:faction:butchers",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\arlo-the-noose.md",
+      "field": "appears_in",
+      "value": "bb:location:miremarket",
+      "resolved_id": "bb:location:miremarket",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\arlo-the-noose.md",
+      "field": "appears_in",
+      "value": "bb:location:foghouse-row",
+      "resolved_id": "bb:location:foghouse-row",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
       "field": "location",
       "value": "bb:location:lending-house",
       "resolved_id": "bb:location:lending-house",
@@ -615,7 +727,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\Vel Corven.md",
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
       "field": "allies",
       "value": "The Twilight Society inner circle",
       "resolved_id": null,
@@ -624,7 +736,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\Vel Corven.md",
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
       "field": "allies",
       "value": "Certain members of the Lending House and City Hull",
       "resolved_id": null,
@@ -633,7 +745,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\Vel Corven.md",
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
       "field": "allies",
       "value": "A masked fey emissary known only as \"The Lanternless\"",
       "resolved_id": null,
@@ -642,7 +754,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\Vel Corven.md",
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
       "field": "rivals",
       "value": "Several captains on the Council who fear their influence",
       "resolved_id": null,
@@ -651,7 +763,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\Vel Corven.md",
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
       "field": "rivals",
       "value": "bb:Page:captain-gun-deck-rosy",
       "resolved_id": "bb:Page:captain-gun-deck-rosy",
@@ -660,7 +772,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\Vel Corven.md",
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
       "field": "rivals",
       "value": "bb:location:temple-of-the-chained-god",
       "resolved_id": "bb:location:temple-of-the-chained-god",
@@ -687,19 +799,172 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\City of Black Brine.md",
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\mister-blight.md",
       "field": "location",
-      "value": "Black Brine Island, ten miles south of the confluence of the Black and Brine Rivers",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "value": "bb:location:crooked-lantern",
+      "resolved_id": "bb:location:crooked-lantern",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\mister-blight.md",
+      "field": "rivals",
+      "value": "bb:npc:three-tooth-mavin",
+      "resolved_id": "bb:npc:three-tooth-mavin",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\mister-blight.md",
+      "field": "appears_in",
+      "value": "bb:location:crooked-lantern",
+      "resolved_id": "bb:location:crooked-lantern",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\mister-blight.md",
+      "field": "appears_in",
+      "value": "bb:location:miremarket",
+      "resolved_id": "bb:location:miremarket",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\three-tooth-mavin.md",
+      "field": "location",
+      "value": "bb:location:miremarket",
+      "resolved_id": "bb:location:miremarket",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\three-tooth-mavin.md",
+      "field": "factions*",
+      "value": "bb:faction:butchers",
+      "resolved_id": "bb:faction:butchers",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\three-tooth-mavin.md",
+      "field": "rivals",
+      "value": "bb:npc:mister-blight",
+      "resolved_id": "bb:npc:mister-blight",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\three-tooth-mavin.md",
+      "field": "appears_in",
+      "value": "bb:location:miremarket",
+      "resolved_id": "bb:location:miremarket",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\yurra-the-mireborn.md",
+      "field": "location",
+      "value": "bb:location:miremarket",
+      "resolved_id": "bb:location:miremarket",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\yurra-the-mireborn.md",
+      "field": "allies",
+      "value": "bb:npc:mister-blight",
+      "resolved_id": "bb:npc:mister-blight",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\yurra-the-mireborn.md",
+      "field": "rivals",
+      "value": "bb:npc:three-tooth-mavin",
+      "resolved_id": "bb:npc:three-tooth-mavin",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\yurra-the-mireborn.md",
+      "field": "appears_in",
+      "value": "bb:location:miremarket",
+      "resolved_id": "bb:location:miremarket",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\city-of-black-brine.md",
+      "field": "parent_location",
+      "value": "bb:location:island-of-sedna",
+      "resolved_id": "bb:location:island-of-sedna",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\district-of-blackmire.md",
+      "field": "parent_location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\The Code of Black Brine.md",
       "field": "controls",
       "value": "bb:city:city-of-black-brine",
-      "resolved_id": "bb:city:city-of-black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\black-brine-library.md",
+      "field": "parent_location",
+      "value": "bb:district:blackmire",
+      "resolved_id": "bb:district:blackmire",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\crooked-lantern.md",
+      "field": "parent_location",
+      "value": "bb:district:blackmire",
+      "resolved_id": "bb:district:blackmire",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\foghouse-row.md",
+      "field": "parent_location",
+      "value": "bb:district:blackmire",
+      "resolved_id": "bb:district:blackmire",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\forbidden-west-sedna.md",
+      "field": "parent_location",
+      "value": "bb:location:island-of-sedna",
+      "resolved_id": "bb:location:island-of-sedna",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -708,7 +973,16 @@
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Lending House.md",
       "field": "parent_location",
       "value": "bb:city:city-of-black-brine",
-      "resolved_id": "bb:city:city-of-black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\miremarket.md",
+      "field": "parent_location",
+      "value": "bb:district:blackmire",
+      "resolved_id": "bb:district:blackmire",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -717,16 +991,34 @@
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Soggy Town Play House.md",
       "field": "parent_location",
       "value": "bb:city:city-of-black-brine",
-      "resolved_id": "bb:city:city-of-black-brine",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\The Golden Gull.md",
       "field": "parent_location",
       "value": "bb:city:city-of-black-brine",
-      "resolved_id": "bb:city:city-of-black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\vexir-volcanic-peak-sedna.md",
+      "field": "parent_location",
+      "value": "bb:region:forbidden-west-sedna",
+      "resolved_id": "bb:region:forbidden-west-sedna",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\whisperers-hollow.md",
+      "field": "parent_location",
+      "value": "bb:district:blackmire",
+      "resolved_id": "bb:district:blackmire",
       "method": "id",
       "score": 1.0,
       "note": ""
