@@ -41,8 +41,8 @@
     {
       "path": "RPG_Knowledge_Base\\08_Stories\\skull-garden-black-river.md",
       "field": "appears_in",
-      "value": "bb:hazard:false-beauty-vines",
-      "resolved_id": "bb:hazard:false-beauty-vines",
+      "value": "bb:beast:ravething",
+      "resolved_id": "bb:beast:ravething",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -50,8 +50,8 @@
     {
       "path": "RPG_Knowledge_Base\\08_Stories\\skull-garden-black-river.md",
       "field": "appears_in",
-      "value": "bb:beast:ravething",
-      "resolved_id": "bb:beast:ravething",
+      "value": "bb:hazard:false-beauty-vines",
+      "resolved_id": "bb:hazard:false-beauty-vines",
       "method": "id",
       "score": 1.0,
       "note": ""
