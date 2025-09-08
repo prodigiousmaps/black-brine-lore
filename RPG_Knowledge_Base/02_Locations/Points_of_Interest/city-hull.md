@@ -7,7 +7,7 @@ location_type: government hall
 population: ~200 (guards, clerks, council staff)
 government: Seat of the Captain’s Council
 maps_available: true
-map_files: [CityHull-Interior.jpg]
+map_files: [cityhull-dusk-43x35.jpg]
 tags: [mistwalk, government, captains-council, fortress]
 ---
 

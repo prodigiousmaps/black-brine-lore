@@ -2354,7 +2354,7 @@
           "high-priestess",
           "sedna"
         ],
-        "portrait": "assets/portraits/gun-deck-rosy.png",
+        "portrait": "https://prodigiousmaps.github.io/black-brine-lore/assets/portraits/gun-deck-rosy.png",
         "sheet_url": "https://prodigiousmaps.github.io/black-brine-lore/sheets/gun-deck-rosy.pdf",
         "system": "5e",
         "level": 10,
@@ -4170,7 +4170,7 @@
         "government": "Seat of the Captain’s Council",
         "maps_available": true,
         "map_files": [
-          "CityHull-Interior.jpg"
+          "cityhull-dusk-43x35.jpg"
         ],
         "tags": [
           "mistwalk",

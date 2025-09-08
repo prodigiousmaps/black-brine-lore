@@ -6,7 +6,6 @@ parent_location: bb:city:black-brine
 location_type: district
 population: moderate
 government: Overseen by the Captain’s Council, loosely administered by rotating magistrates
-portrait: https://prodigiousmaps.github.io/black-brine-lore/assets/flavor/black-mire.png
 maps_available: true
 map_files: [Blackmire-District-Map.jpg]
 tags: [district, swamp, industry, crime, slums, mystery]
