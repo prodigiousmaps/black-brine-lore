@@ -1,0 +1,4 @@
+path: RPG_Knowledge_Base/06_NPCs/captain-lysara-vale.md
+set:
+  member_of:
+    - bb:fleet:hollow-fangs

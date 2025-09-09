@@ -1,0 +1,10 @@
+path: RPG_Knowledge_Base/03_Factions/fleet_miasma.md
+set:
+  type: faction
+  id: bb:fleet:miasma
+  name: Miasma
+  faction_type: fleet
+  leaders:
+    - bb:npc:captain-bloodshot
+  participants:
+    - bb:npc:captain-bloodshot

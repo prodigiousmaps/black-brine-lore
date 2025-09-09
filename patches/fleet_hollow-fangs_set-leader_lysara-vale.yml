@@ -1,0 +1,10 @@
+path: RPG_Knowledge_Base/03_Factions/fleet_hollow-fangs.md
+set:
+  type: faction
+  id: bb:fleet:hollow-fangs
+  name: Hollow Fangs
+  faction_type: fleet
+  leaders:
+    - bb:npc:captain-lysara-vale
+  participants:
+    - bb:npc:captain-lysara-vale
