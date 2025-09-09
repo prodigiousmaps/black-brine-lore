@@ -5289,98 +5289,88 @@
       }
     },
     {
-      "id": "bb:Page:djinn",
-      "type": "Page",
+      "id": "bb:lore:djinn",
+      "type": "lore",
       "name": "Djinn",
       "tags": [
-        "legends",
-        "Hooks",
-        "Djinn",
-        "RogueWave",
-        "Ship"
+        "elemental",
+        "legend",
+        "sedna",
+        "air",
+        "fire",
+        "wishes"
       ],
       "source": "RPG_Knowledge_Base\\01_World_Lore\\History\\Djinn.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Djinn",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-02-11T03:50:31.304Z",
-        "creationDate": "2025-02-10 21:50",
-        "modificationDate": "2025-05-07 21:08",
+        "type": "lore",
+        "id": "bb:lore:djinn",
+        "name": "Djinn",
         "tags": [
-          "legends",
-          "Hooks",
-          "Djinn",
-          "RogueWave",
-          "Ship"
-        ],
-        "coverImage": null
+          "elemental",
+          "legend",
+          "sedna",
+          "air",
+          "fire",
+          "wishes"
+        ]
       },
-      "body_excerpt": "# Djinn\n\n[image](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/50571822-c841-4cd5-9f42-23cbb376599d)\n\n### **Hints & Early Interactions**\n\n[image](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/2c83c11a-401f-4b70-bb82-7564791471ad)\n\nCalzuran \n\n- **Whispers on the Wind**: When the ship **changes direction sharply** or moves **unnaturally fast**, they might hear **faint, echoing whispers** from the shrine, as if something is **straining against invisible bonds**.\n\n- **Touching the Shrine**: If a player touches it, they might **feel static electricity** on their fingertips, hear **a voice in an unknown tongue**, or **see brief flashes of a swirling storm** in their mind’s eye.\n\n- **Sensing Power**: A detect magic spell could reveal **concentrated air and bindin…",
+      "body_excerpt": "# Overview\nWhispers in Black Brine tell of Djinn—elemental beings of wind and flame bound into contracts with mortals. They are rare, mercurial, and dangerous to summon, tied to storms and desert fire alike.\n\n# Legends\n- Said to walk the line between Sedna’s chains and the Hollow Goddess’ storms.  \n- Captains claim whole fleets have been carried into fog or fire by Djinn’s wrath.  \n- Folktales say they grant three wishes but twist them cruelly.\n\n# Cultural Beliefs\n- Sailors carve warding sigils on masts to keep them at bay.  \n- The Twilight Society whispers they commune with Djinn in ritual haze.  \n- Some believe Djinn are fragments of the Godless Wind itself.\n\n# Adventure Hooks\n- A forgotten lamp dredged up from a wreck calls to a crewmember.  \n- A storm over Black Brine carries voices of…",
       "raw": {}
     },
     {
-      "id": "bb:Page:rogue-wave",
-      "type": "Page",
-      "name": "Rogue Wave",
+      "id": "bb:story:rogue-wave",
+      "type": "story",
+      "name": "The Rogue Wave",
       "tags": [
-        "legends",
-        "Ship",
-        "RogueWave"
+        "legend",
+        "ship",
+        "rogue-wave",
+        "sedna",
+        "black-brine"
       ],
       "source": "RPG_Knowledge_Base\\01_World_Lore\\History\\Rogue Wave.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Rogue Wave",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-02-11T03:59:02.063Z",
-        "creationDate": "2025-02-10 21:59",
-        "modificationDate": "2025-02-10 22:02",
+        "type": "story",
+        "id": "bb:story:rogue-wave",
+        "name": "The Rogue Wave",
         "tags": [
-          "legends",
-          "Ship",
-          "RogueWave"
+          "legend",
+          "ship",
+          "rogue-wave",
+          "sedna",
+          "black-brine"
         ],
-        "coverImage": null
+        "summary": "# Overview A legendary ship that emerges every few centuries from mist, never claimed, only accepted. Those who sail it are destined for great deeds before the vessel vanishes once more."
       },
-      "body_excerpt": "# Rogue Wave\n\n**The Legend of the Ship**\n\n- Known throughout **Black Brine’s pirate history**, it is whispered that every **few centuries**, the ship **emerges from the mist**, seeking a new crew.\n\n- Those who sail it are **destined for legendary deeds**, their names woven into the **dark and glorious history of the seas**.\n\n- After their time is done, the ship **disappears once more**, vanishing into **fog, the depths, or perhaps another plane altogether**.\n\n- No one knows where it **goes between its appearances**, though some say it **returns to Sedna’s embrace** or **wanders the Elemental Plane of Air**, waiting for the right moment to return.\n\n- **Those who have tried to take it by force have failed**—the ship **will not be claimed**, only **accepted**.\n\n### **Reactions to the Ship's R…",
+      "body_excerpt": "# Overview\nA legendary ship that emerges every few centuries from mist, never claimed, only accepted. Those who sail it are destined for great deeds before the vessel vanishes once more.\n\n# Legends\n- Appears from nowhere, sails until its chosen crew’s time is done, then disappears into fog or another plane.  \n- Believed to rest in Sedna’s embrace or the Elemental Plane of Air.  \n- Attempts to seize it by force always fail.  \n\n# Modern Return\n- PCs named it **The Rogue Wave**, unaware of its true name.  \n- Some recognize it with awe or fear, seeing omen of fortune or doom.  \n- Rival captains envy its power, believing it rightfully theirs.  \n\n# The Mystery\n- Crew may find fragments of old journals and carvings from past voyages.  \n- The ship whispers its forgotten name on the wind.  \n- Those…",
       "raw": {}
     },
     {
-      "id": "bb:Page:tavern-rivalry",
-      "type": "Page",
+      "id": "bb:story:tavern-rivalry",
+      "type": "story",
       "name": "Tavern Rivalry",
       "tags": [
-        "Town",
-        "NPC",
-        "location",
-        "Hooks",
-        "quest"
+        "black-brine",
+        "tavern",
+        "politics",
+        "intrigue",
+        "rivalry"
       ],
       "source": "RPG_Knowledge_Base\\01_World_Lore\\History\\Tavern Rivalry.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Tavern Rivalry",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-02-11T03:30:28.960Z",
-        "creationDate": "2025-02-10 21:30",
-        "modificationDate": "2025-02-10 21:33",
+        "type": "story",
+        "id": "bb:story:tavern-rivalry",
+        "name": "Tavern Rivalry",
         "tags": [
-          "Town",
-          "NPC",
-          "location",
-          "Hooks",
-          "quest"
+          "black-brine",
+          "tavern",
+          "politics",
+          "intrigue",
+          "rivalry"
         ],
-        "coverImage": null
+        "summary": "# Overview Black Brine’s underworld is split between two establishments: the **Golden Gull**, hub of wealth and politics, and the **Powder Keg Tavern**, ruled by might and chaos. Their feud fuels constant intrigue."
       },
-      "body_excerpt": "# Tavern Rivalry\n\n### **The Powder Keg vs. The Golden Gull**\n\nWhile **both taverns serve Black Brine’s rough and ruthless clientele**, they cater to **very different crowds**—and the rivalry between them is **as explosive as a Powder Keg barrel lit with a Golden Gull cigar**.\n\nThe feud isn’t just about **class—it’s about power**. Each tavern serves as **a hub for different factions**, and tensions have been **boiling for years**.\n\n---\n\n### **The Core Rivalry: Money vs. Might**\n\n- The **Golden Gull** represents **wealth, influence, and cunning politics**—it’s where **deals are made, alliances are forged, and assassins are hired**.\n\n- The **Powder Keg** represents **raw strength, survival, and chaos**—it’s where **mercenaries, gunslingers, and pirates prove their worth through fists and fire…",
+      "body_excerpt": "# Overview\nBlack Brine’s underworld is split between two establishments: the **Golden Gull**, hub of wealth and politics, and the **Powder Keg Tavern**, ruled by might and chaos. Their feud fuels constant intrigue.\n\n# The Core Rivalry\n- **Golden Gull**: Wealth, influence, assassins, and politics.  \n- **Powder Keg**: Raw strength, survival, mercenaries, and firepower.  \n- Each tavern vies for dominance in Black Brine’s underworld.  \n\n# Key Figures\n- **Aldo Vance (Golden Gull Owner):** Sees Blastcap as an uneducated brute.  \n- **Harlow “Blastcap” Grint (Powder Keg Owner):** Sees Aldo as a backstabbing snake.  \n- Former allies turned bitter enemies after a smuggling deal soured.  \n\n# Ongoing Conflicts\n- **King’s Coin Night:** Hosting the annual Captain’s Council drinking night grants prestige…",
       "raw": {}
     },
     {
