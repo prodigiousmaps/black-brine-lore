@@ -27,8 +27,8 @@ tags:
 - cartographer
 - scribe
 - curious
-portrait: assets/portraits/pinch.png
-sheet_url: sheets/<pc>.pdf
+portrait: [assets/portraits/pinch.png]
+sheet_url: [sheets/pinch.pdf]
 ---
 # Appearance
 Small, wiry frame; dusty-gray skin; wild white shock of hair; ink-black eyes. Patchwork leathers over scholar’s robes, magnifying spectacles, satchel stained with ink and maps.

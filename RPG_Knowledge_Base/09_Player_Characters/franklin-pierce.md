@@ -25,8 +25,8 @@ tags:
 - forger
 - gambler
 - silver-tongued
-portrait: assets/portraits/franklin.png
-sheet_url: sheets/<pc>.pdf
+portrait: [assets/portraits/franklin.png]
+sheet_url: [sheets/franklin.pdf]
 ---
 # Appearance
 Lean and wiry, dark hair slicked back with careless charm, hazel eyes that are always sizing up the room. Threadbare finery, a gilded stolen rapier, and a subtle forearm tattoo from a defunct thieves’ guild.
