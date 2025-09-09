@@ -1,0 +1,7 @@
+path: RPG_Knowledge_Base/07_Stories/tavern-rivalry.md
+set:
+  participants:
+    - bb:location:golden-gull
+    - bb:location:powder-keg-tavern
+    - bb:npc:aldo-vance
+    - bb:npc:harlow-blastcap-grint
