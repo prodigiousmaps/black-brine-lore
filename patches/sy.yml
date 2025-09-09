@@ -1,0 +1,9 @@
+path: C:\Users\FiveA\OneDrive\Documents\GitHub\black-brine-lore\RPG_Knowledge_Base\09_Player_Characters\sy.md
+set:
+  allies:
+  - bb:npc:rupert-richthorn
+  - bb:pc:franklin-pierce
+  - bb:pc:pinch
+  appears_in:
+  - bb:location:ruperts-rest
+  - bb:story:rogue-wave

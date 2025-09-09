@@ -6,20 +6,27 @@ player: Cole
 pronouns: he/him
 race: Human
 classes:
-  - Bard (College of Whispers)
+- Bard (College of Whispers)
 background: Charlatan
 alignment: Chaotic Neutral
 level: TBD
 location: bb:city:black-brine
 appears_in:
-  - bb:story:rogue-wave
-  - bb:location:ruperts-rest
+- bb:location:ruperts-rest
+- bb:story:rogue-wave
 allies:
-  - bb:pc:sy
-  - bb:pc:pinch
-  - bb:npc:rupert-richthorn
+- bb:npc:rupert-richthorn
+- bb:pc:pinch
+- bb:pc:sy
 rivals: []
-tags: [bard, con-artist, forger, gambler, silver-tongued]
+tags:
+- bard
+- con-artist
+- forger
+- gambler
+- silver-tongued
+portrait: assets/portraits/franklin.png
+sheet_url: sheets/<pc>.pdf
 ---
 # Appearance
 Lean and wiry, dark hair slicked back with careless charm, hazel eyes that are always sizing up the room. Threadbare finery, a gilded stolen rapier, and a subtle forearm tattoo from a defunct thieves’ guild.

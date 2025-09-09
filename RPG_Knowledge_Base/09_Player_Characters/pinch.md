@@ -6,21 +6,29 @@ player: Stu
 pronouns: he/him
 race: Deep Gnome (Svirfneblin)
 classes:
-  - Rogue (Thief)
-  - Wizard (Illusionist)
+- Rogue (Thief)
+- Wizard (Illusionist)
 background: Scholar
 alignment: Neutral
 level: TBD
 location: bb:city:black-brine
 appears_in:
-  - bb:story:rogue-wave
-  - bb:location:ruperts-rest
+- bb:location:ruperts-rest
+- bb:story:rogue-wave
 allies:
-  - bb:pc:franklin-pierce
-  - bb:pc:sy
-  - bb:npc:rupert-richthorn
+- bb:npc:rupert-richthorn
+- bb:pc:franklin-pierce
+- bb:pc:sy
 rivals: []
-tags: [deep-gnome, rogue, illusionist, cartographer, scribe, curious]
+tags:
+- deep-gnome
+- rogue
+- illusionist
+- cartographer
+- scribe
+- curious
+portrait: assets/portraits/pinch.png
+sheet_url: sheets/<pc>.pdf
 ---
 # Appearance
 Small, wiry frame; dusty-gray skin; wild white shock of hair; ink-black eyes. Patchwork leathers over scholar’s robes, magnifying spectacles, satchel stained with ink and maps.

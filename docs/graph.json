@@ -279,13 +279,13 @@
         "level": "TBD",
         "location": "bb:city:black-brine",
         "appears_in": [
-          "bb:story:rogue-wave",
-          "bb:location:ruperts-rest"
+          "bb:location:ruperts-rest",
+          "bb:story:rogue-wave"
         ],
         "allies": [
-          "bb:pc:sy",
+          "bb:npc:rupert-richthorn",
           "bb:pc:pinch",
-          "bb:npc:rupert-richthorn"
+          "bb:pc:sy"
         ],
         "rivals": [],
         "tags": [
@@ -294,20 +294,22 @@
           "forger",
           "gambler",
           "silver-tongued"
-        ]
+        ],
+        "portrait": "assets/portraits/franklin.png",
+        "sheet_url": "sheets/<pc>.pdf"
       },
       "body_excerpt": "# Appearance\nLean and wiry, dark hair slicked back with careless charm, hazel eyes that are always sizing up the room. Threadbare finery, a gilded stolen rapier, and a subtle forearm tattoo from a defunct thieves’ guild.\n\n# Personality\n- Quick-witted, smooth-talking; loyalty earned, not assumed.  \n- Ideal: “Truth is flexible. Coin is real.”  \n- Bond: Grudging loyalty to his new crew.  \n- Flaw: Can’t resist a good con—even when it’s a bad idea.\n\n# Backstory\nAn orphan of Zazesspur’s streets, Franklin learned early that forged promises paid better than honest labor. After burning a merchant partner and stealing his rapier, he fled town and drifted from scam to scam.\n\n# Recent History\n- Escaped a brig with Sy and Pinch.  \n- Survived a cursed ruin and seized a magical, mastless ship.  \n- Headin…",
       "raw": {
         "location": "bb:city:black-brine",
         "allies": [
-          "bb:pc:sy",
+          "bb:npc:rupert-richthorn",
           "bb:pc:pinch",
-          "bb:npc:rupert-richthorn"
+          "bb:pc:sy"
         ],
         "rivals": [],
         "appears_in": [
-          "bb:story:rogue-wave",
-          "bb:location:ruperts-rest"
+          "bb:location:ruperts-rest",
+          "bb:story:rogue-wave"
         ]
       }
     },
@@ -340,13 +342,13 @@
         "level": "TBD",
         "location": "bb:city:black-brine",
         "appears_in": [
-          "bb:story:rogue-wave",
-          "bb:location:ruperts-rest"
+          "bb:location:ruperts-rest",
+          "bb:story:rogue-wave"
         ],
         "allies": [
+          "bb:npc:rupert-richthorn",
           "bb:pc:franklin-pierce",
-          "bb:pc:sy",
-          "bb:npc:rupert-richthorn"
+          "bb:pc:sy"
         ],
         "rivals": [],
         "tags": [
@@ -356,20 +358,22 @@
           "cartographer",
           "scribe",
           "curious"
-        ]
+        ],
+        "portrait": "assets/portraits/pinch.png",
+        "sheet_url": "sheets/<pc>.pdf"
       },
       "body_excerpt": "# Appearance\nSmall, wiry frame; dusty-gray skin; wild white shock of hair; ink-black eyes. Patchwork leathers over scholar’s robes, magnifying spectacles, satchel stained with ink and maps.\n\n# Personality\n- Obsessively curious about written language; values cleverness over strength.  \n- Ideal: “The world is a puzzle—every riddle has a key.”  \n- Bond: His journal of maps and lore is life itself.  \n- Flaw: Risks everything for knowledge or rare texts.\n\n# Backstory\nShunned by his folk for loving script over stone, he found a place topside among thieves and scholars who prized his hand and his mind.\n\n# Recent History\n- Escaped shipboard imprisonment with Sy and Franklin.  \n- Survived a ruin of Shar; bargained with a minotaur named Ruben.  \n- Helped seize a mastless, planar ship; now bound for …",
       "raw": {
         "location": "bb:city:black-brine",
         "allies": [
+          "bb:npc:rupert-richthorn",
           "bb:pc:franklin-pierce",
-          "bb:pc:sy",
-          "bb:npc:rupert-richthorn"
+          "bb:pc:sy"
         ],
         "rivals": [],
         "appears_in": [
-          "bb:story:rogue-wave",
-          "bb:location:ruperts-rest"
+          "bb:location:ruperts-rest",
+          "bb:story:rogue-wave"
         ]
       }
     },
@@ -403,13 +407,13 @@
         "level": "TBD",
         "location": "bb:city:black-brine",
         "appears_in": [
-          "bb:story:rogue-wave",
-          "bb:location:ruperts-rest"
+          "bb:location:ruperts-rest",
+          "bb:story:rogue-wave"
         ],
         "allies": [
+          "bb:npc:rupert-richthorn",
           "bb:pc:franklin-pierce",
-          "bb:pc:pinch",
-          "bb:npc:rupert-richthorn"
+          "bb:pc:pinch"
         ],
         "rivals": [],
         "tags": [
@@ -419,20 +423,22 @@
           "hexblade",
           "brooding",
           "exile"
-        ]
+        ],
+        "portrait": "assets/portraits/sy.png",
+        "sheet_url": "sheets/<pc>.pdf"
       },
       "body_excerpt": "# Appearance\nLithe swimmer’s build; sea-toned skin with green-blue sheen; long dark hair; reflective green eyes; ritual scarring along ribs; slightly webbed fingers; trident-shaped sentient dagger at the belt.\n\n# Personality\n- Quiet, intense, secretive—but fiercely loyal once earned.  \n- Ideal: “Power comes from the depths—earned, not inherited.”  \n- Bond: The dagger—last tie to his father.  \n- Flaw: Guilt over Nymh and his father’s fate.\n\n# Backstory\nRaised among smugglers in Ithmong; warned about his mother’s ambitions; found the bound blade and fled before becoming her pawn.\n\n# Recent History\n- Escaped a merchant brig with Pinch and Franklin.  \n- Struck dark bargains in a cursed ruin; took the helm of a mastless, planar ship.  \n- Sails toward Black Brine under Captain Tasty Bite’s wary …",
       "raw": {
         "location": "bb:city:black-brine",
         "allies": [
+          "bb:npc:rupert-richthorn",
           "bb:pc:franklin-pierce",
-          "bb:pc:pinch",
-          "bb:npc:rupert-richthorn"
+          "bb:pc:pinch"
         ],
         "rivals": [],
         "appears_in": [
-          "bb:story:rogue-wave",
-          "bb:location:ruperts-rest"
+          "bb:location:ruperts-rest",
+          "bb:story:rogue-wave"
         ]
       }
     },
@@ -5504,7 +5510,7 @@
     {
       "source": "bb:pc:franklin-pierce",
       "rel": "ally_of",
-      "target": "bb:pc:sy"
+      "target": "bb:npc:rupert-richthorn"
     },
     {
       "source": "bb:pc:franklin-pierce",
@@ -5514,12 +5520,17 @@
     {
       "source": "bb:pc:franklin-pierce",
       "rel": "ally_of",
-      "target": "bb:npc:rupert-richthorn"
+      "target": "bb:pc:sy"
     },
     {
       "source": "bb:pc:pinch",
       "rel": "located_in",
       "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:pc:pinch",
+      "rel": "ally_of",
+      "target": "bb:npc:rupert-richthorn"
     },
     {
       "source": "bb:pc:pinch",
@@ -5532,14 +5543,14 @@
       "target": "bb:pc:sy"
     },
     {
-      "source": "bb:pc:pinch",
-      "rel": "ally_of",
-      "target": "bb:npc:rupert-richthorn"
-    },
-    {
       "source": "bb:pc:sy",
       "rel": "located_in",
       "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:pc:sy",
+      "rel": "ally_of",
+      "target": "bb:npc:rupert-richthorn"
     },
     {
       "source": "bb:pc:sy",
@@ -5550,11 +5561,6 @@
       "source": "bb:pc:sy",
       "rel": "ally_of",
       "target": "bb:pc:pinch"
-    },
-    {
-      "source": "bb:pc:sy",
-      "rel": "ally_of",
-      "target": "bb:npc:rupert-richthorn"
     },
     {
       "source": "bb:hazard:false-beauty-vines",
@@ -6109,16 +6115,11 @@
     {
       "source": "bb:pc:franklin-pierce",
       "rel": "appears_in",
-      "target": "bb:story:rogue-wave"
+      "target": "bb:location:ruperts-rest"
     },
     {
       "source": "bb:pc:franklin-pierce",
       "rel": "appears_in",
-      "target": "bb:location:ruperts-rest"
-    },
-    {
-      "source": "bb:pc:pinch",
-      "rel": "appears_in",
       "target": "bb:story:rogue-wave"
     },
     {
@@ -6127,7 +6128,7 @@
       "target": "bb:location:ruperts-rest"
     },
     {
-      "source": "bb:pc:sy",
+      "source": "bb:pc:pinch",
       "rel": "appears_in",
       "target": "bb:story:rogue-wave"
     },
@@ -6135,6 +6136,11 @@
       "source": "bb:pc:sy",
       "rel": "appears_in",
       "target": "bb:location:ruperts-rest"
+    },
+    {
+      "source": "bb:pc:sy",
+      "rel": "appears_in",
+      "target": "bb:story:rogue-wave"
     },
     {
       "source": "bb:story:encounter-5-short-cut",

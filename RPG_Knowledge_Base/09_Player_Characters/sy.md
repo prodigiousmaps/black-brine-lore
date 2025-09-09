@@ -7,21 +7,29 @@ player: Joe
 pronouns: he/him
 race: Half-Aquatic Elf
 classes:
-  - Warlock (Hexblade)
+- Warlock (Hexblade)
 pact: Pact of the Blade
 background: Smuggler
 alignment: Neutral
 level: TBD
 location: bb:city:black-brine
 appears_in:
-  - bb:story:rogue-wave
-  - bb:location:ruperts-rest
+- bb:location:ruperts-rest
+- bb:story:rogue-wave
 allies:
-  - bb:pc:franklin-pierce
-  - bb:pc:pinch
-  - bb:npc:rupert-richthorn
+- bb:npc:rupert-richthorn
+- bb:pc:franklin-pierce
+- bb:pc:pinch
 rivals: []
-tags: [warlock, aquatic, smuggler, hexblade, brooding, exile]
+tags:
+- warlock
+- aquatic
+- smuggler
+- hexblade
+- brooding
+- exile
+portrait: assets/portraits/sy.png
+sheet_url: sheets/<pc>.pdf
 ---
 # Appearance
 Lithe swimmer’s build; sea-toned skin with green-blue sheen; long dark hair; reflective green eyes; ritual scarring along ribs; slightly webbed fingers; trident-shaped sentient dagger at the belt.

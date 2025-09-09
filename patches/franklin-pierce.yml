@@ -1,0 +1,9 @@
+path: C:\Users\FiveA\OneDrive\Documents\GitHub\black-brine-lore\RPG_Knowledge_Base\09_Player_Characters\franklin-pierce.md
+set:
+  allies:
+  - bb:npc:rupert-richthorn
+  - bb:pc:pinch
+  - bb:pc:sy
+  appears_in:
+  - bb:location:ruperts-rest
+  - bb:story:rogue-wave
