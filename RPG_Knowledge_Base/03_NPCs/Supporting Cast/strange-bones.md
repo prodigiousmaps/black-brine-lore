@@ -15,7 +15,7 @@ portrait: [assets/portraits/strange-bones.png]
 sheet_url: [sheets/strange-bones.pdf]   # or external link
 system: 5e
 level: 9
-classes: [Ranger 5, Druid 4]
+classes: [Ranger 5 Druid 4]
 ---
 
 # Description
