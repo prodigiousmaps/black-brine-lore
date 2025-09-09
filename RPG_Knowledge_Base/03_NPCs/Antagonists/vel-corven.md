@@ -25,7 +25,7 @@ tags:
 - salt-crown
 - broker
 - twilight-society
-portrait: assets/portraits/vel-corven
+portrait: assets/portraits/vel-corvo.jpg
 sheet_url: sheets/vel-corvo.pdf
 system: 5e
 level: 14
