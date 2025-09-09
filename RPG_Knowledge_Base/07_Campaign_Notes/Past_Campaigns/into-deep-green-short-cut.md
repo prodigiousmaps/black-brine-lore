@@ -1,7 +1,7 @@
 ---
-type: story
-id: bb:story:encounter-5-short-cut
-name: Encounter 5 – Short Cut
+type: past-campaigns
+id: bb:story:deep-green:short-cut
+name: The Deep Green - Part 5
 summary: >
   After escaping the Treefall Maze, Sy, Franklin, and Pinch cut across two hexes
   of jungle. Ash fall from Mount Vexir dampens sound and sight. They must choose

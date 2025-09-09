@@ -1,7 +1,7 @@
 ---
-type: story
-id: bb:story:encounter-4-treefall-maze
-name: Encounter 4 – The Treefall Maze
+type: past-campaigns
+id: bb:story:deep-green:treefall-maze
+name: The Deep Green - Part 4
 summary: >
   Sy, Franklin, and Pinch push beyond the thicket into a deadfall of collapsed
   trees at the base of Mount Vexir. Sudden cold sets in, the jungle thins, and

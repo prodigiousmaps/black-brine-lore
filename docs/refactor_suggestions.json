@@ -10,15 +10,7 @@
     "patches\\into-deep-green-treefall-maze.yml",
     "patches\\into-deep-green-vine-sanctum.yml",
     "patches\\ravething.yml",
-    "patches\\twig-blight-jungle-variant.yml",
-    "patches\\bone-field.yml",
     "patches\\false-beauty-vines.yml",
-    "patches\\insect-swarm-blood-flies.yml",
-    "patches\\razor-ferns.yml",
-    "patches\\rope-bridge-gorge.yml",
-    "patches\\deep-green-supplies.yml",
-    "patches\\final-verse.yml",
-    "patches\\journal-fragment-viii.yml",
     "patches\\butchers.yml",
     "patches\\twilight-society.yml",
     "patches\\hollow-fangs.yml",
@@ -110,9 +102,9 @@
       "path": "RPG_Knowledge_Base\\08_Stories\\skull-garden-black-river.md",
       "field": "appears_in",
       "value": "bb:item:final-verse",
-      "resolved_id": "bb:item:final-verse",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
@@ -332,7 +324,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-jungle-camp.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-jungle-camp.md",
       "field": "location",
       "value": "bb:region:deep-green",
       "resolved_id": null,
@@ -341,7 +333,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-jungle-camp.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-jungle-camp.md",
       "field": "factions*",
       "value": "bb:faction:fifth-mouth-cult",
       "resolved_id": null,
@@ -350,7 +342,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-jungle-camp.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-jungle-camp.md",
       "field": "participants",
       "value": "bb:npc:sy",
       "resolved_id": null,
@@ -359,7 +351,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-jungle-camp.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-jungle-camp.md",
       "field": "participants",
       "value": "bb:npc:franklin-pierce",
       "resolved_id": null,
@@ -368,7 +360,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-jungle-camp.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-jungle-camp.md",
       "field": "participants",
       "value": "bb:npc:pinch",
       "resolved_id": null,
@@ -377,7 +369,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-short-cut.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-short-cut.md",
       "field": "location",
       "value": "bb:region:deep-green",
       "resolved_id": null,
@@ -386,7 +378,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-short-cut.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-short-cut.md",
       "field": "appears_in",
       "value": "bb:hazard:bone-field",
       "resolved_id": "bb:hazard:bone-field",
@@ -395,7 +387,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-short-cut.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-short-cut.md",
       "field": "appears_in",
       "value": "bb:hazard:razor-ferns",
       "resolved_id": "bb:hazard:razor-ferns",
@@ -404,7 +396,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-short-cut.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-short-cut.md",
       "field": "appears_in",
       "value": "bb:hazard:rope-bridge-gorge",
       "resolved_id": "bb:hazard:rope-bridge-gorge",
@@ -413,7 +405,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-short-cut.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-short-cut.md",
       "field": "participants",
       "value": "bb:npc:sy",
       "resolved_id": null,
@@ -422,7 +414,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-short-cut.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-short-cut.md",
       "field": "participants",
       "value": "bb:npc:franklin-pierce",
       "resolved_id": null,
@@ -431,7 +423,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-short-cut.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-short-cut.md",
       "field": "participants",
       "value": "bb:npc:pinch",
       "resolved_id": null,
@@ -440,7 +432,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-skull-garden.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-skull-garden.md",
       "field": "location",
       "value": "bb:river:black-river",
       "resolved_id": null,
@@ -449,7 +441,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-skull-garden.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-skull-garden.md",
       "field": "factions*",
       "value": "bb:faction:the-soiled",
       "resolved_id": null,
@@ -458,7 +450,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-skull-garden.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-skull-garden.md",
       "field": "participants",
       "value": "bb:npc:franklin-pierce",
       "resolved_id": null,
@@ -467,7 +459,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-skull-garden.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-skull-garden.md",
       "field": "participants",
       "value": "bb:npc:pinch",
       "resolved_id": null,
@@ -476,7 +468,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-skull-garden.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-skull-garden.md",
       "field": "participants",
       "value": "bb:npc:rupert-richthorn",
       "resolved_id": "bb:npc:rupert-richthorn",
@@ -485,7 +477,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-skull-garden.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-skull-garden.md",
       "field": "participants",
       "value": "bb:npc:strange-bones",
       "resolved_id": "bb:npc:strange-bones",
@@ -494,7 +486,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-skull-garden.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-skull-garden.md",
       "field": "participants",
       "value": "bb:npc:sy",
       "resolved_id": null,
@@ -503,7 +495,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-treefall-maze.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-treefall-maze.md",
       "field": "location",
       "value": "bb:region:deep-green",
       "resolved_id": null,
@@ -512,7 +504,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-treefall-maze.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-treefall-maze.md",
       "field": "appears_in",
       "value": "bb:monster:twig-blight-jungle-variant",
       "resolved_id": "bb:monster:twig-blight-jungle-variant",
@@ -521,7 +513,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-treefall-maze.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-treefall-maze.md",
       "field": "participants",
       "value": "bb:npc:sy",
       "resolved_id": null,
@@ -530,7 +522,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-treefall-maze.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-treefall-maze.md",
       "field": "participants",
       "value": "bb:npc:franklin-pierce",
       "resolved_id": null,
@@ -539,7 +531,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-treefall-maze.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-treefall-maze.md",
       "field": "participants",
       "value": "bb:npc:pinch",
       "resolved_id": null,
@@ -548,7 +540,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-vine-sanctum.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-vine-sanctum.md",
       "field": "location",
       "value": "bb:region:deep-green",
       "resolved_id": null,
@@ -557,7 +549,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-vine-sanctum.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-vine-sanctum.md",
       "field": "appears_in",
       "value": "bb:hazard:false-beauty-vines",
       "resolved_id": "bb:hazard:false-beauty-vines",
@@ -566,7 +558,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-vine-sanctum.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-vine-sanctum.md",
       "field": "appears_in",
       "value": "bb:hazard:insect-swarm-blood-flies",
       "resolved_id": "bb:hazard:insect-swarm-blood-flies",
@@ -575,7 +567,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-vine-sanctum.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-vine-sanctum.md",
       "field": "participants",
       "value": "bb:npc:sy",
       "resolved_id": null,
@@ -584,7 +576,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-vine-sanctum.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-vine-sanctum.md",
       "field": "participants",
       "value": "bb:npc:franklin-pierce",
       "resolved_id": null,
@@ -593,7 +585,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-vine-sanctum.md",
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-vine-sanctum.md",
       "field": "participants",
       "value": "bb:npc:pinch",
       "resolved_id": null,
@@ -623,18 +615,18 @@
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\twig-blight-jungle-variant.md",
       "field": "location",
       "value": "bb:story:encounter-4-treefall-maze",
-      "resolved_id": "bb:story:encounter-4-treefall-maze",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\twig-blight-jungle-variant.md",
       "field": "appears_in",
       "value": "bb:story:encounter-4-treefall-maze",
-      "resolved_id": "bb:story:encounter-4-treefall-maze",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
@@ -650,18 +642,18 @@
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\bone-field.md",
       "field": "location",
       "value": "bb:story:encounter-5-short-cut",
-      "resolved_id": "bb:story:encounter-5-short-cut",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\bone-field.md",
       "field": "appears_in",
       "value": "bb:story:encounter-5-short-cut",
-      "resolved_id": "bb:story:encounter-5-short-cut",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
@@ -686,54 +678,54 @@
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\insect-swarm-blood-flies.md",
       "field": "location",
       "value": "bb:story:encounter-3-vine-sanctum",
-      "resolved_id": "bb:story:encounter-3-vine-sanctum",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\insect-swarm-blood-flies.md",
       "field": "appears_in",
       "value": "bb:story:encounter-3-vine-sanctum",
-      "resolved_id": "bb:story:encounter-3-vine-sanctum",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\razor-ferns.md",
       "field": "location",
       "value": "bb:story:encounter-5-short-cut",
-      "resolved_id": "bb:story:encounter-5-short-cut",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\razor-ferns.md",
       "field": "appears_in",
       "value": "bb:story:encounter-5-short-cut",
-      "resolved_id": "bb:story:encounter-5-short-cut",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\rope-bridge-gorge.md",
       "field": "location",
       "value": "bb:story:encounter-5-short-cut",
-      "resolved_id": "bb:story:encounter-5-short-cut",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\rope-bridge-gorge.md",
       "field": "appears_in",
       "value": "bb:story:encounter-5-short-cut",
-      "resolved_id": "bb:story:encounter-5-short-cut",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
@@ -827,55 +819,10 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\deep-green-supplies.md",
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\the-blind-chefs-almanac.md",
       "field": "location",
-      "value": "bb:story:encounter-2-deep-green",
-      "resolved_id": "bb:story:encounter-2-deep-green",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\deep-green-supplies.md",
-      "field": "appears_in",
-      "value": "bb:story:encounter-2-deep-green",
-      "resolved_id": "bb:story:encounter-2-deep-green",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\final-verse.md",
-      "field": "location",
-      "value": "bb:story:skull-garden-black-river",
-      "resolved_id": "bb:story:skull-garden-black-river",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\final-verse.md",
-      "field": "appears_in",
-      "value": "bb:story:skull-garden-black-river",
-      "resolved_id": "bb:story:skull-garden-black-river",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\journal-fragment-viii.md",
-      "field": "location",
-      "value": "bb:story:encounter-2-deep-green",
-      "resolved_id": "bb:story:encounter-2-deep-green",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\journal-fragment-viii.md",
-      "field": "appears_in",
-      "value": "bb:story:encounter-2-deep-green",
-      "resolved_id": "bb:story:encounter-2-deep-green",
+      "value": "bb:pc:pinch",
+      "resolved_id": "bb:pc:pinch",
       "method": "id",
       "score": 1.0,
       "note": ""

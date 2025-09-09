@@ -1,7 +1,7 @@
 ---
-type: story
-id: bb:story:encounter-3-vine-sanctum
-name: Encounter 3 – The Vine Sanctum
+type: past-campaigns
+id: bb:story:deep-green:vine-sanctum
+name: The Deep Green - Part 3
 summary: >
   Sy, Franklin, and Pinch press deeper into the Deep Green. Sweltering winds
   buffet the canopy while the jungle floor lies still. Navigation challenges

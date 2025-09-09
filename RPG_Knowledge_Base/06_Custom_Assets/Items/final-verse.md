@@ -1,21 +1,24 @@
 ---
-type: item
-id: bb:item:final-verse
-name: Final Verse
-summary: >
-  A jagged shortsword found in the Skull Garden. Whispers fragments of the dying
-  as it kills; wielder may wound themselves to resist charms.
-rarity: uncommon
-slot: weapon
-weapon_type: shortsword
-properties: [finesse, light]
-location: bb:story:skull-garden-black-river
-appears_in: [ bb:story:skull-garden-black-river ]
-tags: [weapon, cursed, hollow-song]
+type: lore
+id: bb:lore:final-verse
+name: The Final Verse
+summary: A prophetic fragment tied to Sedna and the Hollow Goddess, whispered among
+  seers and cursed mariners.
+tags:
+- lore
+- prophecy
+- sedna
+- hollow-goddess
+appears_in:
+- bb:story:skull-garden-black-river
 ---
+# The Final Verse
 
-# Final Verse
-- Damage: 1d6 piercing
-- Effects:
-  - On kill: wielder hears target’s last memory fragment.
-  - Once per long rest: wound self for 1d6 damage to reroll a failed CHA/WIS save vs charm/possession.
+> “When the tide breaks black and the stars turn hollow,  
+> the drowned shall rise in chorus,  
+> and the song unmade shall bind the chains anew.”
+
+Believed to be the closing passage of a longer prophecy, its meaning is hotly debated.  
+- Some claim it foretells Sedna’s release.  
+- Others believe it marks the Hollow Goddess’s triumph.  
+- Still others say it speaks to balance: neither freed, nor destroyed, but bound in endless cycle.

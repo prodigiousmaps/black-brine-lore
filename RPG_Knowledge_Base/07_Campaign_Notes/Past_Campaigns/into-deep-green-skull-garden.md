@@ -1,7 +1,7 @@
 ---
-type: story
-id: bb:story:skull-garden-black-river
-name: The Skull Garden of the Black River
+type: past-campaigns
+id: bb:story:deep-green:skull-garden
+name: The Deep Green - Part 1
 summary: 'Sy, Franklin, and Pinch journey upriver aboard Rupert’s chartered fishing
   boat. Guided by Strange Bones, they reach a ruined barricade where the river is
   blocked and must continue on foot. On the sandy bank lies the Skull Garden, where

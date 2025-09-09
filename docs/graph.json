@@ -475,20 +475,120 @@
       "raw": {}
     },
     {
-      "id": "bb:story:encounter-2-deep-green",
-      "type": "story",
-      "name": "Encounter 2 – The Deep Green",
+      "id": "bb:Page:dead-sons-campaign-narrative",
+      "type": "Page",
+      "name": "dead-sons-campaign-narrative",
+      "tags": [
+        "CampaignHistory"
+      ],
+      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\dead-sons-campaign-narrative.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Past Campaigns",
+        "title": "Dead Sons Campaign Narrative",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-08-22T04:12:06.584Z",
+        "creationDate": "2025-08-21 23:12",
+        "modificationDate": "2025-08-21 23:18",
+        "tags": [
+          "CampaignHistory"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Dead Sons Campaign Narrative\n\n**\n\nEpisode 1\n\n1. Readings\n\n    1. General Von Nevel addresses the company*\n\n    2. Rupert Toasts the fallen heroes*\n\n2. Scenes\n\n    1. Command Tent - Open QA around the command fire\n\n    2. Cutty and Luka - \n\n        1. How to feed an army\n\n            1. savory barley porridge made with broth, bone, chicken, beef, mutton bacon\n\n            2. dried mushrooms, scallions and peppers, goodberries promote nutrition, flavor punch and filling \n\n        2. how to serve an army\n\n            1. one serving\n\n            2. gold piece on pay day (golden slop) and 2 flagons of ale\n\n        3. foraging \n\n            1. Water\n\n            2. Greens\n\n            3. root vegetables\n\n            4. Salt\n\n            5. Tobacco\n\n        4. Secrets\n\n            1. spice pouc…",
+      "raw": {}
+    },
+    {
+      "id": "bb:Page:dead-sons-campaign-structure",
+      "type": "Page",
+      "name": "dead-sons-campaign-structure",
+      "tags": [
+        "CampaignHistory"
+      ],
+      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\dead-sons-campaign-structure.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Past Campaigns",
+        "title": "Dead Sons Campaign Structure",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-08-22T04:08:48.635Z",
+        "creationDate": "2025-08-21 23:08",
+        "modificationDate": "2025-08-21 23:19",
+        "tags": [
+          "CampaignHistory"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Dead Sons Campaign Structure\n\nCampaign Structure\n\nAct 1\nSession 1\nLanding Party - Hlondeth\nThe party is sent to investigate the fate of Lord Quwen\nGreeted at the port by Caleo and escorted to the camp\nInfo about the Dead Sons\n459 men and horse\n115 light Cavalry company\n232 heavy Cavalry company\n52 support\n60 scouting company\nDead Sons Base\nCity of Westgate\nDragon Coast\nDragonmere Sea\nSailed through the Sea of Fallen Stars around Turmish up the Vilhon Reach\nOrganization\nMembership is voluntary\nHighly experienced\nMembers must have reputation or demonstrate skill\n1 gp per week pay\n2 gp per week for officers\nDead Sons Code of Conduct\nNo rape\nNo torture\nNo pillage- unless authorized\nNo in-fighting\nParty will be approached by the horses of the dead mage corps, horses will aproach one at a time…",
+      "raw": {}
+    },
+    {
+      "id": "bb:Page:fallen--city-campaign-structure",
+      "type": "Page",
+      "name": "fallen -city-campaign-structure",
+      "tags": [
+        "CampaignHistory"
+      ],
+      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\fallen -city-campaign-structure.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Past Campaigns",
+        "title": "Fallen City Campaign Structure",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-08-22T04:14:43.949Z",
+        "creationDate": "2025-08-21 23:14",
+        "modificationDate": "2025-08-21 23:21",
+        "tags": [
+          "CampaignHistory"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Fallen City Campaign Structure\n\n**\n\nFrozen City\n\nAct1 - The Missing Mage\n\nPart 1 - Fear for a friend - A mysterious crime scene\n\nPart 2 - Investigation - The trail leads to old friends\n\nPart 3 - Rescue mission - Rupert’s alive and the plot thickens (held captive)\n\nAct 2 - The Search is on\n\nPart 1 - A friend is in trouble but where is he - Tracking the Unborn\n\nPart 2 - Piecing together events - Trail of destruction & the helpful mage\n\nPart 3 - An astral gate and a key - Rupert’s location revealed and the plot thickens (communication is cut but not for long)\n\nAct 3 - The Frozen City\n\nSub-plots\n\n1. Tempting Offers - Ongoing dialogue with the vermin lord\n\n    1. Deal 1 - Give me the girl and I will give you Rupert\n\n    2. Temptation 1 - Give you riches and look the other way\n\n    3. Temptati…",
+      "raw": {}
+    },
+    {
+      "id": "bb:Page:fallen-city-rupert-richthorn-memory-palace",
+      "type": "Page",
+      "name": "fallen-city-rupert-richthorn-memory-palace",
+      "tags": [
+        "CampaignHistory"
+      ],
+      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\fallen-city-rupert-richthorn-memory-palace.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Past Campaigns",
+        "title": "Fallen City Rupert Richthorn Memory Palace",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-08-22T04:16:02.642Z",
+        "creationDate": "2025-08-21 23:16",
+        "modificationDate": "2025-08-21 23:22",
+        "tags": [
+          "CampaignHistory"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Fallen City Rupert Richthorn Memory Palace\n\nRuper Richthorn\n\nIn the memory palace\n\n1. What does he know?\n\n    1. He was transported by an Astral Projection spell\n\n    2. The spell was hidden inside a Glyph of Warding spell\n\n        1. This means it was cast onsite\n\n        2. The Astral Projection spell was unfamiliar\n\n            1. It is a similar spell but designed to target an individual\n\n            2. Requires an extremely advanced understanding of spell engineering\n\n            3. In the box was a chunk of stone broken from a structure he was able to match to a piece of architecture at the destination\n\n            4. The stone is not native to the Orsauran Mountains\n\n        3. The traditional rules of Astral Projection\n\n            1. Technically he could kill his astral self and…",
+      "raw": {}
+    },
+    {
+      "id": "bb:story:deep-green:jungle-camp",
+      "type": "past-campaigns",
+      "name": "The Deep Green - Part 2",
       "tags": [
         "encounter",
         "jungle",
         "cave",
         "supplies"
       ],
-      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-jungle-camp.md",
+      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-jungle-camp.md",
       "fm": {
-        "type": "story",
-        "id": "bb:story:encounter-2-deep-green",
-        "name": "Encounter 2 – The Deep Green",
+        "type": "past-campaigns",
+        "id": "bb:story:deep-green:jungle-camp",
+        "name": "The Deep Green - Part 2",
         "summary": "Sy, Franklin, and Pinch follow the narrow jungle trail into the Deep Green, where they discover an abandoned base camp in a small cave littered with relics, journals, and ominous signs of past expeditions.\n",
         "location": "bb:region:deep-green",
         "participants": [
@@ -520,20 +620,20 @@
       }
     },
     {
-      "id": "bb:story:encounter-5-short-cut",
-      "type": "story",
-      "name": "Encounter 5 – Short Cut",
+      "id": "bb:story:deep-green:short-cut",
+      "type": "past-campaigns",
+      "name": "The Deep Green - Part 5",
       "tags": [
         "encounter",
         "jungle",
         "ash-fall",
         "vexir"
       ],
-      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-short-cut.md",
+      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-short-cut.md",
       "fm": {
-        "type": "story",
-        "id": "bb:story:encounter-5-short-cut",
-        "name": "Encounter 5 – Short Cut",
+        "type": "past-campaigns",
+        "id": "bb:story:deep-green:short-cut",
+        "name": "The Deep Green - Part 5",
         "summary": "After escaping the Treefall Maze, Sy, Franklin, and Pinch cut across two hexes of jungle. Ash fall from Mount Vexir dampens sound and sight. They must choose between ridge or basin, then cross a deep gorge by rope bridge.\n",
         "location": "bb:region:deep-green",
         "participants": [
@@ -569,19 +669,19 @@
       }
     },
     {
-      "id": "bb:story:skull-garden-black-river",
-      "type": "story",
-      "name": "The Skull Garden of the Black River",
+      "id": "bb:story:deep-green:skull-garden",
+      "type": "past-campaigns",
+      "name": "The Deep Green - Part 1",
       "tags": [
         "encounter",
         "jungle",
         "black-river"
       ],
-      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-skull-garden.md",
+      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-skull-garden.md",
       "fm": {
-        "type": "story",
-        "id": "bb:story:skull-garden-black-river",
-        "name": "The Skull Garden of the Black River",
+        "type": "past-campaigns",
+        "id": "bb:story:deep-green:skull-garden",
+        "name": "The Deep Green - Part 1",
         "summary": "Sy, Franklin, and Pinch journey upriver aboard Rupert’s chartered fishing boat. Guided by Strange Bones, they reach a ruined barricade where the river is blocked and must continue on foot. On the sandy bank lies the Skull Garden, where carnivorous vines and scavengers await.\n",
         "location": "bb:river:black-river",
         "participants": [
@@ -616,20 +716,20 @@
       }
     },
     {
-      "id": "bb:story:encounter-4-treefall-maze",
-      "type": "story",
-      "name": "Encounter 4 – The Treefall Maze",
+      "id": "bb:story:deep-green:treefall-maze",
+      "type": "past-campaigns",
+      "name": "The Deep Green - Part 4",
       "tags": [
         "encounter",
         "jungle",
         "deadfall",
         "vexir"
       ],
-      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-treefall-maze.md",
+      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-treefall-maze.md",
       "fm": {
-        "type": "story",
-        "id": "bb:story:encounter-4-treefall-maze",
-        "name": "Encounter 4 – The Treefall Maze",
+        "type": "past-campaigns",
+        "id": "bb:story:deep-green:treefall-maze",
+        "name": "The Deep Green - Part 4",
         "summary": "Sy, Franklin, and Pinch push beyond the thicket into a deadfall of collapsed trees at the base of Mount Vexir. Sudden cold sets in, the jungle thins, and a maze of toppled trunks forces hard choices, skill checks, and hazards.\n",
         "location": "bb:region:deep-green",
         "participants": [
@@ -661,20 +761,20 @@
       }
     },
     {
-      "id": "bb:story:encounter-3-vine-sanctum",
-      "type": "story",
-      "name": "Encounter 3 – The Vine Sanctum",
+      "id": "bb:story:deep-green:vine-sanctum",
+      "type": "past-campaigns",
+      "name": "The Deep Green - Part 3",
       "tags": [
         "encounter",
         "jungle",
         "vines",
         "sanctum"
       ],
-      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-vine-sanctum.md",
+      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-vine-sanctum.md",
       "fm": {
-        "type": "story",
-        "id": "bb:story:encounter-3-vine-sanctum",
-        "name": "Encounter 3 – The Vine Sanctum",
+        "type": "past-campaigns",
+        "id": "bb:story:deep-green:vine-sanctum",
+        "name": "The Deep Green - Part 3",
         "summary": "Sy, Franklin, and Pinch press deeper into the Deep Green. Sweltering winds buffet the canopy while the jungle floor lies still. Navigation challenges lead them to a creek crossing, an abandoned camp with copper chimes, and finally a towering wall of False Beauty Vines concealing a sanctum of death.\n",
         "location": "bb:region:deep-green",
         "participants": [
@@ -706,106 +806,6 @@
           "bb:hazard:insect-swarm-blood-flies"
         ]
       }
-    },
-    {
-      "id": "bb:Page:dead-sons-campaign-narrative",
-      "type": "Page",
-      "name": "Dead Sons Campaign Narrative",
-      "tags": [
-        "CampaignHistory"
-      ],
-      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\Dead Sons Campaign Narrative.md",
-      "fm": {
-        "type": "Page",
-        "collections": "Past Campaigns",
-        "title": "Dead Sons Campaign Narrative",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-08-22T04:12:06.584Z",
-        "creationDate": "2025-08-21 23:12",
-        "modificationDate": "2025-08-21 23:18",
-        "tags": [
-          "CampaignHistory"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Dead Sons Campaign Narrative\n\n**\n\nEpisode 1\n\n1. Readings\n\n    1. General Von Nevel addresses the company*\n\n    2. Rupert Toasts the fallen heroes*\n\n2. Scenes\n\n    1. Command Tent - Open QA around the command fire\n\n    2. Cutty and Luka - \n\n        1. How to feed an army\n\n            1. savory barley porridge made with broth, bone, chicken, beef, mutton bacon\n\n            2. dried mushrooms, scallions and peppers, goodberries promote nutrition, flavor punch and filling \n\n        2. how to serve an army\n\n            1. one serving\n\n            2. gold piece on pay day (golden slop) and 2 flagons of ale\n\n        3. foraging \n\n            1. Water\n\n            2. Greens\n\n            3. root vegetables\n\n            4. Salt\n\n            5. Tobacco\n\n        4. Secrets\n\n            1. spice pouc…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:dead-sons-campaign-structure",
-      "type": "Page",
-      "name": "Dead Sons Campaign Structure",
-      "tags": [
-        "CampaignHistory"
-      ],
-      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\Dead Sons Campaign Structure.md",
-      "fm": {
-        "type": "Page",
-        "collections": "Past Campaigns",
-        "title": "Dead Sons Campaign Structure",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-08-22T04:08:48.635Z",
-        "creationDate": "2025-08-21 23:08",
-        "modificationDate": "2025-08-21 23:19",
-        "tags": [
-          "CampaignHistory"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Dead Sons Campaign Structure\n\nCampaign Structure\n\nAct 1\nSession 1\nLanding Party - Hlondeth\nThe party is sent to investigate the fate of Lord Quwen\nGreeted at the port by Caleo and escorted to the camp\nInfo about the Dead Sons\n459 men and horse\n115 light Cavalry company\n232 heavy Cavalry company\n52 support\n60 scouting company\nDead Sons Base\nCity of Westgate\nDragon Coast\nDragonmere Sea\nSailed through the Sea of Fallen Stars around Turmish up the Vilhon Reach\nOrganization\nMembership is voluntary\nHighly experienced\nMembers must have reputation or demonstrate skill\n1 gp per week pay\n2 gp per week for officers\nDead Sons Code of Conduct\nNo rape\nNo torture\nNo pillage- unless authorized\nNo in-fighting\nParty will be approached by the horses of the dead mage corps, horses will aproach one at a time…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:fallen-city-campaign-structure",
-      "type": "Page",
-      "name": "Fallen City Campaign Structure",
-      "tags": [
-        "CampaignHistory"
-      ],
-      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\Fallen City Campaign Structure.md",
-      "fm": {
-        "type": "Page",
-        "collections": "Past Campaigns",
-        "title": "Fallen City Campaign Structure",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-08-22T04:14:43.949Z",
-        "creationDate": "2025-08-21 23:14",
-        "modificationDate": "2025-08-21 23:21",
-        "tags": [
-          "CampaignHistory"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Fallen City Campaign Structure\n\n**\n\nFrozen City\n\nAct1 - The Missing Mage\n\nPart 1 - Fear for a friend - A mysterious crime scene\n\nPart 2 - Investigation - The trail leads to old friends\n\nPart 3 - Rescue mission - Rupert’s alive and the plot thickens (held captive)\n\nAct 2 - The Search is on\n\nPart 1 - A friend is in trouble but where is he - Tracking the Unborn\n\nPart 2 - Piecing together events - Trail of destruction & the helpful mage\n\nPart 3 - An astral gate and a key - Rupert’s location revealed and the plot thickens (communication is cut but not for long)\n\nAct 3 - The Frozen City\n\nSub-plots\n\n1. Tempting Offers - Ongoing dialogue with the vermin lord\n\n    1. Deal 1 - Give me the girl and I will give you Rupert\n\n    2. Temptation 1 - Give you riches and look the other way\n\n    3. Temptati…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:fallen-city-rupert-richthorn-memory-palace",
-      "type": "Page",
-      "name": "Fallen City Rupert Richthorn Memory Palace",
-      "tags": [
-        "CampaignHistory"
-      ],
-      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\Fallen City Rupert Richthorn Memory Palace.md",
-      "fm": {
-        "type": "Page",
-        "collections": "Past Campaigns",
-        "title": "Fallen City Rupert Richthorn Memory Palace",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-08-22T04:16:02.642Z",
-        "creationDate": "2025-08-21 23:16",
-        "modificationDate": "2025-08-21 23:22",
-        "tags": [
-          "CampaignHistory"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Fallen City Rupert Richthorn Memory Palace\n\nRuper Richthorn\n\nIn the memory palace\n\n1. What does he know?\n\n    1. He was transported by an Astral Projection spell\n\n    2. The spell was hidden inside a Glyph of Warding spell\n\n        1. This means it was cast onsite\n\n        2. The Astral Projection spell was unfamiliar\n\n            1. It is a similar spell but designed to target an individual\n\n            2. Requires an extremely advanced understanding of spell engineering\n\n            3. In the box was a chunk of stone broken from a structure he was able to match to a piece of architecture at the destination\n\n            4. The stone is not native to the Orsauran Mountains\n\n        3. The traditional rules of Astral Projection\n\n            1. Technically he could kill his astral self and…",
-      "raw": {}
     },
     {
       "id": "bb:beast:ravething",
@@ -1455,125 +1455,120 @@
       "raw": {}
     },
     {
-      "id": "bb:Page:challenge-coins",
-      "type": "Page",
-      "name": "challenge-coins",
+      "id": "bb:lore:challenge-coins",
+      "type": "lore",
+      "name": "Black Brine Challenge Coins",
       "tags": [
-        "laws",
-        "Town",
-        "Hooks",
-        "Faction"
+        "lore",
+        "black-brine",
+        "coin",
+        "magic"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\challenge-coins.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Challenge Coins",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-02-11T04:28:27.522Z",
-        "creationDate": "2025-02-10 22:28",
-        "modificationDate": "2025-02-10 22:54",
+        "type": "lore",
+        "id": "bb:lore:challenge-coins",
+        "name": "Black Brine Challenge Coins",
+        "summary": "Magical safeguards placed on pirate captains’ coins of Black Brine. Details sigils, tracking, security rituals, and campaign uses.\n",
         "tags": [
-          "laws",
-          "Town",
-          "Hooks",
-          "Faction"
-        ],
-        "coverImage": null
+          "lore",
+          "black-brine",
+          "coin",
+          "magic"
+        ]
       },
-      "body_excerpt": "# Challenge Coins\n\n## **Magical Safeguards on Black Brine’s Challenge Coins**\n\nSince the **pirate captains of Black Brine** would never let something so valuable be stolen **without protection**, here’s how the coins are **secured**:\n\n### **1. Every Coin is Marked with a Magical Signature**\n\n- Each Challenge Coin is **inscribed with a unique sigil**, tied to the **captain’s blood or soul** at the time of forging.\n\n- This makes it **difficult to duplicate**, as each coin’s **magic is distinct** and **can be sensed by those trained to do so**.\n\n#### **How This Affects the Enemy**\n\n- The Corsair-worshipers **cannot simply forge a new coin**—they must **use the stolen one carefully** or **find a way to erase its signature**.\n\n- If a **pirate lord or mage examines the coin**, they **can tell it…",
+      "body_excerpt": "# Challenge Coins of Black Brine\n\n### Magical Safeguards\n1. **Magical Signature** – Bound to captain’s blood or soul; cannot be forged.  \n2. **Tracking** – Ritual possible with connection item; imprecise but reveals region.  \n3. **Challenge Response** – Requires phrase or gesture; misuse exposes impostors.\n\n### Enemy Implications\n- Corsair-worshipers cannot easily forge.  \n- Coins risky to use openly.  \n- Suppression rituals possible but traceable.\n\n### Rupert’s Role\nRupert can accelerate rituals, break suppression, and leverage the crew.\n\n### Campaign Arc\n- **Sessions 1–2**: Missing coin discovered.  \n- **3–4**: Enemy begins testing; tracking ritual contested.  \n- **5+**: Confrontation, decision on coin’s fate.\n\n### Twists\n- Rival factions may hunt coin.  \n- Enemy might discard coin for a…",
       "raw": {}
     },
     {
-      "id": "bb:Page:codex-of-salt-and-shadow",
-      "type": "Page",
-      "name": "codex-of-salt-and-shadow",
-      "tags": [],
+      "id": "bb:item:codex-salt-shadow",
+      "type": "item",
+      "name": "Codex of Salt and Shadow",
+      "tags": [
+        "book",
+        "sedna",
+        "lore",
+        "cursed"
+      ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\codex-of-salt-and-shadow.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Codex of Salt and Shadow",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-05-21T21:17:55.462Z",
-        "creationDate": "2025-05-21 16:17",
-        "modificationDate": "2025-05-21 16:46",
-        "tags": [],
-        "coverImage": null
+        "type": "item",
+        "id": "bb:item:codex-salt-shadow",
+        "name": "Codex of Salt and Shadow",
+        "summary": "A heavy eelhide tome of Sedna, pages rearrange when unseen. Holds abyssal liturgies, unspoken histories, and rituals tied to sea and silence.\n",
+        "rarity": "legendary",
+        "slot": "wondrous item",
+        "tags": [
+          "book",
+          "sedna",
+          "lore",
+          "cursed"
+        ]
       },
-      "body_excerpt": "# Codex of Salt and Shadow\n\n[couchwarrior_A_heavy_tome_bound_in_water-logged_eelhide_slick_t_9b59cac2-f650-47df-ad99-8cb4a45528ea](Images/couchwarrior_A_heavy_tome_bound_in_water-logged_eelhide_slick_t_9b59cac2-f650-47.md)\n\n\n# 📖 **The Codex of Salt and Shadow**\n\n### 🐚 Physical Description\n\nA heavy tome bound in **water-logged eelhide**, slick to the touch. Its pages are **translucent** and shimmer like oil on water. When opened, **ink moves slowly** across the pages—never smudging, but subtly rearranging itself when not observed. Some pages appear **empty until submerged in saltwater**, at which point **hidden glyphs emerge** in fluid, spiraling scripts.\n\nThe codex smells of **brine, old blood, and rain-soaked stone**. It whispers faintly in silence and is warm when near seawater or leylin…",
+      "body_excerpt": "# Codex of Salt and Shadow\n\n### Physical Description\n- Bound in eelhide, slick and warm near seawater.  \n- Translucent shifting pages, ink moves unseen.  \n- Glyphs visible only submerged in saltwater.  \n- Whispers faintly; smells of brine, blood, and stone.\n\n### Contents\n1. **Liturgies of the Abyssal Silence** – Invocations of drowning and silence.  \n2. **Unspoken History** – Tale of Eshvahar, the False Flame, bound beneath Vexir.  \n3. **Sedna’s Gifts** – Amphorae of Breath, Brine Golems, Tide Key, Brine Veil.  \n4. **Vein of Stillness** – Leylines beneath sea and jungle, Stillbirth Chapel.\n\n### Magical Properties\n- Attuned bearer may cast *Control Water* or *Water Breathing* once/long rest.  \n- Ritual *Augury* reveals Sedna’s will.  \n- Weekly Silence Offering: silent meditation for vision,…",
       "raw": {}
     },
     {
       "id": "bb:item:deep-green-supplies",
       "type": "item",
-      "name": "Abandoned Expedition Supplies",
+      "name": "Deep Green Supplies",
       "tags": [
-        "supplies",
-        "loot",
-        "fifth-mouth"
+        "shop",
+        "poisons",
+        "alchemy",
+        "black-brine"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\deep-green-supplies.md",
       "fm": {
         "type": "item",
         "id": "bb:item:deep-green-supplies",
-        "name": "Abandoned Expedition Supplies",
-        "summary": "Gear and remnants left in a jungle cave base camp, including rations, rope, journals, oddities, and ritual objects. Many are decayed, though some retain strange potency.\n",
-        "location": "bb:story:encounter-2-deep-green",
+        "name": "Deep Green Supplies",
+        "summary": "A merchant of exotic poisons, toxins, and alchemical reagents within Black Brine’s warrens.",
+        "tags": [
+          "shop",
+          "poisons",
+          "alchemy",
+          "black-brine"
+        ],
         "appears_in": [
           "bb:story:encounter-2-deep-green"
-        ],
-        "tags": [
-          "supplies",
-          "loot",
-          "fifth-mouth"
         ]
       },
-      "body_excerpt": "# Supplies & Gear\n- Crate of dried rations (spoiled or partially edible)\n- Bundle of jungle climbing rope\n- Explorer’s gear chest with compass and goggles\n- Lanterns and whale oil marked “From Baldur’s Gate”\n- Jungle journal (clues about Temple, whispers, black sun)\n- Rusted bear traps\n- Crates stamped “FM” for Fifth Mouth\n\n# Containers & Chemicals\n- Two corked vials (poison resistance potion possible)\n- Brass cookpot with teeth motifs\n- Dried tea leaves inducing vivid dreams\n\n# Oddities\n- Ceremonial mask of the Fifth Mouth (whispers when worn)\n- Sack of carved tokens (faces not in the party)\n- Love letter from “R” to Dovain\n- Shrine stone with salt dish (reacts to seawater)\n\n# Evidence of Time & Rot\n- Scattered halfling/gnome bones (jaw runes)\n- Jungle vermin nest (use as bait)\n- Unnatura…",
+      "body_excerpt": "# Deep Green Supplies\n\n### Overview\nThe “Deep Green” is a clandestine supplier of dangerous herbs and brews. It operates in shadow markets of Black Brine.\n\n### Goods\n- **Widow’s Fang** – slow-acting poison.  \n- **Nightroot Oil** – induces hallucinations.  \n- **Bile Ink** – doubles as toxin & tattoo dye.  \n- **Glass Serpent Venom** – paralyzing agent.  \n- **Glowcap Resin** – hallucinogenic incense.  \n\n### Notable Features\n- Hidden cellar storefront.  \n- Green lantern identifies entrance.  \n- Customers must provide code phrase.",
       "raw": {
-        "location": "bb:story:encounter-2-deep-green",
         "appears_in": [
           "bb:story:encounter-2-deep-green"
         ]
       }
     },
     {
-      "id": "bb:item:final-verse",
-      "type": "item",
-      "name": "Final Verse",
+      "id": "bb:lore:final-verse",
+      "type": "lore",
+      "name": "The Final Verse",
       "tags": [
-        "weapon",
-        "cursed",
-        "hollow-song"
+        "lore",
+        "prophecy",
+        "sedna",
+        "hollow-goddess"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\final-verse.md",
       "fm": {
-        "type": "item",
-        "id": "bb:item:final-verse",
-        "name": "Final Verse",
-        "summary": "A jagged shortsword found in the Skull Garden. Whispers fragments of the dying as it kills; wielder may wound themselves to resist charms.\n",
-        "rarity": "uncommon",
-        "slot": "weapon",
-        "weapon_type": "shortsword",
-        "properties": [
-          "finesse",
-          "light"
+        "type": "lore",
+        "id": "bb:lore:final-verse",
+        "name": "The Final Verse",
+        "summary": "A prophetic fragment tied to Sedna and the Hollow Goddess, whispered among seers and cursed mariners.",
+        "tags": [
+          "lore",
+          "prophecy",
+          "sedna",
+          "hollow-goddess"
         ],
-        "location": "bb:story:skull-garden-black-river",
         "appears_in": [
           "bb:story:skull-garden-black-river"
-        ],
-        "tags": [
-          "weapon",
-          "cursed",
-          "hollow-song"
         ]
       },
-      "body_excerpt": "# Final Verse\n- Damage: 1d6 piercing\n- Effects:\n  - On kill: wielder hears target’s last memory fragment.\n  - Once per long rest: wound self for 1d6 damage to reroll a failed CHA/WIS save vs charm/possession.",
+      "body_excerpt": "# The Final Verse\n\n> “When the tide breaks black and the stars turn hollow,  \n> the drowned shall rise in chorus,  \n> and the song unmade shall bind the chains anew.”\n\nBelieved to be the closing passage of a longer prophecy, its meaning is hotly debated.  \n- Some claim it foretells Sedna’s release.  \n- Others believe it marks the Hollow Goddess’s triumph.  \n- Still others say it speaks to balance: neither freed, nor destroyed, but bound in endless cycle.",
       "raw": {
-        "location": "bb:story:skull-garden-black-river",
         "appears_in": [
           "bb:story:skull-garden-black-river"
         ]
@@ -1584,80 +1579,87 @@
       "type": "lore",
       "name": "Journal Fragment VIII",
       "tags": [
-        "journal",
         "lore",
-        "fifth-mouth",
-        "hollow-song"
+        "journal",
+        "fragment",
+        "sedna"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\journal-fragment-viii.md",
       "fm": {
         "type": "lore",
         "id": "bb:lore:journal-fragment-viii",
         "name": "Journal Fragment VIII",
-        "summary": "A faded expedition journal recovered from the Deep Green cave. Describes strange canopy intent, marked trees, dreams beneath roots, and a sense of the jungle’s hunger.\n",
-        "location": "bb:story:encounter-2-deep-green",
+        "summary": "A damaged fragment of a larger explorer’s journal, containing cryptic notes and half-legible thoughts from Sedna’s jungle.",
+        "tags": [
+          "lore",
+          "journal",
+          "fragment",
+          "sedna"
+        ],
         "appears_in": [
           "bb:story:encounter-2-deep-green"
-        ],
-        "tags": [
-          "journal",
-          "lore",
-          "fifth-mouth",
-          "hollow-song"
         ]
       },
-      "body_excerpt": "# Excerpt\n- The canopy seems to lean closer, as if listening.\n- A coin like Waterdeep’s, but with an open mouth instead of a crown.\n- Marked three trees; by dusk, there were four.\n- Dovain listens for something he calls “shape, not sound.”\n- Dreams beneath roots with a song that made teeth ache.\n- Expedition may have been doomed from the start.\n- “The jungle has no gold. Only hunger.” — J.",
+      "body_excerpt": "# Journal Fragment VIII\n\nFaded ink and water damage obscure much of the entry. Still legible are scattered words and phrases:  \n- “...the mist thicker now...”  \n- “...trees whisper but none alive...”  \n- “...coin or curse?...”  \n- “...Strange Bones warned...”  \n\nThe rest is illegible, but the tone is frantic and fearful. Suggests the writer witnessed Sedna’s jungle changing unnaturally before vanishing.",
       "raw": {
-        "location": "bb:story:encounter-2-deep-green",
         "appears_in": [
           "bb:story:encounter-2-deep-green"
         ]
       }
     },
     {
-      "id": "bb:Page:the-blind-chefs-almanac",
-      "type": "Page",
-      "name": "the-blind-chefs-almanac",
-      "tags": [],
+      "id": "bb:lore:blind-chefs-almanac",
+      "type": "lore",
+      "name": "The Blind Chef’s Almanac",
+      "tags": [
+        "book",
+        "cooking",
+        "underdark",
+        "lore"
+      ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\the-blind-chefs-almanac.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "The Blind Chef's Almanac",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-08-22T04:21:15.367Z",
-        "creationDate": "2025-08-21 23:21",
-        "modificationDate": "2025-08-21 23:28",
-        "tags": [],
-        "coverImage": null
+        "type": "lore",
+        "id": "bb:lore:blind-chefs-almanac",
+        "name": "The Blind Chef’s Almanac",
+        "summary": "A pirated deep gnome cooking manual filled with dangerous recipes, annotated notes, and culinary heresies of the Underdark. Currently held by Pinch the Rogue.\n",
+        "location": "bb:pc:pinch",
+        "tags": [
+          "book",
+          "cooking",
+          "underdark",
+          "lore"
+        ]
       },
-      "body_excerpt": "# The Blind Chef's Almanac\n\nThis book is in the possession of the player character Pinch the Rogue\n\n### A Practical Guide to Cooking in the Deep Places of the World\n\n## Table of Contents\n\n1. Introduction\n\n2. A Note on Ingredients\n\n3. Soups & Stews\n\n4. Savory Dishes\n\n5. Baked & Preserved Goods\n\n6. Snacks & Quick Bites\n\n7. Exotic Drinks & Brews\n\n8. Cooking Superstitions & Rituals\n\n9. Annotated Notes & Additional Discoveries\n\n---\n\n## Introduction\n\n*The Blind Chef’s Almanac* is an unofficial, pirated copy of a much older deep gnome cooking manual. Passed down, recopied, and annotated by countless hands, this version is riddled with scribbled notes, substitutions, and dubious modifications. Some recipes are masterpieces of the Underdark’s culinary tradition. Others? Likely deadly mistakes waiti…",
-      "raw": {}
+      "body_excerpt": "# The Blind Chef’s Almanac\n\n### Overview\nA forbidden cookbook of the deep gnomes, recopied and corrupted through the centuries. Its existence is outlawed; possessing it is both heretical and dangerous.\n\n### Table of Contents\n1. Introduction  \n2. A Note on Ingredients  \n3. Soups & Stews  \n4. Savory Dishes  \n5. Baked & Preserved Goods  \n6. Snacks & Quick Bites  \n7. Exotic Drinks & Brews  \n8. Cooking Superstitions & Rituals  \n9. Annotated Notes & Discoveries  \n\n### Introduction\n*The Blind Chef’s Almanac* is an unofficial, pirated copy of an ancient manual.  \nIt breaks the deep gnome taboo of written culinary lore. Its origin is unknown.\n\n### Ingredients\n- **Glowcaps** – Bioluminescent fungi.  \n- **Trillimac Stalks** – Bread-like mushroom.  \n- **Deep Rothe Milk** – Gamey dairy.  \n- **Darksnail…",
+      "raw": {
+        "location": "bb:pc:pinch"
+      }
     },
     {
-      "id": "bb:Page:theory-on-the-workings-of-apertures",
-      "type": "Page",
-      "name": "theory-on-the-workings-of-apertures",
+      "id": "bb:rules:apertures-theory",
+      "type": "rules",
+      "name": "Theory on the Workings of Apertures",
       "tags": [
-        "CampaignHistory"
+        "rules",
+        "magic",
+        "apertures",
+        "arcana"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\theory-on-the-workings-of-apertures.md",
       "fm": {
-        "type": "Page",
-        "collections": "Past Campaigns",
-        "title": "How do apertures work!",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-08-22T04:06:11.632Z",
-        "creationDate": "2025-08-21 23:06",
-        "modificationDate": "2025-08-21 23:14",
+        "type": "rules",
+        "id": "bb:rules:apertures-theory",
+        "name": "Theory on the Workings of Apertures",
+        "summary": "Arcane treatise on magical apertures that pool spell slots among linked casters. Details attunement, pooling mechanics, and experimental configurations.\n",
         "tags": [
-          "CampaignHistory"
-        ],
-        "coverImage": null
+          "rules",
+          "magic",
+          "apertures",
+          "arcana"
+        ]
       },
-      "body_excerpt": "# How do apertures work!\n\n- How do apertures work!\n\n- Allows for the transfer of power (spell slots).\n\n- Each wielder must use an attunement slot\n\n- any caster can use an aperture. If you have spell slots or pact slots you may attune to an aperture.\n\n- Each individual chooses how many slots they will contribute to the pool.\n\n- Power: One spell slot equals one spell level.\n\n    1. Focus may take levels to cast spells they already know to a maximum of 9th level\n\n    2. Levels may be used to “upcast” as spell as stated in the spell description\n\n- Configuration: The arrangement of casters imparts special benefits\n\n    1. Discovering Configurations - Must be done through experimentation\n\n        1. A configuration may be attempted with successful arcana check DC18\n\n        2. Following a config…",
+      "body_excerpt": "# Theory on the Workings of Apertures\n\n### Core Principles\n- Apertures allow **transfer of spell slots**.  \n- Any caster with spell/pact slots may attune.  \n- Attunement consumes a slot.  \n- Each caster chooses how many slots to contribute.  \n- 1 slot = 1 level of spell energy.\n\n### Casting with Apertures\n- Focus caster may use levels to cast known spells (up to 9th).  \n- Levels can upcast spells.  \n\n### Configurations\n1. **Circle** – Flexible, any caster may use pool.  \n2. **Array** – All link to a focus; focus casts with advantage.  \n3. **Linear** – Chain ends at focus; devastating attacks; focus limited once/short rest.  \n4. **Bomb** – Pool channeled into single destructive release, destroying aperture.\n\n### Vulnerabilities\n- All casters must maintain concentration.  \n- Movement limited…",
       "raw": {}
     },
     {
@@ -5603,49 +5605,14 @@
       "target": "bb:story:skull-garden-black-river"
     },
     {
-      "source": "bb:monster:twig-blight-jungle-variant",
-      "rel": "located_in",
-      "target": "bb:story:encounter-4-treefall-maze"
-    },
-    {
-      "source": "bb:hazard:bone-field",
-      "rel": "located_in",
-      "target": "bb:story:encounter-5-short-cut"
-    },
-    {
       "source": "bb:hazard:false-beauty-vines",
       "rel": "located_in",
       "target": "bb:story:skull-garden-black-river"
     },
     {
-      "source": "bb:hazard:insect-swarm-blood-flies",
+      "source": "bb:lore:blind-chefs-almanac",
       "rel": "located_in",
-      "target": "bb:story:encounter-3-vine-sanctum"
-    },
-    {
-      "source": "bb:hazard:razor-ferns",
-      "rel": "located_in",
-      "target": "bb:story:encounter-5-short-cut"
-    },
-    {
-      "source": "bb:hazard:rope-bridge-gorge",
-      "rel": "located_in",
-      "target": "bb:story:encounter-5-short-cut"
-    },
-    {
-      "source": "bb:item:deep-green-supplies",
-      "rel": "located_in",
-      "target": "bb:story:encounter-2-deep-green"
-    },
-    {
-      "source": "bb:item:final-verse",
-      "rel": "located_in",
-      "target": "bb:story:skull-garden-black-river"
-    },
-    {
-      "source": "bb:lore:journal-fragment-viii",
-      "rel": "located_in",
-      "target": "bb:story:encounter-2-deep-green"
+      "target": "bb:pc:pinch"
     },
     {
       "source": "bb:faction:butchers",
@@ -6173,16 +6140,6 @@
       "target": "bb:story:skull-garden-black-river"
     },
     {
-      "source": "bb:npc:rupert-richthorn",
-      "rel": "appears_in",
-      "target": "bb:story:skull-garden-black-river"
-    },
-    {
-      "source": "bb:npc:strange-bones",
-      "rel": "appears_in",
-      "target": "bb:story:skull-garden-black-river"
-    },
-    {
       "source": "bb:story:skull-garden-black-river",
       "rel": "appears_in",
       "target": "bb:beast:ravething"
@@ -6193,11 +6150,6 @@
       "target": "bb:hazard:false-beauty-vines"
     },
     {
-      "source": "bb:story:skull-garden-black-river",
-      "rel": "appears_in",
-      "target": "bb:item:final-verse"
-    },
-    {
       "source": "bb:pc:franklin",
       "rel": "appears_in",
       "target": "bb:location:ruperts-rest"
@@ -6228,32 +6180,32 @@
       "target": "bb:story:rogue-wave"
     },
     {
-      "source": "bb:story:encounter-5-short-cut",
+      "source": "bb:story:deep-green:short-cut",
       "rel": "appears_in",
       "target": "bb:hazard:bone-field"
     },
     {
-      "source": "bb:story:encounter-5-short-cut",
+      "source": "bb:story:deep-green:short-cut",
       "rel": "appears_in",
       "target": "bb:hazard:razor-ferns"
     },
     {
-      "source": "bb:story:encounter-5-short-cut",
+      "source": "bb:story:deep-green:short-cut",
       "rel": "appears_in",
       "target": "bb:hazard:rope-bridge-gorge"
     },
     {
-      "source": "bb:story:encounter-4-treefall-maze",
+      "source": "bb:story:deep-green:treefall-maze",
       "rel": "appears_in",
       "target": "bb:monster:twig-blight-jungle-variant"
     },
     {
-      "source": "bb:story:encounter-3-vine-sanctum",
+      "source": "bb:story:deep-green:vine-sanctum",
       "rel": "appears_in",
       "target": "bb:hazard:false-beauty-vines"
     },
     {
-      "source": "bb:story:encounter-3-vine-sanctum",
+      "source": "bb:story:deep-green:vine-sanctum",
       "rel": "appears_in",
       "target": "bb:hazard:insect-swarm-blood-flies"
     },
@@ -6263,49 +6215,14 @@
       "target": "bb:story:skull-garden-black-river"
     },
     {
-      "source": "bb:monster:twig-blight-jungle-variant",
-      "rel": "appears_in",
-      "target": "bb:story:encounter-4-treefall-maze"
-    },
-    {
-      "source": "bb:hazard:bone-field",
-      "rel": "appears_in",
-      "target": "bb:story:encounter-5-short-cut"
-    },
-    {
       "source": "bb:hazard:false-beauty-vines",
       "rel": "appears_in",
       "target": "bb:story:skull-garden-black-river"
     },
     {
-      "source": "bb:hazard:insect-swarm-blood-flies",
-      "rel": "appears_in",
-      "target": "bb:story:encounter-3-vine-sanctum"
-    },
-    {
-      "source": "bb:hazard:razor-ferns",
-      "rel": "appears_in",
-      "target": "bb:story:encounter-5-short-cut"
-    },
-    {
-      "source": "bb:hazard:rope-bridge-gorge",
-      "rel": "appears_in",
-      "target": "bb:story:encounter-5-short-cut"
-    },
-    {
-      "source": "bb:item:deep-green-supplies",
-      "rel": "appears_in",
-      "target": "bb:story:encounter-2-deep-green"
-    },
-    {
-      "source": "bb:item:final-verse",
+      "source": "bb:lore:final-verse",
       "rel": "appears_in",
       "target": "bb:story:skull-garden-black-river"
-    },
-    {
-      "source": "bb:lore:journal-fragment-viii",
-      "rel": "appears_in",
-      "target": "bb:story:encounter-2-deep-green"
     },
     {
       "source": "bb:npc:the-noose",
@@ -6491,6 +6408,6 @@
   "unresolved": [],
   "stats": {
     "nodes": 146,
-    "edges": 188
+    "edges": 171
   }
 }

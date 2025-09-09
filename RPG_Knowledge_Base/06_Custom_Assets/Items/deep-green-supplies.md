@@ -1,37 +1,30 @@
 ---
 type: item
 id: bb:item:deep-green-supplies
-name: Abandoned Expedition Supplies
-summary: >
-  Gear and remnants left in a jungle cave base camp, including rations,
-  rope, journals, oddities, and ritual objects. Many are decayed,
-  though some retain strange potency.
-location: bb:story:encounter-2-deep-green
-appears_in: [ bb:story:encounter-2-deep-green ]
-tags: [supplies, loot, fifth-mouth]
+name: Deep Green Supplies
+summary: A merchant of exotic poisons, toxins, and alchemical reagents within Black
+  Brine’s warrens.
+tags:
+- shop
+- poisons
+- alchemy
+- black-brine
+appears_in:
+- bb:story:encounter-2-deep-green
 ---
+# Deep Green Supplies
 
-# Supplies & Gear
-- Crate of dried rations (spoiled or partially edible)
-- Bundle of jungle climbing rope
-- Explorer’s gear chest with compass and goggles
-- Lanterns and whale oil marked “From Baldur’s Gate”
-- Jungle journal (clues about Temple, whispers, black sun)
-- Rusted bear traps
-- Crates stamped “FM” for Fifth Mouth
+### Overview
+The “Deep Green” is a clandestine supplier of dangerous herbs and brews. It operates in shadow markets of Black Brine.
 
-# Containers & Chemicals
-- Two corked vials (poison resistance potion possible)
-- Brass cookpot with teeth motifs
-- Dried tea leaves inducing vivid dreams
+### Goods
+- **Widow’s Fang** – slow-acting poison.  
+- **Nightroot Oil** – induces hallucinations.  
+- **Bile Ink** – doubles as toxin & tattoo dye.  
+- **Glass Serpent Venom** – paralyzing agent.  
+- **Glowcap Resin** – hallucinogenic incense.  
 
-# Oddities
-- Ceremonial mask of the Fifth Mouth (whispers when worn)
-- Sack of carved tokens (faces not in the party)
-- Love letter from “R” to Dovain
-- Shrine stone with salt dish (reacts to seawater)
-
-# Evidence of Time & Rot
-- Scattered halfling/gnome bones (jaw runes)
-- Jungle vermin nest (use as bait)
-- Unnatural fungus patch (sings faint tone)
+### Notable Features
+- Hidden cellar storefront.  
+- Green lantern identifies entrance.  
+- Customers must provide code phrase.  

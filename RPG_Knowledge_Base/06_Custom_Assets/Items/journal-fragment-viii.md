@@ -2,20 +2,22 @@
 type: lore
 id: bb:lore:journal-fragment-viii
 name: Journal Fragment VIII
-summary: >
-  A faded expedition journal recovered from the Deep Green cave.
-  Describes strange canopy intent, marked trees, dreams beneath
-  roots, and a sense of the jungle’s hunger.
-location: bb:story:encounter-2-deep-green
-appears_in: [ bb:story:encounter-2-deep-green ]
-tags: [journal, lore, fifth-mouth, hollow-song]
+summary: A damaged fragment of a larger explorer’s journal, containing cryptic notes
+  and half-legible thoughts from Sedna’s jungle.
+tags:
+- lore
+- journal
+- fragment
+- sedna
+appears_in:
+- bb:story:encounter-2-deep-green
 ---
+# Journal Fragment VIII
 
-# Excerpt
-- The canopy seems to lean closer, as if listening.
-- A coin like Waterdeep’s, but with an open mouth instead of a crown.
-- Marked three trees; by dusk, there were four.
-- Dovain listens for something he calls “shape, not sound.”
-- Dreams beneath roots with a song that made teeth ache.
-- Expedition may have been doomed from the start.
-- “The jungle has no gold. Only hunger.” — J.
+Faded ink and water damage obscure much of the entry. Still legible are scattered words and phrases:  
+- “...the mist thicker now...”  
+- “...trees whisper but none alive...”  
+- “...coin or curse?...”  
+- “...Strange Bones warned...”  
+
+The rest is illegible, but the tone is frantic and fearful. Suggests the writer witnessed Sedna’s jungle changing unnaturally before vanishing.

@@ -1,7 +1,7 @@
 ---
-type: story
-id: bb:story:encounter-2-deep-green
-name: Encounter 2 – The Deep Green
+type: past-campaigns
+id: bb:story:deep-green:jungle-camp
+name: The Deep Green - Part 2
 summary: >
   Sy, Franklin, and Pinch follow the narrow jungle trail into the Deep Green,
   where they discover an abandoned base camp in a small cave littered with
