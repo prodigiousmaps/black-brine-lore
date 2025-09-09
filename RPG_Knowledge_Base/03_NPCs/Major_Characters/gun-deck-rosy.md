@@ -10,8 +10,10 @@ rivals: []
 appears_in:
   - bb:location:city-hull
 tags: [mistwalk, governor, high-priestess, sedna]
-portrait: [assets/portraits/gun-deck-rosy.png]
-sheet_url: [sheets/gun-deck-rosy.pdf]   # or external link
+portrait: 
+  - assets/portraits/gun-deck-rosy.png
+sheet_url: 
+  - sheets/gun-deck-rosy.pdf
 system: 5e
 level: 10
 classes: [Sorcerer 4, Fighter 6]

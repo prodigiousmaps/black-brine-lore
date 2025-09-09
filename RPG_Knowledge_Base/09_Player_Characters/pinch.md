@@ -27,8 +27,10 @@ tags:
 - cartographer
 - scribe
 - curious
-portrait: [assets/portraits/pinch.png]
-sheet_url: [sheets/pinch.pdf]
+portrait: 
+  - assets/portraits/pinch.png
+sheet_url: 
+  - sheets/pinch.pdf
 system: 5e
 level: 8
 classes: 
