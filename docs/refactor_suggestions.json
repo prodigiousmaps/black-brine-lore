@@ -1,5 +1,5 @@
 {
-  "total_files": 145,
+  "total_files": 146,
   "patches": [
     "patches\\skull-garden-black-river.yml",
     "patches\\into-deep-green-short-cut.yml",
@@ -23,6 +23,7 @@
     "patches\\vel-corven.yml",
     "patches\\gun-deck-rosy.yml",
     "patches\\inquisitor-zunizar.yml",
+    "patches\\aldo-vance.yml",
     "patches\\big-mags.yml",
     "patches\\brin.yml",
     "patches\\crank.yml",
@@ -1054,6 +1055,42 @@
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\aldo-vance.md",
+      "field": "location",
+      "value": "bb:location:golden-gull",
+      "resolved_id": "bb:location:golden-gull",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\aldo-vance.md",
+      "field": "rivals",
+      "value": "bb:npc:harlow-blastcap-grint",
+      "resolved_id": "bb:npc:harlow-blastcap-grint",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\aldo-vance.md",
+      "field": "appears_in",
+      "value": "bb:location:golden-gull",
+      "resolved_id": "bb:location:golden-gull",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\aldo-vance.md",
+      "field": "appears_in",
+      "value": "bb:story:tavern-rivalry",
+      "resolved_id": "bb:story:tavern-rivalry",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {

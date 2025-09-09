@@ -1,0 +1,8 @@
+path: C:\Users\FiveA\OneDrive\Documents\GitHub\black-brine-lore\RPG_Knowledge_Base\03_NPCs\Supporting
+  Cast\aldo-vance.md
+set:
+  rivals:
+  - bb:npc:harlow-blastcap-grint
+  appears_in:
+  - bb:location:golden-gull
+  - bb:story:tavern-rivalry

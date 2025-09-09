@@ -2659,6 +2659,55 @@
       }
     },
     {
+      "id": "bb:npc:aldo-vance",
+      "type": "npc",
+      "name": "Aldo Vance",
+      "tags": [
+        "golden-gull",
+        "owner",
+        "intrigue",
+        "merchant",
+        "tavern"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\aldo-vance.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:aldo-vance",
+        "name": "Aldo Vance",
+        "summary": "Wealthy and calculating owner of the Golden Gull; thrives on politics, secrecy, and profit.",
+        "location": "bb:location:golden-gull",
+        "factions": [],
+        "allies": [],
+        "rivals": [
+          "bb:npc:harlow-blastcap-grint"
+        ],
+        "appears_in": [
+          "bb:location:golden-gull",
+          "bb:story:tavern-rivalry"
+        ],
+        "tags": [
+          "golden-gull",
+          "owner",
+          "intrigue",
+          "merchant",
+          "tavern"
+        ]
+      },
+      "body_excerpt": "# Description\nAldo Vance is a shrewd businessman and consummate manipulator, hiding his ruthlessness behind polished manners. He dresses in fine silks, wears gold rings from every profitable deal, and never enters a room without calculating the advantage. Aldo treats the Golden Gull as both a tavern and a political stage where debts, favors, and secrets are traded more freely than rum.\n\n# Personality\n- Ambitious, meticulous, and always outwardly polite.  \n- Keeps a ledger of every debt owed to him.  \n- Views friendships as investments, loyalty as leverage.  \n- Disdains the chaos of the Powder Keg, calling Blastcap a brute.  \n\n# Secrets (DM Only)\n- Uses assassins to eliminate rivals quietly.  \n- Holds compromising ledgers on multiple captains.  \n- Once arranged the “Lost Shipment Incident” …",
+      "raw": {
+        "location": "bb:location:golden-gull",
+        "factions": [],
+        "allies": [],
+        "rivals": [
+          "bb:npc:harlow-blastcap-grint"
+        ],
+        "appears_in": [
+          "bb:location:golden-gull",
+          "bb:story:tavern-rivalry"
+        ]
+      }
+    },
+    {
       "id": "bb:npc:big-mags",
       "type": "npc",
       "name": "Big Mags",
@@ -5560,6 +5609,11 @@
       "target": "bb:fleet:widowmakers"
     },
     {
+      "source": "bb:npc:aldo-vance",
+      "rel": "rival_of",
+      "target": "bb:npc:harlow-blastcap-grint"
+    },
+    {
       "source": "bb:npc:brin",
       "rel": "located_in",
       "target": "bb:location:red-door-alchemy"
@@ -6025,6 +6079,11 @@
       "target": "bb:location:house-of-questions"
     },
     {
+      "source": "bb:npc:aldo-vance",
+      "rel": "appears_in",
+      "target": "bb:story:tavern-rivalry"
+    },
+    {
       "source": "bb:npc:brin",
       "rel": "appears_in",
       "target": "bb:location:red-door-alchemy"
@@ -6127,7 +6186,7 @@
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 145,
-    "edges": 137
+    "nodes": 146,
+    "edges": 139
   }
 }
