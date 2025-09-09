@@ -11,8 +11,8 @@ rivals:
 appears_in:
   - bb:city:black-brine
 tags: [wizard, exile, kraken, tower, sedna, intrigue, npc]
-portrait: https://prodigiousmaps.github.io/black-brine-lore/assets/portraits/rupert-richthorn.png
-sheet_url: https://prodigiousmaps.github.io/black-brine-lore/sheets/rupert-richthorn.pdf   # or external link
+portrait: [assets/portraits/rupert-richthorn.png]
+sheet_url: [sheets/rupert-richthorn.pdf]   # or external link
 system: 5e
 level: 20
 classes: [Wizard 20]
