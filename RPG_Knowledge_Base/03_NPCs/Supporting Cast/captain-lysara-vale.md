@@ -7,7 +7,7 @@ factions:
   - bb:fleet:hollow-fangs
   - bb:faction:council-of-captains
 tags: [captain, council, npc, hollow-fangs, orc, undead]
-portrait: assets/portraits/captain-lysara-vale.png
+portrait: assets/portraits/captain-vale.png
 ---
 # Captain Lysara Vale
 

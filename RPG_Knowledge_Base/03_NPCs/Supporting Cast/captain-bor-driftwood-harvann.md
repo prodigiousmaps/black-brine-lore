@@ -7,7 +7,7 @@ factions:
   - bb:fleet:red-wakes
   - bb:faction:council-of-captains
 tags: [captain, council, npc, red-wakes, goliath, warlord]
-portrait: assets/portraits/captain-bor-driftwood.png
+portrait: assets/portraits/captain-bor-harvann.png
 ---
 # Captain Bor "Driftwood" Harvann
 

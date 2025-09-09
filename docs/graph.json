@@ -2730,7 +2730,7 @@
           "terror",
           "necrotic"
         ],
-        "portrait": "assets/portraits/captain-bloodshot.png"
+        "portrait": "assets/portraits/bloodshot.jpg"
       },
       "body_excerpt": "# Captain Bloodshot\n\n## Overview\nMaster of the Miasma Fleet, commanding cursed vessels and warped sailors through mist and fear.\n\n## Fleet\n- Ships: 3 cursed vessels, including *The Miasma*  \n- Crew: Warped, mutated, terrifying  \n- Style: Terror tactics, eldritch magic  \n- Reputation: Feared more dead than alive  \n\n## Customs\n- Blackened Chalice – crew drinks blood before battle  \n- Bone Hunt – new recruits must trophy a sinking  \n- Silent Decks – whispers only aboard *The Miasma*",
       "raw": {
@@ -2770,7 +2770,7 @@
           "goliath",
           "warlord"
         ],
-        "portrait": "assets/portraits/captain-bor-driftwood.png"
+        "portrait": "assets/portraits/captain-bor-harvann.png"
       },
       "body_excerpt": "# Captain Bor \"Driftwood\" Harvann\n\n## Overview\nGoliath warlord of the Red Wakes, feared for overwhelming force and refusal of surrender.\n\n## Fleet\n- Ships: 7 brutal warships, including *The Iron Shrike*  \n- Crew: Brawlers, siege experts, marines  \n- Style: No negotiations, only blood  \n- Reputation: Burned a captured ship for effect  \n\n## Customs\n- Battle Booze – smash liquor before battle  \n- No Quarter Given – surrender = death  \n- First to Board, First to Lead",
       "raw": {
@@ -2810,7 +2810,7 @@
           "merchant",
           "kender"
         ],
-        "portrait": "assets/portraits/captain-garrick-salt.png"
+        "portrait": "assets/portraits/captain-garrick.png"
       },
       "body_excerpt": "# Captain Garrick \"Golden Tooth\" Salt\n\n## Overview\nCunning merchant-lord who profits by gold rather than blood.\n\n## Fleet\n- Ships: 5 armed galleons  \n- Crew: Traders, spies, thieves  \n- Style: Bribery, deception, forgery  \n- Reputation: Hated for always profiting  \n\n## Customs\n- Stolen Jewel – proof of theft from nobles  \n- Deals Over Death – gold over blood  \n- Gold Coin Gambit – disputes settled by coin toss",
       "raw": {
@@ -2850,7 +2850,7 @@
           "orc",
           "undead"
         ],
-        "portrait": "assets/portraits/captain-lysara-vale.png"
+        "portrait": "assets/portraits/captain-vale.png"
       },
       "body_excerpt": "# Captain Lysara Vale\n\n## Overview\nPhantom mistress of the Hollow Fangs fleet, haunting seas with spectral silence.\n\n## Fleet\n- Ships: 3 ghostly vessels, including *The Silken Noose*  \n- Crew: Silent, spectral, undead  \n- Style: Illusions, supernatural terror  \n- Reputation: Believed hanged at Red Chain Bridge and survived  \n\n## Customs\n- Noose’s Whisper – whispers only aboard  \n- Drowned Hand – recruits tested underwater  \n- Forgotten Coins – dead sailors left with coins",
       "raw": {
@@ -2888,7 +2888,7 @@
           "malign",
           "smuggler"
         ],
-        "portrait": "assets/portraits/captain-tasty-bite.png"
+        "portrait": "assets/portraits/tasty-bite.jpg"
       },
       "body_excerpt": "# Captain Tasty Bite\n\n## Overview\nLeader of the Malign fleet, the richest criminal of Black Brine’s seas.\n\n## Fleet\n- Ships: 4 corsairs, including *The Malign*  \n- Crew: Amphibious spies, navigators  \n- Style: Bribes and ambushes  \n- Reputation: Richest outlaw outside the council  \n\n## Customs\n- Shark’s Mark – shark tooth necklaces of rivals  \n- First Bite – blood tribute to the sea  \n- Silent Currents – hand signals and clicks",
       "raw": {

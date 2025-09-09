@@ -7,7 +7,7 @@ factions:
   - bb:fleet:gilded-rats
   - bb:faction:council-of-captains
 tags: [captain, council, npc, gilded-rats, merchant, kender]
-portrait: assets/portraits/captain-garrick-salt.png
+portrait: assets/portraits/captain-garrick.png
 ---
 # Captain Garrick "Golden Tooth" Salt
 

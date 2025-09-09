@@ -7,7 +7,7 @@ factions:
   - bb:fleet:miasma
   - bb:faction:council-of-captains
 tags: [captain, council, npc, miasma, terror, necrotic]
-portrait: assets/portraits/captain-bloodshot.png
+portrait: assets/portraits/bloodshot.jpg
 ---
 # Captain Bloodshot
 

@@ -7,7 +7,7 @@ factions:
   - bb:fleet:malign
   - bb:faction:council-of-captains
 tags: [captain, council, npc, malign, smuggler]
-portrait: assets/portraits/captain-tasty-bite.png
+portrait: assets/portraits/tasty-bite.jpg
 ---
 # Captain Tasty Bite
 
