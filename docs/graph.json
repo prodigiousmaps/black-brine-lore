@@ -2513,12 +2513,8 @@
           "intrigue",
           "npc"
         ],
-        "portrait": [
-          "assets/portraits/rupert-richthorn.jpg"
-        ],
-        "sheet_url": [
-          "sheets/rupert-richthorn.pdf"
-        ],
+        "portrait": "assets/portraits/rupert-richthorn.jpg",
+        "sheet_url": "sheets/rupert-richthorn.pdf",
         "system": "5e",
         "level": 20,
         "classes": [

@@ -10,12 +10,20 @@ rivals:
   - bb:npc:gun-deck-rosy
 appears_in:
   - bb:city:black-brine
-tags: [wizard, exile, kraken, tower, sedna, intrigue, npc]
-portrait: [assets/portraits/rupert-richthorn.jpg]
-sheet_url: [sheets/rupert-richthorn.pdf]   # or external link
+tags: 
+  - wizard
+  - exile
+  - kraken
+  - tower
+  - sedna
+  - intrigue
+  - npc
+portrait: assets/portraits/rupert-richthorn.jpg
+sheet_url: sheets/rupert-richthorn.pdf
 system: 5e
 level: 20
-classes: [Wizard 20]
+classes: 
+  - Wizard 20
 ---
 
 # Description
