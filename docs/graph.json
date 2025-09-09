@@ -3115,6 +3115,18 @@
           "bodyguard",
           "rupert",
           "household"
+        ],
+        "portrait": [
+          "assets/portraits/fenrith.png"
+        ],
+        "sheet_url": [
+          "sheets/fenrith.pdf"
+        ],
+        "system": "5e",
+        "level": 10,
+        "classes": [
+          "Fighter 6",
+          "Rogue 4"
         ]
       },
       "body_excerpt": "# Description\nFenrith is Rupert’s iron-willed associate and personal guard. Silent in public, yet decisive in combat, he has been seen dueling pirates and warding off assassins at Rupert’s gates. His loyalty is unquestioned, though his past remains largely unknown.\n\n# Personality\n- Quiet, disciplined, prefers action over words.  \n- Maintains a soldier’s code of honor even in Black Brine.  \n- Shows deference to Rupert’s will above all.  \n\n# Secrets (DM Only)\n- Once a mercenary captain who betrayed his company to join Rupert.  \n- Bears a cursed scar from an ancient duel with Gun Deck Rosy’s enforcers.",
