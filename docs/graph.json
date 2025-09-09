@@ -3013,33 +3013,51 @@
       "raw": {}
     },
     {
-      "id": "bb:Page:chef-gellard-dumarque",
-      "type": "Page",
-      "name": "chef-gellard-dumarque",
+      "id": "bb:npc:chef-gellard-dumarque",
+      "type": "npc",
+      "name": "Chef Gellard DuMarque",
       "tags": [
-        "NPC",
-        "Faction",
-        "Rupert"
+        "chef",
+        "noble",
+        "eccentric",
+        "rupert",
+        "household"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\chef-gellard-dumarque.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Chef Gellard \"The Slop Sage\" DuMarque",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-03-18T19:26:33.294Z",
-        "creationDate": "2025-03-18 14:26",
-        "modificationDate": "2025-03-18 14:56",
-        "tags": [
-          "NPC",
-          "Faction",
-          "Rupert"
+        "type": "npc",
+        "id": "bb:npc:chef-gellard-dumarque",
+        "name": "Chef Gellard DuMarque",
+        "summary": "Retired noble chef with a flair for excess, now attached to Rupert’s Rest as cook and confidant.",
+        "location": "bb:location:ruperts-rest",
+        "factions": [],
+        "allies": [
+          "bb:npc:rupert-richthorn"
         ],
-        "coverImage": null
+        "rivals": [],
+        "appears_in": [
+          "bb:location:ruperts-rest"
+        ],
+        "tags": [
+          "chef",
+          "noble",
+          "eccentric",
+          "rupert",
+          "household"
+        ]
       },
-      "body_excerpt": "# Chef Gellard \"The Slop Sage\" DuMarque\n\n[couchwarrior_Dungeons_and_Dragons_fantasy_portrait_broad-should_2f5f3e5b-a762-4185-b731-61d42a51b092](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/8934ba3b-66ef-4287-a047-1fd04d5a2f9f)\n\n- **Race**: Dwarf\n\n- **Age**: 130\n\n- **Appearance**: A **broad-shouldered dwarven woman** with **dark, curly hair pinned messily under a bandana**, a **weathered face**, and **ink-stained fingers** from writing down experimental recipes.\n\n- **Personality**:\n\n    - **Gruff, no-nonsense, and fiercely proud** of her craft.\n\n    - Hates **picky eaters, dietary restrictions, and anyone who messes with her kitchen** (including Rupert).\n\n    - **Curses in four languages** but has a heart of gold.\n\n    - Believes **a good meal can solve most problems**, an…",
-      "raw": {}
+      "body_excerpt": "# Description\nOnce a renowned noble chef of the Inner Seas, Gellard DuMarque fled scandal and debt to reinvent himself in Black Brine. His cuisine is extravagant, spiced with rare imports, and often laced with risky alchemy. Rupert tolerates his flair because it keeps both guests and students guessing.\n\n# Personality\n- Dramatic, flamboyant, and prone to reciting menus as poetry.  \n- Treats meals as both art and theater.  \n- Loyal to Rupert but keeps his own secrets.  \n\n# Secrets (DM Only)\n- Still in contact with noble houses who believe him dead.  \n- Occasionally poisons dishes—not lethally—to test fortitude.",
+      "raw": {
+        "location": "bb:location:ruperts-rest",
+        "factions": [],
+        "allies": [
+          "bb:npc:rupert-richthorn"
+        ],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:ruperts-rest"
+        ]
+      }
     },
     {
       "id": "bb:npc:crank",
@@ -3163,33 +3181,49 @@
       }
     },
     {
-      "id": "bb:Page:fenrith",
-      "type": "Page",
-      "name": "fenrith",
+      "id": "bb:npc:fenrith",
+      "type": "npc",
+      "name": "Fenrith",
       "tags": [
-        "NPC",
-        "Rupert",
-        "Faction"
+        "warrior",
+        "bodyguard",
+        "rupert",
+        "household"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\fenrith.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Fenrith",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-03-18T20:07:52.215Z",
-        "creationDate": "2025-03-18 15:07",
-        "modificationDate": "2025-03-18 15:12",
-        "tags": [
-          "NPC",
-          "Rupert",
-          "Faction"
+        "type": "npc",
+        "id": "bb:npc:fenrith",
+        "name": "Fenrith",
+        "summary": "Stoic warrior and trusted associate of Rupert Richthorn, guardian of Rupert’s Rest.",
+        "location": "bb:location:ruperts-rest",
+        "factions": [],
+        "allies": [
+          "bb:npc:rupert-richthorn"
         ],
-        "coverImage": null
+        "rivals": [],
+        "appears_in": [
+          "bb:location:ruperts-rest"
+        ],
+        "tags": [
+          "warrior",
+          "bodyguard",
+          "rupert",
+          "household"
+        ]
       },
-      "body_excerpt": "# Fenrith\n\n### **The Venom-Eyed Gunslinger**\n\n**Race:** Yuan-Ti Pureblood\n\n**Class:** Fighter (Gunslinger) / Rogue (Inquisitive)\n\n**Alignment:** Neutral Evil (But Pragmatic)\n\n**Age:** Unknown (Appears in his prime)\n\n**Languages:** Common, Draconic, Abyssal, Yuan-Ti Cant\n\n**Expertise:** Firearms, long-range combat, tracking, tactics, and assassination\n\n---\n\n### **Overview**\n\nFenrith is a name whispered **in fear and respect** across the lawless corners of Faerûn. A **gunfighter without equal**, he sees the world through the **cold calculation of a predator**, lining up every shot with the precision of a serpent striking its prey.\n\nThe PCs may seek him out **to learn the art of firearms**, but Fenrith does not **teach the weak**. He will train **only those he deems worthy**, and failure **ha…",
-      "raw": {}
+      "body_excerpt": "# Description\nFenrith is Rupert’s iron-willed associate and personal guard. Silent in public, yet decisive in combat, he has been seen dueling pirates and warding off assassins at Rupert’s gates. His loyalty is unquestioned, though his past remains largely unknown.\n\n# Personality\n- Quiet, disciplined, prefers action over words.  \n- Maintains a soldier’s code of honor even in Black Brine.  \n- Shows deference to Rupert’s will above all.  \n\n# Secrets (DM Only)\n- Once a mercenary captain who betrayed his company to join Rupert.  \n- Bears a cursed scar from an ancient duel with Gun Deck Rosy’s enforcers.",
+      "raw": {
+        "location": "bb:location:ruperts-rest",
+        "factions": [],
+        "allies": [
+          "bb:npc:rupert-richthorn"
+        ],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:ruperts-rest"
+        ]
+      }
     },
     {
       "id": "bb:npc:harlow-blastcap-grint",
@@ -3491,33 +3525,49 @@
       }
     },
     {
-      "id": "bb:Page:lady-jackdaw",
-      "type": "Page",
-      "name": "lady-jackdaw",
+      "id": "bb:npc:lady-jackdaw",
+      "type": "npc",
+      "name": "Lady Jackdaw",
       "tags": [
-        "NPC",
-        "Faction",
-        "Rupert"
+        "butler",
+        "intrigue",
+        "rupert",
+        "household"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\lady-jackdaw.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Lady Jackdaw (Rupert's Butler)",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-03-18T19:22:24.209Z",
-        "creationDate": "2025-03-18 14:22",
-        "modificationDate": "2025-03-18 14:56",
-        "tags": [
-          "NPC",
-          "Faction",
-          "Rupert"
+        "type": "npc",
+        "id": "bb:npc:lady-jackdaw",
+        "name": "Lady Jackdaw",
+        "summary": "Rupert’s butler and confidant; manages his affairs with poise and veiled menace.",
+        "location": "bb:location:ruperts-rest",
+        "factions": [],
+        "allies": [
+          "bb:npc:rupert-richthorn"
         ],
-        "coverImage": null
+        "rivals": [],
+        "appears_in": [
+          "bb:location:ruperts-rest"
+        ],
+        "tags": [
+          "butler",
+          "intrigue",
+          "rupert",
+          "household"
+        ]
       },
-      "body_excerpt": "# Lady Jackdaw (Rupert's Butler)\n\n[couchwarrior_A_diminutive_wiry_Kenku_with_sleek_black_feathers__5d66bfbc-c6d7-416b-a47c-96feb5c6b6dc](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/17107d7f-aae5-44f8-8183-6163828cec45)\n\n### **Lady Jackdaw – Rupert Richthorn’s Butler**\n\n**Race:** Kenku\n\n**Class:** Rogue (Mastermind) / Bard (College of Whispers)\n\n**Alignment:** Lawful Neutral\n\n**Age:** Unknown (Appears Middle-Aged)\n\n**Languages:** Common, Thieves' Cant, Auran, and an uncanny ability to mimic voices perfectly\n\n---\n\n### **Overview**\n\nLady Jackdaw is Rupert Richthorn’s personal butler, confidante, and, when necessary, shadowy enforcer. Unlike most Kenku, who scurry in the gutters of society, she carries herself with an air of poise and refinement, as if she were born to serve…",
-      "raw": {}
+      "body_excerpt": "# Description\nLady Jackdaw is the refined but ruthless steward of Rupert’s household. She keeps accounts, greets visitors, and ensures Rupert’s safety with subtle intimidation. Her demeanor is icy, her wit sharp, and her loyalty bound in personal ambition.\n\n# Personality\n- Polite and cultured but cutting in her judgments.  \n- Uses innuendo and veiled threats to control situations.  \n- Keeps detailed records of everyone who enters Rupert’s Rest.  \n\n# Secrets (DM Only)\n- Operates a spy network in Black Brine under Rupert’s nose.  \n- Knows more about Sedna’s cult in the city than she admits.",
+      "raw": {
+        "location": "bb:location:ruperts-rest",
+        "factions": [],
+        "allies": [
+          "bb:npc:rupert-richthorn"
+        ],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:ruperts-rest"
+        ]
+      }
     },
     {
       "id": "bb:npc:maelia-gorse",
@@ -3774,33 +3824,49 @@
       }
     },
     {
-      "id": "bb:Page:strange-bones",
-      "type": "Page",
-      "name": "strange-bones",
+      "id": "bb:npc:strange-bones",
+      "type": "npc",
+      "name": "Strange Bones",
       "tags": [
-        "NPC",
-        "Faction",
-        "Rupert"
+        "mystic",
+        "eccentric",
+        "rupert",
+        "household"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\strange-bones.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Strange Bones",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-03-18T19:55:53.821Z",
-        "creationDate": "2025-03-18 14:55",
-        "modificationDate": "2025-03-18 15:06",
-        "tags": [
-          "NPC",
-          "Faction",
-          "Rupert"
+        "type": "npc",
+        "id": "bb:npc:strange-bones",
+        "name": "Strange Bones",
+        "summary": "Eccentric figure in Rupert’s circle, known for unsettling habits and cryptic wisdom.",
+        "location": "bb:location:ruperts-rest",
+        "factions": [],
+        "allies": [
+          "bb:npc:rupert-richthorn"
         ],
-        "coverImage": null
+        "rivals": [],
+        "appears_in": [
+          "bb:location:ruperts-rest"
+        ],
+        "tags": [
+          "mystic",
+          "eccentric",
+          "rupert",
+          "household"
+        ]
       },
-      "body_excerpt": "# Strange Bones\n\n[couchwarrior_Dungeons_and_dragons_middle_aged_male_goblin_range_e2c766b0-32bc-4ea9-a248-f9d2322f1f73](Images/couchwarrior_Dungeons_and_dragons_middle_aged_male_goblin_range_e2c766b0-32bc-4e.md)\n\n### **The Silent Jungle Stalker**\n\n**Race:** Goblin\n\n**Class:** Ranger (Gloom Stalker) / Druid (Circle of the Land – Jungle)\n\n**Alignment:** True Neutral\n\n**Age:** Unknown (appears ancient for a goblin, but still spry)\n\n**Languages:** Common, Goblin, Chultan, Druidic\n\n**Expertise:** Jungle survival, tracking, herbalism, poisons, monster avoidance\n\n---\n\n### **Overview**\n\nThere are only a **handful of souls** who have entered the **Western Jungles** and lived to tell of it. **Strange Bones** is one of them—if he ever **felt inclined to tell.**\n\nA **mysterious, soft-footed goblin**, …",
-      "raw": {}
+      "body_excerpt": "# Description\nStrange Bones is a gaunt, unpredictable figure who drifts in and out of Rupert’s orbit. Known for speaking in riddles and collecting skeletal curios, they serve as both adviser and jester. Their exact role in Rupert’s plans is unclear, but their presence unsettles allies and enemies alike.\n\n# Personality\n- Rambling, cryptic, and unnerving.  \n- Fixates on bones as metaphors for truth and destiny.  \n- Alternates between laughter and deadly seriousness.  \n\n# Secrets (DM Only)\n- Has visions tied to the Godless Wind.  \n- May be keeping Rupert sane—or leading him astray.",
+      "raw": {
+        "location": "bb:location:ruperts-rest",
+        "factions": [],
+        "allies": [
+          "bb:npc:rupert-richthorn"
+        ],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:ruperts-rest"
+        ]
+      }
     },
     {
       "id": "bb:npc:three-tooth-mavin",
@@ -5065,14 +5131,51 @@
       }
     },
     {
-      "id": "bb:page:ruperts-rest",
-      "type": "page",
-      "name": "ruperts-rest",
-      "tags": [],
+      "id": "bb:location:ruperts-rest",
+      "type": "location",
+      "name": "Rupert’s Rest",
+      "tags": [
+        "tower",
+        "wizard",
+        "demiplane",
+        "cliffs",
+        "secrecy"
+      ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\ruperts-rest.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
+      "fm": {
+        "type": "location",
+        "id": "bb:location:ruperts-rest",
+        "name": "Rupert’s Rest",
+        "parent_location": "bb:city:black-brine",
+        "location_type": "tower",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "tower",
+          "wizard",
+          "demiplane",
+          "cliffs",
+          "secrecy"
+        ],
+        "participants": [
+          "bb:npc:chef-gellard-dumarque",
+          "bb:npc:fenrith",
+          "bb:npc:lady-jackdaw",
+          "bb:npc:rupert-richthorn",
+          "bb:npc:strange-bones"
+        ]
+      },
+      "body_excerpt": "# Overview\nA cliff-hidden tower woven with demiplane seams, Rupert’s Rest is part fortress, part laboratory. It is both a refuge and prison for Rupert’s circle, wrapped in wards that shimmer at twilight.\n\n# Features\n- **Shifting Geometry:** Rooms realign themselves daily.  \n- **Runed Gates:** Entrances open only to those with Rupert’s sigils.  \n- **Sea Observatory:** A chamber for watching storms and Sedna’s tides.  \n\n# Secrets (DM Only)\n- An unstable rift to another plane hums beneath the study.  \n- The tower’s foundation is partly submerged in brine linked to Sedna’s chains.",
+      "raw": {
+        "parent_location": "bb:city:black-brine",
+        "participants": [
+          "bb:npc:chef-gellard-dumarque",
+          "bb:npc:fenrith",
+          "bb:npc:lady-jackdaw",
+          "bb:npc:rupert-richthorn",
+          "bb:npc:strange-bones"
+        ]
+      }
     },
     {
       "id": "bb:location:sinkers-curiosities",
@@ -5665,6 +5768,16 @@
       "target": "bb:npc:maelia-gorse"
     },
     {
+      "source": "bb:npc:chef-gellard-dumarque",
+      "rel": "located_in",
+      "target": "bb:location:ruperts-rest"
+    },
+    {
+      "source": "bb:npc:chef-gellard-dumarque",
+      "rel": "ally_of",
+      "target": "bb:npc:rupert-richthorn"
+    },
+    {
       "source": "bb:npc:cutty",
       "rel": "located_in",
       "target": "bb:location:cuttys-blades"
@@ -5673,6 +5786,16 @@
       "source": "bb:npc:father-karr",
       "rel": "located_in",
       "target": "bb:location:temple-chained-god"
+    },
+    {
+      "source": "bb:npc:fenrith",
+      "rel": "located_in",
+      "target": "bb:location:ruperts-rest"
+    },
+    {
+      "source": "bb:npc:fenrith",
+      "rel": "ally_of",
+      "target": "bb:npc:rupert-richthorn"
     },
     {
       "source": "bb:npc:high-numerator-fex",
@@ -5735,6 +5858,16 @@
       "target": "bb:fleet:hollow-fangs"
     },
     {
+      "source": "bb:npc:lady-jackdaw",
+      "rel": "located_in",
+      "target": "bb:location:ruperts-rest"
+    },
+    {
+      "source": "bb:npc:lady-jackdaw",
+      "rel": "ally_of",
+      "target": "bb:npc:rupert-richthorn"
+    },
+    {
       "source": "bb:npc:maelia-gorse",
       "rel": "located_in",
       "target": "bb:location:red-door-alchemy"
@@ -5768,6 +5901,16 @@
       "source": "bb:npc:sinker",
       "rel": "rival_of",
       "target": "bb:npc:the-noose"
+    },
+    {
+      "source": "bb:npc:strange-bones",
+      "rel": "located_in",
+      "target": "bb:location:ruperts-rest"
+    },
+    {
+      "source": "bb:npc:strange-bones",
+      "rel": "ally_of",
+      "target": "bb:npc:rupert-richthorn"
     },
     {
       "source": "bb:npc:three-tooth-mavin",
@@ -5950,6 +6093,11 @@
       "target": "bb:district:salt-crown"
     },
     {
+      "source": "bb:location:ruperts-rest",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
       "source": "bb:location:sinkers-curiosities",
       "rel": "located_in",
       "target": "bb:district:salt-crown"
@@ -5995,7 +6143,17 @@
       "target": "bb:story:skull-garden-black-river"
     },
     {
+      "source": "bb:npc:strange-bones",
+      "rel": "appears_in",
+      "target": "bb:story:skull-garden-black-river"
+    },
+    {
       "source": "bb:npc:rupert-richthorn",
+      "rel": "appears_in",
+      "target": "bb:story:skull-garden-black-river"
+    },
+    {
+      "source": "bb:npc:strange-bones",
       "rel": "appears_in",
       "target": "bb:story:skull-garden-black-river"
     },
@@ -6145,6 +6303,11 @@
       "target": "bb:location:red-door-alchemy"
     },
     {
+      "source": "bb:npc:chef-gellard-dumarque",
+      "rel": "appears_in",
+      "target": "bb:location:ruperts-rest"
+    },
+    {
       "source": "bb:npc:cutty",
       "rel": "appears_in",
       "target": "bb:location:cuttys-blades"
@@ -6153,6 +6316,11 @@
       "source": "bb:npc:father-karr",
       "rel": "appears_in",
       "target": "bb:location:temple-chained-god"
+    },
+    {
+      "source": "bb:npc:fenrith",
+      "rel": "appears_in",
+      "target": "bb:location:ruperts-rest"
     },
     {
       "source": "bb:npc:high-numerator-fex",
@@ -6185,6 +6353,11 @@
       "target": "bb:location:house-of-questions"
     },
     {
+      "source": "bb:npc:lady-jackdaw",
+      "rel": "appears_in",
+      "target": "bb:location:ruperts-rest"
+    },
+    {
       "source": "bb:npc:maelia-gorse",
       "rel": "appears_in",
       "target": "bb:location:red-door-alchemy"
@@ -6208,6 +6381,11 @@
       "source": "bb:npc:sinker",
       "rel": "appears_in",
       "target": "bb:location:sinkers-curiosities"
+    },
+    {
+      "source": "bb:npc:strange-bones",
+      "rel": "appears_in",
+      "target": "bb:location:ruperts-rest"
     },
     {
       "source": "bb:npc:three-tooth-mavin",
@@ -6243,6 +6421,6 @@
   "unresolved": [],
   "stats": {
     "nodes": 146,
-    "edges": 144
+    "edges": 159
   }
 }

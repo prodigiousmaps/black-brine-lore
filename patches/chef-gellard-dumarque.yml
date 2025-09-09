@@ -1,0 +1,7 @@
+path: C:\Users\FiveA\OneDrive\Documents\GitHub\black-brine-lore\RPG_Knowledge_Base\03_NPCs\Supporting
+  Cast\chef-gellard-dumarque.md
+set:
+  allies:
+  - bb:npc:rupert-richthorn
+  appears_in:
+  - bb:location:ruperts-rest

@@ -1,0 +1,12 @@
+path: RPG_Knowledge_Base/06_NPCs/rupert-richthorn.md
+merge:
+  allies:
+    - bb:npc:lady-jackdaw
+    - bb:npc:fenrith
+    - bb:npc:strange-bones
+    - bb:npc:chef-gellard-dumarque
+    - bb:npc:franklin
+    - bb:npc:sy
+    - bb:npc:pinch
+  appears_in:
+    - bb:location:ruperts-rest
