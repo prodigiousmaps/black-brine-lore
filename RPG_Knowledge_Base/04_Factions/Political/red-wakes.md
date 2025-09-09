@@ -8,6 +8,7 @@ summary: >
 location: bb:city:black-brine
 leaders: [ bb:npc:captain-bor-harvann ]
 tags: [fleet, war, siege, brutality]
+emblem: assets/fleets/red-wakes.png
 ---
 
 

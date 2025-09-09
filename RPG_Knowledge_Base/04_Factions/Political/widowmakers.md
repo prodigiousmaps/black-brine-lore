@@ -8,6 +8,8 @@ summary: >
 location: bb:city:black-brine
 leaders: [ bb:npc:captain-veyla-dren ]
 tags: [fleet, assassins, ambush, terror]
+emblem: assets/fleets/widow-makers.png
+
 ---
 
 

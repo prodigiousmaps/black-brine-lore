@@ -8,6 +8,8 @@ summary: >
 location: bb:city:black-brine
 leaders: [ bb:npc:captain-garrick-salt ]
 tags: [fleet, merchant, spies, deception]
+emblem: assets/fleets/gilded-rat.png
+
 ---
 
 

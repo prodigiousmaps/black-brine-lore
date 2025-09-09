@@ -8,6 +8,7 @@ summary: >
 location: bb:city:black-brine
 leaders: [ bb:npc:captain-tasty-bite ]
 tags: [fleet, smuggling, espionage]
+emblem: assets/fleets/the-malign.png
 ---
 
 

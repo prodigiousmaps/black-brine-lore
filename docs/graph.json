@@ -1745,7 +1745,8 @@
           "merchant",
           "spies",
           "deception"
-        ]
+        ],
+        "emblem": "assets/fleets/gilded-rat.png"
       },
       "body_excerpt": "# Customs\n- The Stolen Jewel  \n- Deals Over Death  \n- The Gold Coin Gambit",
       "raw": {
@@ -1780,7 +1781,8 @@
           "spectral",
           "mist",
           "supernatural"
-        ]
+        ],
+        "emblem": "assets/fleets/the-hollow-fangs.png"
       },
       "body_excerpt": "# Customs\n- The Noose’s Whisper  \n- The Drowned Hand  \n- The Forgotten Coins",
       "raw": {
@@ -1864,7 +1866,8 @@
           "fleet",
           "smuggling",
           "espionage"
-        ]
+        ],
+        "emblem": "assets/fleets/the-malign.png"
       },
       "body_excerpt": "# Customs\n- The Shark’s Mark  \n- The First Bite  \n- Silent Currents",
       "raw": {
@@ -1901,7 +1904,8 @@
           "terror",
           "disease",
           "eldritch"
-        ]
+        ],
+        "emblem": "assets/fleets/the-miasma.png"
       },
       "body_excerpt": "# Customs\n- The Blackened Chalice – blood-drinking ritual before battle  \n- The Bone Hunt – recruits trophy hunt or die  \n- The Silent Decks – whispers only, never laughter",
       "raw": {
@@ -1936,7 +1940,8 @@
           "war",
           "siege",
           "brutality"
-        ]
+        ],
+        "emblem": "assets/fleets/red-wakes.png"
       },
       "body_excerpt": "# Customs\n- Battle Booze before battle  \n- No Quarter Given  \n- First to Board, First to Lead",
       "raw": {
@@ -1971,7 +1976,8 @@
           "assassins",
           "ambush",
           "terror"
-        ]
+        ],
+        "emblem": "assets/fleets/widow-makers.png"
       },
       "body_excerpt": "# Customs\n- The First Kill  \n- No Witnesses, Except One  \n- The Mark of the Tide",
       "raw": {

@@ -8,6 +8,8 @@ summary: >
 location: bb:city:black-brine
 leaders: [ bb:npc:captain-lysara-vale ]
 tags: [fleet, spectral, mist, supernatural]
+emblem: assets/fleets/the-hollow-fangs.png
+
 ---
 
 

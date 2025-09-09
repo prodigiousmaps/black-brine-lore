@@ -8,6 +8,7 @@ summary: >
 location: bb:city:black-brine
 leaders: [ bb:npc:captain-bloodshot ]
 tags: [fleet, cursed, terror, disease, eldritch]
+emblem: assets/fleets/the-miasma.png
 ---
 
 
