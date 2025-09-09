@@ -16,6 +16,11 @@ tags:
 - inquisitor
 - widowmakers
 - mistwalk
+portrait: https://prodigiousmaps.github.io/black-brine-lore/assets/portraits/inquisitor-zunizar.png
+sheet_url: https://prodigiousmaps.github.io/black-brine-lore/sheets/inquisitor-zunizar.pdf   # or external link
+system: 5e
+level: 10
+classes: [Sorcerer 4, Fighter 6]
 ---
 # Inquisitor Zunizar
 
