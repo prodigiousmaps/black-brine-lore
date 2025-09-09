@@ -9,17 +9,16 @@
     "patches\\into-deep-green-skull-garden.yml",
     "patches\\into-deep-green-treefall-maze.yml",
     "patches\\into-deep-green-vine-sanctum.yml",
-    "patches\\false-beauty-vines.yml",
-    "patches\\insect-swarm-blood-flies.yml",
     "patches\\ravething.yml",
     "patches\\twig-blight-jungle-variant.yml",
     "patches\\bone-field.yml",
+    "patches\\false-beauty-vines.yml",
+    "patches\\insect-swarm-blood-flies.yml",
     "patches\\razor-ferns.yml",
     "patches\\rope-bridge-gorge.yml",
     "patches\\deep-green-supplies.yml",
     "patches\\final-verse.yml",
     "patches\\journal-fragment-viii.yml",
-    "patches\\jungle-survival-training.yml",
     "patches\\butchers.yml",
     "patches\\twilight-society.yml",
     "patches\\hollow-fangs.yml",
@@ -603,42 +602,6 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\false-beauty-vines.md",
-      "field": "location",
-      "value": "bb:story:skull-garden-black-river",
-      "resolved_id": "bb:story:skull-garden-black-river",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\false-beauty-vines.md",
-      "field": "appears_in",
-      "value": "bb:story:skull-garden-black-river",
-      "resolved_id": "bb:story:skull-garden-black-river",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\insect-swarm-blood-flies.md",
-      "field": "location",
-      "value": "bb:story:encounter-3-vine-sanctum",
-      "resolved_id": "bb:story:encounter-3-vine-sanctum",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\insect-swarm-blood-flies.md",
-      "field": "appears_in",
-      "value": "bb:story:encounter-3-vine-sanctum",
-      "resolved_id": "bb:story:encounter-3-vine-sanctum",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\ravething.md",
       "field": "location",
       "value": "bb:story:skull-garden-black-river",
@@ -702,6 +665,42 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\false-beauty-vines.md",
+      "field": "location",
+      "value": "bb:story:skull-garden-black-river",
+      "resolved_id": "bb:story:skull-garden-black-river",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\false-beauty-vines.md",
+      "field": "appears_in",
+      "value": "bb:story:skull-garden-black-river",
+      "resolved_id": "bb:story:skull-garden-black-river",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\insect-swarm-blood-flies.md",
+      "field": "location",
+      "value": "bb:story:encounter-3-vine-sanctum",
+      "resolved_id": "bb:story:encounter-3-vine-sanctum",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\insect-swarm-blood-flies.md",
+      "field": "appears_in",
+      "value": "bb:story:encounter-3-vine-sanctum",
+      "resolved_id": "bb:story:encounter-3-vine-sanctum",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\razor-ferns.md",
       "field": "location",
       "value": "bb:story:encounter-5-short-cut",
@@ -738,73 +737,145 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\deep-green-supplies.md",
-      "field": "location",
-      "value": "bb:story:encounter-2-deep-green",
-      "resolved_id": "bb:story:encounter-2-deep-green",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\deep-green-supplies.md",
-      "field": "appears_in",
-      "value": "bb:story:encounter-2-deep-green",
-      "resolved_id": "bb:story:encounter-2-deep-green",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\final-verse.md",
-      "field": "location",
-      "value": "bb:story:skull-garden-black-river",
-      "resolved_id": "bb:story:skull-garden-black-river",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\final-verse.md",
-      "field": "appears_in",
-      "value": "bb:story:skull-garden-black-river",
-      "resolved_id": "bb:story:skull-garden-black-river",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\journal-fragment-viii.md",
-      "field": "location",
-      "value": "bb:story:encounter-2-deep-green",
-      "resolved_id": "bb:story:encounter-2-deep-green",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\journal-fragment-viii.md",
-      "field": "appears_in",
-      "value": "bb:story:encounter-2-deep-green",
-      "resolved_id": "bb:story:encounter-2-deep-green",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-survival-training.md",
-      "field": "controls",
-      "value": "bb:Page:strange-bones",
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-environmental-threat-level.md",
+      "field": "parent_location",
+      "value": "bb:region:sedna-jungle",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-survival-training.md",
-      "field": "controls",
-      "value": "bb:location:ruperts-rest",
-      "resolved_id": "bb:location:ruperts-rest",
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-event-threat-level.md",
+      "field": "parent_location",
+      "value": "bb:region:sedna-jungle",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-hex-travel-phases.md",
+      "field": "parent_location",
+      "value": "bb:region:sedna-jungle",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-navigation-events.md",
+      "field": "parent_location",
+      "value": "bb:region:sedna-jungle",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-navigation.md",
+      "field": "parent_location",
+      "value": "bb:region:sedna-island",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-passive-threat-level.md",
+      "field": "parent_location",
+      "value": "bb:region:sedna-jungle",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-stealth-mechanics.md",
+      "field": "parent_location",
+      "value": "bb:region:sedna-jungle",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-survival-training.md",
+      "field": "parent_location",
+      "value": "bb:region:sedna-jungle",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-survival.md",
+      "field": "parent_location",
+      "value": "bb:region:sedna-jungle",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-weather-events.md",
+      "field": "parent_location",
+      "value": "bb:region:sedna-jungle",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\deep-green-supplies.md",
+      "field": "location",
+      "value": "bb:story:encounter-2-deep-green",
+      "resolved_id": "bb:story:encounter-2-deep-green",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\deep-green-supplies.md",
+      "field": "appears_in",
+      "value": "bb:story:encounter-2-deep-green",
+      "resolved_id": "bb:story:encounter-2-deep-green",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\final-verse.md",
+      "field": "location",
+      "value": "bb:story:skull-garden-black-river",
+      "resolved_id": "bb:story:skull-garden-black-river",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\final-verse.md",
+      "field": "appears_in",
+      "value": "bb:story:skull-garden-black-river",
+      "resolved_id": "bb:story:skull-garden-black-river",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\journal-fragment-viii.md",
+      "field": "location",
+      "value": "bb:story:encounter-2-deep-green",
+      "resolved_id": "bb:story:encounter-2-deep-green",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\journal-fragment-viii.md",
+      "field": "appears_in",
+      "value": "bb:story:encounter-2-deep-green",
+      "resolved_id": "bb:story:encounter-2-deep-green",
       "method": "id",
       "score": 1.0,
       "note": ""

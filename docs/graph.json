@@ -808,72 +808,6 @@
       "raw": {}
     },
     {
-      "id": "bb:hazard:false-beauty-vines",
-      "type": "hazard",
-      "name": "False Beauty Vines",
-      "tags": [
-        "plant",
-        "hazard",
-        "jungle"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\false-beauty-vines.md",
-      "fm": {
-        "type": "hazard",
-        "id": "bb:hazard:false-beauty-vines",
-        "name": "False Beauty Vines",
-        "summary": "Carnivorous flowering vines that lure with blossoms, grapple prey, and dissolve victims alive. Immune to charm, vulnerable to fire.\n",
-        "location": "bb:story:skull-garden-black-river",
-        "appears_in": [
-          "bb:story:skull-garden-black-river"
-        ],
-        "tags": [
-          "plant",
-          "hazard",
-          "jungle"
-        ]
-      },
-      "body_excerpt": "# False Beauty Vines\n- AC 12, HP 60\n- Actions:\n  - Vine Whip: +5 to hit, reach 10 ft, 2d6 piercing + 1d6 acid, grapple (DC 14)\n- Tactics: vines trigger when approached, pin prey for scavengers.",
-      "raw": {
-        "location": "bb:story:skull-garden-black-river",
-        "appears_in": [
-          "bb:story:skull-garden-black-river"
-        ]
-      }
-    },
-    {
-      "id": "bb:hazard:insect-swarm-blood-flies",
-      "type": "hazard",
-      "name": "Insect Swarm – Blood Flies",
-      "tags": [
-        "insects",
-        "swarm",
-        "jungle"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\insect-swarm-blood-flies.md",
-      "fm": {
-        "type": "hazard",
-        "id": "bb:hazard:insect-swarm-blood-flies",
-        "name": "Insect Swarm – Blood Flies",
-        "summary": "A swarm of biting flies that clouds around travelers in the Deep Green. Their bites distract, wound, and disrupt concentration.\n",
-        "location": "bb:story:encounter-3-vine-sanctum",
-        "appears_in": [
-          "bb:story:encounter-3-vine-sanctum"
-        ],
-        "tags": [
-          "insects",
-          "swarm",
-          "jungle"
-        ]
-      },
-      "body_excerpt": "# Blood Flies\n- Trigger: random PC targeted when entering vine thicket.\n- Save: DC14 CON or suffer 1d4 damage, lose concentration, disadvantage on ability checks.\n- Countermeasure: coating in mud grants advantage on save.",
-      "raw": {
-        "location": "bb:story:encounter-3-vine-sanctum",
-        "appears_in": [
-          "bb:story:encounter-3-vine-sanctum"
-        ]
-      }
-    },
-    {
       "id": "bb:beast:ravething",
       "type": "monster",
       "name": "Ravething",
@@ -1004,6 +938,72 @@
       }
     },
     {
+      "id": "bb:hazard:false-beauty-vines",
+      "type": "hazard",
+      "name": "False Beauty Vines",
+      "tags": [
+        "plant",
+        "hazard",
+        "jungle"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\false-beauty-vines.md",
+      "fm": {
+        "type": "hazard",
+        "id": "bb:hazard:false-beauty-vines",
+        "name": "False Beauty Vines",
+        "summary": "Carnivorous flowering vines that lure with blossoms, grapple prey, and dissolve victims alive. Immune to charm, vulnerable to fire.\n",
+        "location": "bb:story:skull-garden-black-river",
+        "appears_in": [
+          "bb:story:skull-garden-black-river"
+        ],
+        "tags": [
+          "plant",
+          "hazard",
+          "jungle"
+        ]
+      },
+      "body_excerpt": "# False Beauty Vines\n- AC 12, HP 60\n- Actions:\n  - Vine Whip: +5 to hit, reach 10 ft, 2d6 piercing + 1d6 acid, grapple (DC 14)\n- Tactics: vines trigger when approached, pin prey for scavengers.",
+      "raw": {
+        "location": "bb:story:skull-garden-black-river",
+        "appears_in": [
+          "bb:story:skull-garden-black-river"
+        ]
+      }
+    },
+    {
+      "id": "bb:hazard:insect-swarm-blood-flies",
+      "type": "hazard",
+      "name": "Insect Swarm – Blood Flies",
+      "tags": [
+        "insects",
+        "swarm",
+        "jungle"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\insect-swarm-blood-flies.md",
+      "fm": {
+        "type": "hazard",
+        "id": "bb:hazard:insect-swarm-blood-flies",
+        "name": "Insect Swarm – Blood Flies",
+        "summary": "A swarm of biting flies that clouds around travelers in the Deep Green. Their bites distract, wound, and disrupt concentration.\n",
+        "location": "bb:story:encounter-3-vine-sanctum",
+        "appears_in": [
+          "bb:story:encounter-3-vine-sanctum"
+        ],
+        "tags": [
+          "insects",
+          "swarm",
+          "jungle"
+        ]
+      },
+      "body_excerpt": "# Blood Flies\n- Trigger: random PC targeted when entering vine thicket.\n- Save: DC14 CON or suffer 1d4 damage, lose concentration, disadvantage on ability checks.\n- Countermeasure: coating in mud grants advantage on save.",
+      "raw": {
+        "location": "bb:story:encounter-3-vine-sanctum",
+        "appears_in": [
+          "bb:story:encounter-3-vine-sanctum"
+        ]
+      }
+    },
+    {
       "id": "bb:hazard:razor-ferns",
       "type": "hazard",
       "name": "Razor Ferns",
@@ -1074,16 +1074,397 @@
       }
     },
     {
+      "id": "bb:Page:firearms-training-mechanics",
+      "type": "Page",
+      "name": "firearms-training-mechanics",
+      "tags": [
+        "GameMechanics",
+        "Encounter"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\firearms-training-mechanics.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Firearms Training Mechanics",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-03-18T20:28:08.390Z",
+        "creationDate": "2025-03-18 15:28",
+        "modificationDate": "2025-03-18 15:37",
+        "tags": [
+          "GameMechanics",
+          "Encounter"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Firearms Training Mechanics\n\n### **Fenrith’s Firearms Training Mini-Game: \"The Black Powder Crucible\"**\n\nFenrith doesn’t train amateurs—he **breaks them down and rebuilds them** into **disciplined gunners**. His training is **grueling**, focusing on **speed, precision, and nerves of steel** in high-pressure combat.\n\nThe mini-game has **three phases** to simulate real firearms use:\n\n1. **Loading Under Fire (Speed & Stress)**\n\n2. **Marksmanship (Accuracy & Control)**\n\n3. **Misfires & Malfunctions (Risk Management)**\n\nEach phase uses **checks, modifiers, and risks** to make every shot feel **deliberate and dangerous**.\n\n---\n\n## **Phase 1: \"Loading Under Fire\" (Speed & Stress)**\n\n🔥 **Goal:** Successfully **load and fire** a musket or flintlock pistol **before an advancing enemy reaches you.*…",
+      "raw": {}
+    },
+    {
+      "id": "bb:rules:jungle-environmental-threat-level",
+      "type": "rules",
+      "name": "Environmental Threat Level",
+      "tags": [
+        "rules",
+        "jungle",
+        "stealth",
+        "threat"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-environmental-threat-level.md",
+      "fm": {
+        "type": "rules",
+        "id": "bb:rules:jungle-environmental-threat-level",
+        "name": "Environmental Threat Level",
+        "parent_location": "bb:region:sedna-jungle",
+        "tags": [
+          "rules",
+          "jungle",
+          "stealth",
+          "threat"
+        ]
+      },
+      "body_excerpt": "# Environmental Threat Level\n\n## Enemy or Environmental Stealth Checks\n- Approaching a hostile creature, predator, or patrol.  \n- Crossing open ground without cover.  \n- Evading Whispering Fog (disadvantage if Alert Level high).  \n- Using fire or magic (bright light attracts attention).  \n\n## Preparedness Modifiers\n| Preparedness                       | Effect                    |\n|-----------------------------------|---------------------------|\n| Move slowly (½ speed)              | Advantage                 |\n| Wrapped gear / quiet kit           | Advantage                 |\n| Camouflage clothing / jungle dyes  | +2 bonus                  |\n| Barefoot at night / treated boots  | +1 bonus                  |\n| Mask scent (charcoal, herbs)       | Cancels scent-tracking    |\n| No metal armo…",
+      "raw": {
+        "parent_location": "bb:region:sedna-jungle"
+      }
+    },
+    {
+      "id": "bb:rules:jungle-event-threat-level",
+      "type": "rules",
+      "name": "Event Threat Level",
+      "tags": [
+        "rules",
+        "jungle",
+        "stealth",
+        "encounters"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-event-threat-level.md",
+      "fm": {
+        "type": "rules",
+        "id": "bb:rules:jungle-event-threat-level",
+        "name": "Event Threat Level",
+        "parent_location": "bb:region:sedna-jungle",
+        "tags": [
+          "rules",
+          "jungle",
+          "stealth",
+          "encounters"
+        ]
+      },
+      "body_excerpt": "# Event Threat Level\n\n## Event-Based Stealth Rolls\nCharacters roll Stealth when:\n- Moving through predator territory or enemy camps.  \n- Passing through noisy terrain (mud, streams, leaves).  \n- Climbing/descending obstacles (trees, ruins).  \n- Interacting with dense foliage/objects.  \n- Killing an enemy where others may hear.  \n- Resting in unsafe areas (camp setup).  \n\n## Exceptions\n- Using cleared paths (Strange Bones’ routes).  \n- Traveling slowly at half speed (Advantage).  \n- Remaining still in hiding (Passive Stealth applies).",
+      "raw": {
+        "parent_location": "bb:region:sedna-jungle"
+      }
+    },
+    {
+      "id": "bb:rules:jungle-travel-phases",
+      "type": "rules",
+      "name": "Jungle Travel Phases",
+      "tags": [
+        "rules",
+        "jungle",
+        "travel",
+        "encounter"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-hex-travel-phases.md",
+      "fm": {
+        "type": "rules",
+        "id": "bb:rules:jungle-travel-phases",
+        "name": "Jungle Travel Phases",
+        "parent_location": "bb:region:sedna-jungle",
+        "tags": [
+          "rules",
+          "jungle",
+          "travel",
+          "encounter"
+        ]
+      },
+      "body_excerpt": "# Jungle Travel Phases\n\n**Travel Speed**: 1 hex = 6 miles; 8 hours per hex; 2 hex/day.\n\n## Phase 1 – Wild River & Outer Jungle\n- Encounters: River (1d12), Outer Jungle (1d12).  \n- Tone: natural danger, subtle strangeness.  \n\n## Phase 2 – Encroached Zone\n- Encounters: Encroached Jungle (1d12).  \n- Tone: rot, wrongness, cult traces.  \n- Perception/Insight disadvantage in darkness.  \n\n## Phase 3 – Hollow Grove (Temple Perimeter)\n- Encounters: Twisted Jungle (1d12).  \n- Tone: corruption, cult warlocks, unnatural terrain.  \n\n**Additional Mechanics**: Stealth alerts, camping, noise escalation.",
+      "raw": {
+        "parent_location": "bb:region:sedna-jungle"
+      }
+    },
+    {
+      "id": "bb:rules:jungle-navigation-events",
+      "type": "rules",
+      "name": "Navigation Events",
+      "tags": [
+        "rules",
+        "jungle",
+        "navigation",
+        "encounters"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-navigation-events.md",
+      "fm": {
+        "type": "rules",
+        "id": "bb:rules:jungle-navigation-events",
+        "name": "Navigation Events",
+        "parent_location": "bb:region:sedna-jungle",
+        "tags": [
+          "rules",
+          "jungle",
+          "navigation",
+          "encounters"
+        ]
+      },
+      "body_excerpt": "# Navigation Events\n\n## Navigation Event Table (1d12)\n*(preserve full entries from original document)*\n\n## Land Feature Table (1d12)\n*(preserve full entries from original document)*\n\n> Use both tables per hex; weave into one narrative scene. Encourages spotlight moments: Pinch maps, Sy tracks, Franklin interprets, Andromeda reads nature.",
+      "raw": {
+        "parent_location": "bb:region:sedna-jungle"
+      }
+    },
+    {
+      "id": "bb:rules:jungle-navigation",
+      "type": "rules",
+      "name": "Navigating the Mists of Sedna",
+      "tags": [
+        "rules",
+        "jungle",
+        "navigation",
+        "travel",
+        "sedna"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-navigation.md",
+      "fm": {
+        "type": "rules",
+        "id": "bb:rules:jungle-navigation",
+        "name": "Navigating the Mists of Sedna",
+        "parent_location": "bb:region:sedna-island",
+        "tags": [
+          "rules",
+          "jungle",
+          "navigation",
+          "travel",
+          "sedna"
+        ]
+      },
+      "body_excerpt": "# Navigating the Mists of Sedna\n\nSkill challenge: 5 successes before 3 failures, 10–20 min rounds.\n\n## Skills\n- Survival, Perception, Nature, Athletics, Arcana, History, Investigation, Water Vehicles.  \n\n## Failure Consequences\n- Ship damage.  \n- Crew lost.  \n- Creature awakened.  \n- Forced back or stranded.  \n\n## Success Outcomes\n- Safe arrival.  \n- Insight advantage.  \n- Glimpses of shadow or future.  \n\n## Extra Twist\nFollowing the Coin grants one reroll but ties fate to unknown destiny.",
+      "raw": {
+        "parent_location": "bb:region:sedna-island"
+      }
+    },
+    {
+      "id": "bb:rules:jungle-passive-threat-level",
+      "type": "rules",
+      "name": "Passive Threat Level",
+      "tags": [
+        "rules",
+        "jungle",
+        "stealth",
+        "threat"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-passive-threat-level.md",
+      "fm": {
+        "type": "rules",
+        "id": "bb:rules:jungle-passive-threat-level",
+        "name": "Passive Threat Level",
+        "parent_location": "bb:region:sedna-jungle",
+        "tags": [
+          "rules",
+          "jungle",
+          "stealth",
+          "threat"
+        ]
+      },
+      "body_excerpt": "# Passive Threat Level\n\n## Time-Based Stealth Checks\n- Every 30–60 minutes of travel.  \n- During weather shifts.  \n- After combat encounters.",
+      "raw": {
+        "parent_location": "bb:region:sedna-jungle"
+      }
+    },
+    {
+      "id": "bb:rules:jungle-stealth",
+      "type": "rules",
+      "name": "Jungle Stealth & Threat Checks",
+      "tags": [
+        "rules",
+        "jungle",
+        "stealth",
+        "threat",
+        "strange-bones"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-stealth-mechanics.md",
+      "fm": {
+        "type": "rules",
+        "id": "bb:rules:jungle-stealth",
+        "name": "Jungle Stealth & Threat Checks",
+        "parent_location": "bb:region:sedna-jungle",
+        "tags": [
+          "rules",
+          "jungle",
+          "stealth",
+          "threat",
+          "strange-bones"
+        ],
+        "related_npc": [
+          "bb:npc:strange-bones"
+        ]
+      },
+      "body_excerpt": "# Jungle Stealth & Threat Checks\n\n## When to Roll Stealth\n- Event-based: predators, camps, noisy terrain, foliage.  \n- Time-based: every 30–60 mins, weather, post-combat.  \n- Environmental: hostile approach, open ground, fog, fire use.  \n\n## Mechanics Variants\n- Passive Stealth vs Jungle Perception (15–18).  \n- Group vs Individual rolls.  \n- Assisted rolls & Stealth Chains.  \n\n## Preparedness Modifiers\n*(reference Environmental Threat Level table)*",
+      "raw": {
+        "parent_location": "bb:region:sedna-jungle"
+      }
+    },
+    {
+      "id": "bb:rules:jungle-survival-training",
+      "type": "rules",
+      "name": "Jungle Survival Training (Strange Bones)",
+      "tags": [
+        "rules",
+        "jungle",
+        "training",
+        "survival"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-survival-training.md",
+      "fm": {
+        "type": "rules",
+        "id": "bb:rules:jungle-survival-training",
+        "name": "Jungle Survival Training (Strange Bones)",
+        "parent_location": "bb:region:sedna-jungle",
+        "tags": [
+          "rules",
+          "jungle",
+          "training",
+          "survival"
+        ],
+        "related_npc": [
+          "bb:npc:strange-bones"
+        ]
+      },
+      "body_excerpt": "# Jungle Survival Training (Strange Bones)\n\nStrange Bones’ brutal regimen:\n\n- Silence Test – stealth drills.  \n- Vanishing Act – camouflage and disappearance.  \n- Hunger Clock – foraging challenges.  \n- Shadow Hunt – ambush practice.  \n- Fire Without Trace – fireless camp training.  \n- Final Test – blindfold night drop.",
+      "raw": {
+        "parent_location": "bb:region:sedna-jungle"
+      }
+    },
+    {
+      "id": "bb:rules:jungle-survival",
+      "type": "rules",
+      "name": "Jungle Survival & Madness",
+      "tags": [
+        "rules",
+        "jungle",
+        "survival",
+        "madness",
+        "sedna",
+        "fog"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-survival.md",
+      "fm": {
+        "type": "rules",
+        "id": "bb:rules:jungle-survival",
+        "name": "Jungle Survival & Madness",
+        "parent_location": "bb:region:sedna-jungle",
+        "tags": [
+          "rules",
+          "jungle",
+          "survival",
+          "madness",
+          "sedna",
+          "fog"
+        ]
+      },
+      "body_excerpt": "# Jungle Survival & Madness\n\n## Jungle Alert Level\n- Level 0–3 escalation, triggers: noise, combat, lingering.  \n- Reset only with extreme care or rituals.  \n\n## Whispering Fog (Madness)\n- WIS Save DC = 14 + Alert Level.  \n- Fail = Jungle Madness; effects escalate from paranoia → possession.  \n- Cure: rest, restoration, blood ritual.  \n\n## Navigation\n- Survival DC 14 per 4h. Fail = hazard or madness.  \n\n## Jungle Hears\n- Passive Perception 15. Failures trigger Hunters Table.  \n\n## Hunger Clock\n- Missed rations = exhaustion. Purify water.  \n\n## Final Rule\nNever answer the voices.",
+      "raw": {
+        "parent_location": "bb:region:sedna-jungle"
+      }
+    },
+    {
+      "id": "bb:rules:jungle-weather-events",
+      "type": "rules",
+      "name": "Weather Events of Sedna’s Jungle",
+      "tags": [
+        "rules",
+        "jungle",
+        "weather",
+        "travel",
+        "encounters"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-weather-events.md",
+      "fm": {
+        "type": "rules",
+        "id": "bb:rules:jungle-weather-events",
+        "name": "Weather Events of Sedna’s Jungle",
+        "parent_location": "bb:region:sedna-jungle",
+        "tags": [
+          "rules",
+          "jungle",
+          "weather",
+          "travel",
+          "encounters"
+        ]
+      },
+      "body_excerpt": "# Weather Events of Sedna’s Jungle\n\n## d20 Weather Event Table\n\n| d20 | Weather Event              | Effects on Travel, Danger, and Rest                                                                                               |\n| :-- | :------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- |\n| 1   | **Blistering Sun**         | Travel speed –½ hex. PCs in light armor roll CON save DC 12 or gain 1 Exhaustion.                                                 |\n| 2   | **Suffocating Humidity**   | Disadvantage on Stealth checks and any WIS (Survival) due to discomfort.                                                          |\n| 3   | **Torrential Rain**        | Visibility 20 ft. Vexir…",
+      "raw": {
+        "parent_location": "bb:region:sedna-jungle"
+      }
+    },
+    {
+      "id": "bb:Page:phased-threat-escalation",
+      "type": "Page",
+      "name": "phased-threat-escalation",
+      "tags": [
+        "GameMechanics",
+        "LandFeatures",
+        "Encounter",
+        "ForgottenWind"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\phased-threat-escalation.md",
+      "fm": {
+        "type": "Page",
+        "collections": "The Deep Green",
+        "title": "🌒 PHASED THREAT ESCALATION – The Road to the Hollow Song",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-06-02T21:37:11.307Z",
+        "creationDate": "2025-06-02 16:37",
+        "modificationDate": "2025-06-02 16:43",
+        "tags": [
+          "GameMechanics",
+          "LandFeatures",
+          "Encounter",
+          "ForgottenWind"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# 🌒 PHASED THREAT ESCALATION – The Road to the Hollow Song\n\n### **🌿 Phase 1: Wild Jungle (Outer Hexes)**\n\n**Mood**: Tense, oppressive, but natural\n\n**Threats**: Predators, curses, old ruins, weather\n\n**Encounters**:\n\n- Beast ambushes (serpent swarms, corpse lizards)\n\n- Jungle diseases\n\n- Forgotten shrines to Sedna and false gods\n\n- Warnings carved in druidic or abyssal script\n\n🌀 *Effect*: Threats feel *indifferent*, but deadly—nature is not yet aware of the intruders.\n\n---\n\n### **🌘 Phase 2: The Encroached Zone (Mid-Jungle)**\n\n**Mood**: Wrongness seeps into the air—**rot without flies**, trees without birds, stone with veins.\n\n**Trigger**: Once within **3 hexes of Vexir**\n\n**Effects**:\n\n- **Normal jungle encounters shift** to include **cult influence and residual magic**\n\n- All Perception a…",
+      "raw": {}
+    },
+    {
+      "id": "bb:Page:stealth-preparation",
+      "type": "Page",
+      "name": "stealth-preparation",
+      "tags": [
+        "GameMechanics",
+        "Encounter"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\stealth-preparation.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Stealth Preparation",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-03-18T20:38:09.005Z",
+        "creationDate": "2025-03-18 15:38",
+        "modificationDate": "2025-03-18 15:45",
+        "tags": [
+          "GameMechanics",
+          "Encounter"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Stealth Preparation\n\n## **1. Gear Modifications for Maximum Stealth**\n\nStrange Bones will **strip down and alter** their gear to minimize noise and visibility.\n\n### **🔹 Clothing & Armor Adjustments**\n\n✅ **Muted Colors & Camouflage**:\n\n- **Dye bright fabrics** using jungle **moss, crushed berries, or charcoal.**\n\n- Use **mud smearing & leafy coverings** to blend into the jungle.\n\n✅ **Silence Metal Armor & Weapons**:\n\n- **No chainmail or plate armor**—switch to **leather, padded armor, or cloth wrappings**.\n\n- **Wrap all buckles, weapons, and tools** in cloth, soft leather, or vine bindings to **prevent clanking.**\n\n- **Padded footwear** (softened leather or jungle moss insoles) to **reduce footstep noise.**\n\n✅ **Secure All Loose Gear**:\n\n- **Tightly wrap** rations, water skins, and suppli…",
+      "raw": {}
+    },
+    {
       "id": "bb:Page:challenge-coins",
       "type": "Page",
-      "name": "Challenge Coins",
+      "name": "challenge-coins",
       "tags": [
         "laws",
         "Town",
         "Hooks",
         "Faction"
       ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\Challenge Coins.md",
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\challenge-coins.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -1107,9 +1488,9 @@
     {
       "id": "bb:Page:codex-of-salt-and-shadow",
       "type": "Page",
-      "name": "Codex of Salt and Shadow",
+      "name": "codex-of-salt-and-shadow",
       "tags": [],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\Codex of Salt and Shadow.md",
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\codex-of-salt-and-shadow.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -1199,31 +1580,6 @@
       }
     },
     {
-      "id": "bb:Page:how-do-apertures-work",
-      "type": "Page",
-      "name": "How do apertures work!",
-      "tags": [
-        "CampaignHistory"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\How do apertures work!.md",
-      "fm": {
-        "type": "Page",
-        "collections": "Past Campaigns",
-        "title": "How do apertures work!",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-08-22T04:06:11.632Z",
-        "creationDate": "2025-08-21 23:06",
-        "modificationDate": "2025-08-21 23:14",
-        "tags": [
-          "CampaignHistory"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# How do apertures work!\n\n- How do apertures work!\n\n- Allows for the transfer of power (spell slots).\n\n- Each wielder must use an attunement slot\n\n- any caster can use an aperture. If you have spell slots or pact slots you may attune to an aperture.\n\n- Each individual chooses how many slots they will contribute to the pool.\n\n- Power: One spell slot equals one spell level.\n\n    1. Focus may take levels to cast spells they already know to a maximum of 9th level\n\n    2. Levels may be used to “upcast” as spell as stated in the spell description\n\n- Configuration: The arrangement of casters imparts special benefits\n\n    1. Discovering Configurations - Must be done through experimentation\n\n        1. A configuration may be attempted with successful arcana check DC18\n\n        2. Following a config…",
-      "raw": {}
-    },
-    {
       "id": "bb:lore:journal-fragment-viii",
       "type": "lore",
       "name": "Journal Fragment VIII",
@@ -1259,11 +1615,11 @@
       }
     },
     {
-      "id": "bb:Page:the-blind-chef-s-almanac",
+      "id": "bb:Page:the-blind-chefs-almanac",
       "type": "Page",
-      "name": "The Blind Chef_s Almanac",
+      "name": "the-blind-chefs-almanac",
       "tags": [],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\The Blind Chef_s Almanac.md",
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\the-blind-chefs-almanac.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -1280,389 +1636,28 @@
       "raw": {}
     },
     {
-      "id": "bb:Page:firearms-training-mechanics",
+      "id": "bb:Page:theory-on-the-workings-of-apertures",
       "type": "Page",
-      "name": "firearms-training-mechanics",
+      "name": "theory-on-the-workings-of-apertures",
       "tags": [
-        "GameMechanics",
-        "Encounter"
+        "CampaignHistory"
       ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\firearms-training-mechanics.md",
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\theory-on-the-workings-of-apertures.md",
       "fm": {
         "type": "Page",
-        "collections": "Black Brine",
-        "title": "Firearms Training Mechanics",
+        "collections": "Past Campaigns",
+        "title": "How do apertures work!",
         "description": null,
         "icon": null,
-        "createdAt": "2025-03-18T20:28:08.390Z",
-        "creationDate": "2025-03-18 15:28",
-        "modificationDate": "2025-03-18 15:37",
+        "createdAt": "2025-08-22T04:06:11.632Z",
+        "creationDate": "2025-08-21 23:06",
+        "modificationDate": "2025-08-21 23:14",
         "tags": [
-          "GameMechanics",
-          "Encounter"
+          "CampaignHistory"
         ],
         "coverImage": null
       },
-      "body_excerpt": "# Firearms Training Mechanics\n\n### **Fenrith’s Firearms Training Mini-Game: \"The Black Powder Crucible\"**\n\nFenrith doesn’t train amateurs—he **breaks them down and rebuilds them** into **disciplined gunners**. His training is **grueling**, focusing on **speed, precision, and nerves of steel** in high-pressure combat.\n\nThe mini-game has **three phases** to simulate real firearms use:\n\n1. **Loading Under Fire (Speed & Stress)**\n\n2. **Marksmanship (Accuracy & Control)**\n\n3. **Misfires & Malfunctions (Risk Management)**\n\nEach phase uses **checks, modifiers, and risks** to make every shot feel **deliberate and dangerous**.\n\n---\n\n## **Phase 1: \"Loading Under Fire\" (Speed & Stress)**\n\n🔥 **Goal:** Successfully **load and fire** a musket or flintlock pistol **before an advancing enemy reaches you.*…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:jungle-environmental-threat-level",
-      "type": "Page",
-      "name": "jungle-environmental-threat-level",
-      "tags": [
-        "GameMechanics",
-        "Encounter"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-environmental-threat-level.md",
-      "fm": {
-        "type": "Page",
-        "collections": "The Deep Green",
-        "title": "Environmental Threat Level",
-        "description": null,
-        "icon": "☠️",
-        "createdAt": "2025-06-03T13:52:14.647Z",
-        "creationDate": "2025-06-03 08:52",
-        "modificationDate": "2025-06-03 08:58",
-        "tags": [
-          "GameMechanics",
-          "Encounter"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Environmental Threat Level\n\n### **Enemy or Environmental Threat Stealth Checks**\n\n- **Approaching a hostile creature, predator, or patrol** (Passive Perception vs. Stealth check).\n\n- **Crossing an open space** (when there’s no immediate cover).\n\n- **Evading the Whispering Fog** (if their **Jungle Alert Level** is high, they must roll **disadvantage**).\n\n- **Using fire or magic** (fire and bright light increase the need for stealth checks, unless precautions are taken).\n\n### **Advantage or Disadvantage Modifiers**\n\n| **Preparedness Level**                           | **Stealth Check Effect**         |\n| :----------------------------------------------- | :------------------------------- |\n| **Moving slowly (half speed)**                   | **Advantage** on Stealth         |\n| **Wrapped ge…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:jungle-event-threat-level",
-      "type": "Page",
-      "name": "jungle-event-threat-level",
-      "tags": [
-        "GameMechanics",
-        "Encounter"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-event-threat-level.md",
-      "fm": {
-        "type": "Page",
-        "collections": "The Deep Green",
-        "title": "Event Threat Level",
-        "description": null,
-        "icon": "🏕️",
-        "createdAt": "2025-06-03T13:54:43.583Z",
-        "creationDate": "2025-06-03 08:54",
-        "modificationDate": "2025-06-03 08:58",
-        "tags": [
-          "GameMechanics",
-          "Encounter"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Event Threat Level\n\n### **Event-Based Stealth Rolls**\n\nCharacters must make a Stealth check when they:\n\n- **Move through high-alert zones** (predator territory, near enemy camps, through dense hunting grounds).\n\n- **Pass through foliage, water, or terrain that naturally makes noise** (crunching leaves, deep mud, running streams).\n\n- **Climb or descend obstacles** (trees, cliffs, temple ruins) where movement might be noticed.\n\n- **Interact with the jungle** (pushing through thick brush, dislodging vines, moving objects).\n\n- **Kill an enemy** in an area where others might hear the struggle.\n\n- **Rest in unsafe areas** (Stealth check for setting up camp silently).\n\n🛑 **Stealth Checks Are NOT Needed** when:\n\n- Moving through **cleared paths** (already scouted by Strange Bones).\n\n- Traveling …",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:jungle-hex-travel-phases",
-      "type": "Page",
-      "name": "jungle-hex-travel-phases",
-      "tags": [
-        "Encounter",
-        "GameMechanics",
-        "ForgottenWind"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-hex-travel-phases.md",
-      "fm": {
-        "type": "Page",
-        "collections": "The Deep Green",
-        "title": "Travel Phases",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-06-02T16:05:59.905Z",
-        "creationDate": "2025-06-02 11:05",
-        "modificationDate": "2025-06-02 16:40",
-        "tags": [
-          "Encounter",
-          "GameMechanics",
-          "ForgottenWind"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Travel Phases\n\n**Travel Speed = Default**\n\n1 hex =  6 miles\n\nTravel time per hex = 8 hours\n\nTravel time per day = 2 hex\n\n\n\n## **PHASE 1 – The Wild River & Outer Jungle**\n\n*Hex Range: Starting area up to 4 hexes from Vexir*\n\n**Tone**: Natural danger, subtle strangeness\n\nRiver Travel (1d12)\n\n| Roll | Encounter                                                                       |\n| :--- | :------------------------------------------------------------------------------ |\n| 1    | Crocodilian beast (CR 2–4), camouflaged, strikes the boat mid-channel           |\n| 2    | River narrows—PCs must **pull the boat** through shallows, exposed to ambush    |\n| 3    | A body tangled in reeds—clutching a **rusted holy symbol of Sedna**             |\n| 4    | Flock of **squawking reef bats** circles—ha…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:jungle-navigation-events",
-      "type": "Page",
-      "name": "jungle-navigation-events",
-      "tags": [
-        "GameMechanics",
-        "Encounter",
-        "ForgottenWind"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-navigation-events.md",
-      "fm": {
-        "type": "Page",
-        "collections": "The Deep Green",
-        "title": "Navigation Events",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-06-02T16:11:40.227Z",
-        "creationDate": "2025-06-02 11:11",
-        "modificationDate": "2025-06-02 16:35",
-        "tags": [
-          "GameMechanics",
-          "Encounter",
-          "ForgottenWind"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Navigation Events\n\n\n\nNavigation Event Table (1d12)\n\n| d12 | Navigation Event                                                                                                                     |\n| :-- | :----------------------------------------------------------------------------------------------------------------------------------- |\n| 1   | **Faint Footpath** – a long-abandoned trail appears. PCs may follow it (50/50 chance of speeding travel or leading into danger).     |\n| 2   | **Treefall Maze** – tangled wreckage of collapsed trees. Choose: 1 extra hour to climb or DC 14 Acrobatics to squeeze through.       |\n| 3   | **Confusing Sunlight** – light refracts strangely in the canopy. Disadvantage on Spot Mountain rolls for this hex.                   |\n| 4   | **Animal Sign** – fresh…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:jungle-navigation",
-      "type": "Page",
-      "name": "jungle-navigation",
-      "tags": [
-        "Island",
-        "Campaign",
-        "Encounter",
-        "Act1",
-        "Chapter1",
-        "GameMechanics"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-navigation.md",
-      "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Navigating the Mists of Sedna",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-02-11T04:03:07.219Z",
-        "creationDate": "2025-02-10 22:03",
-        "modificationDate": "2025-03-18 15:16",
-        "tags": [
-          "Island",
-          "Campaign",
-          "Encounter",
-          "Act1",
-          "Chapter1",
-          "GameMechanics"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Navigating the Mists of Sedna\n\n### **Navigating the Mist and Reefs (Skill Challenge)**\n\n#### **Setup**\n\n- The **Coin** provides guidance, but the **mist and reefs require careful maneuvering**.\n\n- The **ship has a crew**, but the players must take **active roles** to ensure safe passage.\n\n- This is a **complex challenge**, requiring **multiple successful checks** before accumulating **3 failures**.\n\n- If they **fail 3 times**, they **crash into a reef**, suffer ship damage, or encounter an unforeseen danger.\n\n---\n\n### **Skill Challenge Rules**\n\n- Players must accumulate **5 total successes** before they reach **3 failures**.\n\n- Each round, players describe how they help the ship navigate.\n\n- Each round represents **10-20 minutes of sailing**.\n\n- The DM determines **who rolls** based on t…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:jungle-passive-threat-level",
-      "type": "Page",
-      "name": "jungle-passive-threat-level",
-      "tags": [
-        "GameMechanics",
-        "Encounter"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-passive-threat-level.md",
-      "fm": {
-        "type": "Page",
-        "collections": "The Deep Green",
-        "title": "Passive Threat Level",
-        "description": null,
-        "icon": "⏰️",
-        "createdAt": "2025-06-03T13:49:28.696Z",
-        "creationDate": "2025-06-03 08:49",
-        "modificationDate": "2025-06-03 08:58",
-        "tags": [
-          "GameMechanics",
-          "Encounter"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Passive Threat Level\n\n### **Time-Based Stealth Checks**\n\n- **Every 30–60 minutes** (real-world time) OR after **significant travel** (e.g., entering a new biome, crossing a river, passing a predator's lair).\n\n- **During major weather shifts** (rain might grant advantage by muffling sounds, while dry seasons make everything crunchier).\n\n- **After a combat encounter** (to see if something else has been alerted).\n\n### **Advantage or Disadvantage Modifiers**\n\n| **Preparedness Level**                           | **Stealth Check Effect**         |\n| :----------------------------------------------- | :------------------------------- |\n| **Moving slowly (half speed)**                   | **Advantage** on Stealth         |\n| **Wrapped gear (no clanking metal)**             | **Advantage**        …",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:jungle-stealth-mechanics",
-      "type": "Page",
-      "name": "jungle-stealth-mechanics",
-      "tags": [
-        "GameMechanics",
-        "LandFeatures",
-        "Island",
-        "Encounter"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-stealth-mechanics.md",
-      "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Jungle Stealth Mechanics",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-03-18T20:14:19.702Z",
-        "creationDate": "2025-03-18 15:14",
-        "modificationDate": "2025-06-03 08:57",
-        "tags": [
-          "GameMechanics",
-          "LandFeatures",
-          "Island",
-          "Encounter"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Jungle Stealth Mechanics\n\n### **When to Roll Stealth Checks in the Jungle**\n\nStealth checks should not be rolled **every step of the way**—instead, they should be prompted by **specific events, environmental conditions, and enemy presence**. The key is to **balance tension without exhausting the players** with constant rolls.\n\nHere’s how to determine when **stealth rolls** are required:\n\n---\n\n### **1. Event-Based Stealth Rolls**\n\nCharacters must make a Stealth check when they:\n\n- **Move through high-alert zones** (predator territory, near enemy camps, through dense hunting grounds).\n\n- **Pass through foliage, water, or terrain that naturally makes noise** (crunching leaves, deep mud, running streams).\n\n- **Climb or descend obstacles** (trees, cliffs, temple ruins) where movement might be…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:jungle-survival-training",
-      "type": "Page",
-      "name": "jungle-survival-training",
-      "tags": [
-        "GameMechanics",
-        "Encounter"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-survival-training.md",
-      "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Jungle Survival Training Mechanics",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-03-18T20:20:38.322Z",
-        "creationDate": "2025-03-18 15:20",
-        "modificationDate": "2025-03-18 15:30",
-        "tags": [
-          "GameMechanics",
-          "Encounter"
-        ],
-        "coverImage": null,
-        "controls": [
-          "bb:Page:strange-bones",
-          "bb:location:ruperts-rest"
-        ]
-      },
-      "body_excerpt": "# Jungle Survival Training Mechanics\n\n### **Strange Bones’ Survival Training: \"The Jungle Does Not Care About You\"**\n\nBefore he lets the party step foot in the **forbidden western jungle**, Strange Bones **drills them in the only things that will keep them alive**. His methods are brutal, unpredictable, and **designed to break their bad habits** before the jungle does.\n\n**\"You wanna live? You gotta be quieter than the moss. Smarter than the snakes. You mess up in here? The jungle don’t kill you quick—it eats you slow.\"**\n\n---\n\n## **Phase 1: The Silence Test (Stealth & Alert Level Training)**\n\n**Goal:** The party must navigate a **controlled jungle course** without **raising the alert level past 2**.\n\n### **The Challenge**\n\n- Strange Bones has **set up tripwires of woven vines, hanging bone…",
-      "raw": {
-        "controls": [
-          "bb:Page:strange-bones",
-          "bb:location:ruperts-rest"
-        ]
-      }
-    },
-    {
-      "id": "bb:Page:jungle-survival",
-      "type": "Page",
-      "name": "jungle-survival",
-      "tags": [
-        "Encounter",
-        "GameMechanics",
-        "Island",
-        "LandFeatures"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-survival.md",
-      "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Jungle Survival",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-03-18T20:09:52.238Z",
-        "creationDate": "2025-03-18 15:09",
-        "modificationDate": "2025-03-18 15:16",
-        "tags": [
-          "Encounter",
-          "GameMechanics",
-          "Island",
-          "LandFeatures"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Jungle Survival\n\n## **1. Jungle Stealth & Detection Mechanics**\n\n### **Jungle Alert Level (Dynamic Threat System)**\n\nThe jungle is filled with **predators, hidden sentinels, and supernatural forces**. Use an **escalating threat level** that increases as the party makes mistakes:\n\n- **Level 0**: Unseen – The jungle is unaware of them.\n\n- **Level 1**: Signs of disturbance – Something is watching.\n\n- **Level 2**: Hunters have been dispatched – Predators or patrols are tracking them.\n\n- **Level 3**: The jungle **calls** – They are hunted by something **they cannot escape**.\n\n**How It Works:**\n\n- **Every noise, fire, or broken branch** increases the Alert Level.\n\n- **Failing stealth checks, killing loudly, or staying in one place too long** also raises it.\n\n- **Critical failures in survival, …",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:jungle-weather-vents",
-      "type": "Page",
-      "name": "jungle-weather-vents",
-      "tags": [
-        "GameMechanics",
-        "Encounter",
-        "ForgottenWind"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-weather-vents.md",
-      "fm": {
-        "type": "Page",
-        "collections": "The Deep Green",
-        "title": "Weather Events",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-06-02T16:12:25.226Z",
-        "creationDate": "2025-06-02 11:12",
-        "modificationDate": "2025-06-02 16:30",
-        "tags": [
-          "GameMechanics",
-          "Encounter",
-          "ForgottenWind"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Weather Events\n\n| d20 | Weather Event              | Effects on Travel, Danger, and Rest                                                                                               |    |    |\n| :-- | :------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- | :- | :- |\n| 1   | **Blistering Sun**         | Travel speed -½ hex. PCs in light armor roll CON save DC 12 or gain 1 Exhaustion.                                                 |    |    |\n| 2   | **Suffocating Humidity**   | Disadvantage on Stealth checks and any Wisdom (Survival) check due to discomfort.                                                 |    |    |\n| 3   | **Torrential Rain**        | Visibility reduced to 20 ft. …",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:phased-threat-escalation",
-      "type": "Page",
-      "name": "phased-threat-escalation",
-      "tags": [
-        "GameMechanics",
-        "LandFeatures",
-        "Encounter",
-        "ForgottenWind"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\phased-threat-escalation.md",
-      "fm": {
-        "type": "Page",
-        "collections": "The Deep Green",
-        "title": "🌒 PHASED THREAT ESCALATION – The Road to the Hollow Song",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-06-02T21:37:11.307Z",
-        "creationDate": "2025-06-02 16:37",
-        "modificationDate": "2025-06-02 16:43",
-        "tags": [
-          "GameMechanics",
-          "LandFeatures",
-          "Encounter",
-          "ForgottenWind"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# 🌒 PHASED THREAT ESCALATION – The Road to the Hollow Song\n\n### **🌿 Phase 1: Wild Jungle (Outer Hexes)**\n\n**Mood**: Tense, oppressive, but natural\n\n**Threats**: Predators, curses, old ruins, weather\n\n**Encounters**:\n\n- Beast ambushes (serpent swarms, corpse lizards)\n\n- Jungle diseases\n\n- Forgotten shrines to Sedna and false gods\n\n- Warnings carved in druidic or abyssal script\n\n🌀 *Effect*: Threats feel *indifferent*, but deadly—nature is not yet aware of the intruders.\n\n---\n\n### **🌘 Phase 2: The Encroached Zone (Mid-Jungle)**\n\n**Mood**: Wrongness seeps into the air—**rot without flies**, trees without birds, stone with veins.\n\n**Trigger**: Once within **3 hexes of Vexir**\n\n**Effects**:\n\n- **Normal jungle encounters shift** to include **cult influence and residual magic**\n\n- All Perception a…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:stealth-preparation",
-      "type": "Page",
-      "name": "stealth-preparation",
-      "tags": [
-        "GameMechanics",
-        "Encounter"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\stealth-preparation.md",
-      "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Stealth Preparation",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-03-18T20:38:09.005Z",
-        "creationDate": "2025-03-18 15:38",
-        "modificationDate": "2025-03-18 15:45",
-        "tags": [
-          "GameMechanics",
-          "Encounter"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Stealth Preparation\n\n## **1. Gear Modifications for Maximum Stealth**\n\nStrange Bones will **strip down and alter** their gear to minimize noise and visibility.\n\n### **🔹 Clothing & Armor Adjustments**\n\n✅ **Muted Colors & Camouflage**:\n\n- **Dye bright fabrics** using jungle **moss, crushed berries, or charcoal.**\n\n- Use **mud smearing & leafy coverings** to blend into the jungle.\n\n✅ **Silence Metal Armor & Weapons**:\n\n- **No chainmail or plate armor**—switch to **leather, padded armor, or cloth wrappings**.\n\n- **Wrap all buckles, weapons, and tools** in cloth, soft leather, or vine bindings to **prevent clanking.**\n\n- **Padded footwear** (softened leather or jungle moss insoles) to **reduce footstep noise.**\n\n✅ **Secure All Loose Gear**:\n\n- **Tightly wrap** rations, water skins, and suppli…",
+      "body_excerpt": "# How do apertures work!\n\n- How do apertures work!\n\n- Allows for the transfer of power (spell slots).\n\n- Each wielder must use an attunement slot\n\n- any caster can use an aperture. If you have spell slots or pact slots you may attune to an aperture.\n\n- Each individual chooses how many slots they will contribute to the pool.\n\n- Power: One spell slot equals one spell level.\n\n    1. Focus may take levels to cast spells they already know to a maximum of 9th level\n\n    2. Levels may be used to “upcast” as spell as stated in the spell description\n\n- Configuration: The arrangement of casters imparts special benefits\n\n    1. Discovering Configurations - Must be done through experimentation\n\n        1. A configuration may be attempted with successful arcana check DC18\n\n        2. Following a config…",
       "raw": {}
     },
     {
@@ -5603,16 +5598,6 @@
       "target": "bb:pc:pinch"
     },
     {
-      "source": "bb:hazard:false-beauty-vines",
-      "rel": "located_in",
-      "target": "bb:story:skull-garden-black-river"
-    },
-    {
-      "source": "bb:hazard:insect-swarm-blood-flies",
-      "rel": "located_in",
-      "target": "bb:story:encounter-3-vine-sanctum"
-    },
-    {
       "source": "bb:beast:ravething",
       "rel": "located_in",
       "target": "bb:story:skull-garden-black-river"
@@ -5626,6 +5611,16 @@
       "source": "bb:hazard:bone-field",
       "rel": "located_in",
       "target": "bb:story:encounter-5-short-cut"
+    },
+    {
+      "source": "bb:hazard:false-beauty-vines",
+      "rel": "located_in",
+      "target": "bb:story:skull-garden-black-river"
+    },
+    {
+      "source": "bb:hazard:insect-swarm-blood-flies",
+      "rel": "located_in",
+      "target": "bb:story:encounter-3-vine-sanctum"
     },
     {
       "source": "bb:hazard:razor-ferns",
@@ -6263,16 +6258,6 @@
       "target": "bb:hazard:insect-swarm-blood-flies"
     },
     {
-      "source": "bb:hazard:false-beauty-vines",
-      "rel": "appears_in",
-      "target": "bb:story:skull-garden-black-river"
-    },
-    {
-      "source": "bb:hazard:insect-swarm-blood-flies",
-      "rel": "appears_in",
-      "target": "bb:story:encounter-3-vine-sanctum"
-    },
-    {
       "source": "bb:beast:ravething",
       "rel": "appears_in",
       "target": "bb:story:skull-garden-black-river"
@@ -6286,6 +6271,16 @@
       "source": "bb:hazard:bone-field",
       "rel": "appears_in",
       "target": "bb:story:encounter-5-short-cut"
+    },
+    {
+      "source": "bb:hazard:false-beauty-vines",
+      "rel": "appears_in",
+      "target": "bb:story:skull-garden-black-river"
+    },
+    {
+      "source": "bb:hazard:insect-swarm-blood-flies",
+      "rel": "appears_in",
+      "target": "bb:story:encounter-3-vine-sanctum"
     },
     {
       "source": "bb:hazard:razor-ferns",
