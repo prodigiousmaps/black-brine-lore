@@ -9,11 +9,11 @@ summary: 'Sy, Franklin, and Pinch journey upriver with Rupert and Strange Bones,
   '
 location: bb:river:black-river
 participants:
-- bb:npc:sy
 - bb:npc:franklin-pierce
 - bb:npc:pinch
 - bb:npc:rupert-richthorn
 - bb:npc:strange-bones
+- bb:npc:sy
 factions:
 - bb:faction:the-soiled
 appears_in:

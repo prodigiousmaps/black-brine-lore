@@ -2,23 +2,26 @@
 type: story
 id: bb:story:skull-garden-black-river
 name: The Skull Garden of the Black River
-summary: >
-  Sy, Franklin, and Pinch journey upriver aboard Rupert’s chartered fishing boat.
-  Guided by Strange Bones, they reach a ruined barricade where the river is blocked
-  and must continue on foot. On the sandy bank lies the Skull Garden, where
+summary: 'Sy, Franklin, and Pinch journey upriver aboard Rupert’s chartered fishing
+  boat. Guided by Strange Bones, they reach a ruined barricade where the river is
+  blocked and must continue on foot. On the sandy bank lies the Skull Garden, where
   carnivorous vines and scavengers await.
+
+  '
 location: bb:river:black-river
 participants:
-  - bb:npc:sy
-  - bb:npc:franklin-pierce
-  - bb:npc:pinch
-  - bb:npc:rupert-richthorn
-  - bb:npc:strange-bones
+- bb:npc:franklin-pierce
+- bb:npc:pinch
+- bb:npc:rupert-richthorn
+- bb:npc:strange-bones
+- bb:npc:sy
 factions:
-  - bb:faction:the-soiled
-tags: [encounter, jungle, black-river]
+- bb:faction:the-soiled
+tags:
+- encounter
+- jungle
+- black-river
 ---
-
 # Act I – Up River
 - Travel pace: 6 hours/hex, 3 hex/day
 - Weather tables:

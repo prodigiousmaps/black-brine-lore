@@ -3,6 +3,7 @@
   "patches": [
     "patches\\skull-garden-black-river.yml",
     "patches\\into-deep-green-short-cut.yml",
+    "patches\\into-deep-green-skull-garden.yml",
     "patches\\into-deep-green-treefall-maze.yml",
     "patches\\into-deep-green-vine-sanctum.yml",
     "patches\\false-beauty-vines.yml",
@@ -23,6 +24,7 @@
     "patches\\vel-corven.yml",
     "patches\\gun-deck-rosy.yml",
     "patches\\inquisitor-zunizar.yml",
+    "patches\\rupert-richthorn.yml",
     "patches\\aldo-vance.yml",
     "patches\\big-mags.yml",
     "patches\\brin.yml",
@@ -134,9 +136,9 @@
       "path": "RPG_Knowledge_Base\\08_Stories\\skull-garden-black-river.md",
       "field": "participants",
       "value": "bb:npc:rupert-richthorn",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "resolved_id": "bb:npc:rupert-richthorn",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -314,9 +316,9 @@
       "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\into-deep-green-skull-garden.md",
       "field": "participants",
       "value": "bb:npc:rupert-richthorn",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "resolved_id": "bb:npc:rupert-richthorn",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -1044,6 +1046,33 @@
       "field": "appears_in",
       "value": "bb:location:house-of-questions",
       "resolved_id": "bb:location:house-of-questions",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\rupert-richthorn.md",
+      "field": "location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\rupert-richthorn.md",
+      "field": "rivals",
+      "value": "bb:npc:gun-deck-rosy",
+      "resolved_id": "bb:npc:gun-deck-rosy",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\rupert-richthorn.md",
+      "field": "appears_in",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
       "method": "id",
       "score": 1.0,
       "note": ""

@@ -13,8 +13,6 @@ coverImage: null
 
 # Fenrith
 
-[[IMG_1584]]
-
 ### **The Venom-Eyed Gunslinger**
 
 **Race:** Yuan-Ti Pureblood

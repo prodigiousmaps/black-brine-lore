@@ -1,0 +1,6 @@
+path: RPG_Knowledge_Base/06_NPCs/pinch.md
+merge:
+  allies:
+    - bb:npc:rupert-richthorn
+  appears_in:
+    - bb:location:ruperts-rest

@@ -102,11 +102,11 @@
         "summary": "Sy, Franklin, and Pinch journey upriver with Rupert and Strange Bones, reaching a barricaded stretch of the Black River. On the sandy bank lies the Skull Garden, where carnivorous vines and ravethings await.\n",
         "location": "bb:river:black-river",
         "participants": [
-          "bb:npc:sy",
           "bb:npc:franklin-pierce",
           "bb:npc:pinch",
           "bb:npc:rupert-richthorn",
-          "bb:npc:strange-bones"
+          "bb:npc:strange-bones",
+          "bb:npc:sy"
         ],
         "factions": [
           "bb:faction:the-soiled"
@@ -129,11 +129,11 @@
           "bb:faction:the-soiled"
         ],
         "participants": [
-          "bb:npc:sy",
           "bb:npc:franklin-pierce",
           "bb:npc:pinch",
           "bb:npc:rupert-richthorn",
-          "bb:npc:strange-bones"
+          "bb:npc:strange-bones",
+          "bb:npc:sy"
         ],
         "appears_in": [
           "bb:beast:ravething",
@@ -698,11 +698,11 @@
         "summary": "Sy, Franklin, and Pinch journey upriver aboard Rupert’s chartered fishing boat. Guided by Strange Bones, they reach a ruined barricade where the river is blocked and must continue on foot. On the sandy bank lies the Skull Garden, where carnivorous vines and scavengers await.\n",
         "location": "bb:river:black-river",
         "participants": [
-          "bb:npc:sy",
           "bb:npc:franklin-pierce",
           "bb:npc:pinch",
           "bb:npc:rupert-richthorn",
-          "bb:npc:strange-bones"
+          "bb:npc:strange-bones",
+          "bb:npc:sy"
         ],
         "factions": [
           "bb:faction:the-soiled"
@@ -720,11 +720,11 @@
           "bb:faction:the-soiled"
         ],
         "participants": [
-          "bb:npc:sy",
           "bb:npc:franklin-pierce",
           "bb:npc:pinch",
           "bb:npc:rupert-richthorn",
-          "bb:npc:strange-bones"
+          "bb:npc:strange-bones",
+          "bb:npc:sy"
         ]
       }
     },
@@ -2428,31 +2428,62 @@
       }
     },
     {
-      "id": "bb:Page:rupert-richthorn",
-      "type": "Page",
-      "name": "rupert-richthorn",
+      "id": "bb:npc:rupert-richthorn",
+      "type": "npc",
+      "name": "Rupert Richthorn",
       "tags": [
-        "NPC",
-        "Rupert"
+        "wizard",
+        "exile",
+        "kraken",
+        "tower",
+        "sedna",
+        "intrigue",
+        "npc"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\rupert-richthorn.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Rupert Richthorn",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-02-11T03:20:56.771Z",
-        "creationDate": "2025-02-10 21:20",
-        "modificationDate": "2025-03-18 14:49",
-        "tags": [
-          "NPC",
-          "Rupert"
+        "type": "npc",
+        "id": "bb:npc:rupert-richthorn",
+        "name": "Rupert Richthorn",
+        "summary": "Exiled archwizard known as \"The Kraken,\" feared for his cunning, dangerous magic, and mysterious presence in Black Brine.",
+        "location": "bb:city:black-brine",
+        "factions": [],
+        "allies": [],
+        "rivals": [
+          "bb:npc:gun-deck-rosy"
         ],
-        "coverImage": null
+        "appears_in": [
+          "bb:city:black-brine"
+        ],
+        "tags": [
+          "wizard",
+          "exile",
+          "kraken",
+          "tower",
+          "sedna",
+          "intrigue",
+          "npc"
+        ],
+        "portrait": "https://prodigiousmaps.github.io/black-brine-lore/assets/portraits/rupert-richthorn.png",
+        "sheet_url": "https://prodigiousmaps.github.io/black-brine-lore/sheets/rupert-richthorn.pdf",
+        "system": "5e",
+        "level": 20,
+        "classes": [
+          "Wizard 20"
+        ]
       },
-      "body_excerpt": "# Rupert Richthorn\n\n[image](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/5099e89a-c1ed-4155-a37f-37effec12bc6)\n\nRupert’s presence in Black Brine makes him a **feared and enigmatic figure**, adding tension and intrigue to the town. His nickname, **“The Kraken,”** suggests that the townspeople see him as **something vast, dangerous, and lurking beneath the surface**—a fitting reputation for an exiled archwizard.\n\n### **Potential Dynamics & Conflicts**\n\n- **A Power Play with Rosy**: Their **tenuous agreement** could shift at any moment—if Rupert oversteps, Rosy may be forced to act.\n\n- **His Forbidden Tower**: Settling **west of town** could lead to **strange magical occurrences, Sedna’s cultists taking interest, or old secrets awakening**.\n\n- **Merchants’ Fear**: Despite hi…",
-      "raw": {}
+      "body_excerpt": "# Description\nRupert Richthorn is a feared and enigmatic figure in Black Brine, an exiled archwizard whose nickname—**The Kraken**—speaks to his vast, dangerous, and lurking reputation. Townsfolk whisper of his powers and schemes, wary of drawing his attention.\n\n# Potential Dynamics & Conflicts\n- **Power Play with Gun Deck Rosy**: A tenuous arrangement exists; if Rupert oversteps, Rosy may be forced to act.  \n- **The Forbidden Tower**: His hidden demiplane-infused tower west of town sparks strange magical events and Sedna’s cultist interest.  \n- **Merchants’ Fear**: Merchants despise his brutally honest critiques and fear his purchases may carry curses.  \n- **The Tavern Table**: His chosen tavern seat has become a place of whispered power; outsiders risk much by sitting there.  \n- **Hidden…",
+      "raw": {
+        "location": "bb:city:black-brine",
+        "factions": [],
+        "allies": [],
+        "rivals": [
+          "bb:npc:gun-deck-rosy"
+        ],
+        "appears_in": [
+          "bb:city:black-brine"
+        ]
+      }
     },
     {
       "id": "bb:organization:council-of-free-captains",
@@ -2982,15 +3013,15 @@
       "raw": {}
     },
     {
-      "id": "bb:Page:chef-gellard-the-slop-sage-dumarque",
+      "id": "bb:Page:chef-gellard-dumarque",
       "type": "Page",
-      "name": "Chef Gellard The Slop Sage DuMarque",
+      "name": "chef-gellard-dumarque",
       "tags": [
         "NPC",
         "Faction",
         "Rupert"
       ],
-      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\Chef Gellard The Slop Sage DuMarque.md",
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\chef-gellard-dumarque.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -3157,7 +3188,7 @@
         ],
         "coverImage": null
       },
-      "body_excerpt": "# Fenrith\n\n[[IMG_1584]]\n\n### **The Venom-Eyed Gunslinger**\n\n**Race:** Yuan-Ti Pureblood\n\n**Class:** Fighter (Gunslinger) / Rogue (Inquisitive)\n\n**Alignment:** Neutral Evil (But Pragmatic)\n\n**Age:** Unknown (Appears in his prime)\n\n**Languages:** Common, Draconic, Abyssal, Yuan-Ti Cant\n\n**Expertise:** Firearms, long-range combat, tracking, tactics, and assassination\n\n---\n\n### **Overview**\n\nFenrith is a name whispered **in fear and respect** across the lawless corners of Faerûn. A **gunfighter without equal**, he sees the world through the **cold calculation of a predator**, lining up every shot with the precision of a serpent striking its prey.\n\nThe PCs may seek him out **to learn the art of firearms**, but Fenrith does not **teach the weak**. He will train **only those he deems worthy**, an…",
+      "body_excerpt": "# Fenrith\n\n### **The Venom-Eyed Gunslinger**\n\n**Race:** Yuan-Ti Pureblood\n\n**Class:** Fighter (Gunslinger) / Rogue (Inquisitive)\n\n**Alignment:** Neutral Evil (But Pragmatic)\n\n**Age:** Unknown (Appears in his prime)\n\n**Languages:** Common, Draconic, Abyssal, Yuan-Ti Cant\n\n**Expertise:** Firearms, long-range combat, tracking, tactics, and assassination\n\n---\n\n### **Overview**\n\nFenrith is a name whispered **in fear and respect** across the lawless corners of Faerûn. A **gunfighter without equal**, he sees the world through the **cold calculation of a predator**, lining up every shot with the precision of a serpent striking its prey.\n\nThe PCs may seek him out **to learn the art of firearms**, but Fenrith does not **teach the weak**. He will train **only those he deems worthy**, and failure **ha…",
       "raw": {}
     },
     {
@@ -5609,6 +5640,16 @@
       "target": "bb:fleet:widowmakers"
     },
     {
+      "source": "bb:npc:rupert-richthorn",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:npc:rupert-richthorn",
+      "rel": "rival_of",
+      "target": "bb:npc:gun-deck-rosy"
+    },
+    {
       "source": "bb:npc:aldo-vance",
       "rel": "rival_of",
       "target": "bb:npc:harlow-blastcap-grint"
@@ -5949,6 +5990,16 @@
       "target": "bb:district:blackmire"
     },
     {
+      "source": "bb:npc:rupert-richthorn",
+      "rel": "appears_in",
+      "target": "bb:story:skull-garden-black-river"
+    },
+    {
+      "source": "bb:npc:rupert-richthorn",
+      "rel": "appears_in",
+      "target": "bb:story:skull-garden-black-river"
+    },
+    {
       "source": "bb:story:skull-garden-black-river",
       "rel": "appears_in",
       "target": "bb:beast:ravething"
@@ -6079,6 +6130,11 @@
       "target": "bb:location:house-of-questions"
     },
     {
+      "source": "bb:npc:rupert-richthorn",
+      "rel": "appears_in",
+      "target": "bb:city:black-brine"
+    },
+    {
       "source": "bb:npc:aldo-vance",
       "rel": "appears_in",
       "target": "bb:story:tavern-rivalry"
@@ -6187,6 +6243,6 @@
   "unresolved": [],
   "stats": {
     "nodes": 146,
-    "edges": 139
+    "edges": 144
   }
 }

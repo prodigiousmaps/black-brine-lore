@@ -4,3 +4,9 @@ set:
   - bb:beast:ravething
   - bb:hazard:false-beauty-vines
   - bb:item:final-verse
+  participants:
+  - bb:npc:franklin-pierce
+  - bb:npc:pinch
+  - bb:npc:rupert-richthorn
+  - bb:npc:strange-bones
+  - bb:npc:sy

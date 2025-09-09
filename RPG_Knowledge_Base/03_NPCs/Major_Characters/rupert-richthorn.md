@@ -1,44 +1,41 @@
 ---
-type: Page
-collections: Black Brine
-title: Rupert Richthorn
-description: null
-icon: null
-createdAt: '2025-02-11T03:20:56.771Z'
-creationDate: 2025-02-10 21:20
-modificationDate: 2025-03-18 14:49
-tags: [NPC, Rupert]
-coverImage: null
+type: npc
+id: bb:npc:rupert-richthorn
+name: Rupert Richthorn
+summary: Exiled archwizard known as "The Kraken," feared for his cunning, dangerous magic, and mysterious presence in Black Brine.
+location: bb:city:black-brine
+factions: []
+allies: []
+rivals:
+  - bb:npc:gun-deck-rosy
+appears_in:
+  - bb:city:black-brine
+tags: [wizard, exile, kraken, tower, sedna, intrigue, npc]
+portrait: https://prodigiousmaps.github.io/black-brine-lore/assets/portraits/rupert-richthorn.png
+sheet_url: https://prodigiousmaps.github.io/black-brine-lore/sheets/rupert-richthorn.pdf   # or external link
+system: 5e
+level: 20
+classes: [Wizard 20]
 ---
 
-# Rupert Richthorn
+# Description
+Rupert Richthorn is a feared and enigmatic figure in Black Brine, an exiled archwizard whose nickname—**The Kraken**—speaks to his vast, dangerous, and lurking reputation. Townsfolk whisper of his powers and schemes, wary of drawing his attention.
 
-[image](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/5099e89a-c1ed-4155-a37f-37effec12bc6)
+# Potential Dynamics & Conflicts
+- **Power Play with Gun Deck Rosy**: A tenuous arrangement exists; if Rupert oversteps, Rosy may be forced to act.  
+- **The Forbidden Tower**: His hidden demiplane-infused tower west of town sparks strange magical events and Sedna’s cultist interest.  
+- **Merchants’ Fear**: Merchants despise his brutally honest critiques and fear his purchases may carry curses.  
+- **The Tavern Table**: His chosen tavern seat has become a place of whispered power; outsiders risk much by sitting there.  
+- **Hidden Agendas**: He may be experimenting with forbidden magics, seeking Sedna-linked artifacts, or rebuilding power.  
 
-Rupert’s presence in Black Brine makes him a **feared and enigmatic figure**, adding tension and intrigue to the town. His nickname, **“The Kraken,”** suggests that the townspeople see him as **something vast, dangerous, and lurking beneath the surface**—a fitting reputation for an exiled archwizard.
+# Rupert’s Life in Black Brine
+- **The Tower in Exile**: Concealed among cliffs, jungle, or caverns, woven with demiplane magic.  
+- **Stripped of Influence**: Without his fortune, he must rely on cunning, magic, and alliances.  
+- **Enemies Closing In**: Bounty hunters and assassins hunt him, ignorant of his Black Brine refuge.  
+- **Gun Deck Rosy’s Tolerance**: She permits his stay only if he offers tribute—be it gold, magic, or strategy.  
+- **A New Plan**: In exile, he seeks allies, resources, and pathways to reclaim lost influence.  
 
-### **Potential Dynamics & Conflicts**
-
-- **A Power Play with Rosy**: Their **tenuous agreement** could shift at any moment—if Rupert oversteps, Rosy may be forced to act.
-
-- **His Forbidden Tower**: Settling **west of town** could lead to **strange magical occurrences, Sedna’s cultists taking interest, or old secrets awakening**.
-
-- **Merchants’ Fear**: Despite his **keen eye for quality**, merchants **hate dealing with him**—his critiques are **brutally honest**, and some believe his purchases **carry a curse**.
-
-- **His Tavern Table**: A place of power—**what happens when someone is foolish enough to sit there?**
-
-- **Hidden Agendas**: He may be using his exile **to experiment with dangerous magic**, seek **artifacts tied to Sedna**, or **rebuild his influence from the shadows**.
-
-### **Rupert’s Life in Black Brine**
-
-- **The Tower in Exile**: His **demiplane-infused tower** is likely well-hidden, either **in the mist-covered cliffs, deep in the jungle, or within a concealed cavern**.
-
-- **Stripped of Influence**: Without his war chest, Rupert **must rely on cunning, magic, and new alliances** to regain power.
-
-- **Enemies Closing In**: Assassins and bounty hunters may still be **searching for him**, unaware he is in Black Brine.
-
-- **Gun Deck Rosy’s Tolerance**: She may allow him to stay **so long as he pays tribute** or offers her something of value—perhaps forbidden magic or strategic guidance.
-
-- **A New Plan**: With Black Brine as his new home, Rupert might be **seeking allies, magical resources, or a way to reclaim his place in the world**.
-
-
+# Secrets (DM Only)
+- Rupert may be studying ways to unbind Sedna’s chains.  
+- His tower contains an unstable rift to another plane.  
+- The Kraken nickname comes from a true pact with something in the deeps.  
