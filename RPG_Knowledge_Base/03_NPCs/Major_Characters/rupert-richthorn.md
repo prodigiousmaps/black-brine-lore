@@ -11,7 +11,7 @@ rivals:
 appears_in:
   - bb:city:black-brine
 tags: [wizard, exile, kraken, tower, sedna, intrigue, npc]
-portrait: [assets/portraits/rupert-richthorn.png]
+portrait: [assets/portraits/rupert-richthorn.jpg]
 sheet_url: [sheets/rupert-richthorn.pdf]   # or external link
 system: 5e
 level: 20
