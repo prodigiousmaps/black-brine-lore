@@ -365,12 +365,8 @@
           "scribe",
           "curious"
         ],
-        "portrait": [
-          "assets/portraits/pinch.png"
-        ],
-        "sheet_url": [
-          "sheets/pinch.pdf"
-        ],
+        "portrait": "assets/portraits/pinch.png",
+        "sheet_url": "sheets/pinch.pdf",
         "system": "5e"
       },
       "body_excerpt": "# Description\nSmall, wiry frame; dusty-gray skin; wild white shock of hair; ink-black eyes. Patchwork leathers over scholar’s robes, magnifying spectacles, satchel stained with ink and maps.\n\n# Personality\n- Obsessively curious about written language; values cleverness over strength.  \n- Ideal: “The world is a puzzle—every riddle has a key.”  \n- Bond: His journal of maps and lore is life itself.  \n- Flaw: Risks everything for knowledge or rare texts.\n\n# Backstory\nShunned by his folk for loving script over stone, he found a place topside among thieves and scholars who prized his hand and his mind.\n\n# Recent History\n- Escaped shipboard imprisonment with Sy and Franklin.  \n- Survived a ruin of Shar; bargained with a minotaur named Ruben.  \n- Helped seize a mastless, planar ship; now bound for…",
