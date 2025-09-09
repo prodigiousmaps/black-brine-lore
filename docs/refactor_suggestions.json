@@ -1,5 +1,5 @@
 {
-  "total_files": 141,
+  "total_files": 145,
   "patches": [
     "patches\\skull-garden-black-river.yml",
     "patches\\into-deep-green-short-cut.yml",
@@ -23,10 +23,12 @@
     "patches\\vel-corven.yml",
     "patches\\gun-deck-rosy.yml",
     "patches\\inquisitor-zunizar.yml",
+    "patches\\big-mags.yml",
     "patches\\brin.yml",
     "patches\\crank.yml",
     "patches\\cutty.yml",
     "patches\\father-karr.yml",
+    "patches\\harlow-blastcap-grint.yml",
     "patches\\high-numerator-fex.yml",
     "patches\\inquisitor-denara-gilt.yml",
     "patches\\inquisitor-iria-boardcutter.yml",
@@ -35,8 +37,10 @@
     "patches\\inquisitor-whisper-keel.yml",
     "patches\\maelia-gorse.yml",
     "patches\\mister-blight.yml",
+    "patches\\penny-quickhands-locke.yml",
     "patches\\rita-kess.yml",
     "patches\\sinker.yml",
+    "patches\\slug.yml",
     "patches\\three-tooth-mavin.yml",
     "patches\\yurra-the-mireborn.yml",
     "patches\\code-of-black-brine.yml",
@@ -1053,6 +1057,24 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\big-mags.md",
+      "field": "location",
+      "value": "bb:location:powder-keg-tavern",
+      "resolved_id": "bb:location:powder-keg-tavern",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\big-mags.md",
+      "field": "appears_in",
+      "value": "bb:location:powder-keg-tavern",
+      "resolved_id": "bb:location:powder-keg-tavern",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\brin.md",
       "field": "location",
       "value": "bb:location:red-door-alchemy",
@@ -1129,6 +1151,24 @@
       "field": "appears_in",
       "value": "bb:location:temple-chained-god",
       "resolved_id": "bb:location:temple-chained-god",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\harlow-blastcap-grint.md",
+      "field": "location",
+      "value": "bb:location:powder-keg-tavern",
+      "resolved_id": "bb:location:powder-keg-tavern",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\harlow-blastcap-grint.md",
+      "field": "appears_in",
+      "value": "bb:location:powder-keg-tavern",
+      "resolved_id": "bb:location:powder-keg-tavern",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -1359,6 +1399,24 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\penny-quickhands-locke.md",
+      "field": "location",
+      "value": "bb:location:powder-keg-tavern",
+      "resolved_id": "bb:location:powder-keg-tavern",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\penny-quickhands-locke.md",
+      "field": "appears_in",
+      "value": "bb:location:powder-keg-tavern",
+      "resolved_id": "bb:location:powder-keg-tavern",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\rita-kess.md",
       "field": "location",
       "value": "bb:location:ritas-smithy",
@@ -1399,6 +1457,24 @@
       "field": "appears_in",
       "value": "bb:location:sinkers-curiosities",
       "resolved_id": "bb:location:sinkers-curiosities",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\slug.md",
+      "field": "location",
+      "value": "bb:location:powder-keg-tavern",
+      "resolved_id": "bb:location:powder-keg-tavern",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\slug.md",
+      "field": "appears_in",
+      "value": "bb:location:powder-keg-tavern",
+      "resolved_id": "bb:location:powder-keg-tavern",
       "method": "id",
       "score": 1.0,
       "note": ""

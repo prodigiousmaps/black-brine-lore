@@ -2651,6 +2651,47 @@
       }
     },
     {
+      "id": "bb:npc:big-mags",
+      "type": "npc",
+      "name": "Big Mags",
+      "tags": [
+        "powder-keg",
+        "cook",
+        "enforcer",
+        "half-ogre"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\big-mags.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:big-mags",
+        "name": "Big Mags",
+        "summary": "Half-ogre cook and enforcer; serves questionable stew and clears the room with a glare.",
+        "location": "bb:location:powder-keg-tavern",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:powder-keg-tavern"
+        ],
+        "tags": [
+          "powder-keg",
+          "cook",
+          "enforcer",
+          "half-ogre"
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "location": "bb:location:powder-keg-tavern",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:powder-keg-tavern"
+        ]
+      }
+    },
+    {
       "id": "bb:npc:brin",
       "type": "npc",
       "name": "Brin",
@@ -3063,6 +3104,47 @@
       "raw": {}
     },
     {
+      "id": "bb:npc:harlow-blastcap-grint",
+      "type": "npc",
+      "name": "Harlow “Blastcap” Grint",
+      "tags": [
+        "powder-keg",
+        "barkeep",
+        "dwarf",
+        "explosives"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\harlow-blastcap-grint.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:harlow-blastcap-grint",
+        "name": "Harlow “Blastcap” Grint",
+        "summary": "Dwarven ex-gunner turned barkeep; ends fights with smoke bombs and stronger booze.",
+        "location": "bb:location:powder-keg-tavern",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:powder-keg-tavern"
+        ],
+        "tags": [
+          "powder-keg",
+          "barkeep",
+          "dwarf",
+          "explosives"
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "location": "bb:location:powder-keg-tavern",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:powder-keg-tavern"
+        ]
+      }
+    },
+    {
       "id": "bb:npc:high-numerator-fex",
       "type": "npc",
       "name": "High Numerator Fex",
@@ -3438,6 +3520,47 @@
       }
     },
     {
+      "id": "bb:npc:penny-quickhands-locke",
+      "type": "npc",
+      "name": "Penny “Quickhands” Locke",
+      "tags": [
+        "powder-keg",
+        "server",
+        "rogue",
+        "human"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\penny-quickhands-locke.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:penny-quickhands-locke",
+        "name": "Penny “Quickhands” Locke",
+        "summary": "Tattooed server and pickpocket; keeps the wanted list in her head and a knife in her boot.",
+        "location": "bb:location:powder-keg-tavern",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:powder-keg-tavern"
+        ],
+        "tags": [
+          "powder-keg",
+          "server",
+          "rogue",
+          "human"
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "location": "bb:location:powder-keg-tavern",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:powder-keg-tavern"
+        ]
+      }
+    },
+    {
       "id": "bb:npc:rita-kess",
       "type": "npc",
       "name": "Rita Kess",
@@ -3518,6 +3641,47 @@
         ],
         "appears_in": [
           "bb:location:sinkers-curiosities"
+        ]
+      }
+    },
+    {
+      "id": "bb:npc:slug",
+      "type": "npc",
+      "name": "“Slug”",
+      "tags": [
+        "powder-keg",
+        "goblin",
+        "server",
+        "explosives"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\slug.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:slug",
+        "name": "“Slug”",
+        "summary": "Goblin ex-gunner; mixes the lethal “Blunderbuss” cocktail and stabs unruly patrons.",
+        "location": "bb:location:powder-keg-tavern",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:powder-keg-tavern"
+        ],
+        "tags": [
+          "powder-keg",
+          "goblin",
+          "server",
+          "explosives"
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "location": "bb:location:powder-keg-tavern",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:powder-keg-tavern"
         ]
       }
     },
@@ -5965,7 +6129,7 @@
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 141,
+    "nodes": 145,
     "edges": 137
   }
 }
