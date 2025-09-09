@@ -1,0 +1,13 @@
+path: RPG_Knowledge_Base/03_Factions/fleet_widow-makers.md
+merge:
+  type: faction
+  id: bb:fleet:widow-makers
+  name: Widow Makers
+  faction_type: fleet
+  summary: Legend-makers and funeral-writers; their flags spell doom across open water.
+  symbol: "☠︎"
+  colors:
+    primary: "#c9d6ff"  # cold pale
+  motto: "Mourn them now."
+  headquarters: bb:district:salt-crown
+  tags: [fleet, ruling-fleet, widow-makers, dread, reputation]

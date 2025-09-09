@@ -86,6 +86,199 @@
       }
     },
     {
+      "id": "bb:page:fleet-gilded-rats-brand-hq",
+      "type": "page",
+      "name": "fleet_gilded-rats_brand+hq",
+      "tags": [],
+      "source": "RPG_Knowledge_Base\\04_Factions\\fleet_gilded-rats_brand+hq.md",
+      "fm": {
+        "path": "RPG_Knowledge_Base/03_Factions/fleet_gilded-rats.md",
+        "merge": {
+          "type": "faction",
+          "id": "bb:fleet:gilded-rats",
+          "name": "Gilded Rats",
+          "faction_type": "fleet",
+          "summary": "Smiles with knives—commerce first, then the cut.",
+          "symbol": "🪙",
+          "colors": {
+            "primary": "#d0a85a"
+          },
+          "motto": "A coin in every bite.",
+          "headquarters": "bb:district:crosswater",
+          "tags": [
+            "fleet",
+            "ruling-fleet",
+            "gilded-rats",
+            "smuggling",
+            "commerce"
+          ]
+        }
+      },
+      "body_excerpt": "",
+      "raw": {}
+    },
+    {
+      "id": "bb:page:fleet-hollow-fangs-brand-hq",
+      "type": "page",
+      "name": "fleet_hollow-fangs_brand+hq",
+      "tags": [],
+      "source": "RPG_Knowledge_Base\\04_Factions\\fleet_hollow-fangs_brand+hq.md",
+      "fm": {
+        "path": "RPG_Knowledge_Base/03_Factions/fleet_hollow-fangs.md",
+        "merge": {
+          "type": "faction",
+          "id": "bb:fleet:hollow-fangs",
+          "name": "Hollow Fangs",
+          "faction_type": "fleet",
+          "summary": "Silent hulls and starving crews—strikes come from the dark, without a word.",
+          "symbol": "◈",
+          "colors": {
+            "primary": "#6bb1c5"
+          },
+          "motto": "Hunger always returns.",
+          "headquarters": "bb:district:dry-docks",
+          "tags": [
+            "fleet",
+            "ruling-fleet",
+            "hollow-fangs",
+            "silence",
+            "assassins"
+          ]
+        }
+      },
+      "body_excerpt": "",
+      "raw": {}
+    },
+    {
+      "id": "bb:page:fleet-malign-brand-hq",
+      "type": "page",
+      "name": "fleet_malign_brand+hq",
+      "tags": [],
+      "source": "RPG_Knowledge_Base\\04_Factions\\fleet_malign_brand+hq.md",
+      "fm": {
+        "path": "RPG_Knowledge_Base/03_Factions/fleet_malign.md",
+        "merge": {
+          "type": "faction",
+          "id": "bb:fleet:malign",
+          "name": "Malign",
+          "faction_type": "fleet",
+          "summary": "Cruel pragmatists who weaponize fear and leverage, striking where it hurts most.",
+          "symbol": "🝙",
+          "colors": {
+            "primary": "#7a3b3f"
+          },
+          "motto": "Mercy is a lie.",
+          "headquarters": "bb:district:blackmire",
+          "tags": [
+            "fleet",
+            "ruling-fleet",
+            "malign",
+            "intimidation",
+            "leverage"
+          ]
+        }
+      },
+      "body_excerpt": "",
+      "raw": {}
+    },
+    {
+      "id": "bb:page:fleet-miasma-brand-hq",
+      "type": "page",
+      "name": "fleet_miasma_brand+hq",
+      "tags": [],
+      "source": "RPG_Knowledge_Base\\04_Factions\\fleet_miasma_brand+hq.md",
+      "fm": {
+        "path": "RPG_Knowledge_Base/03_Factions/fleet_miasma.md",
+        "merge": {
+          "type": "faction",
+          "id": "bb:fleet:miasma",
+          "name": "Miasma",
+          "faction_type": "fleet",
+          "summary": "A fleet that fights with fog, poison, and misdirection—vanishing into mist as quickly as it strikes.",
+          "symbol": "☣︎",
+          "colors": {
+            "primary": "#7d8b8f"
+          },
+          "motto": "What you breathe binds you.",
+          "headquarters": "bb:district:mistwalk",
+          "tags": [
+            "fleet",
+            "ruling-fleet",
+            "miasma",
+            "mist",
+            "poison",
+            "ambush"
+          ]
+        }
+      },
+      "body_excerpt": "",
+      "raw": {}
+    },
+    {
+      "id": "bb:page:fleet-red-wakes-brand-hq",
+      "type": "page",
+      "name": "fleet_red-wakes_brand+hq",
+      "tags": [],
+      "source": "RPG_Knowledge_Base\\04_Factions\\fleet_red-wakes_brand+hq.md",
+      "fm": {
+        "path": "RPG_Knowledge_Base/03_Factions/fleet_red-wakes.md",
+        "merge": {
+          "type": "faction",
+          "id": "bb:fleet:red-wakes",
+          "name": "Red Wakes",
+          "faction_type": "fleet",
+          "summary": "Boarding hooks and roaring drums—the wake behind them runs red.",
+          "symbol": "⚓︎",
+          "colors": {
+            "primary": "#b43a3a"
+          },
+          "motto": "Take the deck or take the deep.",
+          "headquarters": "bb:district:keelhauls",
+          "tags": [
+            "fleet",
+            "ruling-fleet",
+            "red-wakes",
+            "boarding",
+            "raiders"
+          ]
+        }
+      },
+      "body_excerpt": "",
+      "raw": {}
+    },
+    {
+      "id": "bb:page:fleet-widow-makers-brand-hq",
+      "type": "page",
+      "name": "fleet_widow-makers_brand+hq",
+      "tags": [],
+      "source": "RPG_Knowledge_Base\\04_Factions\\fleet_widow-makers_brand+hq.md",
+      "fm": {
+        "path": "RPG_Knowledge_Base/03_Factions/fleet_widow-makers.md",
+        "merge": {
+          "type": "faction",
+          "id": "bb:fleet:widow-makers",
+          "name": "Widow Makers",
+          "faction_type": "fleet",
+          "summary": "Legend-makers and funeral-writers; their flags spell doom across open water.",
+          "symbol": "☠︎",
+          "colors": {
+            "primary": "#c9d6ff"
+          },
+          "motto": "Mourn them now.",
+          "headquarters": "bb:district:salt-crown",
+          "tags": [
+            "fleet",
+            "ruling-fleet",
+            "widow-makers",
+            "dread",
+            "reputation"
+          ]
+        }
+      },
+      "body_excerpt": "",
+      "raw": {}
+    },
+    {
       "id": "bb:story:skull-garden-black-river",
       "type": "story",
       "name": "The Skull Garden of the Black River",
@@ -6427,7 +6620,7 @@
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 146,
+    "nodes": 152,
     "edges": 177
   }
 }

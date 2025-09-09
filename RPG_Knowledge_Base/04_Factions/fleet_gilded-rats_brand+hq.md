@@ -1,0 +1,13 @@
+path: RPG_Knowledge_Base/03_Factions/fleet_gilded-rats.md
+merge:
+  type: faction
+  id: bb:fleet:gilded-rats
+  name: Gilded Rats
+  faction_type: fleet
+  summary: Smiles with knives—commerce first, then the cut.
+  symbol: "🪙"
+  colors:
+    primary: "#d0a85a"  # tarnished gold
+  motto: "A coin in every bite."
+  headquarters: bb:district:crosswater
+  tags: [fleet, ruling-fleet, gilded-rats, smuggling, commerce]

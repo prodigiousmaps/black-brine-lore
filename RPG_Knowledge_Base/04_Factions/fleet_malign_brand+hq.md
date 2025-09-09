@@ -1,0 +1,13 @@
+path: RPG_Knowledge_Base/03_Factions/fleet_malign.md
+merge:
+  type: faction
+  id: bb:fleet:malign
+  name: Malign
+  faction_type: fleet
+  summary: Cruel pragmatists who weaponize fear and leverage, striking where it hurts most.
+  symbol: "🝙"
+  colors:
+    primary: "#7a3b3f"  # bruise red
+  motto: "Mercy is a lie."
+  headquarters: bb:district:blackmire
+  tags: [fleet, ruling-fleet, malign, intimidation, leverage]

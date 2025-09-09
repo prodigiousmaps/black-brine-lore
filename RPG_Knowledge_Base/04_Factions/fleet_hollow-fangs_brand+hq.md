@@ -1,0 +1,13 @@
+path: RPG_Knowledge_Base/03_Factions/fleet_hollow-fangs.md
+merge:
+  type: faction
+  id: bb:fleet:hollow-fangs
+  name: Hollow Fangs
+  faction_type: fleet
+  summary: Silent hulls and starving crews—strikes come from the dark, without a word.
+  symbol: "◈"
+  colors:
+    primary: "#6bb1c5"  # cold surf
+  motto: "Hunger always returns."
+  headquarters: bb:district:dry-docks
+  tags: [fleet, ruling-fleet, hollow-fangs, silence, assassins]
