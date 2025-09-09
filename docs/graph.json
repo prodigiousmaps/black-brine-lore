@@ -154,7 +154,7 @@
         "noble",
         "aberration-hunter"
       ],
-      "source": "RPG_Knowledge_Base\\09_Player_Characters\\Andromida.md",
+      "source": "RPG_Knowledge_Base\\09_Player_Characters\\andromida.md",
       "fm": {
         "type": "npc",
         "name": "Andromeda",
@@ -253,314 +253,188 @@
       }
     },
     {
-      "id": "bb:player_character:franklin-pierce",
+      "id": "bb:pc:franklin-pierce",
       "type": "player_character",
       "name": "Franklin Pierce",
       "tags": [
         "bard",
-        "con artist",
-        "document forger",
-        "silver-tongued",
-        "runaway",
-        "gambler"
+        "con-artist",
+        "forger",
+        "gambler",
+        "silver-tongued"
       ],
-      "source": "RPG_Knowledge_Base\\09_Player_Characters\\Franklin Pierce.md",
+      "source": "RPG_Knowledge_Base\\09_Player_Characters\\franklin-pierce.md",
       "fm": {
         "type": "player_character",
+        "id": "bb:pc:franklin-pierce",
         "name": "Franklin Pierce",
-        "race": "Human",
-        "class": "Bard (College of Whispers)",
-        "background": "Charlatan",
-        "alignment": "Chaotic Neutral",
         "player": "Cole",
         "pronouns": "he/him",
-        "level": [
-          "Insert Level Here"
+        "race": "Human",
+        "classes": [
+          "Bard (College of Whispers)"
         ],
+        "background": "Charlatan",
+        "alignment": "Chaotic Neutral",
+        "level": "TBD",
+        "location": "bb:city:black-brine",
+        "appears_in": [
+          "bb:story:rogue-wave",
+          "bb:location:ruperts-rest"
+        ],
+        "allies": [
+          "bb:pc:sy",
+          "bb:pc:pinch",
+          "bb:npc:rupert-richthorn"
+        ],
+        "rivals": [],
         "tags": [
           "bard",
-          "con artist",
-          "document forger",
-          "silver-tongued",
-          "runaway",
-          "gambler"
-        ],
-        "appearance": {
-          "build": "Lean and wiry",
-          "hair": "Dark brown, slicked back with a careless charm",
-          "eyes": "Hazel, always scanning for opportunity",
-          "clothing": "Finely tailored but threadbare finery, always just shy of honest",
-          "notable_features": [
-            "A charming grin with too many meanings",
-            "A stolen rapier with a gilded hilt",
-            "A subtle tattoo on his forearm marking him as a member of a long-defunct thieves' guild"
-          ]
-        },
-        "personality": {
-          "traits": [
-            "Quick-witted and smooth-talking",
-            "Untrustworthy but oddly loyal to those he respects",
-            "Greedy, but not cruel"
-          ],
-          "ideals": "“Truth is flexible. Coin is real.”",
-          "bonds": "Feels a grudging loyalty to his new crew",
-          "flaws": "Can’t resist a good con—even when it’s a bad idea"
-        },
-        "backstory": "Franklin never knew his parents, growing up on the streets of Zazesspur, surviving by charm and deception. He learned early that fake promises pay better than honest work. His life of scams eventually forced him out of town after betraying a merchant partner. Since then, he’s impersonated adventurers, faked quests, and spun elaborate lies to part fools from their gold. His rapier was stolen from that same merchant—his only true trophy.",
-        "recent_history": [
-          "Imprisoned aboard a merchant vessel for forgery and gambling scams.",
-          "Escaped the brig alongside Sy and Pinch, forming a bond of necessity.",
-          "Helped overtake a ruined temple and survived a cursed catacomb.",
-          "Claimed a magical ship and fled the pirate vessel *The Malign*.",
-          "Currently en route to Black Brine under an invitation from Captain Tasty Bite."
-        ],
-        "skills_and_expertise": [
-          "Master forger and mimic",
-          "Skilled performer, gambler, and liar",
-          "Talented duelist when cornered"
-        ],
-        "inventory": [
-          "Weighted dice and marked playing cards",
-          "Forged deeds and travel papers",
-          "Elegant rapier with a stolen merchant seal",
-          "Magical trinkets gained through deceit"
-        ],
-        "relationships": [
-          {
-            "Sy": "Trusted companion and fellow outcast"
-          },
-          {
-            "Pinch": "Finds his obsession with maps odd but useful"
-          },
-          {
-            "Andromeda": "Former crew member now sueing them for back wages"
-          },
-          {
-            "Tasty Bite": "Doesn’t trust him, but respects the hustle"
-          }
-        ],
-        "reputation": [
-          "Known in some circles as a con man named “The Silver Scribe”",
-          "Has a price on his head in at least two ports",
-          "Can lie his way into a fortress… or out of one"
-        ],
-        "notes": [
-          "May seek redemption, may just seek a bigger score.",
-          "Knows something about the contents of the sealed chest recovered near Mezro, but isn’t telling."
+          "con-artist",
+          "forger",
+          "gambler",
+          "silver-tongued"
         ]
       },
-      "body_excerpt": "",
-      "raw": {}
+      "body_excerpt": "# Appearance\nLean and wiry, dark hair slicked back with careless charm, hazel eyes that are always sizing up the room. Threadbare finery, a gilded stolen rapier, and a subtle forearm tattoo from a defunct thieves’ guild.\n\n# Personality\n- Quick-witted, smooth-talking; loyalty earned, not assumed.  \n- Ideal: “Truth is flexible. Coin is real.”  \n- Bond: Grudging loyalty to his new crew.  \n- Flaw: Can’t resist a good con—even when it’s a bad idea.\n\n# Backstory\nAn orphan of Zazesspur’s streets, Franklin learned early that forged promises paid better than honest labor. After burning a merchant partner and stealing his rapier, he fled town and drifted from scam to scam.\n\n# Recent History\n- Escaped a brig with Sy and Pinch.  \n- Survived a cursed ruin and seized a magical, mastless ship.  \n- Headin…",
+      "raw": {
+        "location": "bb:city:black-brine",
+        "allies": [
+          "bb:pc:sy",
+          "bb:pc:pinch",
+          "bb:npc:rupert-richthorn"
+        ],
+        "rivals": [],
+        "appears_in": [
+          "bb:story:rogue-wave",
+          "bb:location:ruperts-rest"
+        ]
+      }
     },
     {
-      "id": "bb:player_character:pinch",
+      "id": "bb:pc:pinch",
       "type": "player_character",
       "name": "Pinch",
       "tags": [
-        "deep gnome",
+        "deep-gnome",
         "rogue",
-        "illusion",
-        "wizard",
+        "illusionist",
         "cartographer",
         "scribe",
-        "curious",
-        "clever"
+        "curious"
       ],
-      "source": "RPG_Knowledge_Base\\09_Player_Characters\\Pinch.md",
+      "source": "RPG_Knowledge_Base\\09_Player_Characters\\pinch.md",
       "fm": {
         "type": "player_character",
+        "id": "bb:pc:pinch",
         "name": "Pinch",
+        "player": "Stu",
+        "pronouns": "he/him",
         "race": "Deep Gnome (Svirfneblin)",
-        "class": [
+        "classes": [
           "Rogue (Thief)",
           "Wizard (Illusionist)"
         ],
         "background": "Scholar",
         "alignment": "Neutral",
-        "player": "Stu",
-        "pronouns": "he/him",
-        "level": [
-          "Insert Level Here"
+        "level": "TBD",
+        "location": "bb:city:black-brine",
+        "appears_in": [
+          "bb:story:rogue-wave",
+          "bb:location:ruperts-rest"
         ],
+        "allies": [
+          "bb:pc:franklin-pierce",
+          "bb:pc:sy",
+          "bb:npc:rupert-richthorn"
+        ],
+        "rivals": [],
         "tags": [
-          "deep gnome",
+          "deep-gnome",
           "rogue",
-          "illusion",
-          "wizard",
+          "illusionist",
           "cartographer",
           "scribe",
-          "curious",
-          "clever"
-        ],
-        "appearance": {
-          "build": "Small, wiry",
-          "skin": "Dusty gray with a chalky undertone",
-          "hair": "Wild white shock, often unkempt",
-          "eyes": "Large and ink-black, always moving",
-          "clothing": "A patchwork mix of leather and scholar’s robes",
-          "notable_features": [
-            "Always carries a scroll case and ink-stained satchel",
-            "Wears a set of magnifying spectacles strung around his neck",
-            "Emits a faint scent of musty parchment and dried ink"
-          ]
-        },
-        "personality": {
-          "traits": [
-            "Obsessively curious, especially about written language",
-            "Socially awkward but not shy; speaks in long, excited bursts",
-            "Values cleverness above strength"
-          ],
-          "ideals": "“The world is a puzzle—every riddle has a key.”",
-          "bonds": "His personal journal of maps and lore, which he guards with his life",
-          "flaws": "Will risk everything for knowledge or rare texts"
-        },
-        "backstory": "An outcast among his people for his fascination with writing, Pinch left his subterranean home to pursue the written word. Without a formal language of their own, the Svirfneblin viewed his calligraphy and map-making with suspicion. On the surface, he found acceptance among thieves and scholars alike, who valued his precision and ability to disappear when it counted.",
-        "recent_history": [
-          "Imprisoned on a merchant vessel alongside Sy and Franklin",
-          "Escaped using illusions and wit, then raided a ruined temple of Shar",
-          "Brokered a deal with a minotaur guardian named Ruben for treasure and passage",
-          "Helped seize a mysterious, magical ship without sails",
-          "Currently en route to Black Brine under invitation from Captain Tasty Bite"
-        ],
-        "skills_and_expertise": [
-          "Master of illusions, stealth, and lockpicking",
-          "Fluent in multiple written languages, expert calligrapher and cartographer",
-          "Knows secret lore about forgotten places and forbidden magic"
-        ],
-        "inventory": [
-          "Custom calligraphy kit and scroll case",
-          "Book of Illusions, heavily annotated",
-          "Lockpicks hidden in the seams of his belt",
-          "Personal map case filled with half-finished charts",
-          "Driftwood mask from a ruined jungle shrine (magical, echoes of the past)"
-        ],
-        "relationships": [
-          {
-            "Franklin": "Friendly rivals; Pinch admires his charm, but not his shortcuts"
-          },
-          {
-            "Sy": "A rare intellectual equal—often lost in deep discussions"
-          },
-          {
-            "Andromeda": "Finds her mysticism odd but fascinating"
-          },
-          {
-            "Sinker (NPC)": "Hopes to trade books with him in Black Brine"
-          }
-        ],
-        "reputation": [
-          "Unknown in most ports, but whispered of in certain scribe circles",
-          "Has sold maps to both noble explorers and notorious thieves"
-        ],
-        "notes": [
-          "Pinch's illusions are growing stranger—mirroring memories not his own",
-          "Carries a subtle magical curse from the jungle temple; not yet understood"
+          "curious"
         ]
       },
-      "body_excerpt": "",
-      "raw": {}
+      "body_excerpt": "# Appearance\nSmall, wiry frame; dusty-gray skin; wild white shock of hair; ink-black eyes. Patchwork leathers over scholar’s robes, magnifying spectacles, satchel stained with ink and maps.\n\n# Personality\n- Obsessively curious about written language; values cleverness over strength.  \n- Ideal: “The world is a puzzle—every riddle has a key.”  \n- Bond: His journal of maps and lore is life itself.  \n- Flaw: Risks everything for knowledge or rare texts.\n\n# Backstory\nShunned by his folk for loving script over stone, he found a place topside among thieves and scholars who prized his hand and his mind.\n\n# Recent History\n- Escaped shipboard imprisonment with Sy and Franklin.  \n- Survived a ruin of Shar; bargained with a minotaur named Ruben.  \n- Helped seize a mastless, planar ship; now bound for …",
+      "raw": {
+        "location": "bb:city:black-brine",
+        "allies": [
+          "bb:pc:franklin-pierce",
+          "bb:pc:sy",
+          "bb:npc:rupert-richthorn"
+        ],
+        "rivals": [],
+        "appears_in": [
+          "bb:story:rogue-wave",
+          "bb:location:ruperts-rest"
+        ]
+      }
     },
     {
-      "id": "bb:player_character:sy",
+      "id": "bb:pc:sy",
       "type": "player_character",
       "name": "Syltorin",
       "tags": [
         "warlock",
         "aquatic",
         "smuggler",
-        "dagger",
+        "hexblade",
         "brooding",
         "exile"
       ],
-      "source": "RPG_Knowledge_Base\\09_Player_Characters\\Sy.md",
+      "source": "RPG_Knowledge_Base\\09_Player_Characters\\sy.md",
       "fm": {
         "type": "player_character",
+        "id": "bb:pc:sy",
         "name": "Syltorin",
         "nickname": "Sy",
-        "race": "Half-Aquatic Elf",
-        "class": "Warlock (Hexblade Patron)",
-        "subclass": "Pact of the Blade",
-        "background": "Smuggler",
-        "alignment": "Neutral",
         "player": "Joe",
         "pronouns": "he/him",
-        "level": [
-          "Insert Level Here"
+        "race": "Half-Aquatic Elf",
+        "classes": [
+          "Warlock (Hexblade)"
         ],
+        "pact": "Pact of the Blade",
+        "background": "Smuggler",
+        "alignment": "Neutral",
+        "level": "TBD",
+        "location": "bb:city:black-brine",
+        "appears_in": [
+          "bb:story:rogue-wave",
+          "bb:location:ruperts-rest"
+        ],
+        "allies": [
+          "bb:pc:franklin-pierce",
+          "bb:pc:pinch",
+          "bb:npc:rupert-richthorn"
+        ],
+        "rivals": [],
         "tags": [
           "warlock",
           "aquatic",
           "smuggler",
-          "dagger",
+          "hexblade",
           "brooding",
           "exile"
-        ],
-        "appearance": {
-          "build": "Lithe, swimmer’s frame",
-          "skin": "Sea-toned, pale with a faint green-blue sheen",
-          "hair": "Long and dark, often slicked back or braided in cords",
-          "eyes": "Deep green, reflective like a fish's in moonlight",
-          "clothing": "Salt-stained leathers and a cloak that smells faintly of brine",
-          "notable_features": [
-            "Ritual scarring along his ribs",
-            "A sentient dagger shaped like a trident, always on his belt",
-            "Fingers webbed slightly from aquatic heritage"
-          ]
-        },
-        "personality": {
-          "traits": [
-            "Quiet, intense, always watching",
-            "Hates being lied to—yet keeps many secrets himself",
-            "Surprisingly loyal to those who earn it"
-          ],
-          "ideals": "“Power comes from the depths—earned, not inherited.”",
-          "bonds": "His mysterious dagger, a final connection to his father",
-          "flaws": "Carries guilt for Nymh’s death and the fate of his father"
-        },
-        "backstory": "Son of a smuggler queen in Ithmong, Sy was raised among backroom deals and coastal black markets. His aquatic elf father vanished under suspicious circumstances after warning Sy of Winifred’s true nature. He found a dagger hidden in her chambers—mystical, bound to him—and fled before he could become a pawn in her ambitions.",
-        "recent_history": [
-          "Jailed aboard a merchant vessel for suspected sabotage",
-          "Escaped with Pinch and Franklin, forming an uneasy alliance",
-          "Helped overthrow a priest of Shar and bargain with undead in a cursed ruin",
-          "Took the helm of a magical, mastless ship powered by planar forces",
-          "En route to Black Brine under invitation from Captain Tasty Bite"
-        ],
-        "skills_and_expertise": [
-          "Skilled in stealth, sabotage, and underwater navigation",
-          "Pact-bound to a mysterious entity linked to the dagger",
-          "Knows smuggler routes and secret docks across Faerûn’s coast"
-        ],
-        "inventory": [
-          "Trident-like magical dagger (Hexblade)",
-          "Smoking journal of arcane sketches and sea lore",
-          "Waterproof smuggler’s satchel with salt-sealed compartments",
-          "Tokens from his mother’s old network—some still redeemable"
-        ],
-        "relationships": [
-          {
-            "Franklin": "Suspicious but fond; appreciates his wit"
-          },
-          {
-            "Pinch": "Respects his intellect; finds him amusing"
-          },
-          {
-            "Andromeda": "Curious about her magic and sense of justice"
-          },
-          {
-            "Tasty Bite": "Doesn’t trust him, but recognizes a predator when he sees one"
-          }
-        ],
-        "reputation": [
-          "Known along the coast as a quiet ghost of a sailor—whispers only",
-          "A few cults of the deep recognize the blade he carries"
-        ],
-        "notes": [
-          "His dagger may hold more secrets than he realizes",
-          "Something in the deep still calls to him—and not always kindly"
         ]
       },
-      "body_excerpt": "",
-      "raw": {}
+      "body_excerpt": "# Appearance\nLithe swimmer’s build; sea-toned skin with green-blue sheen; long dark hair; reflective green eyes; ritual scarring along ribs; slightly webbed fingers; trident-shaped sentient dagger at the belt.\n\n# Personality\n- Quiet, intense, secretive—but fiercely loyal once earned.  \n- Ideal: “Power comes from the depths—earned, not inherited.”  \n- Bond: The dagger—last tie to his father.  \n- Flaw: Guilt over Nymh and his father’s fate.\n\n# Backstory\nRaised among smugglers in Ithmong; warned about his mother’s ambitions; found the bound blade and fled before becoming her pawn.\n\n# Recent History\n- Escaped a merchant brig with Pinch and Franklin.  \n- Struck dark bargains in a cursed ruin; took the helm of a mastless, planar ship.  \n- Sails toward Black Brine under Captain Tasty Bite’s wary …",
+      "raw": {
+        "location": "bb:city:black-brine",
+        "allies": [
+          "bb:pc:franklin-pierce",
+          "bb:pc:pinch",
+          "bb:npc:rupert-richthorn"
+        ],
+        "rivals": [],
+        "appears_in": [
+          "bb:story:rogue-wave",
+          "bb:location:ruperts-rest"
+        ]
+      }
     },
     {
       "id": "bb:Page:infiltration-temple-of-sedna",
@@ -5623,6 +5497,66 @@
   ],
   "edges": [
     {
+      "source": "bb:pc:franklin-pierce",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:pc:franklin-pierce",
+      "rel": "ally_of",
+      "target": "bb:pc:sy"
+    },
+    {
+      "source": "bb:pc:franklin-pierce",
+      "rel": "ally_of",
+      "target": "bb:pc:pinch"
+    },
+    {
+      "source": "bb:pc:franklin-pierce",
+      "rel": "ally_of",
+      "target": "bb:npc:rupert-richthorn"
+    },
+    {
+      "source": "bb:pc:pinch",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:pc:pinch",
+      "rel": "ally_of",
+      "target": "bb:pc:franklin-pierce"
+    },
+    {
+      "source": "bb:pc:pinch",
+      "rel": "ally_of",
+      "target": "bb:pc:sy"
+    },
+    {
+      "source": "bb:pc:pinch",
+      "rel": "ally_of",
+      "target": "bb:npc:rupert-richthorn"
+    },
+    {
+      "source": "bb:pc:sy",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:pc:sy",
+      "rel": "ally_of",
+      "target": "bb:pc:franklin-pierce"
+    },
+    {
+      "source": "bb:pc:sy",
+      "rel": "ally_of",
+      "target": "bb:pc:pinch"
+    },
+    {
+      "source": "bb:pc:sy",
+      "rel": "ally_of",
+      "target": "bb:npc:rupert-richthorn"
+    },
+    {
       "source": "bb:hazard:false-beauty-vines",
       "rel": "located_in",
       "target": "bb:story:skull-garden-black-river"
@@ -6173,6 +6107,36 @@
       "target": "bb:item:final-verse"
     },
     {
+      "source": "bb:pc:franklin-pierce",
+      "rel": "appears_in",
+      "target": "bb:story:rogue-wave"
+    },
+    {
+      "source": "bb:pc:franklin-pierce",
+      "rel": "appears_in",
+      "target": "bb:location:ruperts-rest"
+    },
+    {
+      "source": "bb:pc:pinch",
+      "rel": "appears_in",
+      "target": "bb:story:rogue-wave"
+    },
+    {
+      "source": "bb:pc:pinch",
+      "rel": "appears_in",
+      "target": "bb:location:ruperts-rest"
+    },
+    {
+      "source": "bb:pc:sy",
+      "rel": "appears_in",
+      "target": "bb:story:rogue-wave"
+    },
+    {
+      "source": "bb:pc:sy",
+      "rel": "appears_in",
+      "target": "bb:location:ruperts-rest"
+    },
+    {
       "source": "bb:story:encounter-5-short-cut",
       "rel": "appears_in",
       "target": "bb:hazard:bone-field"
@@ -6421,6 +6385,6 @@
   "unresolved": [],
   "stats": {
     "nodes": 146,
-    "edges": 159
+    "edges": 177
   }
 }
