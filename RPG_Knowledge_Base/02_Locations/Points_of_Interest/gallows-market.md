@@ -7,7 +7,7 @@ location_type: market
 population: ~1,000 (shoppers, hawkers, cultists)
 government: Mixed — market overseers, but heavy presence from cults
 maps_available: false
-map_files: [https://prodigiousmaps.github.io/black-brine-lore/assets/maps/gallows-market.jpg]
+map_files: [https://prodigiousmaps.github.io/black-brine-lore/assets/maps/gallows-market-street-level.jpg]
 tags: [mistwalk, market, gallows, cult, intrigue]
 ---
 
@@ -29,4 +29,5 @@ A broad plaza where stalls of fashion and finery press against gallows beams sti
 - The market overseers are bribed to let cult relics through unchecked.  
 
 # Connected Locations
+
 - **bb:district:mistwalk**
