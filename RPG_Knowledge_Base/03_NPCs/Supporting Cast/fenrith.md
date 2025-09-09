@@ -15,7 +15,7 @@ tags:
   - bodyguard
   - rupert
   - household
-portrait: assets/portraits/fenrith.png
+portrait: assets/portraits/fenrith.jpg
 sheet_url: sheets/fenrith.pdf
 system: 5e
 level: 10
