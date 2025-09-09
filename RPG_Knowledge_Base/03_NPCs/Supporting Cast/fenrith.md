@@ -11,12 +11,15 @@ rivals: []
 appears_in:
   - bb:location:ruperts-rest
 tags: [warrior, bodyguard, rupert, household]
-portrait: [assets/portraits/fenrith.png]
-sheet_url: [sheets/fenrith.pdf]
+portrait: assets/portraits/fenrith.png
+sheet_url: sheets/fenrith.pdf
 system: 5e
 level: 10
-classes: [Fighter 6, Rogue 4]
+classes:
+  - Fighter 6
+  - Rogue 4
 ---
+
 
 # Description
 Fenrith is Rupert’s iron-willed associate and personal guard. Silent in public, yet decisive in combat, he has been seen dueling pirates and warding off assassins at Rupert’s gates. His loyalty is unquestioned, though his past remains largely unknown.
