@@ -19,7 +19,7 @@
     "patches\\deep-green-supplies.yml",
     "patches\\final-verse.yml",
     "patches\\journal-fragment-viii.yml",
-    "patches\\jungle-survival-training-mechanics.yml",
+    "patches\\jungle-survival-training.yml",
     "patches\\butchers.yml",
     "patches\\twilight-society.yml",
     "patches\\hollow-fangs.yml",
@@ -792,7 +792,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Jungle Survival Training Mechanics.md",
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-survival-training.md",
       "field": "controls",
       "value": "bb:Page:strange-bones",
       "resolved_id": null,
@@ -801,7 +801,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Jungle Survival Training Mechanics.md",
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-survival-training.md",
       "field": "controls",
       "value": "bb:location:ruperts-rest",
       "resolved_id": "bb:location:ruperts-rest",
@@ -1101,60 +1101,6 @@
       "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
       "field": "location",
       "value": "bb:location:lending-house",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
-      "field": "allies",
-      "value": "The Twilight Society inner circle",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
-      "field": "allies",
-      "value": "Certain members of the Lending House and City Hull",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
-      "field": "allies",
-      "value": "A masked fey emissary known only as \"The Lanternless\"",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
-      "field": "rivals",
-      "value": "Several captains on the Council who fear their influence",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
-      "field": "rivals",
-      "value": "bb:Page:captain-gun-deck-rosy",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
-      "field": "rivals",
-      "value": "bb:location:temple-of-the-chained-god",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -2334,9 +2280,9 @@
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\lending-house.md",
       "field": "participants",
       "value": "bb:npc:vel-corven",
-      "resolved_id": "bb:npc:vel-corven",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {

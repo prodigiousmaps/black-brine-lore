@@ -1280,68 +1280,14 @@
       "raw": {}
     },
     {
-      "id": "bb:Page:environmental-threat-level",
-      "type": "Page",
-      "name": "Environmental Threat Level",
-      "tags": [
-        "GameMechanics",
-        "Encounter"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Environmental Threat Level.md",
-      "fm": {
-        "type": "Page",
-        "collections": "The Deep Green",
-        "title": "Environmental Threat Level",
-        "description": null,
-        "icon": "☠️",
-        "createdAt": "2025-06-03T13:52:14.647Z",
-        "creationDate": "2025-06-03 08:52",
-        "modificationDate": "2025-06-03 08:58",
-        "tags": [
-          "GameMechanics",
-          "Encounter"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Environmental Threat Level\n\n### **Enemy or Environmental Threat Stealth Checks**\n\n- **Approaching a hostile creature, predator, or patrol** (Passive Perception vs. Stealth check).\n\n- **Crossing an open space** (when there’s no immediate cover).\n\n- **Evading the Whispering Fog** (if their **Jungle Alert Level** is high, they must roll **disadvantage**).\n\n- **Using fire or magic** (fire and bright light increase the need for stealth checks, unless precautions are taken).\n\n### **Advantage or Disadvantage Modifiers**\n\n| **Preparedness Level**                           | **Stealth Check Effect**         |\n| :----------------------------------------------- | :------------------------------- |\n| **Moving slowly (half speed)**                   | **Advantage** on Stealth         |\n| **Wrapped ge…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:event-threat-level",
-      "type": "Page",
-      "name": "Event Threat Level",
-      "tags": [
-        "GameMechanics",
-        "Encounter"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Event Threat Level.md",
-      "fm": {
-        "type": "Page",
-        "collections": "The Deep Green",
-        "title": "Event Threat Level",
-        "description": null,
-        "icon": "🏕️",
-        "createdAt": "2025-06-03T13:54:43.583Z",
-        "creationDate": "2025-06-03 08:54",
-        "modificationDate": "2025-06-03 08:58",
-        "tags": [
-          "GameMechanics",
-          "Encounter"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Event Threat Level\n\n### **Event-Based Stealth Rolls**\n\nCharacters must make a Stealth check when they:\n\n- **Move through high-alert zones** (predator territory, near enemy camps, through dense hunting grounds).\n\n- **Pass through foliage, water, or terrain that naturally makes noise** (crunching leaves, deep mud, running streams).\n\n- **Climb or descend obstacles** (trees, cliffs, temple ruins) where movement might be noticed.\n\n- **Interact with the jungle** (pushing through thick brush, dislodging vines, moving objects).\n\n- **Kill an enemy** in an area where others might hear the struggle.\n\n- **Rest in unsafe areas** (Stealth check for setting up camp silently).\n\n🛑 **Stealth Checks Are NOT Needed** when:\n\n- Moving through **cleared paths** (already scouted by Strange Bones).\n\n- Traveling …",
-      "raw": {}
-    },
-    {
       "id": "bb:Page:firearms-training-mechanics",
       "type": "Page",
-      "name": "Firearms Training Mechanics",
+      "name": "firearms-training-mechanics",
       "tags": [
         "GameMechanics",
         "Encounter"
       ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Firearms Training Mechanics.md",
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\firearms-training-mechanics.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -1361,16 +1307,190 @@
       "raw": {}
     },
     {
+      "id": "bb:Page:jungle-environmental-threat-level",
+      "type": "Page",
+      "name": "jungle-environmental-threat-level",
+      "tags": [
+        "GameMechanics",
+        "Encounter"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-environmental-threat-level.md",
+      "fm": {
+        "type": "Page",
+        "collections": "The Deep Green",
+        "title": "Environmental Threat Level",
+        "description": null,
+        "icon": "☠️",
+        "createdAt": "2025-06-03T13:52:14.647Z",
+        "creationDate": "2025-06-03 08:52",
+        "modificationDate": "2025-06-03 08:58",
+        "tags": [
+          "GameMechanics",
+          "Encounter"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Environmental Threat Level\n\n### **Enemy or Environmental Threat Stealth Checks**\n\n- **Approaching a hostile creature, predator, or patrol** (Passive Perception vs. Stealth check).\n\n- **Crossing an open space** (when there’s no immediate cover).\n\n- **Evading the Whispering Fog** (if their **Jungle Alert Level** is high, they must roll **disadvantage**).\n\n- **Using fire or magic** (fire and bright light increase the need for stealth checks, unless precautions are taken).\n\n### **Advantage or Disadvantage Modifiers**\n\n| **Preparedness Level**                           | **Stealth Check Effect**         |\n| :----------------------------------------------- | :------------------------------- |\n| **Moving slowly (half speed)**                   | **Advantage** on Stealth         |\n| **Wrapped ge…",
+      "raw": {}
+    },
+    {
+      "id": "bb:Page:jungle-event-threat-level",
+      "type": "Page",
+      "name": "jungle-event-threat-level",
+      "tags": [
+        "GameMechanics",
+        "Encounter"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-event-threat-level.md",
+      "fm": {
+        "type": "Page",
+        "collections": "The Deep Green",
+        "title": "Event Threat Level",
+        "description": null,
+        "icon": "🏕️",
+        "createdAt": "2025-06-03T13:54:43.583Z",
+        "creationDate": "2025-06-03 08:54",
+        "modificationDate": "2025-06-03 08:58",
+        "tags": [
+          "GameMechanics",
+          "Encounter"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Event Threat Level\n\n### **Event-Based Stealth Rolls**\n\nCharacters must make a Stealth check when they:\n\n- **Move through high-alert zones** (predator territory, near enemy camps, through dense hunting grounds).\n\n- **Pass through foliage, water, or terrain that naturally makes noise** (crunching leaves, deep mud, running streams).\n\n- **Climb or descend obstacles** (trees, cliffs, temple ruins) where movement might be noticed.\n\n- **Interact with the jungle** (pushing through thick brush, dislodging vines, moving objects).\n\n- **Kill an enemy** in an area where others might hear the struggle.\n\n- **Rest in unsafe areas** (Stealth check for setting up camp silently).\n\n🛑 **Stealth Checks Are NOT Needed** when:\n\n- Moving through **cleared paths** (already scouted by Strange Bones).\n\n- Traveling …",
+      "raw": {}
+    },
+    {
+      "id": "bb:Page:jungle-hex-travel-phases",
+      "type": "Page",
+      "name": "jungle-hex-travel-phases",
+      "tags": [
+        "Encounter",
+        "GameMechanics",
+        "ForgottenWind"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-hex-travel-phases.md",
+      "fm": {
+        "type": "Page",
+        "collections": "The Deep Green",
+        "title": "Travel Phases",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-06-02T16:05:59.905Z",
+        "creationDate": "2025-06-02 11:05",
+        "modificationDate": "2025-06-02 16:40",
+        "tags": [
+          "Encounter",
+          "GameMechanics",
+          "ForgottenWind"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Travel Phases\n\n**Travel Speed = Default**\n\n1 hex =  6 miles\n\nTravel time per hex = 8 hours\n\nTravel time per day = 2 hex\n\n\n\n## **PHASE 1 – The Wild River & Outer Jungle**\n\n*Hex Range: Starting area up to 4 hexes from Vexir*\n\n**Tone**: Natural danger, subtle strangeness\n\nRiver Travel (1d12)\n\n| Roll | Encounter                                                                       |\n| :--- | :------------------------------------------------------------------------------ |\n| 1    | Crocodilian beast (CR 2–4), camouflaged, strikes the boat mid-channel           |\n| 2    | River narrows—PCs must **pull the boat** through shallows, exposed to ambush    |\n| 3    | A body tangled in reeds—clutching a **rusted holy symbol of Sedna**             |\n| 4    | Flock of **squawking reef bats** circles—ha…",
+      "raw": {}
+    },
+    {
+      "id": "bb:Page:jungle-navigation-events",
+      "type": "Page",
+      "name": "jungle-navigation-events",
+      "tags": [
+        "GameMechanics",
+        "Encounter",
+        "ForgottenWind"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-navigation-events.md",
+      "fm": {
+        "type": "Page",
+        "collections": "The Deep Green",
+        "title": "Navigation Events",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-06-02T16:11:40.227Z",
+        "creationDate": "2025-06-02 11:11",
+        "modificationDate": "2025-06-02 16:35",
+        "tags": [
+          "GameMechanics",
+          "Encounter",
+          "ForgottenWind"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Navigation Events\n\n\n\nNavigation Event Table (1d12)\n\n| d12 | Navigation Event                                                                                                                     |\n| :-- | :----------------------------------------------------------------------------------------------------------------------------------- |\n| 1   | **Faint Footpath** – a long-abandoned trail appears. PCs may follow it (50/50 chance of speeding travel or leading into danger).     |\n| 2   | **Treefall Maze** – tangled wreckage of collapsed trees. Choose: 1 extra hour to climb or DC 14 Acrobatics to squeeze through.       |\n| 3   | **Confusing Sunlight** – light refracts strangely in the canopy. Disadvantage on Spot Mountain rolls for this hex.                   |\n| 4   | **Animal Sign** – fresh…",
+      "raw": {}
+    },
+    {
+      "id": "bb:Page:jungle-navigation",
+      "type": "Page",
+      "name": "jungle-navigation",
+      "tags": [
+        "Island",
+        "Campaign",
+        "Encounter",
+        "Act1",
+        "Chapter1",
+        "GameMechanics"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-navigation.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Navigating the Mists of Sedna",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-02-11T04:03:07.219Z",
+        "creationDate": "2025-02-10 22:03",
+        "modificationDate": "2025-03-18 15:16",
+        "tags": [
+          "Island",
+          "Campaign",
+          "Encounter",
+          "Act1",
+          "Chapter1",
+          "GameMechanics"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Navigating the Mists of Sedna\n\n### **Navigating the Mist and Reefs (Skill Challenge)**\n\n#### **Setup**\n\n- The **Coin** provides guidance, but the **mist and reefs require careful maneuvering**.\n\n- The **ship has a crew**, but the players must take **active roles** to ensure safe passage.\n\n- This is a **complex challenge**, requiring **multiple successful checks** before accumulating **3 failures**.\n\n- If they **fail 3 times**, they **crash into a reef**, suffer ship damage, or encounter an unforeseen danger.\n\n---\n\n### **Skill Challenge Rules**\n\n- Players must accumulate **5 total successes** before they reach **3 failures**.\n\n- Each round, players describe how they help the ship navigate.\n\n- Each round represents **10-20 minutes of sailing**.\n\n- The DM determines **who rolls** based on t…",
+      "raw": {}
+    },
+    {
+      "id": "bb:Page:jungle-passive-threat-level",
+      "type": "Page",
+      "name": "jungle-passive-threat-level",
+      "tags": [
+        "GameMechanics",
+        "Encounter"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-passive-threat-level.md",
+      "fm": {
+        "type": "Page",
+        "collections": "The Deep Green",
+        "title": "Passive Threat Level",
+        "description": null,
+        "icon": "⏰️",
+        "createdAt": "2025-06-03T13:49:28.696Z",
+        "creationDate": "2025-06-03 08:49",
+        "modificationDate": "2025-06-03 08:58",
+        "tags": [
+          "GameMechanics",
+          "Encounter"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Passive Threat Level\n\n### **Time-Based Stealth Checks**\n\n- **Every 30–60 minutes** (real-world time) OR after **significant travel** (e.g., entering a new biome, crossing a river, passing a predator's lair).\n\n- **During major weather shifts** (rain might grant advantage by muffling sounds, while dry seasons make everything crunchier).\n\n- **After a combat encounter** (to see if something else has been alerted).\n\n### **Advantage or Disadvantage Modifiers**\n\n| **Preparedness Level**                           | **Stealth Check Effect**         |\n| :----------------------------------------------- | :------------------------------- |\n| **Moving slowly (half speed)**                   | **Advantage** on Stealth         |\n| **Wrapped gear (no clanking metal)**             | **Advantage**        …",
+      "raw": {}
+    },
+    {
       "id": "bb:Page:jungle-stealth-mechanics",
       "type": "Page",
-      "name": "Jungle Stealth Mechanics",
+      "name": "jungle-stealth-mechanics",
       "tags": [
         "GameMechanics",
         "LandFeatures",
         "Island",
         "Encounter"
       ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Jungle Stealth Mechanics.md",
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-stealth-mechanics.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -1392,14 +1512,14 @@
       "raw": {}
     },
     {
-      "id": "bb:Page:jungle-survival-training-mechanics",
+      "id": "bb:Page:jungle-survival-training",
       "type": "Page",
-      "name": "Jungle Survival Training Mechanics",
+      "name": "jungle-survival-training",
       "tags": [
         "GameMechanics",
         "Encounter"
       ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Jungle Survival Training Mechanics.md",
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-survival-training.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -1430,14 +1550,14 @@
     {
       "id": "bb:Page:jungle-survival",
       "type": "Page",
-      "name": "Jungle Survival",
+      "name": "jungle-survival",
       "tags": [
         "Encounter",
         "GameMechanics",
         "Island",
         "LandFeatures"
       ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Jungle Survival.md",
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-survival.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -1459,162 +1579,15 @@
       "raw": {}
     },
     {
-      "id": "bb:Page:navigating-the-mists-of-sedna",
+      "id": "bb:Page:jungle-weather-vents",
       "type": "Page",
-      "name": "Navigating the Mists of Sedna",
-      "tags": [
-        "Island",
-        "Campaign",
-        "Encounter",
-        "Act1",
-        "Chapter1",
-        "GameMechanics"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Navigating the Mists of Sedna.md",
-      "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Navigating the Mists of Sedna",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-02-11T04:03:07.219Z",
-        "creationDate": "2025-02-10 22:03",
-        "modificationDate": "2025-03-18 15:16",
-        "tags": [
-          "Island",
-          "Campaign",
-          "Encounter",
-          "Act1",
-          "Chapter1",
-          "GameMechanics"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Navigating the Mists of Sedna\n\n### **Navigating the Mist and Reefs (Skill Challenge)**\n\n#### **Setup**\n\n- The **Coin** provides guidance, but the **mist and reefs require careful maneuvering**.\n\n- The **ship has a crew**, but the players must take **active roles** to ensure safe passage.\n\n- This is a **complex challenge**, requiring **multiple successful checks** before accumulating **3 failures**.\n\n- If they **fail 3 times**, they **crash into a reef**, suffer ship damage, or encounter an unforeseen danger.\n\n---\n\n### **Skill Challenge Rules**\n\n- Players must accumulate **5 total successes** before they reach **3 failures**.\n\n- Each round, players describe how they help the ship navigate.\n\n- Each round represents **10-20 minutes of sailing**.\n\n- The DM determines **who rolls** based on t…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:navigation-events",
-      "type": "Page",
-      "name": "Navigation Events",
+      "name": "jungle-weather-vents",
       "tags": [
         "GameMechanics",
         "Encounter",
         "ForgottenWind"
       ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Navigation Events.md",
-      "fm": {
-        "type": "Page",
-        "collections": "The Deep Green",
-        "title": "Navigation Events",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-06-02T16:11:40.227Z",
-        "creationDate": "2025-06-02 11:11",
-        "modificationDate": "2025-06-02 16:35",
-        "tags": [
-          "GameMechanics",
-          "Encounter",
-          "ForgottenWind"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Navigation Events\n\n\n\nNavigation Event Table (1d12)\n\n| d12 | Navigation Event                                                                                                                     |\n| :-- | :----------------------------------------------------------------------------------------------------------------------------------- |\n| 1   | **Faint Footpath** – a long-abandoned trail appears. PCs may follow it (50/50 chance of speeding travel or leading into danger).     |\n| 2   | **Treefall Maze** – tangled wreckage of collapsed trees. Choose: 1 extra hour to climb or DC 14 Acrobatics to squeeze through.       |\n| 3   | **Confusing Sunlight** – light refracts strangely in the canopy. Disadvantage on Spot Mountain rolls for this hex.                   |\n| 4   | **Animal Sign** – fresh…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:passive-threat-level",
-      "type": "Page",
-      "name": "Passive Threat Level",
-      "tags": [
-        "GameMechanics",
-        "Encounter"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Passive Threat Level.md",
-      "fm": {
-        "type": "Page",
-        "collections": "The Deep Green",
-        "title": "Passive Threat Level",
-        "description": null,
-        "icon": "⏰️",
-        "createdAt": "2025-06-03T13:49:28.696Z",
-        "creationDate": "2025-06-03 08:49",
-        "modificationDate": "2025-06-03 08:58",
-        "tags": [
-          "GameMechanics",
-          "Encounter"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Passive Threat Level\n\n### **Time-Based Stealth Checks**\n\n- **Every 30–60 minutes** (real-world time) OR after **significant travel** (e.g., entering a new biome, crossing a river, passing a predator's lair).\n\n- **During major weather shifts** (rain might grant advantage by muffling sounds, while dry seasons make everything crunchier).\n\n- **After a combat encounter** (to see if something else has been alerted).\n\n### **Advantage or Disadvantage Modifiers**\n\n| **Preparedness Level**                           | **Stealth Check Effect**         |\n| :----------------------------------------------- | :------------------------------- |\n| **Moving slowly (half speed)**                   | **Advantage** on Stealth         |\n| **Wrapped gear (no clanking metal)**             | **Advantage**        …",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:stealth-preparation",
-      "type": "Page",
-      "name": "Stealth Preparation",
-      "tags": [
-        "GameMechanics",
-        "Encounter"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Stealth Preparation.md",
-      "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Stealth Preparation",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-03-18T20:38:09.005Z",
-        "creationDate": "2025-03-18 15:38",
-        "modificationDate": "2025-03-18 15:45",
-        "tags": [
-          "GameMechanics",
-          "Encounter"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Stealth Preparation\n\n## **1. Gear Modifications for Maximum Stealth**\n\nStrange Bones will **strip down and alter** their gear to minimize noise and visibility.\n\n### **🔹 Clothing & Armor Adjustments**\n\n✅ **Muted Colors & Camouflage**:\n\n- **Dye bright fabrics** using jungle **moss, crushed berries, or charcoal.**\n\n- Use **mud smearing & leafy coverings** to blend into the jungle.\n\n✅ **Silence Metal Armor & Weapons**:\n\n- **No chainmail or plate armor**—switch to **leather, padded armor, or cloth wrappings**.\n\n- **Wrap all buckles, weapons, and tools** in cloth, soft leather, or vine bindings to **prevent clanking.**\n\n- **Padded footwear** (softened leather or jungle moss insoles) to **reduce footstep noise.**\n\n✅ **Secure All Loose Gear**:\n\n- **Tightly wrap** rations, water skins, and suppli…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:travel-phases",
-      "type": "Page",
-      "name": "Travel Phases",
-      "tags": [
-        "Encounter",
-        "GameMechanics",
-        "ForgottenWind"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Travel Phases.md",
-      "fm": {
-        "type": "Page",
-        "collections": "The Deep Green",
-        "title": "Travel Phases",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-06-02T16:05:59.905Z",
-        "creationDate": "2025-06-02 11:05",
-        "modificationDate": "2025-06-02 16:40",
-        "tags": [
-          "Encounter",
-          "GameMechanics",
-          "ForgottenWind"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Travel Phases\n\n**Travel Speed = Default**\n\n1 hex =  6 miles\n\nTravel time per hex = 8 hours\n\nTravel time per day = 2 hex\n\n\n\n## **PHASE 1 – The Wild River & Outer Jungle**\n\n*Hex Range: Starting area up to 4 hexes from Vexir*\n\n**Tone**: Natural danger, subtle strangeness\n\nRiver Travel (1d12)\n\n| Roll | Encounter                                                                       |\n| :--- | :------------------------------------------------------------------------------ |\n| 1    | Crocodilian beast (CR 2–4), camouflaged, strikes the boat mid-channel           |\n| 2    | River narrows—PCs must **pull the boat** through shallows, exposed to ambush    |\n| 3    | A body tangled in reeds—clutching a **rusted holy symbol of Sedna**             |\n| 4    | Flock of **squawking reef bats** circles—ha…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:weather-events",
-      "type": "Page",
-      "name": "Weather Events",
-      "tags": [
-        "GameMechanics",
-        "Encounter",
-        "ForgottenWind"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\Weather Events.md",
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\jungle-weather-vents.md",
       "fm": {
         "type": "Page",
         "collections": "The Deep Green",
@@ -1635,16 +1608,16 @@
       "raw": {}
     },
     {
-      "id": "bb:Page:phased-threat-escalation---the-road-to-the-hollow-song",
+      "id": "bb:Page:phased-threat-escalation",
       "type": "Page",
-      "name": "🌒 PHASED THREAT ESCALATION – The Road to the Hollow Song",
+      "name": "phased-threat-escalation",
       "tags": [
         "GameMechanics",
         "LandFeatures",
         "Encounter",
         "ForgottenWind"
       ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\🌒 PHASED THREAT ESCALATION – The Road to the Hollow Song.md",
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\phased-threat-escalation.md",
       "fm": {
         "type": "Page",
         "collections": "The Deep Green",
@@ -1663,6 +1636,33 @@
         "coverImage": null
       },
       "body_excerpt": "# 🌒 PHASED THREAT ESCALATION – The Road to the Hollow Song\n\n### **🌿 Phase 1: Wild Jungle (Outer Hexes)**\n\n**Mood**: Tense, oppressive, but natural\n\n**Threats**: Predators, curses, old ruins, weather\n\n**Encounters**:\n\n- Beast ambushes (serpent swarms, corpse lizards)\n\n- Jungle diseases\n\n- Forgotten shrines to Sedna and false gods\n\n- Warnings carved in druidic or abyssal script\n\n🌀 *Effect*: Threats feel *indifferent*, but deadly—nature is not yet aware of the intruders.\n\n---\n\n### **🌘 Phase 2: The Encroached Zone (Mid-Jungle)**\n\n**Mood**: Wrongness seeps into the air—**rot without flies**, trees without birds, stone with veins.\n\n**Trigger**: Once within **3 hexes of Vexir**\n\n**Effects**:\n\n- **Normal jungle encounters shift** to include **cult influence and residual magic**\n\n- All Perception a…",
+      "raw": {}
+    },
+    {
+      "id": "bb:Page:stealth-preparation",
+      "type": "Page",
+      "name": "stealth-preparation",
+      "tags": [
+        "GameMechanics",
+        "Encounter"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Rules\\stealth-preparation.md",
+      "fm": {
+        "type": "Page",
+        "collections": "Black Brine",
+        "title": "Stealth Preparation",
+        "description": null,
+        "icon": null,
+        "createdAt": "2025-03-18T20:38:09.005Z",
+        "creationDate": "2025-03-18 15:38",
+        "modificationDate": "2025-03-18 15:45",
+        "tags": [
+          "GameMechanics",
+          "Encounter"
+        ],
+        "coverImage": null
+      },
+      "body_excerpt": "# Stealth Preparation\n\n## **1. Gear Modifications for Maximum Stealth**\n\nStrange Bones will **strip down and alter** their gear to minimize noise and visibility.\n\n### **🔹 Clothing & Armor Adjustments**\n\n✅ **Muted Colors & Camouflage**:\n\n- **Dye bright fabrics** using jungle **moss, crushed berries, or charcoal.**\n\n- Use **mud smearing & leafy coverings** to blend into the jungle.\n\n✅ **Silence Metal Armor & Weapons**:\n\n- **No chainmail or plate armor**—switch to **leather, padded armor, or cloth wrappings**.\n\n- **Wrap all buckles, weapons, and tools** in cloth, soft leather, or vine bindings to **prevent clanking.**\n\n- **Padded footwear** (softened leather or jungle moss insoles) to **reduce footstep noise.**\n\n✅ **Secure All Loose Gear**:\n\n- **Tightly wrap** rations, water skins, and suppli…",
       "raw": {}
     },
     {
@@ -2111,9 +2111,9 @@
       }
     },
     {
-      "id": "bb:npc:vel-corven",
+      "id": "bb:npc:vel-corvo",
       "type": "npc",
-      "name": "Vel Corven",
+      "name": "Vel Corvo",
       "tags": [
         "noble",
         "cult leader",
@@ -2128,15 +2128,15 @@
       "source": "RPG_Knowledge_Base\\03_NPCs\\Antagonists\\vel-corven.md",
       "fm": {
         "type": "npc",
-        "id": "bb:npc:vel-corven",
-        "name": "Vel Corven",
+        "id": "bb:npc:vel-corvo",
+        "name": "Vel Corvo",
         "summary": "Twilight Society fixture; schmoozes deals in the Velvet Nest above the Lending House.",
         "aliases": [
           "The Velvet Flame",
           "The Masked Host",
           "Whisper of Midnight"
         ],
-        "race": "Elf (androgynous, possibly half-fey or changeling)",
+        "race": "Half Elf (androgynous, possibly half-fey or changeling)",
         "gender": "Unknown",
         "age": "Appears ageless",
         "occupation": "High Host of the Twilight Society",
@@ -2156,63 +2156,18 @@
           "broker",
           "twilight-society"
         ],
-        "appearance": "Vel is a vision of elegance and mystery. Slender and tall, they glide rather than walk, draped in flowing silks and adorned in moonstone jewelry. Their mask—different every night—hides all but their piercing eyes, which shimmer like still water under starlight. Their scent, a heady blend of rare spices and midnight blooms, clings to every room they leave.\n",
-        "personality": "Vel speaks in riddles and rhymes, weaving gossip with prophecy. They are seductively persuasive, rarely raise their voice, and command a room with poise alone. Devoted to beauty, sensation, and the subtle accumulation of power, Vel exudes patience, menace, and allure in equal measure. They reward loyalty with luxury—and betrayal with elegant ruin.\n",
-        "abilities": [
-          {
-            "Enchanting Presence": "Disadvantage on Insight checks to detect deception"
-          },
-          {
-            "Fey Charm (1/day)": "Can charm a humanoid with a whispered phrase and gaze"
-          },
-          {
-            "Mask of Many Faces": "Always appears calm, alluring, and unreadable"
-          },
-          {
-            "Whispers of the Velvet Nest": "Commands a network of spies, lovers, and blackmailers"
-          }
-        ],
-        "backstory": "No one knows where Vel came from. Some say they arrived from the feywild during a blood moon; others whisper they were once a noble cast out for scandal. What is known: they built the Twilight Society from whispered promises and forbidden pleasures, binding nobles and misfits alike in a web of secrets. They may serve Sharess—or something far older, far stranger.\n",
-        "motivations": [
-          "Preserve and expand the influence of the Twilight Society",
-          "Maintain the illusion of luxury, freedom, and control",
-          "Collect secrets as currency and leverage over Black Brine's elite",
-          "Undermine Rosy’s grip on public morality and control"
-        ],
-        "allies": [
-          "The Twilight Society inner circle",
-          "Certain members of the Lending House and City Hull",
-          "A masked fey emissary known only as \"The Lanternless\""
-        ],
-        "rivals": [
-          "Several captains on the Council who fear their influence",
-          "bb:Page:captain-gun-deck-rosy",
-          "bb:location:temple-of-the-chained-god"
-        ],
-        "secrets": [
-          "Vel has not aged in over a century",
-          "Their mask is enchanted to conceal their true form… which may not be entirely elven",
-          "Keeps a ledger of favors owed—sealed in silver ink and protected by geas"
-        ],
-        "hooks": [
-          "A stolen mask reveals Vel’s true origin… and a debt owed to something in the jungle",
-          "Vel offers the party a favor, but demands a secret in return",
-          "The Chained God’s priests are plotting Vel’s public ruin—unless they strike first"
+        "portrait": "assets/portraits/vel-corven",
+        "sheet_url": "sheets/vel-corvo.pdf",
+        "system": "5e",
+        "level": 14,
+        "classes": [
+          "Bard 1-",
+          "Cleric 4"
         ]
       },
-      "body_excerpt": "",
+      "body_excerpt": "# Appearance \n  Vel is a vision of elegance and mystery. Slender and tall, they glide\n  rather than walk, draped in flowing silks and adorned in moonstone jewelry. Their\n  mask—different every night—hides all but their piercing eyes, which shimmer like\n  still water under starlight. Their scent, a heady blend of rare spices and midnight\n  blooms, clings to every room they leave.\n\n# Personality \n  Vel speaks in riddles and rhymes, weaving gossip with prophecy. They\n  are seductively persuasive, rarely raise their voice, and command a room with poise\n  alone. Devoted to beauty, sensation, and the subtle accumulation of power, Vel exudes\n  patience, menace, and allure in equal measure. They reward loyalty with luxury—and\n  betrayal with elegant ruin.\n\n# Abilities\n- Enchanting Presence: Disadv…",
       "raw": {
         "location": "bb:location:lending-house",
-        "allies": [
-          "The Twilight Society inner circle",
-          "Certain members of the Lending House and City Hull",
-          "A masked fey emissary known only as \"The Lanternless\""
-        ],
-        "rivals": [
-          "Several captains on the Council who fear their influence",
-          "bb:Page:captain-gun-deck-rosy",
-          "bb:location:temple-of-the-chained-god"
-        ],
         "appears_in": [
           "bb:location:lending-house-black-brine"
         ]
@@ -6373,7 +6328,7 @@
       "target": "bb:location:miremarket"
     },
     {
-      "source": "bb:npc:vel-corven",
+      "source": "bb:npc:vel-corvo",
       "rel": "appears_in",
       "target": "bb:location:lending-house-black-brine"
     },
