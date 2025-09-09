@@ -2253,7 +2253,8 @@
         "summary": "Widowmakers’ appointed inquisitor; precise, surgical, and impossible to shake once on a trail.",
         "location": "bb:location:house-of-questions",
         "factions": [
-          "bb:fleet:widowmakers"
+          "bb:fleet:widowmakers",
+          "bb:faction:house-of-questions"
         ],
         "allies": [],
         "rivals": [],
@@ -2279,7 +2280,8 @@
       "raw": {
         "location": "bb:location:house-of-questions",
         "factions": [
-          "bb:fleet:widowmakers"
+          "bb:fleet:widowmakers",
+          "bb:faction:house-of-questions"
         ],
         "allies": [],
         "rivals": [],
@@ -3246,7 +3248,7 @@
         "location": "bb:location:house-of-questions",
         "factions": [
           "bb:fleet:gilded-rats",
-          "bb:factiion:house-of-questions"
+          "bb:faction:house-of-questions"
         ],
         "allies": [],
         "rivals": [],
@@ -3264,7 +3266,7 @@
         "location": "bb:location:house-of-questions",
         "factions": [
           "bb:fleet:gilded-rats",
-          "bb:factiion:house-of-questions"
+          "bb:faction:house-of-questions"
         ],
         "allies": [],
         "rivals": [],
@@ -3290,7 +3292,8 @@
         "summary": "War-law inquisitor who treats testimony like a siege—breach, enter, secure.",
         "location": "bb:location:house-of-questions",
         "factions": [
-          "bb:fleet:red-wakes"
+          "bb:fleet:red-wakes",
+          "bb:faction:house-of-questions"
         ],
         "allies": [],
         "rivals": [],
@@ -3307,7 +3310,8 @@
       "raw": {
         "location": "bb:location:house-of-questions",
         "factions": [
-          "bb:fleet:red-wakes"
+          "bb:fleet:red-wakes",
+          "bb:faction:house-of-questions"
         ],
         "allies": [],
         "rivals": [],
@@ -3333,7 +3337,8 @@
         "summary": "Pathologist of fear; reads rot like scripture and wrings truth from the sick.",
         "location": "bb:location:house-of-questions",
         "factions": [
-          "bb:fleet:miasma"
+          "bb:fleet:miasma",
+          "bb:faction:house-of-questions"
         ],
         "allies": [],
         "rivals": [],
@@ -3350,7 +3355,8 @@
       "raw": {
         "location": "bb:location:house-of-questions",
         "factions": [
-          "bb:fleet:miasma"
+          "bb:fleet:miasma",
+          "bb:faction:house-of-questions"
         ],
         "allies": [],
         "rivals": [],
@@ -3376,7 +3382,8 @@
         "summary": "Amphibious interrogator who hears lies in breath and current; vanishes beneath the piers.",
         "location": "bb:location:house-of-questions",
         "factions": [
-          "bb:fleet:malign-crew"
+          "bb:fleet:malign-crew",
+          "bb:faction:house-of-questions"
         ],
         "allies": [],
         "rivals": [],
@@ -3393,7 +3400,8 @@
       "raw": {
         "location": "bb:location:house-of-questions",
         "factions": [
-          "bb:fleet:malign-crew"
+          "bb:fleet:malign-crew",
+          "bb:faction:house-of-questions"
         ],
         "allies": [],
         "rivals": [],
@@ -3419,7 +3427,8 @@
         "summary": "Veil-walker who questions in dreams and writes confessions in fog on waking glass.",
         "location": "bb:location:house-of-questions",
         "factions": [
-          "bb:fleet:hollow-fangs"
+          "bb:fleet:hollow-fangs",
+          "bb:faction:house-of-questions"
         ],
         "allies": [],
         "rivals": [],
@@ -3436,7 +3445,8 @@
       "raw": {
         "location": "bb:location:house-of-questions",
         "factions": [
-          "bb:fleet:hollow-fangs"
+          "bb:fleet:hollow-fangs",
+          "bb:faction:house-of-questions"
         ],
         "allies": [],
         "rivals": [],
@@ -5718,6 +5728,11 @@
       "target": "bb:fleet:widowmakers"
     },
     {
+      "source": "bb:npc:inquisitor-zunizar",
+      "rel": "member_of",
+      "target": "bb:faction:house-of-questions"
+    },
+    {
       "source": "bb:npc:rupert-richthorn",
       "rel": "located_in",
       "target": "bb:city:black-brine"
@@ -5813,6 +5828,11 @@
       "target": "bb:fleet:gilded-rats"
     },
     {
+      "source": "bb:npc:inquisitor-denara-gilt",
+      "rel": "member_of",
+      "target": "bb:faction:house-of-questions"
+    },
+    {
       "source": "bb:npc:inquisitor-iria-boardcutter",
       "rel": "located_in",
       "target": "bb:location:house-of-questions"
@@ -5821,6 +5841,11 @@
       "source": "bb:npc:inquisitor-iria-boardcutter",
       "rel": "member_of",
       "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:npc:inquisitor-iria-boardcutter",
+      "rel": "member_of",
+      "target": "bb:faction:house-of-questions"
     },
     {
       "source": "bb:npc:inquisitor-morwen-plagueglass",
@@ -5833,6 +5858,11 @@
       "target": "bb:fleet:miasma"
     },
     {
+      "source": "bb:npc:inquisitor-morwen-plagueglass",
+      "rel": "member_of",
+      "target": "bb:faction:house-of-questions"
+    },
+    {
       "source": "bb:npc:inquisitor-shark-eye-neris",
       "rel": "located_in",
       "target": "bb:location:house-of-questions"
@@ -5843,6 +5873,11 @@
       "target": "bb:fleet:malign-crew"
     },
     {
+      "source": "bb:npc:inquisitor-shark-eye-neris",
+      "rel": "member_of",
+      "target": "bb:faction:house-of-questions"
+    },
+    {
       "source": "bb:npc:inquisitor-whisper-keel",
       "rel": "located_in",
       "target": "bb:location:house-of-questions"
@@ -5851,6 +5886,11 @@
       "source": "bb:npc:inquisitor-whisper-keel",
       "rel": "member_of",
       "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:npc:inquisitor-whisper-keel",
+      "rel": "member_of",
+      "target": "bb:faction:house-of-questions"
     },
     {
       "source": "bb:npc:lady-jackdaw",
@@ -6461,6 +6501,6 @@
   "unresolved": [],
   "stats": {
     "nodes": 146,
-    "edges": 181
+    "edges": 187
   }
 }

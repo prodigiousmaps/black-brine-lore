@@ -7,6 +7,7 @@ summary: Widowmakers’ appointed inquisitor; precise, surgical, and impossible 
 location: bb:location:house-of-questions
 factions:
 - bb:fleet:widowmakers
+- bb:faction:house-of-questions
 allies: []
 rivals: []
 appears_in:
