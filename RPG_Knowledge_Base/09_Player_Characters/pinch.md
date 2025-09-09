@@ -31,7 +31,9 @@ portrait: [assets/portraits/pinch.png]
 sheet_url: [sheets/pinch.pdf]
 system: 5e
 level: 8
-classes: [Wizard 4, Rogue 4]
+classes: 
+  - Wizard 4
+  - Rogue 4
 ---
 # Description
 Small, wiry frame; dusty-gray skin; wild white shock of hair; ink-black eyes. Patchwork leathers over scholar’s robes, magnifying spectacles, satchel stained with ink and maps.

@@ -10,7 +10,11 @@ allies:
 rivals: []
 appears_in:
   - bb:location:ruperts-rest
-tags: [warrior, bodyguard, rupert, household]
+tags: 
+  - warrior
+  - bodyguard
+  - rupert
+  - household
 portrait: assets/portraits/fenrith.png
 sheet_url: sheets/fenrith.pdf
 system: 5e
