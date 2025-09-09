@@ -2730,7 +2730,7 @@
           "terror",
           "necrotic"
         ],
-        "portrait": "assets/portraits/bloodshot.jpg"
+        "portrait": "assets/portraits/captain-bloodshot.jpg"
       },
       "body_excerpt": "# Captain Bloodshot\n\n## Overview\nMaster of the Miasma Fleet, commanding cursed vessels and warped sailors through mist and fear.\n\n## Fleet\n- Ships: 3 cursed vessels, including *The Miasma*  \n- Crew: Warped, mutated, terrifying  \n- Style: Terror tactics, eldritch magic  \n- Reputation: Feared more dead than alive  \n\n## Customs\n- Blackened Chalice – crew drinks blood before battle  \n- Bone Hunt – new recruits must trophy a sinking  \n- Silent Decks – whispers only aboard *The Miasma*",
       "raw": {
@@ -2888,7 +2888,7 @@
           "malign",
           "smuggler"
         ],
-        "portrait": "assets/portraits/tasty-bite.jpg"
+        "portrait": "assets/portraits/captain-tasty-bite.jpg"
       },
       "body_excerpt": "# Captain Tasty Bite\n\n## Overview\nLeader of the Malign fleet, the richest criminal of Black Brine’s seas.\n\n## Fleet\n- Ships: 4 corsairs, including *The Malign*  \n- Crew: Amphibious spies, navigators  \n- Style: Bribes and ambushes  \n- Reputation: Richest outlaw outside the council  \n\n## Customs\n- Shark’s Mark – shark tooth necklaces of rivals  \n- First Bite – blood tribute to the sea  \n- Silent Currents – hand signals and clicks",
       "raw": {
