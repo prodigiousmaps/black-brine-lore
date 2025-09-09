@@ -18,13 +18,8 @@ classes: [Sorcerer 4, Fighter 6]
 ---
 
 
-# Captain "Gun Deck" Rosy
-
-### **Gun Deck Rosy’s Devotion to Sedna is absolute**
-
-- Her **fanaticism commands both fear and loyalty**, as people whisper of her **rituals and sacrifices**.
-
-- She might possess **Sedna’s blessings**, granting her unnerving resilience, visions from the depths, or **hexblade powers**.
+# Description
+Rosy is not just a pioneering pirate captain, she is a cagey and intelligent politician. Militaristic, disciplined and fearless, Rosy's rise to power is a story of blood smoke and ruthless strategy. Her devotion to Sedna is absolute. Her fanaticism commands both fear and loyalty, as people whisper of her rituals and sacrifices. She might possess Sedna’s blessings, granting her unnerving resilience, visions from the depths, or hexblade powers.
 
 - **Her ship could be a shrine**—its hull reinforced with deep-sea bones, its figurehead depicting Sedna’s **twisted, hag-like visage**.
 

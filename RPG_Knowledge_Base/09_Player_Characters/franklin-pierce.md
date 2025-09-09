@@ -31,7 +31,7 @@ system: 5e
 level: 8
 classes: [Bard 4, Rogue 4]
 ---
-# Appearance
+# Description
 Lean and wiry, dark hair slicked back with careless charm, hazel eyes that are always sizing up the room. Threadbare finery, a gilded stolen rapier, and a subtle forearm tattoo from a defunct thieves’ guild.
 
 # Personality

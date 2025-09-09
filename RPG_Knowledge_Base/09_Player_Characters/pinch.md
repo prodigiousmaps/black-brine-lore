@@ -33,7 +33,7 @@ system: 5e
 level: 8
 classes: [Wizard 4, Rogue 4]
 ---
-# Appearance
+# Description
 Small, wiry frame; dusty-gray skin; wild white shock of hair; ink-black eyes. Patchwork leathers over scholar’s robes, magnifying spectacles, satchel stained with ink and maps.
 
 # Personality

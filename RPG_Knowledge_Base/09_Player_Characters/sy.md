@@ -34,7 +34,7 @@ system: 5e
 level: 8
 classes: [Warlock 4, Rogue 4]
 ---
-# Appearance
+# Description
 Lithe swimmer’s build; sea-toned skin with green-blue sheen; long dark hair; reflective green eyes; ritual scarring along ribs; slightly webbed fingers; trident-shaped sentient dagger at the belt.
 
 # Personality
