@@ -9,6 +9,7 @@ government: Mixed authority — local guilds, district enforcers, captains’ in
 maps_available: true
 map_files: [Crosswater-District-Map.jpg]
 tags: [district, industry, docks, shipwrights, smiths, weapons, working-class]
+portrait: assets/flavor/cross-water.jpg
 ---
 
 # Overview

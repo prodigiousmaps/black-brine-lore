@@ -1,0 +1,16 @@
+---
+type: patch
+target: bb:campaign:fallen-city-structure
+add:
+  participants:
+  - bb:npc:rupert-richthorn
+  - bb:npc:vermin-lord
+  - bb:npc:amber-bloom
+  - bb:npc:lord-quwen
+  factions:
+  - bb:faction:house-of-questions
+  locations:
+  - bb:region:orsauran-mountains
+  - bb:city:black-brine
+  items:
+  - bb:item:codex-salt-shadow

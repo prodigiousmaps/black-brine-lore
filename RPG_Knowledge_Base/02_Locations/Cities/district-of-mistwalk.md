@@ -10,6 +10,7 @@ maps_available: true
 map_files:
   - Mistwalk-Level1-37x33-Day.jpg
 tags: [district, politics, elite, cult, religion, trade, intrigue]
+portrait: assets/flavor/mistwalk.jpg
 ---
 
 # Overview

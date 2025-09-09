@@ -1,0 +1,6 @@
+---
+type: patch
+target: bb:rules:jungle-survival
+add:
+  appears_in:
+  - bb:campaign:into-deep-green

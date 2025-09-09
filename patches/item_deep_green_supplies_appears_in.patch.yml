@@ -1,0 +1,6 @@
+---
+type: patch
+target: bb:item:deep-green-supplies
+add:
+  appears_in:
+  - bb:campaign:into-deep-green

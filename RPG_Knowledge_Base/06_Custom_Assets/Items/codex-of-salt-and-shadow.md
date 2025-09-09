@@ -8,6 +8,7 @@ summary: >
 rarity: legendary
 slot: wondrous item
 tags: [book, sedna, lore, cursed]
+portrait: assets/items/codex-salt-shadow.png
 ---
 
 # Codex of Salt and Shadow

@@ -450,78 +450,51 @@
       }
     },
     {
-      "id": "bb:Page:infiltration-temple-of-sedna",
-      "type": "Page",
-      "name": "infiltration-temple-of-sedna",
+      "id": "bb:campaign:dead-sons-narrative",
+      "type": "campaign",
+      "name": "Dead Sons Campaign Narrative",
       "tags": [
-        "Encounter"
-      ],
-      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Encounters\\infiltration-temple-of-sedna.md",
-      "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Infiltration - Little Sedna",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-05-21T21:11:14.824Z",
-        "creationDate": "2025-05-21 16:11",
-        "modificationDate": "2025-05-21 16:47",
-        "tags": [
-          "Encounter"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Infiltration - Little Sedna\n\n---\n\n[SednaInterior](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/5d466963-d411-45e0-b930-8cbd26c3281e)\n\n# 🧭 Temple of Sedna Infiltration – GM Area Guide\n\n*Level 6 adventure for Pinch, Franklin, and Sy – 2 to 3 hours*\n\n---\n\n## 🗺️ AREA 1: **Entrance Tunnel**\n\n**Description**\n\nSlippery, barnacle-covered steps descend into salt-choked air. The temple is quiet, but the deeper rooms hiss and breathe with the tide.\n\n**Hazards**\n\n- **Salt Scab Trap** – Pressure plate covered in salt crystals.\n\n    - Trigger: Spike erupts (Dex Save DC 14 or 3d10 piercing + grappled).\n\n- **Bioluminescent Barnacles** – Loud movement causes them to glow (Stealth Disadvantage for 1 minute).\n\n**Clues**\n\n- **Fresco on the wall**: A woman with a sewn mouth, three ritual bo…",
-      "raw": {}
-    },
-    {
-      "id": "bb:Page:dead-sons-campaign-narrative",
-      "type": "Page",
-      "name": "dead-sons-campaign-narrative",
-      "tags": [
-        "CampaignHistory"
+        "campaign",
+        "dead-sons",
+        "narrative"
       ],
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\dead-sons-campaign-narrative.md",
       "fm": {
-        "type": "Page",
-        "collections": "Past Campaigns",
-        "title": "Dead Sons Campaign Narrative",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-08-22T04:12:06.584Z",
-        "creationDate": "2025-08-21 23:12",
-        "modificationDate": "2025-08-21 23:18",
+        "type": "campaign",
+        "id": "bb:campaign:dead-sons-narrative",
+        "name": "Dead Sons Campaign Narrative",
+        "summary": "Narrative episodes, speeches, and city mechanics from the Dead Sons campaign.",
         "tags": [
-          "CampaignHistory"
-        ],
-        "coverImage": null
+          "campaign",
+          "dead-sons",
+          "narrative"
+        ]
       },
-      "body_excerpt": "# Dead Sons Campaign Narrative\n\n**\n\nEpisode 1\n\n1. Readings\n\n    1. General Von Nevel addresses the company*\n\n    2. Rupert Toasts the fallen heroes*\n\n2. Scenes\n\n    1. Command Tent - Open QA around the command fire\n\n    2. Cutty and Luka - \n\n        1. How to feed an army\n\n            1. savory barley porridge made with broth, bone, chicken, beef, mutton bacon\n\n            2. dried mushrooms, scallions and peppers, goodberries promote nutrition, flavor punch and filling \n\n        2. how to serve an army\n\n            1. one serving\n\n            2. gold piece on pay day (golden slop) and 2 flagons of ale\n\n        3. foraging \n\n            1. Water\n\n            2. Greens\n\n            3. root vegetables\n\n            4. Salt\n\n            5. Tobacco\n\n        4. Secrets\n\n            1. spice pouc…",
+      "body_excerpt": "# Dead Sons Campaign Narrative\n\n## Episode 1\n\n### Readings\n- General Von Nevel addresses the company.  \n- Rupert toasts fallen heroes.  \n\n### Scenes\n- **Command Tent** – QA at command fire.  \n- **Cutty & Luka** – Feeding the army (porridge, foraging, secrets).  \n- **Amber Bloom** seeks training.  \n\n### Von Nevel’s Speech\n[Full speech preserved: honoring Ruben & founders, tradition, siege prep, comedy beats, PC introductions, honors for York Goldmaul, etc.]  \n\n---\n\n## City Bustle – Waterdeep Mechanics\n- Travel times by ward (walking, drays, hire-coach).  \n- Random fare rolls.  \n- Luck DCs for traffic.  \n- Limits on daily shopping/visits.  \n- Odd shops: hats, puppets, souvenirs, exotic food.",
       "raw": {}
     },
     {
-      "id": "bb:Page:dead-sons-campaign-structure",
-      "type": "Page",
-      "name": "dead-sons-campaign-structure",
+      "id": "bb:campaign:dead-sons-structure",
+      "type": "campaign",
+      "name": "Dead Sons Campaign Structure",
       "tags": [
-        "CampaignHistory"
+        "campaign",
+        "dead-sons",
+        "structure"
       ],
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\dead-sons-campaign-structure.md",
       "fm": {
-        "type": "Page",
-        "collections": "Past Campaigns",
-        "title": "Dead Sons Campaign Structure",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-08-22T04:08:48.635Z",
-        "creationDate": "2025-08-21 23:08",
-        "modificationDate": "2025-08-21 23:19",
+        "type": "campaign",
+        "id": "bb:campaign:dead-sons-structure",
+        "name": "Dead Sons Campaign Structure",
+        "summary": "Structure, acts, sessions, mechanics, and encounters of the Dead Sons campaign.",
         "tags": [
-          "CampaignHistory"
-        ],
-        "coverImage": null
+          "campaign",
+          "dead-sons",
+          "structure"
+        ]
       },
-      "body_excerpt": "# Dead Sons Campaign Structure\n\nCampaign Structure\n\nAct 1\nSession 1\nLanding Party - Hlondeth\nThe party is sent to investigate the fate of Lord Quwen\nGreeted at the port by Caleo and escorted to the camp\nInfo about the Dead Sons\n459 men and horse\n115 light Cavalry company\n232 heavy Cavalry company\n52 support\n60 scouting company\nDead Sons Base\nCity of Westgate\nDragon Coast\nDragonmere Sea\nSailed through the Sea of Fallen Stars around Turmish up the Vilhon Reach\nOrganization\nMembership is voluntary\nHighly experienced\nMembers must have reputation or demonstrate skill\n1 gp per week pay\n2 gp per week for officers\nDead Sons Code of Conduct\nNo rape\nNo torture\nNo pillage- unless authorized\nNo in-fighting\nParty will be approached by the horses of the dead mage corps, horses will aproach one at a time…",
+      "body_excerpt": "# Dead Sons Campaign Structure\n\n## Act I\n\n### Session 1 – Landing Party, Hlondeth\n- Party investigates fate of Lord Quwen.  \n- Greeted by Caleo, escorted to camp.  \n- Introduced to the Dead Sons:  \n  - 459 men & horse, 115 light cavalry, 232 heavy, 52 support, 60 scouts.  \n  - Base: Westgate, Dragon Coast.  \n  - Membership voluntary, reputation required.  \n  - Pay: 1 gp/week (2 gp for officers).  \n- Code of Conduct: no rape, torture, pillage (unless authorized), no in-fighting.  \n\n#### Magical Mounts\nEach PC attunes to a horse (Animal Handling required). Feats apply only mounted.  \n- Traston – Swiftseeker (Black Stallion) – Piercer, gust.  \n- Luka – Wisewind (Sandy Mare) – Alert, misty step.  \n- Mirakas – Moonguide (White Mare) – Spell Sniper, fog cloud, firebolt.  \n- Otho – Ironsong (Dapp…",
       "raw": {}
     },
     {
@@ -550,28 +523,78 @@
       "raw": {}
     },
     {
-      "id": "bb:Page:fallen-city-rupert-richthorn-memory-palace",
-      "type": "Page",
-      "name": "fallen-city-rupert-richthorn-memory-palace",
+      "id": "bb:campaign:fallen-city-structure",
+      "type": "campaign",
+      "name": "Fallen City Campaign Structure",
       "tags": [
-        "CampaignHistory"
+        "campaign",
+        "fallen-city",
+        "structure"
+      ],
+      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\fallen-city-campaign-structure.md",
+      "fm": {
+        "type": "campaign",
+        "id": "bb:campaign:fallen-city-structure",
+        "name": "Fallen City Campaign Structure",
+        "summary": "Structured acts, subplots, and narrative outline of the Fallen City campaign.",
+        "tags": [
+          "campaign",
+          "fallen-city",
+          "structure"
+        ]
+      },
+      "body_excerpt": "# Fallen City Campaign Structure\n\n## Act I – The Missing Mage\n1. Fear for a friend – crime scene.  \n2. Investigation – trail to old friends.  \n3. Rescue – Rupert alive, captive.  \n\n## Act II – The Search\n1. Tracking the Unborn.  \n2. Piecing events – trail of destruction, mage ally.  \n3. Astral gate, Rupert’s location revealed.  \n\n## Act III – The Frozen City\n- Main arc + subplots.  \n- Ongoing temptations from Vermin Lord.  \n\n---\n\n## Character Plots\n- **Traston** – cursed dagger demands blood.  \n- **Luca** – family pressure vs Rupert.  \n- **Alark** – Nithri’s forbidden affection.  \n- **Mirakkas** – haunted spellbook, poison pages.  \n- **Farphlung** – Spirit Tree quest in Dead District.  \n- **Rupert** – conversations in captivity.  \n\n---\n\n## Narrative Outline\n- Call to action: Amber Bloom’s …",
+      "raw": {}
+    },
+    {
+      "id": "bb:campaign:fallen-city-memory-palace",
+      "type": "campaign",
+      "name": "Fallen City – Rupert Richthorn Memory Palace",
+      "tags": [
+        "campaign",
+        "fallen-city",
+        "rupert",
+        "memory-palace"
       ],
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\fallen-city-rupert-richthorn-memory-palace.md",
       "fm": {
+        "type": "campaign",
+        "id": "bb:campaign:fallen-city-memory-palace",
+        "name": "Fallen City – Rupert Richthorn Memory Palace",
+        "summary": "Details of Rupert’s captivity and astral projection imprisonment in the Fallen City campaign.",
+        "tags": [
+          "campaign",
+          "fallen-city",
+          "rupert",
+          "memory-palace"
+        ]
+      },
+      "body_excerpt": "# Fallen City – Rupert Richthorn Memory Palace\n\n## What Rupert Knows\n- Transported by Astral Projection via hidden Glyph of Warding.  \n- Spell targeted individual, highly advanced.  \n- Stone shard matched to foreign architecture.  \n- Teleport return uncertain due to complexity.  \n- Enemy thorough; Rupert central to plot.  \n\n## Current Condition\n- Imprisoned in antimagic field + wall of force.  \n- No spell/item use.  \n- Cell: ornate stone chamber, unfamiliar style, dais, lantern, cot, water, food.  \n- Food delivered by Vermin Lord mage.  \n\n## Guidance to PCs\n- Believes he’s in Orsauran Mountains.  \n- Scrying blocked.  \n- Advises: deliver research to Lord Quwen, speak to Strongboots.",
+      "raw": {}
+    },
+    {
+      "id": "bb:Page:infiltration-temple-of-sedna",
+      "type": "Page",
+      "name": "infiltration-temple-of-sedna",
+      "tags": [
+        "Encounter"
+      ],
+      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\infiltration-temple-of-sedna.md",
+      "fm": {
         "type": "Page",
-        "collections": "Past Campaigns",
-        "title": "Fallen City Rupert Richthorn Memory Palace",
+        "collections": "Black Brine",
+        "title": "Infiltration - Little Sedna",
         "description": null,
         "icon": null,
-        "createdAt": "2025-08-22T04:16:02.642Z",
-        "creationDate": "2025-08-21 23:16",
-        "modificationDate": "2025-08-21 23:22",
+        "createdAt": "2025-05-21T21:11:14.824Z",
+        "creationDate": "2025-05-21 16:11",
+        "modificationDate": "2025-05-21 16:47",
         "tags": [
-          "CampaignHistory"
+          "Encounter"
         ],
         "coverImage": null
       },
-      "body_excerpt": "# Fallen City Rupert Richthorn Memory Palace\n\nRuper Richthorn\n\nIn the memory palace\n\n1. What does he know?\n\n    1. He was transported by an Astral Projection spell\n\n    2. The spell was hidden inside a Glyph of Warding spell\n\n        1. This means it was cast onsite\n\n        2. The Astral Projection spell was unfamiliar\n\n            1. It is a similar spell but designed to target an individual\n\n            2. Requires an extremely advanced understanding of spell engineering\n\n            3. In the box was a chunk of stone broken from a structure he was able to match to a piece of architecture at the destination\n\n            4. The stone is not native to the Orsauran Mountains\n\n        3. The traditional rules of Astral Projection\n\n            1. Technically he could kill his astral self and…",
+      "body_excerpt": "# Infiltration - Little Sedna\n\n---\n\n[SednaInterior](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/5d466963-d411-45e0-b930-8cbd26c3281e)\n\n# 🧭 Temple of Sedna Infiltration – GM Area Guide\n\n*Level 6 adventure for Pinch, Franklin, and Sy – 2 to 3 hours*\n\n---\n\n## 🗺️ AREA 1: **Entrance Tunnel**\n\n**Description**\n\nSlippery, barnacle-covered steps descend into salt-choked air. The temple is quiet, but the deeper rooms hiss and breathe with the tide.\n\n**Hazards**\n\n- **Salt Scab Trap** – Pressure plate covered in salt crystals.\n\n    - Trigger: Spike erupts (Dex Save DC 14 or 3d10 piercing + grappled).\n\n- **Bioluminescent Barnacles** – Loud movement causes them to glow (Stealth Disadvantage for 1 minute).\n\n**Clues**\n\n- **Fresco on the wall**: A woman with a sewn mouth, three ritual bo…",
       "raw": {}
     },
     {
@@ -1475,7 +1498,8 @@
           "black-brine",
           "coin",
           "magic"
-        ]
+        ],
+        "portrait": "assets/items/challenge-coins.png"
       },
       "body_excerpt": "# Challenge Coins of Black Brine\n\n### Magical Safeguards\n1. **Magical Signature** – Bound to captain’s blood or soul; cannot be forged.  \n2. **Tracking** – Ritual possible with connection item; imprecise but reveals region.  \n3. **Challenge Response** – Requires phrase or gesture; misuse exposes impostors.\n\n### Enemy Implications\n- Corsair-worshipers cannot easily forge.  \n- Coins risky to use openly.  \n- Suppression rituals possible but traceable.\n\n### Rupert’s Role\nRupert can accelerate rituals, break suppression, and leverage the crew.\n\n### Campaign Arc\n- **Sessions 1–2**: Missing coin discovered.  \n- **3–4**: Enemy begins testing; tracking ritual contested.  \n- **5+**: Confrontation, decision on coin’s fate.\n\n### Twists\n- Rival factions may hunt coin.  \n- Enemy might discard coin for a…",
       "raw": {}
@@ -1503,7 +1527,8 @@
           "sedna",
           "lore",
           "cursed"
-        ]
+        ],
+        "portrait": "assets/items/codex-salt-shadow.png"
       },
       "body_excerpt": "# Codex of Salt and Shadow\n\n### Physical Description\n- Bound in eelhide, slick and warm near seawater.  \n- Translucent shifting pages, ink moves unseen.  \n- Glyphs visible only submerged in saltwater.  \n- Whispers faintly; smells of brine, blood, and stone.\n\n### Contents\n1. **Liturgies of the Abyssal Silence** – Invocations of drowning and silence.  \n2. **Unspoken History** – Tale of Eshvahar, the False Flame, bound beneath Vexir.  \n3. **Sedna’s Gifts** – Amphorae of Breath, Brine Golems, Tide Key, Brine Veil.  \n4. **Vein of Stillness** – Leylines beneath sea and jungle, Stillbirth Chapel.\n\n### Magical Properties\n- Attuned bearer may cast *Control Water* or *Water Breathing* once/long rest.  \n- Ritual *Augury* reveals Sedna’s will.  \n- Weekly Silence Offering: silent meditation for vision,…",
       "raw": {}
@@ -1563,6 +1588,7 @@
           "sedna",
           "hollow-goddess"
         ],
+        "portrait": "assets/items/final-verse.png",
         "appears_in": [
           "bb:story:skull-garden-black-river"
         ]
@@ -1629,7 +1655,8 @@
           "cooking",
           "underdark",
           "lore"
-        ]
+        ],
+        "portrait": "assets/items/blind-chefs-almanac.png"
       },
       "body_excerpt": "# The Blind Chef’s Almanac\n\n### Overview\nA forbidden cookbook of the deep gnomes, recopied and corrupted through the centuries. Its existence is outlawed; possessing it is both heretical and dangerous.\n\n### Table of Contents\n1. Introduction  \n2. A Note on Ingredients  \n3. Soups & Stews  \n4. Savory Dishes  \n5. Baked & Preserved Goods  \n6. Snacks & Quick Bites  \n7. Exotic Drinks & Brews  \n8. Cooking Superstitions & Rituals  \n9. Annotated Notes & Discoveries  \n\n### Introduction\n*The Blind Chef’s Almanac* is an unofficial, pirated copy of an ancient manual.  \nIt breaks the deep gnome taboo of written culinary lore. Its origin is unknown.\n\n### Ingredients\n- **Glowcaps** – Bioluminescent fungi.  \n- **Trillimac Stalks** – Bread-like mushroom.  \n- **Deep Rothe Milk** – Gamey dairy.  \n- **Darksnail…",
       "raw": {
@@ -4018,9 +4045,7 @@
         "population": "moderate",
         "government": "Overseen by the Captain’s Council, loosely administered by rotating magistrates",
         "maps_available": true,
-        "map_files": [
-          "Blackmire-District-Map.jpg"
-        ],
+        "map_files": [],
         "tags": [
           "district",
           "swamp",
@@ -4028,7 +4053,8 @@
           "crime",
           "slums",
           "mystery"
-        ]
+        ],
+        "portrait": "assets/flavor/black-mire.jpg"
       },
       "body_excerpt": "# Overview\nBlackmire squats in the low basin of Black Brine’s northeastern edge, a fetid sprawl of half-sunken alleys, leaning shanties, and broken boardwalks. Mist and moss choke the air, steeped in the smell of tar, rot, and stagnant water. It is where the city’s filth collects—runoff, secrets, and broken lives.\n\n# Geography\n- Flood-prone bog streets, stilted homes, and narrow canals  \n- Crumbling docks on fetid inlets  \n- Mangroves of the Mire Fen pressing into the district  \n- Abandoned, flooded warehouses along the river  \n\n# Notable Features\n- **Miremarket** – Black market disguised as salvage bazaar.  \n- **The Crooked Lantern** – Crumbling tavern, center of rumors and disappearances.  \n- **Whisperer’s Hollow** – Old well filled with offerings to a swamp spirit.  \n- **Foghouse Row** …",
       "raw": {
@@ -4069,7 +4095,8 @@
           "smiths",
           "weapons",
           "working-class"
-        ]
+        ],
+        "portrait": "assets/flavor/cross-water.jpg"
       },
       "body_excerpt": "# Overview\nCrosswater is the industrial lung of Black Brine—loud, grimy, and always working. Straddling the Daggerflow’s eastern bank just south of Salt Crown, it is where wood, steel, and sweat become ships, weapons, and coin. Tar, metal, and salt hang in the air while cranes groan overhead.  \n\n# Geography\n- Cobbled lanes between slanted buildings and stacked warehouses.  \n- Dry docks housing half-gutted hulls.  \n- Soot-blackened chimneys belching smoke.  \n- Flood-prone alleys crusted with seaweed at high tide.  \n\n# Notable Features\n- **Dry Docks of Crosswater** – Constant clang of repairs; “where ships bleed and are reborn.”  \n- **The Wet Bar** – Sunken two-level tavern catering to aquatic folk; half-submerged.  \n- **String & Power** – Famous weaponsmiths, the feuding Gunderson brothers …",
       "raw": {
@@ -4161,7 +4188,8 @@
           "religion",
           "trade",
           "intrigue"
-        ]
+        ],
+        "portrait": "assets/flavor/mistwalk.jpg"
       },
       "body_excerpt": "# Overview\nMistwalk is the nerve center of Black Brine—equal parts gilded theater and dagger’s edge. It is where captains rule, cults whisper, and merchants trade in blood and coin. Fog swirls through perfumed streets, thick with incense, secrets, and the weight of eyes watching from every balcony.\n\n# Geography\n- Tiered terraces overlooking the Black Brine River  \n- Ornate bridges and cobbled plazas  \n- Upper levels: opulent and maze-like  \n- Lower alleys: shrines, markets, and informants  \n- Fog lingers heavier here than anywhere else in the city  \n\n# Notable Features\n- **City Hull** – Grounded galleon serving as fortress and government hall  \n- **Gallows Market** – Multicolored plaza of fashion, shadowed by the Chained God temple  \n- **The Captain’s Club** – Private den for gambling, mus…",
       "raw": {
@@ -6407,7 +6435,7 @@
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 146,
+    "nodes": 147,
     "edges": 171
   }
 }

@@ -1,0 +1,6 @@
+---
+type: patch
+target: bb:pc:franklin-pierce
+add:
+  appears_in:
+  - bb:campaign:into-deep-green

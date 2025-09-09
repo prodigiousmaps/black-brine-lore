@@ -1,0 +1,19 @@
+---
+type: patch
+target: bb:campaign:dead-sons-narrative
+add:
+  participants:
+  - bb:npc:rupert-richthorn
+  - bb:npc:general-von-nevel
+  - bb:npc:cutty
+  - bb:npc:caleo
+  - bb:npc:strongboots
+  - bb:npc:bruce
+  - bb:npc:curate-sorark
+  - bb:npc:gotubak
+  - bb:npc:amber-bloom
+  factions:
+  - bb:faction:dead-sons
+  locations:
+  - bb:settlement:hlondeth
+  - bb:city:waterdeep

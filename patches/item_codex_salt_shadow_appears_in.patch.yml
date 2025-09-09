@@ -1,0 +1,6 @@
+---
+type: patch
+target: bb:item:codex-salt-shadow
+add:
+  appears_in:
+  - bb:campaign:fallen-city-structure

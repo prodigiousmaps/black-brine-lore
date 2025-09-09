@@ -6,6 +6,7 @@ summary: >
   Magical safeguards placed on pirate captains’ coins of Black Brine.
   Details sigils, tracking, security rituals, and campaign uses.
 tags: [lore, black-brine, coin, magic]
+portrait: assets/items/challenge-coins.png
 ---
 
 # Challenge Coins of Black Brine

@@ -1,5 +1,5 @@
 {
-  "total_files": 146,
+  "total_files": 147,
   "patches": [
     "patches\\skull-garden-black-river.yml",
     "patches\\franklin-pierce.yml",
@@ -11,6 +11,7 @@
     "patches\\into-deep-green-vine-sanctum.yml",
     "patches\\ravething.yml",
     "patches\\false-beauty-vines.yml",
+    "patches\\final-verse.yml",
     "patches\\butchers.yml",
     "patches\\twilight-society.yml",
     "patches\\hollow-fangs.yml",
@@ -813,6 +814,33 @@
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-weather-events.md",
       "field": "parent_location",
       "value": "bb:region:sedna-jungle",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\deep-green-supplies.md",
+      "field": "appears_in",
+      "value": "bb:story:encounter-2-deep-green",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\final-verse.md",
+      "field": "appears_in",
+      "value": "bb:story:skull-garden-black-river",
+      "resolved_id": "bb:story:skull-garden-black-river",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\journal-fragment-viii.md",
+      "field": "appears_in",
+      "value": "bb:story:encounter-2-deep-green",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,

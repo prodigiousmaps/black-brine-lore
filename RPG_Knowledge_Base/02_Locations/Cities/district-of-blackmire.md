@@ -7,8 +7,9 @@ location_type: district
 population: moderate
 government: Overseen by the Captain’s Council, loosely administered by rotating magistrates
 maps_available: true
-map_files: [Blackmire-District-Map.jpg]
+map_files: []
 tags: [district, swamp, industry, crime, slums, mystery]
+portrait: assets/flavor/black-mire.jpg
 ---
 
 # Overview

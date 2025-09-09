@@ -1,0 +1,7 @@
+---
+type: patch
+target: bb:npc:rupert-richthorn
+add:
+  appears_in:
+  - bb:campaign:dead-sons-structure
+  - bb:campaign:fallen-city-structure

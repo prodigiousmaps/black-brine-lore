@@ -1,0 +1,24 @@
+---
+type: patch
+target: bb:campaign:into-deep-green
+add:
+  participants:
+  - bb:pc:franklin-pierce
+  - bb:pc:sy
+  - bb:pc:pinch
+  - bb:npc:strange-bones
+  locations:
+  - bb:region:sedna-jungle
+  - bb:city:black-brine
+  items:
+  - bb:item:deep-green-supplies
+  related_rules:
+  - bb:rules:jungle-environmental-threat-level
+  - bb:rules:jungle-event-threat-level
+  - bb:rules:jungle-passive-threat-level
+  - bb:rules:jungle-travel-phases
+  - bb:rules:jungle-navigation
+  - bb:rules:jungle-navigation-events
+  - bb:rules:jungle-survival
+  - bb:rules:jungle-survival-training
+  - bb:rules:jungle-stealth

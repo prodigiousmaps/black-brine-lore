@@ -8,6 +8,7 @@ summary: >
   held by Pinch the Rogue.
 location: bb:pc:pinch
 tags: [book, cooking, underdark, lore]
+portrait: assets/items/blind-chefs-almanac.png
 ---
 
 # The Blind Chef’s Almanac

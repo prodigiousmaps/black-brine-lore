@@ -1,0 +1,10 @@
+---
+type: patch
+target: bb:campaign:fallen-city-memory-palace
+add:
+  participants:
+  - bb:npc:rupert-richthorn
+  - bb:npc:vermin-lord
+  locations:
+  - bb:region:orsauran-mountains
+  related_rules:

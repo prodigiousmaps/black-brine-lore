@@ -9,6 +9,7 @@ tags:
 - prophecy
 - sedna
 - hollow-goddess
+portrait: assets/items/final-verse.png
 appears_in:
 - bb:story:skull-garden-black-river
 ---
