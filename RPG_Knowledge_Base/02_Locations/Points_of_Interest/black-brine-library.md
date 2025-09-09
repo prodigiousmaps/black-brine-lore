@@ -7,7 +7,7 @@ location_type: library
 population: small (scribes, fortune-tellers, students)
 government: loosely overseen by Captain’s Council envoys
 maps_available: false
-map_files: []
+map_files: [https://prodigiousmaps.github.io/black-brine-lore/assets/maps/black-brine-library.jpg]
 tags: [library, knowledge, meeting-hall, blackmire]
 ---
 

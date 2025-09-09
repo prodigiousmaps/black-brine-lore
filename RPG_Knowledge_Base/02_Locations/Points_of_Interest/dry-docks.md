@@ -7,7 +7,7 @@ location_type: industrial
 population: 300–500 (workers, shipwrights, guards)
 government: Overseen by guildmasters and licensed captains, with informal enforcer presence
 maps_available: true
-map_files: [DryDock-32x22-Day.jpg]
+map_files: [https://prodigiousmaps.github.io/black-brine-lore/assets/maps/dry-docks.jpg]
 tags: [crosswater, dry-docks, industry, shipwrights, repair, ships, labor]
 ---
 

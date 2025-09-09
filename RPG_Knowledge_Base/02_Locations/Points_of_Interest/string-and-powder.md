@@ -7,7 +7,7 @@ location_type: workshop
 population: ~12 apprentices and staff
 government: guild oversight (loosely enforced)
 maps_available: false
-map_files: []
+map_files: [https://prodigiousmaps.github.io/black-brine-lore/assets/maps/string-and-powder.jpg]
 tags: [weapons, smithy, bows, firearms, crosswater]
 ---
 

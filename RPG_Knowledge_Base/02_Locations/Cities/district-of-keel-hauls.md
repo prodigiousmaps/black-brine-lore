@@ -7,8 +7,7 @@ location_type: district
 population: ~4,500
 government: Loosely governed by dock captains under the distant eye of the Captain’s Council
 maps_available: true
-map_files:
-  - KeelhaulsDock.jpg
+map_files: [https://prodigiousmaps.github.io/black-brine-lore/assets/maps/keel-hauls-harbor.jpg]
 tags: [district, docks, trade, industry, smuggling, crime, labor]
 ---
 

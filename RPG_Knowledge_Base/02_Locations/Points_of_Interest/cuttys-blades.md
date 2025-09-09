@@ -7,7 +7,7 @@ location_type: workshop & dueling hall
 population: ~50 (staff, duelists, Widowmakers)
 government: private ownership, tied to the Widowmakers fleet
 maps_available: false
-map_files: []
+map_files: [https://prodigiousmaps.github.io/black-brine-lore/assets/maps/cuttys-blades.jpg]
 tags: [mistwalk, weapons, duel, widowmakers, intrigue]
 ---
 

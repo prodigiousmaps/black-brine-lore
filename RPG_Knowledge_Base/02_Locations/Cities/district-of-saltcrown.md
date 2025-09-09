@@ -8,7 +8,16 @@ population: ~3,000
 government: Controlled by pirate gangs and smugglers, nominal oversight from the Captain’s Council
 maps_available: true
 map_files:
-  - SaltCrownDistrict.jpg
+  - salt-crown-central-cellar.jpg
+  - salt-crown-central-street-level.jpg
+  - salt-crown-central-second-floor.jpg
+  - salt-crown-central-third-floor.jpg
+  - salt-crown-central-fourth-floor.jpg
+  - salt-crown-central-roof.jpg
+  - salt-crown-shore.jpg
+  - salt-crown-smithy-street-level.jpg
+  - salt-crown-smithy-second-floor.jpg
+  - salt-crown-smithy-roof.jpg
 tags: [district, docks, smuggling, crime, lore, low-class, eccentric]
 ---
 

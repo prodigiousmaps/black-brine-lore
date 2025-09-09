@@ -7,7 +7,7 @@ location_type: shop
 population: transient (patrons and lookers)
 government: none
 maps_available: false
-map_files: []
+map_files: [https://prodigiousmaps.github.io/black-brine-lore/assets/maps/sinkers-curiosities.jpg]
 tags: [salt-crown, curiosities, magic-items, oddities, shop]
 ---
 

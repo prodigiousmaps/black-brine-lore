@@ -3855,7 +3855,7 @@
         "government": "Loosely governed by dock captains under the distant eye of the Captain’s Council",
         "maps_available": true,
         "map_files": [
-          "KeelhaulsDock.jpg"
+          "https://prodigiousmaps.github.io/black-brine-lore/assets/maps/keel-hauls-harbor.jpg"
         ],
         "tags": [
           "district",
@@ -3947,7 +3947,16 @@
         "government": "Controlled by pirate gangs and smugglers, nominal oversight from the Captain’s Council",
         "maps_available": true,
         "map_files": [
-          "SaltCrownDistrict.jpg"
+          "salt-crown-central-cellar.jpg",
+          "salt-crown-central-street-level.jpg",
+          "salt-crown-central-second-floor.jpg",
+          "salt-crown-central-third-floor.jpg",
+          "salt-crown-central-fourth-floor.jpg",
+          "salt-crown-central-roof.jpg",
+          "salt-crown-shore.jpg",
+          "salt-crown-smithy-street-level.jpg",
+          "salt-crown-smithy-second-floor.jpg",
+          "salt-crown-smithy-roof.jpg"
         ],
         "tags": [
           "district",
@@ -4046,7 +4055,9 @@
         "population": "small (scribes, fortune-tellers, students)",
         "government": "loosely overseen by Captain’s Council envoys",
         "maps_available": false,
-        "map_files": [],
+        "map_files": [
+          "https://prodigiousmaps.github.io/black-brine-lore/assets/maps/black-brine-library.jpg"
+        ],
         "tags": [
           "library",
           "knowledge",
@@ -4070,37 +4081,41 @@
       "raw": {}
     },
     {
-      "id": "bb:Page:captains-club",
-      "type": "Page",
-      "name": "captains-club",
+      "id": "bb:location:captains-club",
+      "type": "location",
+      "name": "Captain’s Club",
       "tags": [
-        "Town",
-        "location",
-        "NPC",
         "tavern",
-        "CouncilOfCaptains"
+        "captains-only",
+        "gambling",
+        "intrigue",
+        "secrecy",
+        "docks"
       ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\captains-club.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Captain's Club",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-02-11T03:34:37.110Z",
-        "creationDate": "2025-02-10 21:34",
-        "modificationDate": "2025-03-18 14:41",
-        "tags": [
-          "Town",
-          "location",
-          "NPC",
-          "tavern",
-          "CouncilOfCaptains"
+        "type": "location",
+        "id": "bb:location:captains-club",
+        "name": "Captain’s Club",
+        "parent_location": "bb:city:black-brine",
+        "location_type": "tavern (private)",
+        "maps_available": true,
+        "map_files": [
+          "assets/maps/captains-club.jpg"
         ],
-        "coverImage": null
+        "tags": [
+          "tavern",
+          "captains-only",
+          "gambling",
+          "intrigue",
+          "secrecy",
+          "docks"
+        ]
       },
-      "body_excerpt": "# Captain's Club\n\n### **The Captain’s Club – Black Brine’s Most Exclusive Tavern**\n\n- A **private and exclusive tavern**, built inside the **hull of an old warship**, reserved **only for ship captains (current and former)**.\n\n- Located **off the main docks**, it serves as **a meeting place for Black Brine’s elite pirates, mercenary leaders, and smugglers**.\n\n- The atmosphere is **dimly lit and thick with pipe smoke**, with **fine but stolen furnishings, barrels of rare rum, and high-stakes gambling tables**.\n\n- **Tavern staff are sworn to secrecy**, and **betraying the confidence of another captain within these walls is considered a death sentence**.\n\n- The **back rooms** are often used for **private negotiations, alliances, and covert deals**.\n\n- While it is a place of prestige, it is **n…",
-      "raw": {}
+      "body_excerpt": "# Overview\nAn invitation-only tavern built into the hull of an old warship, just off the main docks. It serves Black Brine’s elite—current and former ship captains, mercenary leaders, and smugglers. The rooms are dim, smoke-thick, and furnished with stolen finery; deals are struck in murmurs while Dragonchess and high-stakes cards clatter under lantern light.\n\n# House Rules\n- Staff are sworn to secrecy; betraying a captain’s confidence is a death sentence.  \n- Disputes are settled **outside**, never inside.  \n- Back rooms are for private negotiations, alliances, and covert deals.\n\n# Staff\n- **“Iron” Ida Gallows (Barkeep):** Former quartermaster; missing two fingers from a bet with Gun Deck Rosy. Keeps a loaded pistol beneath the bar and serves the club’s signature rum, **The Widowmaker**. …",
+      "raw": {
+        "parent_location": "bb:city:black-brine"
+      }
     },
     {
       "id": "bb:location:chain-wharf",
@@ -4170,7 +4185,7 @@
         "government": "Seat of the Captain’s Council",
         "maps_available": true,
         "map_files": [
-          "assets/maps/cityhull-dusk-43x35.jpg"
+          "https://prodigiousmaps.github.io/black-brine-lore/assets/maps/city-hull.jpg"
         ],
         "tags": [
           "mistwalk",
@@ -4238,7 +4253,9 @@
         "population": "~50 (staff, duelists, Widowmakers)",
         "government": "private ownership, tied to the Widowmakers fleet",
         "maps_available": false,
-        "map_files": [],
+        "map_files": [
+          "https://prodigiousmaps.github.io/black-brine-lore/assets/maps/cuttys-blades.jpg"
+        ],
         "tags": [
           "mistwalk",
           "weapons",
@@ -4321,7 +4338,7 @@
         "government": "Overseen by guildmasters and licensed captains, with informal enforcer presence",
         "maps_available": true,
         "map_files": [
-          "DryDock-32x22-Day.jpg"
+          "https://prodigiousmaps.github.io/black-brine-lore/assets/maps/dry-docks.jpg"
         ],
         "tags": [
           "crosswater",
@@ -4464,7 +4481,9 @@
         "population": "~1,000 (shoppers, hawkers, cultists)",
         "government": "Mixed — market overseers, but heavy presence from cults",
         "maps_available": false,
-        "map_files": [],
+        "map_files": [
+          "https://prodigiousmaps.github.io/black-brine-lore/assets/maps/gallows-market.jpg"
+        ],
         "tags": [
           "mistwalk",
           "market",
@@ -4675,33 +4694,41 @@
       "raw": {}
     },
     {
-      "id": "bb:Page:red-chain-bridge",
-      "type": "Page",
+      "id": "bb:location:red-chain-bridge",
+      "type": "location",
       "name": "Red Chain Bridge",
       "tags": [
-        "Town",
-        "legends",
-        "location"
+        "bridge",
+        "superstition",
+        "ghost",
+        "sedna",
+        "black-brine-river",
+        "legend"
       ],
-      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\Red Chain Bridge.md",
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\red-chain-bridge.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Red Chain Bridge",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-02-11T03:27:17.951Z",
-        "creationDate": "2025-02-10 21:27",
-        "modificationDate": "2025-02-10 21:30",
-        "tags": [
-          "Town",
-          "legends",
-          "location"
+        "type": "location",
+        "id": "bb:location:red-chain-bridge",
+        "name": "Red Chain Bridge",
+        "parent_location": "bb:city:black-brine",
+        "location_type": "bridge",
+        "maps_available": false,
+        "map_files": [
+          "https://prodigiousmaps.github.io/black-brine-lore/assets/maps/red-chain-bridge.jpg"
         ],
-        "coverImage": null
+        "tags": [
+          "bridge",
+          "superstition",
+          "ghost",
+          "sedna",
+          "black-brine-river",
+          "legend"
+        ]
       },
-      "body_excerpt": "# Red Chain Bridge\n\n### **The Nameless Watcher – The Phantom of the Red Chain Bridge**\n\nA **silent, hooded figure** is sometimes **seen standing motionless** on the Red Chain Bridge, usually on **fog-drenched nights or during storms**. No one knows **who or what it is**, but everyone agrees on a few chilling details:\n\n- The Watcher **never moves, never speaks**, and never reacts to anyone who passes.\n\n- It always stands **facing the west side of Black Brine**, as if **watching for something beyond the Daggerflow**.\n\n- Those who **attempt to approach it** report feeling **a deep, paralyzing dread**, as if **they are being watched by something far worse**.\n\n- Some sailors claim that **if you see the Watcher, you should never set sail the next morning**—or **you will not return**.\n\n---\n\n### *…",
-      "raw": {}
+      "body_excerpt": "# Overview\nA massive iron-and-chain bridge spanning the Black Brine River, infamous for eerie legends and ghost stories. Sailors avoid it on foggy nights, fearing the presence of the Nameless Watcher.\n\n# Legends: The Nameless Watcher\nA silent, hooded figure seen motionless on the bridge, most often in storms or heavy fog. Details consistent across all sightings:\n- The Watcher never moves, speaks, or reacts.\n- It always faces west, toward the Daggerflow.\n- Approaching it brings paralyzing dread.\n- Sailors claim seeing the Watcher before a voyage guarantees doom.\n\n# Theories\n- **Captain Edran Stohl’s Ghost** – Said to be the spirit of the executed Black Leviathan, waiting eternally for his fleet. Witnesses describe hollow eyes and drowned flesh.\n- **Servant of Sedna** – Sedna’s priests call …",
+      "raw": {
+        "parent_location": "bb:city:black-brine"
+      }
     },
     {
       "id": "bb:location:red-door-alchemy",
@@ -4816,7 +4843,9 @@
         "population": "transient (patrons and lookers)",
         "government": "none",
         "maps_available": false,
-        "map_files": [],
+        "map_files": [
+          "https://prodigiousmaps.github.io/black-brine-lore/assets/maps/sinkers-curiosities.jpg"
+        ],
         "tags": [
           "salt-crown",
           "curiosities",
@@ -4865,7 +4894,9 @@
         "population": "~12 apprentices and staff",
         "government": "guild oversight (loosely enforced)",
         "maps_available": false,
-        "map_files": [],
+        "map_files": [
+          "https://prodigiousmaps.github.io/black-brine-lore/assets/maps/string-and-powder.jpg"
+        ],
         "tags": [
           "weapons",
           "smithy",
@@ -5038,7 +5069,9 @@
         "population": "~60 patrons on a busy night",
         "government": "none",
         "maps_available": false,
-        "map_files": [],
+        "map_files": [
+          "https://prodigiousmaps.github.io/black-brine-lore/assets/maps/web-bar.jpg"
+        ],
         "tags": [
           "tavern",
           "aquatic",
@@ -5565,6 +5598,11 @@
       "target": "bb:district:blackmire"
     },
     {
+      "source": "bb:location:captains-club",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
       "source": "bb:location:chain-wharf",
       "rel": "located_in",
       "target": "bb:district:keelhauls"
@@ -5638,6 +5676,11 @@
       "source": "bb:location:miremarket",
       "rel": "located_in",
       "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:location:red-chain-bridge",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
     },
     {
       "source": "bb:location:red-door-alchemy",
@@ -5923,6 +5966,6 @@
   "unresolved": [],
   "stats": {
     "nodes": 141,
-    "edges": 135
+    "edges": 137
   }
 }

@@ -1584,6 +1584,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\captains-club.md",
+      "field": "parent_location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\chain-warf.md",
       "field": "parent_location",
       "value": "bb:district:keelhauls",
@@ -1750,6 +1759,15 @@
       "field": "parent_location",
       "value": "bb:district:blackmire",
       "resolved_id": "bb:district:blackmire",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\red-chain-bridge.md",
+      "field": "parent_location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
       "method": "id",
       "score": 1.0,
       "note": ""

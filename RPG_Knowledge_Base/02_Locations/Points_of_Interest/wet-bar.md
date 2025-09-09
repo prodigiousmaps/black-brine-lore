@@ -7,7 +7,7 @@ location_type: tavern
 population: ~60 patrons on a busy night
 government: none
 maps_available: false
-map_files: []
+map_files: [https://prodigiousmaps.github.io/black-brine-lore/assets/maps/web-bar.jpg]
 tags: [tavern, aquatic, crosswater]
 ---
 

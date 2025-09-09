@@ -7,7 +7,7 @@ location_type: market
 population: ~1,000 (shoppers, hawkers, cultists)
 government: Mixed — market overseers, but heavy presence from cults
 maps_available: false
-map_files: []
+map_files: [https://prodigiousmaps.github.io/black-brine-lore/assets/maps/gallows-market.jpg]
 tags: [mistwalk, market, gallows, cult, intrigue]
 ---
 
