@@ -172,6 +172,15 @@
     },
     {
       "path": "RPG_Knowledge_Base\\09_Player_Characters\\franklin-pierce.md",
+      "field": "location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\09_Player_Characters\\franklin-pierce.md",
       "field": "allies",
       "value": "bb:npc:rupert-richthorn",
       "resolved_id": "bb:npc:rupert-richthorn",

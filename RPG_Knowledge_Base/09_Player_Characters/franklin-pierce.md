@@ -1,12 +1,40 @@
 ---
+type: player_character
+id: bb:pc:franklin
+name: Franklin
+player: Cole
+pronouns: he/him
+race: Human
+classes:
+- Rogue (Swashbuckler)
+- Bard (College of Swords)
+background: Charlatan
+alignment: Chaotic Neutral
+location: bb:city:black-brine
+appears_in:
+- bb:location:ruperts-rest
+- bb:story:rogue-wave
 allies:
 - bb:npc:rupert-richthorn
 - bb:pc:pinch
 - bb:pc:sy
-appears_in:
-- bb:location:ruperts-rest
-- bb:story:rogue-wave
+rivals: []
+tags:
+- human
+- rogue
+- bard
+- con man
+- musician
+- crafty
+portrait: assets/portraits/franklin.png
+sheet_url: sheets/franklin.pdf
+system: 5e
+level: 8
+classes: 
+  - Bard 4
+  - Rogue 4
 ---
+
 # Description
 Lean and wiry, dark hair slicked back with careless charm, hazel eyes that are always sizing up the room. Threadbare finery, a gilded stolen rapier, and a subtle forearm tattoo from a defunct thieves’ guild.
 
