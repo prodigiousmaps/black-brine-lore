@@ -2,7 +2,6 @@
   "total_files": 152,
   "patches": [
     "patches\\skull-garden-black-river.yml",
-    "patches\\franklin-pierce.yml",
     "patches\\pinch.yml",
     "patches\\sy.yml",
     "patches\\into-deep-green-short-cut.yml",
@@ -168,60 +167,6 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\09_Player_Characters\\franklin-pierce.md",
-      "field": "location",
-      "value": "bb:city:black-brine",
-      "resolved_id": "bb:city:black-brine",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\09_Player_Characters\\franklin-pierce.md",
-      "field": "allies",
-      "value": "bb:npc:rupert-richthorn",
-      "resolved_id": "bb:npc:rupert-richthorn",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\09_Player_Characters\\franklin-pierce.md",
-      "field": "allies",
-      "value": "bb:pc:pinch",
-      "resolved_id": "bb:pc:pinch",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\09_Player_Characters\\franklin-pierce.md",
-      "field": "allies",
-      "value": "bb:pc:sy",
-      "resolved_id": "bb:pc:sy",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\09_Player_Characters\\franklin-pierce.md",
-      "field": "appears_in",
-      "value": "bb:location:ruperts-rest",
-      "resolved_id": "bb:location:ruperts-rest",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\09_Player_Characters\\franklin-pierce.md",
-      "field": "appears_in",
-      "value": "bb:story:rogue-wave",
-      "resolved_id": "bb:story:rogue-wave",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
       "path": "RPG_Knowledge_Base\\09_Player_Characters\\pinch.md",
       "field": "location",
       "value": "bb:city:black-brine",
@@ -243,9 +188,9 @@
       "path": "RPG_Knowledge_Base\\09_Player_Characters\\pinch.md",
       "field": "allies",
       "value": "bb:pc:franklin-pierce",
-      "resolved_id": "bb:pc:franklin-pierce",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
@@ -297,9 +242,9 @@
       "path": "RPG_Knowledge_Base\\09_Player_Characters\\sy.md",
       "field": "allies",
       "value": "bb:pc:franklin-pierce",
-      "resolved_id": "bb:pc:franklin-pierce",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {

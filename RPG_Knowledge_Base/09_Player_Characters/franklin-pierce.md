@@ -1,35 +1,11 @@
 ---
-type: player_character
-id: bb:pc:franklin-pierce
-name: Franklin Pierce
-player: Cole
-pronouns: he/him
-race: Human
-classes:
-- Bard (College of Whispers)
-background: Charlatan
-alignment: Chaotic Neutral
-level: TBD
-location: bb:city:black-brine
-appears_in:
-- bb:location:ruperts-rest
-- bb:story:rogue-wave
 allies:
 - bb:npc:rupert-richthorn
 - bb:pc:pinch
 - bb:pc:sy
-rivals: []
-tags:
-- bard
-- con-artist
-- forger
-- gambler
-- silver-tongued
-portrait: [assets/portraits/franklin.png]
-sheet_url: [sheets/franklin.pdf]
-system: 5e
-level: 8
-classes: [Bard 4, Rogue 4]
+appears_in:
+- bb:location:ruperts-rest
+- bb:story:rogue-wave
 ---
 # Description
 Lean and wiry, dark hair slicked back with careless charm, hazel eyes that are always sizing up the room. Threadbare finery, a gilded stolen rapier, and a subtle forearm tattoo from a defunct thieves’ guild.
