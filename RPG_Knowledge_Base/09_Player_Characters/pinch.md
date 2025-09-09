@@ -28,7 +28,7 @@ tags:
 - scribe
 - curious
 portrait: assets/portraits/pinch.png
-sheet_url: sheets/pinch.pdf
+sheet_url: docs/sheets/pinch.pdf
 system: 5e
 level: 8
 classes: 

@@ -28,8 +28,8 @@ tags:
 - hexblade
 - brooding
 - exile
-portrait: [assets/portraits/sy.png]
-sheet_url: [sheets/sy.pdf]
+portrait: assets/portraits/sy.png
+sheet_url: sheets/sy.pdf
 system: 5e
 level: 8
 classes: [Warlock 4, Rogue 4]

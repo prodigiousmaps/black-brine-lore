@@ -559,7 +559,7 @@
           "curious"
         ],
         "portrait": "assets/portraits/pinch.png",
-        "sheet_url": "sheets/pinch.pdf",
+        "sheet_url": "docs/sheets/pinch.pdf",
         "system": "5e"
       },
       "body_excerpt": "# Description\nSmall, wiry frame; dusty-gray skin; wild white shock of hair; ink-black eyes. Patchwork leathers over scholar’s robes, magnifying spectacles, satchel stained with ink and maps.\n\n# Personality\n- Obsessively curious about written language; values cleverness over strength.  \n- Ideal: “The world is a puzzle—every riddle has a key.”  \n- Bond: His journal of maps and lore is life itself.  \n- Flaw: Risks everything for knowledge or rare texts.\n\n# Backstory\nShunned by his folk for loving script over stone, he found a place topside among thieves and scholars who prized his hand and his mind.\n\n# Recent History\n- Escaped shipboard imprisonment with Sy and Franklin.  \n- Survived a ruin of Shar; bargained with a minotaur named Ruben.  \n- Helped seize a mastless, planar ship; now bound for…",
@@ -625,12 +625,8 @@
           "brooding",
           "exile"
         ],
-        "portrait": [
-          "assets/portraits/sy.png"
-        ],
-        "sheet_url": [
-          "sheets/sy.pdf"
-        ],
+        "portrait": "assets/portraits/sy.png",
+        "sheet_url": "sheets/sy.pdf",
         "system": "5e"
       },
       "body_excerpt": "# Description\nLithe swimmer’s build; sea-toned skin with green-blue sheen; long dark hair; reflective green eyes; ritual scarring along ribs; slightly webbed fingers; trident-shaped sentient dagger at the belt.\n\n# Personality\n- Quiet, intense, secretive—but fiercely loyal once earned.  \n- Ideal: “Power comes from the depths—earned, not inherited.”  \n- Bond: The dagger—last tie to his father.  \n- Flaw: Guilt over Nymh and his father’s fate.\n\n# Backstory\nRaised among smugglers in Ithmong; warned about his mother’s ambitions; found the bound blade and fled before becoming her pawn.\n\n# Recent History\n- Escaped a merchant brig with Pinch and Franklin.  \n- Struck dark bargains in a cursed ruin; took the helm of a mastless, planar ship.  \n- Sails toward Black Brine under Captain Tasty Bite’s wary…",
