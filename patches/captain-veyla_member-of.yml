@@ -1,0 +1,5 @@
+path: RPG_Knowledge_Base/06_NPCs/captain-veyla-cold-tide-dren.md
+merge:
+  member_of:
+    - bb:fleet:widow-makers
+    - bb:faction:council-of-captains

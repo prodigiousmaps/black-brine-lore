@@ -2358,7 +2358,7 @@
         "captains",
         "independents"
       ],
-      "source": "RPG_Knowledge_Base\\03_NPCs\\Organizations\\Council of Free Captains.md",
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Organizations\\council-of-free-captains.md",
       "fm": {
         "type": "organization",
         "name": "Council of Free Captains",
@@ -2424,7 +2424,7 @@
       "type": "organization",
       "name": "Fisherman's Union of Black Brine",
       "tags": [],
-      "source": "RPG_Knowledge_Base\\03_NPCs\\Organizations\\Fishermens Union.md",
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Organizations\\fishermens-union.md",
       "fm": {
         "type": "organization",
         "name": "Fisherman's Union of Black Brine",
@@ -2685,194 +2685,242 @@
       }
     },
     {
-      "id": "bb:Page:captain-bloodshot",
-      "type": "Page",
-      "name": "captain-bloodshot",
+      "id": "bb:npc:captain-bloodshot",
+      "type": "npc",
+      "name": "Captain Bloodshot",
       "tags": [
-        "NPC",
-        "Captain",
-        "CouncilOfCaptains",
-        "Faction"
+        "captain",
+        "council",
+        "npc",
+        "miasma",
+        "terror",
+        "necrotic"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-bloodshot.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Captain Bloodshot",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-03-18T19:31:31.049Z",
-        "creationDate": "2025-03-18 14:31",
-        "modificationDate": "2025-03-18 14:56",
-        "tags": [
-          "NPC",
-          "Captain",
-          "CouncilOfCaptains",
-          "Faction"
+        "type": "npc",
+        "id": "bb:npc:captain-bloodshot",
+        "name": "Captain Bloodshot",
+        "summary": "Master of the Miasma Fleet, feared for terror tactics, necrotic rituals, and crews twisted by the mist.",
+        "factions": [
+          "bb:fleet:miasma",
+          "bb:faction:council-of-captains"
         ],
-        "coverImage": null
+        "tags": [
+          "captain",
+          "council",
+          "npc",
+          "miasma",
+          "terror",
+          "necrotic"
+        ],
+        "portrait": "assets/portraits/captain-bloodshot.png"
       },
-      "body_excerpt": "# Captain Bloodshot\n\n---\n\n\n---\n\n\n\n---\n\n[IMG_2024](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/a31fb0a3-c3f3-47d0-92a6-311f60c0a0ee)\n\n## **Master of The Miasma Fleet**\n\n- **Ships:** 3 cursed vessels, including *The Miasma*\n\n- **Crew:** **Warped, mutated, and terrifying sailors**\n\n- **Flag:** \n\n- **Style:** **Terror tactics, eldritch magic, and unpredictable cruelty**\n\n- **Reputation:** **The only crew feared more dead than alive**\n\n- **Specialties:** **Psychological warfare, disease spreading, necrotic rituals**\n\n- **Notoriety:** **Those captured by Bloodshot’s fleet are never seen again—or return… changed**\n\n- **Customs & Norms:**\n\n    - **The Blackened Chalice** – Before battle, each crew member drinks from a chalice said to contain **the blood of the unborn**.\n\n    - *…",
-      "raw": {}
+      "body_excerpt": "# Captain Bloodshot\n\n## Overview\nMaster of the Miasma Fleet, commanding cursed vessels and warped sailors through mist and fear.\n\n## Fleet\n- Ships: 3 cursed vessels, including *The Miasma*  \n- Crew: Warped, mutated, terrifying  \n- Style: Terror tactics, eldritch magic  \n- Reputation: Feared more dead than alive  \n\n## Customs\n- Blackened Chalice – crew drinks blood before battle  \n- Bone Hunt – new recruits must trophy a sinking  \n- Silent Decks – whispers only aboard *The Miasma*",
+      "raw": {
+        "factions": [
+          "bb:fleet:miasma",
+          "bb:faction:council-of-captains"
+        ]
+      }
     },
     {
-      "id": "bb:Page:captain-bor-driftwood-harvann",
-      "type": "Page",
-      "name": "captain-bor-driftwood-harvann",
+      "id": "bb:npc:captain-bor-driftwood-harvann",
+      "type": "npc",
+      "name": "Captain Bor \"Driftwood\" Harvann",
       "tags": [
-        "CouncilOfCaptains",
-        "Captain",
-        "NPC",
-        "Faction"
+        "captain",
+        "council",
+        "npc",
+        "red-wakes",
+        "goliath",
+        "warlord"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-bor-driftwood-harvann.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Captain Bor \"Driftwood\" Harvann",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-03-18T19:48:54.850Z",
-        "creationDate": "2025-03-18 14:48",
-        "modificationDate": "2025-03-18 14:53",
-        "tags": [
-          "CouncilOfCaptains",
-          "Captain",
-          "NPC",
-          "Faction"
+        "type": "npc",
+        "id": "bb:npc:captain-bor-driftwood-harvann",
+        "name": "Captain Bor \"Driftwood\" Harvann",
+        "summary": "Warlord of the Red Wakes fleet, leading brutal boarding crews and siege masters.",
+        "factions": [
+          "bb:fleet:red-wakes",
+          "bb:faction:council-of-captains"
         ],
-        "coverImage": null
+        "tags": [
+          "captain",
+          "council",
+          "npc",
+          "red-wakes",
+          "goliath",
+          "warlord"
+        ],
+        "portrait": "assets/portraits/captain-bor-driftwood.png"
       },
-      "body_excerpt": "# Captain Bor \"Driftwood\" Harvann\n\n[couchwarrior_Dungeons__Dragons_male_Goliath_pirate_Captain_blue_a98ac226-ad9b-477c-a79b-015ca606b8db](Images/couchwarrior_Dungeons__Dragons_male_Goliath_pirate_Captain_blue_a98ac226-ad9b-47.md)\n\n## **Warlord of The Red Wakes**\n\n- **Ships:** 7 brutal warships, including *The Iron Shrike*\n\n- **Crew:** **Brawlers, siege experts, and armored marines**\n\n- **Flag:** **Deep red with an axe splitting a ship in half**\n\n- **Style:** **Overwhelming force, no negotiations**\n\n- **Reputation:** **Takes ships the hard way—by killing every soul on board**\n\n- **Specialties:** **Boarding, siege tactics, and brawling**\n\n- **Notoriety:** **Once burned a captured ship just to prove a point**\n\n- **Customs & Norms:**\n\n    - **Battle Booze** – Before battle, the crew smashes **…",
-      "raw": {}
+      "body_excerpt": "# Captain Bor \"Driftwood\" Harvann\n\n## Overview\nGoliath warlord of the Red Wakes, feared for overwhelming force and refusal of surrender.\n\n## Fleet\n- Ships: 7 brutal warships, including *The Iron Shrike*  \n- Crew: Brawlers, siege experts, marines  \n- Style: No negotiations, only blood  \n- Reputation: Burned a captured ship for effect  \n\n## Customs\n- Battle Booze – smash liquor before battle  \n- No Quarter Given – surrender = death  \n- First to Board, First to Lead",
+      "raw": {
+        "factions": [
+          "bb:fleet:red-wakes",
+          "bb:faction:council-of-captains"
+        ]
+      }
     },
     {
-      "id": "bb:Page:captain-garrick-golden-tooth-salt",
-      "type": "Page",
-      "name": "captain-garrick-golden-tooth-salt",
+      "id": "bb:npc:captain-garrick-golden-tooth-salt",
+      "type": "npc",
+      "name": "Captain Garrick \"Golden Tooth\" Salt",
       "tags": [
-        "CouncilOfCaptains",
-        "Captain",
-        "NPC",
-        "Faction",
-        "Town"
+        "captain",
+        "council",
+        "npc",
+        "gilded-rats",
+        "merchant",
+        "kender"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-garrick-golden-tooth-salt.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Captain Garrick \"Golden Tooth\" Salt",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-03-18T19:53:59.950Z",
-        "creationDate": "2025-03-18 14:53",
-        "modificationDate": "2025-03-18 14:58",
-        "tags": [
-          "CouncilOfCaptains",
-          "Captain",
-          "NPC",
-          "Faction",
-          "Town"
+        "type": "npc",
+        "id": "bb:npc:captain-garrick-golden-tooth-salt",
+        "name": "Captain Garrick \"Golden Tooth\" Salt",
+        "summary": "Merchant-lord of the Gilded Rats fleet, thriving on bribery and deception.",
+        "factions": [
+          "bb:fleet:gilded-rats",
+          "bb:faction:council-of-captains"
         ],
-        "coverImage": null
+        "tags": [
+          "captain",
+          "council",
+          "npc",
+          "gilded-rats",
+          "merchant",
+          "kender"
+        ],
+        "portrait": "assets/portraits/captain-garrick-salt.png"
       },
-      "body_excerpt": "# Captain Garrick \"Golden Tooth\" Salt\n\n[couchwarrior_Dungeons__Dragons_male_middle-aged_kender_pirate_c_87283ac9-dbf1-4147-8804-60ba40c83374](Images/couchwarrior_Dungeons__Dragons_male_middle-aged_kender_pirate_c_87283ac9-dbf1-41.md)\n\n## **Merchant-Lord of The Gilded Rats**\n\n- **Ships:** 5 well-armed merchant galleons\n\n- **Crew:** **Wealthy traders, spies, and thieves**\n\n- **Flag:** **Gold with a rat holding a dagger**\n\n- **Style:** **Bribery over battles, deception over strength**\n\n- **Reputation:** **The most hated captain in Black Brine—because he always profits**\n\n- **Specialties:** **Trade, forgery, and black-market deals**\n\n- **Notoriety:** **His fleet never fires a shot, yet still wins every fight**\n\n- **Customs & Norms:**\n\n    - **The Stolen Jewel** – Each crew member must own **on…",
-      "raw": {}
+      "body_excerpt": "# Captain Garrick \"Golden Tooth\" Salt\n\n## Overview\nCunning merchant-lord who profits by gold rather than blood.\n\n## Fleet\n- Ships: 5 armed galleons  \n- Crew: Traders, spies, thieves  \n- Style: Bribery, deception, forgery  \n- Reputation: Hated for always profiting  \n\n## Customs\n- Stolen Jewel – proof of theft from nobles  \n- Deals Over Death – gold over blood  \n- Gold Coin Gambit – disputes settled by coin toss",
+      "raw": {
+        "factions": [
+          "bb:fleet:gilded-rats",
+          "bb:faction:council-of-captains"
+        ]
+      }
     },
     {
-      "id": "bb:Page:captain-lysara-vale",
-      "type": "Page",
-      "name": "captain-lysara-vale",
+      "id": "bb:npc:captain-lysara-vale",
+      "type": "npc",
+      "name": "Captain Lysara Vale",
       "tags": [
-        "CouncilOfCaptains",
-        "Captain",
-        "NPC",
-        "Faction"
+        "captain",
+        "council",
+        "npc",
+        "hollow-fangs",
+        "orc",
+        "undead"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-lysara-vale.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Captain Lysara Vale",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-03-18T19:51:40.614Z",
-        "creationDate": "2025-03-18 14:51",
-        "modificationDate": "2025-03-18 14:55",
-        "tags": [
-          "CouncilOfCaptains",
-          "Captain",
-          "NPC",
-          "Faction"
+        "type": "npc",
+        "id": "bb:npc:captain-lysara-vale",
+        "name": "Captain Lysara Vale",
+        "summary": "The phantom of the Hollow Fangs fleet, commanding ghostly ships through mist and whispers.",
+        "factions": [
+          "bb:fleet:hollow-fangs",
+          "bb:faction:council-of-captains"
         ],
-        "coverImage": null
+        "tags": [
+          "captain",
+          "council",
+          "npc",
+          "hollow-fangs",
+          "orc",
+          "undead"
+        ],
+        "portrait": "assets/portraits/captain-lysara-vale.png"
       },
-      "body_excerpt": "# Captain Lysara Vale\n\n[couchwarrior_Dungeons_and_dragons_undead_female_orc_pirate_capt_2cb8d7ed-ac68-40c5-ab3b-826fd069b481](Images/couchwarrior_Dungeons_and_dragons_undead_female_orc_pirate_capt_2cb8d7ed-ac68-40.md)\n\n## **The Phantom of The Hollow Fangs**\n\n- **Ships:** 3 ghostly vessels, including *The Silken Noose*\n\n- **Crew:** **Silent, spectral, and possibly undead**\n\n- **Flag:** **Pale gray with no emblem, just tattered edges**\n\n- **Style:** **Fear, illusions, and supernatural terror**\n\n- **Reputation:** **Her fleet vanishes into the mist, appearing only to take lives**\n\n- **Specialties:** **Mist-travel, magic, and soul-stealing tactics**\n\n- **Notoriety:** **Some believe she was once hanged from the Red Chain Bridge… and lived**\n\n- **Customs & Norms:**\n\n    - **The Noose’s Whisper** …",
-      "raw": {}
+      "body_excerpt": "# Captain Lysara Vale\n\n## Overview\nPhantom mistress of the Hollow Fangs fleet, haunting seas with spectral silence.\n\n## Fleet\n- Ships: 3 ghostly vessels, including *The Silken Noose*  \n- Crew: Silent, spectral, undead  \n- Style: Illusions, supernatural terror  \n- Reputation: Believed hanged at Red Chain Bridge and survived  \n\n## Customs\n- Noose’s Whisper – whispers only aboard  \n- Drowned Hand – recruits tested underwater  \n- Forgotten Coins – dead sailors left with coins",
+      "raw": {
+        "factions": [
+          "bb:fleet:hollow-fangs",
+          "bb:faction:council-of-captains"
+        ]
+      }
     },
     {
-      "id": "bb:Page:captain-tasty-bite",
-      "type": "Page",
-      "name": "captain-tasty-bite",
+      "id": "bb:npc:captain-tasty-bite",
+      "type": "npc",
+      "name": "Captain Tasty Bite",
       "tags": [
-        "NPC",
-        "Captain",
-        "CouncilOfCaptains",
-        "Faction",
-        "Town"
+        "captain",
+        "council",
+        "npc",
+        "malign",
+        "smuggler"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-tasty-bite.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Captain Tasty Bite",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-03-18T19:33:57.568Z",
-        "creationDate": "2025-03-18 14:33",
-        "modificationDate": "2025-03-18 14:56",
-        "tags": [
-          "NPC",
-          "Captain",
-          "CouncilOfCaptains",
-          "Faction",
-          "Town"
+        "type": "npc",
+        "id": "bb:npc:captain-tasty-bite",
+        "name": "Captain Tasty Bite",
+        "summary": "Smuggler-king of the Malign fleet, ruling with cunning deals and shark-tooth traditions.",
+        "factions": [
+          "bb:fleet:malign",
+          "bb:faction:council-of-captains"
         ],
-        "coverImage": null
+        "tags": [
+          "captain",
+          "council",
+          "npc",
+          "malign",
+          "smuggler"
+        ],
+        "portrait": "assets/portraits/captain-tasty-bite.png"
       },
-      "body_excerpt": "# Captain Tasty Bite\n\n[IMG_2041](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/380d4e57-c920-4444-9063-00a2037e998b)\n\n## **The Smuggler-King of The Malign Crew**\n\n- **Ships:** 4 sleek corsairs, including *The Malign*\n\n- **Crew:** **Amphibious fighters, expert navigators, and spies**\n\n- **Flag:** **Dark blue with silver waves and a jagged shark bite**\n\n- **Style:** **Bribes over battles, ambushes over sieges**\n\n- **Reputation:** **No deal is ever truly fair—except to him**\n\n- **Specialties:** **Smuggling, espionage, under-the-table trading**\n\n- **Notoriety:** **Black Brine’s richest criminal outside the Council**\n\n- **Customs & Norms:**\n\n    - **The Shark’s Mark** – Every captain in his fleet wears a **necklace of shark teeth, each taken from a fallen rival**.\n\n    - **The …",
-      "raw": {}
+      "body_excerpt": "# Captain Tasty Bite\n\n## Overview\nLeader of the Malign fleet, the richest criminal of Black Brine’s seas.\n\n## Fleet\n- Ships: 4 corsairs, including *The Malign*  \n- Crew: Amphibious spies, navigators  \n- Style: Bribes and ambushes  \n- Reputation: Richest outlaw outside the council  \n\n## Customs\n- Shark’s Mark – shark tooth necklaces of rivals  \n- First Bite – blood tribute to the sea  \n- Silent Currents – hand signals and clicks",
+      "raw": {
+        "factions": [
+          "bb:fleet:malign",
+          "bb:faction:council-of-captains"
+        ]
+      }
     },
     {
-      "id": "bb:Page:captain-veyla-cold-tide-dren",
-      "type": "Page",
-      "name": "captain-veyla-cold-tide dren",
+      "id": "bb:npc:captain-veyla-cold-tide-dren",
+      "type": "npc",
+      "name": "Captain Veyla \"Cold Tide\" Dren",
       "tags": [
-        "NPC",
-        "Captain",
-        "CouncilOfCaptains",
-        "Faction"
+        "captain",
+        "council",
+        "npc",
+        "widow-makers",
+        "cold",
+        "ruthless"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-veyla-cold-tide dren.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Captain Veyla \"Cold Tide\" Dren",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-03-18T19:35:24.339Z",
-        "creationDate": "2025-03-18 14:35",
-        "modificationDate": "2025-03-18 14:55",
-        "tags": [
-          "NPC",
-          "Captain",
-          "CouncilOfCaptains",
-          "Faction"
+        "type": "npc",
+        "id": "bb:npc:captain-veyla-cold-tide-dren",
+        "name": "Captain Veyla \"Cold Tide\" Dren",
+        "summary": "Ice-veined mistress of the Widow Makers fleet, feared for merciless reaving.",
+        "factions": [
+          "bb:fleet:widow-makers",
+          "bb:faction:council-of-captains"
         ],
-        "coverImage": null
+        "tags": [
+          "captain",
+          "council",
+          "npc",
+          "widow-makers",
+          "cold",
+          "ruthless"
+        ],
+        "portrait": "assets/portraits/captain-veyla-dren.png"
       },
-      "body_excerpt": "# Captain Veyla \"Cold Tide\" Dren\n\n[couchwarrior_Dungeons_and_Dragons_female_human_pirate_captain_b_cebe0ee8-7c54-4487-ac59-b5e03d278c76](Images/couchwarrior_Dungeons_and_Dragons_female_human_pirate_captain_b_cebe0ee8-7c54-44.md)\n\n## **Mistress of The Widowmakers**\n\n- **Ships:** 6 deadly assassins' sloops, including *The Hollow Dagger*\n\n- **Crew:** **Silent killers, master tacticians, and bounty hunters**\n\n- **Flag:** **Black with a single silver dagger through a wave**\n\n- **Style:** **Stealth, ambush, and precise assassination**\n\n- **Reputation:** **No one survives a Widowmaker attack—except one, to spread the legend**\n\n- **Specialties:** **Night raids, poison, high-value assassinations**\n\n- **Notoriety:** **Her fleet has sunk more ships than any other, and no one knows where they strike f…",
-      "raw": {}
+      "body_excerpt": "# Captain Veyla \"Cold Tide\" Dren\n\n## Overview\nLeader of the Widow Makers, a fleet synonymous with merciless piracy.\n\n## Fleet\n- Ships: Dozens of sleek reavers  \n- Crew: Merciless corsairs  \n- Style: Cold calculation, terror raids  \n- Reputation: Doom sails with their flag  \n\n## Customs\n- Widow’s Cup – toast of mourning before raids  \n- Tide’s Claim – captured ships scuttled with no survivors  \n- Fang Hunt – rivals hunted relentlessly",
+      "raw": {
+        "factions": [
+          "bb:fleet:widow-makers",
+          "bb:faction:council-of-captains"
+        ]
+      }
     },
     {
       "id": "bb:npc:chef-gellard-dumarque",
@@ -5693,6 +5741,26 @@
       "target": "bb:npc:maelia-gorse"
     },
     {
+      "source": "bb:npc:captain-bloodshot",
+      "rel": "member_of",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:npc:captain-bor-driftwood-harvann",
+      "rel": "member_of",
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:npc:captain-garrick-golden-tooth-salt",
+      "rel": "member_of",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:npc:captain-lysara-vale",
+      "rel": "member_of",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
       "source": "bb:npc:chef-gellard-dumarque",
       "rel": "located_in",
       "target": "bb:location:ruperts-rest"
@@ -6358,6 +6426,21 @@
       "target": "bb:faction:butchers"
     },
     {
+      "source": "bb:npc:captain-lysara-vale",
+      "rel": "leads",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:npc:captain-tasty-bite",
+      "rel": "leads",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:npc:captain-bloodshot",
+      "rel": "leads",
+      "target": "bb:fleet:miasma"
+    },
+    {
       "source": "bb:faction:butchers",
       "rel": "controls",
       "target": "bb:location:foghouse-row"
@@ -6376,6 +6459,6 @@
   "unresolved": [],
   "stats": {
     "nodes": 146,
-    "edges": 174
+    "edges": 181
   }
 }

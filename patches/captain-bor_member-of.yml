@@ -1,0 +1,5 @@
+path: RPG_Knowledge_Base/06_NPCs/captain-bor-driftwood-harvann.md
+merge:
+  member_of:
+    - bb:fleet:red-wakes
+    - bb:faction:council-of-captains

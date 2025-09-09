@@ -1,0 +1,6 @@
+path: RPG_Knowledge_Base/03_Factions/fleet_miasma.md
+merge:
+  leaders:
+    - bb:npc:captain-bloodshot
+  participants:
+    - bb:npc:captain-bloodshot

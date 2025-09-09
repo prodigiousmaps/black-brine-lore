@@ -1,41 +1,26 @@
 ---
-type: Page
-collections: Black Brine
-title: Captain Garrick "Golden Tooth" Salt
-description: null
-icon: null
-createdAt: '2025-03-18T19:53:59.950Z'
-creationDate: 2025-03-18 14:53
-modificationDate: 2025-03-18 14:58
-tags: [CouncilOfCaptains, Captain, NPC, Faction, Town]
-coverImage: null
+type: npc
+id: bb:npc:captain-garrick-golden-tooth-salt
+name: Captain Garrick "Golden Tooth" Salt
+summary: Merchant-lord of the Gilded Rats fleet, thriving on bribery and deception.
+factions:
+  - bb:fleet:gilded-rats
+  - bb:faction:council-of-captains
+tags: [captain, council, npc, gilded-rats, merchant, kender]
+portrait: assets/portraits/captain-garrick-salt.png
 ---
-
 # Captain Garrick "Golden Tooth" Salt
 
-[couchwarrior_Dungeons__Dragons_male_middle-aged_kender_pirate_c_87283ac9-dbf1-4147-8804-60ba40c83374](Images/couchwarrior_Dungeons__Dragons_male_middle-aged_kender_pirate_c_87283ac9-dbf1-41.md)
+## Overview
+Cunning merchant-lord who profits by gold rather than blood.
 
-## **Merchant-Lord of The Gilded Rats**
+## Fleet
+- Ships: 5 armed galleons  
+- Crew: Traders, spies, thieves  
+- Style: Bribery, deception, forgery  
+- Reputation: Hated for always profiting  
 
-- **Ships:** 5 well-armed merchant galleons
-
-- **Crew:** **Wealthy traders, spies, and thieves**
-
-- **Flag:** **Gold with a rat holding a dagger**
-
-- **Style:** **Bribery over battles, deception over strength**
-
-- **Reputation:** **The most hated captain in Black Brine—because he always profits**
-
-- **Specialties:** **Trade, forgery, and black-market deals**
-
-- **Notoriety:** **His fleet never fires a shot, yet still wins every fight**
-
-- **Customs & Norms:**
-
-    - **The Stolen Jewel** – Each crew member must own **one piece of noble jewelry**, proving they have stolen from the rich.
-
-    - **Deals Over Death** – Any battle that can be **won with gold instead of blood** must be.
-
-    - **The Gold Coin Gambit** – All major disputes are settled with a **single coin toss**—the loser pays, no exceptions.
-
+## Customs
+- Stolen Jewel – proof of theft from nobles  
+- Deals Over Death – gold over blood  
+- Gold Coin Gambit – disputes settled by coin toss

@@ -1,0 +1,5 @@
+path: RPG_Knowledge_Base/06_NPCs/captain-bloodshot.md
+merge:
+  member_of:
+    - bb:fleet:miasma
+    - bb:faction:council-of-captains

@@ -22,7 +22,10 @@
     "patches\\jungle-survival-training-mechanics.yml",
     "patches\\butchers.yml",
     "patches\\twilight-society.yml",
+    "patches\\hollow-fangs.yml",
     "patches\\house-of-questions.yml",
+    "patches\\malign-crew.yml",
+    "patches\\miasma-fleet.yml",
     "patches\\arlo-the-noose.yml",
     "patches\\vel-corven.yml",
     "patches\\gun-deck-rosy.yml",
@@ -891,9 +894,9 @@
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\hollow-fangs.md",
       "field": "leaders",
       "value": "bb:npc:captain-lysara-vale",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "resolved_id": "bb:npc:captain-lysara-vale",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -972,9 +975,9 @@
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\malign-crew.md",
       "field": "leaders",
       "value": "bb:npc:captain-tasty-bite",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "resolved_id": "bb:npc:captain-tasty-bite",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -990,9 +993,9 @@
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\miasma-fleet.md",
       "field": "leaders",
       "value": "bb:npc:captain-bloodshot",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "resolved_id": "bb:npc:captain-bloodshot",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -1239,7 +1242,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\03_NPCs\\Organizations\\Council of Free Captains.md",
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Organizations\\council-of-free-captains.md",
       "field": "location",
       "value": "Black Brine - various districts, primarily Salt Crown and Crosswater taverns",
       "resolved_id": null,
@@ -1326,6 +1329,114 @@
       "resolved_id": "bb:location:red-door-alchemy",
       "method": "id",
       "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-bloodshot.md",
+      "field": "factions*",
+      "value": "bb:fleet:miasma",
+      "resolved_id": "bb:fleet:miasma",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-bloodshot.md",
+      "field": "factions*",
+      "value": "bb:faction:council-of-captains",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-bor-driftwood-harvann.md",
+      "field": "factions*",
+      "value": "bb:fleet:red-wakes",
+      "resolved_id": "bb:fleet:red-wakes",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-bor-driftwood-harvann.md",
+      "field": "factions*",
+      "value": "bb:faction:council-of-captains",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-garrick-golden-tooth-salt.md",
+      "field": "factions*",
+      "value": "bb:fleet:gilded-rats",
+      "resolved_id": "bb:fleet:gilded-rats",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-garrick-golden-tooth-salt.md",
+      "field": "factions*",
+      "value": "bb:faction:council-of-captains",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-lysara-vale.md",
+      "field": "factions*",
+      "value": "bb:fleet:hollow-fangs",
+      "resolved_id": "bb:fleet:hollow-fangs",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-lysara-vale.md",
+      "field": "factions*",
+      "value": "bb:faction:council-of-captains",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-tasty-bite.md",
+      "field": "factions*",
+      "value": "bb:fleet:malign",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-tasty-bite.md",
+      "field": "factions*",
+      "value": "bb:faction:council-of-captains",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-veyla-cold-tide dren.md",
+      "field": "factions*",
+      "value": "bb:fleet:widow-makers",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-veyla-cold-tide dren.md",
+      "field": "factions*",
+      "value": "bb:faction:council-of-captains",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {

@@ -1,45 +1,26 @@
 ---
-type: Page
-collections: Black Brine
-title: Captain Tasty Bite
-description: null
-icon: null
-createdAt: '2025-03-18T19:33:57.568Z'
-creationDate: 2025-03-18 14:33
-modificationDate: 2025-03-18 14:56
-tags: [NPC, Captain, CouncilOfCaptains, Faction, Town]
-coverImage: null
+type: npc
+id: bb:npc:captain-tasty-bite
+name: Captain Tasty Bite
+summary: Smuggler-king of the Malign fleet, ruling with cunning deals and shark-tooth traditions.
+factions:
+  - bb:fleet:malign
+  - bb:faction:council-of-captains
+tags: [captain, council, npc, malign, smuggler]
+portrait: assets/portraits/captain-tasty-bite.png
 ---
-
 # Captain Tasty Bite
 
-[IMG_2041](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/380d4e57-c920-4444-9063-00a2037e998b)
+## Overview
+Leader of the Malign fleet, the richest criminal of Black Brine’s seas.
 
-## **The Smuggler-King of The Malign Crew**
+## Fleet
+- Ships: 4 corsairs, including *The Malign*  
+- Crew: Amphibious spies, navigators  
+- Style: Bribes and ambushes  
+- Reputation: Richest outlaw outside the council  
 
-- **Ships:** 4 sleek corsairs, including *The Malign*
-
-- **Crew:** **Amphibious fighters, expert navigators, and spies**
-
-- **Flag:** **Dark blue with silver waves and a jagged shark bite**
-
-- **Style:** **Bribes over battles, ambushes over sieges**
-
-- **Reputation:** **No deal is ever truly fair—except to him**
-
-- **Specialties:** **Smuggling, espionage, under-the-table trading**
-
-- **Notoriety:** **Black Brine’s richest criminal outside the Council**
-
-- **Customs & Norms:**
-
-    - **The Shark’s Mark** – Every captain in his fleet wears a **necklace of shark teeth, each taken from a fallen rival**.
-
-    - **The First Bite** – A fresh kill must be **bled into the sea**, a gift to the waves.
-
-    - **Silent Currents** – His crew communicates in **hand signals and short clicks**, making them impossible to eavesdrop on.
-
----
-
-
-[IMG_2028](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/d3852af0-516d-45f3-9fb6-c166136d732c)
+## Customs
+- Shark’s Mark – shark tooth necklaces of rivals  
+- First Bite – blood tribute to the sea  
+- Silent Currents – hand signals and clicks

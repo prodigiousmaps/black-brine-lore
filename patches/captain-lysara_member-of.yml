@@ -1,0 +1,5 @@
+path: RPG_Knowledge_Base/06_NPCs/captain-lysara-vale.md
+merge:
+  member_of:
+    - bb:fleet:hollow-fangs
+    - bb:faction:council-of-captains

@@ -1,0 +1,13 @@
+path: RPG_Knowledge_Base/03_Factions/council-of-captains.md
+merge:
+  type: faction
+  id: bb:faction:council-of-captains
+  name: Council of Captains
+  faction_type: council
+  members:
+    - bb:npc:captain-bloodshot
+    - bb:npc:captain-bor-driftwood-harvann
+    - bb:npc:captain-garrick-golden-tooth-salt
+    - bb:npc:captain-lysara-vale
+    - bb:npc:captain-tasty-bite
+    - bb:npc:captain-veyla-cold-tide-dren

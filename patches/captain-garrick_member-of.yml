@@ -1,0 +1,5 @@
+path: RPG_Knowledge_Base/06_NPCs/captain-garrick-golden-tooth-salt.md
+merge:
+  member_of:
+    - bb:fleet:gilded-rats
+    - bb:faction:council-of-captains
