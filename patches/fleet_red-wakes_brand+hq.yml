@@ -10,4 +10,5 @@ merge:
     primary: "#b43a3a"  # blood tide
   motto: "Take the deck or take the deep."
   headquarters: bb:district:keelhauls
+  emblem: assets/fleets/red-wakes.png
   tags: [fleet, ruling-fleet, red-wakes, boarding, raiders]

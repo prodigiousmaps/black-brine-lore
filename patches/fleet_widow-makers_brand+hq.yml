@@ -10,4 +10,5 @@ merge:
     primary: "#c9d6ff"  # cold pale
   motto: "Mourn them now."
   headquarters: bb:district:salt-crown
+  emblem: assets/fleets/widow-makers.png
   tags: [fleet, ruling-fleet, widow-makers, dread, reputation]

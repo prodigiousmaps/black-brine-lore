@@ -10,4 +10,5 @@ merge:
     primary: "#7d8b8f"  # steel fog
   motto: "What you breathe binds you."
   headquarters: bb:district:mistwalk
+  emblem: assets/fleets/the-miasma.png
   tags: [fleet, ruling-fleet, miasma, mist, poison, ambush]

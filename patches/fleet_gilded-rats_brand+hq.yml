@@ -10,4 +10,5 @@ merge:
     primary: "#d0a85a"  # tarnished gold
   motto: "A coin in every bite."
   headquarters: bb:district:crosswater
+  emblem: assets/fleets/gilded-rats.png
   tags: [fleet, ruling-fleet, gilded-rats, smuggling, commerce]
