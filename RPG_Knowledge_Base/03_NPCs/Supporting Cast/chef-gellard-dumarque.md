@@ -10,7 +10,13 @@ allies:
 rivals: []
 appears_in:
   - bb:location:ruperts-rest
-tags: [chef, noble, eccentric, rupert, household]
+tags: 
+  - chef
+  - noble
+  - eccentric
+  - rupert
+  - household
+portrait: assets/portraits/chef-dumarque.png
 ---
 
 # Description

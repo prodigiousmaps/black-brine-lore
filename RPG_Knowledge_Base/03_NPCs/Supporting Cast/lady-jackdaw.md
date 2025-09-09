@@ -10,7 +10,12 @@ allies:
 rivals: []
 appears_in:
   - bb:location:ruperts-rest
-tags: [butler, intrigue, rupert, household]
+tags: 
+  - butler
+  - intrigue
+  - rupert
+  - household
+portrait: assets/portraits/lady-jackdaw.png
 ---
 
 # Description

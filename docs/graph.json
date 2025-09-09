@@ -3138,7 +3138,8 @@
           "eccentric",
           "rupert",
           "household"
-        ]
+        ],
+        "portrait": "assets/portraits/chef-dumarque.png"
       },
       "body_excerpt": "# Description\nOnce a renowned noble chef of the Inner Seas, Gellard DuMarque fled scandal and debt to reinvent himself in Black Brine. His cuisine is extravagant, spiced with rare imports, and often laced with risky alchemy. Rupert tolerates his flair because it keeps both guests and students guessing.\n\n# Personality\n- Dramatic, flamboyant, and prone to reciting menus as poetry.  \n- Treats meals as both art and theater.  \n- Loyal to Rupert but keeps his own secrets.  \n\n# Secrets (DM Only)\n- Still in contact with noble houses who believe him dead.  \n- Occasionally poisons dishes—not lethally—to test fortitude.",
       "raw": {
@@ -3656,7 +3657,8 @@
           "intrigue",
           "rupert",
           "household"
-        ]
+        ],
+        "portrait": "assets/portraits/lady-jackdaw.png"
       },
       "body_excerpt": "# Description\nLady Jackdaw is the refined but ruthless steward of Rupert’s household. She keeps accounts, greets visitors, and ensures Rupert’s safety with subtle intimidation. Her demeanor is icy, her wit sharp, and her loyalty bound in personal ambition.\n\n# Personality\n- Polite and cultured but cutting in her judgments.  \n- Uses innuendo and veiled threats to control situations.  \n- Keeps detailed records of everyone who enters Rupert’s Rest.  \n\n# Secrets (DM Only)\n- Operates a spy network in Black Brine under Rupert’s nose.  \n- Knows more about Sedna’s cult in the city than she admits.",
       "raw": {
