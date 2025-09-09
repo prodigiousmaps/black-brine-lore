@@ -1,0 +1,8 @@
+---
+type: patch
+target: bb:fleet:widow-makers
+add:
+  captains:
+    - bb:npc:veyla-cold-tide-dren
+  roster:
+    - bb:npc:veyla-cold-tide-dren

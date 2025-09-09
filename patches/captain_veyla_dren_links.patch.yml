@@ -1,0 +1,10 @@
+---
+type: patch
+target: bb:npc:veyla-cold-tide-dren
+add:
+  leads:
+    - bb:fleet:widow-makers
+  factions:
+    - bb:fleet:widow-makers
+  roles:
+    - Captain of the Widow Makers
