@@ -4,7 +4,9 @@ id: bb:npc:inquisitor-denara-gilt
 name: Inquisitor Denara Gilt
 summary: Smiles like a ledger in balance; buys answers, sells futures, never pays twice.
 location: bb:location:house-of-questions
-factions: [ bb:fleet:gilded-rats ]
+factions: 
+  - bb:fleet:gilded-rats
+  - bb:factiion:house-of-questions
 allies: []
 rivals: []
 appears_in:

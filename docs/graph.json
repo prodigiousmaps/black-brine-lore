@@ -3245,7 +3245,8 @@
         "summary": "Smiles like a ledger in balance; buys answers, sells futures, never pays twice.",
         "location": "bb:location:house-of-questions",
         "factions": [
-          "bb:fleet:gilded-rats"
+          "bb:fleet:gilded-rats",
+          "bb:factiion:house-of-questions"
         ],
         "allies": [],
         "rivals": [],
@@ -3262,7 +3263,8 @@
       "raw": {
         "location": "bb:location:house-of-questions",
         "factions": [
-          "bb:fleet:gilded-rats"
+          "bb:fleet:gilded-rats",
+          "bb:factiion:house-of-questions"
         ],
         "allies": [],
         "rivals": [],
@@ -4343,7 +4345,7 @@
         "type": "location",
         "id": "bb:location:captains-club",
         "name": "Captain’s Club",
-        "parent_location": "bb:city:black-brine",
+        "parent_location": "bb:district:mistwalk",
         "location_type": "tavern (private)",
         "maps_available": true,
         "map_files": [
@@ -4360,7 +4362,7 @@
       },
       "body_excerpt": "# Overview\nAn invitation-only tavern built into the hull of an old warship, just off the main docks. It serves Black Brine’s elite—current and former ship captains, mercenary leaders, and smugglers. The rooms are dim, smoke-thick, and furnished with stolen finery; deals are struck in murmurs while Dragonchess and high-stakes cards clatter under lantern light.\n\n# House Rules\n- Staff are sworn to secrecy; betraying a captain’s confidence is a death sentence.  \n- Disputes are settled **outside**, never inside.  \n- Back rooms are for private negotiations, alliances, and covert deals.\n\n# Staff\n- **“Iron” Ida Gallows (Barkeep):** Former quartermaster; missing two fingers from a bet with Gun Deck Rosy. Keeps a loaded pistol beneath the bar and serves the club’s signature rum, **The Widowmaker**. …",
       "raw": {
-        "parent_location": "bb:city:black-brine"
+        "parent_location": "bb:district:mistwalk"
       }
     },
     {
@@ -5993,7 +5995,7 @@
     {
       "source": "bb:location:captains-club",
       "rel": "located_in",
-      "target": "bb:city:black-brine"
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:location:chain-wharf",

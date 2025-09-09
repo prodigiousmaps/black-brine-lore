@@ -2,7 +2,7 @@
 type: location
 id: bb:location:captains-club
 name: Captain’s Club
-parent_location: bb:city:black-brine          # update to a district later if you want
+parent_location: bb:district:mistwalk          # update to a district later if you want
 location_type: tavern (private)
 maps_available: true
 map_files:

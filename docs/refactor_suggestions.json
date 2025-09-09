@@ -1612,6 +1612,15 @@
     },
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-denara-gilt.md",
+      "field": "factions*",
+      "value": "bb:factiion:house-of-questions",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-denara-gilt.md",
       "field": "appears_in",
       "value": "bb:location:house-of-questions",
       "resolved_id": "bb:location:house-of-questions",
@@ -2108,8 +2117,8 @@
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\captains-club.md",
       "field": "parent_location",
-      "value": "bb:city:black-brine",
-      "resolved_id": "bb:city:black-brine",
+      "value": "bb:district:mistwalk",
+      "resolved_id": "bb:district:mistwalk",
       "method": "id",
       "score": 1.0,
       "note": ""
