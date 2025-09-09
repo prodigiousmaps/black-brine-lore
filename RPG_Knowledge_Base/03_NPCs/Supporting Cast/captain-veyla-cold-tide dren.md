@@ -7,7 +7,7 @@ factions:
   - bb:fleet:widow-makers
   - bb:faction:council-of-captains
 tags: [captain, council, npc, widow-makers, cold, ruthless]
-portrait: assets/portraits/captain-veyla-dren.png
+portrait: assets/portraits/captain-dren.png
 ---
 # Captain Veyla "Cold Tide" Dren
 
