@@ -424,8 +424,10 @@
           "brooding",
           "exile"
         ],
-        "portrait": "assets/portraits/sy.png",
-        "sheet_url": "sheets/<pc>.pdf"
+        "portrait": [
+          "assets/portraits/sy.png"
+        ],
+        "sheet_url": "sheets/sy.pdf"
       },
       "body_excerpt": "# Appearance\nLithe swimmer’s build; sea-toned skin with green-blue sheen; long dark hair; reflective green eyes; ritual scarring along ribs; slightly webbed fingers; trident-shaped sentient dagger at the belt.\n\n# Personality\n- Quiet, intense, secretive—but fiercely loyal once earned.  \n- Ideal: “Power comes from the depths—earned, not inherited.”  \n- Bond: The dagger—last tie to his father.  \n- Flaw: Guilt over Nymh and his father’s fate.\n\n# Backstory\nRaised among smugglers in Ithmong; warned about his mother’s ambitions; found the bound blade and fled before becoming her pawn.\n\n# Recent History\n- Escaped a merchant brig with Pinch and Franklin.  \n- Struck dark bargains in a cursed ruin; took the helm of a mastless, planar ship.  \n- Sails toward Black Brine under Captain Tasty Bite’s wary …",
       "raw": {

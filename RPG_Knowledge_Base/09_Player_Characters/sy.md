@@ -28,8 +28,8 @@ tags:
 - hexblade
 - brooding
 - exile
-portrait: assets/portraits/sy.png
-sheet_url: sheets/<pc>.pdf
+portrait: [assets/portraits/sy.png]
+sheet_url: sheets/sy.pdf
 ---
 # Appearance
 Lithe swimmer’s build; sea-toned skin with green-blue sheen; long dark hair; reflective green eyes; ritual scarring along ribs; slightly webbed fingers; trident-shaped sentient dagger at the belt.

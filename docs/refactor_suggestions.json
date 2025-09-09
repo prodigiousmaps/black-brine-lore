@@ -179,8 +179,8 @@
     {
       "path": "RPG_Knowledge_Base\\09_Player_Characters\\franklin-pierce.md",
       "field": "allies",
-      "value": "bb:pc:sy",
-      "resolved_id": "bb:pc:sy",
+      "value": "bb:npc:rupert-richthorn",
+      "resolved_id": "bb:npc:rupert-richthorn",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -197,17 +197,8 @@
     {
       "path": "RPG_Knowledge_Base\\09_Player_Characters\\franklin-pierce.md",
       "field": "allies",
-      "value": "bb:npc:rupert-richthorn",
-      "resolved_id": "bb:npc:rupert-richthorn",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\09_Player_Characters\\franklin-pierce.md",
-      "field": "appears_in",
-      "value": "bb:story:rogue-wave",
-      "resolved_id": "bb:story:rogue-wave",
+      "value": "bb:pc:sy",
+      "resolved_id": "bb:pc:sy",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -222,10 +213,28 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\09_Player_Characters\\franklin-pierce.md",
+      "field": "appears_in",
+      "value": "bb:story:rogue-wave",
+      "resolved_id": "bb:story:rogue-wave",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\09_Player_Characters\\pinch.md",
       "field": "location",
       "value": "bb:city:black-brine",
       "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\09_Player_Characters\\pinch.md",
+      "field": "allies",
+      "value": "bb:npc:rupert-richthorn",
+      "resolved_id": "bb:npc:rupert-richthorn",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -250,9 +259,9 @@
     },
     {
       "path": "RPG_Knowledge_Base\\09_Player_Characters\\pinch.md",
-      "field": "allies",
-      "value": "bb:npc:rupert-richthorn",
-      "resolved_id": "bb:npc:rupert-richthorn",
+      "field": "appears_in",
+      "value": "bb:location:ruperts-rest",
+      "resolved_id": "bb:location:ruperts-rest",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -267,19 +276,19 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\09_Player_Characters\\pinch.md",
-      "field": "appears_in",
-      "value": "bb:location:ruperts-rest",
-      "resolved_id": "bb:location:ruperts-rest",
+      "path": "RPG_Knowledge_Base\\09_Player_Characters\\sy.md",
+      "field": "location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
       "method": "id",
       "score": 1.0,
       "note": ""
     },
     {
       "path": "RPG_Knowledge_Base\\09_Player_Characters\\sy.md",
-      "field": "location",
-      "value": "bb:city:black-brine",
-      "resolved_id": "bb:city:black-brine",
+      "field": "allies",
+      "value": "bb:npc:rupert-richthorn",
+      "resolved_id": "bb:npc:rupert-richthorn",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -304,9 +313,9 @@
     },
     {
       "path": "RPG_Knowledge_Base\\09_Player_Characters\\sy.md",
-      "field": "allies",
-      "value": "bb:npc:rupert-richthorn",
-      "resolved_id": "bb:npc:rupert-richthorn",
+      "field": "appears_in",
+      "value": "bb:location:ruperts-rest",
+      "resolved_id": "bb:location:ruperts-rest",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -316,15 +325,6 @@
       "field": "appears_in",
       "value": "bb:story:rogue-wave",
       "resolved_id": "bb:story:rogue-wave",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\09_Player_Characters\\sy.md",
-      "field": "appears_in",
-      "value": "bb:location:ruperts-rest",
-      "resolved_id": "bb:location:ruperts-rest",
       "method": "id",
       "score": 1.0,
       "note": ""
