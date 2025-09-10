@@ -5553,14 +5553,6 @@
       "source": null
     },
     {
-      "id": "bb:hub:geography",
-      "type": "hub",
-      "name": "Geography",
-      "center": false,
-      "ring_index": 3,
-      "source": null
-    },
-    {
       "id": "bb:hub:campaigns",
       "type": "hub",
       "name": "Campaigns",
@@ -6388,12 +6380,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
+      "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:hub:districts",
@@ -6403,27 +6395,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:salt-crown"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:house-of-questions"
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:factions",
@@ -6433,7 +6410,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
+      "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:factions",
@@ -6443,12 +6420,27 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:widowmakers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:widowmakers"
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:house-of-questions"
     },
     {
       "source": "bb:hub:factions",
@@ -6456,269 +6448,9 @@
       "target": "bb:fleet:miasma"
     },
     {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:rules:jungle-weather-events"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:rules:jungle-event-threat-level"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:rules:jungle-survival"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:temple-chained-god"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:the-sump"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:gallows-market"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:dry-docks-crosswater"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:black-brine-library"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:hazard:razor-ferns"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:house-of-questions"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:story:deep-green:skull-garden"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:captains-club"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:hazard:false-beauty-vines"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:chain-wharf"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:rules:jungle-navigation-events"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:cuttys-blades"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:story:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:island-of-sedna"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:hazard:insect-swarm-blood-flies"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:monster:twig-blight-jungle-variant"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:rules:jungle-survival-training"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:beast:ravething"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:the-bonewalk"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:volcanic-peak-sedna"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:story:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:rules:jungle-passive-threat-level"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:region:forbidden-west-sedna"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:red-door-alchemy"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:lore:geography-black-brine"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:fishbone-row"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:miremarket"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:gentle-rest-inn"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:crooked-lantern"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:drunken-satyr"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:red-chain-bridge"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:ruperts-rest"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:rules:jungle-travel-phases"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:story:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:wet-bar"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:city-hull"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:lending-house-black-brine"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:sinkers-curiosities"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:story:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:rules:jungle-environmental-threat-level"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:rules:jungle-navigation"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:black-brine-river"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:string-and-power"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:rules:jungle-stealth"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:whisperers-hollow"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:hazard:rope-bridge-gorge"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:foghouse-row"
-    },
-    {
-      "source": "bb:hub:geography",
-      "rel": "organizes",
-      "target": "bb:location:ritas-smithy"
-    },
-    {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
+      "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6728,17 +6460,17 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:campaign:fallen-city-memory-palace"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
+      "target": "bb:campaign:dead-sons-structure"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 152,
-    "edges": 233
+    "nodes": 151,
+    "edges": 181
   }
 }

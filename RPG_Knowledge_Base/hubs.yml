@@ -27,13 +27,6 @@ hubs:
     connects:
       by_type: [faction]
 
-  - id: bb:hub:geography
-    name: Geography
-    ring_index: 3
-    connects:
-      # Pull in non-district places via tags or types you already use
-      by_tag:   [geography, landform, river, coastline, reef, island, mountain, jungle]
-      by_type:  [region, location]   # (keeps districts with the Districts hub)
 
   - id: bb:hub:campaigns
     name: Campaigns
