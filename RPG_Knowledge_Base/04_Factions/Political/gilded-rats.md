@@ -5,7 +5,7 @@ name: The Gilded Rats
 summary: >
   Garrick “Golden Tooth” Salt’s merchant-lord flotilla. They buy, bribe, and
   forge rather than fight—until they have to.
-location: bb:city:black-brine
+member_of: bb:hub:fleets
 leaders: [ bb:npc:captain-garrick-salt ]
 tags: [fleet, merchant, spies, deception]
 emblem: assets/fleets/gilded-rat.png

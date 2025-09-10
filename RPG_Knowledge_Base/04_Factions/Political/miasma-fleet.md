@@ -5,7 +5,7 @@ name: The Miasma Fleet
 summary: >
   Cursed vessels crewed by warped sailors. They fight with disease, fear,
   and necromancy as much as cutlass and shot.
-location: bb:city:black-brine
+member_of: bb:hub:fleets
 leaders: [ bb:npc:captain-bloodshot ]
 tags: [fleet, cursed, terror, disease, eldritch]
 emblem: assets/fleets/the-miasma.png

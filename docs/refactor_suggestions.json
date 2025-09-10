@@ -231,6 +231,24 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\infiltration-temple-of-sedna.md",
+      "field": "location",
+      "value": "bb:location:little-sedna",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\infiltration-temple-of-sedna.md",
+      "field": "appears_in",
+      "value": "bb:campaign:into-deep-green",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-jungle-camp.md",
       "field": "location",
       "value": "bb:region:deep-green",
@@ -826,29 +844,11 @@
     },
     {
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\gilded-rats.md",
-      "field": "location",
-      "value": "bb:city:black-brine",
-      "resolved_id": "bb:city:black-brine",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\gilded-rats.md",
       "field": "leaders",
       "value": "bb:npc:captain-garrick-salt",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\hollow-fangs.md",
-      "field": "location",
-      "value": "bb:city:black-brine",
-      "resolved_id": "bb:city:black-brine",
-      "method": "id",
-      "score": 1.0,
       "note": ""
     },
     {
@@ -925,27 +925,9 @@
     },
     {
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\malign-crew.md",
-      "field": "location",
-      "value": "bb:city:black-brine",
-      "resolved_id": "bb:city:black-brine",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\malign-crew.md",
       "field": "leaders",
       "value": "bb:npc:captain-tasty-bite",
       "resolved_id": "bb:npc:captain-tasty-bite",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\miasma-fleet.md",
-      "field": "location",
-      "value": "bb:city:black-brine",
-      "resolved_id": "bb:city:black-brine",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -961,29 +943,11 @@
     },
     {
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\red-wakes.md",
-      "field": "location",
-      "value": "bb:city:black-brine",
-      "resolved_id": "bb:city:black-brine",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\red-wakes.md",
       "field": "leaders",
       "value": "bb:npc:captain-bor-harvann",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\widowmakers.md",
-      "field": "location",
-      "value": "bb:city:black-brine",
-      "resolved_id": "bb:city:black-brine",
-      "method": "id",
-      "score": 1.0,
       "note": ""
     },
     {

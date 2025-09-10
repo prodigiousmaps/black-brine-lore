@@ -5,7 +5,7 @@ name: The Widowmakers
 summary: >
   Veyla “Cold Tide” Dren’s assassins’ sloops—precision strikes, no witnesses,
   and vanishing wakes.
-location: bb:city:black-brine
+member_of: bb:hub:fleets
 leaders: [ bb:npc:captain-veyla-dren ]
 tags: [fleet, assassins, ambush, terror]
 emblem: assets/fleets/widow-makers.png

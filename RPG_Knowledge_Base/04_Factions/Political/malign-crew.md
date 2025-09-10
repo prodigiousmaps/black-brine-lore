@@ -5,7 +5,7 @@ name: The Malign Fleet
 summary: >
   Tasty Bite’s corsairs—amphibious fighters and spies who rule the smuggling
   lanes and backroom deals.
-location: bb:city:black-brine
+member_of: bb:hub:fleets
 leaders: [ bb:npc:captain-tasty-bite ]
 tags: [fleet, smuggling, espionage]
 portrait: [assets/fleets/the-malign.png]

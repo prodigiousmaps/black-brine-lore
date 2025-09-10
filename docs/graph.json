@@ -516,29 +516,39 @@
       "raw": {}
     },
     {
-      "id": "bb:Page:infiltration-temple-of-sedna",
-      "type": "Page",
-      "name": "infiltration-temple-of-sedna",
+      "id": "bb:campaign:infiltration-temple-of-sedna",
+      "type": "campaign",
+      "name": "Infiltration – Temple of Sedna",
       "tags": [
-        "Encounter"
+        "adventure",
+        "encounter",
+        "temple",
+        "sedna"
       ],
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\infiltration-temple-of-sedna.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Infiltration - Little Sedna",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-05-21T21:11:14.824Z",
-        "creationDate": "2025-05-21 16:11",
-        "modificationDate": "2025-05-21 16:47",
+        "type": "campaign",
+        "id": "bb:campaign:infiltration-temple-of-sedna",
+        "name": "Infiltration – Temple of Sedna",
+        "summary": "Level 6 infiltration adventure for Pinch, Franklin, and Sy. Duration 2–3 hours.",
         "tags": [
-          "Encounter"
+          "adventure",
+          "encounter",
+          "temple",
+          "sedna"
         ],
-        "coverImage": null
+        "location": "bb:location:little-sedna",
+        "appears_in": [
+          "bb:campaign:into-deep-green"
+        ]
       },
-      "body_excerpt": "# Infiltration - Little Sedna\n\n---\n\n[SednaInterior](https://app.capacities.io/31f71015-b54c-41a2-8667-93c80b54b876/5d466963-d411-45e0-b930-8cbd26c3281e)\n\n# 🧭 Temple of Sedna Infiltration – GM Area Guide\n\n*Level 6 adventure for Pinch, Franklin, and Sy – 2 to 3 hours*\n\n---\n\n## 🗺️ AREA 1: **Entrance Tunnel**\n\n**Description**\n\nSlippery, barnacle-covered steps descend into salt-choked air. The temple is quiet, but the deeper rooms hiss and breathe with the tide.\n\n**Hazards**\n\n- **Salt Scab Trap** – Pressure plate covered in salt crystals.\n\n    - Trigger: Spike erupts (Dex Save DC 14 or 3d10 piercing + grappled).\n\n- **Bioluminescent Barnacles** – Loud movement causes them to glow (Stealth Disadvantage for 1 minute).\n\n**Clues**\n\n- **Fresco on the wall**: A woman with a sewn mouth, three ritual bo…",
-      "raw": {}
+      "body_excerpt": "# Infiltration – Temple of Sedna\n\n**Level 6 adventure for Pinch, Franklin, and Sy (2–3 hours).**\n\n---\n\n## Area 1: Entrance Tunnel\n\n**Description**  \nSlippery, barnacle-covered steps descend into salt-choked air. The temple is quiet, but the deeper rooms hiss and breathe with the tide.\n\n**Hazards**\n- *Salt Scab Trap*: Pressure plate covered in salt crystals.  \n  - Dex Save DC 14 → 3d10 piercing + grappled.\n- *Bioluminescent Barnacles*: Loud movement causes them to glow (Stealth disadvantage for 1 minute).\n\n**Clues**\n- Fresco: A woman with a sewn mouth, three ritual bowls before her; only the **water-filled bowl** is untouched by eels.  \n- Inscription: *“Her breath is not ours to keep.”*\n\n**Creatures**  \nNone, but noise echoes carry throughout.\n\n---\n\n## Area 2: Sanctuary Chamber (Main Temple…",
+      "raw": {
+        "location": "bb:location:little-sedna",
+        "appears_in": [
+          "bb:campaign:into-deep-green"
+        ]
+      }
     },
     {
       "id": "bb:campaign:deep-green:jungle-camp",
@@ -1738,7 +1748,7 @@
         "id": "bb:fleet:gilded-rats",
         "name": "The Gilded Rats",
         "summary": "Garrick “Golden Tooth” Salt’s merchant-lord flotilla. They buy, bribe, and forge rather than fight—until they have to.\n",
-        "location": "bb:city:black-brine",
+        "member_of": "bb:hub:fleets",
         "leaders": [
           "bb:npc:captain-garrick-salt"
         ],
@@ -1752,7 +1762,6 @@
       },
       "body_excerpt": "# Customs\n- The Stolen Jewel  \n- Deals Over Death  \n- The Gold Coin Gambit",
       "raw": {
-        "location": "bb:city:black-brine",
         "leaders": [
           "bb:npc:captain-garrick-salt"
         ]
@@ -1774,7 +1783,7 @@
         "id": "bb:fleet:hollow-fangs",
         "name": "The Hollow Fangs",
         "summary": "Captain Lysara Vale’s spectral armada. Ghost-lanterns and mist-veiled hulls that slip past watchfires and into dreams.\n",
-        "location": "bb:city:black-brine",
+        "member_of": "bb:hub:fleets",
         "leaders": [
           "bb:npc:captain-lysara-vale"
         ],
@@ -1788,7 +1797,6 @@
       },
       "body_excerpt": "# Customs\n- The Noose’s Whisper  \n- The Drowned Hand  \n- The Forgotten Coins",
       "raw": {
-        "location": "bb:city:black-brine",
         "leaders": [
           "bb:npc:captain-lysara-vale"
         ]
@@ -1860,7 +1868,7 @@
         "id": "bb:fleet:malign-crew",
         "name": "The Malign Fleet",
         "summary": "Tasty Bite’s corsairs—amphibious fighters and spies who rule the smuggling lanes and backroom deals.\n",
-        "location": "bb:city:black-brine",
+        "member_of": "bb:hub:fleets",
         "leaders": [
           "bb:npc:captain-tasty-bite"
         ],
@@ -1875,7 +1883,6 @@
       },
       "body_excerpt": "# Ships \n4 sleek corsairs including The Malign\n\n# Crew \n- Amphibious fighters\n- expert navigators\n- spies\n\n# Flag \n- Dark blue with silver waves and a jagged shark bite\n\n# Style\n- Bribes over battles\n- ambushes over sieges\n\n# Reputation \nNo deal is ever truly fair—except to him\n\n# Specialties \n- Smuggling \n- espionage \n- under-the-table trading\n\n# Notoriety \nBlack Brine’s most prolific smuggler\n\n\n# Customs\n- The Shark’s Mark  \n- The First Bite  \n- Silent Currents",
       "raw": {
-        "location": "bb:city:black-brine",
         "leaders": [
           "bb:npc:captain-tasty-bite"
         ]
@@ -1898,7 +1905,7 @@
         "id": "bb:fleet:miasma",
         "name": "The Miasma Fleet",
         "summary": "Cursed vessels crewed by warped sailors. They fight with disease, fear, and necromancy as much as cutlass and shot.\n",
-        "location": "bb:city:black-brine",
+        "member_of": "bb:hub:fleets",
         "leaders": [
           "bb:npc:captain-bloodshot"
         ],
@@ -1913,7 +1920,6 @@
       },
       "body_excerpt": "# Customs\n- The Blackened Chalice – blood-drinking ritual before battle  \n- The Bone Hunt – recruits trophy hunt or die  \n- The Silent Decks – whispers only, never laughter",
       "raw": {
-        "location": "bb:city:black-brine",
         "leaders": [
           "bb:npc:captain-bloodshot"
         ]
@@ -1935,7 +1941,7 @@
         "id": "bb:fleet:red-wakes",
         "name": "The Red Wakes",
         "summary": "Bor “Driftwood” Harvann’s brutal warfleet. Masters of boarding and siege, infamous for taking no quarter.\n",
-        "location": "bb:city:black-brine",
+        "member_of": "bb:hub:fleets",
         "leaders": [
           "bb:npc:captain-bor-harvann"
         ],
@@ -1949,7 +1955,6 @@
       },
       "body_excerpt": "# Customs\n- Battle Booze before battle  \n- No Quarter Given  \n- First to Board, First to Lead",
       "raw": {
-        "location": "bb:city:black-brine",
         "leaders": [
           "bb:npc:captain-bor-harvann"
         ]
@@ -1971,7 +1976,7 @@
         "id": "bb:fleet:widowmakers",
         "name": "The Widowmakers",
         "summary": "Veyla “Cold Tide” Dren’s assassins’ sloops—precision strikes, no witnesses, and vanishing wakes.\n",
-        "location": "bb:city:black-brine",
+        "member_of": "bb:hub:fleets",
         "leaders": [
           "bb:npc:captain-veyla-dren"
         ],
@@ -1985,7 +1990,6 @@
       },
       "body_excerpt": "# Ships \n- 6 deadly assassins' sloops\n- including The Hollow Dagger\n\n# Crew \n- Silent killers\n- master tacticians\n- bounty hunters\n\n# Flag \n- Skull in a widows veil\n\n# Style \n- Stealth\n- ambush\n- precise assassination\n\n# Reputation \nNo one survives a Widowmaker attack—except one, to spread the legend\n\n# Specialties\n- Night raids\n- poison\n- high-value assassinations\n\n# Notoriety\nHer fleet has sunk more ships than any other, and no one knows where they strike from\n\n\n# Customs\n- The First Kill  \n- No Witnesses, Except One  \n- The Mark of the Tide",
       "raw": {
-        "location": "bb:city:black-brine",
         "leaders": [
           "bb:npc:captain-veyla-dren"
         ]
@@ -5585,39 +5589,9 @@
       "target": "bb:district:salt-crown"
     },
     {
-      "source": "bb:fleet:gilded-rats",
-      "rel": "located_in",
-      "target": "bb:city:black-brine"
-    },
-    {
-      "source": "bb:fleet:hollow-fangs",
-      "rel": "located_in",
-      "target": "bb:city:black-brine"
-    },
-    {
       "source": "bb:faction:house-of-questions",
       "rel": "located_in",
       "target": "bb:district:mistwalk"
-    },
-    {
-      "source": "bb:fleet:malign-crew",
-      "rel": "located_in",
-      "target": "bb:city:black-brine"
-    },
-    {
-      "source": "bb:fleet:miasma",
-      "rel": "located_in",
-      "target": "bb:city:black-brine"
-    },
-    {
-      "source": "bb:fleet:red-wakes",
-      "rel": "located_in",
-      "target": "bb:city:black-brine"
-    },
-    {
-      "source": "bb:fleet:widowmakers",
-      "rel": "located_in",
-      "target": "bb:city:black-brine"
     },
     {
       "source": "bb:npc:the-noose",
@@ -6367,12 +6341,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:salt-crown"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:districts",
@@ -6382,7 +6351,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
+      "target": "bb:district:salt-crown"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
@@ -6392,7 +6366,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
+      "target": "bb:fleet:malign-crew"
     },
     {
       "source": "bb:hub:factions",
@@ -6407,7 +6381,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
+      "target": "bb:fleet:widowmakers"
     },
     {
       "source": "bb:hub:factions",
@@ -6417,17 +6391,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
+      "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widowmakers"
+      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
@@ -6435,14 +6404,9 @@
       "target": "bb:fleet:gilded-rats"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
+      "target": "bb:fleet:miasma"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6452,22 +6416,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6478,11 +6427,41 @@
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 150,
-    "edges": 185
+    "edges": 180
   }
 }
