@@ -5519,6 +5519,54 @@
       "fm": {},
       "body_excerpt": "",
       "raw": {}
+    },
+    {
+      "id": "bb:hub:black-brine",
+      "type": "hub",
+      "name": "Black Brine",
+      "center": true,
+      "ring_index": null,
+      "source": null
+    },
+    {
+      "id": "bb:hub:districts",
+      "type": "hub",
+      "name": "Districts",
+      "center": false,
+      "ring_index": 0,
+      "source": null
+    },
+    {
+      "id": "bb:hub:fleets",
+      "type": "hub",
+      "name": "Fleets",
+      "center": false,
+      "ring_index": 1,
+      "source": null
+    },
+    {
+      "id": "bb:hub:factions",
+      "type": "hub",
+      "name": "Factions",
+      "center": false,
+      "ring_index": 2,
+      "source": null
+    },
+    {
+      "id": "bb:hub:geography",
+      "type": "hub",
+      "name": "Geography",
+      "center": false,
+      "ring_index": 3,
+      "source": null
+    },
+    {
+      "id": "bb:hub:campaigns",
+      "type": "hub",
+      "name": "Campaigns",
+      "center": false,
+      "ring_index": 4,
+      "source": null
     }
   ],
   "edges": [
@@ -5528,49 +5576,14 @@
       "target": "bb:city:black-brine"
     },
     {
-      "source": "bb:pc:franklin",
-      "rel": "ally_of",
-      "target": "bb:npc:rupert-richthorn"
-    },
-    {
-      "source": "bb:pc:franklin",
-      "rel": "ally_of",
-      "target": "bb:pc:pinch"
-    },
-    {
-      "source": "bb:pc:franklin",
-      "rel": "ally_of",
-      "target": "bb:pc:sy"
-    },
-    {
       "source": "bb:pc:pinch",
       "rel": "located_in",
       "target": "bb:city:black-brine"
     },
     {
-      "source": "bb:pc:pinch",
-      "rel": "ally_of",
-      "target": "bb:npc:rupert-richthorn"
-    },
-    {
-      "source": "bb:pc:pinch",
-      "rel": "ally_of",
-      "target": "bb:pc:sy"
-    },
-    {
       "source": "bb:pc:sy",
       "rel": "located_in",
       "target": "bb:city:black-brine"
-    },
-    {
-      "source": "bb:pc:sy",
-      "rel": "ally_of",
-      "target": "bb:npc:rupert-richthorn"
-    },
-    {
-      "source": "bb:pc:sy",
-      "rel": "ally_of",
-      "target": "bb:pc:pinch"
     },
     {
       "source": "bb:lore:blind-chefs-almanac",
@@ -5628,11 +5641,6 @@
       "target": "bb:district:salt-crown"
     },
     {
-      "source": "bb:npc:the-noose",
-      "rel": "member_of",
-      "target": "bb:faction:butchers"
-    },
-    {
       "source": "bb:npc:gun-deck-rosy",
       "rel": "located_in",
       "target": "bb:location:city-hull"
@@ -5643,29 +5651,9 @@
       "target": "bb:location:house-of-questions"
     },
     {
-      "source": "bb:npc:inquisitor-zunizar",
-      "rel": "member_of",
-      "target": "bb:fleet:widowmakers"
-    },
-    {
-      "source": "bb:npc:inquisitor-zunizar",
-      "rel": "member_of",
-      "target": "bb:faction:house-of-questions"
-    },
-    {
       "source": "bb:npc:rupert-richthorn",
       "rel": "located_in",
       "target": "bb:city:black-brine"
-    },
-    {
-      "source": "bb:npc:rupert-richthorn",
-      "rel": "rival_of",
-      "target": "bb:npc:gun-deck-rosy"
-    },
-    {
-      "source": "bb:npc:aldo-vance",
-      "rel": "rival_of",
-      "target": "bb:npc:harlow-blastcap-grint"
     },
     {
       "source": "bb:npc:brin",
@@ -5673,39 +5661,9 @@
       "target": "bb:location:red-door-alchemy"
     },
     {
-      "source": "bb:npc:brin",
-      "rel": "ally_of",
-      "target": "bb:npc:maelia-gorse"
-    },
-    {
-      "source": "bb:npc:captain-bloodshot",
-      "rel": "member_of",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:npc:captain-bor-driftwood-harvann",
-      "rel": "member_of",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:npc:captain-garrick-golden-tooth-salt",
-      "rel": "member_of",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:npc:captain-lysara-vale",
-      "rel": "member_of",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
       "source": "bb:npc:chef-gellard-dumarque",
       "rel": "located_in",
       "target": "bb:location:ruperts-rest"
-    },
-    {
-      "source": "bb:npc:chef-gellard-dumarque",
-      "rel": "ally_of",
-      "target": "bb:npc:rupert-richthorn"
     },
     {
       "source": "bb:npc:cutty",
@@ -5723,34 +5681,14 @@
       "target": "bb:location:ruperts-rest"
     },
     {
-      "source": "bb:npc:fenrith",
-      "rel": "ally_of",
-      "target": "bb:npc:rupert-richthorn"
-    },
-    {
       "source": "bb:npc:high-numerator-fex",
       "rel": "located_in",
       "target": "bb:location:lending-house-black-brine"
     },
     {
-      "source": "bb:npc:high-numerator-fex",
-      "rel": "member_of",
-      "target": "bb:faction:twilight-society"
-    },
-    {
       "source": "bb:npc:inquisitor-denara-gilt",
       "rel": "located_in",
       "target": "bb:location:house-of-questions"
-    },
-    {
-      "source": "bb:npc:inquisitor-denara-gilt",
-      "rel": "member_of",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:npc:inquisitor-denara-gilt",
-      "rel": "member_of",
-      "target": "bb:faction:house-of-questions"
     },
     {
       "source": "bb:npc:inquisitor-iria-boardcutter",
@@ -5758,29 +5696,9 @@
       "target": "bb:location:house-of-questions"
     },
     {
-      "source": "bb:npc:inquisitor-iria-boardcutter",
-      "rel": "member_of",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:npc:inquisitor-iria-boardcutter",
-      "rel": "member_of",
-      "target": "bb:faction:house-of-questions"
-    },
-    {
       "source": "bb:npc:inquisitor-morwen-plagueglass",
       "rel": "located_in",
       "target": "bb:location:house-of-questions"
-    },
-    {
-      "source": "bb:npc:inquisitor-morwen-plagueglass",
-      "rel": "member_of",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:npc:inquisitor-morwen-plagueglass",
-      "rel": "member_of",
-      "target": "bb:faction:house-of-questions"
     },
     {
       "source": "bb:npc:inquisitor-shark-eye-neris",
@@ -5788,29 +5706,9 @@
       "target": "bb:location:house-of-questions"
     },
     {
-      "source": "bb:npc:inquisitor-shark-eye-neris",
-      "rel": "member_of",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:npc:inquisitor-shark-eye-neris",
-      "rel": "member_of",
-      "target": "bb:faction:house-of-questions"
-    },
-    {
       "source": "bb:npc:inquisitor-whisper-keel",
       "rel": "located_in",
       "target": "bb:location:house-of-questions"
-    },
-    {
-      "source": "bb:npc:inquisitor-whisper-keel",
-      "rel": "member_of",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:npc:inquisitor-whisper-keel",
-      "rel": "member_of",
-      "target": "bb:faction:house-of-questions"
     },
     {
       "source": "bb:npc:lady-jackdaw",
@@ -5818,29 +5716,14 @@
       "target": "bb:location:ruperts-rest"
     },
     {
-      "source": "bb:npc:lady-jackdaw",
-      "rel": "ally_of",
-      "target": "bb:npc:rupert-richthorn"
-    },
-    {
       "source": "bb:npc:maelia-gorse",
       "rel": "located_in",
       "target": "bb:location:red-door-alchemy"
     },
     {
-      "source": "bb:npc:maelia-gorse",
-      "rel": "ally_of",
-      "target": "bb:npc:brin"
-    },
-    {
       "source": "bb:npc:mister-blight",
       "rel": "located_in",
       "target": "bb:location:crooked-lantern"
-    },
-    {
-      "source": "bb:npc:mister-blight",
-      "rel": "rival_of",
-      "target": "bb:npc:three-tooth-mavin"
     },
     {
       "source": "bb:npc:rita-kess",
@@ -5853,49 +5736,19 @@
       "target": "bb:location:sinkers-curiosities"
     },
     {
-      "source": "bb:npc:sinker",
-      "rel": "rival_of",
-      "target": "bb:npc:the-noose"
-    },
-    {
       "source": "bb:npc:strange-bones",
       "rel": "located_in",
       "target": "bb:location:ruperts-rest"
     },
     {
-      "source": "bb:npc:strange-bones",
-      "rel": "ally_of",
-      "target": "bb:npc:rupert-richthorn"
-    },
-    {
       "source": "bb:npc:three-tooth-mavin",
       "rel": "located_in",
       "target": "bb:location:miremarket"
     },
     {
-      "source": "bb:npc:three-tooth-mavin",
-      "rel": "member_of",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:npc:three-tooth-mavin",
-      "rel": "rival_of",
-      "target": "bb:npc:mister-blight"
-    },
-    {
       "source": "bb:npc:yurra-the-mireborn",
       "rel": "located_in",
       "target": "bb:location:miremarket"
-    },
-    {
-      "source": "bb:npc:yurra-the-mireborn",
-      "rel": "ally_of",
-      "target": "bb:npc:mister-blight"
-    },
-    {
-      "source": "bb:npc:yurra-the-mireborn",
-      "rel": "rival_of",
-      "target": "bb:npc:three-tooth-mavin"
     },
     {
       "source": "bb:location:black-brine-river",
@@ -6023,11 +5876,6 @@
       "target": "bb:district:salt-crown"
     },
     {
-      "source": "bb:location:lending-house-black-brine",
-      "rel": "member_of",
-      "target": "bb:faction:twilight-society"
-    },
-    {
       "source": "bb:location:miremarket",
       "rel": "located_in",
       "target": "bb:district:blackmire"
@@ -6091,6 +5939,206 @@
       "source": "bb:location:whisperers-hollow",
       "rel": "located_in",
       "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:npc:the-noose",
+      "rel": "member_of",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:npc:inquisitor-zunizar",
+      "rel": "member_of",
+      "target": "bb:fleet:widowmakers"
+    },
+    {
+      "source": "bb:npc:inquisitor-zunizar",
+      "rel": "member_of",
+      "target": "bb:faction:house-of-questions"
+    },
+    {
+      "source": "bb:npc:captain-bloodshot",
+      "rel": "member_of",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:npc:captain-bor-driftwood-harvann",
+      "rel": "member_of",
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:npc:captain-garrick-golden-tooth-salt",
+      "rel": "member_of",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:npc:captain-lysara-vale",
+      "rel": "member_of",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:npc:high-numerator-fex",
+      "rel": "member_of",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:npc:inquisitor-denara-gilt",
+      "rel": "member_of",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:npc:inquisitor-denara-gilt",
+      "rel": "member_of",
+      "target": "bb:faction:house-of-questions"
+    },
+    {
+      "source": "bb:npc:inquisitor-iria-boardcutter",
+      "rel": "member_of",
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:npc:inquisitor-iria-boardcutter",
+      "rel": "member_of",
+      "target": "bb:faction:house-of-questions"
+    },
+    {
+      "source": "bb:npc:inquisitor-morwen-plagueglass",
+      "rel": "member_of",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:npc:inquisitor-morwen-plagueglass",
+      "rel": "member_of",
+      "target": "bb:faction:house-of-questions"
+    },
+    {
+      "source": "bb:npc:inquisitor-shark-eye-neris",
+      "rel": "member_of",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:npc:inquisitor-shark-eye-neris",
+      "rel": "member_of",
+      "target": "bb:faction:house-of-questions"
+    },
+    {
+      "source": "bb:npc:inquisitor-whisper-keel",
+      "rel": "member_of",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:npc:inquisitor-whisper-keel",
+      "rel": "member_of",
+      "target": "bb:faction:house-of-questions"
+    },
+    {
+      "source": "bb:npc:three-tooth-mavin",
+      "rel": "member_of",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:location:lending-house-black-brine",
+      "rel": "member_of",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:pc:franklin",
+      "rel": "ally_of",
+      "target": "bb:npc:rupert-richthorn"
+    },
+    {
+      "source": "bb:pc:franklin",
+      "rel": "ally_of",
+      "target": "bb:pc:pinch"
+    },
+    {
+      "source": "bb:pc:franklin",
+      "rel": "ally_of",
+      "target": "bb:pc:sy"
+    },
+    {
+      "source": "bb:pc:pinch",
+      "rel": "ally_of",
+      "target": "bb:npc:rupert-richthorn"
+    },
+    {
+      "source": "bb:pc:pinch",
+      "rel": "ally_of",
+      "target": "bb:pc:sy"
+    },
+    {
+      "source": "bb:pc:sy",
+      "rel": "ally_of",
+      "target": "bb:npc:rupert-richthorn"
+    },
+    {
+      "source": "bb:pc:sy",
+      "rel": "ally_of",
+      "target": "bb:pc:pinch"
+    },
+    {
+      "source": "bb:npc:rupert-richthorn",
+      "rel": "rival_of",
+      "target": "bb:npc:gun-deck-rosy"
+    },
+    {
+      "source": "bb:npc:aldo-vance",
+      "rel": "rival_of",
+      "target": "bb:npc:harlow-blastcap-grint"
+    },
+    {
+      "source": "bb:npc:brin",
+      "rel": "ally_of",
+      "target": "bb:npc:maelia-gorse"
+    },
+    {
+      "source": "bb:npc:chef-gellard-dumarque",
+      "rel": "ally_of",
+      "target": "bb:npc:rupert-richthorn"
+    },
+    {
+      "source": "bb:npc:fenrith",
+      "rel": "ally_of",
+      "target": "bb:npc:rupert-richthorn"
+    },
+    {
+      "source": "bb:npc:lady-jackdaw",
+      "rel": "ally_of",
+      "target": "bb:npc:rupert-richthorn"
+    },
+    {
+      "source": "bb:npc:maelia-gorse",
+      "rel": "ally_of",
+      "target": "bb:npc:brin"
+    },
+    {
+      "source": "bb:npc:mister-blight",
+      "rel": "rival_of",
+      "target": "bb:npc:three-tooth-mavin"
+    },
+    {
+      "source": "bb:npc:sinker",
+      "rel": "rival_of",
+      "target": "bb:npc:the-noose"
+    },
+    {
+      "source": "bb:npc:strange-bones",
+      "rel": "ally_of",
+      "target": "bb:npc:rupert-richthorn"
+    },
+    {
+      "source": "bb:npc:three-tooth-mavin",
+      "rel": "rival_of",
+      "target": "bb:npc:mister-blight"
+    },
+    {
+      "source": "bb:npc:yurra-the-mireborn",
+      "rel": "ally_of",
+      "target": "bb:npc:mister-blight"
+    },
+    {
+      "source": "bb:npc:yurra-the-mireborn",
+      "rel": "rival_of",
+      "target": "bb:npc:three-tooth-mavin"
     },
     {
       "source": "bb:pc:franklin",
@@ -6331,11 +6379,366 @@
       "source": "bb:faction:twilight-society",
       "rel": "controls",
       "target": "bb:location:lending-house-black-brine"
+    },
+    {
+      "source": "bb:hub:black-brine",
+      "rel": "organizes",
+      "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:keelhauls"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:mistwalk"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:salt-crown"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:crosswater"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:house-of-questions"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widowmakers"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:lending-house-black-brine"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:hazard:false-beauty-vines"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:story:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:chain-wharf"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:story:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:black-brine-library"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:gallows-market"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:whisperers-hollow"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:rules:jungle-event-threat-level"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:rules:jungle-passive-threat-level"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:black-brine-river"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:red-chain-bridge"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:rules:jungle-navigation"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:dry-docks-crosswater"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:captains-club"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:region:forbidden-west-sedna"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:the-sump"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:volcanic-peak-sedna"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:story:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:the-bonewalk"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:hazard:insect-swarm-blood-flies"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:ruperts-rest"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:hazard:razor-ferns"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:rules:jungle-stealth"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:rules:jungle-survival-training"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:ritas-smithy"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:foghouse-row"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:crooked-lantern"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:red-door-alchemy"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:hazard:rope-bridge-gorge"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:story:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:city-hull"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:drunken-satyr"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:house-of-questions"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:string-and-power"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:rules:jungle-weather-events"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:monster:twig-blight-jungle-variant"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:miremarket"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:lore:geography-black-brine"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:story:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:cuttys-blades"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:island-of-sedna"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:wet-bar"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:temple-chained-god"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:beast:ravething"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:rules:jungle-environmental-threat-level"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:fishbone-row"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:sinkers-curiosities"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:rules:jungle-navigation-events"
+    },
+    {
+      "source": "bb:hub:geography",
+      "rel": "organizes",
+      "target": "bb:location:gentle-rest-inn"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-structure"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 146,
-    "edges": 162
+    "nodes": 152,
+    "edges": 233
   }
 }

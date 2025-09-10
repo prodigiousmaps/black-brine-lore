@@ -3,7 +3,7 @@
 indexer.py — Build docs/graph.json from YAML/Markdown lore.
 
 Features:
-- Parses YAML front-matter (and falls back to whole-file YAML if no front-matter).
+- Parses YAML front-matter (falls back to whole-file YAML if no front-matter).
 - Embeds each node's full front matter as `fm` and a short `body_excerpt`.
 - Resolves names via aliases/aliases.yaml and in-file aliases.
 - Emits edges:
@@ -16,6 +16,7 @@ Features:
   - controls        ← (faction/org).controls → location/poi
 - Skips locked/unreadable files instead of crashing.
 - Skips 08_Templates and *.ignore files.
+- Injects hub nodes/edges from RPG_Knowledge_Base/hubs.yml (optional).
 - Outputs docs/graph.json
 """
 
@@ -37,7 +38,6 @@ FRONTMATTER = re.compile(r'^---\s*\n(.*?)\n---\s*\n', re.DOTALL)
 # Helpers
 # ------------------------
 def safe_read_text(p: pathlib.Path) -> str | None:
-    """Read file text safely; return None if unreadable/locked."""
     try:
         return p.read_text(encoding="utf-8", errors="ignore")
     except Exception as e:
@@ -45,10 +45,7 @@ def safe_read_text(p: pathlib.Path) -> str | None:
         return None
 
 def parse_file_with_body(p: pathlib.Path):
-    """
-    Return (front_matter_dict, body_text).
-    Tries YAML front-matter first; falls back to whole-file YAML; else empty fm.
-    """
+    """Return (front_matter_dict, body_text)."""
     text = safe_read_text(p)
     if text is None:
         return {}, ""
@@ -117,13 +114,11 @@ for folder in CONTENT_DIRS:
             "name": name,
             "tags": fm.get("tags", []),
             "source": str(p.relative_to(ROOT)),
-            "fm": fm,  # full front-matter for UI
+            "fm": fm,
             "body_excerpt": (body.strip()[:800] + ("…" if len(body.strip()) > 800 else "")),
-            # also mirror only common fields for quick debugging
             "raw": {k: fm.get(k) for k in [
                 "parent_location","location","city","faction","factions",
-                "allies","rivals","enemies",
-                "participants","appears_in","leaders","controls"
+                "allies","rivals","enemies","participants","appears_in","leaders","controls"
             ] if k in fm}
         }
         nodes.append(node)
@@ -139,25 +134,16 @@ for k, v in aliases_map.items():
         name_to_id[k.lower()] = v
 
 def resolve(ref: str | None) -> str | None:
-    """
-    Resolve a reference which may be:
-      - canonical id (already 'bb:...') present in nodes_by_id
-      - an alias id from aliases_map values
-      - a name found in name_to_id (case-insensitive)
-    Return canonical id or None.
-    """
+    """Resolve a reference to a canonical id if possible."""
     if not isinstance(ref, str):
         return None
     val = ref.strip()
     if not val:
         return None
-    # direct node id
     if val in nodes_by_id:
         return val
-    # if the alias map already points to an id, accept it
     if val in aliases_map.values() and val in nodes_by_id:
         return val
-    # name → id via lookup
     hit = name_to_id.get(val.lower())
     return hit if hit in nodes_by_id else None
 
@@ -170,34 +156,31 @@ def add_edge(src: str | None, rel: str, tgt: str | None):
     if src and tgt and src != tgt:
         edges.append({"source": src, "rel": rel, "target": tgt})
 
-# Structured relationships from fields
+# Locations → located_in
 for n in nodes:
-    src = n["id"]
-    fm = n.get("fm", {})
-
-    # Locations → located_in
+    src = n["id"]; fm = n.get("fm", {})
     for key in ("parent_location", "location", "city"):
         for v in as_list(fm.get(key)):
             rid = resolve(v) if isinstance(v, str) else None
-            if rid:
-                add_edge(src, "located_in", rid)
+            if rid: add_edge(src, "located_in", rid)
 
-    # Factions/Organizations → member_of
+# Factions/Organizations → member_of
+for n in nodes:
+    fm = n.get("fm", {})
     if isinstance(fm.get("faction"), str):
         rid = resolve(fm["faction"])
-        if rid:
-            add_edge(src, "member_of", rid)
+        if rid: add_edge(n["id"], "member_of", rid)
     for v in as_list(fm.get("factions")):
         rid = resolve(v) if isinstance(v, str) else None
-        if rid:
-            add_edge(src, "member_of", rid)
+        if rid: add_edge(n["id"], "member_of", rid)
 
-    # Allies/Rivals/Enemies
+# Allies/Rivals/Enemies
+for n in nodes:
+    fm = n.get("fm", {})
     for key, rel in (("allies","ally_of"), ("rivals","rival_of"), ("enemies","enemy_of")):
         for v in as_list(fm.get(key)):
             rid = resolve(v) if isinstance(v, str) else None
-            if rid:
-                add_edge(src, rel, rid)
+            if rid: add_edge(n["id"], rel, rid)
 
 # Story/Event participants → appears_in (participant → story)
 for n in nodes:
@@ -205,15 +188,13 @@ for n in nodes:
         story_id = n["id"]
         for v in as_list(n["fm"].get("participants")):
             rid = resolve(v) if isinstance(v, str) else None
-            if rid:
-                add_edge(rid, "appears_in", story_id)
+            if rid: add_edge(rid, "appears_in", story_id)
 
 # Direct appears_in list on any node (node → story/event)
 for n in nodes:
     for v in as_list(n["fm"].get("appears_in")):
         rid = resolve(v) if isinstance(v, str) else None
-        if rid:
-            add_edge(n["id"], "appears_in", rid)
+        if rid: add_edge(n["id"], "appears_in", rid)
 
 # Faction/Org leaders → leads (npc → faction/org)
 for n in nodes:
@@ -221,8 +202,7 @@ for n in nodes:
         fid = n["id"]
         for v in as_list(n["fm"].get("leaders")):
             rid = resolve(v) if isinstance(v, str) else None
-            if rid:
-                add_edge(rid, "leads", fid)
+            if rid: add_edge(rid, "leads", fid)
 
 # Faction/Org controls → controls (faction/org → location)
 for n in nodes:
@@ -230,52 +210,49 @@ for n in nodes:
         fid = n["id"]
         for v in as_list(n["fm"].get("controls")):
             rid = resolve(v) if isinstance(v, str) else None
-            if rid:
-                add_edge(fid, "controls", rid)
+            if rid: add_edge(fid, "controls", rid)
 
-
-
-
-# --- HUBS INJECTION (add this near the end of indexer.py, before writing graph.json) ---
-from pathlib import Path
-import yaml
-
-def idset(seq): return set(x['id'] for x in seq if 'id' in x)
-
-def add_hubs(nodes, edges, repo_root):
-    hubs_file = Path(repo_root) / "RPG_Knowledge_Base" / "hubs.yml"
+# ------------------------
+# Hub injection (optional)
+# ------------------------
+def add_hubs(nodes, edges, repo_root: pathlib.Path):
+    hubs_file = repo_root / "RPG_Knowledge_Base" / "hubs.yml"
     if not hubs_file.exists():
         return nodes, edges
 
-    with hubs_file.open("r", encoding="utf-8") as f:
-        cfg = yaml.safe_load(f) or {}
-    hubs = cfg.get("hubs", [])
-    if not hubs: 
+    try:
+        cfg = yaml.safe_load(hubs_file.read_text(encoding="utf-8")) or {}
+    except Exception as e:
+        print(f"[indexer] WARN: cannot parse hubs.yml: {e}", file=sys.stderr)
+        return nodes, edges
+
+    hubs = cfg.get("hubs", []) or []
+    if not hubs:
         return nodes, edges
 
     node_by_id = {n["id"]: n for n in nodes if "id" in n}
-    all_ids = idset(nodes)
+    all_ids = set(node_by_id.keys())
 
     def match_ids(rule):
         matched = set()
         if not rule: return matched
         # by_type
-        for t in rule.get("by_type", []):
+        for t in rule.get("by_type", []) or []:
             for n in nodes:
                 if n.get("type") == t:
                     matched.add(n["id"])
         # by_tag
-        for tg in rule.get("by_tag", []):
+        for tg in rule.get("by_tag", []) or []:
             for n in nodes:
-                if tg in (n.get("fm", {}).get("tags") or []) or tg in (n.get("tags") or []):
+                tags = (n.get("fm", {}).get("tags") or []) + (n.get("tags") or [])
+                if tg in tags:
                     matched.add(n["id"])
         # explicit
-        for eid in rule.get("explicit", []):
+        for eid in rule.get("explicit", []) or []:
             if eid in all_ids:
                 matched.add(eid)
         return matched
 
-    # Create hub nodes if missing and connect them
     for h in hubs:
         hid = h["id"]
         if hid not in all_ids:
@@ -285,24 +262,20 @@ def add_hubs(nodes, edges, repo_root):
                 "name": h.get("name") or hid.split(":")[-1].replace("-", " ").title(),
                 "center": bool(h.get("center")),
                 "ring_index": h.get("ring_index"),
-                "source": None  # synthetic
+                "source": None
             })
             all_ids.add(hid)
 
-        targets = match_ids(h.get("connects"))
+        targets = match_ids(h.get("connects") or {})
         for tid in targets:
             if tid == hid: 
                 continue
-            edges.append({"source": hid, "target": tid, "rel": "organizes"})
+            edges.append({"source": hid, "rel": "organizes", "target": tid})
 
     return nodes, edges
 
-# call it:
-nodes, edges = add_hubs(nodes, edges, repo_root)
-# --- END HUBS INJECTION ---
-
-
-
+# Inject hubs using current ROOT
+nodes, edges = add_hubs(nodes, edges, ROOT)
 
 # ------------------------
 # Emit
@@ -314,10 +287,7 @@ graph = {
     "nodes": nodes,
     "edges": edges,
     "unresolved": unresolved,
-    "stats": {
-        "nodes": len(nodes),
-        "edges": len(edges)
-    }
+    "stats": {"nodes": len(nodes), "edges": len(edges)}
 }
 
 out_path = OUT_DIR / "graph.json"
