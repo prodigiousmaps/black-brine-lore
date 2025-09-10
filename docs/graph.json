@@ -2299,7 +2299,7 @@
           "Wizard 20"
         ]
       },
-      "body_excerpt": "# Description\nRupert Richthorn is a feared and enigmatic figure in Black Brine, an exiled archwizard whose nickname—**The Kraken**—speaks to his vast, dangerous, and lurking reputation. Townsfolk whisper of his powers and schemes, wary of drawing his attention.\n\n# Potential Dynamics & Conflicts\n- *Power Play with Gun Deck Rosy*: A tenuous arrangement exists; if Rupert oversteps, Rosy may be forced to act.  \n- **The Forbidden Tower**: His hidden demiplane-infused tower west of town sparks strange magical events and Sedna’s cultist interest.  \n- **Merchants’ Fear**: Merchants despise his brutally honest critiques and fear his purchases may carry curses.  \n- **The Tavern Table**: His chosen tavern seat has become a place of whispered power; outsiders risk much by sitting there.  \n- **Hidden A…",
+      "body_excerpt": "# Description\nRupert Richthorn is a feared and enigmatic figure in Black Brine, an exiled archwizard whose nickname—**The Kraken**—speaks to his vast, dangerous, and lurking reputation. Townsfolk whisper of his powers and schemes, wary of drawing his attention.\n\n# Potential Dynamics & Conflicts\n*Power Play with Gun Deck Rosy*: A tenuous arrangement exists; if Rupert oversteps, Rosy may be forced to act.  \n*The Forbidden Tower: His hidden demiplane-infused tower west of town sparks strange magical events and Sedna’s cultist interest.  \n- **Merchants’ Fear**: Merchants despise his brutally honest critiques and fear his purchases may carry curses.  \n- **The Tavern Table**: His chosen tavern seat has become a place of whispered power; outsiders risk much by sitting there.  \n- **Hidden Agendas*…",
       "raw": {
         "location": "bb:city:black-brine",
         "factions": [],
@@ -6341,16 +6341,6 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:salt-crown"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:crosswater"
     },
     {
@@ -6361,22 +6351,17 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
+      "target": "bb:district:keelhauls"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:salt-crown"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
       "target": "bb:district:blackmire"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:house-of-questions"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
@@ -6391,12 +6376,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:widowmakers"
+      "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
+      "target": "bb:faction:house-of-questions"
     },
     {
       "source": "bb:hub:factions",
@@ -6406,42 +6391,27 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:twilight-society"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widowmakers"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
+      "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6451,12 +6421,42 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:dead-sons-structure"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     }
   ],
   "unresolved": [],

@@ -30,8 +30,8 @@ classes:
 Rupert Richthorn is a feared and enigmatic figure in Black Brine, an exiled archwizard whose nickname—**The Kraken**—speaks to his vast, dangerous, and lurking reputation. Townsfolk whisper of his powers and schemes, wary of drawing his attention.
 
 # Potential Dynamics & Conflicts
-- *Power Play with Gun Deck Rosy*: A tenuous arrangement exists; if Rupert oversteps, Rosy may be forced to act.  
-- **The Forbidden Tower**: His hidden demiplane-infused tower west of town sparks strange magical events and Sedna’s cultist interest.  
+*Power Play with Gun Deck Rosy*: A tenuous arrangement exists; if Rupert oversteps, Rosy may be forced to act.  
+*The Forbidden Tower: His hidden demiplane-infused tower west of town sparks strange magical events and Sedna’s cultist interest.  
 - **Merchants’ Fear**: Merchants despise his brutally honest critiques and fear his purchases may carry curses.  
 - **The Tavern Table**: His chosen tavern seat has become a place of whispered power; outsiders risk much by sitting there.  
 - **Hidden Agendas**: He may be experimenting with forbidden magics, seeking Sedna-linked artifacts, or rebuilding power.  
