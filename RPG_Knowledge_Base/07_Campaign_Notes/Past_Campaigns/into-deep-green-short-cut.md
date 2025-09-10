@@ -1,6 +1,6 @@
 ---
-type: past-campaigns
-id: bb:story:deep-green:short-cut
+type: campaign
+id: bb:campaign:deep-green:short-cut
 name: The Deep Green - Part 5
 summary: >
   After escaping the Treefall Maze, Sy, Franklin, and Pinch cut across two hexes

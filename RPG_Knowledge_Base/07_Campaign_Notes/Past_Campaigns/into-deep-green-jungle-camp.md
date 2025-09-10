@@ -1,6 +1,6 @@
 ---
-type: past-campaigns
-id: bb:story:deep-green:jungle-camp
+type: campaign
+id: bb:campaign:deep-green:jungle-camp
 name: The Deep Green - Part 2
 summary: >
   Sy, Franklin, and Pinch follow the narrow jungle trail into the Deep Green,

@@ -1,6 +1,6 @@
 ---
-type: past-campaigns
-id: bb:story:deep-green:treefall-maze
+type: campaign
+id: bb:campaign:deep-green:treefall-maze
 name: The Deep Green - Part 4
 summary: >
   Sy, Franklin, and Pinch push beyond the thicket into a deadfall of collapsed

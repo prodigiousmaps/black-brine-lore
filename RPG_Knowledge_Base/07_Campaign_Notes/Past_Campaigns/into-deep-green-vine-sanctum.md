@@ -1,6 +1,6 @@
 ---
-type: past-campaigns
-id: bb:story:deep-green:vine-sanctum
+type: campaign
+id: bb:campaign:deep-green:vine-sanctum
 name: The Deep Green - Part 3
 summary: >
   Sy, Franklin, and Pinch press deeper into the Deep Green. Sweltering winds

@@ -541,8 +541,8 @@
       "raw": {}
     },
     {
-      "id": "bb:story:deep-green:jungle-camp",
-      "type": "past-campaigns",
+      "id": "bb:campaign:deep-green:jungle-camp",
+      "type": "campaign",
       "name": "The Deep Green - Part 2",
       "tags": [
         "encounter",
@@ -552,8 +552,8 @@
       ],
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-jungle-camp.md",
       "fm": {
-        "type": "past-campaigns",
-        "id": "bb:story:deep-green:jungle-camp",
+        "type": "campaign",
+        "id": "bb:campaign:deep-green:jungle-camp",
         "name": "The Deep Green - Part 2",
         "summary": "Sy, Franklin, and Pinch follow the narrow jungle trail into the Deep Green, where they discover an abandoned base camp in a small cave littered with relics, journals, and ominous signs of past expeditions.\n",
         "location": "bb:region:deep-green",
@@ -586,8 +586,8 @@
       }
     },
     {
-      "id": "bb:story:deep-green:short-cut",
-      "type": "past-campaigns",
+      "id": "bb:campaign:deep-green:short-cut",
+      "type": "campaign",
       "name": "The Deep Green - Part 5",
       "tags": [
         "encounter",
@@ -597,8 +597,8 @@
       ],
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-short-cut.md",
       "fm": {
-        "type": "past-campaigns",
-        "id": "bb:story:deep-green:short-cut",
+        "type": "campaign",
+        "id": "bb:campaign:deep-green:short-cut",
         "name": "The Deep Green - Part 5",
         "summary": "After escaping the Treefall Maze, Sy, Franklin, and Pinch cut across two hexes of jungle. Ash fall from Mount Vexir dampens sound and sight. They must choose between ridge or basin, then cross a deep gorge by rope bridge.\n",
         "location": "bb:region:deep-green",
@@ -635,8 +635,8 @@
       }
     },
     {
-      "id": "bb:story:deep-green:skull-garden",
-      "type": "past-campaigns",
+      "id": "bb:campaign:deep-green:skull-garden",
+      "type": "campaign",
       "name": "The Deep Green - Part 1",
       "tags": [
         "encounter",
@@ -645,8 +645,8 @@
       ],
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-skull-garden.md",
       "fm": {
-        "type": "past-campaigns",
-        "id": "bb:story:deep-green:skull-garden",
+        "type": "campaign",
+        "id": "bb:campaign:deep-green:skull-garden",
         "name": "The Deep Green - Part 1",
         "summary": "Sy, Franklin, and Pinch journey upriver aboard Rupert’s chartered fishing boat. Guided by Strange Bones, they reach a ruined barricade where the river is blocked and must continue on foot. On the sandy bank lies the Skull Garden, where carnivorous vines and scavengers await.\n",
         "location": "bb:river:black-river",
@@ -682,8 +682,8 @@
       }
     },
     {
-      "id": "bb:story:deep-green:treefall-maze",
-      "type": "past-campaigns",
+      "id": "bb:campaign:deep-green:treefall-maze",
+      "type": "campaign",
       "name": "The Deep Green - Part 4",
       "tags": [
         "encounter",
@@ -693,8 +693,8 @@
       ],
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-treefall-maze.md",
       "fm": {
-        "type": "past-campaigns",
-        "id": "bb:story:deep-green:treefall-maze",
+        "type": "campaign",
+        "id": "bb:campaign:deep-green:treefall-maze",
         "name": "The Deep Green - Part 4",
         "summary": "Sy, Franklin, and Pinch push beyond the thicket into a deadfall of collapsed trees at the base of Mount Vexir. Sudden cold sets in, the jungle thins, and a maze of toppled trunks forces hard choices, skill checks, and hazards.\n",
         "location": "bb:region:deep-green",
@@ -727,8 +727,8 @@
       }
     },
     {
-      "id": "bb:story:deep-green:vine-sanctum",
-      "type": "past-campaigns",
+      "id": "bb:campaign:deep-green:vine-sanctum",
+      "type": "campaign",
       "name": "The Deep Green - Part 3",
       "tags": [
         "encounter",
@@ -738,8 +738,8 @@
       ],
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-vine-sanctum.md",
       "fm": {
-        "type": "past-campaigns",
-        "id": "bb:story:deep-green:vine-sanctum",
+        "type": "campaign",
+        "id": "bb:campaign:deep-green:vine-sanctum",
         "name": "The Deep Green - Part 3",
         "summary": "Sy, Franklin, and Pinch press deeper into the Deep Green. Sweltering winds buffet the canopy while the jungle floor lies still. Navigation challenges lead them to a creek crossing, an abandoned camp with copper chimes, and finally a towering wall of False Beauty Vines concealing a sanctum of death.\n",
         "location": "bb:region:deep-green",
@@ -6163,32 +6163,32 @@
       "target": "bb:story:rogue-wave"
     },
     {
-      "source": "bb:story:deep-green:short-cut",
+      "source": "bb:campaign:deep-green:short-cut",
       "rel": "appears_in",
       "target": "bb:hazard:bone-field"
     },
     {
-      "source": "bb:story:deep-green:short-cut",
+      "source": "bb:campaign:deep-green:short-cut",
       "rel": "appears_in",
       "target": "bb:hazard:razor-ferns"
     },
     {
-      "source": "bb:story:deep-green:short-cut",
+      "source": "bb:campaign:deep-green:short-cut",
       "rel": "appears_in",
       "target": "bb:hazard:rope-bridge-gorge"
     },
     {
-      "source": "bb:story:deep-green:treefall-maze",
+      "source": "bb:campaign:deep-green:treefall-maze",
       "rel": "appears_in",
       "target": "bb:monster:twig-blight-jungle-variant"
     },
     {
-      "source": "bb:story:deep-green:vine-sanctum",
+      "source": "bb:campaign:deep-green:vine-sanctum",
       "rel": "appears_in",
       "target": "bb:hazard:false-beauty-vines"
     },
     {
-      "source": "bb:story:deep-green:vine-sanctum",
+      "source": "bb:campaign:deep-green:vine-sanctum",
       "rel": "appears_in",
       "target": "bb:hazard:insect-swarm-blood-flies"
     },
@@ -6385,7 +6385,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:salt-crown"
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:hub:districts",
@@ -6395,12 +6395,17 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
+      "target": "bb:district:salt-crown"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
@@ -6410,22 +6415,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widowmakers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
+      "target": "bb:fleet:miasma"
     },
     {
       "source": "bb:hub:factions",
@@ -6445,7 +6435,22 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widowmakers"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6460,17 +6465,37 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 151,
-    "edges": 181
+    "edges": 186
   }
 }
