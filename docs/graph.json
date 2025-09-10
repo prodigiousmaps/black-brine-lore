@@ -1905,7 +1905,7 @@
     {
       "id": "bb:fleet:malign-crew",
       "type": "faction",
-      "name": "The Malign Crew",
+      "name": "The Malign Fleet",
       "tags": [
         "fleet",
         "smuggling",
@@ -1915,7 +1915,7 @@
       "fm": {
         "type": "faction",
         "id": "bb:fleet:malign-crew",
-        "name": "The Malign Crew",
+        "name": "The Malign Fleet",
         "summary": "Tasty Bite’s corsairs—amphibious fighters and spies who rule the smuggling lanes and backroom deals.\n",
         "location": "bb:city:black-brine",
         "leaders": [
@@ -1926,9 +1926,11 @@
           "smuggling",
           "espionage"
         ],
-        "emblem": "assets/fleets/the-malign.png"
+        "portrait": [
+          "assets/fleets/the-malign.png"
+        ]
       },
-      "body_excerpt": "# Customs\n- The Shark’s Mark  \n- The First Bite  \n- Silent Currents",
+      "body_excerpt": "# Ships \n4 sleek corsairs including The Malign\n\n# Crew \n- Amphibious fighters\n- expert navigators\n- spies\n\n# Flag \n- Dark blue with silver waves and a jagged shark bite\n\n# Style\n- Bribes over battles\n- ambushes over sieges\n\n# Reputation \nNo deal is ever truly fair—except to him\n\n# Specialties \n- Smuggling \n- espionage \n- under-the-table trading\n\n# Notoriety \nBlack Brine’s most prolific smuggler\n\n\n# Customs\n- The Shark’s Mark  \n- The First Bite  \n- Silent Currents",
       "raw": {
         "location": "bb:city:black-brine",
         "leaders": [
