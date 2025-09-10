@@ -1721,7 +1721,7 @@
           "intrigue"
         ]
       },
-      "body_excerpt": "overview: >\n  The Twilight Society is an exclusive circle of wealthy, beautiful, and dangerous elites who worship pleasure, secrecy, and subtle power. Cloaked in hedonism and mysticism, they operate under the guise of socialites and art patrons, but beneath the velvet and wine lies a hidden devotion to the goddess Sharess. The society manipulates, corrupts, and blackmails its way through Black Brine’s high places, cloaking vice in the perfume of nobility.\n\nleader:\n  name: Vel Corven\n  race: Androgynous Elf (unknown lineage)\n  role: High Host of the Society\n  description: >\n    A radiant figure of ambiguous gender, velvety voice, and effortless charm. Vel is rumored to be centuries old and never seen in daylight. Their mask changes nightly.\n\nmembers:\n  demographics: Nobles, entertainers, fa…",
+      "body_excerpt": "# Overview \n  The Twilight Society is an exclusive circle of wealthy, beautiful, and dangerous elites who worship pleasure, secrecy, and subtle power. Cloaked in hedonism and mysticism, they operate under the guise of socialites and art patrons, but beneath the velvet and wine lies a hidden devotion to the goddess Sharess. The society manipulates, corrupts, and blackmails its way through Black Brine’s high places, cloaking vice in the perfume of nobility.\n\n# Leader\n  name: Vel Corven\n  race: Androgynous Elf (unknown lineage)\n  role: High Host of the Society\n\n# Description\n    A radiant figure of ambiguous gender, velvety voice, and effortless charm. Vel is rumored to be centuries old and never seen in daylight. Their mask changes nightly.\n\n# Members\n  demographics: Nobles, entertainers, fa…",
       "raw": {
         "location": "bb:district:salt-crown",
         "allies": [],
@@ -6341,17 +6341,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:blackmire"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:salt-crown"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:keelhauls"
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
@@ -6361,22 +6351,27 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
+      "target": "bb:district:blackmire"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:faction:twilight-society"
+      "target": "bb:district:keelhauls"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
+      "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
       "target": "bb:faction:house-of-questions"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
     },
     {
       "source": "bb:hub:factions",
@@ -6391,7 +6386,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:twilight-society"
     },
     {
       "source": "bb:hub:factions",
@@ -6401,42 +6401,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
+      "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6451,12 +6421,42 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
     }
   ],
   "unresolved": [],
