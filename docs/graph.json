@@ -5521,14 +5521,6 @@
       "raw": {}
     },
     {
-      "id": "bb:hub:black-brine",
-      "type": "hub",
-      "name": "Black Brine",
-      "center": true,
-      "ring_index": null,
-      "source": null
-    },
-    {
       "id": "bb:hub:districts",
       "type": "hub",
       "name": "Districts",
@@ -6373,26 +6365,6 @@
       "target": "bb:location:lending-house-black-brine"
     },
     {
-      "source": "bb:hub:black-brine",
-      "rel": "organizes",
-      "target": "bb:city:black-brine"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:mistwalk"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:blackmire"
-    },
-    {
       "source": "bb:hub:districts",
       "rel": "organizes",
       "target": "bb:district:crosswater"
@@ -6403,6 +6375,36 @@
       "target": "bb:district:salt-crown"
     },
     {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:mistwalk"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:keelhauls"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:house-of-questions"
+    },
+    {
       "source": "bb:hub:factions",
       "rel": "organizes",
       "target": "bb:faction:butchers"
@@ -6410,7 +6412,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:twilight-society"
+      "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:factions",
@@ -6425,42 +6427,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:house-of-questions"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:fleet:widowmakers"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
+      "target": "bb:fleet:gilded-rats"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6475,12 +6447,12 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
+      "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6490,12 +6462,27 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-memory-palace"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 151,
-    "edges": 186
+    "nodes": 150,
+    "edges": 185
   }
 }

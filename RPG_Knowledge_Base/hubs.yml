@@ -1,12 +1,5 @@
 # RPG_Knowledge_Base/01_Core/hubs.yml
 hubs:
-  # CENTRAL HUB
-  - id: bb:hub:black-brine
-    name: Black Brine
-    center: true
-    connects:
-      explicit:
-        - bb:city:black-brine
 
   # RING HUBS (arranged around center; order is by ring_index)
   - id: bb:hub:districts
