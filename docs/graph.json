@@ -86,63 +86,6 @@
       }
     },
     {
-      "id": "bb:story:skull-garden-black-river",
-      "type": "story",
-      "name": "The Skull Garden of the Black River",
-      "tags": [
-        "encounter",
-        "jungle",
-        "black-river"
-      ],
-      "source": "RPG_Knowledge_Base\\08_Stories\\skull-garden-black-river.md",
-      "fm": {
-        "type": "story",
-        "id": "bb:story:skull-garden-black-river",
-        "name": "The Skull Garden of the Black River",
-        "summary": "Sy, Franklin, and Pinch journey upriver with Rupert and Strange Bones, reaching a barricaded stretch of the Black River. On the sandy bank lies the Skull Garden, where carnivorous vines and ravethings await.\n",
-        "location": "bb:river:black-river",
-        "participants": [
-          "bb:npc:franklin-pierce",
-          "bb:npc:pinch",
-          "bb:npc:rupert-richthorn",
-          "bb:npc:strange-bones",
-          "bb:npc:sy"
-        ],
-        "factions": [
-          "bb:faction:the-soiled"
-        ],
-        "appears_in": [
-          "bb:beast:ravething",
-          "bb:hazard:false-beauty-vines",
-          "bb:item:final-verse"
-        ],
-        "tags": [
-          "encounter",
-          "jungle",
-          "black-river"
-        ]
-      },
-      "body_excerpt": "# Act I – Up River\n- Travel pace: 6 hours/hex, 3 hex/day\n- Weather events: dense fog, jungle silence\n- Encounters: capsizing currents, river spirits, fungal mats\n\n# Act II – Barricade\n- The Soiled’s blockade forces the raft ashore.\n- PCs discover the Skull Garden.\n\n# Lore Clues\n- Carvings reference “The First Hunger.”\n- Scroll fragment: “The Fifth Mouth Never Closes.”\n- Ties to the Hollow Song cult and the Fifth Mouth sea god.",
-      "raw": {
-        "location": "bb:river:black-river",
-        "factions": [
-          "bb:faction:the-soiled"
-        ],
-        "participants": [
-          "bb:npc:franklin-pierce",
-          "bb:npc:pinch",
-          "bb:npc:rupert-richthorn",
-          "bb:npc:strange-bones",
-          "bb:npc:sy"
-        ],
-        "appears_in": [
-          "bb:beast:ravething",
-          "bb:hazard:false-beauty-vines",
-          "bb:item:final-verse"
-        ]
-      }
-    },
-    {
       "id": "bb:npc:andromida",
       "type": "npc",
       "name": "Andromeda",
@@ -5630,16 +5573,6 @@
       "target": "bb:pc:pinch"
     },
     {
-      "source": "bb:beast:ravething",
-      "rel": "located_in",
-      "target": "bb:story:skull-garden-black-river"
-    },
-    {
-      "source": "bb:hazard:false-beauty-vines",
-      "rel": "located_in",
-      "target": "bb:story:skull-garden-black-river"
-    },
-    {
       "source": "bb:lore:blind-chefs-almanac",
       "rel": "located_in",
       "target": "bb:pc:pinch"
@@ -6160,26 +6093,6 @@
       "target": "bb:district:blackmire"
     },
     {
-      "source": "bb:npc:rupert-richthorn",
-      "rel": "appears_in",
-      "target": "bb:story:skull-garden-black-river"
-    },
-    {
-      "source": "bb:npc:strange-bones",
-      "rel": "appears_in",
-      "target": "bb:story:skull-garden-black-river"
-    },
-    {
-      "source": "bb:story:skull-garden-black-river",
-      "rel": "appears_in",
-      "target": "bb:beast:ravething"
-    },
-    {
-      "source": "bb:story:skull-garden-black-river",
-      "rel": "appears_in",
-      "target": "bb:hazard:false-beauty-vines"
-    },
-    {
       "source": "bb:pc:franklin",
       "rel": "appears_in",
       "target": "bb:location:ruperts-rest"
@@ -6238,21 +6151,6 @@
       "source": "bb:story:deep-green:vine-sanctum",
       "rel": "appears_in",
       "target": "bb:hazard:insect-swarm-blood-flies"
-    },
-    {
-      "source": "bb:beast:ravething",
-      "rel": "appears_in",
-      "target": "bb:story:skull-garden-black-river"
-    },
-    {
-      "source": "bb:hazard:false-beauty-vines",
-      "rel": "appears_in",
-      "target": "bb:story:skull-garden-black-river"
-    },
-    {
-      "source": "bb:lore:final-verse",
-      "rel": "appears_in",
-      "target": "bb:story:skull-garden-black-river"
     },
     {
       "source": "bb:npc:the-noose",
@@ -6437,7 +6335,7 @@
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 147,
-    "edges": 171
+    "nodes": 146,
+    "edges": 162
   }
 }

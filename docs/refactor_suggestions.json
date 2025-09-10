@@ -1,7 +1,6 @@
 {
-  "total_files": 147,
+  "total_files": 146,
   "patches": [
-    "patches\\skull-garden-black-river.yml",
     "patches\\franklin-pierce.yml",
     "patches\\pinch.yml",
     "patches\\sy.yml",
@@ -9,9 +8,6 @@
     "patches\\into-deep-green-skull-garden.yml",
     "patches\\into-deep-green-treefall-maze.yml",
     "patches\\into-deep-green-vine-sanctum.yml",
-    "patches\\ravething.yml",
-    "patches\\false-beauty-vines.yml",
-    "patches\\final-verse.yml",
     "patches\\butchers.yml",
     "patches\\twilight-society.yml",
     "patches\\hollow-fangs.yml",
@@ -58,96 +54,6 @@
       "path": "RPG_Knowledge_Base\\02_Locations\\island-of-sedna.md",
       "field": "parent_location",
       "value": "bb:archipelago:mother-of-mists",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\08_Stories\\skull-garden-black-river.md",
-      "field": "location",
-      "value": "bb:river:black-river",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\08_Stories\\skull-garden-black-river.md",
-      "field": "factions*",
-      "value": "bb:faction:the-soiled",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\08_Stories\\skull-garden-black-river.md",
-      "field": "appears_in",
-      "value": "bb:beast:ravething",
-      "resolved_id": "bb:beast:ravething",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\08_Stories\\skull-garden-black-river.md",
-      "field": "appears_in",
-      "value": "bb:hazard:false-beauty-vines",
-      "resolved_id": "bb:hazard:false-beauty-vines",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\08_Stories\\skull-garden-black-river.md",
-      "field": "appears_in",
-      "value": "bb:item:final-verse",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\08_Stories\\skull-garden-black-river.md",
-      "field": "participants",
-      "value": "bb:npc:franklin-pierce",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\08_Stories\\skull-garden-black-river.md",
-      "field": "participants",
-      "value": "bb:npc:pinch",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\08_Stories\\skull-garden-black-river.md",
-      "field": "participants",
-      "value": "bb:npc:rupert-richthorn",
-      "resolved_id": "bb:npc:rupert-richthorn",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\08_Stories\\skull-garden-black-river.md",
-      "field": "participants",
-      "value": "bb:npc:strange-bones",
-      "resolved_id": "bb:npc:strange-bones",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\08_Stories\\skull-garden-black-river.md",
-      "field": "participants",
-      "value": "bb:npc:sy",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -598,18 +504,18 @@
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\ravething.md",
       "field": "location",
       "value": "bb:story:skull-garden-black-river",
-      "resolved_id": "bb:story:skull-garden-black-river",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\ravething.md",
       "field": "appears_in",
       "value": "bb:story:skull-garden-black-river",
-      "resolved_id": "bb:story:skull-garden-black-river",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
@@ -661,18 +567,18 @@
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\false-beauty-vines.md",
       "field": "location",
       "value": "bb:story:skull-garden-black-river",
-      "resolved_id": "bb:story:skull-garden-black-river",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\false-beauty-vines.md",
       "field": "appears_in",
       "value": "bb:story:skull-garden-black-river",
-      "resolved_id": "bb:story:skull-garden-black-river",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
@@ -832,9 +738,9 @@
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\final-verse.md",
       "field": "appears_in",
       "value": "bb:story:skull-garden-black-river",
-      "resolved_id": "bb:story:skull-garden-black-river",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {

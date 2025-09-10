@@ -233,6 +233,77 @@ for n in nodes:
             if rid:
                 add_edge(fid, "controls", rid)
 
+
+
+
+# --- HUBS INJECTION (add this near the end of indexer.py, before writing graph.json) ---
+from pathlib import Path
+import yaml
+
+def idset(seq): return set(x['id'] for x in seq if 'id' in x)
+
+def add_hubs(nodes, edges, repo_root):
+    hubs_file = Path(repo_root) / "RPG_Knowledge_Base" / "hubs.yml"
+    if not hubs_file.exists():
+        return nodes, edges
+
+    with hubs_file.open("r", encoding="utf-8") as f:
+        cfg = yaml.safe_load(f) or {}
+    hubs = cfg.get("hubs", [])
+    if not hubs: 
+        return nodes, edges
+
+    node_by_id = {n["id"]: n for n in nodes if "id" in n}
+    all_ids = idset(nodes)
+
+    def match_ids(rule):
+        matched = set()
+        if not rule: return matched
+        # by_type
+        for t in rule.get("by_type", []):
+            for n in nodes:
+                if n.get("type") == t:
+                    matched.add(n["id"])
+        # by_tag
+        for tg in rule.get("by_tag", []):
+            for n in nodes:
+                if tg in (n.get("fm", {}).get("tags") or []) or tg in (n.get("tags") or []):
+                    matched.add(n["id"])
+        # explicit
+        for eid in rule.get("explicit", []):
+            if eid in all_ids:
+                matched.add(eid)
+        return matched
+
+    # Create hub nodes if missing and connect them
+    for h in hubs:
+        hid = h["id"]
+        if hid not in all_ids:
+            nodes.append({
+                "id": hid,
+                "type": "hub",
+                "name": h.get("name") or hid.split(":")[-1].replace("-", " ").title(),
+                "center": bool(h.get("center")),
+                "ring_index": h.get("ring_index"),
+                "source": None  # synthetic
+            })
+            all_ids.add(hid)
+
+        targets = match_ids(h.get("connects"))
+        for tid in targets:
+            if tid == hid: 
+                continue
+            edges.append({"source": hid, "target": tid, "rel": "organizes"})
+
+    return nodes, edges
+
+# call it:
+nodes, edges = add_hubs(nodes, edges, repo_root)
+# --- END HUBS INJECTION ---
+
+
+
+
 # ------------------------
 # Emit
 # ------------------------
