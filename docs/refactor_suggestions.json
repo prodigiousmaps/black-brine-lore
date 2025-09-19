@@ -10,6 +10,7 @@
     "patches\\into-deep-green-vine-sanctum.yml",
     "patches\\butchers.yml",
     "patches\\twilight-society.yml",
+    "patches\\hellion-fleet.yml",
     "patches\\hollow-fangs.yml",
     "patches\\house-of-questions.yml",
     "patches\\malign-crew.yml",
@@ -872,10 +873,10 @@
     {
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\hellion-fleet.md",
       "field": "leaders",
-      "value": "bb:npc:Rosy",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "value": "bb:npc:gun-deck-rosy",
+      "resolved_id": "bb:npc:gun-deck-rosy",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
