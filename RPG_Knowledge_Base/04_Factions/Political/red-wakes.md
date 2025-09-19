@@ -8,7 +8,7 @@ summary: >
 member_of: bb:hub:fleets
 leaders: [ bb:npc:captain-bor-harvann ]
 tags: [fleet, war, siege, brutality]
-portrait: [assets/fleets/the-wakes.png]
+portrait: [assets/fleets/red-wakes.png]
 ---
 
 
