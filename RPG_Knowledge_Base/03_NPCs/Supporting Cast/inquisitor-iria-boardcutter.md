@@ -10,4 +10,5 @@ rivals: []
 appears_in:
   - bb:location:house-of-questions
 tags: [inquisitor, red-wakes, warfare]
+portrait: [assets/portraits/iria-boardcutter.png]
 ---

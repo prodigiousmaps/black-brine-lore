@@ -10,4 +10,5 @@ rivals: []
 appears_in:
   - bb:location:house-of-questions
 tags: [inquisitor, miasma, pathology]
+portrait: [assets/portraits/morwen-plagueglass.png]
 ---

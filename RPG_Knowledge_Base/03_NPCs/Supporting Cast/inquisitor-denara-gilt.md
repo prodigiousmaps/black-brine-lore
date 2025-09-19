@@ -12,4 +12,5 @@ rivals: []
 appears_in:
   - bb:location:house-of-questions
 tags: [inquisitor, gilded-rats, broker]
+portrait: [assets/portraits/denara-gilt.png]
 ---

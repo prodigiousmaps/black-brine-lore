@@ -10,4 +10,5 @@ rivals: []
 appears_in:
   - bb:location:house-of-questions
 tags: [inquisitor, malign-crew, amphibious]
+portrait: [assets/portraits/sharkeye-neris.png]
 ---

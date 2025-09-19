@@ -10,4 +10,5 @@ rivals: []
 appears_in:
   - bb:location:house-of-questions
 tags: [inquisitor, hollow-fangs, dreams]
+portrait: [assets/portraits/whisper-keel.png]
 ---
