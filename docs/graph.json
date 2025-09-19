@@ -1924,7 +1924,7 @@
           "assets/fleets/the-miasma.png"
         ]
       },
-      "body_excerpt": "# Customs\n- The Blackened Chalice – blood-drinking ritual before battle  \n- The Bone Hunt – recruits trophy hunt or die  \n- The Silent Decks – whispers only, never laughter  \n\n\n# Ships \n\n\n# Crew \n\n\n# Flag \n\n\n# Style\n\n\n# Reputation \n\n\n# Specialties \n\n\n# Notoriety",
+      "body_excerpt": "# Ships\n- 3 cursed vessels, including their flagship: The Miasma\n- Ghost-haunted, disease-ridden, creaking things covered in barnacles and rot.\n\n# Crew\n- Warped, mutated, and terrifying sailors.\n- Some undead. Others worse.\n- Known to chant in strange tongues and perform rites at sea.\n- Deserters occasionally wash ashore blind or raving.\n\n# Style\n- Terror tactics, eldritch magic, and unpredictable cruelty\n- Uses psychological warfare, ritualized fear, and contaminating plagues\n- Captures ships not for loot—but for experiments or rituals\n\n# Reputation\n- The only fleet feared more dead than alive\n- Those captured are rarely seen again—or return… wrong\n- Rumors say they make “salt-walkers”—souls bound to their ship hulls\n\n# Specialties\n- Necrotic rituals, disease spreading, ghost binding\n- Le…",
       "raw": {
         "leaders": [
           "bb:npc:captain-bloodshot"
@@ -1958,7 +1958,7 @@
           "brutality"
         ],
         "portrait": [
-          "assets/fleets/the-wakes.png"
+          "assets/fleets/red-wakes.png"
         ]
       },
       "body_excerpt": "# Customs\n- Battle Booze before battle  \n- No Quarter Given  \n- First to Board, First to Lead",
@@ -6351,12 +6351,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:salt-crown"
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
@@ -6366,22 +6361,27 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
+      "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
+      "target": "bb:district:keelhauls"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:house-of-questions"
+      "target": "bb:fleet:gilded-rats"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
+      "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:factions",
@@ -6391,12 +6391,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widowmakers"
+      "target": "bb:fleet:miasma"
     },
     {
       "source": "bb:hub:factions",
@@ -6411,17 +6406,52 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
+      "target": "bb:fleet:malign-crew"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
+      "target": "bb:faction:house-of-questions"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widowmakers"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6436,37 +6466,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
       "target": "bb:campaign:deep-green:skull-garden"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
     }
   ],
   "unresolved": [],
