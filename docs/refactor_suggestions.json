@@ -1098,8 +1098,8 @@
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\inquisitor-zunizar.md",
       "field": "factions*",
-      "value": "bb:faction:house-of-questions",
-      "resolved_id": "bb:faction:house-of-questions",
+      "value": "bb:faction:inquisitors-of-black-brine",
+      "resolved_id": "bb:faction:inquisitors-of-black-brine",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -1539,8 +1539,8 @@
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-denara-gilt.md",
       "field": "factions*",
-      "value": "bb:faction:house-of-questions",
-      "resolved_id": "bb:faction:house-of-questions",
+      "value": "bb:faction:inquisitors-of-black-brine",
+      "resolved_id": "bb:faction:inquisitors-of-black-brine",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -1575,8 +1575,8 @@
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-iria-boardcutter.md",
       "field": "factions*",
-      "value": "bb:faction:house-of-questions",
-      "resolved_id": "bb:faction:house-of-questions",
+      "value": "bb:faction:inquisitors-of-black-brine",
+      "resolved_id": "bb:faction:inquisitors-of-black-brine",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -1611,8 +1611,8 @@
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-morwen-plagueglass.md",
       "field": "factions*",
-      "value": "bb:faction:house-of-questions",
-      "resolved_id": "bb:faction:house-of-questions",
+      "value": "bb:faction:inquisitors-of-black-brine",
+      "resolved_id": "bb:faction:inquisitors-of-black-brine",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -1647,8 +1647,8 @@
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-shark-eye-neris.md",
       "field": "factions*",
-      "value": "bb:faction:house-of-questions",
-      "resolved_id": "bb:faction:house-of-questions",
+      "value": "bb:faction:inquisitors-of-black-brine",
+      "resolved_id": "bb:faction:inquisitors-of-black-brine",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -1684,9 +1684,9 @@
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\inquisitor-whisper-keel.md",
       "field": "factions*",
       "value": "bb:faction:house-of-questions",
-      "resolved_id": "bb:faction:house-of-questions",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {

@@ -1901,9 +1901,9 @@
       }
     },
     {
-      "id": "bb:faction:house-of-questions",
+      "id": "bb:faction:inquisitors-of-black-brine",
       "type": "faction",
-      "name": "The House of Questions",
+      "name": "Inquisitors of Black Brine",
       "tags": [
         "faction",
         "inquisitors",
@@ -1915,8 +1915,8 @@
       "source": "RPG_Knowledge_Base\\04_Factions\\Political\\house-of-questions.md",
       "fm": {
         "type": "faction",
-        "id": "bb:faction:house-of-questions",
-        "name": "The House of Questions",
+        "id": "bb:faction:inquisitors-of-black-brine",
+        "name": "Inquisitors of Black Brine",
         "summary": "The inquisitorial order of Black Brine, headquartered in Mistwalk. Each ruling fleet appoints an inquisitor, creating a volatile alliance of spies, judges, and executioners under the Captain’s Council.\n",
         "location": "bb:district:mistwalk",
         "leaders": [],
@@ -2324,7 +2324,7 @@
         "location": "bb:location:house-of-questions",
         "factions": [
           "bb:fleet:widowmakers",
-          "bb:faction:house-of-questions"
+          "bb:faction:inquisitors-of-black-brine"
         ],
         "allies": [],
         "rivals": [],
@@ -2353,7 +2353,7 @@
         "location": "bb:location:house-of-questions",
         "factions": [
           "bb:fleet:widowmakers",
-          "bb:faction:house-of-questions"
+          "bb:faction:inquisitors-of-black-brine"
         ],
         "allies": [],
         "rivals": [],
@@ -3376,7 +3376,7 @@
         "location": "bb:location:house-of-questions",
         "factions": [
           "bb:fleet:gilded-rats",
-          "bb:faction:house-of-questions"
+          "bb:faction:inquisitors-of-black-brine"
         ],
         "allies": [],
         "rivals": [],
@@ -3392,12 +3392,12 @@
           "assets/portraits/denara-gilt.png"
         ]
       },
-      "body_excerpt": "",
+      "body_excerpt": "# Inquisitor Gilt\n\n## Overview\nSharp-dressed, sharp-tongued, and rumored to poison her own tea. Denara watches, records, and strikes only when every thread is unraveled. Loves puzzles, hates liars, collects confessions like jewelry. Suspects everyone, especially her allies.",
       "raw": {
         "location": "bb:location:house-of-questions",
         "factions": [
           "bb:fleet:gilded-rats",
-          "bb:faction:house-of-questions"
+          "bb:faction:inquisitors-of-black-brine"
         ],
         "allies": [],
         "rivals": [],
@@ -3424,7 +3424,7 @@
         "location": "bb:location:house-of-questions",
         "factions": [
           "bb:fleet:red-wakes",
-          "bb:faction:house-of-questions"
+          "bb:faction:inquisitors-of-black-brine"
         ],
         "allies": [],
         "rivals": [],
@@ -3440,12 +3440,12 @@
           "assets/portraits/iria-boardcutter.png"
         ]
       },
-      "body_excerpt": "",
+      "body_excerpt": "# Inquisitor Boardcutter\n\n## Overview\nHeartless and unpredictable, tortures with her blades, gets answers with blunt threats, and solves crime like it's war. Keeps a sack of dried ears as “reminders.” Smells like salt and blood. Everyone avoids her laugh.",
       "raw": {
         "location": "bb:location:house-of-questions",
         "factions": [
           "bb:fleet:red-wakes",
-          "bb:faction:house-of-questions"
+          "bb:faction:inquisitors-of-black-brine"
         ],
         "allies": [],
         "rivals": [],
@@ -3472,7 +3472,7 @@
         "location": "bb:location:house-of-questions",
         "factions": [
           "bb:fleet:miasma",
-          "bb:faction:house-of-questions"
+          "bb:faction:inquisitors-of-black-brine"
         ],
         "allies": [],
         "rivals": [],
@@ -3488,12 +3488,12 @@
           "assets/portraits/morwen-plagueglass.png"
         ]
       },
-      "body_excerpt": "",
+      "body_excerpt": "# Inquisitor Plagueglass\n\n## Overview\nIndifferent, silent and unempathetic. To refuse his questions is to become his lab rat.",
       "raw": {
         "location": "bb:location:house-of-questions",
         "factions": [
           "bb:fleet:miasma",
-          "bb:faction:house-of-questions"
+          "bb:faction:inquisitors-of-black-brine"
         ],
         "allies": [],
         "rivals": [],
@@ -3520,7 +3520,7 @@
         "location": "bb:location:house-of-questions",
         "factions": [
           "bb:fleet:malign-crew",
-          "bb:faction:house-of-questions"
+          "bb:faction:inquisitors-of-black-brine"
         ],
         "allies": [],
         "rivals": [],
@@ -3536,12 +3536,12 @@
           "assets/portraits/sharkeye-neris.png"
         ]
       },
-      "body_excerpt": "",
+      "body_excerpt": "# Inquisitor Neris\n\n## Overview\nA truely frightening",
       "raw": {
         "location": "bb:location:house-of-questions",
         "factions": [
           "bb:fleet:malign-crew",
-          "bb:faction:house-of-questions"
+          "bb:faction:inquisitors-of-black-brine"
         ],
         "allies": [],
         "rivals": [],
@@ -5794,7 +5794,7 @@
       "target": "bb:district:salt-crown"
     },
     {
-      "source": "bb:faction:house-of-questions",
+      "source": "bb:faction:inquisitors-of-black-brine",
       "rel": "located_in",
       "target": "bb:district:mistwalk"
     },
@@ -6116,7 +6116,7 @@
     {
       "source": "bb:npc:inquisitor-zunizar",
       "rel": "member_of",
-      "target": "bb:faction:house-of-questions"
+      "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:npc:captain-bloodshot",
@@ -6151,7 +6151,7 @@
     {
       "source": "bb:npc:inquisitor-denara-gilt",
       "rel": "member_of",
-      "target": "bb:faction:house-of-questions"
+      "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:npc:inquisitor-iria-boardcutter",
@@ -6161,7 +6161,7 @@
     {
       "source": "bb:npc:inquisitor-iria-boardcutter",
       "rel": "member_of",
-      "target": "bb:faction:house-of-questions"
+      "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:npc:inquisitor-morwen-plagueglass",
@@ -6171,7 +6171,7 @@
     {
       "source": "bb:npc:inquisitor-morwen-plagueglass",
       "rel": "member_of",
-      "target": "bb:faction:house-of-questions"
+      "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:npc:inquisitor-shark-eye-neris",
@@ -6181,17 +6181,12 @@
     {
       "source": "bb:npc:inquisitor-shark-eye-neris",
       "rel": "member_of",
-      "target": "bb:faction:house-of-questions"
+      "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:npc:inquisitor-whisper-keel",
       "rel": "member_of",
       "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:npc:inquisitor-whisper-keel",
-      "rel": "member_of",
-      "target": "bb:faction:house-of-questions"
     },
     {
       "source": "bb:npc:three-tooth-mavin",
@@ -6551,11 +6546,6 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:blackmire"
     },
     {
@@ -6566,17 +6556,17 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
+      "target": "bb:district:crosswater"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:factions",
@@ -6591,27 +6581,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:twilight-society"
+      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:widowmakers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
+      "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:hub:factions",
@@ -6621,7 +6596,17 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widowmakers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:twilight-society"
     },
     {
       "source": "bb:hub:factions",
@@ -6631,32 +6616,17 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:house-of-questions"
+      "target": "bb:fleet:hollow-fangs"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
+      "target": "bb:fleet:malign-crew"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6666,7 +6636,27 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6681,12 +6671,17 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:deep-green:short-cut"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 156,
-    "edges": 184
+    "edges": 183
   }
 }
