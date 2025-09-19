@@ -6,8 +6,8 @@ summary: >
   Gun Deck Rosy's blackpowder destroyers, marines and engineers dominate the surrounding seas through disciplined battle technique, religious zeal and overwhelming force.
 member_of: bb:hub:fleets
 leaders: [ bb:npc:Rosy ]
-tags: [fleet, piracy, warfare]
-portrait: [assets/fleets/hellion-fleet.png]
+tags: [fleet, piracy, warfare, militaristic]
+portrait: [assets/portrait/hellion-fleet.png]
 ---
 
 # Ships
