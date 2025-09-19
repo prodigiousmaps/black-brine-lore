@@ -7,7 +7,7 @@ summary: >
 member_of: bb:hub:fleets
 leaders: [ bb:npc:Rosy ]
 tags: [fleet, piracy, warfare, militaristic]
-portrait: [assets/portrait/hellion-fleet.png]
+portrait: [assets/portraits/hellion-fleet.png]
 ---
 
 # Ships
