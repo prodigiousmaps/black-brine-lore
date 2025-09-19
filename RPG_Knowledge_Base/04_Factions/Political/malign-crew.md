@@ -8,7 +8,7 @@ summary: >
 member_of: bb:hub:fleets
 leaders: [ bb:npc:captain-tasty-bite ]
 tags: [fleet, smuggling, espionage]
-portrait: [assets/fleets/the-malign.png]
+portrait: [assets/portraits/the-malign.png]
 ---
 
 # Ships 
