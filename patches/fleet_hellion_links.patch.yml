@@ -1,0 +1,8 @@
+---
+type: patch
+target: bb:fleet:hellion-fleet
+add:
+  captains:
+    - bb:npc:gun-deck-rosy
+  roster:
+    - bb:npc:gun-deck-rosy

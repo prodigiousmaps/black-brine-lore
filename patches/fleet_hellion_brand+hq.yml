@@ -1,0 +1,14 @@
+path: RPG_Knowledge_Base/03_Factions/hellion-fleet.md
+merge:
+  type: faction
+  id: bb:fleet:fleet-hellion
+  name: Hellion Fleet
+  faction_type: fleet
+  summary: Sea ravaging zelots wreathed in smoke and fire.
+  symbol: "☠︎"
+  colors:
+    primary: "#purple"  # cold pale
+  motto: "Baptism in powder."
+  headquarters: bb:district:mistwalk
+  emblem: assets/fleets/hellion.png
+  tags: [fleet, ruling-fleet, fleet-hellion, overwhelming, domination, militaristic]

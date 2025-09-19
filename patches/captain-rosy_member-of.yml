@@ -1,0 +1,5 @@
+path: RPG_Knowledge_Base/06_NPCs/gun-deck-rosy.md
+merge:
+  member_of:
+    - bb:fleet:hellion-fleet
+    - bb:faction:council-of-captains

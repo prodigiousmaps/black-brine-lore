@@ -2290,7 +2290,7 @@
           "Fighter 6"
         ]
       },
-      "body_excerpt": "# Description\nRosy is not just a pioneering pirate captain, she is a cagey and intelligent politician. Militaristic, disciplined and fearless, Rosy's rise to power is a story of blood smoke and ruthless strategy. Her devotion to Sedna is absolute. Her fanaticism commands both fear and loyalty, as people whisper of her rituals and sacrifices. She might possess Sedna’s blessings, granting her unnerving resilience, visions from the depths, or hexblade powers.\n\n- **Her ship could be a shrine**—its hull reinforced with deep-sea bones, its figurehead depicting Sedna’s **twisted, hag-like visage**.",
+      "body_excerpt": "# Description\nRosy is not just the pioneering pirate captain of the Hellions, she is a cagey and intelligent politician. Militaristic, disciplined and fearless, Rosy's rise to power is a story of blood smoke and ruthless strategy. Her devotion to Sedna is absolute. Her fanaticism commands both fear and loyalty, as people whisper of her rituals and sacrifices. She might possess Sedna’s blessings, granting her unnerving resilience, visions from the depths, or hexblade powers.\n\n- **Her ship could be a shrine**—its hull reinforced with deep-sea bones, its figurehead depicting Sedna’s **twisted, hag-like visage**.",
       "raw": {
         "location": "bb:location:city-hull",
         "factions": [],
@@ -6524,17 +6524,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:districts",
@@ -6544,27 +6539,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:blackmire"
+      "target": "bb:district:mistwalk"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:fleet:widowmakers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:twilight-society"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:factions",
@@ -6574,17 +6554,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:house-of-questions"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
     },
     {
       "source": "bb:hub:factions",
@@ -6594,7 +6569,22 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widowmakers"
     },
     {
       "source": "bb:hub:factions",
@@ -6604,7 +6594,17 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6614,32 +6614,12 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
       "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
       "target": "bb:campaign:infiltration-temple-of-sedna"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6654,7 +6634,27 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
     }
   ],
   "unresolved": [],
