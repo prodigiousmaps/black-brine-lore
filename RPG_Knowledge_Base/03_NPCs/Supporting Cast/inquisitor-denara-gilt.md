@@ -6,7 +6,7 @@ summary: Smiles like a ledger in balance; buys answers, sells futures, never pay
 location: bb:location:house-of-questions
 factions: 
   - bb:fleet:gilded-rats
-  - bb:faction:house-of-questions
+  - bb:faction:inquisitors-of-black-brine
 allies: []
 rivals: []
 appears_in:

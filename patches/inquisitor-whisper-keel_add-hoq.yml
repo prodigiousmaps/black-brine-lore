@@ -2,4 +2,4 @@ path: RPG_Knowledge_Base/06_NPCs/inquisitor-whisper-keel.md
 set:
   factions:
     - bb:fleet:hollow-fangs
-    - bb:faction:house-of-questions
+    - bb:faction:inquisitors-of-black-brine
