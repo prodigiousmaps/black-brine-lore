@@ -817,6 +817,33 @@
       }
     },
     {
+      "id": "bb:mystery:red-potoo",
+      "type": "mystery",
+      "name": "The Red Potoo",
+      "tags": [
+        "cryptids",
+        "supernatural",
+        "omen",
+        "mystery"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\red-potoo.md",
+      "fm": {
+        "type": "mystery",
+        "name": "The Red Potoo",
+        "location": "Black Brine rooftops",
+        "tags": [
+          "cryptids",
+          "supernatural",
+          "omen",
+          "mystery"
+        ]
+      },
+      "body_excerpt": "# Description\nStrange entities shaped like potoo birds, formed from blood-red mist with glowing white eyes. They perch silently on rooftops, never making a sound, never interacting, and vanish the instant they are noticed.\n\n# Superstitions\n- Gamblers: Sight before play means certain loss.\n- Lovers: Portent of betrayal within the week.\n- Sailors: Omens of storms, curses of the Hollow Goddess.\n- Children: “Ghost scouts” of Sedna, searching for liars.\n\n# Theories\n- Astral projections of a forgotten cult.\n- Wards left from the goddess war.\n- Mass hallucinations triggered by ancient magic.\n\n# Adventure Hooks\n- PCs tasked to catch one — but what happens if they succeed?\n- A noble pays for a rooftop watch when Red Potoos appear above their manor.",
+      "raw": {
+        "location": "Black Brine rooftops"
+      }
+    },
+    {
       "id": "bb:monster:twig-blight-jungle-variant",
       "type": "monster",
       "name": "Twig Blight – Jungle Variant",
@@ -1692,6 +1719,36 @@
       }
     },
     {
+      "id": "bb:faction:gutterlings",
+      "type": "faction",
+      "name": "The Gutterlings",
+      "tags": [
+        "urchins",
+        "thieves",
+        "gangs",
+        "youth",
+        "underworld"
+      ],
+      "source": "RPG_Knowledge_Base\\04_Factions\\Criminal\\gutterlings.md",
+      "fm": {
+        "type": "faction",
+        "name": "The Gutterlings",
+        "location": "Black Brine (Salt Crown districts)",
+        "faction_type": "gang",
+        "tags": [
+          "urchins",
+          "thieves",
+          "gangs",
+          "youth",
+          "underworld"
+        ]
+      },
+      "body_excerpt": "# Overview\nThe Gutterlings are a street gang of orphaned and runaway children who survive through pickpocketing, distraction tricks, and swarming tactics. Though often underestimated by adults, they are feared by rival gangs for their loyalty and ability to overwhelm targets in groups.\n\n# History\nFormed by children left behind by the great fleets, the Gutterlings carved out a niche as the eyes and ears of the city’s alleys. Their informal leadership comes from an older sibling figure who \"aged out\" but never left the crew.\n\n# Structure & Culture\n- Signals: whistles, chalk markings, hand gestures\n- Weapons: slingshots, stolen knives, improvised tools\n- Code: “No Gutterling left behind”\n- Superstition: If they spit in your drink, you’re marked — expect to be stripped bare within the week.\n\n#…",
+      "raw": {
+        "location": "Black Brine (Salt Crown districts)"
+      }
+    },
+    {
       "id": "bb:faction:twilight-society",
       "type": "faction",
       "name": "The Twilight Society",
@@ -1766,6 +1823,41 @@
       "raw": {
         "leaders": [
           "bb:npc:captain-garrick-salt"
+        ]
+      }
+    },
+    {
+      "id": "bb:fleet:hellion-fleet",
+      "type": "faction",
+      "name": "The Hellion Fleet",
+      "tags": [
+        "fleet",
+        "piracy",
+        "warfare"
+      ],
+      "source": "RPG_Knowledge_Base\\04_Factions\\Political\\hellion-fleet.md",
+      "fm": {
+        "type": "faction",
+        "id": "bb:fleet:hellion-fleet",
+        "name": "The Hellion Fleet",
+        "summary": "Gun Deck Rosy's blackpowder destroyers, marines and engineers dominate the surrounding seas through disciplined battle technique, religious zeal and overwhelming force.\n",
+        "member_of": "bb:hub:fleets",
+        "leaders": [
+          "bb:npc:Rosy"
+        ],
+        "tags": [
+          "fleet",
+          "piracy",
+          "warfare"
+        ],
+        "portrait": [
+          "assets/fleets/hellion-fleet.png"
+        ]
+      },
+      "body_excerpt": "# Ships\n- Numerous warships, sloops, and converted galleons\n- All painted in deep violet and gold, trimmed with seaweed braiding and bone charms\n- Flagships rumored to be blessed by Sedna herself—with hulls resistant to fire and salt\n\n# Crew\n- Devoted to Sedna, indoctrinated from youth or converted through blood oaths\n- Mix of pirates, fanatics, and reformed heretics\n- Known for singing eerie sea-hymns during battle\n\n# Style\n- Orthodox, brutal, and divine\n- Often use Sedna-blessed weapons, religious fervor, and overwhelming force\n- Never retreats. Never parley. Only surrender through sacrifice.\n\n# Reputation\n- Unchallenged rulers of Black Brine’s waters\n- Rosy’s word is law—even rival captains hold their tongue\n- Known for dragging captured crews before the altar in City Hull for ritual ju…",
+      "raw": {
+        "leaders": [
+          "bb:npc:Rosy"
         ]
       }
     },
@@ -2527,6 +2619,34 @@
       }
     },
     {
+      "id": "bb:faction:union-of-lamp-lighters",
+      "type": "faction",
+      "name": "Union of Lamp Lighters",
+      "tags": [
+        "guild",
+        "nightwatch",
+        "secrets",
+        "power"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Organizations\\union-of-lamp-lighters.md",
+      "fm": {
+        "type": "faction",
+        "name": "Union of Lamp Lighters",
+        "location": "Black Brine (citywide)",
+        "faction_type": "guild",
+        "tags": [
+          "guild",
+          "nightwatch",
+          "secrets",
+          "power"
+        ]
+      },
+      "body_excerpt": "# Overview\nA secretive guild responsible for lighting and maintaining the city’s whale-oil lamps. They patrol the streets at night, carrying keys and oil, with whistles that serve as coded signals. Their reach gives them unmatched knowledge of the city after dark.\n\n# Culture\n- Lamp patterns rumored to carry coded messages.\n- Whistle-calls mark warnings and shifts.\n- They claim neutrality but can cripple a district by leaving lamps unlit.\n\n# Superstitions\n- An unlit crossroads lamp means someone important will die that week.\n- Locals leave offerings at lamp posts for safe passage.\n\n# Adventure Hooks\n- PCs hired to guard lamp lighters threatened by gangs.\n- PCs notice lamps forming deliberate patterns across the city.\n- A murdered lamp lighter leaves behind an encoded route map.",
+      "raw": {
+        "location": "Black Brine (citywide)"
+      }
+    },
+    {
       "id": "bb:npc:aldo-vance",
       "type": "npc",
       "name": "Aldo Vance",
@@ -3117,6 +3237,34 @@
         "appears_in": [
           "bb:location:ruperts-rest"
         ]
+      }
+    },
+    {
+      "id": "bb:npc:garrick-yellow-cart",
+      "type": "npc",
+      "name": "Garrick of the Yellow Cart",
+      "tags": [
+        "npc",
+        "comic relief",
+        "transportation",
+        "rumors"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\garrick-yellow-cart.md",
+      "fm": {
+        "type": "npc",
+        "name": "Garrick of the Yellow Cart",
+        "role": "Cartridge Driver",
+        "location": "Black Brine streets",
+        "tags": [
+          "npc",
+          "comic relief",
+          "transportation",
+          "rumors"
+        ]
+      },
+      "body_excerpt": "# Description\nA cheerful eccentric who offers free carriage rides to anyone willing to listen to his relentless sponsor’s sales pitch. Garrick rotates sponsors weekly, ranging from fishmongers to crime bosses, often contradicting himself mid-ride.\n\n# Personality\n- Enthusiastic, loud, never malicious.\n- Loves gossip and rumor-spreading.\n- Treats his passengers like “customers,” even when they groan.\n\n# Hooks\n- His sponsor’s products sometimes carry secret codes or smuggled goods.\n- Rivals sabotage Garrick’s cart, dragging the PCs into the fallout.\n- He can unwittingly drop critical plot hooks in his rambling pitches.",
+      "raw": {
+        "location": "Black Brine streets"
       }
     },
     {
@@ -5386,6 +5534,31 @@
       }
     },
     {
+      "id": "bb:game:crows-chance",
+      "type": "game",
+      "name": "Crow’s Chance",
+      "tags": [
+        "game",
+        "gambling",
+        "pastime",
+        "mini-game"
+      ],
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\crows-chance.md",
+      "fm": {
+        "type": "game",
+        "name": "Crow’s Chance",
+        "origin": "Black Brine",
+        "tags": [
+          "game",
+          "gambling",
+          "pastime",
+          "mini-game"
+        ]
+      },
+      "body_excerpt": "# Overview\nA popular street and tavern game, exclusive to Black Brine. Played casually with chalk circles and seashells, or with carved bone tokens and fine boards in gambling dens.\n\n# Components\n- Board of 12 squares in a circle.\n- Each player has 3 “crows” (bone or shell tokens).\n- 2 six-sided dice.\n\n# Rules (Casual Version)\n1. Each player places their 3 crows at start.\n2. Roll 2d6 to move one crow clockwise.\n3. Landing on an occupied space lets you “snatch” the other crow (remove it).\n4. Goal: control the final square (“the roost”).\n\n# Variants (High Stakes)\n- Buy-ins: each crow has a wagered value.\n- Bluff tokens: fake crows can be introduced.\n- Sudden forfeits: players risk all crows on a gamble roll.\n\n# Digital Potential\nThe rules are simple, fast, and favor tension — perfect for a b…",
+      "raw": {}
+    },
+    {
       "id": "bb:lore:djinn",
       "type": "lore",
       "name": "Djinn",
@@ -6356,7 +6529,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:blackmire"
+      "target": "bb:district:keelhauls"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:hub:districts",
@@ -6366,37 +6544,17 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:mistwalk"
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
+      "target": "bb:fleet:widowmakers"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
       "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:factions",
@@ -6411,12 +6569,42 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:house-of-questions"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:widowmakers"
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hellion-fleet"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6426,12 +6614,27 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:campaign:fallen-city-memory-palace"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6446,32 +6649,17 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
       "target": "bb:campaign:dead-sons-narrative"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:campaign:deep-green:short-cut"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 150,
-    "edges": 180
+    "nodes": 156,
+    "edges": 183
   }
 }

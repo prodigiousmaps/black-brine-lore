@@ -1,5 +1,5 @@
 {
-  "total_files": 146,
+  "total_files": 152,
   "patches": [
     "patches\\franklin-pierce.yml",
     "patches\\pinch.yml",
@@ -537,6 +537,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\red-potoo.md",
+      "field": "location",
+      "value": "Black Brine rooftops",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\twig-blight-jungle-variant.md",
       "field": "location",
       "value": "bb:story:encounter-4-treefall-maze",
@@ -825,6 +834,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Criminal\\gutterlings.md",
+      "field": "location",
+      "value": "Black Brine (Salt Crown districts)",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\04_Factions\\Criminal\\twilight-society.md",
       "field": "location",
       "value": "bb:district:salt-crown",
@@ -846,6 +864,15 @@
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\gilded-rats.md",
       "field": "leaders",
       "value": "bb:npc:captain-garrick-salt",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\hellion-fleet.md",
+      "field": "leaders",
+      "value": "bb:npc:Rosy",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -1125,6 +1152,15 @@
       "path": "RPG_Knowledge_Base\\03_NPCs\\Organizations\\council-of-free-captains.md",
       "field": "location",
       "value": "Black Brine - various districts, primarily Salt Crown and Crosswater taverns",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Organizations\\union-of-lamp-lighters.md",
+      "field": "location",
+      "value": "Black Brine (citywide)",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -1425,6 +1461,15 @@
       "resolved_id": "bb:location:ruperts-rest",
       "method": "id",
       "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\garrick-yellow-cart.md",
+      "field": "location",
+      "value": "Black Brine streets",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
