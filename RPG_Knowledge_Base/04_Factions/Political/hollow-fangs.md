@@ -8,8 +8,7 @@ summary: >
 member_of: bb:hub:fleets
 leaders: [ bb:npc:captain-lysara-vale ]
 tags: [fleet, spectral, mist, supernatural]
-emblem: assets/fleets/the-hollow-fangs.png
-
+portrait: [assets/fleets/the-hollow-fangs.png]
 ---
 
 

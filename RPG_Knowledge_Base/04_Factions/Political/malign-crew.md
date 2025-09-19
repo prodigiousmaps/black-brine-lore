@@ -20,7 +20,7 @@ portrait: [assets/fleets/the-malign.png]
 - spies
 
 # Flag 
-- Dark blue with silver waves and a jagged shark bite
+- Rust banner with a black octopus
 
 # Style
 - Bribes over battles

@@ -8,8 +8,7 @@ summary: >
 member_of: bb:hub:fleets
 leaders: [ bb:npc:captain-veyla-dren ]
 tags: [fleet, assassins, ambush, terror]
-emblem: assets/fleets/widow-makers.png
-
+portrait: [assets/fleets/widow-makers.png]
 ---
 # Ships 
 - 6 deadly assassins' sloops
