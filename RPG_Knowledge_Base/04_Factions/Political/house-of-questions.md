@@ -16,6 +16,7 @@ participants:
 - bb:npc:inquisitor-shark-eye-neris
 - bb:npc:inquisitor-whisper-keel
 - bb:npc:inquisitor-zunizar
+portrait: [assets/fleets/inquisitors-badge.png]
 tags:
 - faction
 - inquisitors
