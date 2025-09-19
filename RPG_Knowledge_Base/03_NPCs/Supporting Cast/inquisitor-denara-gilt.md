@@ -14,3 +14,7 @@ appears_in:
 tags: [inquisitor, gilded-rats, broker]
 portrait: [assets/portraits/denara-gilt.png]
 ---
+# Inquisitor Gilt
+
+## Overview
+Sharp-dressed, sharp-tongued, and rumored to poison her own tea. Denara watches, records, and strikes only when every thread is unraveled. Loves puzzles, hates liars, collects confessions like jewelry. Suspects everyone, especially her allies.

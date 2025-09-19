@@ -12,3 +12,7 @@ appears_in:
 tags: [inquisitor, miasma, pathology]
 portrait: [assets/portraits/morwen-plagueglass.png]
 ---
+# Inquisitor Plagueglass
+
+## Overview
+Indifferent, silent and unempathetic. To refuse his questions is to become his lab rat.

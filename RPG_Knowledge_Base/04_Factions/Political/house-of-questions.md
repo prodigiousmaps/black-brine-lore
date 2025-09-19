@@ -1,7 +1,7 @@
 ---
 type: faction
 id: bb:faction:house-of-questions
-name: The House of Questions
+name: The Inquisitors
 summary: 'The inquisitorial order of Black Brine, headquartered in Mistwalk. Each
   ruling fleet appoints an inquisitor, creating a volatile alliance of spies, judges,
   and executioners under the Captain’s Council.

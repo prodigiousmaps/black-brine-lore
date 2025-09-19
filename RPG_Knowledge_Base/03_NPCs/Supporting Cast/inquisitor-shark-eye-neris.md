@@ -12,3 +12,7 @@ appears_in:
 tags: [inquisitor, malign-crew, amphibious]
 portrait: [assets/portraits/sharkeye-neris.png]
 ---
+# Inquisitor Neris
+
+## Overview
+A truely frightening
