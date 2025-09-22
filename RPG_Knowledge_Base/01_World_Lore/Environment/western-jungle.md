@@ -1,6 +1,6 @@
 ---
 type: location
-id: bb:western-jungle
+id: bb:location:western-jungle
 name: Deep Green - Jungles of the West
 parent_location: bb:location:forbidden-west-sedna
 location_type: jungle

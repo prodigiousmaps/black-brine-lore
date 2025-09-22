@@ -1,6 +1,6 @@
 ---
 type: location
-id: bb:island-of-sedna
+id: bb:location:island-of-sedna
 name: Island of Sedna
 parent_location: bb:location:geography-black-brine
 location_type: island

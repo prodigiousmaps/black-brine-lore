@@ -47,7 +47,7 @@
       "raw": {}
     },
     {
-      "id": "bb:island-of-sedna",
+      "id": "bb:location:island-of-sedna",
       "type": "location",
       "name": "Island of Sedna",
       "tags": [
@@ -61,7 +61,7 @@
       "source": "RPG_Knowledge_Base\\02_Locations\\island-of-sedna.md",
       "fm": {
         "type": "location",
-        "id": "bb:island-of-sedna",
+        "id": "bb:location:island-of-sedna",
         "name": "Island of Sedna",
         "parent_location": "bb:location:geography-black-brine",
         "location_type": "island",
@@ -4439,7 +4439,7 @@
       }
     },
     {
-      "id": "bb:geography-black-brine",
+      "id": "bb:location:geography-black-brine",
       "type": "location",
       "name": "Geography of Black Brine",
       "tags": [
@@ -4453,7 +4453,7 @@
       "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\geography-of-black-brine.md",
       "fm": {
         "type": "location",
-        "id": "bb:geography-black-brine",
+        "id": "bb:location:geography-black-brine",
         "name": "Geography of Black Brine",
         "parent_location": "bb:city:black-brine",
         "location_type": "geography",
@@ -4922,7 +4922,7 @@
       }
     },
     {
-      "id": "bb:forbidden-west-sedna",
+      "id": "bb:location:forbidden-west-sedna",
       "type": "location",
       "name": "Forbidden West",
       "tags": [
@@ -4935,7 +4935,7 @@
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\forbidden-west-sedna.md",
       "fm": {
         "type": "location",
-        "id": "bb:forbidden-west-sedna",
+        "id": "bb:location:forbidden-west-sedna",
         "name": "Forbidden West",
         "parent_location": "bb:location:island-of-sedna",
         "location_type": "jungle",
@@ -5675,7 +5675,7 @@
       "raw": {}
     },
     {
-      "id": "bb:western-jungle",
+      "id": "bb:location:western-jungle",
       "type": "location",
       "name": "Deep Green - Jungles of the West",
       "tags": [
@@ -5688,7 +5688,7 @@
       "source": "RPG_Knowledge_Base\\01_World_Lore\\Environment\\western-jungle.md",
       "fm": {
         "type": "location",
-        "id": "bb:western-jungle",
+        "id": "bb:location:western-jungle",
         "name": "Deep Green - Jungles of the West",
         "parent_location": "bb:location:forbidden-west-sedna",
         "location_type": "jungle",
@@ -5924,6 +5924,11 @@
   ],
   "edges": [
     {
+      "source": "bb:location:island-of-sedna",
+      "rel": "located_in",
+      "target": "bb:location:geography-black-brine"
+    },
+    {
       "source": "bb:pc:franklin",
       "rel": "located_in",
       "target": "bb:city:black-brine"
@@ -5937,6 +5942,81 @@
       "source": "bb:pc:sy",
       "rel": "located_in",
       "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:campaign:deep-green:jungle-camp",
+      "rel": "located_in",
+      "target": "bb:location:western-jungle"
+    },
+    {
+      "source": "bb:campaign:deep-green:short-cut",
+      "rel": "located_in",
+      "target": "bb:location:western-jungle"
+    },
+    {
+      "source": "bb:campaign:deep-green:skull-garden",
+      "rel": "located_in",
+      "target": "bb:location:western-jungle"
+    },
+    {
+      "source": "bb:campaign:deep-green:treefall-maze",
+      "rel": "located_in",
+      "target": "bb:location:western-jungle"
+    },
+    {
+      "source": "bb:campaign:deep-green:vine-sanctum",
+      "rel": "located_in",
+      "target": "bb:location:western-jungle"
+    },
+    {
+      "source": "bb:rules:jungle-environmental-threat-level",
+      "rel": "located_in",
+      "target": "bb:location:forbidden-west-sedna"
+    },
+    {
+      "source": "bb:rules:jungle-event-threat-level",
+      "rel": "located_in",
+      "target": "bb:location:forbidden-west-sedna"
+    },
+    {
+      "source": "bb:rules:jungle-travel-phases",
+      "rel": "located_in",
+      "target": "bb:location:forbidden-west-sedna"
+    },
+    {
+      "source": "bb:rules:jungle-navigation-events",
+      "rel": "located_in",
+      "target": "bb:location:forbidden-west-sedna"
+    },
+    {
+      "source": "bb:rules:jungle-navigation",
+      "rel": "located_in",
+      "target": "bb:location:forbidden-west-sedna"
+    },
+    {
+      "source": "bb:rules:jungle-passive-threat-level",
+      "rel": "located_in",
+      "target": "bb:location:forbidden-west-sedna"
+    },
+    {
+      "source": "bb:rules:jungle-stealth",
+      "rel": "located_in",
+      "target": "bb:location:forbidden-west-sedna"
+    },
+    {
+      "source": "bb:rules:jungle-survival-training",
+      "rel": "located_in",
+      "target": "bb:location:forbidden-west-sedna"
+    },
+    {
+      "source": "bb:rules:jungle-survival",
+      "rel": "located_in",
+      "target": "bb:location:forbidden-west-sedna"
+    },
+    {
+      "source": "bb:rules:jungle-weather-events",
+      "rel": "located_in",
+      "target": "bb:location:forbidden-west-sedna"
     },
     {
       "source": "bb:item:codex-salt-shadow",
@@ -6079,6 +6159,16 @@
       "target": "bb:location:miremarket"
     },
     {
+      "source": "bb:location:black-brine-river",
+      "rel": "located_in",
+      "target": "bb:location:geography-black-brine"
+    },
+    {
+      "source": "bb:city:black-brine",
+      "rel": "located_in",
+      "target": "bb:location:island-of-sedna"
+    },
+    {
       "source": "bb:lore:code-of-black-brine",
       "rel": "located_in",
       "target": "bb:city:black-brine"
@@ -6114,7 +6204,7 @@
       "target": "bb:city:black-brine"
     },
     {
-      "source": "bb:geography-black-brine",
+      "source": "bb:location:geography-black-brine",
       "rel": "located_in",
       "target": "bb:city:black-brine"
     },
@@ -6127,6 +6217,11 @@
       "source": "bb:location:black-brine-library",
       "rel": "located_in",
       "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:location:bleached-bones-beach",
+      "rel": "located_in",
+      "target": "bb:location:island-of-sedna"
     },
     {
       "source": "bb:location:captains-club",
@@ -6172,6 +6267,11 @@
       "source": "bb:location:foghouse-row",
       "rel": "located_in",
       "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:location:forbidden-west-sedna",
+      "rel": "located_in",
+      "target": "bb:location:island-of-sedna"
     },
     {
       "source": "bb:location:gallows-market",
@@ -6244,6 +6344,11 @@
       "target": "bb:district:keelhauls"
     },
     {
+      "source": "bb:location:volcanic-peak-sedna",
+      "rel": "located_in",
+      "target": "bb:location:forbidden-west-sedna"
+    },
+    {
       "source": "bb:location:wet-bar",
       "rel": "located_in",
       "target": "bb:district:crosswater"
@@ -6252,6 +6357,11 @@
       "source": "bb:location:whisperers-hollow",
       "rel": "located_in",
       "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:location:western-jungle",
+      "rel": "located_in",
+      "target": "bb:location:forbidden-west-sedna"
     },
     {
       "source": "bb:diety:sedna",
@@ -6726,17 +6836,17 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
+      "target": "bb:district:little-sedna"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:districts",
@@ -6746,52 +6856,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:blackmire"
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:factions",
@@ -6801,7 +6871,22 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:factions",
@@ -6811,22 +6896,32 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:fleet:hellion-fleet"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:fleet:gilded-rats"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
+      "target": "bb:faction:gutterlings"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6836,22 +6931,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
+      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6861,12 +6941,42 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 157,
-    "edges": 188
+    "edges": 210
   }
 }

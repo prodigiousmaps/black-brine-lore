@@ -1,6 +1,6 @@
 ---
 type: location
-id: bb:forbidden-west-sedna
+id: bb:location:forbidden-west-sedna
 name: Forbidden West
 parent_location: bb:location:island-of-sedna
 location_type: jungle
