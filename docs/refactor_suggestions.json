@@ -55,7 +55,7 @@
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\island-of-sedna.md",
       "field": "parent_location",
-      "value": "bb:archipelago:mother-of-mists",
+      "value": "bb:geography-black-brine",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -2141,6 +2141,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\bleached-bones-beach.md",
+      "field": "parent_location",
+      "value": "bb:geography-black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\captains-club.md",
       "field": "parent_location",
       "value": "bb:district:mistwalk",
@@ -2476,10 +2485,10 @@
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\vexir-volcanic-peak-sedna.md",
       "field": "parent_location",
-      "value": "bb:region:forbidden-west-sedna",
-      "resolved_id": "bb:region:forbidden-west-sedna",
-      "method": "id",
-      "score": 1.0,
+      "value": "bb:western-jungle",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
@@ -2503,7 +2512,7 @@
     {
       "path": "RPG_Knowledge_Base\\01_World_Lore\\Environment\\western-jungle.md",
       "field": "parent_location",
-      "value": "bb:geography",
+      "value": "bb:geography-black-brine",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,

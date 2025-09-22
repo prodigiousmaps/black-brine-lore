@@ -1,8 +1,8 @@
 ---
 type: environment
-id: bb:environment:western-jungle
+id: bb:geography-black-brine:western-jungle
 name: Deep Green - Jungles of the West
-parent_location: bb:geography
+parent_location: bb:geography-black-brine
 location_type: jungle
 population: none
 government: none

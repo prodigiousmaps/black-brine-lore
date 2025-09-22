@@ -1,14 +1,15 @@
 ---
 type: location
+id: bb:location:bleached-bones-beach
 name: Bleached Bones Beach
-parent_location: Isle of Sedna
+parent_location: bb:geography-black-brine
 location_type: shoreline
 population: 0
 government: None
 maps_available: false
 map_files: []
 tags: [shoreline, haunted, shipwrecks, lich, phylactery, scavengers, Sedna]
-
+---
 # Bleached Bones Beach
 
 ## Overview

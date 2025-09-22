@@ -1,7 +1,7 @@
 ---
 type: location
 id: bb:location:string-and-power
-name: String & Power
+name: String & Powder
 parent_location: bb:district:crosswater
 location_type: workshop
 population: ~12 apprentices and staff
