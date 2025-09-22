@@ -47,7 +47,7 @@
       "raw": {}
     },
     {
-      "id": "bb:location:island-of-sedna",
+      "id": "bb:island-of-sedna",
       "type": "location",
       "name": "Island of Sedna",
       "tags": [
@@ -61,7 +61,7 @@
       "source": "RPG_Knowledge_Base\\02_Locations\\island-of-sedna.md",
       "fm": {
         "type": "location",
-        "id": "bb:location:island-of-sedna",
+        "id": "bb:island-of-sedna",
         "name": "Island of Sedna",
         "parent_location": "bb:location:geography-black-brine",
         "location_type": "island",
@@ -4937,7 +4937,7 @@
         "type": "location",
         "id": "bb:forbidden-west-sedna",
         "name": "Forbidden West",
-        "parent_location": "bb:location:forbidden-west-sedna",
+        "parent_location": "bb:location:island-of-sedna",
         "location_type": "jungle",
         "population": "none (ruins and cursed remnants)",
         "government": "none",
@@ -4953,7 +4953,7 @@
       },
       "body_excerpt": "# Overview\nThe western half of Sedna is a cursed jungle, avoided by all who dwell in Black Brine. The land is hostile and resists intrusion. Voices whisper from the mist, and expedition parties vanish without trace.\n\n# Geography\n- Dense jungle canopy and flooded gullies.  \n- Crumbled shrines to Sedna and other ancient gods.  \n- Entrances to hidden cave networks.  \n\n# Notable Features\n- **Jungle Ruins**: Moss-choked altars and temples where Sedna’s power lingers.  \n- **Shrines**: Portals or foci for Sedna’s magic.  \n- **Haunted Trails**: Paths that loop endlessly, leading explorers in circles.  \n\n# Adventure Hooks\n- A pirate lord pays handsomely for relics retrieved from the ruins.  \n- A haunting voice calls to Sy, Franklin, or Pinch in their dreams.  \n- A rival expedition is already inside…",
       "raw": {
-        "parent_location": "bb:location:forbidden-west-sedna"
+        "parent_location": "bb:location:island-of-sedna"
       }
     },
     {
@@ -6079,11 +6079,6 @@
       "target": "bb:location:miremarket"
     },
     {
-      "source": "bb:city:black-brine",
-      "rel": "located_in",
-      "target": "bb:location:island-of-sedna"
-    },
-    {
       "source": "bb:lore:code-of-black-brine",
       "rel": "located_in",
       "target": "bb:city:black-brine"
@@ -6132,11 +6127,6 @@
       "source": "bb:location:black-brine-library",
       "rel": "located_in",
       "target": "bb:district:blackmire"
-    },
-    {
-      "source": "bb:location:bleached-bones-beach",
-      "rel": "located_in",
-      "target": "bb:location:island-of-sedna"
     },
     {
       "source": "bb:location:captains-club",
@@ -6736,22 +6726,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:mistwalk"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:blackmire"
+      "target": "bb:district:little-sedna"
     },
     {
       "source": "bb:hub:districts",
@@ -6761,22 +6736,22 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
+      "target": "bb:district:mistwalk"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:faction:twilight-society"
+      "target": "bb:district:crosswater"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
+      "target": "bb:district:blackmire"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:factions",
@@ -6786,17 +6761,17 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
@@ -6806,12 +6781,27 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:fleet:widowmakers"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
+      "target": "bb:faction:twilight-society"
     },
     {
       "source": "bb:hub:factions",
@@ -6821,47 +6811,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
+      "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6871,12 +6821,52 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 157,
-    "edges": 190
+    "edges": 188
   }
 }

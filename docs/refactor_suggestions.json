@@ -2081,9 +2081,9 @@
       "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\city-of-black-brine.md",
       "field": "parent_location",
       "value": "bb:location:island-of-sedna",
-      "resolved_id": "bb:location:island-of-sedna",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
@@ -2189,9 +2189,9 @@
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\bleached-bones-beach.md",
       "field": "parent_location",
       "value": "bb:location:island-of-sedna",
-      "resolved_id": "bb:location:island-of-sedna",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
@@ -2278,7 +2278,7 @@
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\forbidden-west-sedna.md",
       "field": "parent_location",
-      "value": "bb:location:forbidden-west-sedna",
+      "value": "bb:location:island-of-sedna",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
