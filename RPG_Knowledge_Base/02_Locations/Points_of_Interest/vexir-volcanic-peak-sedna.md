@@ -2,7 +2,7 @@
 type: location
 id: bb:location:volcanic-peak-sedna
 name: Vexir - Volcanic Peak (Sedna)
-parent_location: bb:western-jungle
+parent_location: bb:location:forbidden-west-sedna
 location_type: mountain
 population: none
 government: none

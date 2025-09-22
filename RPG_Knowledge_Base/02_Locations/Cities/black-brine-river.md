@@ -2,7 +2,7 @@
 type: location
 id: bb:location:black-brine-river
 name: Black Brine River
-parent_location: bb:city:black-brine
+parent_location: bb:location:geography-black-brine
 location_type: river
 population: none
 government: none

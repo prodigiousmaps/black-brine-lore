@@ -63,7 +63,7 @@
         "type": "location",
         "id": "bb:location:island-of-sedna",
         "name": "Island of Sedna",
-        "parent_location": "bb:geography-black-brine",
+        "parent_location": "bb:location:geography-black-brine",
         "location_type": "island",
         "population": "unknown",
         "government": "none",
@@ -82,7 +82,7 @@
       },
       "body_excerpt": "# Overview\nThe Island of Sedna is the cursed, mist-shrouded heart of the Mother of Mists archipelago. Said to be the domain of the forgotten goddess Sedna, it is wrapped in legends of blood, betrayal, and the sea. Treacherous reefs and eternal fog conceal it, and the river that bisects the island is regarded as the last boundary of sanity before plunging into the wilderness.\n\n# Geography\n- **Black Brine River**: Where the freshwater Black River from the west meets the Brine River from the east; serves as a spiritual and cultural boundary.\n- **East Sedna**: Populated and cultivated; home to Black Brine city, fishing coves, and highlands.\n- **West Sedna**: Forbidden jungle, ruins, shrines, volcanic peaks; cursed and unexplored.\n- **Misty Shores**: Reef-choked coasts in eternal fog, nearly im…",
       "raw": {
-        "parent_location": "bb:geography-black-brine"
+        "parent_location": "bb:location:geography-black-brine"
       }
     },
     {
@@ -4085,7 +4085,7 @@
         "type": "location",
         "id": "bb:location:black-brine-river",
         "name": "Black Brine River",
-        "parent_location": "bb:city:black-brine",
+        "parent_location": "bb:location:geography-black-brine",
         "location_type": "river",
         "population": "none",
         "government": "none",
@@ -4101,7 +4101,7 @@
       },
       "body_excerpt": "# Overview\nWhere the salt Brine River meets the freshwater Black tributary, the waters form a natural divide in salinity, culture, and superstition.\n\n# Geography\n- Northern flow: salty, tied to the Maelstrom and Sedna’s favor.  \n- Southern flow: freshwater, feeding settlements and trade.  \n- Junction creates eerie visual divides of black and clear water.  \n\n# Cultural Impact\n- Saltwater pirates scorn freshwater “soft hands.”  \n- “South Water Rum” prized from distilleries south of the junction.  \n- Offerings to Sedna cast into the salty side.  \n- Pirates refuse to sleep near the river on black-water nights.  \n\n# Strategic Role\n- Junction is a smuggling ground.  \n- Red Chain Bridge guards the crossing.  \n- Poisoning the southern tributary would be devastating in war.  \n\n# Secrets (DM Only)\n-…",
       "raw": {
-        "parent_location": "bb:city:black-brine"
+        "parent_location": "bb:location:geography-black-brine"
       }
     },
     {
@@ -4545,7 +4545,7 @@
         "type": "location",
         "id": "bb:location:bleached-bones-beach",
         "name": "Bleached Bones Beach",
-        "parent_location": "bb:geography-black-brine",
+        "parent_location": "bb:location:island-of-sedna",
         "location_type": "shoreline",
         "population": 0,
         "government": "None",
@@ -4563,7 +4563,7 @@
       },
       "body_excerpt": "# Bleached Bones Beach\n\n## Overview\nA desolate, bone-littered stretch of coastline on Sedna’s northeastern edge, Bleached Bones Beach is a graveyard of shipwrecks, leviathan carcasses, and cursed sailors. The sand crunches underfoot with shattered bone and shell, while a cold phosphorescent glow clings to the mist. Few dare walk here—save for those seeking lost treasures or darker truths.\n\n## Geography\nNarrow, between 50–70 feet wide, the beach stretches far north and south. To one side, jagged grey waves break violently; to the other, a sheer cliff rises with no clear path inland. Natural obstacles include the rotting skeleton of an ancient ship, broken masts, leviathan bones, and drift debris.\n\n## Notable Features\n- Bleached bones of sea monsters and men\n- Crystalline dust mixed with pul…",
       "raw": {
-        "parent_location": "bb:geography-black-brine"
+        "parent_location": "bb:location:island-of-sedna"
       }
     },
     {
@@ -5554,7 +5554,7 @@
         "type": "location",
         "id": "bb:location:volcanic-peak-sedna",
         "name": "Vexir - Volcanic Peak (Sedna)",
-        "parent_location": "bb:western-jungle",
+        "parent_location": "bb:location:forbidden-west-sedna",
         "location_type": "mountain",
         "population": "none",
         "government": "none",
@@ -5570,7 +5570,7 @@
       },
       "body_excerpt": "# Overview\nThe dormant volcanic peak called Vexir towers above Sedna’s jungle. Though long inactive, ash plumes sometimes rise, hinting at spirits and energies beneath. Few dare to climb its slopes.\n\n# Geography\n- Jagged volcanic ridges and obsidian scree.  \n- Ash fields that choke air and scorch skin.  \n- Hidden tunnels leading deep below the mountain.  \n\n# Notable Features\n- **Blood-Sealed Relic**: Heart of the mist curse, buried beneath the peak.  \n- **Fire Spirits**: Embers that walk the ash, remnants of forgotten rituals.  \n- **Ancient Forge**: Said to craft Sedna’s weapons of wrath.  \n\n# Adventure Hooks\n- Relic hunters seek the sealed chamber beneath the peak.  \n- An eruption tremor shakes Black Brine—foreshadowing disaster.  \n- The Hollow Goddess’s followers believe breaking the rel…",
       "raw": {
-        "parent_location": "bb:western-jungle"
+        "parent_location": "bb:location:forbidden-west-sedna"
       }
     },
     {
@@ -6069,11 +6069,6 @@
       "target": "bb:location:miremarket"
     },
     {
-      "source": "bb:location:black-brine-river",
-      "rel": "located_in",
-      "target": "bb:city:black-brine"
-    },
-    {
       "source": "bb:city:black-brine",
       "rel": "located_in",
       "target": "bb:location:island-of-sedna"
@@ -6127,6 +6122,11 @@
       "source": "bb:location:black-brine-library",
       "rel": "located_in",
       "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:location:bleached-bones-beach",
+      "rel": "located_in",
+      "target": "bb:location:island-of-sedna"
     },
     {
       "source": "bb:location:captains-club",
@@ -6731,22 +6731,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:salt-crown"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:blackmire"
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
@@ -6756,22 +6746,37 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
+      "target": "bb:district:salt-crown"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:little-sedna"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:gutterlings"
+      "target": "bb:fleet:gilded-rats"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
+      "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:twilight-society"
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
     },
     {
       "source": "bb:hub:factions",
@@ -6781,7 +6786,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:widowmakers"
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:factions",
@@ -6796,57 +6806,17 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
+      "target": "bb:faction:gutterlings"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
+      "target": "bb:fleet:malign-crew"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:fleet:widowmakers"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6856,7 +6826,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
+      "target": "bb:campaign:dead-sons-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6866,7 +6836,37 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
     }
   ],
   "unresolved": [],

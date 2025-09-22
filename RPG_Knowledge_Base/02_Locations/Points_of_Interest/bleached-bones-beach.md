@@ -2,7 +2,7 @@
 type: location
 id: bb:location:bleached-bones-beach
 name: Bleached Bones Beach
-parent_location: bb:geography-black-brine
+parent_location: bb:location:island-of-sedna
 location_type: shoreline
 population: 0
 government: None

@@ -55,7 +55,7 @@
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\island-of-sedna.md",
       "field": "parent_location",
-      "value": "bb:geography-black-brine",
+      "value": "bb:location:geography-black-brine",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -2026,10 +2026,10 @@
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\black-brine-river.md",
       "field": "parent_location",
-      "value": "bb:city:black-brine",
-      "resolved_id": "bb:city:black-brine",
-      "method": "id",
-      "score": 1.0,
+      "value": "bb:location:geography-black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
@@ -2143,10 +2143,10 @@
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\bleached-bones-beach.md",
       "field": "parent_location",
-      "value": "bb:geography-black-brine",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "value": "bb:location:island-of-sedna",
+      "resolved_id": "bb:location:island-of-sedna",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -2485,7 +2485,7 @@
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\vexir-volcanic-peak-sedna.md",
       "field": "parent_location",
-      "value": "bb:western-jungle",
+      "value": "bb:location:forbidden-west-sedna",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
