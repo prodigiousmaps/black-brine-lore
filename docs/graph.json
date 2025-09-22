@@ -588,6 +588,7 @@
         "name": "The Deep Green - Part 2",
         "summary": "Sy, Franklin, and Pinch follow the narrow jungle trail into the Deep Green, where they discover an abandoned base camp in a small cave littered with relics, journals, and ominous signs of past expeditions.\n",
         "location": "bb:region:deep-green",
+        "parent_location": "bb:location:western-jungle",
         "participants": [
           "bb:npc:sy",
           "bb:npc:franklin-pierce",
@@ -605,6 +606,7 @@
       },
       "body_excerpt": "# Narrative\nThe jungle canopy sways like a living ceiling while the forest floor lies in\nstifling stillness. The path winds through massive trees, deadfalls, and mossy\nstone. At trail’s end lies a dry cave, etched with ship names and tally marks.\nDiscarded supplies and strange offerings hint at failed expeditions.\n\n# The Cave\n- Old base camp with crates, lanterns, maps, and journals.\n- A clay statue of a serene figure sits on a shelf.\n- From behind massive roots, a slow rhythmic clicking is heard.\n- Signs of Fifth Mouth cult influence are scattered among the items.\n\n# Mechanics\n- If the party rests here, the cave amplifies dreams, especially when handling\n  the mask or shrine.\n- Use this encounter to foreshadow the Hollow Song’s effects.",
       "raw": {
+        "parent_location": "bb:location:western-jungle",
         "location": "bb:region:deep-green",
         "factions": [
           "bb:faction:fifth-mouth-cult"
@@ -633,6 +635,7 @@
         "name": "The Deep Green - Part 5",
         "summary": "After escaping the Treefall Maze, Sy, Franklin, and Pinch cut across two hexes of jungle. Ash fall from Mount Vexir dampens sound and sight. They must choose between ridge or basin, then cross a deep gorge by rope bridge.\n",
         "location": "bb:region:deep-green",
+        "parent_location": "bb:location:western-jungle",
         "participants": [
           "bb:npc:sy",
           "bb:npc:franklin-pierce",
@@ -652,6 +655,7 @@
       },
       "body_excerpt": "# Travel\n- Distance: 2 hexes (8 hours per hex).\n- Weather: Ash fall, muffled sound, half visibility.\n\n# Hex 1 Choice\n- **Ridge Path:** +2 hours. Leads through a Bone Field (see hazard).  \n- **Basin Path:** -2 hours. Crosses Razor Ferns (see hazard).\n\n# Hex 2\n- **Gorge Crossing:** must cross via rope bridge (see hazard).",
       "raw": {
+        "parent_location": "bb:location:western-jungle",
         "location": "bb:region:deep-green",
         "participants": [
           "bb:npc:sy",
@@ -678,6 +682,7 @@
       "fm": {
         "type": "campaign",
         "id": "bb:campaign:deep-green:skull-garden",
+        "parent_location": "bb:location:western-jungle",
         "name": "The Deep Green - Part 1",
         "summary": "Sy, Franklin, and Pinch journey upriver aboard Rupert’s chartered fishing boat. Guided by Strange Bones, they reach a ruined barricade where the river is blocked and must continue on foot. On the sandy bank lies the Skull Garden, where carnivorous vines and scavengers await.\n",
         "location": "bb:river:black-river",
@@ -699,6 +704,7 @@
       },
       "body_excerpt": "# Act I – Up River\n- Travel pace: 6 hours/hex, 3 hex/day\n- Weather tables:\n  - Dense Jungle Fog: ranged disadvantage, perception disadvantage, encounter chance +1\n  - Jungle Silence: stealth advantage, encounter DC lowered\n- Minor encounters:\n  - Twisting currents force navigation or capsizing\n  - Pod of river spirits vanish if spoken to\n  - Floating fungal mats cause mild hallucinations\n\n# Act II – River Barricade\n- The Soiled have collapsed ruins, forcing the raft aground.\n- PCs encounter the Skull Garden.\n\n# Skull Garden Encounter\n**Atmosphere**\n- Left bank: vine-choked ruins, obelisk, silent jungle birds.\n- Right bank: sandy beach, half-buried skull tangled in flowering vines, armored corpse.\n\n**Hazards**\n- False Beauty Vines (CR 3 plant hazard). Lure with blossoms, grapple and drag pr…",
       "raw": {
+        "parent_location": "bb:location:western-jungle",
         "location": "bb:river:black-river",
         "factions": [
           "bb:faction:the-soiled"
@@ -729,6 +735,7 @@
         "name": "The Deep Green - Part 4",
         "summary": "Sy, Franklin, and Pinch push beyond the thicket into a deadfall of collapsed trees at the base of Mount Vexir. Sudden cold sets in, the jungle thins, and a maze of toppled trunks forces hard choices, skill checks, and hazards.\n",
         "location": "bb:region:deep-green",
+        "parent_location": "bb:location:western-jungle",
         "participants": [
           "bb:npc:sy",
           "bb:npc:franklin-pierce",
@@ -746,6 +753,7 @@
       },
       "body_excerpt": "# Weather\n- **Sudden Chill:** CON save DC 12 or lose 1 hour of travel.\n- Mood: canopy thins, winds bite, Mount Vexir looms snowcapped with an ash plume.\n\n# Treefall Maze\n- Navigation: no check; Vexir visible.\n- Maze choice: +1 hour to climb or Acrobatics DC 14 to squeeze through.\n- Progress rolls:\n  - 20+: advance smoothly, gain Shortcut Die (1d4).\n  - 15–19: progress 1 hour closer.\n  - 10–14: delay, lose 1 hour.\n  - <10: lost → roll a complication.\n\n# Complications (d6)\n1. Roots collapse—DEX save DC14 or prone, 1d6 dmg.  \n2. Carved glyph or animal totem—WIS save DC12 or lose direction.  \n3. Predator’s lair (swarm/panther).  \n4. Soundless zone for 10 minutes (disadvantage on sound checks).  \n5. Treefall trap—DEX/STR save DC13 to escape.  \n6. Strange lights—INT save DC12 or wander, separate…",
       "raw": {
+        "parent_location": "bb:location:western-jungle",
         "location": "bb:region:deep-green",
         "participants": [
           "bb:npc:sy",
@@ -774,6 +782,7 @@
         "name": "The Deep Green - Part 3",
         "summary": "Sy, Franklin, and Pinch press deeper into the Deep Green. Sweltering winds buffet the canopy while the jungle floor lies still. Navigation challenges lead them to a creek crossing, an abandoned camp with copper chimes, and finally a towering wall of False Beauty Vines concealing a sanctum of death.\n",
         "location": "bb:region:deep-green",
+        "parent_location": "bb:location:western-jungle",
         "participants": [
           "bb:npc:sy",
           "bb:npc:franklin-pierce",
@@ -792,6 +801,7 @@
       },
       "body_excerpt": "# Part I – Creek Crossing\n- Weather: Sweltering winds & humidity (scent tracking impossible, stealth adv., perception disadv.)\n- Navigation: survival DC13 to identify faint path; DC15 Arcana (bird check) or DC14 Acrobatics (climb check).\n- Stealth DC15 to move silently.\n- Hazard: insect swarm attack (see bb:hazard:insect-swarm-blood-flies).\n\n# Part II – Copper Chime Clearing\n- Clearing ~20x20 ft with abandoned fire ring.\n- Perimeter: faded strings with green-patina copper bells.\n- Navigation DC14 Arcana: reveals approaching vine wall ~300' thick.\n\n# Part III – Vine Wall\n- 10 rounds to cross.\n- Illusion maintenance DC12 Arcana (Pinch).\n- Each round: stealth DC12 or vines attack.\n- Vines: AC 12, HP 10, +5 to hit, 2d6 piercing + 1d6 acid, grapple DC14 STR save.\n- Casters concentrating: DC10 c…",
       "raw": {
+        "parent_location": "bb:location:western-jungle",
         "location": "bb:region:deep-green",
         "participants": [
           "bb:npc:sy",
@@ -1139,7 +1149,7 @@
         "type": "rules",
         "id": "bb:rules:jungle-environmental-threat-level",
         "name": "Environmental Threat Level",
-        "parent_location": "bb:region:sedna-jungle",
+        "parent_location": "bb:location:forbidden-west-sedna",
         "tags": [
           "rules",
           "jungle",
@@ -1149,7 +1159,7 @@
       },
       "body_excerpt": "# Environmental Threat Level\n\n## Enemy or Environmental Stealth Checks\n- Approaching a hostile creature, predator, or patrol.  \n- Crossing open ground without cover.  \n- Evading Whispering Fog (disadvantage if Alert Level high).  \n- Using fire or magic (bright light attracts attention).  \n\n## Preparedness Modifiers\n| Preparedness                       | Effect                    |\n|-----------------------------------|---------------------------|\n| Move slowly (½ speed)              | Advantage                 |\n| Wrapped gear / quiet kit           | Advantage                 |\n| Camouflage clothing / jungle dyes  | +2 bonus                  |\n| Barefoot at night / treated boots  | +1 bonus                  |\n| Mask scent (charcoal, herbs)       | Cancels scent-tracking    |\n| No metal armo…",
       "raw": {
-        "parent_location": "bb:region:sedna-jungle"
+        "parent_location": "bb:location:forbidden-west-sedna"
       }
     },
     {
@@ -1167,7 +1177,7 @@
         "type": "rules",
         "id": "bb:rules:jungle-event-threat-level",
         "name": "Event Threat Level",
-        "parent_location": "bb:region:sedna-jungle",
+        "parent_location": "bb:location:forbidden-west-sedna",
         "tags": [
           "rules",
           "jungle",
@@ -1177,7 +1187,7 @@
       },
       "body_excerpt": "# Event Threat Level\n\n## Event-Based Stealth Rolls\nCharacters roll Stealth when:\n- Moving through predator territory or enemy camps.  \n- Passing through noisy terrain (mud, streams, leaves).  \n- Climbing/descending obstacles (trees, ruins).  \n- Interacting with dense foliage/objects.  \n- Killing an enemy where others may hear.  \n- Resting in unsafe areas (camp setup).  \n\n## Exceptions\n- Using cleared paths (Strange Bones’ routes).  \n- Traveling slowly at half speed (Advantage).  \n- Remaining still in hiding (Passive Stealth applies).",
       "raw": {
-        "parent_location": "bb:region:sedna-jungle"
+        "parent_location": "bb:location:forbidden-west-sedna"
       }
     },
     {
@@ -1195,7 +1205,7 @@
         "type": "rules",
         "id": "bb:rules:jungle-travel-phases",
         "name": "Jungle Travel Phases",
-        "parent_location": "bb:region:sedna-jungle",
+        "parent_location": "bb:location:forbidden-west-sedna",
         "tags": [
           "rules",
           "jungle",
@@ -1205,7 +1215,7 @@
       },
       "body_excerpt": "# Jungle Travel Phases\n\n**Travel Speed**: 1 hex = 6 miles; 8 hours per hex; 2 hex/day.\n\n## Phase 1 – Wild River & Outer Jungle\n- Encounters: River (1d12), Outer Jungle (1d12).  \n- Tone: natural danger, subtle strangeness.  \n\n## Phase 2 – Encroached Zone\n- Encounters: Encroached Jungle (1d12).  \n- Tone: rot, wrongness, cult traces.  \n- Perception/Insight disadvantage in darkness.  \n\n## Phase 3 – Hollow Grove (Temple Perimeter)\n- Encounters: Twisted Jungle (1d12).  \n- Tone: corruption, cult warlocks, unnatural terrain.  \n\n**Additional Mechanics**: Stealth alerts, camping, noise escalation.",
       "raw": {
-        "parent_location": "bb:region:sedna-jungle"
+        "parent_location": "bb:location:forbidden-west-sedna"
       }
     },
     {
@@ -1223,7 +1233,7 @@
         "type": "rules",
         "id": "bb:rules:jungle-navigation-events",
         "name": "Navigation Events",
-        "parent_location": "bb:region:sedna-jungle",
+        "parent_location": "bb:location:forbidden-west-sedna",
         "tags": [
           "rules",
           "jungle",
@@ -1233,7 +1243,7 @@
       },
       "body_excerpt": "# Navigation Events\n\n## Navigation Event Table (1d12)\n*(preserve full entries from original document)*\n\n## Land Feature Table (1d12)\n*(preserve full entries from original document)*\n\n> Use both tables per hex; weave into one narrative scene. Encourages spotlight moments: Pinch maps, Sy tracks, Franklin interprets, Andromeda reads nature.",
       "raw": {
-        "parent_location": "bb:region:sedna-jungle"
+        "parent_location": "bb:location:forbidden-west-sedna"
       }
     },
     {
@@ -1252,7 +1262,7 @@
         "type": "rules",
         "id": "bb:rules:jungle-navigation",
         "name": "Navigating the Mists of Sedna",
-        "parent_location": "bb:region:sedna-island",
+        "parent_location": "bb:location:forbidden-west-sedna",
         "tags": [
           "rules",
           "jungle",
@@ -1263,7 +1273,7 @@
       },
       "body_excerpt": "# Navigating the Mists of Sedna\n\nSkill challenge: 5 successes before 3 failures, 10–20 min rounds.\n\n## Skills\n- Survival, Perception, Nature, Athletics, Arcana, History, Investigation, Water Vehicles.  \n\n## Failure Consequences\n- Ship damage.  \n- Crew lost.  \n- Creature awakened.  \n- Forced back or stranded.  \n\n## Success Outcomes\n- Safe arrival.  \n- Insight advantage.  \n- Glimpses of shadow or future.  \n\n## Extra Twist\nFollowing the Coin grants one reroll but ties fate to unknown destiny.",
       "raw": {
-        "parent_location": "bb:region:sedna-island"
+        "parent_location": "bb:location:forbidden-west-sedna"
       }
     },
     {
@@ -1281,7 +1291,7 @@
         "type": "rules",
         "id": "bb:rules:jungle-passive-threat-level",
         "name": "Passive Threat Level",
-        "parent_location": "bb:region:sedna-jungle",
+        "parent_location": "bb:location:forbidden-west-sedna",
         "tags": [
           "rules",
           "jungle",
@@ -1291,7 +1301,7 @@
       },
       "body_excerpt": "# Passive Threat Level\n\n## Time-Based Stealth Checks\n- Every 30–60 minutes of travel.  \n- During weather shifts.  \n- After combat encounters.",
       "raw": {
-        "parent_location": "bb:region:sedna-jungle"
+        "parent_location": "bb:location:forbidden-west-sedna"
       }
     },
     {
@@ -1310,7 +1320,7 @@
         "type": "rules",
         "id": "bb:rules:jungle-stealth",
         "name": "Jungle Stealth & Threat Checks",
-        "parent_location": "bb:region:sedna-jungle",
+        "parent_location": "bb:location:forbidden-west-sedna",
         "tags": [
           "rules",
           "jungle",
@@ -1324,7 +1334,7 @@
       },
       "body_excerpt": "# Jungle Stealth & Threat Checks\n\n## When to Roll Stealth\n- Event-based: predators, camps, noisy terrain, foliage.  \n- Time-based: every 30–60 mins, weather, post-combat.  \n- Environmental: hostile approach, open ground, fog, fire use.  \n\n## Mechanics Variants\n- Passive Stealth vs Jungle Perception (15–18).  \n- Group vs Individual rolls.  \n- Assisted rolls & Stealth Chains.  \n\n## Preparedness Modifiers\n*(reference Environmental Threat Level table)*",
       "raw": {
-        "parent_location": "bb:region:sedna-jungle"
+        "parent_location": "bb:location:forbidden-west-sedna"
       }
     },
     {
@@ -1342,7 +1352,7 @@
         "type": "rules",
         "id": "bb:rules:jungle-survival-training",
         "name": "Jungle Survival Training (Strange Bones)",
-        "parent_location": "bb:region:sedna-jungle",
+        "parent_location": "bb:location:forbidden-west-sedna",
         "tags": [
           "rules",
           "jungle",
@@ -1355,7 +1365,7 @@
       },
       "body_excerpt": "# Jungle Survival Training (Strange Bones)\n\nStrange Bones’ brutal regimen:\n\n- Silence Test – stealth drills.  \n- Vanishing Act – camouflage and disappearance.  \n- Hunger Clock – foraging challenges.  \n- Shadow Hunt – ambush practice.  \n- Fire Without Trace – fireless camp training.  \n- Final Test – blindfold night drop.",
       "raw": {
-        "parent_location": "bb:region:sedna-jungle"
+        "parent_location": "bb:location:forbidden-west-sedna"
       }
     },
     {
@@ -1375,7 +1385,7 @@
         "type": "rules",
         "id": "bb:rules:jungle-survival",
         "name": "Jungle Survival & Madness",
-        "parent_location": "bb:region:sedna-jungle",
+        "parent_location": "bb:location:forbidden-west-sedna",
         "tags": [
           "rules",
           "jungle",
@@ -1387,7 +1397,7 @@
       },
       "body_excerpt": "# Jungle Survival & Madness\n\n## Jungle Alert Level\n- Level 0–3 escalation, triggers: noise, combat, lingering.  \n- Reset only with extreme care or rituals.  \n\n## Whispering Fog (Madness)\n- WIS Save DC = 14 + Alert Level.  \n- Fail = Jungle Madness; effects escalate from paranoia → possession.  \n- Cure: rest, restoration, blood ritual.  \n\n## Navigation\n- Survival DC 14 per 4h. Fail = hazard or madness.  \n\n## Jungle Hears\n- Passive Perception 15. Failures trigger Hunters Table.  \n\n## Hunger Clock\n- Missed rations = exhaustion. Purify water.  \n\n## Final Rule\nNever answer the voices.",
       "raw": {
-        "parent_location": "bb:region:sedna-jungle"
+        "parent_location": "bb:location:forbidden-west-sedna"
       }
     },
     {
@@ -1406,7 +1416,7 @@
         "type": "rules",
         "id": "bb:rules:jungle-weather-events",
         "name": "Weather Events of Sedna’s Jungle",
-        "parent_location": "bb:region:sedna-jungle",
+        "parent_location": "bb:location:forbidden-west-sedna",
         "tags": [
           "rules",
           "jungle",
@@ -1417,7 +1427,7 @@
       },
       "body_excerpt": "# Weather Events of Sedna’s Jungle\n\n## d20 Weather Event Table\n\n| d20 | Weather Event              | Effects on Travel, Danger, and Rest                                                                                               |\n| :-- | :------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- |\n| 1   | **Blistering Sun**         | Travel speed –½ hex. PCs in light armor roll CON save DC 12 or gain 1 Exhaustion.                                                 |\n| 2   | **Suffocating Humidity**   | Disadvantage on Stealth checks and any WIS (Survival) due to discomfort.                                                          |\n| 3   | **Torrential Rain**        | Visibility 20 ft. Vexir…",
       "raw": {
-        "parent_location": "bb:region:sedna-jungle"
+        "parent_location": "bb:location:forbidden-west-sedna"
       }
     },
     {
@@ -4912,9 +4922,9 @@
       }
     },
     {
-      "id": "bb:region:forbidden-west-sedna",
+      "id": "bb:forbidden-west-sedna",
       "type": "location",
-      "name": "Forbidden West (Sedna)",
+      "name": "Forbidden West",
       "tags": [
         "sedna",
         "jungle",
@@ -4925,9 +4935,9 @@
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\forbidden-west-sedna.md",
       "fm": {
         "type": "location",
-        "id": "bb:region:forbidden-west-sedna",
-        "name": "Forbidden West (Sedna)",
-        "parent_location": "bb:location:island-of-sedna",
+        "id": "bb:forbidden-west-sedna",
+        "name": "Forbidden West",
+        "parent_location": "bb:location:forbidden-west-sedna",
         "location_type": "jungle",
         "population": "none (ruins and cursed remnants)",
         "government": "none",
@@ -4943,7 +4953,7 @@
       },
       "body_excerpt": "# Overview\nThe western half of Sedna is a cursed jungle, avoided by all who dwell in Black Brine. The land is hostile and resists intrusion. Voices whisper from the mist, and expedition parties vanish without trace.\n\n# Geography\n- Dense jungle canopy and flooded gullies.  \n- Crumbled shrines to Sedna and other ancient gods.  \n- Entrances to hidden cave networks.  \n\n# Notable Features\n- **Jungle Ruins**: Moss-choked altars and temples where Sedna’s power lingers.  \n- **Shrines**: Portals or foci for Sedna’s magic.  \n- **Haunted Trails**: Paths that loop endlessly, leading explorers in circles.  \n\n# Adventure Hooks\n- A pirate lord pays handsomely for relics retrieved from the ruins.  \n- A haunting voice calls to Sy, Franklin, or Pinch in their dreams.  \n- A rival expedition is already inside…",
       "raw": {
-        "parent_location": "bb:location:island-of-sedna"
+        "parent_location": "bb:location:forbidden-west-sedna"
       }
     },
     {
@@ -5665,7 +5675,7 @@
       "raw": {}
     },
     {
-      "id": "bb:region:western-jungle",
+      "id": "bb:western-jungle",
       "type": "location",
       "name": "Deep Green - Jungles of the West",
       "tags": [
@@ -5678,7 +5688,7 @@
       "source": "RPG_Knowledge_Base\\01_World_Lore\\Environment\\western-jungle.md",
       "fm": {
         "type": "location",
-        "id": "bb:region:western-jungle",
+        "id": "bb:western-jungle",
         "name": "Deep Green - Jungles of the West",
         "parent_location": "bb:location:forbidden-west-sedna",
         "location_type": "jungle",
@@ -6172,11 +6182,6 @@
       "source": "bb:location:foghouse-row",
       "rel": "located_in",
       "target": "bb:district:blackmire"
-    },
-    {
-      "source": "bb:region:forbidden-west-sedna",
-      "rel": "located_in",
-      "target": "bb:location:island-of-sedna"
     },
     {
       "source": "bb:location:gallows-market",
@@ -6741,22 +6746,22 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:blackmire"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:little-sedna"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
+      "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
       "target": "bb:district:salt-crown"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:little-sedna"
     },
     {
       "source": "bb:hub:factions",
@@ -6766,12 +6771,22 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
+      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
@@ -6786,12 +6801,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
+      "target": "bb:fleet:malign-crew"
     },
     {
       "source": "bb:hub:factions",
@@ -6801,52 +6811,17 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
+      "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
+      "target": "bb:fleet:gilded-rats"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6856,7 +6831,22 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6867,11 +6857,26 @@
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 157,
-    "edges": 191
+    "edges": 190
   }
 }

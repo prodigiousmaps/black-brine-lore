@@ -2,7 +2,7 @@
 type: rules
 id: bb:rules:jungle-survival
 name: Jungle Survival & Madness
-parent_location: bb:region:sedna-jungle
+parent_location: bb:location:forbidden-west-sedna
 tags: [rules, jungle, survival, madness, sedna, fog]
 ---
 

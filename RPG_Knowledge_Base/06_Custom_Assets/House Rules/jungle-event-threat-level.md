@@ -2,7 +2,7 @@
 type: rules
 id: bb:rules:jungle-event-threat-level
 name: Event Threat Level
-parent_location: bb:region:sedna-jungle
+parent_location: bb:location:forbidden-west-sedna
 tags: [rules, jungle, stealth, encounters]
 ---
 

@@ -2,7 +2,7 @@
 type: rules
 id: bb:rules:jungle-travel-phases
 name: Jungle Travel Phases
-parent_location: bb:region:sedna-jungle
+parent_location: bb:location:forbidden-west-sedna
 tags: [rules, jungle, travel, encounter]
 ---
 

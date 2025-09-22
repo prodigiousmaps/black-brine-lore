@@ -2,7 +2,7 @@
 type: rules
 id: bb:rules:jungle-weather-events
 name: Weather Events of Sedna’s Jungle
-parent_location: bb:region:sedna-jungle
+parent_location: bb:location:forbidden-west-sedna
 tags: [rules, jungle, weather, travel, encounters]
 ---
 

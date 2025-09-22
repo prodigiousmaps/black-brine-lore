@@ -2,7 +2,7 @@
 type: rules
 id: bb:rules:jungle-environmental-threat-level
 name: Environmental Threat Level
-parent_location: bb:region:sedna-jungle
+parent_location: bb:location:forbidden-west-sedna
 tags: [rules, jungle, stealth, threat]
 ---
 

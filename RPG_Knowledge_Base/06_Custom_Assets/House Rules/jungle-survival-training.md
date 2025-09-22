@@ -2,7 +2,7 @@
 type: rules
 id: bb:rules:jungle-survival-training
 name: Jungle Survival Training (Strange Bones)
-parent_location: bb:region:sedna-jungle
+parent_location: bb:location:forbidden-west-sedna
 tags: [rules, jungle, training, survival]
 related_npc:
   - bb:npc:strange-bones

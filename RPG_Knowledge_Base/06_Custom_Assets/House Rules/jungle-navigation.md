@@ -2,7 +2,7 @@
 type: rules
 id: bb:rules:jungle-navigation
 name: Navigating the Mists of Sedna
-parent_location: bb:region:sedna-island
+parent_location: bb:location:forbidden-west-sedna
 tags: [rules, jungle, navigation, travel, sedna]
 ---
 

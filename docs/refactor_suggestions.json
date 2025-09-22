@@ -306,6 +306,15 @@
     },
     {
       "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-jungle-camp.md",
+      "field": "parent_location",
+      "value": "bb:location:western-jungle",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-jungle-camp.md",
       "field": "factions*",
       "value": "bb:faction:fifth-mouth-cult",
       "resolved_id": null,
@@ -344,6 +353,15 @@
       "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-short-cut.md",
       "field": "location",
       "value": "bb:region:deep-green",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-short-cut.md",
+      "field": "parent_location",
+      "value": "bb:location:western-jungle",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -414,6 +432,15 @@
     },
     {
       "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-skull-garden.md",
+      "field": "parent_location",
+      "value": "bb:location:western-jungle",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-skull-garden.md",
       "field": "factions*",
       "value": "bb:faction:the-soiled",
       "resolved_id": null,
@@ -477,6 +504,15 @@
     },
     {
       "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-treefall-maze.md",
+      "field": "parent_location",
+      "value": "bb:location:western-jungle",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-treefall-maze.md",
       "field": "appears_in",
       "value": "bb:monster:twig-blight-jungle-variant",
       "resolved_id": "bb:monster:twig-blight-jungle-variant",
@@ -515,6 +551,15 @@
       "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-vine-sanctum.md",
       "field": "location",
       "value": "bb:region:deep-green",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-vine-sanctum.md",
+      "field": "parent_location",
+      "value": "bb:location:western-jungle",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -712,7 +757,7 @@
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-environmental-threat-level.md",
       "field": "parent_location",
-      "value": "bb:region:sedna-jungle",
+      "value": "bb:location:forbidden-west-sedna",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -721,7 +766,7 @@
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-event-threat-level.md",
       "field": "parent_location",
-      "value": "bb:region:sedna-jungle",
+      "value": "bb:location:forbidden-west-sedna",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -730,7 +775,7 @@
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-hex-travel-phases.md",
       "field": "parent_location",
-      "value": "bb:region:sedna-jungle",
+      "value": "bb:location:forbidden-west-sedna",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -739,7 +784,7 @@
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-navigation-events.md",
       "field": "parent_location",
-      "value": "bb:region:sedna-jungle",
+      "value": "bb:location:forbidden-west-sedna",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -748,7 +793,7 @@
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-navigation.md",
       "field": "parent_location",
-      "value": "bb:region:sedna-island",
+      "value": "bb:location:forbidden-west-sedna",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -757,7 +802,7 @@
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-passive-threat-level.md",
       "field": "parent_location",
-      "value": "bb:region:sedna-jungle",
+      "value": "bb:location:forbidden-west-sedna",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -766,7 +811,7 @@
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-stealth-mechanics.md",
       "field": "parent_location",
-      "value": "bb:region:sedna-jungle",
+      "value": "bb:location:forbidden-west-sedna",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -775,7 +820,7 @@
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-survival-training.md",
       "field": "parent_location",
-      "value": "bb:region:sedna-jungle",
+      "value": "bb:location:forbidden-west-sedna",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -784,7 +829,7 @@
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-survival.md",
       "field": "parent_location",
-      "value": "bb:region:sedna-jungle",
+      "value": "bb:location:forbidden-west-sedna",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -793,7 +838,7 @@
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-weather-events.md",
       "field": "parent_location",
-      "value": "bb:region:sedna-jungle",
+      "value": "bb:location:forbidden-west-sedna",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -2233,10 +2278,10 @@
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\forbidden-west-sedna.md",
       "field": "parent_location",
-      "value": "bb:location:island-of-sedna",
-      "resolved_id": "bb:location:island-of-sedna",
-      "method": "id",
-      "score": 1.0,
+      "value": "bb:location:forbidden-west-sedna",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {

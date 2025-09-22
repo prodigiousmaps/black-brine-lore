@@ -7,6 +7,7 @@ summary: >
   trees at the base of Mount Vexir. Sudden cold sets in, the jungle thins, and
   a maze of toppled trunks forces hard choices, skill checks, and hazards.
 location: bb:region:deep-green
+parent_location: bb:location:western-jungle
 participants:
   - bb:npc:sy
   - bb:npc:franklin-pierce

@@ -2,7 +2,7 @@
 type: rules
 id: bb:rules:jungle-passive-threat-level
 name: Passive Threat Level
-parent_location: bb:region:sedna-jungle
+parent_location: bb:location:forbidden-west-sedna
 tags: [rules, jungle, stealth, threat]
 ---
 

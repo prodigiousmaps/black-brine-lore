@@ -7,6 +7,7 @@ summary: >
   of jungle. Ash fall from Mount Vexir dampens sound and sight. They must choose
   between ridge or basin, then cross a deep gorge by rope bridge.
 location: bb:region:deep-green
+parent_location: bb:location:western-jungle
 participants:
   - bb:npc:sy
   - bb:npc:franklin-pierce

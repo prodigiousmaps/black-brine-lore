@@ -8,6 +8,7 @@ summary: >
   lead them to a creek crossing, an abandoned camp with copper chimes, and
   finally a towering wall of False Beauty Vines concealing a sanctum of death.
 location: bb:region:deep-green
+parent_location: bb:location:western-jungle
 participants:
   - bb:npc:sy
   - bb:npc:franklin-pierce
