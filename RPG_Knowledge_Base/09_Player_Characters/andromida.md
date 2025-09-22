@@ -1,6 +1,8 @@
 ---
-type: npc
+type: player_character
+id: bb:pc:andromeda
 name: Andromeda
+player: Sara
 aliases: ["The Starborn", "Drom"]
 race: Human
 class: Druid
@@ -10,7 +12,14 @@ pronouns: she/her
 status: Former crew member, suing the crew for back wages
 location: Mainland, city of Mezzro
 tags: [druid, former-ally, litigation, estranged, noble, aberration-hunter]
-
+appears_in:
+- bb:location:ruperts-rest
+- bb:story:rogue-wave
+allies:
+- bb:npc:rupert-richthorn
+- bb:pc:franklin-pierce
+- bb:pc:sy
+portrait: assets/portraits/andromeda.png
 appearance:
   build: Slender and athletic
   hair: Flowing white, worn loose or in a braid

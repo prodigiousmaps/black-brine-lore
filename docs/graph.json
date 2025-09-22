@@ -86,8 +86,8 @@
       }
     },
     {
-      "id": "bb:npc:andromida",
-      "type": "npc",
+      "id": "bb:pc:andromeda",
+      "type": "player_character",
       "name": "Andromeda",
       "tags": [
         "druid",
@@ -99,8 +99,10 @@
       ],
       "source": "RPG_Knowledge_Base\\09_Player_Characters\\andromida.md",
       "fm": {
-        "type": "npc",
+        "type": "player_character",
+        "id": "bb:pc:andromeda",
         "name": "Andromeda",
+        "player": "Sara",
         "aliases": [
           "The Starborn",
           "Drom"
@@ -120,6 +122,16 @@
           "noble",
           "aberration-hunter"
         ],
+        "appears_in": [
+          "bb:location:ruperts-rest",
+          "bb:story:rogue-wave"
+        ],
+        "allies": [
+          "bb:npc:rupert-richthorn",
+          "bb:pc:franklin-pierce",
+          "bb:pc:sy"
+        ],
+        "portrait": "assets/portraits/andromeda.png",
         "appearance": {
           "build": "Slender and athletic",
           "hair": "Flowing white, worn loose or in a braid",
@@ -192,7 +204,16 @@
       },
       "body_excerpt": "",
       "raw": {
-        "location": "Mainland, city of Mezzro"
+        "location": "Mainland, city of Mezzro",
+        "allies": [
+          "bb:npc:rupert-richthorn",
+          "bb:pc:franklin-pierce",
+          "bb:pc:sy"
+        ],
+        "appears_in": [
+          "bb:location:ruperts-rest",
+          "bb:story:rogue-wave"
+        ]
       }
     },
     {
@@ -6282,6 +6303,16 @@
       "target": "bb:faction:twilight-society"
     },
     {
+      "source": "bb:pc:andromeda",
+      "rel": "ally_of",
+      "target": "bb:npc:rupert-richthorn"
+    },
+    {
+      "source": "bb:pc:andromeda",
+      "rel": "ally_of",
+      "target": "bb:pc:sy"
+    },
+    {
       "source": "bb:pc:franklin",
       "rel": "ally_of",
       "target": "bb:npc:rupert-richthorn"
@@ -6380,6 +6411,16 @@
       "source": "bb:npc:yurra-the-mireborn",
       "rel": "rival_of",
       "target": "bb:npc:three-tooth-mavin"
+    },
+    {
+      "source": "bb:pc:andromeda",
+      "rel": "appears_in",
+      "target": "bb:location:ruperts-rest"
+    },
+    {
+      "source": "bb:pc:andromeda",
+      "rel": "appears_in",
+      "target": "bb:story:rogue-wave"
     },
     {
       "source": "bb:pc:franklin",
@@ -6629,7 +6670,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
+      "target": "bb:district:little-sedna"
     },
     {
       "source": "bb:hub:districts",
@@ -6639,7 +6680,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:blackmire"
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
@@ -6654,17 +6695,27 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
+      "target": "bb:fleet:gilded-rats"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:factions",
@@ -6674,12 +6725,27 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:inquisitors-of-black-brine"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
+      "target": "bb:fleet:widowmakers"
     },
     {
       "source": "bb:hub:factions",
@@ -6692,39 +6758,19 @@
       "target": "bb:fleet:miasma"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
+      "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widowmakers"
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6739,7 +6785,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6749,17 +6795,12 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
+      "target": "bb:campaign:dead-sons-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6770,6 +6811,6 @@
   "unresolved": [],
   "stats": {
     "nodes": 156,
-    "edges": 188
+    "edges": 192
   }
 }
