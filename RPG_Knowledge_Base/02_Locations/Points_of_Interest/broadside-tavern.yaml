@@ -1,7 +1,7 @@
 ---
 type: location
 name: Broadside Tavern
-parent_location: Black Brine
+id: bb:location:broadside-tavern
 parent_location: bb:district:little-sedna
 location_type: tavern
 population: variable (patrons, staff, performers)
