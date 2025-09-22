@@ -4429,7 +4429,7 @@
       }
     },
     {
-      "id": "bb:location:geography-black-brine",
+      "id": "bb:geography-black-brine",
       "type": "location",
       "name": "Geography of Black Brine",
       "tags": [
@@ -4443,7 +4443,7 @@
       "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\geography-of-black-brine.md",
       "fm": {
         "type": "location",
-        "id": "bb:location:geography-black-brine",
+        "id": "bb:geography-black-brine",
         "name": "Geography of Black Brine",
         "parent_location": "bb:city:black-brine",
         "location_type": "geography",
@@ -5914,11 +5914,6 @@
   ],
   "edges": [
     {
-      "source": "bb:location:island-of-sedna",
-      "rel": "located_in",
-      "target": "bb:location:geography-black-brine"
-    },
-    {
       "source": "bb:pc:franklin",
       "rel": "located_in",
       "target": "bb:city:black-brine"
@@ -6074,11 +6069,6 @@
       "target": "bb:location:miremarket"
     },
     {
-      "source": "bb:location:black-brine-river",
-      "rel": "located_in",
-      "target": "bb:location:geography-black-brine"
-    },
-    {
       "source": "bb:city:black-brine",
       "rel": "located_in",
       "target": "bb:location:island-of-sedna"
@@ -6119,7 +6109,7 @@
       "target": "bb:city:black-brine"
     },
     {
-      "source": "bb:location:geography-black-brine",
+      "source": "bb:geography-black-brine",
       "rel": "located_in",
       "target": "bb:city:black-brine"
     },
@@ -6741,22 +6731,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:salt-crown"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:mistwalk"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:districts",
@@ -6766,12 +6746,17 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
+      "target": "bb:district:little-sedna"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
+      "target": "bb:district:mistwalk"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:hub:factions",
@@ -6781,17 +6766,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widowmakers"
+      "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:factions",
@@ -6801,7 +6776,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
+      "target": "bb:faction:gutterlings"
     },
     {
       "source": "bb:hub:factions",
@@ -6811,12 +6786,17 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:gutterlings"
+      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widowmakers"
     },
     {
       "source": "bb:hub:factions",
@@ -6826,17 +6806,17 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
+      "target": "bb:fleet:gilded-rats"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:fleet:hellion-fleet"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
+      "target": "bb:fleet:miasma"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6846,22 +6826,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
       "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6871,17 +6836,42 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 157,
-    "edges": 193
+    "edges": 191
   }
 }

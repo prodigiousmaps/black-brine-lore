@@ -56,9 +56,9 @@
       "path": "RPG_Knowledge_Base\\02_Locations\\island-of-sedna.md",
       "field": "parent_location",
       "value": "bb:location:geography-black-brine",
-      "resolved_id": "bb:location:geography-black-brine",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
@@ -2027,9 +2027,9 @@
       "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\black-brine-river.md",
       "field": "parent_location",
       "value": "bb:location:geography-black-brine",
-      "resolved_id": "bb:location:geography-black-brine",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {

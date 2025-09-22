@@ -1,6 +1,6 @@
 ---
 type: location
-id: bb:location:geography-black-brine
+id: bb:geography-black-brine
 name: Geography of Black Brine
 parent_location: bb:city:black-brine
 location_type: geography
