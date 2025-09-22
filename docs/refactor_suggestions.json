@@ -2512,7 +2512,7 @@
     {
       "path": "RPG_Knowledge_Base\\01_World_Lore\\Environment\\western-jungle.md",
       "field": "parent_location",
-      "value": "bb:geography-black-brine",
+      "value": "bb:location:forbidden-west-sedna",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
