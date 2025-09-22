@@ -1498,6 +1498,7 @@
       "fm": {
         "type": "item",
         "id": "bb:item:codex-salt-shadow",
+        "parent_location": "bb:location:temple-of-sedna",
         "name": "Codex of Salt and Shadow",
         "summary": "A heavy eelhide tome of Sedna, pages rearrange when unseen. Holds abyssal liturgies, unspoken histories, and rituals tied to sea and silence.\n",
         "rarity": "legendary",
@@ -1511,7 +1512,9 @@
         "portrait": "assets/items/codex-salt-shadow.png"
       },
       "body_excerpt": "# Codex of Salt and Shadow\n\n### Physical Description\n- Bound in eelhide, slick and warm near seawater.  \n- Translucent shifting pages, ink moves unseen.  \n- Glyphs visible only submerged in saltwater.  \n- Whispers faintly; smells of brine, blood, and stone.\n\n### Contents\n1. **Liturgies of the Abyssal Silence** – Invocations of drowning and silence.  \n2. **Unspoken History** – Tale of Eshvahar, the False Flame, bound beneath Vexir.  \n3. **Sedna’s Gifts** – Amphorae of Breath, Brine Golems, Tide Key, Brine Veil.  \n4. **Vein of Stillness** – Leylines beneath sea and jungle, Stillbirth Chapel.\n\n### Magical Properties\n- Attuned bearer may cast *Control Water* or *Water Breathing* once/long rest.  \n- Ritual *Augury* reveals Sedna’s will.  \n- Weekly Silence Offering: silent meditation for vision,…",
-      "raw": {}
+      "raw": {
+        "parent_location": "bb:location:temple-of-sedna"
+      }
     },
     {
       "id": "bb:item:deep-green-supplies",
@@ -4274,14 +4277,43 @@
       }
     },
     {
-      "id": "bb:page:district-of-little-sedna",
-      "type": "page",
-      "name": "district-of-little-sedna",
-      "tags": [],
+      "id": "bb:district:little-sedna",
+      "type": "district",
+      "name": "Little Sedna",
+      "tags": [
+        "temple",
+        "ruins",
+        "lower-class",
+        "religious",
+        "tidal",
+        "ancient"
+      ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Cities\\district-of-little-sedna.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
+      "fm": {
+        "type": "district",
+        "id": "bb:district:little-sedna",
+        "name": "Little Sedna",
+        "parent_location": "bb:city:black-brine",
+        "location_type": "residential/religious",
+        "population": "~4,000 (mostly lower and middle class)",
+        "government": "Local influence held by the Temple of Sedna, loosely overseen by the Captain’s Council",
+        "maps_available": true,
+        "map_files": [
+          "LittleSedna-TempleDay.jpg"
+        ],
+        "tags": [
+          "temple",
+          "ruins",
+          "lower-class",
+          "religious",
+          "tidal",
+          "ancient"
+        ]
+      },
+      "body_excerpt": "# Little Sedna\n\n## Overview\nLittle Sedna is a quiet, brooding corner of Black Brine built atop the moss-covered bones of a civilization long drowned. The district blends ancient stone ruins with humble modern dwellings, winding between weather-worn statues and half-sunken archways. It is a place of reverence, mystery, and forgotten power.\n\n## Geography\nSet back from the Black Brine River, Little Sedna rests at a slightly higher elevation on the west side of the city. The land slopes gently toward the temple cliffs, where caves open to the sea. Narrow streets and stairways weave between old stone foundations and newer timber homes. The air is heavy with sea mist and incense.\n\n## Notable Features\n- **Temple of Sedna**: A massive, tidal cave temple used for ritual worship of the goddess of th…",
+      "raw": {
+        "parent_location": "bb:city:black-brine"
+      }
     },
     {
       "id": "bb:district:mistwalk",
@@ -5666,68 +5698,99 @@
       "raw": {}
     },
     {
-      "id": "bb:Page:goddess-sedna",
-      "type": "Page",
+      "id": "bb:diety:sedna",
+      "type": "diety",
       "name": "Goddess Sedna",
       "tags": [
-        "Island",
-        "legends",
-        "sea"
+        "diety",
+        "goddess"
       ],
-      "source": "RPG_Knowledge_Base\\01_World_Lore\\Religions\\Goddess Sedna.md",
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\Religions\\goddess-sedna.md",
       "fm": {
-        "type": "Page",
+        "type": "diety",
         "collections": "Black Brine",
         "title": "Goddess Sedna",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-02-11T04:22:35.812Z",
-        "creationDate": "2025-02-10 22:22",
-        "modificationDate": "2025-03-18 14:47",
+        "location": "bb:location:temple-of-sedna",
+        "id": "bb:diety:sedna",
+        "name": "Goddess Sedna",
+        "summary": "Master of the Miasma Fleet, feared for terror tactics, necrotic rituals, and crews twisted by the mist.",
         "tags": [
-          "Island",
-          "legends",
-          "sea"
-        ],
-        "coverImage": null
+          "diety",
+          "goddess"
+        ]
       },
-      "body_excerpt": "# Goddess Sedna\n\n[[image]]\n\nA crazed goddess of witchcraft and the dark depths. She appears as a sea hag, with fingers that end in ragged stumps. Sedna shares a domain with Prince Sashelas, and is occasionally allied with him. Sedna was once a beautiful goddess of druids who walked along the land. Her father, the wild god Malar, desired a pact with the Dark Lords of the Depths, and promised Sedna’s hand to the the Void of the Sea. When Sedna clung to his canoe to save herself from the depths, Malar bit off her fingers. In the dark depths, Sedna became the unwilling Bride of the Void, and learned many dark rituals that cannot be spoken in the light of day. Using these dark rituals, Sedna betrayed her husband, and sealed his monstrous body within his palace, behind a barrier of blood magic. …",
-      "raw": {}
+      "body_excerpt": "# Goddess Sedna\n\n\nA crazed goddess of witchcraft and the dark depths. She appears as a sea hag, with fingers that end in ragged stumps. Sedna shares a domain with Prince Sashelas, and is occasionally allied with him. Sedna was once a beautiful goddess of druids who walked along the land. Her father, the wild god Malar, desired a pact with the Dark Lords of the Depths, and promised Sedna’s hand to the the Void of the Sea. When Sedna clung to his canoe to save herself from the depths, Malar bit off her fingers. In the dark depths, Sedna became the unwilling Bride of the Void, and learned many dark rituals that cannot be spoken in the light of day. Using these dark rituals, Sedna betrayed her husband, and sealed his monstrous body within his palace, behind a barrier of blood magic. She usurpe…",
+      "raw": {
+        "location": "bb:location:temple-of-sedna"
+      }
     },
     {
-      "id": "bb:Page:sedna-lore-poem",
-      "type": "Page",
+      "id": "bb:location:sedna-lore-poem",
+      "type": "location",
       "name": "Sedna Lore Poem",
       "tags": [
-        "legends"
+        "book",
+        "sedna",
+        "lore"
       ],
-      "source": "RPG_Knowledge_Base\\01_World_Lore\\Religions\\Sedna Lore Poem.md",
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\Religions\\sedna-lore-poem.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
-        "title": "Sedna Lore Poem",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-08-22T04:23:29.959Z",
-        "creationDate": "2025-08-21 23:23",
-        "modificationDate": "2025-08-21 23:29",
+        "type": "location",
+        "name": "Sedna Lore Poem",
+        "parent_location": "bb:district:little-sedna:temple-of-sedna",
+        "summary": "A heavy eelhide tome of Sedna, pages rearrange when unseen. Holds abyssal liturgies, unspoken histories, and rituals tied to sea and silence.\n",
+        "rarity": "common",
+        "slot": "religious item",
         "tags": [
-          "legends"
-        ],
-        "coverImage": null
+          "book",
+          "sedna",
+          "lore"
+        ]
       },
       "body_excerpt": "# Sedna Lore Poem\n\n**\n\nIn the days when breath walked freely and the tides bowed to song, there came a voice not born of brine.\n\nShe rode upon winds unchained, with a laugh that bent the trees and eyes that stole worship from stone.\n\nThe people, once bent to the One Beneath, turned their faces skyward.\n\nThe drowning songs ceased. The deep altars lay dry. The temples opened to air, and incense climbed where blood once fell.\n\nThey called her the Shaper of the High Current,\n\nThe Sky-Blessed Flame,\n\nThe One Who Sings Without Chains.\n\nBut the Deep Mother does not forget. The Taker of Breath, She Who Waits Below—\n\nShe stirred in the silence left behind.\n\nIn a single tide without wave, the silence took shape. The sky was split. The earth wept salt.\n\nHer vengeance fell not in rage, but in erasure.…",
-      "raw": {}
+      "raw": {
+        "parent_location": "bb:district:little-sedna:temple-of-sedna"
+      }
     },
     {
-      "id": "bb:page:temple-of-sedna",
-      "type": "page",
+      "id": "bb:location:temple-of-sedna",
+      "type": "location",
       "name": "Temple of Sedna",
-      "tags": [],
-      "source": "RPG_Knowledge_Base\\01_World_Lore\\Religions\\Temple of Sedna.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
+      "tags": [
+        "temple",
+        "goddess",
+        "tidal",
+        "worship",
+        "mystery",
+        "ancient",
+        "flooded"
+      ],
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\Religions\\temple-of-sedna.md",
+      "fm": {
+        "type": "location",
+        "name": "Temple of Sedna",
+        "parent_location": "bb:district:little-sedna",
+        "location_type": "temple",
+        "population": "variable (dozens during rituals, fewer at high tide)",
+        "government": "Religious authority under the Priestess-in-Red",
+        "maps_available": true,
+        "map_files": [
+          "SednaInterior.jpg"
+        ],
+        "tags": [
+          "temple",
+          "goddess",
+          "tidal",
+          "worship",
+          "mystery",
+          "ancient",
+          "flooded"
+        ]
+      },
+      "body_excerpt": "# Temple of Sedna\n\n## Overview\nCarved into the salt-bitten cliffs at the edge of Little Sedna, the Temple of Sedna is both sacred site and tidal tomb. Accessible only at low tide, its cavernous interior shifts between hushed sanctuary and flooded reliquary. Worshipers gather here in silence to honor the goddess of the deep, whose presence is said to rise and fall with the sea.\n\n## Geography\nThe temple begins as a narrow fissure in the cliffside, opening into a vast oceanic cavern with natural columns and carved walkways. At high tide, the sea invades the temple, swallowing altars, pews, and pilgrims alike. At low tide, barnacle-covered stone floors are exposed, slick and shining in the dark.\n\n## Notable Features\n- **The Deep Altar**: A circular dais submerged half the day. Ritual offerings…",
+      "raw": {
+        "parent_location": "bb:district:little-sedna"
+      }
     },
     {
       "id": "bb:hub:districts",
@@ -5777,6 +5840,11 @@
       "source": "bb:pc:sy",
       "rel": "located_in",
       "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:item:codex-salt-shadow",
+      "rel": "located_in",
+      "target": "bb:location:temple-of-sedna"
     },
     {
       "source": "bb:lore:blind-chefs-almanac",
@@ -5944,6 +6012,11 @@
       "target": "bb:city:black-brine"
     },
     {
+      "source": "bb:district:little-sedna",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
       "source": "bb:district:mistwalk",
       "rel": "located_in",
       "target": "bb:city:black-brine"
@@ -6102,6 +6175,16 @@
       "source": "bb:location:whisperers-hollow",
       "rel": "located_in",
       "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:diety:sedna",
+      "rel": "located_in",
+      "target": "bb:location:temple-of-sedna"
+    },
+    {
+      "source": "bb:location:temple-of-sedna",
+      "rel": "located_in",
+      "target": "bb:district:little-sedna"
     },
     {
       "source": "bb:npc:the-noose",
@@ -6546,17 +6629,17 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:blackmire"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
       "target": "bb:district:mistwalk"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:districts",
@@ -6569,39 +6652,14 @@
       "target": "bb:district:salt-crown"
     },
     {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:little-sedna"
+    },
+    {
       "source": "bb:hub:factions",
       "rel": "organizes",
       "target": "bb:faction:inquisitors-of-black-brine"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widowmakers"
     },
     {
       "source": "bb:hub:factions",
@@ -6611,12 +6669,32 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:fleet:miasma"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:twilight-society"
+      "target": "bb:fleet:gilded-rats"
     },
     {
       "source": "bb:hub:factions",
@@ -6626,7 +6704,17 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widowmakers"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6636,7 +6724,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
+      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6651,11 +6739,6 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
       "target": "bb:campaign:dead-sons-structure"
     },
     {
@@ -6666,22 +6749,27 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
       "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 156,
-    "edges": 183
+    "edges": 188
   }
 }

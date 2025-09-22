@@ -9,6 +9,7 @@ maps_available: true
 map_files:
   - SednaInterior.jpg
 tags: [temple, goddess, tidal, worship, mystery, ancient, flooded]
+---
 
 # Temple of Sedna
 

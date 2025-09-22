@@ -2,15 +2,22 @@
 type: district
 id: bb:district:little-sedna
 name: Little Sedna
-parent_location: Black Brine
+parent_location: bb:city:black-brine
 location_type: residential/religious
 population: ~4,000 (mostly lower and middle class)
-government: Local influence held by the Temple of Sedna, loosely overseen by the Captain’s Council
+government: Local influence held by the Temple of Sedna, loosely overseen by the Captain’s
+  Council
 maps_available: true
 map_files:
-  - LittleSedna-TempleDay.jpg
-tags: [temple, ruins, lower-class, religious, tidal, ancient]
-
+- LittleSedna-TempleDay.jpg
+tags:
+- temple
+- ruins
+- lower-class
+- religious
+- tidal
+- ancient
+---
 # Little Sedna
 
 ## Overview

@@ -46,6 +46,7 @@
     "patches\\three-tooth-mavin.yml",
     "patches\\yurra-the-mireborn.yml",
     "patches\\code-of-black-brine.yml",
+    "patches\\district-of-little-sedna.yml",
     "patches\\lending-house.yml",
     "patches\\red-door-alchemy.yml",
     "patches\\ruperts-rest.yml"
@@ -751,6 +752,15 @@
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\codex-of-salt-and-shadow.md",
+      "field": "parent_location",
+      "value": "bb:location:temple-of-sedna",
+      "resolved_id": "bb:location:temple-of-sedna",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -2032,6 +2042,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\district-of-little-sedna.md",
+      "field": "parent_location",
+      "value": "Black Brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "alias",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\02_Locations\\Cities\\district-of-mistwalk.md",
       "field": "parent_location",
       "value": "bb:city:black-brine",
@@ -2432,6 +2451,33 @@
       "field": "parent_location",
       "value": "bb:district:blackmire",
       "resolved_id": "bb:district:blackmire",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Religions\\goddess-sedna.md",
+      "field": "location",
+      "value": "bb:location:temple-of-sedna",
+      "resolved_id": "bb:location:temple-of-sedna",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Religions\\sedna-lore-poem.md",
+      "field": "parent_location",
+      "value": "bb:district:little-sedna:temple-of-sedna",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Religions\\temple-of-sedna.md",
+      "field": "parent_location",
+      "value": "bb:district:little-sedna",
+      "resolved_id": "bb:district:little-sedna",
       "method": "id",
       "score": 1.0,
       "note": ""

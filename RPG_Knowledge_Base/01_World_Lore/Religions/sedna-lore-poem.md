@@ -1,14 +1,14 @@
 ---
-type: Page
-collections: Black Brine
-title: Sedna Lore Poem
-description: null
-icon: null
-createdAt: '2025-08-22T04:23:29.959Z'
-creationDate: 2025-08-21 23:23
-modificationDate: 2025-08-21 23:29
-tags: [legends]
-coverImage: null
+type: location
+name: Sedna Lore Poem
+parent_location: bb:district:little-sedna:temple-of-sedna
+summary: >
+  A heavy eelhide tome of Sedna, pages rearrange when unseen. Holds abyssal liturgies,
+  unspoken histories, and rituals tied to sea and silence.
+rarity: common
+slot: religious item
+tags: [book, sedna, lore]
+
 ---
 
 # Sedna Lore Poem
