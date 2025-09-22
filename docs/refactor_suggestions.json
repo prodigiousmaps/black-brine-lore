@@ -1,5 +1,5 @@
 {
-  "total_files": 152,
+  "total_files": 153,
   "patches": [
     "patches\\andromida.yml",
     "patches\\franklin-pierce.yml",
@@ -2498,6 +2498,15 @@
       "resolved_id": "bb:district:blackmire",
       "method": "id",
       "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Environment\\western-jungle.md",
+      "field": "parent_location",
+      "value": "bb:geography",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {

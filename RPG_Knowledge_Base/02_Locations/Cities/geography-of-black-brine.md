@@ -4,7 +4,7 @@ id: bb:lore:geography-black-brine
 name: Geography of Black Brine
 parent_location: bb:city:black-brine
 location_type: geography
-tags: [city, geography, districts, ruins, docks]
+tags: [city, geography, districts, ruins, docks, jungle]
 ---
 
 # Overview
