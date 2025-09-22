@@ -1,7 +1,7 @@
 ---
 type: location
 name: Temple of Sedna
-parent_location: Little Sedna
+parent_location: bb:district:little-sedna
 location_type: temple
 population: variable (dozens during rituals, fewer at high tide)
 government: Religious authority under the Priestess-in-Red
@@ -50,9 +50,9 @@ Silent worship, bone chants, and tide-watching define the rhythm of life here. I
 - The tide doesn’t merely flood—it listens.
 
 ## Connected Locations
-- Little Sedna cliffs and dwellings
-- Submerged tunnels that may connect to ancient ruins or out to sea
-- Hidden passage rumored to lead beneath Black Brine itself
+## Connected Locations
+- [[Little Sedna]]
+- [[Broadside Tavern]]
 
 ## Maps
 - SednaInterior.jpg (DM and player versions available)

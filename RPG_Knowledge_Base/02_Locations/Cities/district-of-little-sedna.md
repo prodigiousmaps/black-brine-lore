@@ -1,5 +1,6 @@
 ---
 type: district
+id: bb:district:little-sedna
 name: Little Sedna
 parent_location: Black Brine
 location_type: residential/religious
