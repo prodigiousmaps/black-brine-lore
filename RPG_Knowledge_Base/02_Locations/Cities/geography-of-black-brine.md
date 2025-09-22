@@ -1,7 +1,7 @@
 ---
 type: location
 id: bb:location:geography-black-brine
-name: Geography of Black Brine
+name: Geography
 parent_location: bb:city:black-brine
 location_type: geography
 tags: [city, geography, districts, ruins, docks, jungle]

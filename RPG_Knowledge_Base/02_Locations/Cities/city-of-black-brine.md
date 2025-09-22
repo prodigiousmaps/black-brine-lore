@@ -4,7 +4,7 @@ id: bb:city:black-brine
 name: Black Brine
 parent_location: bb:location:island-of-sedna
 location_type: city
-population: ~20,000 (varied, transient)
+population: ~120,000 (varied, transient)
 government: The Captain’s Council, dominated by Governor "Gun Deck" Rosy
 maps_available: true
 map_files: []

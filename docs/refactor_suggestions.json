@@ -1575,15 +1575,6 @@
     },
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\harlow-blastcap-grint.md",
-      "field": "location",
-      "value": "bb:location:powder-keg-tavern",
-      "resolved_id": "bb:location:powder-keg-tavern",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\harlow-blastcap-grint.md",
       "field": "appears_in",
       "value": "bb:location:powder-keg-tavern",
       "resolved_id": "bb:location:powder-keg-tavern",
