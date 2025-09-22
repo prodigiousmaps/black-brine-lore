@@ -3,7 +3,7 @@ type: npc
 id: bb:npc:aldo-vance
 name: Aldo Vance
 summary: Wealthy and calculating owner of the Golden Gull; thrives on politics, secrecy, and profit.
-location: bb:location:golden-gull
+parent_location: bb:location:golden-gull
 factions: []
 allies: []
 rivals:

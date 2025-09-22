@@ -2704,7 +2704,7 @@
         "id": "bb:npc:aldo-vance",
         "name": "Aldo Vance",
         "summary": "Wealthy and calculating owner of the Golden Gull; thrives on politics, secrecy, and profit.",
-        "location": "bb:location:golden-gull",
+        "parent_location": "bb:location:golden-gull",
         "factions": [],
         "allies": [],
         "rivals": [
@@ -2724,7 +2724,7 @@
       },
       "body_excerpt": "# Description\nAldo Vance is a shrewd businessman and consummate manipulator, hiding his ruthlessness behind polished manners. He dresses in fine silks, wears gold rings from every profitable deal, and never enters a room without calculating the advantage. Aldo treats the Golden Gull as both a tavern and a political stage where debts, favors, and secrets are traded more freely than rum.\n\n# Personality\n- Ambitious, meticulous, and always outwardly polite.  \n- Keeps a ledger of every debt owed to him.  \n- Views friendships as investments, loyalty as leverage.  \n- Disdains the chaos of the Powder Keg, calling Blastcap a brute.  \n\n# Secrets (DM Only)\n- Uses assassins to eliminate rivals quietly.  \n- Holds compromising ledgers on multiple captains.  \n- Once arranged the “Lost Shipment Incident” …",
       "raw": {
-        "location": "bb:location:golden-gull",
+        "parent_location": "bb:location:golden-gull",
         "factions": [],
         "allies": [],
         "rivals": [
@@ -3324,7 +3324,7 @@
         "id": "bb:npc:harlow-blastcap-grint",
         "name": "Harlow “Blastcap” Grint",
         "summary": "Dwarven ex-gunner turned barkeep; ends fights with smoke bombs and stronger booze.",
-        "parent-location": "bb:location:powder-keg-tavern",
+        "parent_location": "bb:location:powder-keg-tavern",
         "factions": [],
         "allies": [],
         "rivals": [],
@@ -3340,6 +3340,7 @@
       },
       "body_excerpt": "",
       "raw": {
+        "parent_location": "bb:location:powder-keg-tavern",
         "factions": [],
         "allies": [],
         "rivals": [],
@@ -6835,17 +6836,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:blackmire"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:salt-crown"
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
@@ -6855,7 +6846,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:districts",
@@ -6863,19 +6854,14 @@
       "target": "bb:district:little-sedna"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
+      "target": "bb:district:mistwalk"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widowmakers"
+      "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:hub:factions",
@@ -6885,27 +6871,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:twilight-society"
+      "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:factions",
@@ -6915,7 +6881,27 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:inquisitors-of-black-brine"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widowmakers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:factions",
@@ -6923,14 +6909,34 @@
       "target": "bb:fleet:miasma"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-memory-palace"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6945,27 +6951,22 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
+      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
       "source": "bb:hub:campaigns",

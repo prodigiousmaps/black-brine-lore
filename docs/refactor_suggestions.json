@@ -1269,7 +1269,7 @@
     },
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\aldo-vance.md",
-      "field": "location",
+      "field": "parent_location",
       "value": "bb:location:golden-gull",
       "resolved_id": "bb:location:golden-gull",
       "method": "id",
@@ -1571,6 +1571,15 @@
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\harlow-blastcap-grint.md",
+      "field": "parent_location",
+      "value": "bb:location:powder-keg-tavern",
+      "resolved_id": "bb:location:powder-keg-tavern",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
