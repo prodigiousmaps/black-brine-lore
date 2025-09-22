@@ -1,6 +1,6 @@
 ---
-type: lore
-id: bb:lore:geography-black-brine
+type: location
+id: bb:location:geography-black-brine
 name: Geography of Black Brine
 parent_location: bb:city:black-brine
 location_type: geography
