@@ -19,7 +19,7 @@ allies:
 - bb:npc:rupert-richthorn
 - bb:pc:franklin-pierce
 - bb:pc:sy
-portrait: assets/portraits/andromeda.png
+portrait: assets/portraits/andromida.png
 appearance:
   build: Slender and athletic
   hair: Flowing white, worn loose or in a braid

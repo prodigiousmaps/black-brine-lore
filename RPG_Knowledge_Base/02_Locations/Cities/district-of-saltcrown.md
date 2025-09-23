@@ -4,7 +4,7 @@ id: bb:district:salt-crown
 name: Salt Crown
 parent_location: bb:city:black-brine
 location_type: district
-population: ~3,000
+population: ~12,000
 government: Controlled by pirate gangs and smugglers, nominal oversight from the Captain’s Council
 maps_available: true
 map_files:
