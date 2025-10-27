@@ -10,7 +10,8 @@ background: Noble Outcast
 alignment: Chaotic Neutral
 pronouns: she/her
 status: Former crew member, suing the crew for back wages
-location: Mainland, city of Mezzro
+parent_location: bb:hub:players
+location: bb:city:black-brine
 tags: [druid, former-ally, litigation, estranged, noble, aberration-hunter]
 appears_in:
 - bb:location:ruperts-rest

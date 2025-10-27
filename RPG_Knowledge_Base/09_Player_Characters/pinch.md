@@ -10,8 +10,8 @@ classes:
 - Wizard (Illusionist)
 background: Scholar
 alignment: Neutral
-level: TBD
-location: bb:hub:players
+parent_location: bb:hub:players
+location: bb:city:black-brine
 appears_in:
 - bb:location:ruperts-rest
 - bb:story:rogue-wave

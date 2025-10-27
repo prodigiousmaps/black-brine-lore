@@ -10,6 +10,7 @@ classes:
 - Bard (College of Swords)
 background: Charlatan
 alignment: Chaotic Neutral
+parent_location: bb:hub:players
 location: bb:city:black-brine
 appears_in:
 - bb:location:ruperts-rest

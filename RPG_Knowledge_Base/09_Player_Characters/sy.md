@@ -12,6 +12,7 @@ pact: Pact of the Blade
 background: Smuggler
 alignment: Neutral
 level: TBD
+parent_location: bb:hub:players
 location: bb:city:black-brine
 appears_in:
 - bb:location:ruperts-rest
