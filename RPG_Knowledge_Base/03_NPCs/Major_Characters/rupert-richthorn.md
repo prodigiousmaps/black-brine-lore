@@ -3,7 +3,8 @@ type: npc
 id: bb:npc:rupert-richthorn
 name: Rupert Richthorn
 summary: Exiled archwizard known as "The Kraken," feared for his cunning, dangerous magic, and mysterious presence in Black Brine.
-location: bb:city:black-brine
+location: bb:location:ruperts-rest
+parent-location: bb:location:ruperts-rest
 factions: []
 allies: []
 rivals:

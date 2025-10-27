@@ -1,6 +1,6 @@
 ---
 type: campaign
-id: bb:campaign:fallen-city-memory-palace
+id: bb:campaign:fallen-city:fallen-city-memory-palace
 name: Fallen City – Rupert Richthorn Memory Palace
 summary: Details of Rupert’s captivity and astral projection imprisonment in the Fallen City campaign.
 tags: [campaign, fallen-city, rupert, memory-palace]

@@ -1,6 +1,6 @@
 ---
 type: campaign
-id: bb:campaign:fallen-city-structure
+id: bb:campaign:fallen-city:fallen-city-structure
 name: Fallen City Campaign Structure
 summary: Structured acts, subplots, and narrative outline of the Fallen City campaign.
 tags: [campaign, fallen-city, structure]
