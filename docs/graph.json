@@ -1525,6 +1525,7 @@
       "fm": {
         "type": "lore",
         "id": "bb:lore:challenge-coins",
+        "parent_location": "bb:hub:items",
         "name": "Black Brine Challenge Coins",
         "summary": "Magical safeguards placed on pirate captains’ coins of Black Brine. Details sigils, tracking, security rituals, and campaign uses.\n",
         "tags": [
@@ -1536,7 +1537,9 @@
         "portrait": "assets/items/challenge-coin.png"
       },
       "body_excerpt": "# Challenge Coins of Black Brine\n\n### Magical Safeguards\n1. **Magical Signature** – Bound to captain’s blood or soul; cannot be forged.  \n2. **Tracking** – Ritual possible with connection item; imprecise but reveals region.  \n3. **Challenge Response** – Requires phrase or gesture; misuse exposes impostors.\n\n### Enemy Implications\n- Corsair-worshipers cannot easily forge.  \n- Coins risky to use openly.  \n- Suppression rituals possible but traceable.\n\n### Rupert’s Role\nRupert can accelerate rituals, break suppression, and leverage the crew.\n\n### Campaign Arc\n- **Sessions 1–2**: Missing coin discovered.  \n- **3–4**: Enemy begins testing; tracking ritual contested.  \n- **5+**: Confrontation, decision on coin’s fate.\n\n### Twists\n- Rival factions may hunt coin.  \n- Enemy might discard coin for a…",
-      "raw": {}
+      "raw": {
+        "parent_location": "bb:hub:items"
+      }
     },
     {
       "id": "bb:item:codex-salt-shadow",
@@ -1584,7 +1587,7 @@
       "fm": {
         "type": "item",
         "id": "bb:item:deep-green-supplies",
-        "parent_location": "bb:pc:pinch",
+        "parent_location": "bb:story:rogue-wave",
         "name": "Deep Green Supplies",
         "summary": "A merchant of exotic poisons, toxins, and alchemical reagents within Black Brine’s warrens.",
         "tags": [
@@ -1599,7 +1602,7 @@
       },
       "body_excerpt": "# Deep Green Supplies\n\n### Overview\nThe “Deep Green” is a clandestine supplier of dangerous herbs and brews. It operates in shadow markets of Black Brine.\n\n### Goods\n- **Widow’s Fang** – slow-acting poison.  \n- **Nightroot Oil** – induces hallucinations.  \n- **Bile Ink** – doubles as toxin & tattoo dye.  \n- **Glass Serpent Venom** – paralyzing agent.  \n- **Glowcap Resin** – hallucinogenic incense.  \n\n### Notable Features\n- Hidden cellar storefront.  \n- Green lantern identifies entrance.  \n- Customers must provide code phrase.",
       "raw": {
-        "parent_location": "bb:pc:pinch",
+        "parent_location": "bb:story:rogue-wave",
         "appears_in": [
           "bb:story:encounter-2-deep-green"
         ]
@@ -6055,7 +6058,7 @@
     {
       "source": "bb:item:deep-green-supplies",
       "rel": "located_in",
-      "target": "bb:pc:pinch"
+      "target": "bb:story:rogue-wave"
     },
     {
       "source": "bb:lore:final-verse",
@@ -6870,22 +6873,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:salt-crown"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:blackmire"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:little-sedna"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:hub:districts",
@@ -6895,37 +6883,22 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
+      "target": "bb:district:salt-crown"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:little-sedna"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
       "target": "bb:district:keelhauls"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:hub:factions",
@@ -6935,12 +6908,37 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
     },
     {
       "source": "bb:hub:factions",
@@ -6950,27 +6948,47 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:twilight-society"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:gutterlings"
+      "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
+      "target": "bb:campaign:dead-sons-narrative"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6985,42 +7003,42 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
       "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:fallen-city-memory-palace"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
+      "target": "bb:campaign:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
       "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:players",
@@ -7035,42 +7053,42 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
       "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:players",
       "rel": "organizes",
       "target": "bb:campaign:fallen-city-memory-palace"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
+      "target": "bb:campaign:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
       "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:items",
@@ -7085,27 +7103,12 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
+      "target": "bb:campaign:fallen-city-memory-palace"
     }
   ],
   "unresolved": [],
