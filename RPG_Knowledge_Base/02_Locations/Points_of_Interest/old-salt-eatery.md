@@ -1,7 +1,8 @@
 ---
 type: location
 name: Old Salt Eatery
-parent_location: Blackmire
+id: bb:location:gentle-rest-inn
+parent_location: bb:district:salt-crown
 location_type: tavern
 population: variable
 government: private ownership
