@@ -794,6 +794,49 @@
       }
     },
     {
+      "id": "bb:creature:potoo",
+      "type": "customs",
+      "name": "Potoo",
+      "tags": [
+        "cryptid",
+        "nocturnal",
+        "urban-legend",
+        "black-brine",
+        "horror"
+      ],
+      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\potoo.md",
+      "fm": {
+        "type": "customs",
+        "id": "bb:creature:potoo",
+        "parent-location": "bb:hub:customs",
+        "name": "Potoo",
+        "aliases": [
+          "Watcher in the Fog",
+          "Lantern-Eyes",
+          "Moon Perch"
+        ],
+        "creature_type": "Aberration",
+        "origin": "Black Brine",
+        "tags": [
+          "cryptid",
+          "nocturnal",
+          "urban-legend",
+          "black-brine",
+          "horror"
+        ],
+        "image": {
+          "file": "assets/creatures/potoo.png",
+          "alt_text": "A dark, eerie humanoid creature with moth-like wings crouches on a peaked rooftop under a full moon, glowing eyes staring down at the misty city below."
+        },
+        "description": "The Potoo is a silent watcher that haunts the rooftops of Black Brine, seen only under the pale light of the full moon. With wings like translucent moths and unblinking lantern eyes, it perches above the streets, motionless for hours. When it moves, it does so in silence—one blink and it is elsewhere. Some say it is a manifestation of guilt, a spirit born from the city's hidden crimes. Others claim it feeds on fear itself.\n\nThose who have locked eyes with the Potoo speak of dreams filled with suffocating mist and distant chittering. Entire crews have vanished after reporting its presence. No one has ever seen it take flight, yet it is always found somewhere higher the next night.\n",
+        "habitat": "The rooftops and steeples of Black Brine, especially in the districts of Salt Crown and Crosswater.",
+        "behavior": "- Crouches silently on high perches for hours or days.\n- Appears only at night, usually under heavy fog or moonlight.\n- Follows individuals marked by guilt or obsession.\n- Vanishes when directly approached, leaving behind a faint hum.\n",
+        "rumors": "- Some say the Potoo whispers to the dying, guiding their souls into the black tide.\n- Others claim it was once human—an Inquisitor who looked too long into forbidden truths.\n- Children are told that if they stare too long into the mists, the Potoo will stare back."
+      },
+      "body_excerpt": "",
+      "raw": {}
+    },
+    {
       "id": "bb:beast:ravething",
       "type": "monster",
       "name": "Ravething",
@@ -825,48 +868,6 @@
           "bb:story:skull-garden-black-river"
         ]
       }
-    },
-    {
-      "id": "bb:creature:potoo",
-      "type": "creature",
-      "name": "The Potoo",
-      "tags": [
-        "cryptid",
-        "nocturnal",
-        "urban-legend",
-        "black-brine",
-        "horror"
-      ],
-      "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\red-potoo.md",
-      "fm": {
-        "type": "creature",
-        "id": "bb:creature:potoo",
-        "name": "The Potoo",
-        "aliases": [
-          "Watcher in the Fog",
-          "Lantern-Eyes",
-          "Moon Perch"
-        ],
-        "creature_type": "Aberration",
-        "origin": "Black Brine",
-        "tags": [
-          "cryptid",
-          "nocturnal",
-          "urban-legend",
-          "black-brine",
-          "horror"
-        ],
-        "image": {
-          "file": "assets/creatures/potoo.png",
-          "alt_text": "A dark, eerie humanoid creature with moth-like wings crouches on a peaked rooftop under a full moon, glowing eyes staring down at the misty city below."
-        },
-        "description": "The Potoo is a silent watcher that haunts the rooftops of Black Brine, seen only under the pale light of the full moon. With wings like translucent moths and unblinking lantern eyes, it perches above the streets, motionless for hours. When it moves, it does so in silence—one blink and it is elsewhere. Some say it is a manifestation of guilt, a spirit born from the city's hidden crimes. Others claim it feeds on fear itself.\n\nThose who have locked eyes with the Potoo speak of dreams filled with suffocating mist and distant chittering. Entire crews have vanished after reporting its presence. No one has ever seen it take flight, yet it is always found somewhere higher the next night.\n",
-        "habitat": "The rooftops and steeples of Black Brine, especially in the districts of Salt Crown and Crosswater.",
-        "behavior": "- Crouches silently on high perches for hours or days.\n- Appears only at night, usually under heavy fog or moonlight.\n- Follows individuals marked by guilt or obsession.\n- Vanishes when directly approached, leaving behind a faint hum.\n",
-        "rumors": "- Some say the Potoo whispers to the dying, guiding their souls into the black tide.\n- Others claim it was once human—an Inquisitor who looked too long into forbidden truths.\n- Children are told that if they stare too long into the mists, the Potoo will stare back."
-      },
-      "body_excerpt": "",
-      "raw": {}
     },
     {
       "id": "bb:monster:twig-blight-jungle-variant",
@@ -6089,8 +6090,8 @@
       }
     },
     {
-      "id": "bb:game:crows-chance",
-      "type": "game",
+      "id": "bb:customs:crows-chance",
+      "type": "customs",
       "name": "Crow’s Chance",
       "tags": [
         "game",
@@ -6100,8 +6101,10 @@
       ],
       "source": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\crows-chance.md",
       "fm": {
-        "type": "game",
+        "type": "customs",
+        "id": "bb:customs:crows-chance",
         "name": "Crow’s Chance",
+        "parent-location": "bb:hub:customs",
         "origin": "Black Brine",
         "tags": [
           "game",
@@ -6369,6 +6372,14 @@
       "name": "Districts",
       "center": false,
       "ring_index": 0,
+      "source": null
+    },
+    {
+      "id": "bb:hub:customs",
+      "type": "hub",
+      "name": "Customs",
+      "center": false,
+      "ring_index": 1,
       "source": null
     },
     {
@@ -7321,17 +7332,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:salt-crown"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:districts",
@@ -7341,7 +7347,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:blackmire"
+      "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:hub:districts",
@@ -7349,9 +7355,19 @@
       "target": "bb:district:mistwalk"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
+      "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:hub:customs",
+      "rel": "organizes",
+      "target": "bb:creature:potoo"
+    },
+    {
+      "source": "bb:hub:customs",
+      "rel": "organizes",
+      "target": "bb:customs:crows-chance"
     },
     {
       "source": "bb:hub:factions",
@@ -7361,17 +7377,42 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:widow-makers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:fishermens-union"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:twilight-society"
+      "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
+      "target": "bb:faction:gutterlings"
     },
     {
       "source": "bb:hub:factions",
@@ -7386,52 +7427,17 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:council-of-free-captains"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+      "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7446,7 +7452,22 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7456,27 +7477,17 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
       "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-structure"
+      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:pc:pinch"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
-      "target": "bb:pc:andromeda"
+      "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
       "source": "bb:hub:players",
@@ -7486,12 +7497,17 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
+      "target": "bb:pc:pinch"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
       "target": "bb:pc:sy"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:item:codex-salt-shadow"
+      "target": "bb:pc:andromeda"
     },
     {
       "source": "bb:hub:items",
@@ -7506,47 +7522,12 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
+      "target": "bb:item:codex-salt-shadow"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
       "target": "bb:item:ruperts-welcome-speech"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival-training"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-passive-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7556,7 +7537,12 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
+      "target": "bb:house-rules:firearms-training-mechanics"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-environmental-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7566,17 +7552,52 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:stealth-preparation"
+      "target": "bb:house-rules:jungle-weather-events"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
+      "target": "bb:house-rules:phased-threat-escalation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival-training"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-event-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-passive-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:stealth-preparation"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 158,
-    "edges": 232
+    "nodes": 159,
+    "edges": 234
   }
 }
