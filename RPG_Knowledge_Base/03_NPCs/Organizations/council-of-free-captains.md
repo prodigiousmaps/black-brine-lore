@@ -1,5 +1,5 @@
 ---
-type: organization
+type: faction
 name: Council of Free Captains
 location: Black Brine - various districts, primarily Salt Crown and Crosswater taverns
 tags: [pirates, politics, factions, captains, independents]

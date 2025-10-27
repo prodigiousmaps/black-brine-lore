@@ -1,5 +1,5 @@
 ---
-type: organization
+type: faction
 name: Fisherman's Union of Black Brine
 factions:
   - name: East Bank Union
