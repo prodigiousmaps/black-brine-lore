@@ -23,5 +23,4 @@ rumors: |
   - Some say the Potoo whispers to the dying, guiding their souls into the black tide.
   - Others claim it was once human—an Inquisitor who looked too long into forbidden truths.
   - Children are told that if they stare too long into the mists, the Potoo will stare back.
-
 ---
