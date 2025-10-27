@@ -29,6 +29,7 @@
     "patches\\cutty.yml",
     "patches\\father-karr.yml",
     "patches\\fenrith.yml",
+    "patches\\harlow-blastcap-grint.yml",
     "patches\\high-numerator-fex.yml",
     "patches\\inquisitor-denara-gilt.yml",
     "patches\\inquisitor-iria-boardcutter.yml",
@@ -1624,6 +1625,15 @@
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\harlow-blastcap-grint.md",
+      "field": "appears_in",
+      "value": "bb:location:powder-keg-tavern",
+      "resolved_id": "bb:location:powder-keg-tavern",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
