@@ -1,8 +1,9 @@
 ---
-type: rules
-id: bb:rules:jungle-event-threat-level
+type: house-rules
+id: bb:house-rules:jungle-event-threat-level
 name: Event Threat Level
-parent_location: bb:location:forbidden-west-sedna
+collection: The Deep Green
+parent_location: bb:hub:house-rules
 tags: [rules, jungle, stealth, encounters]
 ---
 

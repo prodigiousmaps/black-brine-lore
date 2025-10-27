@@ -1,8 +1,9 @@
 ---
 type: house-rules
-id: bb:page:phased-threat-escalation
+id: bb:house-rules:phased-threat-escalation
+parent_location: bb:hub:house-rules
 collection: The Deep Green
-title: "PHASED THREAT ESCALATION – The Road to the Hollow Song"
+title: "Phased Threat Escalation"
 description: >
   A phased threat-progression framework for The Deep Green campaign arc.
   Each phase represents an escalation of danger, corruption, and environmental influence

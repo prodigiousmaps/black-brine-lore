@@ -1,8 +1,9 @@
 ---
-type: rules
-id: bb:rules:jungle-weather-events
+type: house-rules
+id: bb:house-rules:jungle-weather-events
+collection: The Deep Green
 name: Weather Events of Sedna’s Jungle
-parent_location: bb:location:forbidden-west-sedna
+parent_location: bb:hub:house-rules
 tags: [rules, jungle, weather, travel, encounters]
 ---
 

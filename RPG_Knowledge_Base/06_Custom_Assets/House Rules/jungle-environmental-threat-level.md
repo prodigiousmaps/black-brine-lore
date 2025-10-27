@@ -1,8 +1,9 @@
 ---
-type: rules
-id: bb:rules:jungle-environmental-threat-level
+type: house-rules
+id: bb:house-rules:jungle-environmental-threat-level
 name: Environmental Threat Level
-parent_location: bb:location:forbidden-west-sedna
+collection: The Deep Green
+parent_location: bb:hub:house-rules
 tags: [rules, jungle, stealth, threat]
 ---
 

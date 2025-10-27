@@ -1,8 +1,9 @@
 ---
-type: rules
-id: bb:rules:jungle-passive-threat-level
+type: house-rules
+id: bb:house-rules:jungle-passive-threat-level
 name: Passive Threat Level
-parent_location: bb:location:forbidden-west-sedna
+collection: The Deep Green
+parent_location: bb:hub:house-rules
 tags: [rules, jungle, stealth, threat]
 ---
 

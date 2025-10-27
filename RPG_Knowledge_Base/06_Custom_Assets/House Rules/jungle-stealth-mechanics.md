@@ -1,8 +1,9 @@
 ---
-type: rules
-id: bb:rules:jungle-stealth
+type: house-rules
+id: bb:house-rules:jungle-stealth
 name: Jungle Stealth & Threat Checks
-parent_location: bb:location:forbidden-west-sedna
+collection: The Deep Green
+parent_location: bb:hub:house-rules
 tags: [rules, jungle, stealth, threat, strange-bones]
 related_npc:
   - bb:npc:strange-bones

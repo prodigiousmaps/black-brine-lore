@@ -1,8 +1,9 @@
 ---
-type: rules
-id: bb:rules:jungle-survival-training
+type: house-rules
+id: bb:house-rules:jungle-survival-training
+collection: The Deep Green
 name: Jungle Survival Training (Strange Bones)
-parent_location: bb:location:forbidden-west-sedna
+parent_location: bb:hub:house-rules
 tags: [rules, jungle, training, survival]
 related_npc:
   - bb:npc:strange-bones

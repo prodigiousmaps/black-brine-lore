@@ -1,8 +1,9 @@
 ---
-type: rules
-id: bb:rules:jungle-travel-phases
+type: house-rules
+id: bb:house-rules:jungle-travel-phases
 name: Jungle Travel Phases
-parent_location: bb:location:forbidden-west-sedna
+collection: The Deep Green
+parent_location: bb:hub:house-rules
 tags: [rules, jungle, travel, encounter]
 ---
 

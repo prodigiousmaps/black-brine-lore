@@ -1,8 +1,9 @@
 ---
-type: rules
-id: bb:rules:jungle-navigation-events
+type: house-rules
+id: bb:house-rules:jungle-navigation-events
 name: Navigation Events
-parent_location: bb:location:forbidden-west-sedna
+collection: The Deep Green
+parent_location: bb:hub:house-rules
 tags: [rules, jungle, navigation, encounters]
 ---
 

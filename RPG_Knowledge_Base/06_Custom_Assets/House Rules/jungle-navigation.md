@@ -1,8 +1,9 @@
 ---
-type: rules
-id: bb:rules:jungle-navigation
+type: house-rules
+id: bb:house-rules:jungle-navigation
 name: Navigating the Mists of Sedna
-parent_location: bb:location:forbidden-west-sedna
+collection: The Deep Green
+parent_location: bb:hub:house-rules
 tags: [rules, jungle, navigation, travel, sedna]
 ---
 

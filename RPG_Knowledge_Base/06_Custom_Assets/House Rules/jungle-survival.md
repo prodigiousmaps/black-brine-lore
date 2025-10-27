@@ -1,8 +1,9 @@
 ---
-type: rules
-id: bb:rules:jungle-survival
+type: house-rules
+id: bb:house-rules:jungle-survival
 name: Jungle Survival & Madness
-parent_location: bb:location:forbidden-west-sedna
+collection: The Deep Green
+parent_location: bb:hub:house-rules
 tags: [rules, jungle, survival, madness, sedna, fog]
 ---
 

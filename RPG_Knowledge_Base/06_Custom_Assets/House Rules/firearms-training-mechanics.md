@@ -1,189 +1,137 @@
 ---
-type: Page
-collections: Black Brine
-title: Firearms Training Mechanics
-description: null
+type: house-rules
+id: bb:house-rules:firearms-training-mechanics
+collection: Black Brine
+collection: The Deep Green
+parent_location: bb:hub:house-rules
+title: "Firearms Training Mechanics"
+description: >
+  Fenrith’s brutal firearms training mini-game, “The Black Powder Crucible,”
+  turns reckless shooters into disciplined gunners through a three-phase series
+  of skill challenges that test speed, precision, and composure under fire.
 icon: null
-createdAt: '2025-03-18T20:28:08.390Z'
-creationDate: 2025-03-18 15:28
-modificationDate: 2025-03-18 15:37
-tags: [GameMechanics, Encounter]
+tags: [GameMechanics, Encounter, Firearms, Training, MiniGame]
 coverImage: null
+
+overview: >
+  Fenrith doesn’t train amateurs—he breaks them down and rebuilds them into disciplined gunners.
+  His regimen focuses on speed, precision, and unflinching nerve under live-fire conditions.
+  The training sequence consists of three escalating phases, followed by a final integrated test.
+
+phases:
+  - phase: 1
+    name: "Loading Under Fire (Speed & Stress)"
+    goal: >
+      Successfully load and fire a musket or flintlock pistol before an advancing enemy reaches you.
+    mechanics:
+      - "Firearms have a loading time requiring a Dexterity (Sleight of Hand) check."
+      - "The enemy advances each round while the shooter attempts to reload before melee range."
+    loading_difficulty_table:
+      - weapon: Musket
+        loading_dc: 14
+        rounds: 2
+        modifiers:
+          - "-1 DC if using pre-measured powder."
+      - weapon: Pistol
+        loading_dc: 12
+        rounds: 1
+        modifiers:
+          - "+2 DC if under duress (enemy within 10 feet)."
+    process:
+      - "Each round, roll Dexterity (Sleight of Hand) to reload."
+      - "Failure: The enemy closes distance; retry next round."
+      - "Success: Weapon is loaded; shooter can fire next turn."
+    failure_consequences:
+      - "If enemy reaches melee before firing, shooter must either:"
+      - "• Strength Check (DC 15) to push them back."
+      - "• Draw a melee weapon (losing next turn)."
+      - "• Attempt risky point-blank shot (disadvantage)."
+    trainee_perks:
+      - "+2 on loading rolls under pressure."
+      - "Advantage when using pre-measured powder charges."
+
+  - phase: 2
+    name: "The Iron Eye (Marksmanship & Control)"
+    goal: >
+      Hit three moving targets at different distances before time runs out.
+    mechanics:
+      - "Shooters make attack rolls against three targets at varying distances."
+      - "Each target has an AC based on distance and movement."
+      - "Shooter may choose between careful aiming (bonus to hit) or quick firing (reload speed)."
+    marksmanship_table:
+      - target_type: Stationary (Dummy)
+        distance: 30 ft
+        ac_musket: 10
+        ac_pistol: 12
+        modifiers:
+          - "+2 if aiming carefully (skip next round)."
+      - target_type: Walking (Slow Moving)
+        distance: 50 ft
+        ac_musket: 12
+        ac_pistol: 15
+        modifiers:
+          - "-2 if firing quickly."
+      - target_type: Running (Dashing Target)
+        distance: 70 ft
+        ac_musket: 15
+        ac_pistol: 18
+        modifiers:
+          - "-5 unless spending a full round aiming."
+    process:
+      - "Shooter picks a target and fires."
+      - "Roll attack using Dexterity + Proficiency with firearms."
+      - "On hit: advance to next target."
+      - "On miss: choose to re-aim (lose a round, +3 bonus) or fire immediately (no bonus)."
+    trainee_perks:
+      - "+1 to ranged attacks with firearms."
+      - "Advantage on one firearm attack per long rest."
+
+  - phase: 3
+    name: "Firearms Are Liars (Misfires & Malfunctions)"
+    goal: >
+      Learn to manage gun malfunctions without panicking.
+    mechanics:
+      - "Each shot has a chance to misfire, especially in poor conditions or under stress."
+      - "On misfire, the shooter must fix the weapon before firing again."
+    misfire_table:
+      - weapon: Musket
+        misfire_on: [1, 2]
+        fix: "Action: DC 15 Tinker’s Tools or Strength check."
+      - weapon: Pistol
+        misfire_on: [1]
+        fix: "Bonus Action: DC 12 Tinker’s Tools or Strength check."
+    process:
+      - "On a natural 1 (or 2 for muskets), the weapon misfires."
+      - "Roll Dexterity (Tinker’s Tools) or Strength to clear jam."
+      - "Failure: weapon remains jammed until next turn."
+      - "Critical failure: firearm disabled for remainder of fight."
+    weather_modifiers:
+      - "Heavy Rain: misfires on 1–3 instead of 1–2."
+      - "Humid Jungle Conditions: misfires on 1–4 unless powder properly stored."
+    trainee_perks:
+      - "+1 to checks for clearing misfires."
+      - "Once per day, may automatically clear a misfire as a free action."
+
+final_test:
+  name: "The Gauntlet (Combined Trial)"
+  goal: >
+    Fire three shots at moving targets while under fire, avoiding misfires and completing the drill
+    before the enemy reaches the trainee.
+  sequence:
+    - "Roll to load → success allows firing; failure lets enemy advance."
+    - "Roll to hit → choose careful or fast shooting."
+    - "Roll for misfire → fix or adapt."
+  scoring:
+    perfect: "3/3 hits, no misfires, never reached by enemy."
+    good: "2/3 hits, minimal issues."
+    mediocre: "1/3 hit or forced into melee."
+    failure: "No hits, jammed gun, or tackled before firing."
+  trainee_perks:
+    - "Fenrith’s Drills: once per long rest, reload instantly (no roll required)."
+    - "Nerves of Steel: on misfire, may still take another action."
+
+flavor_text: >
+  “Firearms ain't for the weak-hearted. The musket don’t care if you’re scared.
+  The pistol don’t care if you’re slow. You get one shot—make it count. Or someone else will.”
+  — Fenrith
 ---
-
-# Firearms Training Mechanics
-
-### **Fenrith’s Firearms Training Mini-Game: "The Black Powder Crucible"**
-
-Fenrith doesn’t train amateurs—he **breaks them down and rebuilds them** into **disciplined gunners**. His training is **grueling**, focusing on **speed, precision, and nerves of steel** in high-pressure combat.
-
-The mini-game has **three phases** to simulate real firearms use:
-
-1. **Loading Under Fire (Speed & Stress)**
-
-2. **Marksmanship (Accuracy & Control)**
-
-3. **Misfires & Malfunctions (Risk Management)**
-
-Each phase uses **checks, modifiers, and risks** to make every shot feel **deliberate and dangerous**.
-
----
-
-## **Phase 1: "Loading Under Fire" (Speed & Stress)**
-
-🔥 **Goal:** Successfully **load and fire** a musket or flintlock pistol **before an advancing enemy reaches you.**
-
-**Game Mechanic:**
-
-- Firearms have a **Loading Time**, requiring a Dexterity (or Sleight of Hand) check.
-
-- The **enemy advances every round** while the shooter tries to reload **before they are within melee range**.
-
-### **Loading Difficulty Table**
-
-| **Weapon** | **Loading DC (Base)** | **Modifiers**                                |
-| :--------- | :-------------------- | :------------------------------------------- |
-| **Musket** | DC 14 (2 rounds)      | -1 DC if using pre-measured powder           |
-| **Pistol** | DC 12 (1 round)       | +2 DC if under duress (enemy within 10 feet) |
-
-### **How It Works:**
-
-1. **Each round, the shooter rolls a Dexterity (Sleight of Hand) check** to **reload the weapon.**
-
-2. **Failure:** The enemy **closes the distance**, and the shooter must reload again **next round**.
-
-3. **Success:** The weapon is loaded, and the shooter **can fire next turn**.
-
-💀 **If the enemy reaches melee before they fire, they must either:**
-
-- **Make a Strength Check (DC 15) to push them back.**
-
-- **Draw a melee weapon (losing their next turn).**
-
-- **Attempt a risky point-blank shot (disadvantage).**
-
-🛠 **Trainee Perks:** After training with Fenrith, shooters gain:
-
-✅ **+2 on loading rolls under pressure.**
-
-✅ **Advantage when using pre-measured powder charges.**
-
----
-
-## **Phase 2: "The Iron Eye" (Marksmanship & Control)**
-
-🔥 **Goal:** Hit **three moving targets** at different distances **before time runs out.**
-
-**Game Mechanic:**
-
-- Shooters must roll **attack rolls** against three targets at varying distances.
-
-- Each target has a **unique AC** depending on **distance and movement.**
-
-- The shooter **must choose** whether to spend extra time aiming (**bonus to hit**) or fire quickly (**risk a miss, but reload faster**).
-
-### **Marksmanship Table**
-
-| **Target Type**              | **Distance** | **AC (Musket)** | **AC (Pistol)** | **Modifiers**                            |
-| :--------------------------- | :----------- | :-------------- | :-------------- | :--------------------------------------- |
-| **Stationary (Dummy)**       | 30 ft        | 10              | 12              | +2 if aiming carefully (skip next round) |
-| **Walking (Slow Moving)**    | 50 ft        | 12              | 15              | -2 if firing quickly                     |
-| **Running (Dashing Target)** | 70 ft        | 15              | 18              | -5 unless spending a full round aiming   |
-
-### **How It Works:**
-
-1. **Shooter picks a target and fires.**
-
-2. **They roll an attack using Dexterity + Proficiency** with firearms.
-
-3. **If they hit, they move to the next target**.
-
-4. **If they miss, they must choose:**
-
-    - **Spend extra time re-aiming** (losing a round but getting a +3 bonus).
-
-    - **Take the next shot immediately** (no bonus, but stay on schedule).
-
-🛠 **Trainee Perks:** After training with Fenrith, shooters gain:
-
-✅ **+1 to ranged attacks with firearms.**
-
-✅ **Advantage on one attack per long rest (representing refined accuracy).**
-
----
-
-## **Phase 3: "Firearms Are Liars" (Misfires & Malfunctions)**
-
-🔥 **Goal:** Learn to **manage gun malfunctions** without panicking.
-
-**Game Mechanic:**
-
-- Each shot has a **chance to misfire**, especially in **bad weather or under stress.**
-
-- If a misfire occurs, the shooter must **fix the weapon before they can fire again.**
-
-### **Misfire Table**
-
-| **Weapon** | **Misfire on** | **Fixing the Issue**                            |
-| :--------- | :------------- | :---------------------------------------------- |
-| **Musket** | Natural 1 or 2 | Action: DC 15 Tinker’s Tools or STR check       |
-| **Pistol** | Natural 1      | Bonus Action: DC 12 Tinker’s Tools or STR check |
-
-### **How It Works:**
-
-1. **On a natural 1 (or 2 for muskets), the weapon misfires.**
-
-2. The shooter must roll a **Dexterity (Tinker’s Tools) or Strength check** to **clear the jam.**
-
-3. **Failure:** The weapon remains jammed **until next turn.**
-
-4. **Critical Failure (Nat 1 on Fix Attempt):** The firearm is **out of commission for the fight**.
-
-🔥 **Weather Modifiers**
-
-- **Heavy Rain:** Misfires on **1-3** instead of just 1-2.
-
-- **Humid Jungle Conditions:** Misfires on **1-4** unless powder is stored correctly.
-
-🛠 **Trainee Perks:** After training with Fenrith, shooters gain:
-
-✅ **+1 to clearing misfires.**
-
-✅ **Once per day, they can automatically clear a misfire as a free action.**
-
----
-
-## **Final Test: "The Gauntlet" (Combining All Phases)**
-
-🔥 **Goal:** Fire **three shots at moving targets while under fire**, avoiding misfires and completing the drill **before the enemy reaches them.**
-
-**How It Works:**
-
-1. **Roll to load** → **If success, fire. If fail, enemy gets closer.**
-
-2. **Roll to hit** → **Choose between careful or fast shooting.**
-
-3. **Roll for misfire** → **Fix or adapt to the malfunction.**
-
-🎯 **Scoring:**
-
-- **Perfect:** 3/3 hits, no misfires, never let the enemy reach them.
-
-- **Good:** 2/3 hits, minimal issues.
-
-- **Mediocre:** 1/3 hits, or forced into melee.
-
-- **Failure:** No hits, jammed gun, or tackled before firing.
-
-🛠 **Final Trainee Perks:**
-
-- **Fenrith’s Drills:** Once per long rest, shooter can **reload instantly (no roll required).**
-
-- **Nerves of Steel:** If a misfire happens, they **don’t panic and can still take another action.**
-
----
-
-### **Fenrith’s Final Words**
-
-*"Firearms ain't for the weak-hearted. The musket don’t care if you’re scared. The pistol don’t care if you’re slow. You get one shot—make it count. Or someone else will."*
-
