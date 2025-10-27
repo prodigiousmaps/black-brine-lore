@@ -32,16 +32,16 @@ hubs:
     name: Players
     ring_index: 5
     connects:
-      by_type: [campaign]
+      by_type: [player-character]
 
   - id: bb:hub:items
     name: Items
     ring_index: 6
     connects:
-      by_type: [campaign]
+      by_type: [item]
 
   - id: bb:hub:house-rules
     name: House Rules
     ring_index: 7
     connects:
-      by_type: [campaign]
+      by_type: [house-rules]
