@@ -1,7 +1,8 @@
 ---
-type: rules
-id: bb:rules:apertures-theory
+type: item
+id: bb:item:apertures-theory
 name: Theory on the Workings of Apertures
+parent-location: bb:npc:rupert-richthorn
 summary: >
   Arcane treatise on magical apertures that pool spell slots among linked casters.
   Details attunement, pooling mechanics, and experimental configurations.
