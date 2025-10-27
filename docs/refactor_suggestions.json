@@ -1133,7 +1133,7 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\widowmakers.md",
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\widow-makers.md",
       "field": "leaders",
       "value": "bb:npc:captain-veyla-dren",
       "resolved_id": null,
@@ -1243,8 +1243,8 @@
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\inquisitor-zunizar.md",
       "field": "factions*",
-      "value": "bb:fleet:widowmakers",
-      "resolved_id": "bb:fleet:widowmakers",
+      "value": "bb:fleet:widow-makers",
+      "resolved_id": "bb:fleet:widow-makers",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -1496,9 +1496,9 @@
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\captain-veyla-cold-tide dren.md",
       "field": "factions*",
       "value": "bb:fleet:widow-makers",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "resolved_id": "bb:fleet:widow-makers",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {

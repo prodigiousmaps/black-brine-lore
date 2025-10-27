@@ -2130,20 +2130,20 @@
       }
     },
     {
-      "id": "bb:fleet:widowmakers",
+      "id": "bb:fleet:widow-makers",
       "type": "faction",
-      "name": "The Widowmakers",
+      "name": "The Widow Makers",
       "tags": [
         "fleet",
         "assassins",
         "ambush",
         "terror"
       ],
-      "source": "RPG_Knowledge_Base\\04_Factions\\Political\\widowmakers.md",
+      "source": "RPG_Knowledge_Base\\04_Factions\\Political\\widow-makers.md",
       "fm": {
         "type": "faction",
-        "id": "bb:fleet:widowmakers",
-        "name": "The Widowmakers",
+        "id": "bb:fleet:widow-makers",
+        "name": "The Widow Makers",
         "summary": "Veyla “Cold Tide” Dren’s assassins’ sloops—precision strikes, no witnesses, and vanishing wakes.\n",
         "member_of": "bb:hub:fleets",
         "leaders": [
@@ -2376,7 +2376,7 @@
       "name": "Inquisitor Zunizar",
       "tags": [
         "inquisitor",
-        "widowmakers",
+        "widow-makers",
         "mistwalk"
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\inquisitor-zunizar.md",
@@ -2387,7 +2387,7 @@
         "summary": "Widowmakers’ appointed inquisitor; precise, surgical, and impossible to shake once on a trail.",
         "location": "bb:location:house-of-questions",
         "factions": [
-          "bb:fleet:widowmakers",
+          "bb:fleet:widow-makers",
           "bb:faction:inquisitors-of-black-brine"
         ],
         "allies": [],
@@ -2398,7 +2398,7 @@
         ],
         "tags": [
           "inquisitor",
-          "widowmakers",
+          "widow-makers",
           "mistwalk"
         ],
         "portrait": [
@@ -2416,7 +2416,7 @@
       "raw": {
         "location": "bb:location:house-of-questions",
         "factions": [
-          "bb:fleet:widowmakers",
+          "bb:fleet:widow-makers",
           "bb:faction:inquisitors-of-black-brine"
         ],
         "allies": [],
@@ -6435,7 +6435,7 @@
     {
       "source": "bb:npc:inquisitor-zunizar",
       "rel": "member_of",
-      "target": "bb:fleet:widowmakers"
+      "target": "bb:fleet:widow-makers"
     },
     {
       "source": "bb:npc:inquisitor-zunizar",
@@ -6461,6 +6461,11 @@
       "source": "bb:npc:captain-lysara-vale",
       "rel": "member_of",
       "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:npc:captain-veyla-cold-tide-dren",
+      "rel": "member_of",
+      "target": "bb:fleet:widow-makers"
     },
     {
       "source": "bb:npc:high-numerator-fex",
@@ -6880,22 +6885,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:salt-crown"
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
@@ -6905,57 +6900,17 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
+      "target": "bb:district:salt-crown"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
+      "target": "bb:district:mistwalk"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:faction:twilight-society"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widowmakers"
+      "target": "bb:district:little-sedna"
     },
     {
       "source": "bb:hub:factions",
@@ -6965,17 +6920,62 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widow-makers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hellion-fleet"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
+      "target": "bb:campaign:fallen-city-memory-palace"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6985,22 +6985,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
       "target": "bb:campaign:dead-sons-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7015,22 +7000,27 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
       "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
+      "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
+      "target": "bb:campaign:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
     },
     {
       "source": "bb:hub:players",
@@ -7040,17 +7030,12 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
       "target": "bb:campaign:dead-sons-structure"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:players",
@@ -7065,22 +7050,27 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
       "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
+      "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
+      "target": "bb:campaign:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
     },
     {
       "source": "bb:hub:items",
@@ -7090,17 +7080,12 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
       "target": "bb:campaign:dead-sons-structure"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:items",
@@ -7115,12 +7100,32 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
       "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 159,
-    "edges": 231
+    "edges": 232
   }
 }
