@@ -6,7 +6,7 @@ summary: Widowmakers’ appointed inquisitor; precise, surgical, and impossible 
   once on a trail.
 location: bb:location:house-of-questions
 factions:
-- bb:fleet:widowmakers
+- bb:fleet:widow-makers
 - bb:faction:inquisitors-of-black-brine
 allies: []
 rivals: []
@@ -15,7 +15,7 @@ appears_in:
 - bb:location:house-of-questions
 tags:
 - inquisitor
-- widowmakers
+- widow-makers
 - mistwalk
 portrait: [assets/portraits/inquisitor-zunizar.png]
 sheet_url: https://prodigiousmaps.github.io/black-brine-lore/sheets/inquisitor-zunizar.pdf   # or external link

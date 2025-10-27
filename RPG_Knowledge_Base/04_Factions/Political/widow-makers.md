@@ -1,7 +1,7 @@
 ---
 type: faction
-id: bb:fleet:widowmakers
-name: The Widowmakers
+id: bb:fleet:widow-makers
+name: The Widow Makers
 summary: >
   Veyla “Cold Tide” Dren’s assassins’ sloops—precision strikes, no witnesses,
   and vanishing wakes.
