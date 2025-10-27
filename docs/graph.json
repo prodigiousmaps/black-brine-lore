@@ -113,7 +113,8 @@
         "alignment": "Chaotic Neutral",
         "pronouns": "she/her",
         "status": "Former crew member, suing the crew for back wages",
-        "location": "Mainland, city of Mezzro",
+        "parent_location": "bb:hub:players",
+        "location": "bb:city:black-brine",
         "tags": [
           "druid",
           "former-ally",
@@ -204,7 +205,8 @@
       },
       "body_excerpt": "",
       "raw": {
-        "location": "Mainland, city of Mezzro",
+        "parent_location": "bb:hub:players",
+        "location": "bb:city:black-brine",
         "allies": [
           "bb:npc:rupert-richthorn",
           "bb:pc:franklin-pierce",
@@ -242,6 +244,7 @@
         ],
         "background": "Charlatan",
         "alignment": "Chaotic Neutral",
+        "parent_location": "bb:hub:players",
         "location": "bb:city:black-brine",
         "appears_in": [
           "bb:location:ruperts-rest",
@@ -268,6 +271,7 @@
       },
       "body_excerpt": "# Description\nLean and wiry, dark hair slicked back with careless charm, hazel eyes that are always sizing up the room. Threadbare finery, a gilded stolen rapier, and a subtle forearm tattoo from a defunct thieves’ guild.\n\n# Personality\n- Quick-witted, smooth-talking; loyalty earned, not assumed.  \n- Ideal: “Truth is flexible. Coin is real.”  \n- Bond: Grudging loyalty to his new crew.  \n- Flaw: Can’t resist a good con—even when it’s a bad idea.\n\n# Backstory\nAn orphan of Zazesspur’s streets, Franklin learned early that forged promises paid better than honest labor. After burning a merchant partner and stealing his rapier, he fled town and drifted from scam to scam.\n\n# Recent History\n- Escaped a brig with Sy and Pinch.  \n- Survived a cursed ruin and seized a magical, mastless ship.  \n- Headi…",
       "raw": {
+        "parent_location": "bb:hub:players",
         "location": "bb:city:black-brine",
         "allies": [
           "bb:npc:rupert-richthorn",
@@ -307,8 +311,8 @@
         ],
         "background": "Scholar",
         "alignment": "Neutral",
-        "level": 8,
-        "location": "bb:hub:players",
+        "parent_location": "bb:hub:players",
+        "location": "bb:city:black-brine",
         "appears_in": [
           "bb:location:ruperts-rest",
           "bb:story:rogue-wave"
@@ -329,11 +333,13 @@
         ],
         "portrait": "assets/portraits/pinch.png",
         "sheet_url": "sheets/pinch.pdf",
-        "system": "5e"
+        "system": "5e",
+        "level": 8
       },
       "body_excerpt": "# Description\nSmall, wiry frame; dusty-gray skin; wild white shock of hair; ink-black eyes. Patchwork leathers over scholar’s robes, magnifying spectacles, satchel stained with ink and maps.\n\n# Personality\n- Obsessively curious about written language; values cleverness over strength.  \n- Ideal: “The world is a puzzle—every riddle has a key.”  \n- Bond: His journal of maps and lore is life itself.  \n- Flaw: Risks everything for knowledge or rare texts.\n\n# Backstory\nShunned by his folk for loving script over stone, he found a place topside among thieves and scholars who prized his hand and his mind.\n\n# Recent History\n- Escaped shipboard imprisonment with Sy and Franklin.  \n- Survived a ruin of Shar; bargained with a minotaur named Ruben.  \n- Helped seize a mastless, planar ship; now bound for…",
       "raw": {
-        "location": "bb:hub:players",
+        "parent_location": "bb:hub:players",
+        "location": "bb:city:black-brine",
         "allies": [
           "bb:npc:rupert-richthorn",
           "bb:pc:franklin-pierce",
@@ -375,6 +381,7 @@
         "background": "Smuggler",
         "alignment": "Neutral",
         "level": 8,
+        "parent_location": "bb:hub:players",
         "location": "bb:city:black-brine",
         "appears_in": [
           "bb:location:ruperts-rest",
@@ -400,6 +407,7 @@
       },
       "body_excerpt": "# Description\nLithe swimmer’s build; sea-toned skin with green-blue sheen; long dark hair; reflective green eyes; ritual scarring along ribs; slightly webbed fingers; trident-shaped sentient dagger at the belt.\n\n# Personality\n- Quiet, intense, secretive—but fiercely loyal once earned.  \n- Ideal: “Power comes from the depths—earned, not inherited.”  \n- Bond: The dagger—last tie to his father.  \n- Flaw: Guilt over Nymh and his father’s fate.\n\n# Backstory\nRaised among smugglers in Ithmong; warned about his mother’s ambitions; found the bound blade and fled before becoming her pawn.\n\n# Recent History\n- Escaped a merchant brig with Pinch and Franklin.  \n- Struck dark bargains in a cursed ruin; took the helm of a mastless, planar ship.  \n- Sails toward Black Brine under Captain Tasty Bite’s wary…",
       "raw": {
+        "parent_location": "bb:hub:players",
         "location": "bb:city:black-brine",
         "allies": [
           "bb:npc:rupert-richthorn",
@@ -5945,7 +5953,17 @@
       "target": "bb:location:geography-black-brine"
     },
     {
+      "source": "bb:pc:andromeda",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
       "source": "bb:pc:franklin",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:pc:pinch",
       "rel": "located_in",
       "target": "bb:city:black-brine"
     },
@@ -6852,16 +6870,6 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:salt-crown"
     },
     {
@@ -6880,9 +6888,14 @@
       "target": "bb:district:mistwalk"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
+      "target": "bb:district:crosswater"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:factions",
@@ -6892,22 +6905,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:widowmakers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:fleet:malign-crew"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
+      "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:factions",
@@ -6917,7 +6920,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
     },
     {
       "source": "bb:hub:factions",
@@ -6932,47 +6940,22 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:hellion-fleet"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widowmakers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:twilight-society"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
+      "target": "bb:faction:gutterlings"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6987,42 +6970,42 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
       "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:skull-garden"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
+      "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:dead-sons-narrative"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
+      "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:players",
@@ -7037,42 +7020,42 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
       "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:players",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:skull-garden"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
+      "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:players",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:players",
       "rel": "organizes",
       "target": "bb:campaign:dead-sons-narrative"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
+      "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:items",
@@ -7087,12 +7070,47 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
       "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-structure"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 159,
-    "edges": 230
+    "edges": 232
   }
 }
