@@ -466,32 +466,7 @@
       "raw": {}
     },
     {
-      "id": "bb:Page:fallen--city-campaign-structure",
-      "type": "Page",
-      "name": "fallen -city-campaign-structure",
-      "tags": [
-        "CampaignHistory"
-      ],
-      "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\fallen -city-campaign-structure.md",
-      "fm": {
-        "type": "Page",
-        "collections": "Past Campaigns",
-        "title": "Fallen City Campaign Structure",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-08-22T04:14:43.949Z",
-        "creationDate": "2025-08-21 23:14",
-        "modificationDate": "2025-08-21 23:21",
-        "tags": [
-          "CampaignHistory"
-        ],
-        "coverImage": null
-      },
-      "body_excerpt": "# Fallen City Campaign Structure\n\n**\n\nFrozen City\n\nAct1 - The Missing Mage\n\nPart 1 - Fear for a friend - A mysterious crime scene\n\nPart 2 - Investigation - The trail leads to old friends\n\nPart 3 - Rescue mission - Rupert’s alive and the plot thickens (held captive)\n\nAct 2 - The Search is on\n\nPart 1 - A friend is in trouble but where is he - Tracking the Unborn\n\nPart 2 - Piecing together events - Trail of destruction & the helpful mage\n\nPart 3 - An astral gate and a key - Rupert’s location revealed and the plot thickens (communication is cut but not for long)\n\nAct 3 - The Frozen City\n\nSub-plots\n\n1. Tempting Offers - Ongoing dialogue with the vermin lord\n\n    1. Deal 1 - Give me the girl and I will give you Rupert\n\n    2. Temptation 1 - Give you riches and look the other way\n\n    3. Temptati…",
-      "raw": {}
-    },
-    {
-      "id": "bb:campaign:fallen-city-structure",
+      "id": "bb:campaign:fallen-city:fallen-city-structure",
       "type": "campaign",
       "name": "Fallen City Campaign Structure",
       "tags": [
@@ -502,7 +477,7 @@
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\fallen-city-campaign-structure.md",
       "fm": {
         "type": "campaign",
-        "id": "bb:campaign:fallen-city-structure",
+        "id": "bb:campaign:fallen-city:fallen-city-structure",
         "name": "Fallen City Campaign Structure",
         "summary": "Structured acts, subplots, and narrative outline of the Fallen City campaign.",
         "tags": [
@@ -515,7 +490,7 @@
       "raw": {}
     },
     {
-      "id": "bb:campaign:fallen-city-memory-palace",
+      "id": "bb:campaign:fallen-city:fallen-city-memory-palace",
       "type": "campaign",
       "name": "Fallen City – Rupert Richthorn Memory Palace",
       "tags": [
@@ -527,7 +502,7 @@
       "source": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\fallen-city-rupert-richthorn-memory-palace.md",
       "fm": {
         "type": "campaign",
-        "id": "bb:campaign:fallen-city-memory-palace",
+        "id": "bb:campaign:fallen-city:fallen-city-memory-palace",
         "name": "Fallen City – Rupert Richthorn Memory Palace",
         "summary": "Details of Rupert’s captivity and astral projection imprisonment in the Fallen City campaign.",
         "tags": [
@@ -2816,7 +2791,8 @@
         "id": "bb:npc:rupert-richthorn",
         "name": "Rupert Richthorn",
         "summary": "Exiled archwizard known as \"The Kraken,\" feared for his cunning, dangerous magic, and mysterious presence in Black Brine.",
-        "location": "bb:city:black-brine",
+        "location": "bb:location:ruperts-rest",
+        "parent-location": "bb:location:ruperts-rest",
         "factions": [],
         "allies": [],
         "rivals": [
@@ -2844,7 +2820,7 @@
       },
       "body_excerpt": "# Description\nRupert Richthorn is a feared and enigmatic figure in Black Brine, an exiled archwizard whose nickname—**The Kraken**—speaks to his vast, dangerous, and lurking reputation. Townsfolk whisper of his powers and schemes, wary of drawing his attention.\n\n# Potential Dynamics & Conflicts\n*Power Play with Gun Deck Rosy*: A tenuous arrangement exists; if Rupert oversteps, Rosy may be forced to act.  \n*The Forbidden Tower: His hidden demiplane-infused tower west of town sparks strange magical events and Sedna’s cultist interest.  \n- **Merchants’ Fear**: Merchants despise his brutally honest critiques and fear his purchases may carry curses.  \n- **The Tavern Table**: His chosen tavern seat has become a place of whispered power; outsiders risk much by sitting there.  \n- **Hidden Agendas*…",
       "raw": {
-        "location": "bb:city:black-brine",
+        "location": "bb:location:ruperts-rest",
         "factions": [],
         "allies": [],
         "rivals": [
@@ -6540,7 +6516,7 @@
     {
       "source": "bb:npc:rupert-richthorn",
       "rel": "located_in",
-      "target": "bb:city:black-brine"
+      "target": "bb:location:ruperts-rest"
     },
     {
       "source": "bb:npc:aldo-vance",
@@ -7345,7 +7321,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:blackmire"
+      "target": "bb:district:keelhauls"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
@@ -7360,47 +7341,17 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
+      "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
       "target": "bb:district:mistwalk"
     },
     {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:crosswater"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
+      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
@@ -7410,17 +7361,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:council-of-free-captains"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
+      "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:factions",
@@ -7435,12 +7376,47 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
+      "target": "bb:fleet:malign-crew"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
       "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:council-of-free-captains"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:fishermens-union"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hellion-fleet"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widow-makers"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7450,7 +7426,22 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7465,12 +7456,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
+      "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7480,22 +7466,12 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
+      "target": "bb:campaign:fallen-city:fallen-city-structure"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:sy"
+      "target": "bb:pc:pinch"
     },
     {
       "source": "bb:hub:players",
@@ -7510,12 +7486,7 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:pinch"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:ruperts-welcome-speech"
+      "target": "bb:pc:sy"
     },
     {
       "source": "bb:hub:items",
@@ -7533,39 +7504,14 @@
       "target": "bb:item:deep-green-supplies"
     },
     {
-      "source": "bb:hub:house-rules",
+      "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
+      "target": "bb:item:ruperts-welcome-speech"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-stealth"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-passive-threat-level"
+      "target": "bb:house-rules:phased-threat-escalation"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7575,17 +7521,7 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:stealth-preparation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival-training"
+      "target": "bb:house-rules:firearms-training-mechanics"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7595,12 +7531,52 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
+      "target": "bb:house-rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival-training"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-weather-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-passive-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-stealth"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:stealth-preparation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-environmental-threat-level"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 159,
+    "nodes": 158,
     "edges": 232
   }
 }

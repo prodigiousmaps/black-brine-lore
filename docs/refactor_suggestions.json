@@ -1,5 +1,5 @@
 {
-  "total_files": 153,
+  "total_files": 152,
   "patches": [
     "patches\\andromida.yml",
     "patches\\franklin-pierce.yml",
@@ -47,7 +47,6 @@
     "patches\\three-tooth-mavin.yml",
     "patches\\yurra-the-mireborn.yml",
     "patches\\code-of-black-brine.yml",
-    "patches\\golden-gull.yml",
     "patches\\lending-house.yml",
     "patches\\red-door-alchemy.yml",
     "patches\\ruperts-rest.yml"
@@ -1307,8 +1306,8 @@
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\rupert-richthorn.md",
       "field": "location",
-      "value": "bb:city:black-brine",
-      "resolved_id": "bb:city:black-brine",
+      "value": "bb:location:ruperts-rest",
+      "resolved_id": "bb:location:ruperts-rest",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -2387,9 +2386,9 @@
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\golden-gull.md",
       "field": "parent_location",
-      "value": "Black Brine",
+      "value": "bb:city:black-brine",
       "resolved_id": "bb:city:black-brine",
-      "method": "alias",
+      "method": "id",
       "score": 1.0,
       "note": ""
     },
