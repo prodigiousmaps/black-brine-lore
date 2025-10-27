@@ -2,7 +2,7 @@
 type: location
 id: bb:location:soggy-town-playhouse
 name: Soggy Town Playhouse
-parent_location: bb:city:city-of-black-brine
+parent_location: bb:district:mistwalk
 district: Crosswater
 location_type: theater
 maps_available: false

@@ -1,7 +1,5 @@
 ---
 parent_location: bb:city:city-of-black-brine
----
----
 type: location
 name: The Golden Gull
 location_type: tavern

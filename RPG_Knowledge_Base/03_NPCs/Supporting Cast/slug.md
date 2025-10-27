@@ -4,6 +4,7 @@ id: bb:npc:slug
 name: “Slug”
 summary: Goblin ex-gunner; mixes the lethal “Blunderbuss” cocktail and stabs unruly patrons.
 location: bb:location:powder-keg-tavern
+parent-location: bb:location:powder-keg-tavern
 factions: []
 allies: []
 rivals: []
