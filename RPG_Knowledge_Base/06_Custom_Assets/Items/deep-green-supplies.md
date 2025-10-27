@@ -1,6 +1,7 @@
 ---
 type: item
 id: bb:item:deep-green-supplies
+parent_location: bb:pc:pinch
 name: Deep Green Supplies
 summary: A merchant of exotic poisons, toxins, and alchemical reagents within Black
   Brine’s warrens.

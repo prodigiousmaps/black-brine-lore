@@ -11,7 +11,7 @@ classes:
 background: Scholar
 alignment: Neutral
 level: TBD
-location: bb:city:black-brine
+location: bb:players
 appears_in:
 - bb:location:ruperts-rest
 - bb:story:rogue-wave
