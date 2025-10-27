@@ -1,9 +1,0 @@
----
-type: players
-id: bb:players
-name: Player Characters
-description: >
-  This node stores metadata and references for all active and historical player characters within the Black Brine campaigns. 
-  Each entry links to a character sheet, player profile, and optionally the campaign or party they belong to. 
-  Unlike NPCs, player characters are created and maintained by players and are distinct entities within the lore architecture.
-

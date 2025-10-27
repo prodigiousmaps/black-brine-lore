@@ -26,3 +26,16 @@ hubs:
     ring_index: 4
     connects:
       by_type: [campaign]
+
+
+  - id: bb:hub:players
+    name: Players
+    ring_index: 5
+    connects:
+      by_type: [campaign]
+
+  - id: bb:hub:items
+    name: Items
+    ring_index: 6
+    connects:
+      by_type: [campaign]
