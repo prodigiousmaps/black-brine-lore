@@ -629,15 +629,6 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\red-potoo.md",
-      "field": "location",
-      "value": "Black Brine rooftops",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
-      "note": ""
-    },
-    {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\twig-blight-jungle-variant.md",
       "field": "location",
       "value": "bb:story:encounter-4-treefall-maze",
@@ -1935,15 +1926,6 @@
     },
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\sinker.md",
-      "field": "rivals",
-      "value": "bb:npc:the-noose",
-      "resolved_id": "bb:npc:the-noose",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\sinker.md",
       "field": "appears_in",
       "value": "bb:location:sinkers-curiosities",
       "resolved_id": "bb:location:sinkers-curiosities",
@@ -2480,15 +2462,6 @@
       "resolved_id": "bb:district:salt-crown",
       "method": "id",
       "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\soggy-town-playhouse.md",
-      "field": "parent_location",
-      "value": "bb:city:city-of-black-brine",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
       "note": ""
     },
     {

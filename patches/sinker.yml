@@ -1,7 +1,5 @@
 path: C:\Users\FiveA\OneDrive\Documents\GitHub\black-brine-lore\RPG_Knowledge_Base\03_NPCs\Supporting
   Cast\sinker.md
 set:
-  rivals:
-  - bb:npc:the-noose
   appears_in:
   - bb:location:sinkers-curiosities

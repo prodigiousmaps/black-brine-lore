@@ -848,31 +848,46 @@
       }
     },
     {
-      "id": "bb:mystery:red-potoo",
-      "type": "mystery",
-      "name": "The Red Potoo",
+      "id": "bb:creature:potoo",
+      "type": "creature",
+      "name": "The Potoo",
       "tags": [
-        "cryptids",
-        "supernatural",
-        "omen",
-        "mystery"
+        "cryptid",
+        "nocturnal",
+        "urban-legend",
+        "black-brine",
+        "horror"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\red-potoo.md",
       "fm": {
-        "type": "mystery",
-        "name": "The Red Potoo",
-        "location": "Black Brine rooftops",
+        "type": "creature",
+        "id": "bb:creature:potoo",
+        "name": "The Potoo",
+        "aliases": [
+          "Watcher in the Fog",
+          "Lantern-Eyes",
+          "Moon Perch"
+        ],
+        "creature_type": "Aberration",
+        "origin": "Black Brine",
         "tags": [
-          "cryptids",
-          "supernatural",
-          "omen",
-          "mystery"
-        ]
+          "cryptid",
+          "nocturnal",
+          "urban-legend",
+          "black-brine",
+          "horror"
+        ],
+        "image": {
+          "file": "assets/creatures/potoo.png",
+          "alt_text": "A dark, eerie humanoid creature with moth-like wings crouches on a peaked rooftop under a full moon, glowing eyes staring down at the misty city below."
+        },
+        "description": "The Potoo is a silent watcher that haunts the rooftops of Black Brine, seen only under the pale light of the full moon. With wings like translucent moths and unblinking lantern eyes, it perches above the streets, motionless for hours. When it moves, it does so in silence—one blink and it is elsewhere. Some say it is a manifestation of guilt, a spirit born from the city's hidden crimes. Others claim it feeds on fear itself.\n\nThose who have locked eyes with the Potoo speak of dreams filled with suffocating mist and distant chittering. Entire crews have vanished after reporting its presence. No one has ever seen it take flight, yet it is always found somewhere higher the next night.\n",
+        "habitat": "The rooftops and steeples of Black Brine, especially in the districts of Salt Crown and Crosswater.",
+        "behavior": "- Crouches silently on high perches for hours or days.\n- Appears only at night, usually under heavy fog or moonlight.\n- Follows individuals marked by guilt or obsession.\n- Vanishes when directly approached, leaving behind a faint hum.\n",
+        "rumors": "- Some say the Potoo whispers to the dying, guiding their souls into the black tide.\n- Others claim it was once human—an Inquisitor who looked too long into forbidden truths.\n- Children are told that if they stare too long into the mists, the Potoo will stare back."
       },
-      "body_excerpt": "# Description\nStrange entities shaped like potoo birds, formed from blood-red mist with glowing white eyes. They perch silently on rooftops, never making a sound, never interacting, and vanish the instant they are noticed.\n\n# Superstitions\n- Gamblers: Sight before play means certain loss.\n- Lovers: Portent of betrayal within the week.\n- Sailors: Omens of storms, curses of the Hollow Goddess.\n- Children: “Ghost scouts” of Sedna, searching for liars.\n\n# Theories\n- Astral projections of a forgotten cult.\n- Wards left from the goddess war.\n- Mass hallucinations triggered by ancient magic.\n\n# Adventure Hooks\n- PCs tasked to catch one — but what happens if they succeed?\n- A noble pays for a rooftop watch when Red Potoos appear above their manor.",
-      "raw": {
-        "location": "Black Brine rooftops"
-      }
+      "body_excerpt": "",
+      "raw": {}
     },
     {
       "id": "bb:monster:twig-blight-jungle-variant",
@@ -1510,7 +1525,7 @@
           "coin",
           "magic"
         ],
-        "portrait": "assets/items/challenge-coins.png"
+        "portrait": "assets/items/challenge-coin.png"
       },
       "body_excerpt": "# Challenge Coins of Black Brine\n\n### Magical Safeguards\n1. **Magical Signature** – Bound to captain’s blood or soul; cannot be forged.  \n2. **Tracking** – Ritual possible with connection item; imprecise but reveals region.  \n3. **Challenge Response** – Requires phrase or gesture; misuse exposes impostors.\n\n### Enemy Implications\n- Corsair-worshipers cannot easily forge.  \n- Coins risky to use openly.  \n- Suppression rituals possible but traceable.\n\n### Rupert’s Role\nRupert can accelerate rituals, break suppression, and leverage the crew.\n\n### Campaign Arc\n- **Sessions 1–2**: Missing coin discovered.  \n- **3–4**: Enemy begins testing; tracking ritual contested.  \n- **5+**: Confrontation, decision on coin’s fate.\n\n### Twists\n- Rival factions may hunt coin.  \n- Enemy might discard coin for a…",
       "raw": {}
@@ -3865,9 +3880,7 @@
         "location": "bb:location:sinkers-curiosities",
         "factions": [],
         "allies": [],
-        "rivals": [
-          "bb:npc:the-noose"
-        ],
+        "rivals": [],
         "appears_in": [
           "bb:location:sinkers-curiosities"
         ],
@@ -3883,9 +3896,7 @@
         "location": "bb:location:sinkers-curiosities",
         "factions": [],
         "allies": [],
-        "rivals": [
-          "bb:npc:the-noose"
-        ],
+        "rivals": [],
         "appears_in": [
           "bb:location:sinkers-curiosities"
         ]
@@ -4411,18 +4422,7 @@
         "population": "~12,000",
         "government": "Controlled by pirate gangs and smugglers, nominal oversight from the Captain’s Council",
         "maps_available": true,
-        "map_files": [
-          "salt-crown-central-cellar.jpg",
-          "salt-crown-central-street-level.jpg",
-          "salt-crown-central-second-floor.jpg",
-          "salt-crown-central-third-floor.jpg",
-          "salt-crown-central-fourth-floor.jpg",
-          "salt-crown-central-roof.jpg",
-          "salt-crown-shore.jpg",
-          "salt-crown-smithy-street-level.jpg",
-          "salt-crown-smithy-second-floor.jpg",
-          "salt-crown-smithy-roof.jpg"
-        ],
+        "map_files": null,
         "tags": [
           "district",
           "docks",
@@ -5398,13 +5398,9 @@
       "name": "soggy-town-playhouse",
       "tags": [],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\soggy-town-playhouse.md",
-      "fm": {
-        "parent_location": "bb:city:city-of-black-brine"
-      },
-      "body_excerpt": "---\ntype: location\nname: Soggy Town Playhouse\nlocation_type: theater\ndistrict: Crosswater\nparent_location: Black Brine\nmaps_available: false\nmap_files: []\ntags: [entertainment, theater, crosswater, arts, eccentric]\n\noverview: >\n  The Soggy Town Playhouse is a half-sunken old frigate dragged ashore and reborn as Black Brine’s most raucous and beloved stage. Its boards creak with drama, comedy, and scandal in equal measure.\n\nappearance: >\n  The ship’s hull leans slightly, propped by scaffolding and optimism. Plankwalks lead into candlelit corridors strung with costumes, driftwood masks, and faded playbills. The stage is where the gun deck once was—still bearing scorched boards from its former life.\n\nrole_in_society: >\n  Part community refuge, part cultural lighthouse, the Playhouse draws sai…",
-      "raw": {
-        "parent_location": "bb:city:city-of-black-brine"
-      }
+      "fm": {},
+      "body_excerpt": "",
+      "raw": {}
     },
     {
       "id": "bb:location:string-and-power",
@@ -6554,11 +6550,6 @@
       "target": "bb:npc:three-tooth-mavin"
     },
     {
-      "source": "bb:npc:sinker",
-      "rel": "rival_of",
-      "target": "bb:npc:the-noose"
-    },
-    {
       "source": "bb:npc:strange-bones",
       "rel": "ally_of",
       "target": "bb:npc:rupert-richthorn"
@@ -6836,6 +6827,11 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
+      "target": "bb:district:mistwalk"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
       "target": "bb:district:blackmire"
     },
     {
@@ -6846,17 +6842,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:salt-crown"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:hub:districts",
@@ -6864,14 +6850,14 @@
       "target": "bb:district:keelhauls"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:faction:gutterlings"
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
+      "target": "bb:fleet:miasma"
     },
     {
       "source": "bb:hub:factions",
@@ -6886,12 +6872,32 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:hellion-fleet"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
     },
     {
       "source": "bb:hub:factions",
@@ -6906,32 +6912,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:fleet:widowmakers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6941,12 +6922,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
+      "target": "bb:campaign:dead-sons-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6956,12 +6932,22 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
+      "target": "bb:campaign:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-memory-palace"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6972,11 +6958,16 @@
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 157,
-    "edges": 210
+    "edges": 209
   }
 }
