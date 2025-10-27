@@ -1,12 +1,10 @@
 ---
-parent_location: bb:city:city-of-black-brine
----
----
 type: location
+id: bb:location:soggy-town-playhouse
 name: Soggy Town Playhouse
-location_type: theater
+parent_location: bb:city:city-of-black-brine
 district: Crosswater
-parent_location: Black Brine
+location_type: theater
 maps_available: false
 map_files: []
 tags: [entertainment, theater, crosswater, arts, eccentric]
@@ -27,14 +25,14 @@ services:
   - Occasional after-hours masked galas
 
 notable_features:
-  - “The Cannon Stage” – features a retractable trapdoor and smoke-pipe special effects
-  - “Captain’s Balcony” – VIP seating with enchanted acoustics
-  - “The Hold” – dressing rooms, prop storage, and impromptu sleeping quarters
+  - "The Cannon Stage" – features a retractable trapdoor and smoke-pipe special effects
+  - "Captain’s Balcony" – VIP seating with enchanted acoustics
+  - "The Hold" – dressing rooms, prop storage, and impromptu sleeping quarters
 
 associated_npcs:
-  - Calwyn “Claps” Dorrin (dramatic director with a flair for scandal)
-  - Berta Gullswain (retired pirate turned costume mistress)
-  - Mop (stagehand goblin who also plays 6 minor roles per show)
+  - Calwyn “Claps” Dorrin – dramatic director with a flair for scandal
+  - Berta Gullswain – retired pirate turned costume mistress
+  - Mop – stagehand goblin who also plays six minor roles per show
 
 rumors:
   - The Playhouse is secretly funded by the Council of Free Captains
@@ -42,5 +40,5 @@ rumors:
   - A ghostly sailor sometimes appears during tragedies, weeping in the rafters
 
 secrets:
-  - The keel of the ship hides a sealed smuggling tunnel now used to store dangerous props and occasionally people
-  - Calwyn was once an informant for the House of Questions—he might still be
+  - The keel of the ship hides a sealed smuggling tunnel now used to store dangerous props—and occasionally people
+  - Calwyn was once an informant for the House of Questions; he might still be
