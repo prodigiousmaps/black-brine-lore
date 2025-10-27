@@ -1,6 +1,7 @@
 ---
 type: lore
 id: bb:lore:challenge-coins
+parent_location: bb:hub:items
 name: Black Brine Challenge Coins
 summary: >
   Magical safeguards placed on pirate captains’ coins of Black Brine.
