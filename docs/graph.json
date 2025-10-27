@@ -1131,35 +1131,196 @@
       }
     },
     {
-      "id": "bb:Page:firearms-training-mechanics",
-      "type": "Page",
+      "id": "bb:house-rules:firearms-training-mechanics",
+      "type": "house-rules",
       "name": "firearms-training-mechanics",
       "tags": [
         "GameMechanics",
-        "Encounter"
+        "Encounter",
+        "Firearms",
+        "Training",
+        "MiniGame"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\firearms-training-mechanics.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
+        "type": "house-rules",
+        "id": "bb:house-rules:firearms-training-mechanics",
+        "collection": "The Deep Green",
+        "parent_location": "bb:hub:house-rules",
         "title": "Firearms Training Mechanics",
-        "description": null,
+        "description": "Fenrith’s brutal firearms training mini-game, “The Black Powder Crucible,” turns reckless shooters into disciplined gunners through a three-phase series of skill challenges that test speed, precision, and composure under fire.\n",
         "icon": null,
-        "createdAt": "2025-03-18T20:28:08.390Z",
-        "creationDate": "2025-03-18 15:28",
-        "modificationDate": "2025-03-18 15:37",
         "tags": [
           "GameMechanics",
-          "Encounter"
+          "Encounter",
+          "Firearms",
+          "Training",
+          "MiniGame"
         ],
-        "coverImage": null
+        "coverImage": null,
+        "overview": "Fenrith doesn’t train amateurs—he breaks them down and rebuilds them into disciplined gunners. His regimen focuses on speed, precision, and unflinching nerve under live-fire conditions. The training sequence consists of three escalating phases, followed by a final integrated test.\n",
+        "phases": [
+          {
+            "phase": 1,
+            "name": "Loading Under Fire (Speed & Stress)",
+            "goal": "Successfully load and fire a musket or flintlock pistol before an advancing enemy reaches you.\n",
+            "mechanics": [
+              "Firearms have a loading time requiring a Dexterity (Sleight of Hand) check.",
+              "The enemy advances each round while the shooter attempts to reload before melee range."
+            ],
+            "loading_difficulty_table": [
+              {
+                "weapon": "Musket",
+                "loading_dc": 14,
+                "rounds": 2,
+                "modifiers": [
+                  "-1 DC if using pre-measured powder."
+                ]
+              },
+              {
+                "weapon": "Pistol",
+                "loading_dc": 12,
+                "rounds": 1,
+                "modifiers": [
+                  "+2 DC if under duress (enemy within 10 feet)."
+                ]
+              }
+            ],
+            "process": [
+              "Each round, roll Dexterity (Sleight of Hand) to reload.",
+              "Failure: The enemy closes distance; retry next round.",
+              "Success: Weapon is loaded; shooter can fire next turn."
+            ],
+            "failure_consequences": [
+              "If enemy reaches melee before firing, shooter must either:",
+              "• Strength Check (DC 15) to push them back.",
+              "• Draw a melee weapon (losing next turn).",
+              "• Attempt risky point-blank shot (disadvantage)."
+            ],
+            "trainee_perks": [
+              "+2 on loading rolls under pressure.",
+              "Advantage when using pre-measured powder charges."
+            ]
+          },
+          {
+            "phase": 2,
+            "name": "The Iron Eye (Marksmanship & Control)",
+            "goal": "Hit three moving targets at different distances before time runs out.\n",
+            "mechanics": [
+              "Shooters make attack rolls against three targets at varying distances.",
+              "Each target has an AC based on distance and movement.",
+              "Shooter may choose between careful aiming (bonus to hit) or quick firing (reload speed)."
+            ],
+            "marksmanship_table": [
+              {
+                "target_type": "Stationary (Dummy)",
+                "distance": "30 ft",
+                "ac_musket": 10,
+                "ac_pistol": 12,
+                "modifiers": [
+                  "+2 if aiming carefully (skip next round)."
+                ]
+              },
+              {
+                "target_type": "Walking (Slow Moving)",
+                "distance": "50 ft",
+                "ac_musket": 12,
+                "ac_pistol": 15,
+                "modifiers": [
+                  "-2 if firing quickly."
+                ]
+              },
+              {
+                "target_type": "Running (Dashing Target)",
+                "distance": "70 ft",
+                "ac_musket": 15,
+                "ac_pistol": 18,
+                "modifiers": [
+                  "-5 unless spending a full round aiming."
+                ]
+              }
+            ],
+            "process": [
+              "Shooter picks a target and fires.",
+              "Roll attack using Dexterity + Proficiency with firearms.",
+              "On hit: advance to next target.",
+              "On miss: choose to re-aim (lose a round, +3 bonus) or fire immediately (no bonus)."
+            ],
+            "trainee_perks": [
+              "+1 to ranged attacks with firearms.",
+              "Advantage on one firearm attack per long rest."
+            ]
+          },
+          {
+            "phase": 3,
+            "name": "Firearms Are Liars (Misfires & Malfunctions)",
+            "goal": "Learn to manage gun malfunctions without panicking.\n",
+            "mechanics": [
+              "Each shot has a chance to misfire, especially in poor conditions or under stress.",
+              "On misfire, the shooter must fix the weapon before firing again."
+            ],
+            "misfire_table": [
+              {
+                "weapon": "Musket",
+                "misfire_on": [
+                  1,
+                  2
+                ],
+                "fix": "Action: DC 15 Tinker’s Tools or Strength check."
+              },
+              {
+                "weapon": "Pistol",
+                "misfire_on": [
+                  1
+                ],
+                "fix": "Bonus Action: DC 12 Tinker’s Tools or Strength check."
+              }
+            ],
+            "process": [
+              "On a natural 1 (or 2 for muskets), the weapon misfires.",
+              "Roll Dexterity (Tinker’s Tools) or Strength to clear jam.",
+              "Failure: weapon remains jammed until next turn.",
+              "Critical failure: firearm disabled for remainder of fight."
+            ],
+            "weather_modifiers": [
+              "Heavy Rain: misfires on 1–3 instead of 1–2.",
+              "Humid Jungle Conditions: misfires on 1–4 unless powder properly stored."
+            ],
+            "trainee_perks": [
+              "+1 to checks for clearing misfires.",
+              "Once per day, may automatically clear a misfire as a free action."
+            ]
+          }
+        ],
+        "final_test": {
+          "name": "The Gauntlet (Combined Trial)",
+          "goal": "Fire three shots at moving targets while under fire, avoiding misfires and completing the drill before the enemy reaches the trainee.\n",
+          "sequence": [
+            "Roll to load → success allows firing; failure lets enemy advance.",
+            "Roll to hit → choose careful or fast shooting.",
+            "Roll for misfire → fix or adapt."
+          ],
+          "scoring": {
+            "perfect": "3/3 hits, no misfires, never reached by enemy.",
+            "good": "2/3 hits, minimal issues.",
+            "mediocre": "1/3 hit or forced into melee.",
+            "failure": "No hits, jammed gun, or tackled before firing."
+          },
+          "trainee_perks": [
+            "Fenrith’s Drills: once per long rest, reload instantly (no roll required).",
+            "Nerves of Steel: on misfire, may still take another action."
+          ]
+        },
+        "flavor_text": "“Firearms ain't for the weak-hearted. The musket don’t care if you’re scared. The pistol don’t care if you’re slow. You get one shot—make it count. Or someone else will.” — Fenrith"
       },
-      "body_excerpt": "# Firearms Training Mechanics\n\n### **Fenrith’s Firearms Training Mini-Game: \"The Black Powder Crucible\"**\n\nFenrith doesn’t train amateurs—he **breaks them down and rebuilds them** into **disciplined gunners**. His training is **grueling**, focusing on **speed, precision, and nerves of steel** in high-pressure combat.\n\nThe mini-game has **three phases** to simulate real firearms use:\n\n1. **Loading Under Fire (Speed & Stress)**\n\n2. **Marksmanship (Accuracy & Control)**\n\n3. **Misfires & Malfunctions (Risk Management)**\n\nEach phase uses **checks, modifiers, and risks** to make every shot feel **deliberate and dangerous**.\n\n---\n\n## **Phase 1: \"Loading Under Fire\" (Speed & Stress)**\n\n🔥 **Goal:** Successfully **load and fire** a musket or flintlock pistol **before an advancing enemy reaches you.*…",
-      "raw": {}
+      "body_excerpt": "",
+      "raw": {
+        "parent_location": "bb:hub:house-rules"
+      }
     },
     {
-      "id": "bb:rules:jungle-environmental-threat-level",
-      "type": "rules",
+      "id": "bb:house-rules:jungle-environmental-threat-level",
+      "type": "house-rules",
       "name": "Environmental Threat Level",
       "tags": [
         "rules",
@@ -1169,10 +1330,11 @@
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-environmental-threat-level.md",
       "fm": {
-        "type": "rules",
-        "id": "bb:rules:jungle-environmental-threat-level",
+        "type": "house-rules",
+        "id": "bb:house-rules:jungle-environmental-threat-level",
         "name": "Environmental Threat Level",
-        "parent_location": "bb:location:forbidden-west-sedna",
+        "collection": "The Deep Green",
+        "parent_location": "bb:hub:house-rules",
         "tags": [
           "rules",
           "jungle",
@@ -1182,12 +1344,12 @@
       },
       "body_excerpt": "# Environmental Threat Level\n\n## Enemy or Environmental Stealth Checks\n- Approaching a hostile creature, predator, or patrol.  \n- Crossing open ground without cover.  \n- Evading Whispering Fog (disadvantage if Alert Level high).  \n- Using fire or magic (bright light attracts attention).  \n\n## Preparedness Modifiers\n| Preparedness                       | Effect                    |\n|-----------------------------------|---------------------------|\n| Move slowly (½ speed)              | Advantage                 |\n| Wrapped gear / quiet kit           | Advantage                 |\n| Camouflage clothing / jungle dyes  | +2 bonus                  |\n| Barefoot at night / treated boots  | +1 bonus                  |\n| Mask scent (charcoal, herbs)       | Cancels scent-tracking    |\n| No metal armo…",
       "raw": {
-        "parent_location": "bb:location:forbidden-west-sedna"
+        "parent_location": "bb:hub:house-rules"
       }
     },
     {
-      "id": "bb:rules:jungle-event-threat-level",
-      "type": "rules",
+      "id": "bb:house-rules:jungle-event-threat-level",
+      "type": "house-rules",
       "name": "Event Threat Level",
       "tags": [
         "rules",
@@ -1197,10 +1359,11 @@
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-event-threat-level.md",
       "fm": {
-        "type": "rules",
-        "id": "bb:rules:jungle-event-threat-level",
+        "type": "house-rules",
+        "id": "bb:house-rules:jungle-event-threat-level",
         "name": "Event Threat Level",
-        "parent_location": "bb:location:forbidden-west-sedna",
+        "collection": "The Deep Green",
+        "parent_location": "bb:hub:house-rules",
         "tags": [
           "rules",
           "jungle",
@@ -1210,12 +1373,12 @@
       },
       "body_excerpt": "# Event Threat Level\n\n## Event-Based Stealth Rolls\nCharacters roll Stealth when:\n- Moving through predator territory or enemy camps.  \n- Passing through noisy terrain (mud, streams, leaves).  \n- Climbing/descending obstacles (trees, ruins).  \n- Interacting with dense foliage/objects.  \n- Killing an enemy where others may hear.  \n- Resting in unsafe areas (camp setup).  \n\n## Exceptions\n- Using cleared paths (Strange Bones’ routes).  \n- Traveling slowly at half speed (Advantage).  \n- Remaining still in hiding (Passive Stealth applies).",
       "raw": {
-        "parent_location": "bb:location:forbidden-west-sedna"
+        "parent_location": "bb:hub:house-rules"
       }
     },
     {
-      "id": "bb:rules:jungle-travel-phases",
-      "type": "rules",
+      "id": "bb:house-rules:jungle-travel-phases",
+      "type": "house-rules",
       "name": "Jungle Travel Phases",
       "tags": [
         "rules",
@@ -1225,10 +1388,11 @@
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-hex-travel-phases.md",
       "fm": {
-        "type": "rules",
-        "id": "bb:rules:jungle-travel-phases",
+        "type": "house-rules",
+        "id": "bb:house-rules:jungle-travel-phases",
         "name": "Jungle Travel Phases",
-        "parent_location": "bb:location:forbidden-west-sedna",
+        "collection": "The Deep Green",
+        "parent_location": "bb:hub:house-rules",
         "tags": [
           "rules",
           "jungle",
@@ -1238,12 +1402,12 @@
       },
       "body_excerpt": "# Jungle Travel Phases\n\n**Travel Speed**: 1 hex = 6 miles; 8 hours per hex; 2 hex/day.\n\n## Phase 1 – Wild River & Outer Jungle\n- Encounters: River (1d12), Outer Jungle (1d12).  \n- Tone: natural danger, subtle strangeness.  \n\n## Phase 2 – Encroached Zone\n- Encounters: Encroached Jungle (1d12).  \n- Tone: rot, wrongness, cult traces.  \n- Perception/Insight disadvantage in darkness.  \n\n## Phase 3 – Hollow Grove (Temple Perimeter)\n- Encounters: Twisted Jungle (1d12).  \n- Tone: corruption, cult warlocks, unnatural terrain.  \n\n**Additional Mechanics**: Stealth alerts, camping, noise escalation.",
       "raw": {
-        "parent_location": "bb:location:forbidden-west-sedna"
+        "parent_location": "bb:hub:house-rules"
       }
     },
     {
-      "id": "bb:rules:jungle-navigation-events",
-      "type": "rules",
+      "id": "bb:house-rules:jungle-navigation-events",
+      "type": "house-rules",
       "name": "Navigation Events",
       "tags": [
         "rules",
@@ -1253,10 +1417,11 @@
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-navigation-events.md",
       "fm": {
-        "type": "rules",
-        "id": "bb:rules:jungle-navigation-events",
+        "type": "house-rules",
+        "id": "bb:house-rules:jungle-navigation-events",
         "name": "Navigation Events",
-        "parent_location": "bb:location:forbidden-west-sedna",
+        "collection": "The Deep Green",
+        "parent_location": "bb:hub:house-rules",
         "tags": [
           "rules",
           "jungle",
@@ -1266,12 +1431,12 @@
       },
       "body_excerpt": "# Navigation Events\n\n## Navigation Event Table (1d12)\n*(preserve full entries from original document)*\n\n## Land Feature Table (1d12)\n*(preserve full entries from original document)*\n\n> Use both tables per hex; weave into one narrative scene. Encourages spotlight moments: Pinch maps, Sy tracks, Franklin interprets, Andromeda reads nature.",
       "raw": {
-        "parent_location": "bb:location:forbidden-west-sedna"
+        "parent_location": "bb:hub:house-rules"
       }
     },
     {
-      "id": "bb:rules:jungle-navigation",
-      "type": "rules",
+      "id": "bb:house-rules:jungle-navigation",
+      "type": "house-rules",
       "name": "Navigating the Mists of Sedna",
       "tags": [
         "rules",
@@ -1282,10 +1447,11 @@
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-navigation.md",
       "fm": {
-        "type": "rules",
-        "id": "bb:rules:jungle-navigation",
+        "type": "house-rules",
+        "id": "bb:house-rules:jungle-navigation",
         "name": "Navigating the Mists of Sedna",
-        "parent_location": "bb:location:forbidden-west-sedna",
+        "collection": "The Deep Green",
+        "parent_location": "bb:hub:house-rules",
         "tags": [
           "rules",
           "jungle",
@@ -1296,12 +1462,12 @@
       },
       "body_excerpt": "# Navigating the Mists of Sedna\n\nSkill challenge: 5 successes before 3 failures, 10–20 min rounds.\n\n## Skills\n- Survival, Perception, Nature, Athletics, Arcana, History, Investigation, Water Vehicles.  \n\n## Failure Consequences\n- Ship damage.  \n- Crew lost.  \n- Creature awakened.  \n- Forced back or stranded.  \n\n## Success Outcomes\n- Safe arrival.  \n- Insight advantage.  \n- Glimpses of shadow or future.  \n\n## Extra Twist\nFollowing the Coin grants one reroll but ties fate to unknown destiny.",
       "raw": {
-        "parent_location": "bb:location:forbidden-west-sedna"
+        "parent_location": "bb:hub:house-rules"
       }
     },
     {
-      "id": "bb:rules:jungle-passive-threat-level",
-      "type": "rules",
+      "id": "bb:house-rules:jungle-passive-threat-level",
+      "type": "house-rules",
       "name": "Passive Threat Level",
       "tags": [
         "rules",
@@ -1311,10 +1477,11 @@
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-passive-threat-level.md",
       "fm": {
-        "type": "rules",
-        "id": "bb:rules:jungle-passive-threat-level",
+        "type": "house-rules",
+        "id": "bb:house-rules:jungle-passive-threat-level",
         "name": "Passive Threat Level",
-        "parent_location": "bb:location:forbidden-west-sedna",
+        "collection": "The Deep Green",
+        "parent_location": "bb:hub:house-rules",
         "tags": [
           "rules",
           "jungle",
@@ -1324,12 +1491,12 @@
       },
       "body_excerpt": "# Passive Threat Level\n\n## Time-Based Stealth Checks\n- Every 30–60 minutes of travel.  \n- During weather shifts.  \n- After combat encounters.",
       "raw": {
-        "parent_location": "bb:location:forbidden-west-sedna"
+        "parent_location": "bb:hub:house-rules"
       }
     },
     {
-      "id": "bb:rules:jungle-stealth",
-      "type": "rules",
+      "id": "bb:house-rules:jungle-stealth",
+      "type": "house-rules",
       "name": "Jungle Stealth & Threat Checks",
       "tags": [
         "rules",
@@ -1340,10 +1507,11 @@
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-stealth-mechanics.md",
       "fm": {
-        "type": "rules",
-        "id": "bb:rules:jungle-stealth",
+        "type": "house-rules",
+        "id": "bb:house-rules:jungle-stealth",
         "name": "Jungle Stealth & Threat Checks",
-        "parent_location": "bb:location:forbidden-west-sedna",
+        "collection": "The Deep Green",
+        "parent_location": "bb:hub:house-rules",
         "tags": [
           "rules",
           "jungle",
@@ -1357,12 +1525,12 @@
       },
       "body_excerpt": "# Jungle Stealth & Threat Checks\n\n## When to Roll Stealth\n- Event-based: predators, camps, noisy terrain, foliage.  \n- Time-based: every 30–60 mins, weather, post-combat.  \n- Environmental: hostile approach, open ground, fog, fire use.  \n\n## Mechanics Variants\n- Passive Stealth vs Jungle Perception (15–18).  \n- Group vs Individual rolls.  \n- Assisted rolls & Stealth Chains.  \n\n## Preparedness Modifiers\n*(reference Environmental Threat Level table)*",
       "raw": {
-        "parent_location": "bb:location:forbidden-west-sedna"
+        "parent_location": "bb:hub:house-rules"
       }
     },
     {
-      "id": "bb:rules:jungle-survival-training",
-      "type": "rules",
+      "id": "bb:house-rules:jungle-survival-training",
+      "type": "house-rules",
       "name": "Jungle Survival Training (Strange Bones)",
       "tags": [
         "rules",
@@ -1372,10 +1540,11 @@
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-survival-training.md",
       "fm": {
-        "type": "rules",
-        "id": "bb:rules:jungle-survival-training",
+        "type": "house-rules",
+        "id": "bb:house-rules:jungle-survival-training",
+        "collection": "The Deep Green",
         "name": "Jungle Survival Training (Strange Bones)",
-        "parent_location": "bb:location:forbidden-west-sedna",
+        "parent_location": "bb:hub:house-rules",
         "tags": [
           "rules",
           "jungle",
@@ -1388,12 +1557,12 @@
       },
       "body_excerpt": "# Jungle Survival Training (Strange Bones)\n\nStrange Bones’ brutal regimen:\n\n- Silence Test – stealth drills.  \n- Vanishing Act – camouflage and disappearance.  \n- Hunger Clock – foraging challenges.  \n- Shadow Hunt – ambush practice.  \n- Fire Without Trace – fireless camp training.  \n- Final Test – blindfold night drop.",
       "raw": {
-        "parent_location": "bb:location:forbidden-west-sedna"
+        "parent_location": "bb:hub:house-rules"
       }
     },
     {
-      "id": "bb:rules:jungle-survival",
-      "type": "rules",
+      "id": "bb:house-rules:jungle-survival",
+      "type": "house-rules",
       "name": "Jungle Survival & Madness",
       "tags": [
         "rules",
@@ -1405,10 +1574,11 @@
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-survival.md",
       "fm": {
-        "type": "rules",
-        "id": "bb:rules:jungle-survival",
+        "type": "house-rules",
+        "id": "bb:house-rules:jungle-survival",
         "name": "Jungle Survival & Madness",
-        "parent_location": "bb:location:forbidden-west-sedna",
+        "collection": "The Deep Green",
+        "parent_location": "bb:hub:house-rules",
         "tags": [
           "rules",
           "jungle",
@@ -1420,12 +1590,12 @@
       },
       "body_excerpt": "# Jungle Survival & Madness\n\n## Jungle Alert Level\n- Level 0–3 escalation, triggers: noise, combat, lingering.  \n- Reset only with extreme care or rituals.  \n\n## Whispering Fog (Madness)\n- WIS Save DC = 14 + Alert Level.  \n- Fail = Jungle Madness; effects escalate from paranoia → possession.  \n- Cure: rest, restoration, blood ritual.  \n\n## Navigation\n- Survival DC 14 per 4h. Fail = hazard or madness.  \n\n## Jungle Hears\n- Passive Perception 15. Failures trigger Hunters Table.  \n\n## Hunger Clock\n- Missed rations = exhaustion. Purify water.  \n\n## Final Rule\nNever answer the voices.",
       "raw": {
-        "parent_location": "bb:location:forbidden-west-sedna"
+        "parent_location": "bb:hub:house-rules"
       }
     },
     {
-      "id": "bb:rules:jungle-weather-events",
-      "type": "rules",
+      "id": "bb:house-rules:jungle-weather-events",
+      "type": "house-rules",
       "name": "Weather Events of Sedna’s Jungle",
       "tags": [
         "rules",
@@ -1436,10 +1606,11 @@
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\jungle-weather-events.md",
       "fm": {
-        "type": "rules",
-        "id": "bb:rules:jungle-weather-events",
+        "type": "house-rules",
+        "id": "bb:house-rules:jungle-weather-events",
+        "collection": "The Deep Green",
         "name": "Weather Events of Sedna’s Jungle",
-        "parent_location": "bb:location:forbidden-west-sedna",
+        "parent_location": "bb:hub:house-rules",
         "tags": [
           "rules",
           "jungle",
@@ -1450,12 +1621,12 @@
       },
       "body_excerpt": "# Weather Events of Sedna’s Jungle\n\n## d20 Weather Event Table\n\n| d20 | Weather Event              | Effects on Travel, Danger, and Rest                                                                                               |\n| :-- | :------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- |\n| 1   | **Blistering Sun**         | Travel speed –½ hex. PCs in light armor roll CON save DC 12 or gain 1 Exhaustion.                                                 |\n| 2   | **Suffocating Humidity**   | Disadvantage on Stealth checks and any WIS (Survival) due to discomfort.                                                          |\n| 3   | **Torrential Rain**        | Visibility 20 ft. Vexir…",
       "raw": {
-        "parent_location": "bb:location:forbidden-west-sedna"
+        "parent_location": "bb:hub:house-rules"
       }
     },
     {
-      "id": "bb:Page:phased-threat-escalation",
-      "type": "Page",
+      "id": "bb:house-rules:phased-threat-escalation",
+      "type": "house-rules",
       "name": "phased-threat-escalation",
       "tags": [
         "GameMechanics",
@@ -1465,51 +1636,252 @@
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\phased-threat-escalation.md",
       "fm": {
-        "type": "Page",
-        "collections": "The Deep Green",
-        "title": "🌒 PHASED THREAT ESCALATION – The Road to the Hollow Song",
-        "description": null,
+        "type": "house-rules",
+        "id": "bb:house-rules:phased-threat-escalation",
+        "parent_location": "bb:hub:house-rules",
+        "collection": "The Deep Green",
+        "title": "Phased Threat Escalation",
+        "description": "A phased threat-progression framework for The Deep Green campaign arc. Each phase represents an escalation of danger, corruption, and environmental influence as the party approaches Vexir and the Hollow Song Temple.\n",
         "icon": null,
-        "createdAt": "2025-06-02T21:37:11.307Z",
-        "creationDate": "2025-06-02 16:37",
-        "modificationDate": "2025-06-02 16:43",
         "tags": [
           "GameMechanics",
           "LandFeatures",
           "Encounter",
           "ForgottenWind"
         ],
-        "coverImage": null
+        "coverImage": null,
+        "phases": [
+          {
+            "phase": 1,
+            "name": "Wild Jungle (Outer Hexes)",
+            "mood": "Tense, oppressive, but natural.",
+            "threats": [
+              "Predators",
+              "Curses",
+              "Old ruins",
+              "Weather"
+            ],
+            "encounters": [
+              "Beast ambushes (serpent swarms, corpse lizards)",
+              "Jungle diseases",
+              "Forgotten shrines to Sedna and false gods",
+              "Warnings carved in druidic or abyssal script"
+            ],
+            "effect": "Threats feel indifferent but deadly—nature is not yet aware of the intruders.\n"
+          },
+          {
+            "phase": 2,
+            "name": "The Encroached Zone (Mid-Jungle)",
+            "mood": "Wrongness seeps into the air—rot without flies, trees without birds, stone with veins.",
+            "trigger": "Once within three hexes of Vexir.",
+            "effects": [
+              "Normal jungle encounters shift to include cult influence and residual magic.",
+              "All Perception and Insight checks are made with disadvantage unless a light source is carried.",
+              "Pinch’s map tools start to draw symbols on their own during long rests."
+            ],
+            "encounters": [
+              "Disfigured animals with extra eyes or fused limbs.",
+              "Unborn scouts hiding in trees (silent observers).",
+              "Cult totems made from knotted hair and bone.",
+              "Whispering plants—investigating causes psychic damage.",
+              "A ruined camp of explorers who worshiped the Pretender after succumbing to madness.",
+              "Possessed beasts that act with synchronized, intelligent aggression."
+            ],
+            "effect": "The party begins to feel watched. Rest becomes less effective. Divine casters may experience ominous dreams or blocked guidance.\n"
+          },
+          {
+            "phase": 3,
+            "name": "The Hollow Grove (Temple Perimeter)",
+            "mood": "Sacrilege made manifest—the jungle is not dead, it’s listening.",
+            "trigger": "Last one to two hexes surrounding Vexir.",
+            "terrain_changes": [
+              "Twisted trees grow in impossible shapes, leaning toward the mountain.",
+              "Air is thick with droning, like a song beneath the threshold of hearing.",
+              "Sound is muffled—speech echoes wrong, music distorts.",
+              "The sun never fully penetrates the canopy, even at noon."
+            ],
+            "mechanics": [
+              "Stealth is nearly impossible due to muttering roots and noise-warping flora.",
+              "Spellcasting within this zone risks wild effects (DM may roll or apply narrative glitches).",
+              "Unnatural darkness spreads from the Temple at dusk—no mundane light can pierce it."
+            ],
+            "encounters": [
+              {
+                "category": "Cult of the Hollow Song",
+                "details": [
+                  "Malformed warlocks wielding silence magic.",
+                  "Vermin-Lord acolytes performing rituals with flesh-made instruments.",
+                  "Sacrificed Unborn bound to trees, still aware, whispering."
+                ]
+              },
+              "Hollow Echo Beasts that steal voices.",
+              "Shrines that hum if touched—channel Atropus’ will.",
+              "A welcoming party of cultists who offer to guide the PCs to the Temple—but not back."
+            ],
+            "effect": "The jungle itself becomes a weapon. The party is in a place forgotten by gods but remembered by something else.\n"
+          }
+        ],
+        "optional_mechanics": [
+          "Rite of Silence: Players may attempt a holy rite or magical silence to mask their presence—limited uses.",
+          "Sacrificial Shortcut: A mad cultist may offer a faster path in exchange for something dear.",
+          "Mutated Jungle Pathways: Trails open or close depending on party behavior— if they burn something holy, the jungle lets them pass; if they speak the name of Sedna, the vines tighten."
+        ]
       },
-      "body_excerpt": "# 🌒 PHASED THREAT ESCALATION – The Road to the Hollow Song\n\n### **🌿 Phase 1: Wild Jungle (Outer Hexes)**\n\n**Mood**: Tense, oppressive, but natural\n\n**Threats**: Predators, curses, old ruins, weather\n\n**Encounters**:\n\n- Beast ambushes (serpent swarms, corpse lizards)\n\n- Jungle diseases\n\n- Forgotten shrines to Sedna and false gods\n\n- Warnings carved in druidic or abyssal script\n\n🌀 *Effect*: Threats feel *indifferent*, but deadly—nature is not yet aware of the intruders.\n\n---\n\n### **🌘 Phase 2: The Encroached Zone (Mid-Jungle)**\n\n**Mood**: Wrongness seeps into the air—**rot without flies**, trees without birds, stone with veins.\n\n**Trigger**: Once within **3 hexes of Vexir**\n\n**Effects**:\n\n- **Normal jungle encounters shift** to include **cult influence and residual magic**\n\n- All Perception a…",
-      "raw": {}
+      "body_excerpt": "",
+      "raw": {
+        "parent_location": "bb:hub:house-rules"
+      }
     },
     {
-      "id": "bb:Page:stealth-preparation",
-      "type": "Page",
+      "id": "bb:house-rules:stealth-preparation",
+      "type": "house-rules",
       "name": "stealth-preparation",
       "tags": [
         "GameMechanics",
-        "Encounter"
+        "Encounter",
+        "Stealth",
+        "Survival",
+        "Training"
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\House Rules\\stealth-preparation.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
+        "type": "house-rules",
+        "id": "bb:house-rules:stealth-preparation",
+        "collection": "Black Brine",
+        "parent_location": "bb:hub:house-rules",
         "title": "Stealth Preparation",
-        "description": null,
+        "description": "A complete tactical guide for preparing stealth operations in the jungles of Sedna. Covers gear modifications, scent masking, movement, campsite concealment, silent combat, psychological discipline, and final readiness checklists.\n",
         "icon": null,
-        "createdAt": "2025-03-18T20:38:09.005Z",
-        "creationDate": "2025-03-18 15:38",
-        "modificationDate": "2025-03-18 15:45",
         "tags": [
           "GameMechanics",
-          "Encounter"
+          "Encounter",
+          "Stealth",
+          "Survival",
+          "Training"
         ],
-        "coverImage": null
+        "coverImage": null,
+        "overview": "Strange Bones trains operatives to vanish into the jungle—seen only when they choose to strike. This guide details practical steps and mental conditioning to achieve near-perfect stealth through preparation, discipline, and environmental awareness.\n",
+        "sections": [
+          {
+            "id": 1,
+            "name": "Gear Modifications for Maximum Stealth",
+            "description": "Techniques for reducing visibility, sound, and reflection through strategic alterations to clothing, armor, and weapons.\n",
+            "categories": [
+              {
+                "title": "Clothing & Armor Adjustments",
+                "items": [
+                  "Muted colors and camouflage using jungle moss, crushed berries, and charcoal.",
+                  "Silencing metal gear: avoid chainmail or plate; wrap all metal parts in cloth or soft leather.",
+                  "Padded footwear (moss or soft leather) to dampen footsteps.",
+                  "Secure loose items—wrap rations and supplies in waxed cloth; use gourd containers instead of metal flasks.",
+                  "Dull reflective surfaces with ash or charcoal; coat blades in blackened oil.",
+                  "Favor bows, daggers, or bone knives over firearms or heavy melee weapons."
+                ]
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Scent Masking & Suppression",
+            "description": "Predators smell before they see; masking scent is essential for survival in the deep jungle.\n",
+            "categories": [
+              {
+                "title": "Jungle Scent Techniques",
+                "items": [
+                  "Use crushed herbs, moss, or oils to cover scent; dust with damp earth or charcoal.",
+                  "Avoid perfume, strong soap, and smoke; extinguish fires carefully to prevent soot smell.",
+                  "Extreme measure: smear local animal blood to confuse predators and trackers."
+                ]
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Movement & Travel Precautions",
+            "description": "Stealth in motion—how to travel unseen and unheard through dangerous terrain.\n",
+            "categories": [
+              {
+                "title": "Tactical Movement Adjustments",
+                "items": [
+                  "Move at half speed to gain advantage on Stealth checks.",
+                  "Avoid dry leaves and twigs; step on moss or solid stone.",
+                  "Use hand signals and pre-arranged gestures for communication.",
+                  "Stay close to cover and shadows when advancing.",
+                  "Plan movement during gusts or rainfall to mask sound."
+                ]
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Campsite Stealth & Fire Discipline",
+            "description": "Proper rest practices for stealth missions; minimizing exposure while encamped.\n",
+            "categories": [
+              {
+                "title": "Safe Camping Procedures",
+                "items": [
+                  "No open flames; use buried embers or hot stones for heat.",
+                  "Choose hidden campsites within dense vegetation or between fallen logs.",
+                  "Scatter food scraps and bury waste far from camp.",
+                  "Use false camps and decoy fires to mislead pursuers."
+                ]
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Weapon & Combat Readiness for Silent Kills",
+            "description": "Combat should be fast, quiet, and decisive—noise is death.\n",
+            "categories": [
+              {
+                "title": "Silent Kill Tactics",
+                "items": [
+                  "Always strike from stealth to gain surprise.",
+                  "Neutralize loud threats or casters first.",
+                  "Use daggers, bows, and garrotes instead of firearms when possible.",
+                  "Firearms: shoot from cover, then immediately relocate.",
+                  "Employ hit-and-run tactics—strike, vanish, reappear elsewhere.",
+                  "Use thrown objects or mimic jungle sounds to distract enemies."
+                ]
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "Psychological Warfare Against the Jungle’s Hunters",
+            "description": "The jungle whispers; its predators test resolve. Survival demands mental endurance.\n",
+            "categories": [
+              {
+                "title": "Mental Fortitude & Countermeasures",
+                "items": [
+                  "Never respond to the whispering fog or disembodied voices.",
+                  "Carry fire but conceal it—predators fear light, yet fire attracts others.",
+                  "Mark paths subtly using natural markers, not carvings or chalk symbols.",
+                  "Do not stray from the group; those who walk alone in the western jungle do not return."
+                ]
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "name": "Final Checklist Before Entering the Jungle",
+            "checklist": [
+              "Armor and gear wrapped in cloth for silence.",
+              "Clothing camouflaged with mud and plant dyes.",
+              "Weapons and tools secured against clinking.",
+              "Scent masked with herbs, charcoal, and blood.",
+              "Hand signals established for communication.",
+              "Fire preparation without visible trace.",
+              "Supplies packed tightly to prevent rattling.",
+              "Final warning: The jungle watches. Do not leave tracks."
+            ]
+          }
+        ]
       },
-      "body_excerpt": "# Stealth Preparation\n\n## **1. Gear Modifications for Maximum Stealth**\n\nStrange Bones will **strip down and alter** their gear to minimize noise and visibility.\n\n### **🔹 Clothing & Armor Adjustments**\n\n✅ **Muted Colors & Camouflage**:\n\n- **Dye bright fabrics** using jungle **moss, crushed berries, or charcoal.**\n\n- Use **mud smearing & leafy coverings** to blend into the jungle.\n\n✅ **Silence Metal Armor & Weapons**:\n\n- **No chainmail or plate armor**—switch to **leather, padded armor, or cloth wrappings**.\n\n- **Wrap all buckles, weapons, and tools** in cloth, soft leather, or vine bindings to **prevent clanking.**\n\n- **Padded footwear** (softened leather or jungle moss insoles) to **reduce footstep noise.**\n\n✅ **Secure All Loose Gear**:\n\n- **Tightly wrap** rations, water skins, and suppli…",
-      "raw": {}
+      "body_excerpt": "",
+      "raw": {
+        "parent_location": "bb:hub:house-rules"
+      }
     },
     {
       "id": "bb:lore:challenge-coins",
@@ -5959,6 +6331,14 @@
       "center": false,
       "ring_index": 6,
       "source": null
+    },
+    {
+      "id": "bb:hub:house-rules",
+      "type": "hub",
+      "name": "House Rules",
+      "center": false,
+      "ring_index": 7,
+      "source": null
     }
   ],
   "edges": [
@@ -6011,56 +6391,6 @@
       "source": "bb:campaign:deep-green:vine-sanctum",
       "rel": "located_in",
       "target": "bb:location:western-jungle"
-    },
-    {
-      "source": "bb:rules:jungle-environmental-threat-level",
-      "rel": "located_in",
-      "target": "bb:location:forbidden-west-sedna"
-    },
-    {
-      "source": "bb:rules:jungle-event-threat-level",
-      "rel": "located_in",
-      "target": "bb:location:forbidden-west-sedna"
-    },
-    {
-      "source": "bb:rules:jungle-travel-phases",
-      "rel": "located_in",
-      "target": "bb:location:forbidden-west-sedna"
-    },
-    {
-      "source": "bb:rules:jungle-navigation-events",
-      "rel": "located_in",
-      "target": "bb:location:forbidden-west-sedna"
-    },
-    {
-      "source": "bb:rules:jungle-navigation",
-      "rel": "located_in",
-      "target": "bb:location:forbidden-west-sedna"
-    },
-    {
-      "source": "bb:rules:jungle-passive-threat-level",
-      "rel": "located_in",
-      "target": "bb:location:forbidden-west-sedna"
-    },
-    {
-      "source": "bb:rules:jungle-stealth",
-      "rel": "located_in",
-      "target": "bb:location:forbidden-west-sedna"
-    },
-    {
-      "source": "bb:rules:jungle-survival-training",
-      "rel": "located_in",
-      "target": "bb:location:forbidden-west-sedna"
-    },
-    {
-      "source": "bb:rules:jungle-survival",
-      "rel": "located_in",
-      "target": "bb:location:forbidden-west-sedna"
-    },
-    {
-      "source": "bb:rules:jungle-weather-events",
-      "rel": "located_in",
-      "target": "bb:location:forbidden-west-sedna"
     },
     {
       "source": "bb:item:codex-salt-shadow",
@@ -6890,6 +7220,11 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
+      "target": "bb:district:little-sedna"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
       "target": "bb:district:salt-crown"
     },
     {
@@ -6900,67 +7235,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:council-of-free-captains"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:factions",
@@ -6970,7 +7250,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:twilight-society"
+      "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:factions",
@@ -6980,17 +7260,67 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:fishermens-union"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:inquisitors-of-black-brine"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:council-of-free-captains"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:fleet:malign-crew"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7001,11 +7331,6 @@
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:skull-garden"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7025,22 +7350,27 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
+      "target": "bb:campaign:deep-green:short-cut"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
       "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:players",
@@ -7051,11 +7381,6 @@
       "source": "bb:hub:players",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:skull-garden"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:players",
@@ -7075,22 +7400,27 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
+      "target": "bb:campaign:deep-green:short-cut"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
       "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:players",
       "rel": "organizes",
       "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:items",
@@ -7101,11 +7431,6 @@
       "source": "bb:hub:items",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:skull-garden"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:items",
@@ -7125,17 +7450,72 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
+      "target": "bb:campaign:deep-green:short-cut"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 159,
+    "nodes": 160,
     "edges": 234
   }
 }
