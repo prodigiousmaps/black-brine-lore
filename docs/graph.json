@@ -2486,8 +2486,8 @@
       }
     },
     {
-      "id": "bb:organization:council-of-free-captains",
-      "type": "organization",
+      "id": "bb:faction:council-of-free-captains",
+      "type": "faction",
       "name": "Council of Free Captains",
       "tags": [
         "pirates",
@@ -2498,7 +2498,7 @@
       ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Organizations\\council-of-free-captains.md",
       "fm": {
-        "type": "organization",
+        "type": "faction",
         "name": "Council of Free Captains",
         "location": "Black Brine - various districts, primarily Salt Crown and Crosswater taverns",
         "tags": [
@@ -2558,13 +2558,13 @@
       }
     },
     {
-      "id": "bb:organization:fishermens-union",
-      "type": "organization",
+      "id": "bb:faction:fishermens-union",
+      "type": "faction",
       "name": "Fisherman's Union of Black Brine",
       "tags": [],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Organizations\\fishermens-union.md",
       "fm": {
-        "type": "organization",
+        "type": "faction",
         "name": "Fisherman's Union of Black Brine",
         "factions": [
           {
@@ -6885,7 +6885,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:blackmire"
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
@@ -6895,7 +6895,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:hub:districts",
@@ -6905,32 +6905,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
+      "target": "bb:district:little-sedna"
     },
     {
       "source": "bb:hub:factions",
@@ -6940,17 +6920,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:twilight-society"
+      "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:factions",
@@ -6960,7 +6930,17 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:fishermens-union"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
     },
     {
       "source": "bb:hub:factions",
@@ -6970,7 +6950,42 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:inquisitors-of-black-brine"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:council-of-free-captains"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hellion-fleet"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widow-makers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6980,17 +6995,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7005,12 +7010,17 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
+      "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7020,7 +7030,12 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
       "source": "bb:hub:players",
@@ -7030,17 +7045,7 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
       "source": "bb:hub:players",
@@ -7055,12 +7060,17 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
+      "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
     },
     {
       "source": "bb:hub:players",
@@ -7070,7 +7080,12 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
       "source": "bb:hub:items",
@@ -7080,17 +7095,7 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
       "source": "bb:hub:items",
@@ -7105,12 +7110,17 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
+      "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
     },
     {
       "source": "bb:hub:items",
@@ -7120,12 +7130,12 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
+      "target": "bb:campaign:deep-green:short-cut"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 159,
-    "edges": 232
+    "edges": 234
   }
 }
