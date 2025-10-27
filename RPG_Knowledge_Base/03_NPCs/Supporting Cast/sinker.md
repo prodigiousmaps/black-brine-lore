@@ -8,7 +8,7 @@ summary: >
 location: bb:location:sinkers-curiosities
 factions: []
 allies: []
-rivals: [ bb:npc:the-noose ]
+rivals: []
 appears_in:
   - bb:location:sinkers-curiosities
 tags: [salt-crown, shopkeeper, relics, oddities]

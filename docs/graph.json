@@ -6836,7 +6836,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:districts",
@@ -6846,12 +6846,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:blackmire"
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
@@ -6861,17 +6856,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
+      "target": "bb:district:mistwalk"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:factions",
@@ -6881,12 +6871,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
+      "target": "bb:faction:union-of-lamp-lighters"
     },
     {
       "source": "bb:hub:factions",
@@ -6896,22 +6881,17 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
+      "target": "bb:faction:twilight-society"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
+      "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:widowmakers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
+      "target": "bb:fleet:miasma"
     },
     {
       "source": "bb:hub:factions",
@@ -6921,7 +6901,32 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:twilight-society"
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hellion-fleet"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widowmakers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6936,7 +6941,12 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6946,7 +6956,12 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6957,21 +6972,6 @@
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
     }
   ],
   "unresolved": [],
