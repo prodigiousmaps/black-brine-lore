@@ -1,5 +1,5 @@
 ---
-type: player_character
+type: player-character
 id: bb:pc:pinch
 name: Pinch
 player: Stu

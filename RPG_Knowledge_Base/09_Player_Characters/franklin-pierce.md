@@ -1,5 +1,5 @@
 ---
-type: player_character
+type: player-character
 id: bb:pc:franklin
 name: Franklin
 player: Cole

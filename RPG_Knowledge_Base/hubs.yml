@@ -8,12 +8,6 @@ hubs:
     connects:
       by_type: [district]
 
-  - id: bb:hub:fleets
-    name: Fleets
-    ring_index: 1
-    connects:
-      by_type: [fleet]
-
   - id: bb:hub:factions
     name: Factions
     ring_index: 2
@@ -38,7 +32,7 @@ hubs:
     name: Items
     ring_index: 6
     connects:
-      by_type: [item]
+      by_type: [items]
 
   - id: bb:hub:house-rules
     name: House Rules
