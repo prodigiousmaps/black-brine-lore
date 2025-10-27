@@ -9,5 +9,8 @@ allies: []
 rivals: []
 appears_in:
   - bb:location:powder-keg-tavern
+connections:
+  - linked_to: bb:location:powder-keg-tavern
+    relation: proprietor
 tags: [powder-keg, barkeep, dwarf, explosives]
----
+--- 
