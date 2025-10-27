@@ -47,6 +47,7 @@
     "patches\\three-tooth-mavin.yml",
     "patches\\yurra-the-mireborn.yml",
     "patches\\code-of-black-brine.yml",
+    "patches\\golden-gull.yml",
     "patches\\lending-house.yml",
     "patches\\red-door-alchemy.yml",
     "patches\\ruperts-rest.yml"
@@ -1656,6 +1657,15 @@
     },
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\harlow-blastcap-grint.md",
+      "field": "location",
+      "value": "bb:location:powder-keg-tavern",
+      "resolved_id": "bb:location:powder-keg-tavern",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\harlow-blastcap-grint.md",
       "field": "appears_in",
       "value": "bb:location:powder-keg-tavern",
       "resolved_id": "bb:location:powder-keg-tavern",
@@ -2377,10 +2387,10 @@
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\golden-gull.md",
       "field": "parent_location",
-      "value": "bb:city:city-of-black-brine",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "value": "Black Brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "alias",
+      "score": 1.0,
       "note": ""
     },
     {

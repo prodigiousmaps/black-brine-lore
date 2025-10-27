@@ -2537,9 +2537,9 @@
       }
     },
     {
-      "id": "bb:Page:cult---forgotten-wind",
+      "id": "bb:Page:cult-forgotten-wind",
       "type": "Page",
-      "name": "Cult - Forgotten Wind",
+      "name": "cult-forgotten-wind",
       "tags": [
         "NPC",
         "legends",
@@ -2549,7 +2549,7 @@
         "Chapter1",
         "ForgottenWind"
       ],
-      "source": "RPG_Knowledge_Base\\04_Factions\\Religious\\Cult - Forgotten Wind.md",
+      "source": "RPG_Knowledge_Base\\04_Factions\\Religious\\cult-forgotten-wind.md",
       "fm": {
         "type": "Page",
         "collections": "Black Brine",
@@ -3709,18 +3709,41 @@
       }
     },
     {
-      "id": "bb:page:harlow-blastcap-grint",
-      "type": "page",
-      "name": "harlow-blastcap-grint",
-      "tags": [],
+      "id": "bb:npc:harlow-blastcap-grint",
+      "type": "npc",
+      "name": "Harlow \"Blastcap\" Grint",
+      "tags": [
+        "powder-keg",
+        "goblin",
+        "server",
+        "explosives"
+      ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\harlow-blastcap-grint.md",
       "fm": {
+        "type": "npc",
+        "location": "bb:location:powder-keg-tavern",
+        "name": "Harlow \"Blastcap\" Grint",
+        "summary": "Dwarvin owner of the Powder Keg Tavern",
+        "parent-location": "bb:location:powder-keg-tavern",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
         "appears_in": [
           "bb:location:powder-keg-tavern"
+        ],
+        "tags": [
+          "powder-keg",
+          "goblin",
+          "server",
+          "explosives"
         ]
       },
       "body_excerpt": "",
       "raw": {
+        "location": "bb:location:powder-keg-tavern",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
         "appears_in": [
           "bb:location:powder-keg-tavern"
         ]
@@ -4281,6 +4304,7 @@
         "name": "“Slug”",
         "summary": "Goblin ex-gunner; mixes the lethal “Blunderbuss” cocktail and stabs unruly patrons.",
         "location": "bb:location:powder-keg-tavern",
+        "parent-location": "bb:location:powder-keg-tavern",
         "factions": [],
         "allies": [],
         "rivals": [],
@@ -5419,17 +5443,72 @@
       }
     },
     {
-      "id": "bb:page:golden-gull",
-      "type": "page",
-      "name": "golden-gull",
-      "tags": [],
+      "id": "bb:location:golden-gull",
+      "type": "location",
+      "name": "The Golden Gull",
+      "tags": [
+        "tavern",
+        "upscale",
+        "music",
+        "intrigue",
+        "crosswater",
+        "social hub"
+      ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\golden-gull.md",
       "fm": {
-        "parent_location": "bb:city:city-of-black-brine"
+        "parent_location": "bb:city:black-brine",
+        "type": "location",
+        "name": "The Golden Gull",
+        "location_type": "tavern",
+        "district": "Crosswater",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "tavern",
+          "upscale",
+          "music",
+          "intrigue",
+          "crosswater",
+          "social hub"
+        ],
+        "overview": "The Golden Gull is an upscale tavern nestled between warehouses and sea-captain estates in the Crosswater District. Known for its fine drink, softer lighting, and whispered dealings, it serves merchants, smugglers, and off-duty fleet officers looking for luxury without judgment.\n",
+        "appearance": "Lanterns hang from curved brass arms, casting golden pools of light across polished wood and sea-glass windows. A mounted gull in mid-flight—wings spread and dipped in gold leaf—hangs from the ceiling. Sea breezes curl through tall shuttered windows.\n",
+        "role_in_society": "The Golden Gull is where Crosswater's deals are struck over clinking glasses and songs carry rumors farther than sails. It's a favored neutral ground for mid-tier captains, council informants, and discreet power brokers. Spies, singers, and smooth-tongued fixers make it their haunt.\n",
+        "services": [
+          "Fine wines, rare spirits, and imported liqueurs",
+          "Private balcony rooms with soundproofing",
+          "Live music from renowned local performers",
+          "Discreet table service for clandestine meetings"
+        ],
+        "notable_features": [
+          {
+            "The Gilded Stage": "features a rotating list of performers and bardic illusions"
+          },
+          {
+            "The Whisper Room": "private booth enchanted for eavesdropping prevention"
+          },
+          {
+            "Tideglass Bar": "a polished surface that reflects the sea, but not your face"
+          }
+        ],
+        "associated_npcs": [
+          "Lira Vott (proprietor, former bard with secrets and debts)",
+          "Baelin the Quiet (head waiter, mute but dangerously observant)",
+          "Kest (house performer, rumored to be a spy for the Butchers or Rosy)"
+        ],
+        "rumors": [
+          "The Whisper Room once hosted a meeting between a god’s avatar and a pirate queen",
+          "The wine cellar connects to a tunnel system under Crosswater",
+          "Lira keeps blackmail documents behind the bar—sealed in a wine bottle"
+        ],
+        "secrets": [
+          "A rival to the Captain's Club in quiet influence",
+          "Funded in part by the Twilight Society"
+        ]
       },
-      "body_excerpt": "---\ntype: location\nname: The Golden Gull\nlocation_type: tavern\ndistrict: Crosswater\nparent_location: Black Brine\nmaps_available: false\nmap_files: []\ntags: [tavern, upscale, music, intrigue, crosswater, social hub]\n\noverview: >\n  The Golden Gull is an upscale tavern nestled between warehouses and sea-captain estates in the Crosswater District. Known for its fine drink, softer lighting, and whispered dealings, it serves merchants, smugglers, and off-duty fleet officers looking for luxury without judgment.\n\nappearance: >\n  Lanterns hang from curved brass arms, casting golden pools of light across polished wood and sea-glass windows. A mounted gull in mid-flight—wings spread and dipped in gold leaf—hangs from the ceiling. Sea breezes curl through tall shuttered windows.\n\nrole_in_society: >\n  T…",
+      "body_excerpt": "",
       "raw": {
-        "parent_location": "bb:city:city-of-black-brine"
+        "parent_location": "bb:city:black-brine"
       }
     },
     {
@@ -6464,6 +6543,11 @@
       "target": "bb:city:black-brine"
     },
     {
+      "source": "bb:npc:aldo-vance",
+      "rel": "located_in",
+      "target": "bb:location:golden-gull"
+    },
+    {
       "source": "bb:npc:brin",
       "rel": "located_in",
       "target": "bb:location:red-door-alchemy"
@@ -6692,6 +6776,11 @@
       "source": "bb:location:gentle-rest-inn",
       "rel": "located_in",
       "target": "bb:district:salt-crown"
+    },
+    {
+      "source": "bb:location:golden-gull",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
     },
     {
       "source": "bb:location:house-of-questions",
@@ -6934,6 +7023,11 @@
       "target": "bb:npc:gun-deck-rosy"
     },
     {
+      "source": "bb:npc:aldo-vance",
+      "rel": "rival_of",
+      "target": "bb:npc:harlow-blastcap-grint"
+    },
+    {
       "source": "bb:npc:brin",
       "rel": "ally_of",
       "target": "bb:npc:maelia-gorse"
@@ -7096,6 +7190,11 @@
     {
       "source": "bb:npc:aldo-vance",
       "rel": "appears_in",
+      "target": "bb:location:golden-gull"
+    },
+    {
+      "source": "bb:npc:aldo-vance",
+      "rel": "appears_in",
       "target": "bb:story:tavern-rivalry"
     },
     {
@@ -7246,12 +7345,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:little-sedna"
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:districts",
@@ -7261,7 +7355,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:blackmire"
+      "target": "bb:district:little-sedna"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:hub:districts",
@@ -7281,27 +7380,17 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:twilight-society"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
+      "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:factions",
@@ -7311,12 +7400,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:council-of-free-captains"
+      "target": "bb:faction:fishermens-union"
     },
     {
       "source": "bb:hub:factions",
@@ -7331,7 +7415,17 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
+      "target": "bb:faction:council-of-free-captains"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:twilight-society"
     },
     {
       "source": "bb:hub:factions",
@@ -7344,29 +7438,9 @@
       "target": "bb:faction:butchers"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
+      "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7376,12 +7450,12 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7391,12 +7465,42 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
       "target": "bb:pc:sy"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:pc:andromeda"
     },
     {
       "source": "bb:hub:players",
@@ -7409,9 +7513,24 @@
       "target": "bb:pc:pinch"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:pc:andromeda"
+      "target": "bb:item:ruperts-welcome-speech"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:codex-salt-shadow"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:apertures-theory"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:deep-green-supplies"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7421,7 +7540,7 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
+      "target": "bb:house-rules:jungle-survival"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7431,12 +7550,17 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
+      "target": "bb:house-rules:jungle-stealth"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
+      "target": "bb:house-rules:jungle-environmental-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:firearms-training-mechanics"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7446,22 +7570,22 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:jungle-event-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-weather-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:stealth-preparation"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-stealth"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
       "target": "bb:house-rules:jungle-survival-training"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7472,16 +7596,11 @@
       "source": "bb:hub:house-rules",
       "rel": "organizes",
       "target": "bb:house-rules:phased-threat-escalation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 159,
-    "edges": 224
+    "edges": 232
   }
 }
