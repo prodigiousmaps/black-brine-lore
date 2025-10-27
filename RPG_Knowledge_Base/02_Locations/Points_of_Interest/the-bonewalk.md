@@ -29,4 +29,4 @@ A narrow pier stitched from shipwreck timbers and whale bone. It groans like a d
 - Bone-carvings are a crude ward—removing them invites the sea in.
 
 # Connected Locations
-- **bb:district:salt-crown**
+- **bb:district:crosswater**
