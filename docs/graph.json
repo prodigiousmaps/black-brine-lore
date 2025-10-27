@@ -3339,41 +3339,18 @@
       }
     },
     {
-      "id": "bb:npc:harlow-blastcap-grint",
-      "type": "npc",
-      "name": "Harlow “Blastcap” Grint",
-      "tags": [
-        "powder-keg",
-        "barkeep",
-        "dwarf",
-        "explosives"
-      ],
+      "id": "bb:page:harlow-blastcap-grint",
+      "type": "page",
+      "name": "harlow-blastcap-grint",
+      "tags": [],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\harlow-blastcap-grint.md",
       "fm": {
-        "type": "npc",
-        "id": "bb:npc:harlow-blastcap-grint",
-        "name": "Harlow “Blastcap” Grint",
-        "summary": "Dwarven ex-gunner turned barkeep; ends fights with smoke bombs and stronger booze.",
-        "parent_location": "bb:location:powder-keg-tavern",
-        "factions": [],
-        "allies": [],
-        "rivals": [],
         "appears_in": [
           "bb:location:powder-keg-tavern"
-        ],
-        "tags": [
-          "powder-keg",
-          "barkeep",
-          "dwarf",
-          "explosives"
         ]
       },
       "body_excerpt": "",
       "raw": {
-        "parent_location": "bb:location:powder-keg-tavern",
-        "factions": [],
-        "allies": [],
-        "rivals": [],
         "appears_in": [
           "bb:location:powder-keg-tavern"
         ]
@@ -5800,9 +5777,44 @@
           "intrigue",
           "rivalry"
         ],
-        "summary": "# Overview Black Brine’s underworld is split between two establishments: the **Golden Gull**, hub of wealth and politics, and the **Powder Keg Tavern**, ruled by might and chaos. Their feud fuels constant intrigue."
+        "summary": "# Overview Black Brine’s underworld is split between two establishments: the **Golden Gull**, hub of wealth and politics, and the **Powder Keg Tavern**, ruled by might and chaos. Their feud fuels constant intrigue.",
+        "connections": [
+          {
+            "linked_to": "bb:location:golden-gull",
+            "relation": "rival establishment"
+          },
+          {
+            "linked_to": "bb:location:powder-keg-tavern",
+            "relation": "rival establishment"
+          }
+        ],
+        "overview": "Black Brine’s underworld is split between two establishments: the **Golden Gull**, hub of wealth and politics, and the **Powder Keg Tavern**, ruled by might and chaos. Their feud fuels constant intrigue.\n",
+        "core_rivalry": [
+          "Golden Gull: Wealth, influence, assassins, and politics.",
+          "Powder Keg: Raw strength, survival, mercenaries, and firepower.",
+          "Each tavern vies for dominance in Black Brine’s underworld."
+        ],
+        "key_figures": [
+          {
+            "Aldo Vance (Golden Gull Owner)": "Sees Blastcap as an uneducated brute."
+          },
+          {
+            "Harlow “Blastcap” Grint (Powder Keg Owner)": "Sees Aldo as a backstabbing snake."
+          },
+          "Former allies turned bitter enemies after a smuggling deal soured."
+        ],
+        "ongoing_conflicts": [
+          "King’s Coin Night: Hosting the annual Captain’s Council drinking night grants prestige; both taverns sabotage each other to win.",
+          "Lost Shipment Incident: Stolen dwarven powder ended up in the Golden Gull, enraging Blastcap.",
+          "Murder in the Gull: A pirate captain poisoned; suspicion falls on a Powder Keg patron."
+        ],
+        "adventure_hooks": [
+          "PCs caught between Aldo and Blastcap’s competing jobs.",
+          "A hidden third party fans the flames of the feud.",
+          "An all-out tavern war erupts, forcing the PCs to choose sides—or stop it."
+        ]
       },
-      "body_excerpt": "# Overview\nBlack Brine’s underworld is split between two establishments: the **Golden Gull**, hub of wealth and politics, and the **Powder Keg Tavern**, ruled by might and chaos. Their feud fuels constant intrigue.\n\n# The Core Rivalry\n- **Golden Gull**: Wealth, influence, assassins, and politics.  \n- **Powder Keg**: Raw strength, survival, mercenaries, and firepower.  \n- Each tavern vies for dominance in Black Brine’s underworld.  \n\n# Key Figures\n- **Aldo Vance (Golden Gull Owner):** Sees Blastcap as an uneducated brute.  \n- **Harlow “Blastcap” Grint (Powder Keg Owner):** Sees Aldo as a backstabbing snake.  \n- Former allies turned bitter enemies after a smuggling deal soured.  \n\n# Ongoing Conflicts\n- **King’s Coin Night:** Hosting the annual Captain’s Council drinking night grants prestige…",
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -6561,11 +6573,6 @@
       "target": "bb:npc:gun-deck-rosy"
     },
     {
-      "source": "bb:npc:aldo-vance",
-      "rel": "rival_of",
-      "target": "bb:npc:harlow-blastcap-grint"
-    },
-    {
       "source": "bb:npc:brin",
       "rel": "ally_of",
       "target": "bb:npc:maelia-gorse"
@@ -6873,12 +6880,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:blackmire"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:crosswater"
+      "target": "bb:district:little-sedna"
     },
     {
       "source": "bb:hub:districts",
@@ -6888,7 +6890,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
+      "target": "bb:district:mistwalk"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
@@ -6898,17 +6905,22 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
+      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:factions",
@@ -6923,22 +6935,17 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
     },
     {
       "source": "bb:hub:factions",
@@ -6948,32 +6955,27 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
+      "target": "bb:fleet:gilded-rats"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:twilight-society"
+      "target": "bb:faction:union-of-lamp-lighters"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
+      "target": "bb:faction:gutterlings"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6988,17 +6990,12 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
       "target": "bb:campaign:deep-green:short-cut"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:campaign:dead-sons-narrative"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7008,22 +7005,27 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:fallen-city-memory-palace"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
+      "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:players",
@@ -7038,17 +7040,12 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
       "target": "bb:campaign:deep-green:short-cut"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:campaign:dead-sons-narrative"
     },
     {
       "source": "bb:hub:players",
@@ -7058,22 +7055,27 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
       "target": "bb:campaign:fallen-city-memory-palace"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:players",
       "rel": "organizes",
       "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
+      "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:items",
@@ -7088,17 +7090,12 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
       "target": "bb:campaign:deep-green:short-cut"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:campaign:dead-sons-narrative"
     },
     {
       "source": "bb:hub:items",
@@ -7108,12 +7105,22 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
       "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-structure"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 159,
-    "edges": 232
+    "edges": 231
   }
 }
