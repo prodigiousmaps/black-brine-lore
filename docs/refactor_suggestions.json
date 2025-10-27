@@ -2276,6 +2276,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\chase-gun-condos.md",
+      "field": "parent_location",
+      "value": "bb:district:salt-crown",
+      "resolved_id": "bb:district:salt-crown",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\city-hull.md",
       "field": "parent_location",
       "value": "bb:district:mistwalk",

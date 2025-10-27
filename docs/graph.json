@@ -22,28 +22,24 @@
       "raw": {}
     },
     {
-      "id": "bb:Page:rupert-s-welcome-speech",
-      "type": "Page",
-      "name": "Rupert_s Welcome Speech",
+      "id": "bb:item:ruperts-welcome-speech",
+      "type": "item",
+      "name": "ruperts-welcome-speech",
       "tags": [
         "CampaignHistory"
       ],
-      "source": "RPG_Knowledge_Base\\01_World_Lore\\Rupert_s Welcome Speech.md",
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\ruperts-welcome-speech.md",
       "fm": {
-        "type": "Page",
+        "type": "item",
         "collections": "Past Campaigns",
         "title": "Rupert's Welcome Speech",
-        "description": null,
-        "icon": null,
-        "createdAt": "2025-08-22T04:17:29.464Z",
-        "creationDate": "2025-08-21 23:17",
-        "modificationDate": "2025-08-21 23:24",
+        "parent-location": "bb:npc:rupert-richthorn",
         "tags": [
           "CampaignHistory"
         ],
         "coverImage": null
       },
-      "body_excerpt": "# Rupert's Welcome Speech\n\nI am Rupert Richthorn, yes THEE Rupert Richthorn, and you all are unemployed but I hope to change your fortunes. Some of you come highly recommended and others of you...do not. In fact, some of you appear to have left no familial or social footprint anywhere. However, your breeding, or inbreeding, is no concern of mine.  What is of concern are your capabilities and your appreciation of wealth and opportunity\n\nAs you may know (if you have half a brain and a nose for rot), the land is awash in foul magics and mages my friends are the worst bunch of megalomaniacal bastards faerun has to offer. In fact I would venture to say that Wizards rank among the most self-interested, miserable, cheating, sanctimonious and gratuitously self-aggrandizing shit stains you’ll ever …",
+      "body_excerpt": "# Rupert's Welcome Speech\n\nI am Rupert Richthorn, yes THEE Rupert Richthorn, and you all are unemployed but I hope to change your fortunes. Some of you come highly recommended and others of you...do not. In fact, some of you appear to have left no familial or social footprint anywhere. However, your breeding, or inbreeding, is no concern of mine. What is of concern are your capabilities and your appreciation of wealth and opportunity\n\nAs you may know (if you have half a brain and a nose for rot), the land is awash in foul magics and mages my friends are the worst bunch of megalomaniacal bastards faerun has to offer. In fact I would venture to say that Wizards rank among the most self-interested, miserable, cheating, sanctimonious and gratuitously self-aggrandizing shit stains you’ll ever m…",
       "raw": {}
     },
     {
@@ -87,7 +83,7 @@
     },
     {
       "id": "bb:pc:andromeda",
-      "type": "player_character",
+      "type": "player-character",
       "name": "Andromeda",
       "tags": [
         "druid",
@@ -99,7 +95,7 @@
       ],
       "source": "RPG_Knowledge_Base\\09_Player_Characters\\andromida.md",
       "fm": {
-        "type": "player_character",
+        "type": "player-character",
         "id": "bb:pc:andromeda",
         "name": "Andromeda",
         "player": "Sara",
@@ -220,7 +216,7 @@
     },
     {
       "id": "bb:pc:franklin",
-      "type": "player_character",
+      "type": "player-character",
       "name": "Franklin",
       "tags": [
         "human",
@@ -232,7 +228,7 @@
       ],
       "source": "RPG_Knowledge_Base\\09_Player_Characters\\franklin-pierce.md",
       "fm": {
-        "type": "player_character",
+        "type": "player-character",
         "id": "bb:pc:franklin",
         "name": "Franklin",
         "player": "Cole",
@@ -287,7 +283,7 @@
     },
     {
       "id": "bb:pc:pinch",
-      "type": "player_character",
+      "type": "player-character",
       "name": "Pinch",
       "tags": [
         "deep-gnome",
@@ -299,7 +295,7 @@
       ],
       "source": "RPG_Knowledge_Base\\09_Player_Characters\\pinch.md",
       "fm": {
-        "type": "player_character",
+        "type": "player-character",
         "id": "bb:pc:pinch",
         "name": "Pinch",
         "player": "Stu",
@@ -354,7 +350,7 @@
     },
     {
       "id": "bb:pc:sy",
-      "type": "player_character",
+      "type": "player-character",
       "name": "Syltorin",
       "tags": [
         "warlock",
@@ -366,7 +362,7 @@
       ],
       "source": "RPG_Knowledge_Base\\09_Player_Characters\\sy.md",
       "fm": {
-        "type": "player_character",
+        "type": "player-character",
         "id": "bb:pc:sy",
         "name": "Syltorin",
         "nickname": "Sy",
@@ -2030,6 +2026,7 @@
       "fm": {
         "type": "lore",
         "id": "bb:lore:journal-fragment-viii",
+        "parent-location": "bb:campaign:deep-green:jungle-camp",
         "name": "Journal Fragment VIII",
         "summary": "A damaged fragment of a larger explorer’s journal, containing cryptic notes and half-legible thoughts from Sedna’s jungle.",
         "tags": [
@@ -2080,8 +2077,8 @@
       }
     },
     {
-      "id": "bb:rules:apertures-theory",
-      "type": "rules",
+      "id": "bb:item:apertures-theory",
+      "type": "item",
       "name": "Theory on the Workings of Apertures",
       "tags": [
         "rules",
@@ -2091,9 +2088,10 @@
       ],
       "source": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\theory-on-the-workings-of-apertures.md",
       "fm": {
-        "type": "rules",
-        "id": "bb:rules:apertures-theory",
+        "type": "item",
+        "id": "bb:item:apertures-theory",
         "name": "Theory on the Workings of Apertures",
+        "parent-location": "bb:npc:rupert-richthorn",
         "summary": "Arcane treatise on magical apertures that pool spell slots among linked casters. Details attunement, pooling mechanics, and experimental configurations.\n",
         "tags": [
           "rules",
@@ -5015,14 +5013,40 @@
       }
     },
     {
-      "id": "bb:page:chase-gun-condos",
-      "type": "page",
-      "name": "chase-gun-condos",
-      "tags": [],
+      "id": "bb:location:chase-gun-condos",
+      "type": "location",
+      "name": "Chase Gun Condos",
+      "tags": [
+        "salt-crown",
+        "residential",
+        "luxury",
+        "pirate-elite",
+        "condos"
+      ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\chase-gun-condos.md",
-      "fm": {},
+      "fm": {
+        "type": "location",
+        "id": "bb:location:chase-gun-condos",
+        "name": "Chase Gun Condos",
+        "parent_location": "bb:district:salt-crown",
+        "location_type": "residential",
+        "population": "~40 residents",
+        "government": "private ownership",
+        "building steward": "Crank",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "salt-crown",
+          "residential",
+          "luxury",
+          "pirate-elite",
+          "condos"
+        ]
+      },
       "body_excerpt": "# Overview\nA lavish multi-tiered residence carved from an old artillery barracks. Cannons now serve as décor in courtyards where captains and quartermasters buy prestige as much as privacy.\n\n# Geography\nUphill from the Salt Crown market with balconies over the harbor; fortified timber-and-stone frame.\n\n# Notable Features\n- Private guard & doorman (retired bosun “Crank”)\n- Rooftop watch deck for spotting fleet arrivals\n- Courtyard well; cannon-fountain centerpiece\n\n# Demographics\nSuccessful pirates, retired smugglers, wealthy merchants tied to fleet politics.\n\n# Culture & Daily Life\nQuiet competition in ostentation; gossip spreads balcony-to-balcony. Duels banned on premises.\n\n# Secrets (DM Only)\nA panic room from the barracks era connects to a hidden tunnel. Crank’s “logs” of comings/going…",
-      "raw": {}
+      "raw": {
+        "parent_location": "bb:district:salt-crown"
+      }
     },
     {
       "id": "bb:location:city-hull",
@@ -6293,14 +6317,6 @@
       "source": null
     },
     {
-      "id": "bb:hub:fleets",
-      "type": "hub",
-      "name": "Fleets",
-      "center": false,
-      "ring_index": 1,
-      "source": null
-    },
-    {
       "id": "bb:hub:factions",
       "type": "hub",
       "name": "Factions",
@@ -6456,6 +6472,11 @@
       "source": "bb:npc:chef-gellard-dumarque",
       "rel": "located_in",
       "target": "bb:location:ruperts-rest"
+    },
+    {
+      "source": "bb:npc:crank",
+      "rel": "located_in",
+      "target": "bb:location:chase-gun-condos"
     },
     {
       "source": "bb:npc:cutty",
@@ -6616,6 +6637,11 @@
       "source": "bb:location:chain-wharf",
       "rel": "located_in",
       "target": "bb:district:keelhauls"
+    },
+    {
+      "source": "bb:location:chase-gun-condos",
+      "rel": "located_in",
+      "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:location:city-hull",
@@ -7083,6 +7109,11 @@
       "target": "bb:location:ruperts-rest"
     },
     {
+      "source": "bb:npc:crank",
+      "rel": "appears_in",
+      "target": "bb:location:chase-gun-condos"
+    },
+    {
       "source": "bb:npc:cutty",
       "rel": "appears_in",
       "target": "bb:location:cuttys-blades"
@@ -7215,7 +7246,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:salt-crown"
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:hub:districts",
@@ -7225,7 +7256,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
+      "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:hub:districts",
@@ -7235,7 +7266,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
@@ -7245,7 +7276,37 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:fleet:hellion-fleet"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:fishermens-union"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widow-makers"
     },
     {
       "source": "bb:hub:factions",
@@ -7265,11 +7326,6 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:fleet:gilded-rats"
     },
     {
@@ -7280,32 +7336,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:faction:inquisitors-of-black-brine"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:twilight-society"
     },
     {
       "source": "bb:hub:factions",
@@ -7315,7 +7346,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:campaign:fallen-city-memory-palace"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7325,27 +7356,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
       "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7363,59 +7374,44 @@
       "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:item:codex-salt-shadow"
+      "target": "bb:campaign:dead-sons-structure"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:item:deep-green-supplies"
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
-      "source": "bb:hub:house-rules",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation-events"
+      "target": "bb:campaign:deep-green:short-cut"
     },
     {
-      "source": "bb:hub:house-rules",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival-training"
+      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
-      "source": "bb:hub:house-rules",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
+      "target": "bb:pc:sy"
     },
     {
-      "source": "bb:hub:house-rules",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
+      "target": "bb:pc:franklin"
     },
     {
-      "source": "bb:hub:house-rules",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
+      "target": "bb:pc:pinch"
     },
     {
-      "source": "bb:hub:house-rules",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:house-rules:stealth-preparation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-passive-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
+      "target": "bb:pc:andromeda"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7425,7 +7421,32 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:jungle-environmental-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:firearms-training-mechanics"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-passive-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:stealth-preparation"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7435,12 +7456,32 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival-training"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-event-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:phased-threat-escalation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-weather-events"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 160,
-    "edges": 219
+    "nodes": 159,
+    "edges": 224
   }
 }
