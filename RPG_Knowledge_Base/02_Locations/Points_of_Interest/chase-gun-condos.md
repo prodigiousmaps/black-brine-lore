@@ -5,7 +5,8 @@ name: Chase Gun Condos
 parent_location: bb:district:salt-crown
 location_type: residential
 population: ~40 residents
-government: private ownership (building steward: Crank)
+government: private ownership 
+building steward: Crank
 maps_available: false
 map_files: []
 tags: [salt-crown, residential, luxury, pirate-elite, condos]
