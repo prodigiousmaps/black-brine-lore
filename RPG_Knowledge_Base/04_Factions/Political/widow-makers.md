@@ -28,7 +28,7 @@ portrait: [assets/fleets/widow-makers.png]
 - precise assassination
 
 # Reputation 
-No one survives a Widowmaker attack—except one, to spread the legend
+No one survives a Widow Maker attack—except one, to spread the legend
 
 # Specialties
 - Night raids
