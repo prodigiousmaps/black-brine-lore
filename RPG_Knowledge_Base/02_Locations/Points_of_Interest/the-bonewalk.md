@@ -2,7 +2,7 @@
 type: location
 id: bb:location:the-bonewalk
 name: The Bonewalk
-parent_location: bb:district:salt-crown
+parent_location: bb:district:crosswater
 location_type: pier
 population: sparse (fishers, smugglers)
 government: none
