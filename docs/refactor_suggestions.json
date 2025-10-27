@@ -172,10 +172,10 @@
     {
       "path": "RPG_Knowledge_Base\\09_Player_Characters\\pinch.md",
       "field": "location",
-      "value": "bb:city:black-brine",
-      "resolved_id": "bb:city:black-brine",
-      "method": "id",
-      "score": 1.0,
+      "value": "bb:players",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
@@ -846,11 +846,29 @@
     },
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\deep-green-supplies.md",
+      "field": "parent_location",
+      "value": "bb:pc:pinch",
+      "resolved_id": "bb:pc:pinch",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\deep-green-supplies.md",
       "field": "appears_in",
       "value": "bb:story:encounter-2-deep-green",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\final-verse.md",
+      "field": "parent_location",
+      "value": "bb:pc:pinch",
+      "resolved_id": "bb:pc:pinch",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {

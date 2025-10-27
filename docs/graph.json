@@ -308,7 +308,7 @@
         "background": "Scholar",
         "alignment": "Neutral",
         "level": 8,
-        "location": "bb:city:black-brine",
+        "location": "bb:players",
         "appears_in": [
           "bb:location:ruperts-rest",
           "bb:story:rogue-wave"
@@ -333,7 +333,7 @@
       },
       "body_excerpt": "# Description\nSmall, wiry frame; dusty-gray skin; wild white shock of hair; ink-black eyes. Patchwork leathers over scholar’s robes, magnifying spectacles, satchel stained with ink and maps.\n\n# Personality\n- Obsessively curious about written language; values cleverness over strength.  \n- Ideal: “The world is a puzzle—every riddle has a key.”  \n- Bond: His journal of maps and lore is life itself.  \n- Flaw: Risks everything for knowledge or rare texts.\n\n# Backstory\nShunned by his folk for loving script over stone, he found a place topside among thieves and scholars who prized his hand and his mind.\n\n# Recent History\n- Escaped shipboard imprisonment with Sy and Franklin.  \n- Survived a ruin of Shar; bargained with a minotaur named Ruben.  \n- Helped seize a mastless, planar ship; now bound for…",
       "raw": {
-        "location": "bb:city:black-brine",
+        "location": "bb:players",
         "allies": [
           "bb:npc:rupert-richthorn",
           "bb:pc:franklin-pierce",
@@ -1576,6 +1576,7 @@
       "fm": {
         "type": "item",
         "id": "bb:item:deep-green-supplies",
+        "parent_location": "bb:pc:pinch",
         "name": "Deep Green Supplies",
         "summary": "A merchant of exotic poisons, toxins, and alchemical reagents within Black Brine’s warrens.",
         "tags": [
@@ -1590,6 +1591,7 @@
       },
       "body_excerpt": "# Deep Green Supplies\n\n### Overview\nThe “Deep Green” is a clandestine supplier of dangerous herbs and brews. It operates in shadow markets of Black Brine.\n\n### Goods\n- **Widow’s Fang** – slow-acting poison.  \n- **Nightroot Oil** – induces hallucinations.  \n- **Bile Ink** – doubles as toxin & tattoo dye.  \n- **Glass Serpent Venom** – paralyzing agent.  \n- **Glowcap Resin** – hallucinogenic incense.  \n\n### Notable Features\n- Hidden cellar storefront.  \n- Green lantern identifies entrance.  \n- Customers must provide code phrase.",
       "raw": {
+        "parent_location": "bb:pc:pinch",
         "appears_in": [
           "bb:story:encounter-2-deep-green"
         ]
@@ -1609,6 +1611,7 @@
       "fm": {
         "type": "lore",
         "id": "bb:lore:final-verse",
+        "parent_location": "bb:pc:pinch",
         "name": "The Final Verse",
         "summary": "A prophetic fragment tied to Sedna and the Hollow Goddess, whispered among seers and cursed mariners.",
         "tags": [
@@ -1624,6 +1627,7 @@
       },
       "body_excerpt": "# The Final Verse\n\n> “When the tide breaks black and the stars turn hollow,  \n> the drowned shall rise in chorus,  \n> and the song unmade shall bind the chains anew.”\n\nBelieved to be the closing passage of a longer prophecy, its meaning is hotly debated.  \n- Some claim it foretells Sedna’s release.  \n- Others believe it marks the Hollow Goddess’s triumph.  \n- Still others say it speaks to balance: neither freed, nor destroyed, but bound in endless cycle.",
       "raw": {
+        "parent_location": "bb:pc:pinch",
         "appears_in": [
           "bb:story:skull-garden-black-river"
         ]
@@ -5930,11 +5934,6 @@
       "target": "bb:city:black-brine"
     },
     {
-      "source": "bb:pc:pinch",
-      "rel": "located_in",
-      "target": "bb:city:black-brine"
-    },
-    {
       "source": "bb:pc:sy",
       "rel": "located_in",
       "target": "bb:city:black-brine"
@@ -6018,6 +6017,16 @@
       "source": "bb:item:codex-salt-shadow",
       "rel": "located_in",
       "target": "bb:location:temple-of-sedna"
+    },
+    {
+      "source": "bb:item:deep-green-supplies",
+      "rel": "located_in",
+      "target": "bb:pc:pinch"
+    },
+    {
+      "source": "bb:lore:final-verse",
+      "rel": "located_in",
+      "target": "bb:pc:pinch"
     },
     {
       "source": "bb:lore:blind-chefs-almanac",
@@ -6827,12 +6836,17 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:blackmire"
+      "target": "bb:district:crosswater"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:hub:districts",
@@ -6850,16 +6864,6 @@
       "target": "bb:district:keelhauls"
     },
     {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:crosswater"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
       "source": "bb:hub:factions",
       "rel": "organizes",
       "target": "bb:fleet:red-wakes"
@@ -6867,7 +6871,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:twilight-society"
+      "target": "bb:fleet:widowmakers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
     },
     {
       "source": "bb:hub:factions",
@@ -6877,7 +6886,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
     },
     {
       "source": "bb:hub:factions",
@@ -6892,16 +6906,6 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:fleet:hollow-fangs"
     },
     {
@@ -6912,22 +6916,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:widowmakers"
+      "target": "bb:faction:butchers"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:faction:twilight-society"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6937,17 +6931,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-memory-palace"
+      "target": "bb:campaign:dead-sons-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6957,17 +6941,42 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
+      "target": "bb:campaign:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-memory-palace"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 157,
-    "edges": 209
+    "edges": 210
   }
 }
