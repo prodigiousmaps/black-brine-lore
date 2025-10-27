@@ -39,3 +39,9 @@ hubs:
     ring_index: 6
     connects:
       by_type: [campaign]
+
+  - id: bb:hub:house-rules
+    name: House Rules
+    ring_index: 7
+    connects:
+      by_type: [campaign]
