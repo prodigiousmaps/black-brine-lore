@@ -308,7 +308,7 @@
         "background": "Scholar",
         "alignment": "Neutral",
         "level": 8,
-        "location": "bb:players",
+        "location": "bb:hub:players",
         "appears_in": [
           "bb:location:ruperts-rest",
           "bb:story:rogue-wave"
@@ -333,7 +333,7 @@
       },
       "body_excerpt": "# Description\nSmall, wiry frame; dusty-gray skin; wild white shock of hair; ink-black eyes. Patchwork leathers over scholar’s robes, magnifying spectacles, satchel stained with ink and maps.\n\n# Personality\n- Obsessively curious about written language; values cleverness over strength.  \n- Ideal: “The world is a puzzle—every riddle has a key.”  \n- Bond: His journal of maps and lore is life itself.  \n- Flaw: Risks everything for knowledge or rare texts.\n\n# Backstory\nShunned by his folk for loving script over stone, he found a place topside among thieves and scholars who prized his hand and his mind.\n\n# Recent History\n- Escaped shipboard imprisonment with Sy and Franklin.  \n- Survived a ruin of Shar; bargained with a minotaur named Ruben.  \n- Helped seize a mastless, planar ship; now bound for…",
       "raw": {
-        "location": "bb:players",
+        "location": "bb:hub:players",
         "allies": [
           "bb:npc:rupert-richthorn",
           "bb:pc:franklin-pierce",
@@ -5920,6 +5920,22 @@
       "center": false,
       "ring_index": 4,
       "source": null
+    },
+    {
+      "id": "bb:hub:players",
+      "type": "hub",
+      "name": "Players",
+      "center": false,
+      "ring_index": 5,
+      "source": null
+    },
+    {
+      "id": "bb:hub:items",
+      "type": "hub",
+      "name": "Items",
+      "center": false,
+      "ring_index": 6,
+      "source": null
     }
   ],
   "edges": [
@@ -6836,22 +6852,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:blackmire"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:little-sedna"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:districts",
@@ -6861,12 +6867,27 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
+      "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:little-sedna"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
@@ -6876,17 +6897,27 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:fleet:gilded-rats"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
+      "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:gutterlings"
+      "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:factions",
@@ -6901,47 +6932,17 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:faction:twilight-society"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6956,12 +6957,22 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
+      "target": "bb:campaign:fallen-city-structure"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
     },
     {
       "source": "bb:hub:campaigns",
@@ -6972,11 +6983,116 @@
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 157,
-    "edges": 210
+    "nodes": 159,
+    "edges": 230
   }
 }

@@ -172,7 +172,7 @@
     {
       "path": "RPG_Knowledge_Base\\09_Player_Characters\\pinch.md",
       "field": "location",
-      "value": "bb:players",
+      "value": "bb:hub:players",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
