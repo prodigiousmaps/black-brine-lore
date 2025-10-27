@@ -1,7 +1,8 @@
 ---
-type: creature
+type: customs
 id: bb:creature:potoo
-name: The Potoo
+parent-location: bb:hub:customs
+name: Potoo
 aliases: [Watcher in the Fog, Lantern-Eyes, Moon Perch]
 creature_type: Aberration
 origin: Black Brine

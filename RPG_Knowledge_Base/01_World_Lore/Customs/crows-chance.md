@@ -1,6 +1,8 @@
 ---
-type: game
+type: customs
+id: bb:customs:crows-chance
 name: Crow’s Chance
+parent-location: bb:hub:customs
 origin: Black Brine
 tags: [game, gambling, pastime, mini-game]
 ---
