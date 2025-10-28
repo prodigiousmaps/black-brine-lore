@@ -10,6 +10,7 @@ hubs:
 
   - id: bb:hub:customs
     name: Customs
+    parent-location: bb:location:island-of-sedna
     ring_index: 1
     connects:
       by_type: [customs]

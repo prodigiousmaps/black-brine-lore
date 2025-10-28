@@ -1,7 +1,7 @@
 ---
 type: campaign
 id: bb:campaign:deep-green:skull-garden
-parent_location: bb:location:western-jungle
+parent-location: bb:location:western-jungle
 name: The Deep Green - Part 1
 summary: 'Sy, Franklin, and Pinch journey upriver aboard Rupert’s chartered fishing
   boat. Guided by Strange Bones, they reach a ruined barricade where the river is

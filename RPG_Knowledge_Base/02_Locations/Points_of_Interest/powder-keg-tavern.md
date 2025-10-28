@@ -2,10 +2,10 @@
 type: location
 id: bb:location:powder-keg-tavern
 name: Powder Keg Tavern
-parent_location: bb:district:salt-crown
-location_type: tavern
-maps_available: true
-map_files:
+parent-location: bb:district:salt-crown
+location-type: tavern
+maps-vailable: true
+map-files:
   - assets/maps/powder-keg-tavern.jpg
 tags: [salt-crown, tavern, brawls, explosives, smuggling]
 ---

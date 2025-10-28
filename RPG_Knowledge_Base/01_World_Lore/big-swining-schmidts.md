@@ -2,11 +2,9 @@
 type: Page
 collections: Past Campaigns
 title: Big Swining Schmidts
+parent-location: bb:hub:customs
 description: null
 icon: null
-createdAt: '2025-08-22T04:18:56.419Z'
-creationDate: 2025-08-21 23:18
-modificationDate: 2025-08-21 23:26
 tags: []
 coverImage: null
 ---

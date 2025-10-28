@@ -1,7 +1,7 @@
 ---
-type: location
+type: item
 name: Sedna Lore Poem
-parent_location: bb:district:little-sedna:temple-of-sedna
+parent-location: bb:campaign:deep-green:skull-garden
 summary: >
   A heavy eelhide tome of Sedna, pages rearrange when unseen. Holds abyssal liturgies,
   unspoken histories, and rituals tied to sea and silence.
