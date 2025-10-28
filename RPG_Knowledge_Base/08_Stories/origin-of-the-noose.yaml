@@ -1,0 +1,102 @@
+---
+type: lore
+id: bb:lore:arlo-the-noose-origin
+name: The Rise of Arlo "The Noose"
+parent_character: bb:npc:arlo-the-noose
+tags: [black-brine, crime, underworld, npc-origin, history, lore]
+createdAt: 2025-10-28
+location_links:
+  - bb:district:drowned-market
+  - bb:district:crosswater
+  - bb:district:salt-crown
+  - bb:district:blackmire
+  - bb:district:little-sedna
+  - bb:district:docks
+faction_links:
+  - bb:faction:black-sashes
+  - bb:faction:butchers-gang
+  - bb:faction:miasma-fleet
+  - bb:faction:council-of-free-captains
+  - bb:faction:fishermans-union
+  - bb:faction:twilight-society
+npc_links:
+  - bb:npc:gun-deck-rosy
+  - bb:npc:pinch
+  - bb:npc:vel-corven
+  - bb:npc:weaver
+  - bb:npc:ledger
+  - bb:npc:tarmel
+summary: >
+  The origin and rise of Arlo “The Noose,” from a dockside orphan to the quiet
+  crime lord who bound the Drowned Market and the city of Black Brine together
+  with his code of knots, mercy, and leverage. This account traces his life
+  through the districts, factions, and rivalries that forged his power.
+---
+
+# The Rise of Arlo "The Noose"
+
+## I. The River Teaches the Knot
+The first time Arlo put a rope around a man’s neck, he was ten—and the man was already dead.  
+Raised among the docks of Salt Crown, Arlo learned early that survival meant knowing how to tie, haul, and cut the right knots. His mother, a ropeworker in a chandlery, taught him that the sea keeps what it can unless you learn leverage. Her death left him unmoored but not adrift; Arlo found purpose in the ropes and shadows of the harbor.
+
+By his teens, he was known for quiet competence—an errand boy who could scale walls, slip lines, and move goods unseen through the mist-choked alleys of Dagger Docks. When the Black Sashes, Butchers, and smugglers all sought to use him, Arlo learned the greater trick: to let no one know who held his rope.
+
+The attempt on his life by the Butchers Gang marked the turning point. They hung him for defiance—but he’d tied the wrong end. When the noose bit down, it caught a weighted block instead of his neck. He cut free, turned the line, and left the hangman choking on his own craft.  
+From that night, whispers began: *the boy who couldn’t be hung.*
+
+## II. The Drowned Market
+Arlo built his name in the shadows of the Drowned Market, a labyrinth of stalls beneath the stone ribs of a sunken bridge. He learned its tides—when smugglers came, when the inquisitors prowled, when the desperate whispered sins for sale.
+
+When the Butchers’ cruelty grew intolerable, Arlo set a public example: he hauled their foreman upside down into the river, loosened the noose before the crowd, and said, “Wrong knot.” Violence took on shape and consequence. He began taxing disputes and debts—small, patient percentages that bought peace and reputation.
+
+The Market called him “The Noose,” not for death, but for restraint. He became its quiet governor by consensus, unthroned but obeyed.
+
+## III. The Rosy Problem
+Governor Gun-Deck Rosy, who ruled the harbor with artillery and charm, saw Arlo’s growing influence as a threat. Her raid on the Market left several of his allies dead. In response, Arlo sent a message: one of her officers, trussed but alive, with a note reading, *You can wear a noose many ways.*
+
+Their meeting was tense but pragmatic. Rosy agreed to let him “keep the city tied” so long as tariffs flowed and order remained. Arlo asked for only one thing—a license to maintain “the ropes and rigging” of the east docks, a metaphorical claim to the city’s connective tissue.  
+It was granted, and from that paper he built his empire.
+
+## IV. The Miasma and the Mask
+The Miasma Fleet’s lieutenant, Tarmel, tested Arlo’s patience through torture and intimidation. Arlo answered not with blood but with ingenuity. He set a trap through Tarmel’s lover, gifting her a decorative coil that, when pulled, brought a roof down on her paramour’s head.
+
+Face to face amid the wreckage, Arlo told Tarmel, “The noose isn’t about ending. It’s about choice.”  
+After that night, the Miasma Fleet kept their poisons bottled and their distance measured.
+
+## V. The Council Learns to Bargain
+The Captain’s Council sent Vel Corven to rein him in. Arlo countered with results—brokering truces between rival fishermen, untangling usury in the Lending House, and turning smuggling networks into regulated trade routes. His methods earned him reluctant respect and a seat—unofficial, unacknowledged—at the city’s invisible table.
+
+When the Council’s inquisition turned cruel, Arlo replaced torture with symbolic justice, dipping the inquisitor in the river three times for mercy’s sake. “The Noose” became not a criminal, but an administrator the city could not afford to lose.
+
+## VI. The Crown of Crosswater
+As his legend grew, Arlo survived another assassination—one secretly commissioned by Vel Corven, hoping to impress Rosy. Arlo confronted her with proof, and Rosy, amused by his audacity, sided with him. Vel returned months later humbled and scarred.
+
+Rosy gifted Arlo fifty miles of hemp rope—a literal and symbolic investment in his rule.  
+“You’ll sell it cheaper,” she said. “You’ll look like a god.”  
+He did, and the Market flourished.
+
+## VII. The Law of Slack Water
+At the Drowned Market, during slack tide, Arlo addressed every faction beneath the fourth rib. Standing on a crate with a rope in hand, he declared:
+
+> “I’m not a king. I’m a knot.  
+> You pull, I pull. We don’t cut the rope we share.”
+
+He cast the noose into the crowd, letting it pass from hand to hand until it came back to him. He tied it over the beam—not to hang, but to mark the city’s unity through tension and balance. The Market was his, and he was the Market’s.
+
+## VIII. The Quiet Crown
+Arlo’s reign brought stability without peace, law without lawmen. Thieves were bound, not killed. Families of the drowned were fed. Theatres reopened. Ropework apprentices studied his geometry. His rule was as patient as tidewater—gentle until you fought against it.
+
+He never claimed love or holiness, only efficiency.  
+To some, he was a savior; to others, a strangler. To the city, he was gravity itself.
+
+When the gulls screamed over Crosswater and fog licked the bridge ribs, Arlo checked the lines that held the Market together and smiled.  
+The tide was turning. His knots held.
+
+---
+
+# Notes
+- **Tone:** Noir-maritime parable with moral tension.  
+- **Themes:** Control, mercy, leverage, survival through structure.  
+- **DM Usage:** Can be referenced in quests involving the Drowned Market, the Fisherman’s Union, or power struggles among Black Brine’s factions.  
+- **Crosslinks:** Ideal for connections with Pinch, Gun-Deck Rosy, Vel Corven, and the Market’s underbelly politics.  
+- **Quote:** “The noose isn’t about ending—it’s about choice.”
