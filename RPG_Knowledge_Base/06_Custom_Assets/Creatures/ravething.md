@@ -2,12 +2,17 @@
 type: monster
 id: bb:beast:ravething
 name: Ravething
-summary: >
-  Hairless scavenger with jagged spines, hunts in packs and preys on restrained victims.
-appears_in: bb:story:skull-garden-black-river
-tags: [beast, jungle, scavenger]
----
+summary: 'Hairless scavenger with jagged spines, hunts in packs and preys on restrained
+  victims.
 
+  '
+appears_in:
+- bb:story:skull-garden-black-river
+tags:
+- beast
+- jungle
+- scavenger
+---
 # Ravething
 - AC 13, HP 18
 - Traits:

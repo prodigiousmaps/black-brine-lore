@@ -659,7 +659,7 @@
       "fm": {
         "type": "campaign",
         "id": "bb:campaign:deep-green:skull-garden",
-        "parent-location": "bb:location:western-jungle",
+        "parent_location": "bb:location:western-jungle",
         "name": "The Deep Green - Part 1",
         "summary": "Sy, Franklin, and Pinch journey upriver aboard Rupert’s chartered fishing boat. Guided by Strange Bones, they reach a ruined barricade where the river is blocked and must continue on foot. On the sandy bank lies the Skull Garden, where carnivorous vines and scavengers await.\n",
         "location": "bb:river:black-river",
@@ -681,6 +681,7 @@
       },
       "body_excerpt": "# Act I – Up River\n- Travel pace: 6 hours/hex, 3 hex/day\n- Weather tables:\n  - Dense Jungle Fog: ranged disadvantage, perception disadvantage, encounter chance +1\n  - Jungle Silence: stealth advantage, encounter DC lowered\n- Minor encounters:\n  - Twisting currents force navigation or capsizing\n  - Pod of river spirits vanish if spoken to\n  - Floating fungal mats cause mild hallucinations\n\n# Act II – River Barricade\n- The Soiled have collapsed ruins, forcing the raft aground.\n- PCs encounter the Skull Garden.\n\n# Skull Garden Encounter\n**Atmosphere**\n- Left bank: vine-choked ruins, obelisk, silent jungle birds.\n- Right bank: sandy beach, half-buried skull tangled in flowering vines, armored corpse.\n\n**Hazards**\n- False Beauty Vines (CR 3 plant hazard). Lure with blossoms, grapple and drag pr…",
       "raw": {
+        "parent_location": "bb:location:western-jungle",
         "location": "bb:river:black-river",
         "factions": [
           "bb:faction:the-soiled"
@@ -805,7 +806,7 @@
       "fm": {
         "type": "customs",
         "id": "bb:creature:potoo",
-        "parent-location": "bb:hub:customs",
+        "parent_location": "bb:hub:customs",
         "name": "Potoo",
         "aliases": [
           "Watcher in the Fog",
@@ -831,7 +832,9 @@
         "rumors": "- Some say the Potoo whispers to the dying, guiding their souls into the black tide.\n- Others claim it was once human—an Inquisitor who looked too long into forbidden truths.\n- Children are told that if they stare too long into the mists, the Potoo will stare back."
       },
       "body_excerpt": "",
-      "raw": {}
+      "raw": {
+        "parent_location": "bb:hub:customs"
+      }
     },
     {
       "id": "bb:beast:ravething",
@@ -848,7 +851,6 @@
         "id": "bb:beast:ravething",
         "name": "Ravething",
         "summary": "Hairless scavenger with jagged spines, hunts in packs and preys on restrained victims.\n",
-        "parent-location": "bb:story:skull-garden-black-river",
         "appears_in": [
           "bb:story:skull-garden-black-river"
         ],
@@ -868,7 +870,7 @@
     {
       "id": "bb:monster:twig-blight-jungle-variant",
       "type": "monster",
-      "name": "Twig Blight – Jungle Variant",
+      "name": "Skeleton Monkey - Twig Blight",
       "tags": [
         "plant",
         "monster",
@@ -878,11 +880,10 @@
       "fm": {
         "type": "monster",
         "id": "bb:monster:twig-blight-jungle-variant",
-        "name": "Twig Blight – Jungle Variant",
-        "summary": "A corrupted plant creature disguised as roots or shrubs. Releases spores when destroyed and clings with roots to slow movement.\n",
-        "location": "bb:story:encounter-4-treefall-maze",
+        "name": "Skeleton Monkey - Twig Blight",
+        "summary": "A corrupted plant creature disguised as roots or shrubs. Releases spores when destroyed and clings with roots to slow movement.",
         "appears_in": [
-          "bb:story:encounter-4-treefall-maze"
+          "bb:campaign:deep-green:treefall-maze"
         ],
         "tags": [
           "plant",
@@ -892,9 +893,8 @@
       },
       "body_excerpt": "# Twig Blight (Jungle Variant)\n- Small Plant, Neutral Evil\n- AC 13 (natural armor)\n- HP 4 (1d6+1)\n- Speed 20 ft.\n- Skills: Stealth +3\n- Vulnerable: fire\n- Resistant: piercing\n- Immune: blinded\n- Senses: blindsight 60 ft., passive Perception 9\n- Languages: understands Common\n- CR 1/8 (25 XP), PB +2\n\n## Traits\n- **False Appearance:** Indistinguishable from dead roots while still.\n- **Mossdrip Spores:** On 0 HP, releases spores. DC11 CON save or poisoned until end of next turn.\n- **Root Cling:** 10-ft. radius difficult terrain unless DC12 Athletics succeeds.\n\n## Actions\n- **Claws:** +3 to hit, 5 ft., 1d4+1 slashing dmg.",
       "raw": {
-        "location": "bb:story:encounter-4-treefall-maze",
         "appears_in": [
-          "bb:story:encounter-4-treefall-maze"
+          "bb:campaign:deep-green:treefall-maze"
         ]
       }
     },
@@ -915,6 +915,9 @@
         "name": "Ash Fall",
         "summary": "Fine volcanic ash from Mount Vexir drifts through the jungle, muffling sound and obscuring sight. It reduces visibility, clogs lungs, and covers the ground in a pale layer that deadens tracks and noise.\n",
         "location": "bb:region:mount-vexir",
+        "appears_in": [
+          "bb:campaign:deep-green:treefall-maze"
+        ],
         "tags": [
           "hazard",
           "weather",
@@ -924,7 +927,10 @@
       },
       "body_excerpt": "# Ash Fall Effects\n- Visibility: reduced to half normal distance.\n- Perception: disadvantage on Wisdom (Perception) checks relying on sight.\n- Stealth: advantage on Dexterity (Stealth) checks (muffled sound).\n- Fatigue: after 8 hours of exposure, CON save DC12 or gain 1 level of exhaustion.\n- Environmental Flavor: ash falls like snow, drifting into canyons and clinging to skin.",
       "raw": {
-        "location": "bb:region:mount-vexir"
+        "location": "bb:region:mount-vexir",
+        "appears_in": [
+          "bb:campaign:deep-green:treefall-maze"
+        ]
       }
     },
     {
@@ -1895,7 +1901,7 @@
       "fm": {
         "type": "item",
         "id": "bb:item:codex-salt-shadow",
-        "parent_location": "bb:location:temple-of-sedna",
+        "location": "bb:location:temple-of-sedna",
         "name": "Codex of Salt and Shadow",
         "summary": "A heavy eelhide tome of Sedna, pages rearrange when unseen. Holds abyssal liturgies, unspoken histories, and rituals tied to sea and silence.\n",
         "rarity": "legendary",
@@ -1910,7 +1916,7 @@
       },
       "body_excerpt": "# Codex of Salt and Shadow\n\n### Physical Description\n- Bound in eelhide, slick and warm near seawater.  \n- Translucent shifting pages, ink moves unseen.  \n- Glyphs visible only submerged in saltwater.  \n- Whispers faintly; smells of brine, blood, and stone.\n\n### Contents\n1. **Liturgies of the Abyssal Silence** – Invocations of drowning and silence.  \n2. **Unspoken History** – Tale of Eshvahar, the False Flame, bound beneath Vexir.  \n3. **Sedna’s Gifts** – Amphorae of Breath, Brine Golems, Tide Key, Brine Veil.  \n4. **Vein of Stillness** – Leylines beneath sea and jungle, Stillbirth Chapel.\n\n### Magical Properties\n- Attuned bearer may cast *Control Water* or *Water Breathing* once/long rest.  \n- Ritual *Augury* reveals Sedna’s will.  \n- Weekly Silence Offering: silent meditation for vision,…",
       "raw": {
-        "parent_location": "bb:location:temple-of-sedna"
+        "location": "bb:location:temple-of-sedna"
       }
     },
     {
@@ -1962,7 +1968,7 @@
       "fm": {
         "type": "lore",
         "id": "bb:lore:final-verse",
-        "parent_location": "bb:pc:pinch",
+        "location": "bb:pc:pinch",
         "name": "The Final Verse",
         "summary": "A prophetic fragment tied to Sedna and the Hollow Goddess, whispered among seers and cursed mariners.",
         "tags": [
@@ -1978,7 +1984,7 @@
       },
       "body_excerpt": "# The Final Verse\n\n> “When the tide breaks black and the stars turn hollow,  \n> the drowned shall rise in chorus,  \n> and the song unmade shall bind the chains anew.”\n\nBelieved to be the closing passage of a longer prophecy, its meaning is hotly debated.  \n- Some claim it foretells Sedna’s release.  \n- Others believe it marks the Hollow Goddess’s triumph.  \n- Still others say it speaks to balance: neither freed, nor destroyed, but bound in endless cycle.",
       "raw": {
-        "parent_location": "bb:pc:pinch",
+        "location": "bb:pc:pinch",
         "appears_in": [
           "bb:story:skull-garden-black-river"
         ]
@@ -1998,7 +2004,9 @@
       "fm": {
         "type": "lore",
         "id": "bb:lore:journal-fragment-viii",
-        "parent-location": "bb:campaign:deep-green:skull-garden",
+        "appears_in": [
+          "bb:story:encounter-2-deep-green"
+        ],
         "name": "Journal Fragment VIII",
         "summary": "A damaged fragment of a larger explorer’s journal, containing cryptic notes and half-legible thoughts from Sedna’s jungle.",
         "tags": [
@@ -2006,9 +2014,6 @@
           "journal",
           "fragment",
           "sedna"
-        ],
-        "appears_in": [
-          "bb:story:encounter-2-deep-green"
         ]
       },
       "body_excerpt": "# Journal Fragment VIII\n\nFaded ink and water damage obscure much of the entry. Still legible are scattered words and phrases:  \n- “...the mist thicker now...”  \n- “...trees whisper but none alive...”  \n- “...coin or curse?...”  \n- “...Strange Bones warned...”  \n\nThe rest is illegible, but the tone is frantic and fearful. Suggests the writer witnessed Sedna’s jungle changing unnaturally before vanishing.",
@@ -2063,7 +2068,7 @@
         "type": "item",
         "id": "bb:item:apertures-theory",
         "name": "Theory on the Workings of Apertures",
-        "parent-location": "bb:npc:rupert-richthorn",
+        "location": "bb:npc:rupert-richthorn",
         "summary": "Arcane treatise on magical apertures that pool spell slots among linked casters. Details attunement, pooling mechanics, and experimental configurations.\n",
         "tags": [
           "rules",
@@ -2073,7 +2078,9 @@
         ]
       },
       "body_excerpt": "# Theory on the Workings of Apertures\n\n### Core Principles\n- Apertures allow **transfer of spell slots**.  \n- Any caster with spell/pact slots may attune.  \n- Attunement consumes a slot.  \n- Each caster chooses how many slots to contribute.  \n- 1 slot = 1 level of spell energy.\n\n### Casting with Apertures\n- Focus caster may use levels to cast known spells (up to 9th).  \n- Levels can upcast spells.  \n\n### Configurations\n1. **Circle** – Flexible, any caster may use pool.  \n2. **Array** – All link to a focus; focus casts with advantage.  \n3. **Linear** – Chain ends at focus; devastating attacks; focus limited once/short rest.  \n4. **Bomb** – Pool channeled into single destructive release, destroying aperture.\n\n### Vulnerabilities\n- All casters must maintain concentration.  \n- Movement limited…",
-      "raw": {}
+      "raw": {
+        "location": "bb:npc:rupert-richthorn"
+      }
     },
     {
       "id": "bb:faction:butchers",
@@ -2089,8 +2096,8 @@
         "type": "faction",
         "id": "bb:faction:butchers",
         "name": "The Butchers",
-        "summary": "A brutal syndicate running extortion, protection, and black-market routes across Black Brine—pressing hardest into Blackmire.\n",
-        "location": "bb:city:black-brine",
+        "summary": "A brutal syndicate running extortion, protection, and black-market routes across Black Brine—pressing hardest into Blackmire.",
+        "location": "bb:district:salt-crown",
         "leaders": [
           "bb:npc:the-noose"
         ],
@@ -2110,7 +2117,7 @@
       },
       "body_excerpt": "",
       "raw": {
-        "location": "bb:city:black-brine",
+        "location": "bb:district:salt-crown",
         "allies": [],
         "rivals": [
           "bb:faction:captains-council"
@@ -2139,7 +2146,7 @@
       "fm": {
         "type": "faction",
         "name": "The Gutterlings",
-        "location": "Black Brine (Salt Crown districts)",
+        "location": "bb:black-brine",
         "faction_type": "gang",
         "tags": [
           "urchins",
@@ -2151,7 +2158,7 @@
       },
       "body_excerpt": "# Overview\nThe Gutterlings are a street gang of orphaned and runaway children who survive through pickpocketing, distraction tricks, and swarming tactics. Though often underestimated by adults, they are feared by rival gangs for their loyalty and ability to overwhelm targets in groups.\n\n# History\nFormed by children left behind by the great fleets, the Gutterlings carved out a niche as the eyes and ears of the city’s alleys. Their informal leadership comes from an older sibling figure who \"aged out\" but never left the crew.\n\n# Structure & Culture\n- Signals: whistles, chalk markings, hand gestures\n- Weapons: slingshots, stolen knives, improvised tools\n- Code: “No Gutterling left behind”\n- Superstition: If they spit in your drink, you’re marked — expect to be stripped bare within the week.\n\n#…",
       "raw": {
-        "location": "Black Brine (Salt Crown districts)"
+        "location": "bb:black-brine"
       }
     },
     {
@@ -2528,7 +2535,7 @@
         "title": "Cult - Forgotten Wind",
         "description": null,
         "icon": null,
-        "parent-location": "bb:location:forbidden-west-sedna",
+        "parent_location": "bb:location:forbidden-west-sedna",
         "tags": [
           "NPC",
           "legends",
@@ -2540,7 +2547,9 @@
         ]
       },
       "body_excerpt": "# Cult - Forgotten Wind\n\n**The Caste System of the Cult of the Forgotten Wind**\n\n**After centuries of isolation, jungle survival, and devotion to a false god, the cult has degenerated into a monstrous hierarchy of fanatics. Each caste serves a distinct role, ensuring their survival as they await the return of their imprisoned goddess.**\n\n---\n\n## **1. The Howling Ones** *(Lowest Caste – Savage Hunters)*\n\n> *\"You will hear them before you see them—if you're lucky. If you're not, you will only hear the breath in your ear before the teeth sink in.\"*\n\n— Old Black Brine superstition\n\n- These **twisted remnants** of the original civilization have **lost most of their humanity** after centuries in the jungle.\n\n- Their **bones are warped**, their **eyes reflective like a predator’s**, and their **l…",
-      "raw": {}
+      "raw": {
+        "parent_location": "bb:location:forbidden-west-sedna"
+      }
     },
     {
       "id": "bb:npc:the-noose",
@@ -3074,7 +3083,7 @@
         "id": "bb:npc:aldo-vance",
         "name": "Aldo Vance",
         "summary": "Wealthy and calculating owner of the Golden Gull; thrives on politics, secrecy, and profit.",
-        "parent_location": "bb:location:golden-gull",
+        "location": "bb:location:golden-gull",
         "factions": [],
         "allies": [],
         "rivals": [
@@ -3094,7 +3103,7 @@
       },
       "body_excerpt": "# Description\nAldo Vance is a shrewd businessman and consummate manipulator, hiding his ruthlessness behind polished manners. He dresses in fine silks, wears gold rings from every profitable deal, and never enters a room without calculating the advantage. Aldo treats the Golden Gull as both a tavern and a political stage where debts, favors, and secrets are traded more freely than rum.\n\n# Personality\n- Ambitious, meticulous, and always outwardly polite.  \n- Keeps a ledger of every debt owed to him.  \n- Views friendships as investments, loyalty as leverage.  \n- Disdains the chaos of the Powder Keg, calling Blastcap a brute.  \n\n# Secrets (DM Only)\n- Uses assassins to eliminate rivals quietly.  \n- Holds compromising ledgers on multiple captains.  \n- Once arranged the “Lost Shipment Incident” …",
       "raw": {
-        "parent_location": "bb:location:golden-gull",
+        "location": "bb:location:golden-gull",
         "factions": [],
         "allies": [],
         "rivals": [
@@ -4154,7 +4163,7 @@
         "id": "bb:npc:penny-quickhands-locke",
         "name": "Penny “Quickhands” Locke",
         "summary": "Tattooed server and pickpocket; keeps the wanted list in her head and a knife in her boot.",
-        "parent-location": "bb:location:powder-keg-tavern",
+        "location": "bb:location:powder-keg-tavern",
         "factions": [],
         "allies": [],
         "rivals": [],
@@ -4170,6 +4179,7 @@
       },
       "body_excerpt": "",
       "raw": {
+        "location": "bb:location:powder-keg-tavern",
         "factions": [],
         "allies": [],
         "rivals": [],
@@ -4275,7 +4285,6 @@
         "name": "“Slug”",
         "summary": "Goblin ex-gunner; mixes the lethal “Blunderbuss” cocktail and stabs unruly patrons.",
         "location": "bb:location:powder-keg-tavern",
-        "parent-location": "bb:location:powder-keg-tavern",
         "factions": [],
         "allies": [],
         "rivals": [],
@@ -5320,7 +5329,7 @@
         "type": "location",
         "id": "bb:location:forbidden-west-sedna",
         "name": "Forbidden West",
-        "parent-location": "bb:location:island-of-sedna",
+        "parent_location": "bb:location:island-of-sedna",
         "location-type": "jungle",
         "population": "none (ruins and cursed remnants)",
         "government": "none",
@@ -5335,7 +5344,9 @@
         ]
       },
       "body_excerpt": "# Overview\nThe western half of Sedna is a cursed jungle, avoided by all who dwell in Black Brine. The land is hostile and resists intrusion. Voices whisper from the mist, and expedition parties vanish without trace.\n\n# Geography\n- Dense jungle canopy and flooded gullies.  \n- Crumbled shrines to Sedna and other ancient gods.  \n- Entrances to hidden cave networks.  \n\n# Notable Features\n- **Jungle Ruins**: Moss-choked altars and temples where Sedna’s power lingers.  \n- **Shrines**: Portals or foci for Sedna’s magic.  \n- **Haunted Trails**: Paths that loop endlessly, leading explorers in circles.  \n\n# Adventure Hooks\n- A pirate lord pays handsomely for relics retrieved from the ruins.  \n- A haunting voice calls to Sy, Franklin, or Pinch in their dreams.  \n- A rival expedition is already inside…",
-      "raw": {}
+      "raw": {
+        "parent_location": "bb:location:island-of-sedna"
+      }
     },
     {
       "id": "bb:location:gallows-market",
@@ -6124,12 +6135,12 @@
         "type": "location",
         "id": "bb:location:western-jungle",
         "name": "Deep Green - Jungles of the West",
-        "parent_location": "bb:location:forbidden-west-sedna",
-        "location_type": "jungle",
+        "parent-location": "bb:location:forbidden-west-sedna",
+        "location-type": "jungle",
         "population": "none",
         "government": "none",
-        "maps_available": false,
-        "map_files": [],
+        "maps-available": false,
+        "map-files": [],
         "tags": [
           "river",
           "geography",
@@ -6138,10 +6149,8 @@
           "salt-fresh-divide"
         ]
       },
-      "body_excerpt": "# Overview",
-      "raw": {
-        "parent_location": "bb:location:forbidden-west-sedna"
-      }
+      "body_excerpt": "",
+      "raw": {}
     },
     {
       "id": "bb:lore:djinn",
@@ -6450,6 +6459,11 @@
       "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
+      "source": "bb:campaign:deep-green:skull-garden",
+      "rel": "located_in",
+      "target": "bb:location:western-jungle"
+    },
+    {
       "source": "bb:campaign:deep-green:treefall-maze",
       "rel": "located_in",
       "target": "bb:campaign:deep-green:vine-sanctum"
@@ -6480,9 +6494,14 @@
       "target": "bb:pc:pinch"
     },
     {
+      "source": "bb:item:apertures-theory",
+      "rel": "located_in",
+      "target": "bb:npc:rupert-richthorn"
+    },
+    {
       "source": "bb:faction:butchers",
       "rel": "located_in",
-      "target": "bb:city:black-brine"
+      "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:faction:twilight-society",
@@ -6493,6 +6512,11 @@
       "source": "bb:faction:inquisitors-of-black-brine",
       "rel": "located_in",
       "target": "bb:district:mistwalk"
+    },
+    {
+      "source": "bb:faction:cult-forgotten-wind",
+      "rel": "located_in",
+      "target": "bb:location:forbidden-west-sedna"
     },
     {
       "source": "bb:npc:the-noose",
@@ -6735,6 +6759,11 @@
       "target": "bb:district:blackmire"
     },
     {
+      "source": "bb:location:forbidden-west-sedna",
+      "rel": "located_in",
+      "target": "bb:location:island-of-sedna"
+    },
+    {
       "source": "bb:location:gallows-market",
       "rel": "located_in",
       "target": "bb:district:mistwalk"
@@ -6823,11 +6852,6 @@
       "source": "bb:location:whisperers-hollow",
       "rel": "located_in",
       "target": "bb:district:blackmire"
-    },
-    {
-      "source": "bb:location:western-jungle",
-      "rel": "located_in",
-      "target": "bb:location:forbidden-west-sedna"
     },
     {
       "source": "bb:diety:sedna",
@@ -7115,6 +7139,16 @@
       "target": "bb:hazard:insect-swarm-blood-flies"
     },
     {
+      "source": "bb:monster:twig-blight-jungle-variant",
+      "rel": "appears_in",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hazard:ash-fall",
+      "rel": "appears_in",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
       "source": "bb:npc:the-noose",
       "rel": "appears_in",
       "target": "bb:faction:butchers"
@@ -7312,7 +7346,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
+      "target": "bb:district:little-sedna"
     },
     {
       "source": "bb:hub:districts",
@@ -7327,22 +7361,17 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
+      "target": "bb:district:mistwalk"
     },
     {
-      "source": "bb:hub:customs",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:customs:crows-chance"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:customs",
@@ -7350,9 +7379,49 @@
       "target": "bb:creature:potoo"
     },
     {
+      "source": "bb:hub:customs",
+      "rel": "organizes",
+      "target": "bb:customs:crows-chance"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widow-makers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:council-of-free-captains"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:inquisitors-of-black-brine"
+    },
+    {
       "source": "bb:hub:factions",
       "rel": "organizes",
       "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:fishermens-union"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
     },
     {
       "source": "bb:hub:factions",
@@ -7367,42 +7436,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:council-of-free-captains"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:faction:cult-forgotten-wind"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
@@ -7412,57 +7446,22 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:twilight-society"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
+      "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7475,14 +7474,39 @@
       "target": "bb:campaign:fallen-city:fallen-city-structure"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:pc:sy"
+      "target": "bb:campaign:dead-sons-narrative"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:pc:franklin"
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
     },
     {
       "source": "bb:hub:players",
@@ -7492,7 +7516,32 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
+      "target": "bb:pc:franklin"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
       "target": "bb:pc:andromeda"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:pc:sy"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:sedna-lore-poem"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:deep-green-supplies"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:apertures-theory"
     },
     {
       "source": "bb:hub:items",
@@ -7505,29 +7554,9 @@
       "target": "bb:item:codex-salt-shadow"
     },
     {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:sedna-lore-poem"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:apertures-theory"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:deep-green-supplies"
-    },
-    {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
+      "target": "bb:house-rules:phased-threat-escalation"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7537,12 +7566,17 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:jungle-stealth"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:jungle-survival-training"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-stealth"
+      "target": "bb:house-rules:jungle-event-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7552,7 +7586,7 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
+      "target": "bb:house-rules:jungle-navigation"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7562,7 +7596,12 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
+      "target": "bb:house-rules:jungle-weather-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7572,12 +7611,7 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
+      "target": "bb:house-rules:jungle-travel-phases"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7588,6 +7622,6 @@
   "unresolved": [],
   "stats": {
     "nodes": 159,
-    "edges": 234
+    "edges": 239
   }
 }

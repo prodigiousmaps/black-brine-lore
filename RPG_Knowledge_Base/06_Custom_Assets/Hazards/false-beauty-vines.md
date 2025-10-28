@@ -2,17 +2,18 @@
 type: hazard
 id: bb:hazard:false-beauty-vines
 name: False Beauty Vines
-summary: >
-  Carnivorous flowering vines that lure with blossoms, grapple prey, and dissolve
+summary: 'Carnivorous flowering vines that lure with blossoms, grapple prey, and dissolve
   victims alive. Immune to charm, vulnerable to fire.
+
+  '
 location: bb:story:skull-garden-black-river
-appears_in:  
+appears_in:
 - bb:story:skull-garden-black-river
-- bb:story:encounter-3-vine-sanctum
-
-tags: [plant, hazard, jungle]
+tags:
+- plant
+- hazard
+- jungle
 ---
-
 # False Beauty Vines
 - AC 12, HP 60
 - Actions:

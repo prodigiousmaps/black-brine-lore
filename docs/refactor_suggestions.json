@@ -9,6 +9,8 @@
     "patches\\into-deep-green-skull-garden.yml",
     "patches\\into-deep-green-treefall-maze.yml",
     "patches\\into-deep-green-vine-sanctum.yml",
+    "patches\\twig-blight-jungle-variant.yml",
+    "patches\\ash-fall.yml",
     "patches\\butchers.yml",
     "patches\\twilight-society.yml",
     "patches\\hellion-fleet.yml",
@@ -468,6 +470,15 @@
     },
     {
       "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-skull-garden.md",
+      "field": "parent_location",
+      "value": "bb:location:western-jungle",
+      "resolved_id": "bb:location:western-jungle",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-skull-garden.md",
       "field": "factions*",
       "value": "bb:faction:the-soiled",
       "resolved_id": null,
@@ -638,6 +649,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\potoo.md",
+      "field": "parent_location",
+      "value": "bb:hub:customs",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\ravething.md",
       "field": "appears_in",
       "value": "bb:story:skull-garden-black-river",
@@ -648,20 +668,11 @@
     },
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\twig-blight-jungle-variant.md",
-      "field": "location",
-      "value": "bb:story:encounter-4-treefall-maze",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\twig-blight-jungle-variant.md",
       "field": "appears_in",
-      "value": "bb:story:encounter-4-treefall-maze",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "value": "bb:campaign:deep-green:treefall-maze",
+      "resolved_id": "bb:campaign:deep-green:treefall-maze",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -674,6 +685,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\ash-fall.md",
+      "field": "appears_in",
+      "value": "bb:campaign:deep-green:treefall-maze",
+      "resolved_id": "bb:campaign:deep-green:treefall-maze",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\bone-field.md",
       "field": "location",
       "value": "bb:story:encounter-5-short-cut",
@@ -704,6 +724,15 @@
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\false-beauty-vines.md",
       "field": "appears_in",
       "value": "bb:story:skull-garden-black-river",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\false-beauty-vines.md",
+      "field": "appears_in",
+      "value": "bb:story:encounter-3-vine-sanctum",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -891,7 +920,7 @@
     },
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\codex-of-salt-and-shadow.md",
-      "field": "parent_location",
+      "field": "location",
       "value": "bb:location:temple-of-sedna",
       "resolved_id": "bb:location:temple-of-sedna",
       "method": "id",
@@ -918,7 +947,7 @@
     },
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\final-verse.md",
-      "field": "parent_location",
+      "field": "location",
       "value": "bb:pc:pinch",
       "resolved_id": "bb:pc:pinch",
       "method": "id",
@@ -953,10 +982,19 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\theory-on-the-workings-of-apertures.md",
+      "field": "location",
+      "value": "bb:npc:rupert-richthorn",
+      "resolved_id": "bb:npc:rupert-richthorn",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\04_Factions\\Criminal\\butchers.md",
       "field": "location",
-      "value": "bb:city:black-brine",
-      "resolved_id": "bb:city:black-brine",
+      "value": "bb:district:salt-crown",
+      "resolved_id": "bb:district:salt-crown",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -1000,7 +1038,7 @@
     {
       "path": "RPG_Knowledge_Base\\04_Factions\\Criminal\\gutterlings.md",
       "field": "location",
-      "value": "Black Brine (Salt Crown districts)",
+      "value": "bb:black-brine",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -1148,6 +1186,15 @@
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Religious\\cult-forgotten-wind.md",
+      "field": "parent_location",
+      "value": "bb:location:forbidden-west-sedna",
+      "resolved_id": "bb:location:forbidden-west-sedna",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -1332,7 +1379,7 @@
     },
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\aldo-vance.md",
-      "field": "parent_location",
+      "field": "location",
       "value": "bb:location:golden-gull",
       "resolved_id": "bb:location:golden-gull",
       "method": "id",
@@ -1953,6 +2000,15 @@
     },
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\penny-quickhands-locke.md",
+      "field": "location",
+      "value": "bb:location:powder-keg-tavern",
+      "resolved_id": "bb:location:powder-keg-tavern",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\penny-quickhands-locke.md",
       "field": "appears_in",
       "value": "bb:location:powder-keg-tavern",
       "resolved_id": "bb:location:powder-keg-tavern",
@@ -2330,6 +2386,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\forbidden-west-sedna.md",
+      "field": "parent_location",
+      "value": "bb:location:island-of-sedna",
+      "resolved_id": "bb:location:island-of-sedna",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\gallows-market.md",
       "field": "parent_location",
       "value": "bb:district:mistwalk",
@@ -2586,15 +2651,6 @@
       "field": "parent_location",
       "value": "bb:district:blackmire",
       "resolved_id": "bb:district:blackmire",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\01_World_Lore\\Environment\\western-jungle.md",
-      "field": "parent_location",
-      "value": "bb:location:forbidden-west-sedna",
-      "resolved_id": "bb:location:forbidden-west-sedna",
       "method": "id",
       "score": 1.0,
       "note": ""
