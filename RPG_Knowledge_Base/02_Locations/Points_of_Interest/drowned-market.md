@@ -1,12 +1,12 @@
 ---
 type: location
 name: The Drowned Market
-parent_location: Crosswater District
-location_type: black_market
+parent-location: bb:district:crosswater
+location-type: black_market
 population: fluctuating
 government: None (controlled by criminal networks)
-maps_available: false
-map_files: []
+maps-available: false
+map-files: []
 tags: [black market, underground, smuggling, crime, trade, Crosswater, shady]
 
 # The Drowned Market

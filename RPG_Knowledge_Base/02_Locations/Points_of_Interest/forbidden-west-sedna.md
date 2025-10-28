@@ -2,12 +2,12 @@
 type: location
 id: bb:location:forbidden-west-sedna
 name: Forbidden West
-parent_location: bb:location:island-of-sedna
-location_type: jungle
+parent-location: bb:location:island-of-sedna
+location-type: jungle
 population: none (ruins and cursed remnants)
 government: none
-maps_available: false
-map_files: []
+maps-available: false
+map-files: []
 tags: [sedna, jungle, forbidden, ruins, cursed]
 ---
 

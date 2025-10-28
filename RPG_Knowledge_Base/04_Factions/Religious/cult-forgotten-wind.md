@@ -1,14 +1,11 @@
 ---
-type: Page
-collections: Black Brine
+type: faction
+collections: religious faction
 title: Cult - Forgotten Wind
 description: null
 icon: null
-createdAt: '2025-02-11T04:42:34.200Z'
-creationDate: 2025-02-10 22:42
-modificationDate: 2025-02-10 22:58
+parent-location: bb:location:forbidden-west-sedna
 tags: [NPC, legends, Hooks, Faction, Act1, Chapter1, ForgottenWind]
-coverImage: null
 ---
 
 # Cult - Forgotten Wind
