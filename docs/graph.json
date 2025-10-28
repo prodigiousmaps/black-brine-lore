@@ -10,11 +10,9 @@
         "type": "Page",
         "collections": "Past Campaigns",
         "title": "Big Swining Schmidts",
+        "parent-location": "bb:hub:customs",
         "description": null,
         "icon": null,
-        "createdAt": "2025-08-22T04:18:56.419Z",
-        "creationDate": "2025-08-21 23:18",
-        "modificationDate": "2025-08-21 23:26",
         "tags": [],
         "coverImage": null
       },
@@ -661,7 +659,7 @@
       "fm": {
         "type": "campaign",
         "id": "bb:campaign:deep-green:skull-garden",
-        "parent_location": "bb:location:western-jungle",
+        "parent-location": "bb:location:western-jungle",
         "name": "The Deep Green - Part 1",
         "summary": "Sy, Franklin, and Pinch journey upriver aboard Rupert’s chartered fishing boat. Guided by Strange Bones, they reach a ruined barricade where the river is blocked and must continue on foot. On the sandy bank lies the Skull Garden, where carnivorous vines and scavengers await.\n",
         "location": "bb:river:black-river",
@@ -683,7 +681,6 @@
       },
       "body_excerpt": "# Act I – Up River\n- Travel pace: 6 hours/hex, 3 hex/day\n- Weather tables:\n  - Dense Jungle Fog: ranged disadvantage, perception disadvantage, encounter chance +1\n  - Jungle Silence: stealth advantage, encounter DC lowered\n- Minor encounters:\n  - Twisting currents force navigation or capsizing\n  - Pod of river spirits vanish if spoken to\n  - Floating fungal mats cause mild hallucinations\n\n# Act II – River Barricade\n- The Soiled have collapsed ruins, forcing the raft aground.\n- PCs encounter the Skull Garden.\n\n# Skull Garden Encounter\n**Atmosphere**\n- Left bank: vine-choked ruins, obelisk, silent jungle birds.\n- Right bank: sandy beach, half-buried skull tangled in flowering vines, armored corpse.\n\n**Hazards**\n- False Beauty Vines (CR 3 plant hazard). Lure with blossoms, grapple and drag pr…",
       "raw": {
-        "parent_location": "bb:location:western-jungle",
         "location": "bb:river:black-river",
         "factions": [
           "bb:faction:the-soiled"
@@ -851,7 +848,7 @@
         "id": "bb:beast:ravething",
         "name": "Ravething",
         "summary": "Hairless scavenger with jagged spines, hunts in packs and preys on restrained victims.\n",
-        "location": "bb:story:skull-garden-black-river",
+        "parent-location": "bb:story:skull-garden-black-river",
         "appears_in": [
           "bb:story:skull-garden-black-river"
         ],
@@ -863,7 +860,6 @@
       },
       "body_excerpt": "# Ravething\n- AC 13, HP 18\n- Traits:\n  - Pack Hunter: advantage vs grappled/ restrained targets\n  - Opportunist: bonus 10 ft move when ally attacks nearby\n- Actions:\n  - Claw: +4 to hit, 1d6+3 slashing\n  - Spine Flurry (Recharge 5–6): DC 13 DEX save, 2d6 piercing",
       "raw": {
-        "location": "bb:story:skull-garden-black-river",
         "appears_in": [
           "bb:story:skull-garden-black-river"
         ]
@@ -2513,8 +2509,8 @@
       }
     },
     {
-      "id": "bb:Page:cult-forgotten-wind",
-      "type": "Page",
+      "id": "bb:faction:cult-forgotten-wind",
+      "type": "faction",
       "name": "cult-forgotten-wind",
       "tags": [
         "NPC",
@@ -2527,14 +2523,12 @@
       ],
       "source": "RPG_Knowledge_Base\\04_Factions\\Religious\\cult-forgotten-wind.md",
       "fm": {
-        "type": "Page",
-        "collections": "Black Brine",
+        "type": "faction",
+        "collections": "religious faction",
         "title": "Cult - Forgotten Wind",
         "description": null,
         "icon": null,
-        "createdAt": "2025-02-11T04:42:34.200Z",
-        "creationDate": "2025-02-10 22:42",
-        "modificationDate": "2025-02-10 22:58",
+        "parent-location": "bb:location:forbidden-west-sedna",
         "tags": [
           "NPC",
           "legends",
@@ -2543,8 +2537,7 @@
           "Act1",
           "Chapter1",
           "ForgottenWind"
-        ],
-        "coverImage": null
+        ]
       },
       "body_excerpt": "# Cult - Forgotten Wind\n\n**The Caste System of the Cult of the Forgotten Wind**\n\n**After centuries of isolation, jungle survival, and devotion to a false god, the cult has degenerated into a monstrous hierarchy of fanatics. Each caste serves a distinct role, ensuring their survival as they await the return of their imprisoned goddess.**\n\n---\n\n## **1. The Howling Ones** *(Lowest Caste – Savage Hunters)*\n\n> *\"You will hear them before you see them—if you're lucky. If you're not, you will only hear the breath in your ear before the teeth sink in.\"*\n\n— Old Black Brine superstition\n\n- These **twisted remnants** of the original civilization have **lost most of their humanity** after centuries in the jungle.\n\n- Their **bones are warped**, their **eyes reflective like a predator’s**, and their **l…",
       "raw": {}
@@ -3130,6 +3123,7 @@
         "name": "Big Mags",
         "summary": "Half-ogre cook and enforcer; serves questionable stew and clears the room with a glare.",
         "location": "bb:location:powder-keg-tavern",
+        "parent-location": "bb:location:powder-keg-tavern",
         "factions": [],
         "allies": [],
         "rivals": [],
@@ -3673,6 +3667,7 @@
         "name": "Garrick of the Yellow Cart",
         "role": "Cartridge Driver",
         "location": "Black Brine streets",
+        "parent-location": "bb:city:black-brine",
         "tags": [
           "npc",
           "comic relief",
@@ -4159,7 +4154,7 @@
         "id": "bb:npc:penny-quickhands-locke",
         "name": "Penny “Quickhands” Locke",
         "summary": "Tattooed server and pickpocket; keeps the wanted list in her head and a knife in her boot.",
-        "location": "bb:location:powder-keg-tavern",
+        "parent-location": "bb:location:powder-keg-tavern",
         "factions": [],
         "allies": [],
         "rivals": [],
@@ -4175,7 +4170,6 @@
       },
       "body_excerpt": "",
       "raw": {
-        "location": "bb:location:powder-keg-tavern",
         "factions": [],
         "allies": [],
         "rivals": [],
@@ -5326,12 +5320,12 @@
         "type": "location",
         "id": "bb:location:forbidden-west-sedna",
         "name": "Forbidden West",
-        "parent_location": "bb:location:island-of-sedna",
-        "location_type": "jungle",
+        "parent-location": "bb:location:island-of-sedna",
+        "location-type": "jungle",
         "population": "none (ruins and cursed remnants)",
         "government": "none",
-        "maps_available": false,
-        "map_files": [],
+        "maps-available": false,
+        "map-files": [],
         "tags": [
           "sedna",
           "jungle",
@@ -5341,9 +5335,7 @@
         ]
       },
       "body_excerpt": "# Overview\nThe western half of Sedna is a cursed jungle, avoided by all who dwell in Black Brine. The land is hostile and resists intrusion. Voices whisper from the mist, and expedition parties vanish without trace.\n\n# Geography\n- Dense jungle canopy and flooded gullies.  \n- Crumbled shrines to Sedna and other ancient gods.  \n- Entrances to hidden cave networks.  \n\n# Notable Features\n- **Jungle Ruins**: Moss-choked altars and temples where Sedna’s power lingers.  \n- **Shrines**: Portals or foci for Sedna’s magic.  \n- **Haunted Trails**: Paths that loop endlessly, leading explorers in circles.  \n\n# Adventure Hooks\n- A pirate lord pays handsomely for relics retrieved from the ruins.  \n- A haunting voice calls to Sy, Franklin, or Pinch in their dreams.  \n- A rival expedition is already inside…",
-      "raw": {
-        "parent_location": "bb:location:island-of-sedna"
-      }
+      "raw": {}
     },
     {
       "id": "bb:location:gallows-market",
@@ -6299,8 +6291,8 @@
       }
     },
     {
-      "id": "bb:location:sedna-lore-poem",
-      "type": "location",
+      "id": "bb:item:sedna-lore-poem",
+      "type": "item",
       "name": "Sedna Lore Poem",
       "tags": [
         "book",
@@ -6309,9 +6301,9 @@
       ],
       "source": "RPG_Knowledge_Base\\01_World_Lore\\Religions\\sedna-lore-poem.md",
       "fm": {
-        "type": "location",
+        "type": "item",
         "name": "Sedna Lore Poem",
-        "parent_location": "bb:district:little-sedna:temple-of-sedna",
+        "parent-location": "bb:campaign:deep-green:skull-garden",
         "summary": "A heavy eelhide tome of Sedna, pages rearrange when unseen. Holds abyssal liturgies, unspoken histories, and rituals tied to sea and silence.\n",
         "rarity": "common",
         "slot": "religious item",
@@ -6322,9 +6314,7 @@
         ]
       },
       "body_excerpt": "# Sedna Lore Poem\n\n**\n\nIn the days when breath walked freely and the tides bowed to song, there came a voice not born of brine.\n\nShe rode upon winds unchained, with a laugh that bent the trees and eyes that stole worship from stone.\n\nThe people, once bent to the One Beneath, turned their faces skyward.\n\nThe drowning songs ceased. The deep altars lay dry. The temples opened to air, and incense climbed where blood once fell.\n\nThey called her the Shaper of the High Current,\n\nThe Sky-Blessed Flame,\n\nThe One Who Sings Without Chains.\n\nBut the Deep Mother does not forget. The Taker of Breath, She Who Waits Below—\n\nShe stirred in the silence left behind.\n\nIn a single tide without wave, the silence took shape. The sky was split. The earth wept salt.\n\nHer vengeance fell not in rage, but in erasure.…",
-      "raw": {
-        "parent_location": "bb:district:little-sedna:temple-of-sedna"
-      }
+      "raw": {}
     },
     {
       "id": "bb:location:temple-of-sedna",
@@ -6458,11 +6448,6 @@
       "source": "bb:campaign:deep-green:short-cut",
       "rel": "located_in",
       "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:campaign:deep-green:skull-garden",
-      "rel": "located_in",
-      "target": "bb:location:western-jungle"
     },
     {
       "source": "bb:campaign:deep-green:treefall-maze",
@@ -6748,11 +6733,6 @@
       "source": "bb:location:foghouse-row",
       "rel": "located_in",
       "target": "bb:district:blackmire"
-    },
-    {
-      "source": "bb:location:forbidden-west-sedna",
-      "rel": "located_in",
-      "target": "bb:location:island-of-sedna"
     },
     {
       "source": "bb:location:gallows-market",
@@ -7337,17 +7317,17 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
+      "target": "bb:district:crosswater"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:districts",
@@ -7357,7 +7337,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
+      "target": "bb:district:little-sedna"
     },
     {
       "source": "bb:hub:customs",
@@ -7372,12 +7352,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
+      "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:factions",
@@ -7387,27 +7362,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:factions",
@@ -7417,7 +7377,27 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:council-of-free-captains"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:cult-forgotten-wind"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:factions",
@@ -7427,7 +7407,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
+      "target": "bb:fleet:gilded-rats"
     },
     {
       "source": "bb:hub:factions",
@@ -7437,22 +7417,27 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
+      "target": "bb:faction:fishermens-union"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widow-makers"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:campaign:dead-sons-narrative"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7467,37 +7452,27 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
       "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:campaign:deep-green:short-cut"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:pc:andromeda"
+      "target": "bb:campaign:dead-sons-structure"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:pc:franklin"
+      "target": "bb:campaign:fallen-city:fallen-city-structure"
     },
     {
       "source": "bb:hub:players",
@@ -7507,7 +7482,17 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
+      "target": "bb:pc:franklin"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
       "target": "bb:pc:pinch"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:pc:andromeda"
     },
     {
       "source": "bb:hub:items",
@@ -7517,12 +7502,17 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:apertures-theory"
+      "target": "bb:item:codex-salt-shadow"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:codex-salt-shadow"
+      "target": "bb:item:sedna-lore-poem"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:apertures-theory"
     },
     {
       "source": "bb:hub:items",
@@ -7532,7 +7522,7 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
+      "target": "bb:house-rules:jungle-event-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7542,42 +7532,12 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:firearms-training-mechanics"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:jungle-survival-training"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-passive-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7587,12 +7547,42 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:jungle-passive-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-weather-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:stealth-preparation"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
+      "target": "bb:house-rules:phased-threat-escalation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-environmental-threat-level"
     }
   ],
   "unresolved": [],

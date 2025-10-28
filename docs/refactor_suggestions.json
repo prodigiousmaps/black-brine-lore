@@ -468,15 +468,6 @@
     },
     {
       "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-skull-garden.md",
-      "field": "parent_location",
-      "value": "bb:location:western-jungle",
-      "resolved_id": "bb:location:western-jungle",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-skull-garden.md",
       "field": "factions*",
       "value": "bb:faction:the-soiled",
       "resolved_id": null,
@@ -641,15 +632,6 @@
       "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-vine-sanctum.md",
       "field": "participants",
       "value": "bb:npc:pinch",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\ravething.md",
-      "field": "location",
-      "value": "bb:story:skull-garden-black-river",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -1971,15 +1953,6 @@
     },
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\penny-quickhands-locke.md",
-      "field": "location",
-      "value": "bb:location:powder-keg-tavern",
-      "resolved_id": "bb:location:powder-keg-tavern",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\penny-quickhands-locke.md",
       "field": "appears_in",
       "value": "bb:location:powder-keg-tavern",
       "resolved_id": "bb:location:powder-keg-tavern",
@@ -2357,15 +2330,6 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\forbidden-west-sedna.md",
-      "field": "parent_location",
-      "value": "bb:location:island-of-sedna",
-      "resolved_id": "bb:location:island-of-sedna",
-      "method": "id",
-      "score": 1.0,
-      "note": ""
-    },
-    {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\gallows-market.md",
       "field": "parent_location",
       "value": "bb:district:mistwalk",
@@ -2642,15 +2606,6 @@
       "resolved_id": "bb:location:temple-of-sedna",
       "method": "id",
       "score": 1.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\01_World_Lore\\Religions\\sedna-lore-poem.md",
-      "field": "parent_location",
-      "value": "bb:district:little-sedna:temple-of-sedna",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
       "note": ""
     },
     {
