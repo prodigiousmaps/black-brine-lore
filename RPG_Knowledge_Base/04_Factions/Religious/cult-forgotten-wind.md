@@ -4,7 +4,7 @@ collections: religious faction
 title: Cult - Forgotten Wind
 description: null
 icon: null
-parent-location: bb:location:forbidden-west-sedna
+parent_location: bb:location:forbidden-west-sedna
 tags: [NPC, legends, Hooks, Faction, Act1, Chapter1, ForgottenWind]
 ---
 

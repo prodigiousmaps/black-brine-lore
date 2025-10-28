@@ -2,7 +2,7 @@
 type: location
 id: bb:location:powder-keg-tavern
 name: Powder Keg Tavern
-parent-location: bb:district:salt-crown
+parent_location: bb:district:salt-crown
 location-type: tavern
 maps-vailable: true
 map-files:

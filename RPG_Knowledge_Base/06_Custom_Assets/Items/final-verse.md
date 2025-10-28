@@ -1,7 +1,7 @@
 ---
 type: lore
 id: bb:lore:final-verse
-parent_location: bb:pc:pinch
+location: bb:pc:pinch
 name: The Final Verse
 summary: A prophetic fragment tied to Sedna and the Hollow Goddess, whispered among
   seers and cursed mariners.

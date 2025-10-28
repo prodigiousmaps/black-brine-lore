@@ -6,7 +6,10 @@ summary: >
   Carnivorous flowering vines that lure with blossoms, grapple prey, and dissolve
   victims alive. Immune to charm, vulnerable to fire.
 location: bb:story:skull-garden-black-river
-appears_in: [ bb:story:skull-garden-black-river ]
+appears_in:  
+- bb:story:skull-garden-black-river
+- bb:story:encounter-3-vine-sanctum
+
 tags: [plant, hazard, jungle]
 ---
 

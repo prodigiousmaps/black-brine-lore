@@ -1,12 +1,11 @@
 ---
 type: monster
 id: bb:monster:twig-blight-jungle-variant
-name: Twig Blight – Jungle Variant
-summary: >
-  A corrupted plant creature disguised as roots or shrubs. Releases spores when
-  destroyed and clings with roots to slow movement.
-location: bb:story:encounter-4-treefall-maze
-appears_in: [ bb:story:encounter-4-treefall-maze ]
+name: Skeleton Monkey - Twig Blight
+summary: 
+  'A corrupted plant creature disguised as roots or shrubs. Releases spores when
+  destroyed and clings with roots to slow movement.'
+appears_in: bb:campaign:deep-green:treefall-maze
 tags: [plant, monster, jungle]
 ---
 

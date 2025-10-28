@@ -3,10 +3,8 @@ type: faction
 id: bb:faction:butchers
 name: The Butchers
 summary: 'A brutal syndicate running extortion, protection, and black-market routes
-  across Black Brine—pressing hardest into Blackmire.
-
-  '
-location: bb:city:black-brine
+  across Black Brine—pressing hardest into Blackmire.'
+location: bb:district:salt-crown
 leaders:
 - bb:npc:the-noose
 controls:

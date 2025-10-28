@@ -2,7 +2,7 @@
 type: location
 name: Old Salt Eatery
 id: bb:location:old-salt-eatery
-parent-location: bb:district:salt-crown
+parent_location: bb:district:salt-crown
 location-type: tavern
 population: variable
 government: private ownership

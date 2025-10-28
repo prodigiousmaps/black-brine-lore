@@ -1,7 +1,7 @@
 ---
 type: lore
 id: bb:lore:journal-fragment-viii
-parent-location: bb:campaign:deep-green:skull-garden
+appears_in: bb:campaign:deep-green:skull-garden
 name: Journal Fragment VIII
 summary: A damaged fragment of a larger explorer’s journal, containing cryptic notes
   and half-legible thoughts from Sedna’s jungle.

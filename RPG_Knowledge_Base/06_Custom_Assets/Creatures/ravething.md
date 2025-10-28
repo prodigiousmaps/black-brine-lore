@@ -4,8 +4,7 @@ id: bb:beast:ravething
 name: Ravething
 summary: >
   Hairless scavenger with jagged spines, hunts in packs and preys on restrained victims.
-parent-location: bb:story:skull-garden-black-river
-appears_in: [ bb:story:skull-garden-black-river ]
+appears_in: bb:story:skull-garden-black-river
 tags: [beast, jungle, scavenger]
 ---
 

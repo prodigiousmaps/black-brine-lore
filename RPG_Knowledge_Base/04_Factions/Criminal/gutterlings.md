@@ -1,7 +1,7 @@
 ---
 type: faction
 name: The Gutterlings
-location: Black Brine (Salt Crown districts)
+location: bb:black-brine
 faction_type: gang
 tags: [urchins, thieves, gangs, youth, underworld]
 ---

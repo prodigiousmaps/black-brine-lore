@@ -1,7 +1,7 @@
 ---
 type: item
 id: bb:item:codex-salt-shadow
-parent_location: bb:location:temple-of-sedna
+location: bb:location:temple-of-sedna
 name: Codex of Salt and Shadow
 summary: >
   A heavy eelhide tome of Sedna, pages rearrange when unseen. Holds abyssal liturgies,

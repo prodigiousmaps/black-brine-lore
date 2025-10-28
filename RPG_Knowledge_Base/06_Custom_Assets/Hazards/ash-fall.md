@@ -7,6 +7,7 @@ summary: >
   and obscuring sight. It reduces visibility, clogs lungs, and covers the ground
   in a pale layer that deadens tracks and noise.
 location: bb:region:mount-vexir
+appears_in:  bb:campaign:deep-green:treefall-maze
 tags: [hazard, weather, vexir, ash]
 ---
 
