@@ -7,7 +7,7 @@ summary: >
   where they discover an abandoned base camp in a small cave littered with
   relics, journals, and ominous signs of past expeditions.
 location: bb:region:deep-green
-parent_location: bb:location:western-jungle
+parent_location: bb:campaign:deep-green:skull-garden
 participants:
   - bb:npc:sy
   - bb:npc:franklin-pierce
