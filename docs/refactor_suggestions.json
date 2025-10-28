@@ -343,8 +343,8 @@
     {
       "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-jungle-camp.md",
       "field": "parent_location",
-      "value": "bb:location:western-jungle",
-      "resolved_id": "bb:location:western-jungle",
+      "value": "bb:campaign:deep-green:skull-garden",
+      "resolved_id": "bb:campaign:deep-green:skull-garden",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -397,8 +397,8 @@
     {
       "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-short-cut.md",
       "field": "parent_location",
-      "value": "bb:location:western-jungle",
-      "resolved_id": "bb:location:western-jungle",
+      "value": "bb:campaign:deep-green:treefall-maze",
+      "resolved_id": "bb:campaign:deep-green:treefall-maze",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -541,8 +541,8 @@
     {
       "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-treefall-maze.md",
       "field": "parent_location",
-      "value": "bb:location:western-jungle",
-      "resolved_id": "bb:location:western-jungle",
+      "value": "bb:campaign:deep-green:vine-sanctum",
+      "resolved_id": "bb:campaign:deep-green:vine-sanctum",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -595,8 +595,8 @@
     {
       "path": "RPG_Knowledge_Base\\07_Campaign_Notes\\Past_Campaigns\\into-deep-green-vine-sanctum.md",
       "field": "parent_location",
-      "value": "bb:location:western-jungle",
-      "resolved_id": "bb:location:western-jungle",
+      "value": "bb:campaign:deep-green:jungle-camp",
+      "resolved_id": "bb:campaign:deep-green:jungle-camp",
       "method": "id",
       "score": 1.0,
       "note": ""

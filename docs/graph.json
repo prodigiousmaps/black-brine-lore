@@ -567,7 +567,7 @@
         "name": "The Deep Green - Part 2",
         "summary": "Sy, Franklin, and Pinch follow the narrow jungle trail into the Deep Green, where they discover an abandoned base camp in a small cave littered with relics, journals, and ominous signs of past expeditions.\n",
         "location": "bb:region:deep-green",
-        "parent_location": "bb:location:western-jungle",
+        "parent_location": "bb:campaign:deep-green:skull-garden",
         "participants": [
           "bb:npc:sy",
           "bb:npc:franklin-pierce",
@@ -585,7 +585,7 @@
       },
       "body_excerpt": "# Narrative\nThe jungle canopy sways like a living ceiling while the forest floor lies in\nstifling stillness. The path winds through massive trees, deadfalls, and mossy\nstone. At trail’s end lies a dry cave, etched with ship names and tally marks.\nDiscarded supplies and strange offerings hint at failed expeditions.\n\n# The Cave\n- Old base camp with crates, lanterns, maps, and journals.\n- A clay statue of a serene figure sits on a shelf.\n- From behind massive roots, a slow rhythmic clicking is heard.\n- Signs of Fifth Mouth cult influence are scattered among the items.\n\n# Mechanics\n- If the party rests here, the cave amplifies dreams, especially when handling\n  the mask or shrine.\n- Use this encounter to foreshadow the Hollow Song’s effects.",
       "raw": {
-        "parent_location": "bb:location:western-jungle",
+        "parent_location": "bb:campaign:deep-green:skull-garden",
         "location": "bb:region:deep-green",
         "factions": [
           "bb:faction:fifth-mouth-cult"
@@ -614,7 +614,7 @@
         "name": "The Deep Green - Part 5",
         "summary": "After escaping the Treefall Maze, Sy, Franklin, and Pinch cut across two hexes of jungle. Ash fall from Mount Vexir dampens sound and sight. They must choose between ridge or basin, then cross a deep gorge by rope bridge.\n",
         "location": "bb:region:deep-green",
-        "parent_location": "bb:location:western-jungle",
+        "parent_location": "bb:campaign:deep-green:treefall-maze",
         "participants": [
           "bb:npc:sy",
           "bb:npc:franklin-pierce",
@@ -634,7 +634,7 @@
       },
       "body_excerpt": "# Travel\n- Distance: 2 hexes (8 hours per hex).\n- Weather: Ash fall, muffled sound, half visibility.\n\n# Hex 1 Choice\n- **Ridge Path:** +2 hours. Leads through a Bone Field (see hazard).  \n- **Basin Path:** -2 hours. Crosses Razor Ferns (see hazard).\n\n# Hex 2\n- **Gorge Crossing:** must cross via rope bridge (see hazard).",
       "raw": {
-        "parent_location": "bb:location:western-jungle",
+        "parent_location": "bb:campaign:deep-green:treefall-maze",
         "location": "bb:region:deep-green",
         "participants": [
           "bb:npc:sy",
@@ -714,7 +714,7 @@
         "name": "The Deep Green - Part 4",
         "summary": "Sy, Franklin, and Pinch push beyond the thicket into a deadfall of collapsed trees at the base of Mount Vexir. Sudden cold sets in, the jungle thins, and a maze of toppled trunks forces hard choices, skill checks, and hazards.\n",
         "location": "bb:region:deep-green",
-        "parent_location": "bb:location:western-jungle",
+        "parent_location": "bb:campaign:deep-green:vine-sanctum",
         "participants": [
           "bb:npc:sy",
           "bb:npc:franklin-pierce",
@@ -732,7 +732,7 @@
       },
       "body_excerpt": "# Weather\n- **Sudden Chill:** CON save DC 12 or lose 1 hour of travel.\n- Mood: canopy thins, winds bite, Mount Vexir looms snowcapped with an ash plume.\n\n# Treefall Maze\n- Navigation: no check; Vexir visible.\n- Maze choice: +1 hour to climb or Acrobatics DC 14 to squeeze through.\n- Progress rolls:\n  - 20+: advance smoothly, gain Shortcut Die (1d4).\n  - 15–19: progress 1 hour closer.\n  - 10–14: delay, lose 1 hour.\n  - <10: lost → roll a complication.\n\n# Complications (d6)\n1. Roots collapse—DEX save DC14 or prone, 1d6 dmg.  \n2. Carved glyph or animal totem—WIS save DC12 or lose direction.  \n3. Predator’s lair (swarm/panther).  \n4. Soundless zone for 10 minutes (disadvantage on sound checks).  \n5. Treefall trap—DEX/STR save DC13 to escape.  \n6. Strange lights—INT save DC12 or wander, separate…",
       "raw": {
-        "parent_location": "bb:location:western-jungle",
+        "parent_location": "bb:campaign:deep-green:vine-sanctum",
         "location": "bb:region:deep-green",
         "participants": [
           "bb:npc:sy",
@@ -761,7 +761,7 @@
         "name": "The Deep Green - Part 3",
         "summary": "Sy, Franklin, and Pinch press deeper into the Deep Green. Sweltering winds buffet the canopy while the jungle floor lies still. Navigation challenges lead them to a creek crossing, an abandoned camp with copper chimes, and finally a towering wall of False Beauty Vines concealing a sanctum of death.\n",
         "location": "bb:region:deep-green",
-        "parent_location": "bb:location:western-jungle",
+        "parent_location": "bb:campaign:deep-green:jungle-camp",
         "participants": [
           "bb:npc:sy",
           "bb:npc:franklin-pierce",
@@ -780,7 +780,7 @@
       },
       "body_excerpt": "# Part I – Creek Crossing\n- Weather: Sweltering winds & humidity (scent tracking impossible, stealth adv., perception disadv.)\n- Navigation: survival DC13 to identify faint path; DC15 Arcana (bird check) or DC14 Acrobatics (climb check).\n- Stealth DC15 to move silently.\n- Hazard: insect swarm attack (see bb:hazard:insect-swarm-blood-flies).\n\n# Part II – Copper Chime Clearing\n- Clearing ~20x20 ft with abandoned fire ring.\n- Perimeter: faded strings with green-patina copper bells.\n- Navigation DC14 Arcana: reveals approaching vine wall ~300' thick.\n\n# Part III – Vine Wall\n- 10 rounds to cross.\n- Illusion maintenance DC12 Arcana (Pinch).\n- Each round: stealth DC12 or vines attack.\n- Vines: AC 12, HP 10, +5 to hit, 2d6 piercing + 1d6 acid, grapple DC14 STR save.\n- Casters concentrating: DC10 c…",
       "raw": {
-        "parent_location": "bb:location:western-jungle",
+        "parent_location": "bb:campaign:deep-green:jungle-camp",
         "location": "bb:region:deep-green",
         "participants": [
           "bb:npc:sy",
@@ -2002,7 +2002,7 @@
       "fm": {
         "type": "lore",
         "id": "bb:lore:journal-fragment-viii",
-        "parent-location": "bb:campaign:deep-green:jungle-camp",
+        "parent-location": "bb:campaign:deep-green:skull-garden",
         "name": "Journal Fragment VIII",
         "summary": "A damaged fragment of a larger explorer’s journal, containing cryptic notes and half-legible thoughts from Sedna’s jungle.",
         "tags": [
@@ -6452,12 +6452,12 @@
     {
       "source": "bb:campaign:deep-green:jungle-camp",
       "rel": "located_in",
-      "target": "bb:location:western-jungle"
+      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:campaign:deep-green:short-cut",
       "rel": "located_in",
-      "target": "bb:location:western-jungle"
+      "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
       "source": "bb:campaign:deep-green:skull-garden",
@@ -6467,12 +6467,12 @@
     {
       "source": "bb:campaign:deep-green:treefall-maze",
       "rel": "located_in",
-      "target": "bb:location:western-jungle"
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:campaign:deep-green:vine-sanctum",
       "rel": "located_in",
-      "target": "bb:location:western-jungle"
+      "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
       "source": "bb:item:codex-salt-shadow",
@@ -7332,17 +7332,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
+      "target": "bb:district:mistwalk"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
       "target": "bb:district:crosswater"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:little-sedna"
     },
     {
       "source": "bb:hub:districts",
@@ -7352,7 +7347,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
+      "target": "bb:district:little-sedna"
     },
     {
       "source": "bb:hub:districts",
@@ -7360,14 +7355,39 @@
       "target": "bb:district:blackmire"
     },
     {
-      "source": "bb:hub:customs",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:creature:potoo"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:customs",
       "rel": "organizes",
       "target": "bb:customs:crows-chance"
+    },
+    {
+      "source": "bb:hub:customs",
+      "rel": "organizes",
+      "target": "bb:creature:potoo"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:gutterlings"
     },
     {
       "source": "bb:hub:factions",
@@ -7387,47 +7407,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:twilight-society"
+      "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:hub:factions",
@@ -7437,32 +7422,22 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
+      "target": "bb:faction:butchers"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
+      "target": "bb:faction:fishermens-union"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
+      "target": "bb:faction:twilight-society"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7482,12 +7457,42 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:pc:andromeda"
     },
     {
       "source": "bb:hub:players",
@@ -7497,17 +7502,17 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:pinch"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
       "target": "bb:pc:sy"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:andromeda"
+      "target": "bb:pc:pinch"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:ruperts-welcome-speech"
     },
     {
       "source": "bb:hub:items",
@@ -7517,37 +7522,12 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:deep-green-supplies"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
       "target": "bb:item:codex-salt-shadow"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:ruperts-welcome-speech"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-stealth"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
+      "target": "bb:item:deep-green-supplies"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7557,12 +7537,17 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
+      "target": "bb:house-rules:jungle-travel-phases"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
       "target": "bb:house-rules:jungle-survival-training"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7577,7 +7562,7 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
+      "target": "bb:house-rules:jungle-environmental-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7587,12 +7572,27 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
+      "target": "bb:house-rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:phased-threat-escalation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-stealth"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
       "target": "bb:house-rules:stealth-preparation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:firearms-training-mechanics"
     }
   ],
   "unresolved": [],
