@@ -6,13 +6,13 @@ parent_location: bb:district:keelhauls
 location_type: tavern
 maps_vailable: true
 map_files:
-  - assets/maps/powder-keg-tavern.jpg
+- assets/maps/powder-keg-tavern.jpg
 tags: 
-  - salt-crown
-  - tavern
-  - brawls
-  - explosives
-  - smuggling
+- salt-crown
+- tavern
+- brawls
+- explosives
+- smuggling
 Overview:
 'Built against a sulfur-reeking cliffside, the Powder Keg Tavern is a den of debauchery, violence, and black-powder-fueled chaos. Frequent brawls, reckless drinking challenges, and the occasional explosion draw gunslingers, mercenaries, and smugglers seeking cheap rum and dangerous company.'
 notable_features:

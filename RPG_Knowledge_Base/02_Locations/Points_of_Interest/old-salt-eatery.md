@@ -9,11 +9,11 @@ government: private ownership
 maps_available: false
 map_files: []
 tags: 
-	- tavern
-	- eatery
-	- local haunt
-	- blackmire
-	- food
+- tavern
+- eatery
+- local haunt
+- blackmire
+- food
 overview:
 'A battered, half-sunken tavern perched on stilts above the Blackmire muck, the Old Salt Eatery is the district’s most reliable source of food, gossip, and cheap grog. It smells like burnt fish, spilled brine, and old secrets. Locals swear the soup tastes different every day—mostly because it does.'
 geography:
@@ -25,7 +25,7 @@ notable_features:
 - Salt-crusted floorboards said to be blessed by Sedna (or cursed by the cook)
 demographics:
 'Mostly Blackmire locals, laborers, smugglers, out-of-luck pirates, and the occasional Inquisitor.'
-government_and_olitics:
+government_and_politics:
 'Neutral ground—no blades drawn, no questions asked. Run by old sea dog **Garrik “Salttooth” Vane**, a retired cook with a hook for a hand and a tongue sharp as a filet knife.'
 economy:
 'Cheap meals, local brews, underground betting. Sometimes used for dead drops or hushed meetings in curtained corners.'
