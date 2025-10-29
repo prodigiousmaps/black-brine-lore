@@ -2,7 +2,7 @@
 type: customs
 id: bb:customs:crows-chance
 name: Crow’s Chance
-parent-location: bb:city:black-brine
+parent_location: bb:city:black-brine
 origin: Black Brine
 tags: [game, gambling, pastime, mini-game]
 ---
