@@ -2,7 +2,7 @@
 type: story
 id: bb:story:rogue-wave
 name: The Rogue Wave
-member_of: bb:hub:fleets
+member_of: bb:hub:factions
 tags:
 - legend
 - ship
