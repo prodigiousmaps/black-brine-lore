@@ -5192,14 +5192,63 @@
       }
     },
     {
-      "id": "bb:page:drowned-market",
-      "type": "page",
-      "name": "drowned-market",
-      "tags": [],
+      "id": "bb:location:drowned-market",
+      "type": "location",
+      "name": "The Drowned Market",
+      "tags": [
+        "black-market",
+        "underground",
+        "smuggling",
+        "crime",
+        "trade",
+        "crosswater",
+        "shady"
+      ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\drowned-market.md",
-      "fm": {},
+      "fm": {
+        "type": "location",
+        "id": "bb:location:drowned-market",
+        "name": "The Drowned Market",
+        "parent_location": "bb:district:crosswater",
+        "location_type": "black_market",
+        "population": "fluctuating",
+        "government": "none (controlled by criminal networks)",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "black-market",
+          "underground",
+          "smuggling",
+          "crime",
+          "trade",
+          "crosswater",
+          "shady"
+        ],
+        "overview": "Hidden in the flooded warrens beneath Crosswater, the Drowned Market is Black Brine’s worst-kept secret—a sloshing maze of shadow stalls, half-submerged vaults, and whisper-traded sins. Goods here range from rare spices and void-forged steel to cursed relics and forbidden tomes. No questions asked. No refunds given.\n",
+        "geography": "Located in partially collapsed basements, cisterns, and dry wells—some still wet—the market winds like a sewer under Crosswater’s crumbling foundations. Lanterns flicker over waist-deep brine. Boats replace carts. Every step risks a soaked boot… or worse.\n",
+        "notable_features": [
+          "Floating vendor rafts lashed together with chain.",
+          "Permanent stall carved into a sunken brewery.",
+          "Blood-slick stone where deals are sealed with ritual.",
+          "Central shrine to Mask, god of shadows and thieves."
+        ],
+        "secrets_and_rumors": "The Butchers control several access points and extract “tolls” from vendors. The Noose has eyes here, but so do the Twilight Society and the Gilded Rats. It’s rumored that deep beneath the deepest stall lies a vault untouched since the fall of Sedna’s first cult.\n",
+        "culture_and_daily_life": "Only those with connections—or coin—can find the market. Traders speak in code. Eyes are always watching. Violence is rare but efficient. The market resets each night, vanishing before sunup.\n",
+        "adventure_hooks": [
+          "A rare item needed for a ritual appears here—for a steep price.",
+          "A vendor disappears mid-deal; only a trail of blood and a smirking rival remain.",
+          "The market floods unexpectedly—something large moves in the water below."
+        ],
+        "connected_locations": [
+          "bb:location:gentle-rest-inn",
+          "bb:location:keelhauls",
+          "bb:location:string-and-powder"
+        ]
+      },
       "body_excerpt": "",
-      "raw": {}
+      "raw": {
+        "parent_location": "bb:district:crosswater"
+      }
     },
     {
       "id": "bb:location:drunken-satyr",
@@ -5652,24 +5701,192 @@
       }
     },
     {
-      "id": "bb:page:old-salt-eatery",
-      "type": "page",
-      "name": "old-salt-eatery",
-      "tags": [],
+      "id": "bb:location:old-salt-eatery",
+      "type": "location",
+      "name": "Old Salt Eatery",
+      "tags": [
+        "tavern",
+        "eatery",
+        "local haunt",
+        "blackmire",
+        "food"
+      ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\old-salt-eatery.md",
-      "fm": {},
+      "fm": {
+        "type": "location",
+        "id": "bb:location:old-salt-eatery",
+        "name": "Old Salt Eatery",
+        "parent_location": "bb:district:blackmire",
+        "location_type": "tavern",
+        "population": "variable",
+        "government": "private ownership",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "tavern",
+          "eatery",
+          "local haunt",
+          "blackmire",
+          "food"
+        ],
+        "overview": "A battered, half-sunken tavern perched on stilts above the Blackmire muck, the Old Salt Eatery is the district’s most reliable source of food, gossip, and cheap grog. It smells like burnt fish, spilled brine, and old secrets. Locals swear the soup tastes different every day—mostly because it does.\n",
+        "geography": "Located near the center of Blackmire, where the sludge channels narrow, the eatery hangs partially over a slow-moving canal. Lanterns strung on ropes sway in the fog, and planks creak with every footfall.\n",
+        "notable_features": [
+          "Signature dish, “Saltfather’s Stew” (ingredients unknown)",
+          "Fish tank bar table filled with eels",
+          "Daily “Catch & Gamble” game where patrons bet on swamp creatures",
+          "Salt-crusted floorboards said to be blessed by Sedna (or cursed by the cook)"
+        ],
+        "demographics": "Mostly Blackmire locals, laborers, smugglers, out-of-luck pirates, and the occasional Inquisitor.\n",
+        "government_and_politics": "Neutral ground—no blades drawn, no questions asked. Run by old sea dog Garrik “Salttooth” Vane, a retired cook with a hook for a hand and a tongue sharp as a filet knife.\n",
+        "economy": "Cheap meals, local brews, underground betting. Sometimes used for dead drops or hushed meetings in curtained corners.\n",
+        "culture": "Rowdy, reeking of brine and spice. Tables carved with old names and forgotten crews. Every night carries a different flavor of danger, but the regulars wouldn’t eat anywhere else.\n",
+        "notable_npcs": [
+          {
+            "name": "Garrik \"Salttooth\" Vane",
+            "role": "owner",
+            "note": "Claims to have cooked for three pirate kings; one-eyed; hook hand."
+          },
+          {
+            "name": "Krixie",
+            "role": "server",
+            "note": "Halfling with sticky fingers and a sharp memory."
+          },
+          {
+            "name": "Branwell",
+            "role": "regular",
+            "note": "Off-duty dockhand who’s always there, always watching."
+          }
+        ],
+        "adventure_hooks": [
+          "A regular customer was poisoned—accident, or message?",
+          "Vane has a map etched on a fishbone, but refuses to sell it.",
+          "Something is whispering through the eels in the bar tank…"
+        ],
+        "secrets": [
+          "The cellar opens into an old smuggler tunnel sealed for years.",
+          "Salttooth Vane once sailed with Bloodshot and knows more than he lets on.",
+          "The stew’s secret ingredient may be alchemically active—an accident or a weapon?"
+        ],
+        "connected_locations": [
+          "Miremarket (supply runs)",
+          "The Crooked Lantern (rival establishment)",
+          "Whisperer’s Hollow (local legend tied to the menu)"
+        ],
+        "connected_location_ids": null
+      },
       "body_excerpt": "",
-      "raw": {}
+      "raw": {
+        "parent_location": "bb:district:blackmire"
+      }
     },
     {
-      "id": "bb:page:powder-keg-tavern",
-      "type": "page",
-      "name": "powder-keg-tavern",
-      "tags": [],
+      "id": "bb:location:powder-keg-tavern",
+      "type": "location",
+      "name": "Powder Keg Tavern",
+      "tags": [
+        "salt-crown",
+        "tavern",
+        "brawls",
+        "explosives",
+        "smuggling"
+      ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\powder-keg-tavern.md",
-      "fm": {},
+      "fm": {
+        "type": "location",
+        "id": "bb:location:powder-keg-tavern",
+        "name": "Powder Keg Tavern",
+        "parent_location": "bb:district:salt-crown",
+        "location_type": "tavern",
+        "maps_available": true,
+        "map_files": [
+          "assets/maps/powder-keg-tavern.jpg"
+        ],
+        "tags": [
+          "salt-crown",
+          "tavern",
+          "brawls",
+          "explosives",
+          "smuggling"
+        ],
+        "overview": "Built against a sulfur-reeking cliffside, the Powder Keg Tavern is a den of debauchery, violence, and black-powder-fueled chaos. Frequent brawls, reckless drinking challenges, and the occasional explosion draw gunslingers, mercenaries, and smugglers seeking cheap rum and dangerous company.\n",
+        "notable_features": [
+          {
+            "Main Hall": "Dim, smoke-filled, crammed with rough-hewn tables and dented tankards."
+          },
+          {
+            "Cavern Brewery": "Natural cavern behind the bar doubles as brewery and powder magazine; accidental blasts occur monthly."
+          },
+          {
+            "Cliffside Balcony": "Precarious dueling ground and place to throw cheaters to the waves."
+          },
+          {
+            "Hidden Tunnel (Rumor)": "Supposedly leads to an old smuggler’s vault."
+          }
+        ],
+        "associated_npcs": [
+          {
+            "name": "Harlow \"Blastcap\" Grint",
+            "role": "proprietor",
+            "ancestry": "dwarf",
+            "notes": "Ear lost to a cannon misfire; serves brews strong enough to floor an orc; uses smoke bombs to end fights."
+          },
+          {
+            "name": "Penny \"Quickhands\" Locke",
+            "role": "server",
+            "ancestry": "human",
+            "notes": "Former pickpocket; quick reflexes; keeps the city’s wanted list memorized."
+          },
+          {
+            "name": "Slug",
+            "role": "server / bouncer",
+            "ancestry": "goblin",
+            "notes": "Ex-gunner; serves the Blunderbuss cocktail (lethal or divine); known for stabbing unruly patrons."
+          },
+          {
+            "name": "Big Mags",
+            "role": "cook / enforcer",
+            "ancestry": "half-ogre",
+            "notes": "Wears a butcher’s apron; Galleon’s Bounty stew has questionable “healing” power."
+          }
+        ],
+        "regulars": [
+          {
+            "name": "Captain Broome \"The Twice-Hanged\"",
+            "ancestry": "half-orc",
+            "notes": "Rope scars on neck; claims to have survived two hangings; drinks glowing green liquor; mutters about a cursed coin in Gallows Market."
+          },
+          {
+            "name": "Ettie \"Firetongue\" Jarr",
+            "ancestry": "human",
+            "notes": "Alchemist and explosives dealer; perpetually singed; sells blasting sticks and powders; once burned down a ship and stole its treasure."
+          },
+          {
+            "name": "Duggan \"The Walking Wreck\"",
+            "ancestry": "goliath",
+            "notes": "Survives nightly brawls; reputed to have taken a cannonball to the chest; undefeated in knockout bets."
+          }
+        ],
+        "adventure_hooks": [
+          {
+            "A Black Powder Deal Gone Wrong": "Someone stole powder from the back room; Blastcap needs it recovered fast."
+          },
+          {
+            "The Smuggler’s Vault": "A rumored tunnel beneath the tavern leads to treasure—if someone dares to brave it."
+          },
+          {
+            "An Explosive Disappearance": "Ettie vanishes after a failed experiment; her workshop smolders with clues."
+          }
+        ],
+        "connected_locations": [
+          "bb:district:salt-crown",
+          "bb:location:gallows-market"
+        ]
+      },
       "body_excerpt": "",
-      "raw": {}
+      "raw": {
+        "parent_location": "bb:district:salt-crown"
+      }
     },
     {
       "id": "bb:location:red-chain-bridge",
@@ -6604,6 +6821,16 @@
       "target": "bb:location:golden-gull"
     },
     {
+      "source": "bb:npc:big-mags",
+      "rel": "located_in",
+      "target": "bb:location:powder-keg-tavern"
+    },
+    {
+      "source": "bb:npc:big-mags",
+      "rel": "located_in",
+      "target": "bb:location:powder-keg-tavern"
+    },
+    {
       "source": "bb:npc:brin",
       "rel": "located_in",
       "target": "bb:location:red-door-alchemy"
@@ -6637,6 +6864,16 @@
       "source": "bb:npc:garrick-yellow-cart",
       "rel": "located_in",
       "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:npc:harlow-blastcap-grint",
+      "rel": "located_in",
+      "target": "bb:location:powder-keg-tavern"
+    },
+    {
+      "source": "bb:npc:harlow-blastcap-grint",
+      "rel": "located_in",
+      "target": "bb:location:powder-keg-tavern"
     },
     {
       "source": "bb:npc:high-numerator-fex",
@@ -6684,6 +6921,11 @@
       "target": "bb:location:crooked-lantern"
     },
     {
+      "source": "bb:npc:penny-quickhands-locke",
+      "rel": "located_in",
+      "target": "bb:location:powder-keg-tavern"
+    },
+    {
       "source": "bb:npc:rita-kess",
       "rel": "located_in",
       "target": "bb:location:ritas-smithy"
@@ -6692,6 +6934,16 @@
       "source": "bb:npc:sinker",
       "rel": "located_in",
       "target": "bb:location:sinkers-curiosities"
+    },
+    {
+      "source": "bb:npc:slug",
+      "rel": "located_in",
+      "target": "bb:location:powder-keg-tavern"
+    },
+    {
+      "source": "bb:npc:slug",
+      "rel": "located_in",
+      "target": "bb:location:powder-keg-tavern"
     },
     {
       "source": "bb:npc:strange-bones",
@@ -6804,6 +7056,11 @@
       "target": "bb:district:mistwalk"
     },
     {
+      "source": "bb:location:drowned-market",
+      "rel": "located_in",
+      "target": "bb:district:crosswater"
+    },
+    {
       "source": "bb:location:drunken-satyr",
       "rel": "located_in",
       "target": "bb:district:salt-crown"
@@ -6857,6 +7114,16 @@
       "source": "bb:location:miremarket",
       "rel": "located_in",
       "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:location:old-salt-eatery",
+      "rel": "located_in",
+      "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:location:powder-keg-tavern",
+      "rel": "located_in",
+      "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:location:red-chain-bridge",
@@ -7271,6 +7538,11 @@
     {
       "source": "bb:npc:big-mags",
       "rel": "appears_in",
+      "target": "bb:location:powder-keg-tavern"
+    },
+    {
+      "source": "bb:npc:big-mags",
+      "rel": "appears_in",
       "target": "bb:story:tavern-rivalry"
     },
     {
@@ -7302,6 +7574,11 @@
       "source": "bb:npc:fenrith",
       "rel": "appears_in",
       "target": "bb:location:ruperts-rest"
+    },
+    {
+      "source": "bb:npc:harlow-blastcap-grint",
+      "rel": "appears_in",
+      "target": "bb:location:powder-keg-tavern"
     },
     {
       "source": "bb:npc:harlow-blastcap-grint",
@@ -7361,6 +7638,11 @@
     {
       "source": "bb:npc:penny-quickhands-locke",
       "rel": "appears_in",
+      "target": "bb:location:powder-keg-tavern"
+    },
+    {
+      "source": "bb:npc:penny-quickhands-locke",
+      "rel": "appears_in",
       "target": "bb:story:tavern-rivalry"
     },
     {
@@ -7372,6 +7654,11 @@
       "source": "bb:npc:sinker",
       "rel": "appears_in",
       "target": "bb:location:sinkers-curiosities"
+    },
+    {
+      "source": "bb:npc:slug",
+      "rel": "appears_in",
+      "target": "bb:location:powder-keg-tavern"
     },
     {
       "source": "bb:npc:slug",
@@ -7441,12 +7728,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:blackmire"
+      "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:hub:districts",
@@ -7456,12 +7738,17 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:salt-crown"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
+      "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:little-sedna"
     },
     {
       "source": "bb:hub:customs",
@@ -7476,26 +7763,6 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:twilight-society"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:council-of-free-captains"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:faction:cult-forgotten-wind"
     },
     {
@@ -7506,27 +7773,22 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:inquisitors-of-black-brine"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:fishermens-union"
     },
     {
       "source": "bb:hub:factions",
@@ -7536,7 +7798,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
+      "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:factions",
@@ -7546,7 +7808,37 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
+      "target": "bb:faction:council-of-free-captains"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widow-makers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7556,22 +7848,17 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:fallen-city:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7586,22 +7873,27 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
       "target": "bb:pc:sy"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:pc:franklin"
     },
     {
       "source": "bb:hub:players",
@@ -7612,21 +7904,6 @@
       "source": "bb:hub:players",
       "rel": "organizes",
       "target": "bb:pc:andromeda"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
-      "target": "bb:pc:franklin"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:codex-salt-shadow"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:ruperts-welcome-speech"
     },
     {
       "source": "bb:hub:items",
@@ -7641,17 +7918,17 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
+      "target": "bb:item:ruperts-welcome-speech"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:codex-salt-shadow"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
       "target": "bb:item:sedna-lore-poem"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7666,17 +7943,12 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
+      "target": "bb:house-rules:jungle-survival"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival-training"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
+      "target": "bb:house-rules:jungle-passive-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7686,12 +7958,32 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:phased-threat-escalation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:firearms-training-mechanics"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
+      "target": "bb:house-rules:jungle-environmental-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-weather-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival-training"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7701,17 +7993,12 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-passive-threat-level"
+      "target": "bb:house-rules:jungle-navigation"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 159,
-    "edges": 247
+    "edges": 261
   }
 }

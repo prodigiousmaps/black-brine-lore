@@ -2467,6 +2467,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\drowned-market.md",
+      "field": "parent_location",
+      "value": "bb:district:crosswater",
+      "resolved_id": "bb:district:crosswater",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\drunken-satyr.md",
       "field": "parent_location",
       "value": "bb:district:salt-crown",
@@ -2597,6 +2606,24 @@
       "field": "parent_location",
       "value": "bb:district:blackmire",
       "resolved_id": "bb:district:blackmire",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\old-salt-eatery.md",
+      "field": "parent_location",
+      "value": "bb:district:blackmire",
+      "resolved_id": "bb:district:blackmire",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\powder-keg-tavern.md",
+      "field": "parent_location",
+      "value": "bb:district:salt-crown",
+      "resolved_id": "bb:district:salt-crown",
       "method": "id",
       "score": 1.0,
       "note": ""
