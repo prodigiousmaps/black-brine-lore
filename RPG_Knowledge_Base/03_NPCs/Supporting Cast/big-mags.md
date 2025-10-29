@@ -10,5 +10,6 @@ allies: []
 rivals: []
 appears_in:
   - bb:location:powder-keg-tavern
+  - bb:story:tavern-rivalry
 tags: [powder-keg, cook, enforcer, half-ogre]
 ---
