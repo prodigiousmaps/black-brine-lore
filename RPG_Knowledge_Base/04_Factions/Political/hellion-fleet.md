@@ -2,8 +2,8 @@
 type: faction
 id: bb:fleet:hellion-fleet
 name: The Hellion Fleet
-summary: >
-  Gun Deck Rosy's blackpowder destroyers, marines and engineers dominate the surrounding seas through disciplined battle technique, religious zeal and overwhelming force.
+summary: 
+  'Gun Deck Rosys blackpowder destroyers, marines and engineers dominate the surrounding seas through disciplined battle technique, religious zeal and overwhelming force.'
 member_of: bb:hub:fleets
 leaders: [ bb:npc:gun-deck-rosy ]
 tags: [fleet, piracy, warfare, militaristic]
