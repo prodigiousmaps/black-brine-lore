@@ -850,7 +850,8 @@
         "type": "monster",
         "id": "bb:beast:ravething",
         "name": "Ravething",
-        "summary": "Hairless scavenger with jagged spines, hunts in packs and preys on restrained victims.\n",
+        "summary": "Hairless scavenger with jagged spines, hunts in packs and preys on restrained victims.",
+        "parent_location": "bb:campaign:deep-green:skull-garden",
         "appears_in": [
           "bb:story:skull-garden-black-river"
         ],
@@ -862,6 +863,7 @@
       },
       "body_excerpt": "# Ravething\n- AC 13, HP 18\n- Traits:\n  - Pack Hunter: advantage vs grappled/ restrained targets\n  - Opportunist: bonus 10 ft move when ally attacks nearby\n- Actions:\n  - Claw: +4 to hit, 1d6+3 slashing\n  - Spine Flurry (Recharge 5–6): DC 13 DEX save, 2d6 piercing",
       "raw": {
+        "parent_location": "bb:campaign:deep-green:skull-garden",
         "appears_in": [
           "bb:story:skull-garden-black-river"
         ]
@@ -1871,7 +1873,7 @@
       "fm": {
         "type": "lore",
         "id": "bb:lore:challenge-coins",
-        "parent_location": "bb:hub:items",
+        "parent_location": "bb:city:black-brine",
         "name": "Black Brine Challenge Coins",
         "summary": "Magical safeguards placed on pirate captains’ coins of Black Brine. Details sigils, tracking, security rituals, and campaign uses.\n",
         "tags": [
@@ -1884,7 +1886,7 @@
       },
       "body_excerpt": "# Challenge Coins of Black Brine\n\n### Magical Safeguards\n1. **Magical Signature** – Bound to captain’s blood or soul; cannot be forged.  \n2. **Tracking** – Ritual possible with connection item; imprecise but reveals region.  \n3. **Challenge Response** – Requires phrase or gesture; misuse exposes impostors.\n\n### Enemy Implications\n- Corsair-worshipers cannot easily forge.  \n- Coins risky to use openly.  \n- Suppression rituals possible but traceable.\n\n### Rupert’s Role\nRupert can accelerate rituals, break suppression, and leverage the crew.\n\n### Campaign Arc\n- **Sessions 1–2**: Missing coin discovered.  \n- **3–4**: Enemy begins testing; tracking ritual contested.  \n- **5+**: Confrontation, decision on coin’s fate.\n\n### Twists\n- Rival factions may hunt coin.  \n- Enemy might discard coin for a…",
       "raw": {
-        "parent_location": "bb:hub:items"
+        "parent_location": "bb:city:black-brine"
       }
     },
     {
@@ -3134,7 +3136,7 @@
         "name": "Big Mags",
         "summary": "Half-ogre cook and enforcer; serves questionable stew and clears the room with a glare.",
         "location": "bb:location:powder-keg-tavern",
-        "parent-location": "bb:location:powder-keg-tavern",
+        "parent_location": "bb:location:powder-keg-tavern",
         "factions": [],
         "allies": [],
         "rivals": [],
@@ -3150,6 +3152,7 @@
       },
       "body_excerpt": "",
       "raw": {
+        "parent_location": "bb:location:powder-keg-tavern",
         "location": "bb:location:powder-keg-tavern",
         "factions": [],
         "allies": [],
@@ -3678,7 +3681,7 @@
         "name": "Garrick of the Yellow Cart",
         "role": "Cartridge Driver",
         "location": "Black Brine streets",
-        "parent-location": "bb:city:black-brine",
+        "parent_location": "bb:city:black-brine",
         "tags": [
           "npc",
           "comic relief",
@@ -3688,6 +3691,7 @@
       },
       "body_excerpt": "# Description\nA cheerful eccentric who offers free carriage rides to anyone willing to listen to his relentless sponsor’s sales pitch. Garrick rotates sponsors weekly, ranging from fishmongers to crime bosses, often contradicting himself mid-ride.\n\n# Personality\n- Enthusiastic, loud, never malicious.\n- Loves gossip and rumor-spreading.\n- Treats his passengers like “customers,” even when they groan.\n\n# Hooks\n- His sponsor’s products sometimes carry secret codes or smuggled goods.\n- Rivals sabotage Garrick’s cart, dragging the PCs into the fallout.\n- He can unwittingly drop critical plot hooks in his rambling pitches.",
       "raw": {
+        "parent_location": "bb:city:black-brine",
         "location": "Black Brine streets"
       }
     },
@@ -4165,7 +4169,7 @@
         "id": "bb:npc:penny-quickhands-locke",
         "name": "Penny “Quickhands” Locke",
         "summary": "Tattooed server and pickpocket; keeps the wanted list in her head and a knife in her boot.",
-        "location": "bb:location:powder-keg-tavern",
+        "parent_location": "bb:location:powder-keg-tavern",
         "factions": [],
         "allies": [],
         "rivals": [],
@@ -4181,7 +4185,7 @@
       },
       "body_excerpt": "",
       "raw": {
-        "location": "bb:location:powder-keg-tavern",
+        "parent_location": "bb:location:powder-keg-tavern",
         "factions": [],
         "allies": [],
         "rivals": [],
@@ -4286,7 +4290,7 @@
         "id": "bb:npc:slug",
         "name": "“Slug”",
         "summary": "Goblin ex-gunner; mixes the lethal “Blunderbuss” cocktail and stabs unruly patrons.",
-        "location": "bb:location:powder-keg-tavern",
+        "parent_location": "bb:location:powder-keg-tavern",
         "factions": [],
         "allies": [],
         "rivals": [],
@@ -4302,7 +4306,7 @@
       },
       "body_excerpt": "",
       "raw": {
-        "location": "bb:location:powder-keg-tavern",
+        "parent_location": "bb:location:powder-keg-tavern",
         "factions": [],
         "allies": [],
         "rivals": [],
@@ -5438,6 +5442,7 @@
       ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\golden-gull.md",
       "fm": {
+        "id": "bb:location:golden-gull",
         "parent_location": "bb:city:black-brine",
         "type": "location",
         "name": "The Golden Gull",
@@ -5453,9 +5458,9 @@
           "crosswater",
           "social hub"
         ],
-        "overview": "The Golden Gull is an upscale tavern nestled between warehouses and sea-captain estates in the Crosswater District. Known for its fine drink, softer lighting, and whispered dealings, it serves merchants, smugglers, and off-duty fleet officers looking for luxury without judgment.\n",
-        "appearance": "Lanterns hang from curved brass arms, casting golden pools of light across polished wood and sea-glass windows. A mounted gull in mid-flight—wings spread and dipped in gold leaf—hangs from the ceiling. Sea breezes curl through tall shuttered windows.\n",
-        "role_in_society": "The Golden Gull is where Crosswater's deals are struck over clinking glasses and songs carry rumors farther than sails. It's a favored neutral ground for mid-tier captains, council informants, and discreet power brokers. Spies, singers, and smooth-tongued fixers make it their haunt.\n",
+        "overview": "The Golden Gull is an upscale tavern nestled between warehouses and sea-captain estates in the Crosswater District. Known for its fine drink, softer lighting, and whispered dealings, it serves merchants, smugglers, and off-duty fleet officers looking for luxury without judgment.",
+        "appearance": "Lanterns hang from curved brass arms, casting golden pools of light across polished wood and sea-glass windows. A mounted gull in mid-flight—wings spread and dipped in gold leaf—hangs from the ceiling. Sea breezes curl through tall shuttered windows.",
+        "role_in_society": "The Golden Gull is where Crosswaters deals are struck over clinking glasses and songs carry rumors farther than sails. Its a favored neutral ground for mid-tier captains, council informants, and discreet power brokers. Spies, singers, and smooth-tongued fixers make it their haunt.",
         "services": [
           "Fine wines, rare spirits, and imported liqueurs",
           "Private balcony rooms with soundproofing",
@@ -5842,14 +5847,66 @@
       }
     },
     {
-      "id": "bb:page:soggy-town-playhouse",
-      "type": "page",
-      "name": "soggy-town-playhouse",
-      "tags": [],
+      "id": "bb:location:soggy-town-playhouse",
+      "type": "location",
+      "name": "Soggy Town Playhouse",
+      "tags": [
+        "entertainment",
+        "theater",
+        "crosswater",
+        "arts",
+        "eccentric"
+      ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\soggy-town-playhouse.md",
-      "fm": {},
+      "fm": {
+        "type": "location",
+        "id": "bb:location:soggy-town-playhouse",
+        "name": "Soggy Town Playhouse",
+        "parent_location": "bb:district:mistwalk",
+        "district": "mistwalk",
+        "location_type": "theater",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "entertainment",
+          "theater",
+          "crosswater",
+          "arts",
+          "eccentric"
+        ],
+        "overview": "The Soggy Town Playhouse is a half-sunken old frigate dragged ashore and reborn as Black Brine’s most raucous and beloved stage. Its boards creak with drama, comedy, and scandal in equal measure.\n",
+        "appearance": "The ship’s hull leans slightly, propped by scaffolding and optimism. Plankwalks lead into candlelit corridors strung with costumes, driftwood masks, and faded playbills. The stage is where the gun deck once was—still bearing scorched boards from its former life.\n",
+        "role_in_society": "Part community refuge, part cultural lighthouse, the Playhouse draws sailors, street urchins, and elites alike. It offers distraction, inspiration, and sometimes covert messages wrapped in satire. Performances often toe the line of political mockery.\n",
+        "services": [
+          "Nightly shows of original and adapted works",
+          "Bardic performances, puppet shows, and shadow plays",
+          "Cheap drinks and seaweed-wrapped popcorn",
+          "Occasional after-hours masked galas"
+        ],
+        "notable_features": [
+          "The Cannon Stage – features a retractable trapdoor and smoke-pipe special effects",
+          "Captain’s Balcony – VIP seating with enchanted acoustics",
+          "The Hold – dressing rooms, prop storage, and impromptu sleeping quarters"
+        ],
+        "associated_npcs": [
+          "Calwyn “Claps” Dorrin – dramatic director with a flair for scandal",
+          "Berta Gullswain – retired pirate turned costume mistress",
+          "Mop – stagehand goblin who also plays six minor roles per show"
+        ],
+        "rumors": [
+          "The Playhouse is secretly funded by the Council of Free Captains",
+          "Actors have disappeared mid-play with no explanation",
+          "A ghostly sailor sometimes appears during tragedies, weeping in the rafters"
+        ],
+        "secrets": [
+          "The keel of the ship hides a sealed smuggling tunnel now used to store dangerous props—and occasionally people",
+          "Calwyn was once an informant for the House of Questions; he might still be"
+        ]
+      },
       "body_excerpt": "",
-      "raw": {}
+      "raw": {
+        "parent_location": "bb:district:mistwalk"
+      }
     },
     {
       "id": "bb:location:string-and-power",
@@ -6476,6 +6533,16 @@
       "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
+      "source": "bb:beast:ravething",
+      "rel": "located_in",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:lore:challenge-coins",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
       "source": "bb:item:codex-salt-shadow",
       "rel": "located_in",
       "target": "bb:location:temple-of-sedna"
@@ -6579,6 +6646,11 @@
       "source": "bb:npc:fenrith",
       "rel": "located_in",
       "target": "bb:location:ruperts-rest"
+    },
+    {
+      "source": "bb:npc:garrick-yellow-cart",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
     },
     {
       "source": "bb:npc:high-numerator-fex",
@@ -6824,6 +6896,11 @@
       "source": "bb:location:sinkers-curiosities",
       "rel": "located_in",
       "target": "bb:district:salt-crown"
+    },
+    {
+      "source": "bb:location:soggy-town-playhouse",
+      "rel": "located_in",
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:location:string-and-power",
@@ -7353,12 +7430,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:salt-crown"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:districts",
@@ -7368,22 +7445,17 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
+      "target": "bb:district:salt-crown"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:crosswater"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
       "target": "bb:district:little-sedna"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:blackmire"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:customs",
-      "rel": "organizes",
-      "target": "bb:customs:crows-chance"
     },
     {
       "source": "bb:hub:customs",
@@ -7391,49 +7463,9 @@
       "target": "bb:creature:potoo"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:faction:twilight-society"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:council-of-free-captains"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
+      "target": "bb:customs:crows-chance"
     },
     {
       "source": "bb:hub:factions",
@@ -7448,12 +7480,52 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
+      "target": "bb:fleet:widow-makers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hellion-fleet"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
       "target": "bb:faction:cult-forgotten-wind"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:council-of-free-captains"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:fishermens-union"
     },
     {
       "source": "bb:hub:factions",
@@ -7466,29 +7538,9 @@
       "target": "bb:fleet:miasma"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7498,12 +7550,12 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-structure"
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
+      "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7513,12 +7565,37 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:sy"
+      "target": "bb:pc:franklin"
     },
     {
       "source": "bb:hub:players",
@@ -7528,22 +7605,12 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:andromeda"
+      "target": "bb:pc:sy"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:franklin"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:codex-salt-shadow"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:deep-green-supplies"
+      "target": "bb:pc:andromeda"
     },
     {
       "source": "bb:hub:items",
@@ -7561,19 +7628,29 @@
       "target": "bb:item:ruperts-welcome-speech"
     },
     {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:deep-green-supplies"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:codex-salt-shadow"
+    },
+    {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-passive-threat-level"
+      "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-weather-events"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
       "target": "bb:house-rules:jungle-event-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival-training"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7588,27 +7665,7 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
+      "target": "bb:house-rules:jungle-navigation-events"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7623,12 +7680,32 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation-events"
+      "target": "bb:house-rules:jungle-survival-training"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:firearms-training-mechanics"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:phased-threat-escalation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-passive-threat-level"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 159,
-    "edges": 240
+    "edges": 244
   }
 }

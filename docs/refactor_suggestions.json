@@ -659,6 +659,15 @@
     },
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\ravething.md",
+      "field": "parent_location",
+      "value": "bb:campaign:deep-green:skull-garden",
+      "resolved_id": "bb:campaign:deep-green:skull-garden",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\ravething.md",
       "field": "appears_in",
       "value": "bb:story:skull-garden-black-river",
       "resolved_id": null,
@@ -903,10 +912,10 @@
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\challenge-coins.md",
       "field": "parent_location",
-      "value": "bb:hub:items",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -1424,6 +1433,15 @@
     },
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\big-mags.md",
+      "field": "parent_location",
+      "value": "bb:location:powder-keg-tavern",
+      "resolved_id": "bb:location:powder-keg-tavern",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\big-mags.md",
       "field": "appears_in",
       "value": "bb:location:powder-keg-tavern",
       "resolved_id": "bb:location:powder-keg-tavern",
@@ -1681,6 +1699,15 @@
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\garrick-yellow-cart.md",
+      "field": "parent_location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -2000,7 +2027,7 @@
     },
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\penny-quickhands-locke.md",
-      "field": "location",
+      "field": "parent_location",
       "value": "bb:location:powder-keg-tavern",
       "resolved_id": "bb:location:powder-keg-tavern",
       "method": "id",
@@ -2054,7 +2081,7 @@
     },
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\slug.md",
-      "field": "location",
+      "field": "parent_location",
       "value": "bb:location:powder-keg-tavern",
       "resolved_id": "bb:location:powder-keg-tavern",
       "method": "id",
@@ -2588,6 +2615,15 @@
       "field": "parent_location",
       "value": "bb:district:salt-crown",
       "resolved_id": "bb:district:salt-crown",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\soggy-town-playhouse.md",
+      "field": "parent_location",
+      "value": "bb:district:mistwalk",
+      "resolved_id": "bb:district:mistwalk",
       "method": "id",
       "score": 1.0,
       "note": ""
