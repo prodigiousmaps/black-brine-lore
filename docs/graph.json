@@ -5204,29 +5204,9 @@
           "trade",
           "crosswater",
           "shady"
-        ],
-        "overview": "Hidden in the flooded warrens beneath Crosswater, the Drowned Market is Black Brine’s worst-kept secret—a sloshing maze of shadow stalls, half-submerged vaults, and whisper-traded sins. Goods here range from rare spices and void-forged steel to cursed relics and forbidden tomes. No questions asked. No refunds given.\n",
-        "geography": "Located in partially collapsed basements, cisterns, and dry wells—some still wet—the market winds like a sewer under Crosswater’s crumbling foundations. Lanterns flicker over waist-deep brine. Boats replace carts. Every step risks a soaked boot… or worse.\n",
-        "notable_features": [
-          "Floating vendor rafts lashed together with chain.",
-          "Permanent stall carved into a sunken brewery.",
-          "Blood-slick stone where deals are sealed with ritual.",
-          "Central shrine to Mask, god of shadows and thieves."
-        ],
-        "secrets_and_rumors": "The Butchers control several access points and extract “tolls” from vendors. The Noose has eyes here, but so do the Twilight Society and the Gilded Rats. It’s rumored that deep beneath the deepest stall lies a vault untouched since the fall of Sedna’s first cult.\n",
-        "culture_and_daily_life": "Only those with connections—or coin—can find the market. Traders speak in code. Eyes are always watching. Violence is rare but efficient. The market resets each night, vanishing before sunup.\n",
-        "adventure_hooks": [
-          "A rare item needed for a ritual appears here—for a steep price.",
-          "A vendor disappears mid-deal; only a trail of blood and a smirking rival remain.",
-          "The market floods unexpectedly—something large moves in the water below."
-        ],
-        "connected_locations": [
-          "bb:location:gentle-rest-inn",
-          "bb:location:keelhauls",
-          "bb:location:string-and-powder"
         ]
       },
-      "body_excerpt": "",
+      "body_excerpt": "# Overview\nHidden in the flooded warrens beneath Crosswater, the Drowned Market is Black Brine’s worst-kept secret—a sloshing maze of shadow stalls, half-submerged vaults, and whisper-traded sins. Goods here range from rare spices and void-forged steel to cursed relics and forbidden tomes. No questions asked. No refunds given.\n\n# Geography\nLocated in partially collapsed basements, cisterns, and dry wells—some still wet—the market winds like a sewer under Crosswater’s crumbling foundations. Lanterns flicker over waist-deep brine. Boats replace carts. Every step risks a soaked boot… or worse.\n\n# Notable Features\n- Floating vendor rafts lashed together with chain.\n- Permanent stall carved into a sunken brewery.\n- Blood-slick stone where deals are sealed with ritual.\n- Central shrine to Mask, …",
       "raw": {
         "parent_location": "bb:district:crosswater"
       }
@@ -7805,16 +7785,6 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:blackmire"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:salt-crown"
     },
     {
@@ -7825,12 +7795,17 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
+      "target": "bb:district:blackmire"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:faction:council-of-free-captains"
+      "target": "bb:district:mistwalk"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:factions",
@@ -7840,22 +7815,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
+      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:twilight-society"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
+      "target": "bb:faction:council-of-free-captains"
     },
     {
       "source": "bb:hub:factions",
@@ -7865,27 +7830,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:hub:factions",
@@ -7895,7 +7840,32 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widow-makers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:fishermens-union"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hellion-fleet"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:hub:factions",
@@ -7903,34 +7873,14 @@
       "target": "bb:fleet:red-wakes"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:fleet:gilded-rats"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-structure"
+      "target": "bb:fleet:miasma"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7940,7 +7890,37 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7950,7 +7930,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
+      "target": "bb:campaign:fallen-city:fallen-city-structure"
     },
     {
       "source": "bb:hub:players",
@@ -7960,7 +7940,7 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:pinch"
+      "target": "bb:pc:sy"
     },
     {
       "source": "bb:hub:players",
@@ -7970,17 +7950,7 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:sy"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:sedna-lore-poem"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:deep-green-supplies"
+      "target": "bb:pc:pinch"
     },
     {
       "source": "bb:hub:items",
@@ -7990,7 +7960,7 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:ruperts-welcome-speech"
+      "target": "bb:item:sedna-lore-poem"
     },
     {
       "source": "bb:hub:items",
@@ -7998,24 +7968,14 @@
       "target": "bb:item:codex-salt-shadow"
     },
     {
-      "source": "bb:hub:house-rules",
+      "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
+      "target": "bb:item:deep-green-supplies"
     },
     {
-      "source": "bb:hub:house-rules",
+      "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation-events"
+      "target": "bb:item:ruperts-welcome-speech"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8030,21 +7990,6 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival-training"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
       "target": "bb:house-rules:jungle-environmental-threat-level"
     },
     {
@@ -8055,12 +8000,47 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:jungle-weather-events"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival-training"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-event-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:jungle-passive-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:phased-threat-escalation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation"
     }
   ],
   "unresolved": [],
