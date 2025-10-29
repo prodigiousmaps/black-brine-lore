@@ -6392,7 +6392,7 @@
         "type": "customs",
         "id": "bb:customs:crows-chance",
         "name": "Crow’s Chance",
-        "parent-location": "bb:city:black-brine",
+        "parent_location": "bb:city:black-brine",
         "origin": "Black Brine",
         "tags": [
           "game",
@@ -6402,7 +6402,9 @@
         ]
       },
       "body_excerpt": "# Overview\nA popular street and tavern game, exclusive to Black Brine. Played casually with chalk circles and seashells, or with carved bone tokens and fine boards in gambling dens.\n\n# Components\n- Board of 12 squares in a circle.\n- Each player has 3 “crows” (bone or shell tokens).\n- 2 six-sided dice.\n\n# Rules (Casual Version)\n1. Each player places their 3 crows at start.\n2. Roll 2d6 to move one crow clockwise.\n3. Landing on an occupied space lets you “snatch” the other crow (remove it).\n4. Goal: control the final square (“the roost”).\n\n# Variants (High Stakes)\n- Buy-ins: each crow has a wagered value.\n- Bluff tokens: fake crows can be introduced.\n- Sudden forfeits: players risk all crows on a gamble roll.\n\n# Digital Potential\nThe rules are simple, fast, and favor tension — perfect for a b…",
-      "raw": {}
+      "raw": {
+        "parent_location": "bb:city:black-brine"
+      }
     },
     {
       "id": "bb:location:western-jungle",
@@ -7169,6 +7171,11 @@
       "target": "bb:district:blackmire"
     },
     {
+      "source": "bb:customs:crows-chance",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
       "source": "bb:diety:sedna",
       "rel": "located_in",
       "target": "bb:location:temple-of-sedna"
@@ -7701,6 +7708,16 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
+      "target": "bb:district:mistwalk"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:little-sedna"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
       "target": "bb:district:crosswater"
     },
     {
@@ -7711,7 +7728,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:districts",
@@ -7719,24 +7736,19 @@
       "target": "bb:district:salt-crown"
     },
     {
-      "source": "bb:hub:districts",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:mistwalk"
+      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:gutterlings"
+      "target": "bb:faction:fishermens-union"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
+      "target": "bb:faction:council-of-free-captains"
     },
     {
       "source": "bb:hub:factions",
@@ -7751,17 +7763,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
     },
     {
       "source": "bb:hub:factions",
@@ -7771,17 +7773,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:cult-forgotten-wind"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
+      "target": "bb:faction:gutterlings"
     },
     {
       "source": "bb:hub:factions",
@@ -7791,47 +7783,42 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:council-of-free-captains"
+      "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
+      "target": "bb:faction:cult-forgotten-wind"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
+      "target": "bb:fleet:miasma"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
+      "target": "bb:fleet:hollow-fangs"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
+      "target": "bb:fleet:hellion-fleet"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+      "target": "bb:faction:union-of-lamp-lighters"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7846,22 +7833,32 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-structure"
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:pc:sy"
+      "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:pc:franklin"
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
     },
     {
       "source": "bb:hub:players",
@@ -7874,14 +7871,19 @@
       "target": "bb:pc:andromeda"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:item:apertures-theory"
+      "target": "bb:pc:sy"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:pc:franklin"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:deep-green-supplies"
+      "target": "bb:item:sedna-lore-poem"
     },
     {
       "source": "bb:hub:items",
@@ -7896,22 +7898,17 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:sedna-lore-poem"
+      "target": "bb:item:deep-green-supplies"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:apertures-theory"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
       "target": "bb:house-rules:jungle-survival-training"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7926,27 +7923,7 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
       "target": "bb:house-rules:jungle-travel-phases"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-stealth"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:stealth-preparation"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7956,17 +7933,47 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation-events"
+      "target": "bb:house-rules:jungle-event-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
       "target": "bb:house-rules:jungle-passive-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:phased-threat-escalation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:stealth-preparation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-stealth"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-environmental-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:firearms-training-mechanics"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 157,
-    "edges": 260
+    "edges": 261
   }
 }
