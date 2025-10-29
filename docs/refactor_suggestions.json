@@ -651,10 +651,10 @@
     {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Creatures\\potoo.md",
       "field": "parent_location",
-      "value": "bb:hub:customs",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "value": "bb:location:island-of-sedna",
+      "resolved_id": "bb:location:island-of-sedna",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
