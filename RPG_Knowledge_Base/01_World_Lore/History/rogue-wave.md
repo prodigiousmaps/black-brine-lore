@@ -4,11 +4,14 @@ id: bb:story:rogue-wave
 name: The Rogue Wave
 parent_location: bb:hub:factions
 tags:
-  - legend
-  - ship
-  - rogue-wave
-  - sedna
-  - black-brine
+- legend
+- ship
+- rogue-wave
+- sedna
+- black-brine
+summary: '# Summary A legendary ship that emerges every few centuries from mist—never
+  claimed, only accepted. Those who sail it are destined for great deeds before the
+  vessel vanishes once more.'
 ---
 # Summary 
 A legendary ship that emerges every few centuries from mist—never claimed, only accepted.
