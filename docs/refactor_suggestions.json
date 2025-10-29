@@ -121,9 +121,9 @@
       "path": "RPG_Knowledge_Base\\09_Player_Characters\\andromida.md",
       "field": "appears_in",
       "value": "bb:story:rogue-wave",
-      "resolved_id": "bb:story:rogue-wave",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
@@ -184,9 +184,9 @@
       "path": "RPG_Knowledge_Base\\09_Player_Characters\\franklin-pierce.md",
       "field": "appears_in",
       "value": "bb:story:rogue-wave",
-      "resolved_id": "bb:story:rogue-wave",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
@@ -247,9 +247,9 @@
       "path": "RPG_Knowledge_Base\\09_Player_Characters\\pinch.md",
       "field": "appears_in",
       "value": "bb:story:rogue-wave",
-      "resolved_id": "bb:story:rogue-wave",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
@@ -310,9 +310,9 @@
       "path": "RPG_Knowledge_Base\\09_Player_Characters\\sy.md",
       "field": "appears_in",
       "value": "bb:story:rogue-wave",
-      "resolved_id": "bb:story:rogue-wave",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
@@ -931,9 +931,9 @@
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\deep-green-supplies.md",
       "field": "parent_location",
       "value": "bb:story:rogue-wave",
-      "resolved_id": "bb:story:rogue-wave",
-      "method": "id",
-      "score": 1.0,
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {

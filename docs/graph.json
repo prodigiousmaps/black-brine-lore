@@ -6240,60 +6240,23 @@
       "raw": {}
     },
     {
-      "id": "bb:lore:djinn",
-      "type": "lore",
-      "name": "Djinn",
-      "tags": [
-        "elemental",
-        "legend",
-        "sedna",
-        "air",
-        "fire",
-        "wishes"
-      ],
-      "source": "RPG_Knowledge_Base\\01_World_Lore\\History\\Djinn.md",
-      "fm": {
-        "type": "lore",
-        "id": "bb:lore:djinn",
-        "name": "Djinn",
-        "tags": [
-          "elemental",
-          "legend",
-          "sedna",
-          "air",
-          "fire",
-          "wishes"
-        ]
-      },
-      "body_excerpt": "# Overview\nWhispers in Black Brine tell of Djinn—elemental beings of wind and flame bound into contracts with mortals. They are rare, mercurial, and dangerous to summon, tied to storms and desert fire alike.\n\n# Legends\n- Said to walk the line between Sedna’s chains and the Hollow Goddess’ storms.  \n- Captains claim whole fleets have been carried into fog or fire by Djinn’s wrath.  \n- Folktales say they grant three wishes but twist them cruelly.\n\n# Cultural Beliefs\n- Sailors carve warding sigils on masts to keep them at bay.  \n- The Twilight Society whispers they commune with Djinn in ritual haze.  \n- Some believe Djinn are fragments of the Godless Wind itself.\n\n# Adventure Hooks\n- A forgotten lamp dredged up from a wreck calls to a crewmember.  \n- A storm over Black Brine carries voices of…",
+      "id": "bb:page:djinn",
+      "type": "page",
+      "name": "djinn",
+      "tags": [],
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\History\\djinn.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
-      "id": "bb:story:rogue-wave",
-      "type": "story",
-      "name": "The Rogue Wave",
-      "tags": [
-        "legend",
-        "ship",
-        "rogue-wave",
-        "sedna",
-        "black-brine"
-      ],
-      "source": "RPG_Knowledge_Base\\01_World_Lore\\History\\Rogue Wave.md",
-      "fm": {
-        "type": "story",
-        "id": "bb:story:rogue-wave",
-        "name": "The Rogue Wave",
-        "tags": [
-          "legend",
-          "ship",
-          "rogue-wave",
-          "sedna",
-          "black-brine"
-        ],
-        "summary": "# Overview A legendary ship that emerges every few centuries from mist, never claimed, only accepted. Those who sail it are destined for great deeds before the vessel vanishes once more."
-      },
-      "body_excerpt": "# Overview\nA legendary ship that emerges every few centuries from mist, never claimed, only accepted. Those who sail it are destined for great deeds before the vessel vanishes once more.\n\n# Legends\n- Appears from nowhere, sails until its chosen crew’s time is done, then disappears into fog or another plane.  \n- Believed to rest in Sedna’s embrace or the Elemental Plane of Air.  \n- Attempts to seize it by force always fail.  \n\n# Modern Return\n- PCs named it **The Rogue Wave**, unaware of its true name.  \n- Some recognize it with awe or fear, seeing omen of fortune or doom.  \n- Rival captains envy its power, believing it rightfully theirs.  \n\n# The Mystery\n- Crew may find fragments of old journals and carvings from past voyages.  \n- The ship whispers its forgotten name on the wind.  \n- Those…",
+      "id": "bb:page:rogue-wave",
+      "type": "page",
+      "name": "rogue-wave",
+      "tags": [],
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\History\\rogue-wave.md",
+      "fm": {},
+      "body_excerpt": "",
       "raw": {}
     },
     {
@@ -6307,7 +6270,7 @@
         "intrigue",
         "rivalry"
       ],
-      "source": "RPG_Knowledge_Base\\01_World_Lore\\History\\Tavern Rivalry.md",
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\History\\tavern-rivalry.md",
       "fm": {
         "type": "story",
         "id": "bb:story:tavern-rivalry",
@@ -6330,7 +6293,7 @@
             "relation": "rival establishment"
           }
         ],
-        "overview": "Black Brine’s underworld is split between two establishments: the **Golden Gull**, hub of wealth and politics, and the **Powder Keg Tavern**, ruled by might and chaos. Their feud fuels constant intrigue.\n",
+        "overview": "Black Brine’s underworld is split between two establishments: the **Golden Gull**, hub of wealth and politics, and the **Powder Keg Tavern**, ruled by might and chaos. Their feud fuels constant intrigue.",
         "core_rivalry": [
           "Golden Gull: Wealth, influence, assassins, and politics.",
           "Powder Keg: Raw strength, survival, mercenaries, and firepower.",
@@ -6574,11 +6537,6 @@
       "source": "bb:item:codex-salt-shadow",
       "rel": "located_in",
       "target": "bb:location:temple-of-sedna"
-    },
-    {
-      "source": "bb:item:deep-green-supplies",
-      "rel": "located_in",
-      "target": "bb:story:rogue-wave"
     },
     {
       "source": "bb:lore:final-verse",
@@ -7206,19 +7164,9 @@
       "target": "bb:location:ruperts-rest"
     },
     {
-      "source": "bb:pc:andromeda",
-      "rel": "appears_in",
-      "target": "bb:story:rogue-wave"
-    },
-    {
       "source": "bb:pc:franklin",
       "rel": "appears_in",
       "target": "bb:location:ruperts-rest"
-    },
-    {
-      "source": "bb:pc:franklin",
-      "rel": "appears_in",
-      "target": "bb:story:rogue-wave"
     },
     {
       "source": "bb:pc:pinch",
@@ -7226,19 +7174,9 @@
       "target": "bb:location:ruperts-rest"
     },
     {
-      "source": "bb:pc:pinch",
-      "rel": "appears_in",
-      "target": "bb:story:rogue-wave"
-    },
-    {
       "source": "bb:pc:sy",
       "rel": "appears_in",
       "target": "bb:location:ruperts-rest"
-    },
-    {
-      "source": "bb:pc:sy",
-      "rel": "appears_in",
-      "target": "bb:story:rogue-wave"
     },
     {
       "source": "bb:campaign:deep-green:short-cut",
@@ -7503,17 +7441,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:hub:districts",
@@ -7524,6 +7457,11 @@
       "source": "bb:hub:districts",
       "rel": "organizes",
       "target": "bb:district:keelhauls"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:little-sedna"
     },
     {
       "source": "bb:hub:customs",
@@ -7538,17 +7476,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
+      "target": "bb:fleet:malign-crew"
     },
     {
       "source": "bb:hub:factions",
@@ -7558,7 +7486,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
+      "target": "bb:faction:council-of-free-captains"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:twilight-society"
     },
     {
       "source": "bb:hub:factions",
@@ -7568,12 +7501,32 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:cult-forgotten-wind"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hellion-fleet"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:cult-forgotten-wind"
+      "target": "bb:fleet:widow-makers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:factions",
@@ -7588,57 +7541,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
+      "target": "bb:fleet:miasma"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:twilight-society"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:council-of-free-captains"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:faction:fishermens-union"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7648,7 +7556,17 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7658,12 +7576,27 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:fallen-city:fallen-city-structure"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:pc:sy"
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:players",
@@ -7673,12 +7606,27 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:andromeda"
+      "target": "bb:pc:pinch"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:pinch"
+      "target": "bb:pc:sy"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:pc:andromeda"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:deep-green-supplies"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:codex-salt-shadow"
     },
     {
       "source": "bb:hub:items",
@@ -7693,42 +7641,7 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:codex-salt-shadow"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
       "target": "bb:item:apertures-theory"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:deep-green-supplies"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival-training"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7738,27 +7651,22 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-passive-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
       "target": "bb:house-rules:firearms-training-mechanics"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
+      "target": "bb:house-rules:jungle-event-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:stealth-preparation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation-events"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7768,12 +7676,42 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:stealth-preparation"
+      "target": "bb:house-rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival-training"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-passive-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-weather-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:phased-threat-escalation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-environmental-threat-level"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 159,
-    "edges": 252
+    "edges": 247
   }
 }
