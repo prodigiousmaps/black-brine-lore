@@ -18,13 +18,11 @@ connections:
   relation: rival establishment
 overview: 'Black Brine’s underworld is split between two establishments: the **Golden
   Gull**, hub of wealth and politics, and the **Powder Keg Tavern**, ruled by might
-  and chaos. Their feud fuels constant intrigue.
-
-  '
+  and chaos. Their feud fuels constant intrigue.'
 core_rivalry:
 - 'Golden Gull: Wealth, influence, assassins, and politics.'
 - 'Powder Keg: Raw strength, survival, mercenaries, and firepower.'
-- Each tavern vies for dominance in Black Brine’s underworld.
+- 'Each tavern vies for dominance in Black Brine’s underworld.'
 key_figures:
 - Aldo Vance (Golden Gull Owner): Sees Blastcap as an uneducated brute.
 - Harlow “Blastcap” Grint (Powder Keg Owner): Sees Aldo as a backstabbing snake.

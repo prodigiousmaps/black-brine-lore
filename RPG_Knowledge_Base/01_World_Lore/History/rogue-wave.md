@@ -11,26 +11,22 @@ tags:
 summary: '# Overview A legendary ship that emerges every few centuries from mist,
   never claimed, only accepted. Those who sail it are destined for great deeds before
   the vessel vanishes once more.'
----
-# Overview
-A legendary ship that emerges every few centuries from mist, never claimed, only accepted. Those who sail it are destined for great deeds before the vessel vanishes once more.
-
-# Legends
+overview:
+'A legendary ship that emerges every few centuries from mist, never claimed, only accepted. Those who sail it are destined for great deeds before the vessel vanishes once more.'
+legends:
 - Appears from nowhere, sails until its chosen crew’s time is done, then disappears into fog or another plane.  
 - Believed to rest in Sedna’s embrace or the Elemental Plane of Air.  
 - Attempts to seize it by force always fail.  
-
-# Modern Return
+modern_return:
 - PCs named it **The Rogue Wave**, unaware of its true name.  
 - Some recognize it with awe or fear, seeing omen of fortune or doom.  
 - Rival captains envy its power, believing it rightfully theirs.  
-
-# The Mystery
+mystery:
 - Crew may find fragments of old journals and carvings from past voyages.  
 - The ship whispers its forgotten name on the wind.  
 - Those aboard feel echoes of past journeys, as if the vessel itself remembers.
-
-# Adventure Hooks
+adventure_hooks:
 - The Deadliest Pirate Lords test the crew’s worth.  
 - A rival fleet demands the ship’s allegiance.  
 - The ship begins guiding the crew to places it remembers.
+---
