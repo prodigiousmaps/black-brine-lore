@@ -4,7 +4,7 @@ id: bb:npc:big-mags
 name: Big Mags
 summary: Half-ogre cook and enforcer; serves questionable stew and clears the room with a glare.
 location: bb:location:powder-keg-tavern
-parent-location: bb:location:powder-keg-tavern
+parent_location: bb:location:powder-keg-tavern
 factions: []
 allies: []
 rivals: []

@@ -3,7 +3,7 @@ type: location
 id: bb:location:soggy-town-playhouse
 name: Soggy Town Playhouse
 parent_location: bb:district:mistwalk
-district: Crosswater
+district: mistwalk
 location_type: theater
 maps_available: false
 map_files: []
@@ -25,9 +25,9 @@ services:
   - Occasional after-hours masked galas
 
 notable_features:
-  - "The Cannon Stage" – features a retractable trapdoor and smoke-pipe special effects
-  - "Captain’s Balcony" – VIP seating with enchanted acoustics
-  - "The Hold" – dressing rooms, prop storage, and impromptu sleeping quarters
+  - "The Cannon Stage – features a retractable trapdoor and smoke-pipe special effects"
+  - "Captain’s Balcony – VIP seating with enchanted acoustics"
+  - "The Hold – dressing rooms, prop storage, and impromptu sleeping quarters"
 
 associated_npcs:
   - Calwyn “Claps” Dorrin – dramatic director with a flair for scandal

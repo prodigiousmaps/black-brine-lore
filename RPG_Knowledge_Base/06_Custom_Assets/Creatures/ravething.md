@@ -3,9 +3,8 @@ type: monster
 id: bb:beast:ravething
 name: Ravething
 summary: 'Hairless scavenger with jagged spines, hunts in packs and preys on restrained
-  victims.
-
-  '
+  victims.'
+parent_location: bb:campaign:deep-green:skull-garden
 appears_in:
 - bb:story:skull-garden-black-river
 tags:

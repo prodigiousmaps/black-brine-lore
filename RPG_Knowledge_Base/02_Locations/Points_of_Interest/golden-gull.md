@@ -1,4 +1,5 @@
 ---
+id: bb:location:golden-gull
 parent_location: bb:city:black-brine
 type: location
 name: The Golden Gull
@@ -16,21 +17,15 @@ tags:
 overview: 'The Golden Gull is an upscale tavern nestled between warehouses and sea-captain
   estates in the Crosswater District. Known for its fine drink, softer lighting, and
   whispered dealings, it serves merchants, smugglers, and off-duty fleet officers
-  looking for luxury without judgment.
-
-  '
+  looking for luxury without judgment.'
 appearance: 'Lanterns hang from curved brass arms, casting golden pools of light across
   polished wood and sea-glass windows. A mounted gull in mid-flight—wings spread and
   dipped in gold leaf—hangs from the ceiling. Sea breezes curl through tall shuttered
-  windows.
-
-  '
-role_in_society: 'The Golden Gull is where Crosswater''s deals are struck over clinking
-  glasses and songs carry rumors farther than sails. It''s a favored neutral ground
+  windows.'
+role_in_society: 'The Golden Gull is where Crosswaters deals are struck over clinking
+  glasses and songs carry rumors farther than sails. Its a favored neutral ground
   for mid-tier captains, council informants, and discreet power brokers. Spies, singers,
-  and smooth-tongued fixers make it their haunt.
-
-  '
+  and smooth-tongued fixers make it their haunt.'
 services:
 - Fine wines, rare spirits, and imported liqueurs
 - Private balcony rooms with soundproofing

@@ -3,7 +3,7 @@ type: npc
 name: Garrick of the Yellow Cart
 role: Cartridge Driver
 location: Black Brine streets
-parent-location: bb:city:black-brine
+parent_location: bb:city:black-brine
 tags: [npc, comic relief, transportation, rumors]
 ---
 # Description
