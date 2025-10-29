@@ -2144,9 +2144,45 @@
     },
     {
       "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\slug.md",
+      "field": "location",
+      "value": "bb:location:powder-keg-tavern",
+      "resolved_id": "bb:location:powder-keg-tavern",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\slug.md",
+      "field": "parent_location",
+      "value": "bb:location:powder-keg-tavern",
+      "resolved_id": "bb:location:powder-keg-tavern",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\slug.md",
+      "field": "allies",
+      "value": "bb:npc:harlow-blastcap-grint",
+      "resolved_id": "bb:npc:harlow-blastcap-grint",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\slug.md",
       "field": "appears_in",
       "value": "bb:location:powder-keg-tavern",
       "resolved_id": "bb:location:powder-keg-tavern",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\slug.md",
+      "field": "appears_in",
+      "value": "bb:story:tavern-rivalry",
+      "resolved_id": "bb:story:tavern-rivalry",
       "method": "id",
       "score": 1.0,
       "note": ""

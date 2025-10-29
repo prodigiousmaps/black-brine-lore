@@ -4295,20 +4295,51 @@
       }
     },
     {
-      "id": "bb:page:slug",
-      "type": "page",
-      "name": "slug",
-      "tags": [],
+      "id": "bb:npc:slug",
+      "type": "npc",
+      "name": "Slug",
+      "tags": [
+        "powder-keg",
+        "bar-keep",
+        "enforcer",
+        "half-ogre"
+      ],
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\slug.md",
       "fm": {
+        "type": "npc",
+        "id": "bb:npc:slug",
+        "name": "Slug",
+        "summary": "Goblin gunner and bar keep.",
+        "location": "bb:location:powder-keg-tavern",
+        "parent_location": "bb:location:powder-keg-tavern",
+        "factions": [],
+        "allies": [
+          "bb:npc:harlow-blastcap-grint"
+        ],
+        "rivals": [],
         "appears_in": [
-          "bb:location:powder-keg-tavern"
+          "bb:location:powder-keg-tavern",
+          "bb:story:tavern-rivalry"
+        ],
+        "tags": [
+          "powder-keg",
+          "bar-keep",
+          "enforcer",
+          "half-ogre"
         ]
       },
       "body_excerpt": "",
       "raw": {
+        "parent_location": "bb:location:powder-keg-tavern",
+        "location": "bb:location:powder-keg-tavern",
+        "factions": [],
+        "allies": [
+          "bb:npc:harlow-blastcap-grint"
+        ],
+        "rivals": [],
         "appears_in": [
-          "bb:location:powder-keg-tavern"
+          "bb:location:powder-keg-tavern",
+          "bb:story:tavern-rivalry"
         ]
       }
     },
@@ -7145,6 +7176,11 @@
       "target": "bb:npc:harlow-blastcap-grint"
     },
     {
+      "source": "bb:npc:slug",
+      "rel": "ally_of",
+      "target": "bb:npc:harlow-blastcap-grint"
+    },
+    {
       "source": "bb:npc:strange-bones",
       "rel": "ally_of",
       "target": "bb:npc:rupert-richthorn"
@@ -7400,6 +7436,11 @@
       "target": "bb:location:sinkers-curiosities"
     },
     {
+      "source": "bb:npc:slug",
+      "rel": "appears_in",
+      "target": "bb:story:tavern-rivalry"
+    },
+    {
       "source": "bb:npc:strange-bones",
       "rel": "appears_in",
       "target": "bb:location:ruperts-rest"
@@ -7457,7 +7498,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
+      "target": "bb:district:little-sedna"
     },
     {
       "source": "bb:hub:districts",
@@ -7467,7 +7508,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:salt-crown"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:districts",
@@ -7482,7 +7523,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
+      "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:hub:customs",
@@ -7497,32 +7538,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:twilight-society"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
+      "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:factions",
@@ -7532,12 +7548,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:cult-forgotten-wind"
+      "target": "bb:fleet:widow-makers"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
+      "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:factions",
@@ -7547,7 +7563,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
+      "target": "bb:faction:fishermens-union"
     },
     {
       "source": "bb:hub:factions",
@@ -7562,12 +7578,52 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
+      "target": "bb:fleet:malign-crew"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
+      "target": "bb:faction:inquisitors-of-black-brine"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:cult-forgotten-wind"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7582,17 +7638,12 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
+      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7607,17 +7658,17 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
+      "target": "bb:campaign:fallen-city:fallen-city-structure"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:pc:andromeda"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:pc:sy"
     },
     {
       "source": "bb:hub:players",
@@ -7630,29 +7681,9 @@
       "target": "bb:pc:pinch"
     },
     {
-      "source": "bb:hub:players",
-      "rel": "organizes",
-      "target": "bb:pc:sy"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
-      "target": "bb:pc:andromeda"
-    },
-    {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:ruperts-welcome-speech"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:sedna-lore-poem"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:deep-green-supplies"
+      "target": "bb:item:codex-salt-shadow"
     },
     {
       "source": "bb:hub:items",
@@ -7662,57 +7693,17 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:codex-salt-shadow"
+      "target": "bb:item:ruperts-welcome-speech"
     },
     {
-      "source": "bb:hub:house-rules",
+      "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
+      "target": "bb:item:deep-green-supplies"
     },
     {
-      "source": "bb:hub:house-rules",
+      "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-stealth"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival-training"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:stealth-preparation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
+      "target": "bb:item:sedna-lore-poem"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7722,17 +7713,67 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
+      "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-weather-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:stealth-preparation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival-training"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:phased-threat-escalation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-stealth"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-environmental-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
       "target": "bb:house-rules:jungle-passive-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:firearms-training-mechanics"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation-events"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 159,
-    "edges": 250
+    "edges": 252
   }
 }
