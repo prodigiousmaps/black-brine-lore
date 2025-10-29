@@ -44,6 +44,7 @@
     "patches\\penny-quickhands-locke.yml",
     "patches\\rita-kess.yml",
     "patches\\sinker.yml",
+    "patches\\slug.yml",
     "patches\\strange-bones.yml",
     "patches\\three-tooth-mavin.yml",
     "patches\\yurra-the-mireborn.yml",
@@ -2137,6 +2138,15 @@
       "field": "appears_in",
       "value": "bb:location:sinkers-curiosities",
       "resolved_id": "bb:location:sinkers-curiosities",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\slug.md",
+      "field": "appears_in",
+      "value": "bb:location:powder-keg-tavern",
+      "resolved_id": "bb:location:powder-keg-tavern",
       "method": "id",
       "score": 1.0,
       "note": ""
