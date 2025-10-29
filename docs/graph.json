@@ -6483,25 +6483,9 @@
           "air",
           "fire",
           "wishes"
-        ],
-        "overview": "Whispers in Black Brine tell of Djinn—elemental beings of wind and flame bound into contracts with mortals. They are rare, mercurial, and dangerous to summon, tied to storms and desert fire alike.\n",
-        "legends": [
-          "Said to walk the line between Sedna’s chains and the Hollow Goddess’ storms.",
-          "Captains claim whole fleets have been carried into fog or fire by Djinn’s wrath.",
-          "Folktales say they grant three wishes but twist them cruelly."
-        ],
-        "cultural_beliefs": [
-          "Sailors carve warding sigils on masts to keep them at bay.",
-          "The Twilight Society whispers they commune with Djinn in ritual haze.",
-          "Some believe Djinn are fragments of the Godless Wind itself."
-        ],
-        "adventure_hooks": [
-          "A forgotten lamp dredged up from a wreck calls to a crewmember.",
-          "A storm over Black Brine carries voices offering bargains.",
-          "A noble hires the party to bind a Djinn—just as its rivals plot to free it."
         ]
       },
-      "body_excerpt": "",
+      "body_excerpt": "# Overview: \nWhispers in Black Brine tell of Djinn—elemental beings of wind and flame bound into contracts with mortals. They are rare, mercurial, and dangerous to summon, tied to storms and desert fire alike.\n\n# Legends\n- Said to walk the line between Sedna’s chains and the Hollow Goddess’ storms.\n- Captains claim whole fleets have been carried into fog or fire by Djinn’s wrath.\n- Folktales say they grant three wishes but twist them cruelly.\n\n# Cultural Beliefs\n- Sailors carve warding sigils on masts to keep them at bay.\n- The Twilight Society whispers they commune with Djinn in ritual haze.\n- Some believe Djinn are fragments of the Godless Wind itself.\n\n# Adventure Hooks\n- A forgotten lamp dredged up from a wreck calls to a crewmember.\n- A storm over Black Brine carries voices offering b…",
       "raw": {
         "parent_location": "bb:story:rogue-wave"
       }
@@ -7816,22 +7800,17 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:blackmire"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
       "target": "bb:district:mistwalk"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:districts",
@@ -7844,19 +7823,24 @@
       "target": "bb:district:little-sedna"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
+      "target": "bb:faction:council-of-free-captains"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
+      "target": "bb:faction:cult-forgotten-wind"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
     },
     {
       "source": "bb:hub:factions",
@@ -7866,12 +7850,37 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
       "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
@@ -7886,37 +7895,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:council-of-free-captains"
+      "target": "bb:faction:fishermens-union"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
       "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:twilight-society"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:cult-forgotten-wind"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7926,12 +7910,32 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:fallen-city:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7946,27 +7950,17 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:pc:franklin"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:pc:pinch"
     },
     {
       "source": "bb:hub:players",
@@ -7979,19 +7973,14 @@
       "target": "bb:pc:sy"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:pc:pinch"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
-      "target": "bb:pc:franklin"
+      "target": "bb:item:sedna-lore-poem"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:ruperts-welcome-speech"
+      "target": "bb:item:deep-green-supplies"
     },
     {
       "source": "bb:hub:items",
@@ -8001,37 +7990,12 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:sedna-lore-poem"
+      "target": "bb:item:ruperts-welcome-speech"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
       "target": "bb:item:codex-salt-shadow"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:deep-green-supplies"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival-training"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8046,7 +8010,7 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
+      "target": "bb:house-rules:phased-threat-escalation"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8056,7 +8020,32 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-passive-threat-level"
+      "target": "bb:house-rules:firearms-training-mechanics"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:stealth-preparation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival-training"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-environmental-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8066,17 +8055,12 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
+      "target": "bb:house-rules:jungle-weather-events"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:stealth-preparation"
+      "target": "bb:house-rules:jungle-passive-threat-level"
     }
   ],
   "unresolved": [],
