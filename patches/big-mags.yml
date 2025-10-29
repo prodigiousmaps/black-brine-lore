@@ -1,5 +1,8 @@
 path: C:\Users\FiveA\OneDrive\Documents\GitHub\black-brine-lore\RPG_Knowledge_Base\03_NPCs\Supporting
   Cast\big-mags.md
 set:
+  allies:
+  - bb:npc:harlow-blastcap-grint
   appears_in:
   - bb:location:powder-keg-tavern
+  - bb:story:tavern-rivalry

@@ -3138,10 +3138,13 @@
         "location": "bb:location:powder-keg-tavern",
         "parent_location": "bb:location:powder-keg-tavern",
         "factions": [],
-        "allies": [],
+        "allies": [
+          "bb:npc:harlow-blastcap-grint"
+        ],
         "rivals": [],
         "appears_in": [
-          "bb:location:powder-keg-tavern"
+          "bb:location:powder-keg-tavern",
+          "bb:story:tavern-rivalry"
         ],
         "tags": [
           "powder-keg",
@@ -3155,10 +3158,13 @@
         "parent_location": "bb:location:powder-keg-tavern",
         "location": "bb:location:powder-keg-tavern",
         "factions": [],
-        "allies": [],
+        "allies": [
+          "bb:npc:harlow-blastcap-grint"
+        ],
         "rivals": [],
         "appears_in": [
-          "bb:location:powder-keg-tavern"
+          "bb:location:powder-keg-tavern",
+          "bb:story:tavern-rivalry"
         ]
       }
     },
@@ -3708,15 +3714,19 @@
       "source": "RPG_Knowledge_Base\\03_NPCs\\Supporting Cast\\harlow-blastcap-grint.md",
       "fm": {
         "type": "npc",
+        "id": "bb:npc:harlow-blastcap-grint",
         "location": "bb:location:powder-keg-tavern",
         "name": "Harlow \"Blastcap\" Grint",
         "summary": "Dwarvin owner of the Powder Keg Tavern",
-        "parent-location": "bb:location:powder-keg-tavern",
+        "parent_location": "bb:location:powder-keg-tavern",
         "factions": [],
         "allies": [],
-        "rivals": [],
+        "rivals": [
+          "bb:npc:aldo-vance"
+        ],
         "appears_in": [
-          "bb:location:powder-keg-tavern"
+          "bb:location:powder-keg-tavern",
+          "bb:story:tavern-rivalry"
         ],
         "tags": [
           "powder-keg",
@@ -3727,12 +3737,16 @@
       },
       "body_excerpt": "",
       "raw": {
+        "parent_location": "bb:location:powder-keg-tavern",
         "location": "bb:location:powder-keg-tavern",
         "factions": [],
         "allies": [],
-        "rivals": [],
+        "rivals": [
+          "bb:npc:aldo-vance"
+        ],
         "appears_in": [
-          "bb:location:powder-keg-tavern"
+          "bb:location:powder-keg-tavern",
+          "bb:story:tavern-rivalry"
         ]
       }
     },
@@ -4171,10 +4185,13 @@
         "summary": "Tattooed server and pickpocket; keeps the wanted list in her head and a knife in her boot.",
         "parent_location": "bb:location:powder-keg-tavern",
         "factions": [],
-        "allies": [],
+        "allies": [
+          "bb:npc:harlow-blastcap-grint"
+        ],
         "rivals": [],
         "appears_in": [
-          "bb:location:powder-keg-tavern"
+          "bb:location:powder-keg-tavern",
+          "bb:story:tavern-rivalry"
         ],
         "tags": [
           "powder-keg",
@@ -4187,10 +4204,13 @@
       "raw": {
         "parent_location": "bb:location:powder-keg-tavern",
         "factions": [],
-        "allies": [],
+        "allies": [
+          "bb:npc:harlow-blastcap-grint"
+        ],
         "rivals": [],
         "appears_in": [
-          "bb:location:powder-keg-tavern"
+          "bb:location:powder-keg-tavern",
+          "bb:story:tavern-rivalry"
         ]
       }
     },
@@ -7103,6 +7123,11 @@
       "target": "bb:npc:harlow-blastcap-grint"
     },
     {
+      "source": "bb:npc:big-mags",
+      "rel": "ally_of",
+      "target": "bb:npc:harlow-blastcap-grint"
+    },
+    {
       "source": "bb:npc:brin",
       "rel": "ally_of",
       "target": "bb:npc:maelia-gorse"
@@ -7118,6 +7143,11 @@
       "target": "bb:npc:rupert-richthorn"
     },
     {
+      "source": "bb:npc:harlow-blastcap-grint",
+      "rel": "rival_of",
+      "target": "bb:npc:aldo-vance"
+    },
+    {
       "source": "bb:npc:lady-jackdaw",
       "rel": "ally_of",
       "target": "bb:npc:rupert-richthorn"
@@ -7131,6 +7161,11 @@
       "source": "bb:npc:mister-blight",
       "rel": "rival_of",
       "target": "bb:npc:three-tooth-mavin"
+    },
+    {
+      "source": "bb:npc:penny-quickhands-locke",
+      "rel": "ally_of",
+      "target": "bb:npc:harlow-blastcap-grint"
     },
     {
       "source": "bb:npc:strange-bones",
@@ -7283,6 +7318,11 @@
       "target": "bb:story:tavern-rivalry"
     },
     {
+      "source": "bb:npc:big-mags",
+      "rel": "appears_in",
+      "target": "bb:story:tavern-rivalry"
+    },
+    {
       "source": "bb:npc:brin",
       "rel": "appears_in",
       "target": "bb:location:red-door-alchemy"
@@ -7311,6 +7351,11 @@
       "source": "bb:npc:fenrith",
       "rel": "appears_in",
       "target": "bb:location:ruperts-rest"
+    },
+    {
+      "source": "bb:npc:harlow-blastcap-grint",
+      "rel": "appears_in",
+      "target": "bb:story:tavern-rivalry"
     },
     {
       "source": "bb:npc:high-numerator-fex",
@@ -7361,6 +7406,11 @@
       "source": "bb:npc:mister-blight",
       "rel": "appears_in",
       "target": "bb:location:miremarket"
+    },
+    {
+      "source": "bb:npc:penny-quickhands-locke",
+      "rel": "appears_in",
+      "target": "bb:story:tavern-rivalry"
     },
     {
       "source": "bb:npc:rita-kess",
@@ -7435,7 +7485,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
+      "target": "bb:district:little-sedna"
     },
     {
       "source": "bb:hub:districts",
@@ -7445,22 +7495,17 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:salt-crown"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
+      "target": "bb:district:keelhauls"
     },
     {
-      "source": "bb:hub:customs",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:creature:potoo"
+      "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:hub:customs",
@@ -7468,9 +7513,9 @@
       "target": "bb:customs:crows-chance"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
+      "target": "bb:creature:potoo"
     },
     {
       "source": "bb:hub:factions",
@@ -7480,12 +7525,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
+      "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:factions",
@@ -7495,42 +7535,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:cult-forgotten-wind"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:council-of-free-captains"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:gutterlings"
     },
     {
       "source": "bb:hub:factions",
@@ -7540,32 +7545,52 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:fleet:red-wakes"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
+      "target": "bb:faction:cult-forgotten-wind"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:faction:gutterlings"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
+      "target": "bb:fleet:hellion-fleet"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
+      "target": "bb:fleet:malign-crew"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
+      "target": "bb:fleet:widow-makers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:council-of-free-captains"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:inquisitors-of-black-brine"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:fishermens-union"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7575,7 +7600,12 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7585,12 +7615,37 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:pc:andromeda"
     },
     {
       "source": "bb:hub:players",
@@ -7600,17 +7655,12 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:pinch"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
       "target": "bb:pc:sy"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:andromeda"
+      "target": "bb:pc:pinch"
     },
     {
       "source": "bb:hub:items",
@@ -7620,12 +7670,12 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:sedna-lore-poem"
+      "target": "bb:item:ruperts-welcome-speech"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:ruperts-welcome-speech"
+      "target": "bb:item:codex-salt-shadow"
     },
     {
       "source": "bb:hub:items",
@@ -7635,32 +7685,12 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:codex-salt-shadow"
+      "target": "bb:item:sedna-lore-poem"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:stealth-preparation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
+      "target": "bb:house-rules:jungle-passive-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7670,22 +7700,12 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-stealth"
+      "target": "bb:house-rules:jungle-weather-events"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival-training"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
+      "target": "bb:house-rules:jungle-environmental-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7695,17 +7715,47 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:phased-threat-escalation"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-passive-threat-level"
+      "target": "bb:house-rules:jungle-stealth"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-event-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:stealth-preparation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival-training"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 159,
-    "edges": 244
+    "edges": 250
   }
 }
