@@ -730,15 +730,6 @@
       "note": ""
     },
     {
-      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\false-beauty-vines.md",
-      "field": "appears_in",
-      "value": "bb:story:encounter-3-vine-sanctum",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
-      "note": ""
-    },
-    {
       "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Hazards\\insect-swarm-blood-flies.md",
       "field": "location",
       "value": "bb:story:encounter-3-vine-sanctum",
@@ -961,6 +952,15 @@
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\06_Custom_Assets\\Items\\journal-fragment-viii.md",
+      "field": "location",
+      "value": "bb:campaign:deep-green:skull-garden",
+      "resolved_id": "bb:campaign:deep-green:skull-garden",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
