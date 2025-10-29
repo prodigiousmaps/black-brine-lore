@@ -6530,14 +6530,15 @@
           "sedna",
           "black-brine"
         ],
-        "overview": "A legendary ship that emerges every few centuries from mist—never claimed, only accepted. \nThose who sail it are destined for great deeds before the vessel vanishes once more. \nAttempts to seize it by force always fail, for the Rogue Wave chooses its own crew and fate.\n",
+        "summary": "A legendary ship that emerges every few centuries from mist—never claimed, only accepted.\nThose who sail it are destined for great deeds before the vessel vanishes once more.\n",
+        "overview": "A legendary ship that emerges every few centuries from mist, never claimed, only accepted.\nThose who sail it are destined for great deeds before the vessel vanishes once more.\n",
         "legends": [
           "Appears from nowhere, sails until its chosen crew’s time is done, then disappears into fog or another plane.",
-          "Believed to rest in Sedna’s embrace or within the Elemental Plane of Air.",
-          "Attempts to capture it by force end in ruin; the ship rejects the unworthy."
+          "Believed to rest in Sedna’s embrace or the Elemental Plane of Air.",
+          "Attempts to seize it by force always fail."
         ],
         "modern_return": [
-          "PCs named it \"The Rogue Wave,\" unaware of its true, older name.",
+          "PCs named it \"The Rogue Wave,\" unaware of its true name.",
           "Some recognize it with awe or fear, seeing an omen of fortune or doom.",
           "Rival captains envy its power, believing it rightfully theirs."
         ],
@@ -7836,17 +7837,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:little-sedna"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:blackmire"
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
@@ -7856,7 +7847,17 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
+      "target": "bb:district:little-sedna"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:mistwalk"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:districts",
@@ -7866,67 +7867,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:cult-forgotten-wind"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:council-of-free-captains"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:twilight-society"
     },
     {
       "source": "bb:hub:factions",
@@ -7936,22 +7877,67 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widow-makers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:cult-forgotten-wind"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:fishermens-union"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:fleet:hellion-fleet"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-structure"
+      "target": "bb:faction:council-of-free-captains"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+      "target": "bb:faction:union-of-lamp-lighters"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7961,22 +7947,12 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
+      "target": "bb:campaign:deep-green:short-cut"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7986,7 +7962,32 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
       "source": "bb:hub:players",
@@ -7996,17 +7997,27 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:pinch"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
       "target": "bb:pc:andromeda"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
+      "target": "bb:pc:pinch"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
       "target": "bb:pc:franklin"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:ruperts-welcome-speech"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:codex-salt-shadow"
     },
     {
       "source": "bb:hub:items",
@@ -8021,72 +8032,7 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:codex-salt-shadow"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
       "target": "bb:item:apertures-theory"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:ruperts-welcome-speech"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival-training"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:stealth-preparation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-stealth"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8096,7 +8042,62 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-stealth"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival-training"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:stealth-preparation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-weather-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-event-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:firearms-training-mechanics"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-environmental-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:phased-threat-escalation"
     }
   ],
   "unresolved": [],
