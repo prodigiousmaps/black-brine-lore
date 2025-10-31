@@ -22,25 +22,25 @@ tags:
 Nestled across a narrow alley from the West Bank Guild Hall, The Silver Minnow is a warm, romantic eatery favored by guild members, sailors, and locals seeking quiet conversation after a day on the river.
 
 ## Appearance
-Two-story timber with weathered blue shutters and fishnet curtains. Inside: brine, lemon, smoked perch; creaking floorboards; candlelit booths with river views.
+Two-story timber with weathered blue shutters and fishnet curtains. Inside - brine, lemon, smoked perch, creaking floorboards, candlelit booths with river views.
 
 ## Role in Society
 Neutral ground where riverfolk and traders share a table. Popular for discreet meetings and quiet farewells before long voyages.
 
 ## Features
-- **Riverside Booths:** Private, curtained alcoves.
-- **Dining Room:** Maritime charms and driftwood art.
-- **Kitchen:** Fried eel pies, smoked perch stew, Helra’s brine-glazed trout.
-- **Upstairs:** Two small guest rooms and one suite.
-- **Cellar (Rumor):** Possible smuggler’s exit to riverside pilings.
+- Riverside Booths: Private, curtained alcoves.
+- Dining Room: Maritime charms and driftwood art.
+- Kitchen: Fried eel pies, smoked perch stew, Helra’s brine-glazed trout.
+- Upstairs: Two small guest rooms and one suite.
+- Cellar (Rumor): Possible smuggler’s exit to riverside pilings.
 
 ## Staff
-- **Helra Vinn (Proprietor & Cook):** Ex-fisher; famed glaze; kind but firm.
-- **Cal Vinn (Server & Dockhand):** Helra’s son; steady hands; “Minnow Cal.”
-- **Pinna Lorr (Server):** Quiet, observant; rumored ex-courier.
+- Helra Vinn (Proprietor & Cook): Ex-fisher; famed glaze; kind but firm.
+- Cal Vinn (Server & Dockhand): Helra’s son; steady hands; “Minnow Cal.”
+- Pinna Lorr (Server): Quiet, observant; rumored ex-courier.
 
 ## Menu Highlights
-Brine-Glazed Trout; Smoked Perch Stew; Eel Pie; Salted Crab Fritters; Riverwine & Warm Ale.
+Brine-Glazed Trout, Smoked Perch Stew, Eel Pie, Salted Crab Fritters, Riverwine & Warm Ale.
 
 ## Rumors
 - Helra’s glaze recipe came from a noble kitchen in Baldur’s Gate.  
