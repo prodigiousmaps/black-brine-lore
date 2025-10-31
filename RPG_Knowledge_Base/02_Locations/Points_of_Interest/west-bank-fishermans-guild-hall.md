@@ -12,7 +12,7 @@ rivals:
 - bb:location:east-bank-fishermans-guild-hall
 appears_in:
 - bb:district:crosswater
-portrait: [assets/portraits/guild-free-fishermen-west.png]
+portrait: [assets/portraits/gff-west-bank.png]
 tags:
 - location
 - guild

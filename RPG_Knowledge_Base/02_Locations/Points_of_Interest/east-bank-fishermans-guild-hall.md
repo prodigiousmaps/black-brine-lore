@@ -6,7 +6,7 @@ summary: Salt Crown headquarters for the wealth-facing side of the Guild; contra
 location: bb:district:salt-crown
 leaders: []
 participants: []
-portrait: []
+portrait: [assets/portraits/gff-east-bank.png]
 tags:
 - location
 - guild
