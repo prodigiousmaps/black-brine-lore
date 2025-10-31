@@ -1,6 +1,54 @@
 {
   "nodes": [
     {
+      "id": "bb:location:example-hall",
+      "type": "location",
+      "name": "Example Hall",
+      "tags": [
+        "location",
+        "guild",
+        "crosswater",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\00_Documentation\\yaml-format-template.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:example-hall",
+        "name": "Example Hall",
+        "summary": "A small guild hall on the riverbank known for its lanterns and midnight meetings.",
+        "location": "bb:district:crosswater",
+        "factions": [
+          "bb:faction:example-guild"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:district:crosswater"
+        ],
+        "portrait": [
+          "assets/portraits/example-hall.png"
+        ],
+        "tags": [
+          "location",
+          "guild",
+          "crosswater",
+          "black-brine"
+        ]
+      },
+      "body_excerpt": "# Example Hall\n\n## Overview\nBrief description of the site, its purpose, and who frequents it.\n\n## Appearance\nArchitecture, lighting, and sensory details.\n\n## Role in Society\nHow it fits within Black Brine’s culture or politics.\n\n## Features\n- Key rooms or structural highlights.\n- Any unique magical or social features.\n\n## Notable Figures\n- **Name (Title):** Short description.\n\n## Rumors\n- Whispered events or secrets.\n\n## Connections\n- bb:district:crosswater (located in)\n- bb:faction:example-guild (associated with)",
+      "raw": {
+        "location": "bb:district:crosswater",
+        "factions": [
+          "bb:faction:example-guild"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:district:crosswater"
+        ]
+      }
+    },
+    {
       "id": "bb:item:ruperts-welcome-speech",
       "type": "item",
       "name": "ruperts-welcome-speech",
@@ -5342,7 +5390,9 @@
         "location": "bb:district:salt-crown",
         "leaders": [],
         "participants": [],
-        "portrait": [],
+        "portrait": [
+          "assets/portraits/gff-east-bank.png"
+        ],
         "tags": [
           "location",
           "guild",
@@ -6400,7 +6450,7 @@
           "bb:district:crosswater"
         ],
         "portrait": [
-          "assets/portraits/guild-free-fishermen-west.png"
+          "assets/portraits/gff-west-bank.png"
         ],
         "tags": [
           "location",
@@ -6826,6 +6876,11 @@
     }
   ],
   "edges": [
+    {
+      "source": "bb:location:example-hall",
+      "rel": "located_in",
+      "target": "bb:district:crosswater"
+    },
     {
       "source": "bb:location:island-of-sedna",
       "rel": "located_in",
@@ -7612,6 +7667,11 @@
       "target": "bb:location:east-bank-fishermans-guild-hall"
     },
     {
+      "source": "bb:location:example-hall",
+      "rel": "appears_in",
+      "target": "bb:district:crosswater"
+    },
+    {
       "source": "bb:pc:andromeda",
       "rel": "appears_in",
       "target": "bb:location:ruperts-rest"
@@ -7944,11 +8004,6 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:little-sedna"
     },
     {
@@ -7959,17 +8014,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
+      "target": "bb:district:crosswater"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
       "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:council-of-free-captains"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:factions",
@@ -7979,12 +8029,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
+      "target": "bb:faction:guild-of-free-fishermen"
     },
     {
       "source": "bb:hub:factions",
@@ -7994,37 +8039,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:guild-of-free-fishermen"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
+      "target": "bb:faction:fishermens-union"
     },
     {
       "source": "bb:hub:factions",
@@ -8034,12 +8049,62 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:council-of-free-captains"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:inquisitors-of-black-brine"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:fleet:malign-crew"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widow-makers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8049,7 +8114,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8064,12 +8129,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
+      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8079,7 +8139,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8094,7 +8154,7 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:andromeda"
+      "target": "bb:pc:pinch"
     },
     {
       "source": "bb:hub:players",
@@ -8104,17 +8164,12 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:pinch"
+      "target": "bb:pc:franklin"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:franklin"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:ruperts-welcome-speech"
+      "target": "bb:pc:andromeda"
     },
     {
       "source": "bb:hub:items",
@@ -8124,7 +8179,17 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
+      "target": "bb:item:deep-green-supplies"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
       "target": "bb:item:codex-salt-shadow"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:ruperts-welcome-speech"
     },
     {
       "source": "bb:hub:items",
@@ -8132,9 +8197,9 @@
       "target": "bb:item:sedna-lore-poem"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:item:deep-green-supplies"
+      "target": "bb:house-rules:jungle-survival-training"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8144,7 +8209,7 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-stealth"
+      "target": "bb:house-rules:jungle-navigation"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8164,32 +8229,7 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-passive-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
       "target": "bb:house-rules:stealth-preparation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival-training"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8199,12 +8239,32 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:firearms-training-mechanics"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-passive-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-stealth"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:phased-threat-escalation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:jungle-event-threat-level"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 161,
-    "edges": 275
+    "nodes": 162,
+    "edges": 277
   }
 }

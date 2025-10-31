@@ -1,6 +1,7 @@
 {
-  "total_files": 155,
+  "total_files": 156,
   "patches": [
+    "patches\\yaml-format-template.yml",
     "patches\\andromida.yml",
     "patches\\franklin-pierce.yml",
     "patches\\pinch.yml",
@@ -55,6 +56,33 @@
     "patches\\west-bank-fishermans-guild-hall.yml"
   ],
   "suggestions": [
+    {
+      "path": "RPG_Knowledge_Base\\00_Documentation\\yaml-format-template.md",
+      "field": "location",
+      "value": "bb:district:crosswater",
+      "resolved_id": "bb:district:crosswater",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\00_Documentation\\yaml-format-template.md",
+      "field": "factions*",
+      "value": "bb:faction:example-guild",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\00_Documentation\\yaml-format-template.md",
+      "field": "appears_in",
+      "value": "bb:district:crosswater",
+      "resolved_id": "bb:district:crosswater",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\island-of-sedna.md",
       "field": "parent_location",
