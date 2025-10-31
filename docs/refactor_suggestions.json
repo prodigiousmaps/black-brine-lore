@@ -1,5 +1,5 @@
 {
-  "total_files": 151,
+  "total_files": 155,
   "patches": [
     "patches\\andromida.yml",
     "patches\\franklin-pierce.yml",
@@ -51,7 +51,8 @@
     "patches\\code-of-black-brine.yml",
     "patches\\lending-house.yml",
     "patches\\red-door-alchemy.yml",
-    "patches\\ruperts-rest.yml"
+    "patches\\ruperts-rest.yml",
+    "patches\\west-bank-fishermans-guild-hall.yml"
   ],
   "suggestions": [
     {
@@ -1075,6 +1076,15 @@
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\gilded-rats.md",
       "field": "leaders",
       "value": "bb:npc:captain-garrick-salt",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\guild-of-free-fishermen.md",
+      "field": "location",
+      "value": "bb:city:city-of-black-brine",
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
@@ -2494,6 +2504,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\east-bank-fishermans-guild-hall.md",
+      "field": "location",
+      "value": "bb:district:salt-crown",
+      "resolved_id": "bb:district:salt-crown",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\fish-bone-row.md",
       "field": "parent_location",
       "value": "bb:district:keelhauls",
@@ -2728,6 +2747,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\silver-minnow.md",
+      "field": "location",
+      "value": "bb:district:crosswater",
+      "resolved_id": "bb:district:crosswater",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\sinkers-curiosity-shop.md",
       "field": "parent_location",
       "value": "bb:district:salt-crown",
@@ -2786,6 +2814,51 @@
       "field": "parent_location",
       "value": "bb:location:forbidden-west-sedna",
       "resolved_id": "bb:location:forbidden-west-sedna",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\west-bank-fishermans-guild-hall.md",
+      "field": "location",
+      "value": "bb:district:crosswater",
+      "resolved_id": "bb:district:crosswater",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\west-bank-fishermans-guild-hall.md",
+      "field": "factions*",
+      "value": "bb:faction:guild-of-free-fishermen",
+      "resolved_id": "bb:faction:guild-of-free-fishermen",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\west-bank-fishermans-guild-hall.md",
+      "field": "allies",
+      "value": "bb:location:silver-minnow-eatery",
+      "resolved_id": "bb:location:silver-minnow-eatery",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\west-bank-fishermans-guild-hall.md",
+      "field": "rivals",
+      "value": "bb:location:east-bank-fishermans-guild-hall",
+      "resolved_id": "bb:location:east-bank-fishermans-guild-hall",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\west-bank-fishermans-guild-hall.md",
+      "field": "appears_in",
+      "value": "bb:district:crosswater",
+      "resolved_id": "bb:district:crosswater",
       "method": "id",
       "score": 1.0,
       "note": ""

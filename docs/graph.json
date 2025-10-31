@@ -2221,6 +2221,44 @@
       }
     },
     {
+      "id": "bb:faction:guild-of-free-fishermen",
+      "type": "faction",
+      "name": "Guild of Free Fishermen",
+      "tags": [
+        "faction",
+        "guild",
+        "fishermen",
+        "labor",
+        "river",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\04_Factions\\Political\\guild-of-free-fishermen.md",
+      "fm": {
+        "type": "faction",
+        "id": "bb:faction:guild-of-free-fishermen",
+        "name": "Guild of Free Fishermen",
+        "summary": "Part labor union, part fraternal order; protects fishing rights south of the Red Chain Bridge, sets fair prices, and keeps member families fed.",
+        "location": "bb:city:city-of-black-brine",
+        "leaders": [],
+        "participants": [],
+        "portrait": [],
+        "tags": [
+          "faction",
+          "guild",
+          "fishermen",
+          "labor",
+          "river",
+          "black-brine"
+        ]
+      },
+      "body_excerpt": "# Overview\nProtects rights and livelihoods for fishers south of the Red Chain Bridge; negotiates prices, secures permits, settles disputes, and turns out in force when one of their own is wronged.\n\n# Jurisdiction\n**Waters:** South of the Red Chain Bridge.  \n**Enforcement:** Licensed member boats only; poachers fined or banned from guild markets.  \n**Exceptions:** Storm relief and funerary processions.\n\n# Governance\nGuild Council (elected yearly). Two hall masters (West/East) hold local veto.  \n- West Bank Guildmaster: **Garrin “Grayhook” Darral**  \n- Clerk (West): **Merra Tollin**  \n- East Bank Guildmaster: **Arven “Tidewise” Holt**  \n- Clerk of Ledgers (East): **Sella Dorn**\n\n# Membership\n**Eligibility:** River fishers, deckhands, net-menders, dock stewards; retirees (honorary).  \n**Dues:…",
+      "raw": {
+        "location": "bb:city:city-of-black-brine",
+        "participants": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "bb:fleet:hellion-fleet",
       "type": "faction",
       "name": "The Hellion Fleet",
@@ -5284,6 +5322,44 @@
       }
     },
     {
+      "id": "bb:location:east-bank-fishermans-guild-hall",
+      "type": "location",
+      "name": "East Bank Guild Hall — Guild of Free Fishermen",
+      "tags": [
+        "location",
+        "guild",
+        "fishermen",
+        "salt-crown",
+        "docks",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\east-bank-fishermans-guild-hall.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:east-bank-fishermans-guild-hall",
+        "name": "East Bank Guild Hall — Guild of Free Fishermen",
+        "summary": "Salt Crown headquarters for the wealth-facing side of the Guild; contracts, arbitration, tidy markets, and captain’s lounge.",
+        "location": "bb:district:salt-crown",
+        "leaders": [],
+        "participants": [],
+        "portrait": [],
+        "tags": [
+          "location",
+          "guild",
+          "fishermen",
+          "salt-crown",
+          "docks",
+          "black-brine"
+        ]
+      },
+      "body_excerpt": "# East Bank Guild Hall — Guild of Free Fishermen\n\n## Overview\nOn Salt Crown’s polished docks, this hall handles permits, taxation, trade disputes, and public-facing guild business.\n\n## Appearance\nWhitewashed stone, oak beams, blue shutters, crossed-oars relief. Inside: lemon oil, mounted trophies, founder portraits, harbor views.\n\n## Role in Society\nPart labor office, part gentleman’s tavern, part shrine to honest work. Captains, foremen, and retired guildmasters meet merchants here.\n\n## Features\n- **Reception Hall:** Merchants and buyers meet guild reps.  \n- **Guildmaster’s Office:** Harbor view; ship models and high ledgers.  \n- **Council Room:** Negotiations and arbitration.  \n- **Captain’s Lounge:** River rum and hot spiced eel broth.  \n- **Market Quay:** Smoked/salted goods for wealth…",
+      "raw": {
+        "location": "bb:district:salt-crown",
+        "participants": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "bb:location:fishbone-row",
       "type": "location",
       "name": "Fishbone Row",
@@ -5978,6 +6054,44 @@
       }
     },
     {
+      "id": "bb:location:silver-minnow-eatery",
+      "type": "location",
+      "name": "The Silver Minnow",
+      "tags": [
+        "location",
+        "tavern",
+        "eatery",
+        "crosswater",
+        "romance",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\silver-minnow.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:silver-minnow-eatery",
+        "name": "The Silver Minnow",
+        "summary": "Romantic riverside eatery across the alley from the West Bank Guild Hall; curtained booths, seafood specials, and three rooms upstairs.",
+        "location": "bb:district:crosswater",
+        "leaders": [],
+        "participants": [],
+        "portrait": [],
+        "tags": [
+          "location",
+          "tavern",
+          "eatery",
+          "crosswater",
+          "romance",
+          "black-brine"
+        ]
+      },
+      "body_excerpt": "# The Silver Minnow\n\n## Overview\nNestled across a narrow alley from the West Bank Guild Hall, The Silver Minnow is a warm, romantic eatery favored by guild members, sailors, and locals seeking quiet conversation after a day on the river.\n\n## Appearance\nTwo-story timber with weathered blue shutters and fishnet curtains. Inside - brine, lemon, smoked perch, creaking floorboards, candlelit booths with river views.\n\n## Role in Society\nNeutral ground where riverfolk and traders share a table. Popular for discreet meetings and quiet farewells before long voyages.\n\n## Features\n- Riverside Booths: Private, curtained alcoves.\n- Dining Room: Maritime charms and driftwood art.\n- Kitchen: Fried eel pies, smoked perch stew, Helra’s brine-glazed trout.\n- Upstairs: Two small guest rooms and one suite.\n- …",
+      "raw": {
+        "location": "bb:district:crosswater",
+        "participants": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "bb:location:sinkers-curiosities",
       "type": "location",
       "name": "Sinker’s Curiosities",
@@ -6251,6 +6365,68 @@
       "body_excerpt": "# Overview\nThe dormant volcanic peak called Vexir towers above Sedna’s jungle. Though long inactive, ash plumes sometimes rise, hinting at spirits and energies beneath. Few dare to climb its slopes.\n\n# Geography\n- Jagged volcanic ridges and obsidian scree.  \n- Ash fields that choke air and scorch skin.  \n- Hidden tunnels leading deep below the mountain.  \n\n# Notable Features\n- **Blood-Sealed Relic**: Heart of the mist curse, buried beneath the peak.  \n- **Fire Spirits**: Embers that walk the ash, remnants of forgotten rituals.  \n- **Ancient Forge**: Said to craft Sedna’s weapons of wrath.  \n\n# Adventure Hooks\n- Relic hunters seek the sealed chamber beneath the peak.  \n- An eruption tremor shakes Black Brine—foreshadowing disaster.  \n- The Hollow Goddess’s followers believe breaking the rel…",
       "raw": {
         "parent_location": "bb:location:forbidden-west-sedna"
+      }
+    },
+    {
+      "id": "bb:location:west-bank-fishermans-guild-hall",
+      "type": "location",
+      "name": "West Bank Guild Hall — Guild of Free Fishermen",
+      "tags": [
+        "location",
+        "guild",
+        "fishermen",
+        "labor",
+        "docks",
+        "crosswater",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\west-bank-fishermans-guild-hall.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:west-bank-fishermans-guild-hall",
+        "name": "West Bank Guild Hall — Guild of Free Fishermen",
+        "summary": "The working heart of the Guild of Free Fishermen in Crosswater, combining labor union, social hall, and fish market. Bustling docks, loud camaraderie, and the smell of tar and brine define its spirit.",
+        "location": "bb:district:crosswater",
+        "factions": [
+          "bb:faction:guild-of-free-fishermen"
+        ],
+        "allies": [
+          "bb:location:silver-minnow-eatery"
+        ],
+        "rivals": [
+          "bb:location:east-bank-fishermans-guild-hall"
+        ],
+        "appears_in": [
+          "bb:district:crosswater"
+        ],
+        "portrait": [
+          "assets/portraits/guild-free-fishermen-west.png"
+        ],
+        "tags": [
+          "location",
+          "guild",
+          "fishermen",
+          "labor",
+          "docks",
+          "crosswater",
+          "black-brine"
+        ]
+      },
+      "body_excerpt": "# West Bank Guild Hall — Guild of Free Fishermen\n\n## Overview\nThe West Bank Guild Hall is the beating heart of the working fishers of Black Brine. It serves as the headquarters for the western half of the Guild of Free Fishermen, overseeing dock operations, catch negotiations, and community support for those who work the southern waters below the Red Chain Bridge.\n\n## Appearance\nA broad, timber-framed hall built directly onto the riverside pilings. The walls are draped in drying nets, flags of past fishing crews, and lanterns made from glass floats. Inside, the smell of ale and brine lingers under a ceiling blackened by years of smoke. Voices rise and fall in argument, laughter, and song.\n\n## Role in Society\nMore than a workplace, this hall is a refuge and rally point. The guild functions …",
+      "raw": {
+        "location": "bb:district:crosswater",
+        "factions": [
+          "bb:faction:guild-of-free-fishermen"
+        ],
+        "allies": [
+          "bb:location:silver-minnow-eatery"
+        ],
+        "rivals": [
+          "bb:location:east-bank-fishermans-guild-hall"
+        ],
+        "appears_in": [
+          "bb:district:crosswater"
+        ]
       }
     },
     {
@@ -7041,6 +7217,11 @@
       "target": "bb:district:crosswater"
     },
     {
+      "source": "bb:location:east-bank-fishermans-guild-hall",
+      "rel": "located_in",
+      "target": "bb:district:salt-crown"
+    },
+    {
       "source": "bb:location:fishbone-row",
       "rel": "located_in",
       "target": "bb:district:keelhauls"
@@ -7116,6 +7297,11 @@
       "target": "bb:city:black-brine"
     },
     {
+      "source": "bb:location:silver-minnow-eatery",
+      "rel": "located_in",
+      "target": "bb:district:crosswater"
+    },
+    {
       "source": "bb:location:sinkers-curiosities",
       "rel": "located_in",
       "target": "bb:district:salt-crown"
@@ -7149,6 +7335,11 @@
       "source": "bb:location:volcanic-peak-sedna",
       "rel": "located_in",
       "target": "bb:location:forbidden-west-sedna"
+    },
+    {
+      "source": "bb:location:west-bank-fishermans-guild-hall",
+      "rel": "located_in",
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:location:wet-bar",
@@ -7281,6 +7472,11 @@
       "target": "bb:faction:twilight-society"
     },
     {
+      "source": "bb:location:west-bank-fishermans-guild-hall",
+      "rel": "member_of",
+      "target": "bb:faction:guild-of-free-fishermen"
+    },
+    {
       "source": "bb:pc:andromeda",
       "rel": "ally_of",
       "target": "bb:npc:rupert-richthorn"
@@ -7404,6 +7600,16 @@
       "source": "bb:npc:yurra-the-mireborn",
       "rel": "rival_of",
       "target": "bb:npc:three-tooth-mavin"
+    },
+    {
+      "source": "bb:location:west-bank-fishermans-guild-hall",
+      "rel": "ally_of",
+      "target": "bb:location:silver-minnow-eatery"
+    },
+    {
+      "source": "bb:location:west-bank-fishermans-guild-hall",
+      "rel": "rival_of",
+      "target": "bb:location:east-bank-fishermans-guild-hall"
     },
     {
       "source": "bb:pc:andromeda",
@@ -7681,6 +7887,11 @@
       "target": "bb:location:miremarket"
     },
     {
+      "source": "bb:location:west-bank-fishermans-guild-hall",
+      "rel": "appears_in",
+      "target": "bb:district:crosswater"
+    },
+    {
       "source": "bb:npc:the-noose",
       "rel": "leads",
       "target": "bb:faction:butchers"
@@ -7723,17 +7934,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:mistwalk"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:districts",
@@ -7743,7 +7944,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
@@ -7751,19 +7952,14 @@
       "target": "bb:district:little-sedna"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
+      "target": "bb:district:blackmire"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:faction:twilight-society"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:cult-forgotten-wind"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:factions",
@@ -7773,17 +7969,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:gutterlings"
+      "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
+      "target": "bb:faction:cult-forgotten-wind"
     },
     {
       "source": "bb:hub:factions",
@@ -7798,17 +7989,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
+      "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:factions",
@@ -7823,17 +8004,52 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:guild-of-free-fishermen"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:fleet:gilded-rats"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
+      "target": "bb:fleet:widow-makers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7848,12 +8064,17 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7863,7 +8084,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:campaign:dead-sons-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -7871,14 +8092,9 @@
       "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:franklin"
+      "target": "bb:pc:andromeda"
     },
     {
       "source": "bb:hub:players",
@@ -7893,12 +8109,7 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:andromeda"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:deep-green-supplies"
+      "target": "bb:pc:franklin"
     },
     {
       "source": "bb:hub:items",
@@ -7913,62 +8124,17 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
+      "target": "bb:item:codex-salt-shadow"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
       "target": "bb:item:sedna-lore-poem"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:codex-salt-shadow"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-passive-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-stealth"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival-training"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:stealth-preparation"
+      "target": "bb:item:deep-green-supplies"
     },
     {
       "source": "bb:hub:house-rules",
@@ -7978,17 +8144,67 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
+      "target": "bb:house-rules:jungle-stealth"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-weather-events"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
       "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:phased-threat-escalation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-passive-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:stealth-preparation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:firearms-training-mechanics"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival-training"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-environmental-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-event-threat-level"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 157,
-    "edges": 267
+    "nodes": 161,
+    "edges": 275
   }
 }

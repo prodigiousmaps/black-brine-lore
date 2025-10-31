@@ -1,0 +1,8 @@
+path: C:\Users\FiveA\OneDrive\Documents\GitHub\black-brine-lore\RPG_Knowledge_Base\02_Locations\Points_of_Interest\west-bank-fishermans-guild-hall.md
+set:
+  allies:
+  - bb:location:silver-minnow-eatery
+  rivals:
+  - bb:location:east-bank-fishermans-guild-hall
+  appears_in:
+  - bb:district:crosswater
