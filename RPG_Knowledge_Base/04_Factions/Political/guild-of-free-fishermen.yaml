@@ -2,102 +2,57 @@
 type: faction
 id: bb:faction:guild-of-free-fishermen
 name: Guild of Free Fishermen
-parent_location: bb:city:city-of-black-brine
-tags: [faction, guild, fishermen, labor, union, river, black-brine]
-
-overview: >
-  The Guild of Free Fishermen protects the rights and livelihoods of those who fish the southern waters
-  below the Red Chain Bridge. Part labor union, part fraternal order, the guild negotiates prices,
-  secures permits, settles disputes, and ensures that no member or their family goes hungry after a hard season.
-
-culture_role: >
-  Equal parts dockside solidarity and river-forged tradition. The guild keeps memorial rolls for the lost,
-  runs wakes and fundraisers, and turns out in force when one of their own is wronged. Its halls double as
-  social clubs where veterans teach greenhands and stories grow longer with each tankard.
-
-jurisdiction:
-  waters: "South of the Red Chain Bridge"
-  enforcement: "Licensed member boats only; poachers fined or banned from the markets the guild controls."
-  exceptions: "Storm relief and funerary processions are exempt from quotas and fees."
-
-governance:
-  structure:
-    - "Guild Council elected yearly by paid members."
-    - "Two hall masters (West and East) sit on the council with limited veto over local matters."
-  offices:
-    - title: West Bank Guildmaster
-      name: Garrin “Grayhook” Darral
-      hall: bb:location:west-bank-fishermans-guild-hall
-    - title: Clerk, West Bank
-      name: Merra Tollin
-      hall: bb:location:west-bank-fishermans-guild-hall
-    - title: East Bank Guildmaster
-      name: Arven “Tidewise” Holt
-      hall: bb:location:east-bank-fishermans-guild-hall
-    - title: Clerk of Ledgers, East Bank
-      name: Sella Dorn
-      hall: bb:location:east-bank-fishermans-guild-hall
-
-membership:
-  eligibility: ["River fishers and deckhands", "Net-menders and dock stewards", "Retired fishers (honorary)"]
-  dues: "Weekly coin dues or in-kind fish tithe during lean seasons."
-  benefits:
-    - "Guaranteed fair-price market access at guild stalls."
-    - "Strike fund and injury support."
-    - "Funeral fund and memorial rites."
-    - "Arbitration for boat shares and catch disputes."
-  obligations:
-    - "Respect fellow members’ nets and lines."
-    - "Observe seasonal limits and spawning grounds."
-    - "Answer the hall bell in times of river danger."
-
-operations:
-  markets:
-    - name: West Bank Fish Market
-      location: bb:district:crosswater
-      note: "Street-side stalls outside the West Bank hall; direct-to-citizen sales."
-    - name: Market Quay (East)
-      location: bb:district:salt-crown
-      note: "Smoked/salted goods and bulk contracts."
-  docks_controlled:
-    - bb:location:west-bank-fishermans-guild-hall
-    - bb:location:east-bank-fishermans-guild-hall
-  patrols: "Volunteer night watches rotate between banks to deter theft and poaching."
-
-customs:
-  motto: "No net untended, no fisher left behind."
-  rites:
-    - "Bell of the Returned: rung when a lost boat limps home."
-    - "River Wake: candle flotillas launched for the drowned."
-  tokens: "Bronze hook-pin worn on the cap or collar to show membership."
-
-notable_policies:
-  price_floor: "Minimum price per basket set weekly; undercutting penalized."
-  widow_share: "2% of hall profits set aside for bereaved families."
-  guest_net: "Non-guild fishers may buy a day license during shortages (capped)."
-
-relations:
-  city_officials: "Pragmatic cooperation; frequent pressure over permits and taxes."
-  smugglers: "Officially hostile; unofficially some stewards look the other way for a fee."
-  other_guilds: "Allies of convenience with dockworkers; rivalry with private buyers’ syndicates."
-
-connections:
-  - linked_to: bb:location:west-bank-fishermans-guild-hall
-    relation: member_hall
-  - linked_to: bb:location:east-bank-fishermans-guild-hall
-    relation: member_hall
-  - linked_to: bb:district:crosswater
-    relation: operates_in
-  - linked_to: bb:district:salt-crown
-    relation: operates_in
-
-rumors:
-  - "Talk of unifying both halls under a single charter has stirred old bank rivalries."
-  - "A private buyers’ syndicate is paying poachers north of the bridge to depress prices."
-  - "Night patrols found cut nets near the pilings—signs of trained divers, not drunks."
-
-adventure_hooks:
-  - "Caught Between Banks: PCs mediate a strike that threatens to split the halls."
-  - "Poacher’s Moon: Track a slick crew using underwater routes to raid guild traps."
-  - "Ledger of Brine: A missing account book could expose bribes—or clear the guild’s name."
+summary: Part labor union, part fraternal order; protects fishing rights south of the Red Chain Bridge, sets fair prices, and keeps member families fed.
+location: bb:city:city-of-black-brine
+leaders: []
+participants: []
+portrait: []
+tags:
+- faction
+- guild
+- fishermen
+- labor
+- river
+- black-brine
 ---
+# Overview
+Protects rights and livelihoods for fishers south of the Red Chain Bridge; negotiates prices, secures permits, settles disputes, and turns out in force when one of their own is wronged.
+
+# Jurisdiction
+**Waters:** South of the Red Chain Bridge.  
+**Enforcement:** Licensed member boats only; poachers fined or banned from guild markets.  
+**Exceptions:** Storm relief and funerary processions.
+
+# Governance
+Guild Council (elected yearly). Two hall masters (West/East) hold local veto.  
+- West Bank Guildmaster: **Garrin “Grayhook” Darral**  
+- Clerk (West): **Merra Tollin**  
+- East Bank Guildmaster: **Arven “Tidewise” Holt**  
+- Clerk of Ledgers (East): **Sella Dorn**
+
+# Membership
+**Eligibility:** River fishers, deckhands, net-menders, dock stewards; retirees (honorary).  
+**Dues:** Weekly coin or in-kind tithe.  
+**Benefits:** Market access; strike/injury funds; funeral fund; arbitration.  
+**Obligations:** Respect nets and lines; observe seasonal limits; answer the hall bell.
+
+# Operations
+**Markets:** West Bank street stalls; East Bank Market Quay.  
+**Docks Controlled:** Both halls.  
+**Patrols:** Volunteer night watches deter theft and poaching.
+
+# Customs
+**Motto:** “No net untended, no fisher left behind.”  
+**Rites:** Bell of the Returned; River Wake candle flotillas.  
+**Token:** Bronze hook-pin.
+
+# Rumors
+- Push to unify both halls.  
+- Buyers’ syndicate paying poachers north of the bridge.  
+- Cut nets near pilings—signs of trained divers.
+
+# Connections
+- bb:location:west-bank-fishermans-guild-hall (member hall)
+- bb:location:east-bank-fishermans-guild-hall (member hall)
+- bb:district:crosswater (operates in)
+- bb:district:salt-crown (operates in)

@@ -2,88 +2,60 @@
 type: location
 id: bb:location:west-bank-fishermans-guild-hall
 name: West Bank Guild Hall — Guild of Free Fishermen
-parent_location: bb:district:crosswater
-location_type: guildhall
-affiliation: Guild of Free Fishermen
-maps_available: false
-map_files: []
-tags: [guild, fishermen, crosswater, labor, docks, black-brine]
-
-overview: >
-  The West Bank Guild Hall of the Guild of Free Fishermen serves as both a labor union and a community hub
-  for those who work the southern waters of Black Brine, below the Red Chain Bridge. The hall sits on the
-  riverbank in Crosswater, its docks crowded with fishing boats, nets, and the smell of brine and tar.
-  The guild protects fishing rights, negotiates fair prices, and ensures no captain or deckhand goes hungry
-  after a hard day on the river.
-
-appearance: >
-  A broad, timber-framed structure built against the docks, its walls draped with old nets, faded banners,
-  and lanterns fashioned from glass buoys. The interior smells of ale, smoke, and river salt. Heavy tables
-  fill the guild drinking hall, and an adjoining meeting chamber hosts loud arguments, elections, and
-  the occasional brawl resolved with laughter—or fists.
-
-role_in_society: >
-  The Guild of Free Fishermen acts as a labor union, cooperative, and fraternal order all in one.
-  Members share profits, offer aid to injured sailors, and maintain strict control of river fishing rights.
-  It is as much a social hall as a political one—half union, half veterans’ lodge—where loyalty to one’s crew
-  and the guild supersedes all other ties.
-
-features:
-  - "Guild Drinking Hall – The heart of the guild; where members gather nightly to share ale, stories, and gossip."
-  - "Meeting Hall – Hosts votes on contracts, grievances, and disputes. Its walls are lined with carved oaths of service."
-  - "Guildmaster’s Offices – Located upstairs; contain records of dues, catches, and disciplinary rulings."
-  - "River Docks – A working waterfront where members unload their daily hauls and repair small craft."
-  - "Fish Market – A bustling stretch of street outside the hall where citizens buy fresh catch directly from guild members."
-
-notable_npcs:
-  - name: Garrin “Grayhook” Darral
-    role: Guildmaster
-    description: >
-      A grizzled fisherman with a silvered beard and one good eye, Garrin earned his nickname after
-      losing a hand to a reef shark and replacing it with a polished iron hook. A pragmatic leader and
-      veteran of countless storms, he commands loyalty through fairness and shared hardship rather than fear.
-  - name: Clerk Merra Tollin
-    role: Guild Clerk and Record Keeper
-    description: >
-      A sharp-tongued woman in her thirties with ink-stained fingers and perfect memory for numbers.
-      She manages the guild’s accounts, licenses, and contracts. Many say nothing in Crosswater moves
-      on the river without Merra knowing about it.
-
-adjacent_location:
-  name: The Silver Minnow Eatery
-  location_type: tavern
-  description: >
-    Across the narrow alley from the guild hall, The Silver Minnow is a cozy eatery famed for its romantic
-    riverside booths and curtained alcoves. Fishermen bring their partners here on paydays, and travelers
-    rent the small rooms upstairs to listen to the water lap against the docks.
-  features:
-    - "Dining Room – Dimly lit and lined with private booths offering a view of the river."
-    - "Kitchen – Known for its fried eel pies, smoked perch stew, and sweet brine-glazed trout."
-    - "Upstairs Rooms – Two small guest rooms and one larger suite for merchants or visiting guild officials."
-  staff:
-    - name: Helra Vinn
-      role: Proprietor and Cook
-      description: >
-        A former fisher turned chef, Helra runs The Silver Minnow with a steady hand and a secret recipe
-        for her signature brine glaze. She’s respected by guild members and often consulted on matters of morale.
-    - name: Cal Vinn
-      role: Server and Dockhand
-      description: >
-        Helra’s son, quick with a joke and a steady mug. He serves food and drink with a sailor’s charm
-        and helps tie up boats when the docks are crowded.
-    - name: Pinna Lorr
-      role: Server
-      description: >
-        A quiet, red-haired server with a knack for remembering faces. Rumor has it she once worked as a smuggler’s courier,
-        though she now prefers the calm of The Minnow’s candlelit evenings.
-
-connections:
-  - linked_to: bb:faction:guild-of-free-fishermen
-    relation: member_hall
-  - linked_to: bb:district:crosswater
-    relation: located_in
-  - linked_to: bb:location:salt-crown-fishermans-guild-hall
-    relation: sister_hall
-  - linked_to: bb:location:silver-minnow-eatery
-    relation: adjacent
+summary: Crosswater guild hall and working docks of the Guild of Free Fishermen; part labor union, part veterans’ hall, with attached fish market and riverside tavern.
+location: bb:district:crosswater
+leaders: []
+participants: []
+portrait: []
+tags:
+- location
+- guild
+- fishermen
+- crosswater
+- labor
+- docks
+- black-brine
 ---
+# West Bank Guild Hall — Guild of Free Fishermen
+
+## Overview
+The West Bank Guild Hall serves as both a labor union and a social club for fishers working the southern waters below the Red Chain Bridge. It anchors the Crosswater riverfront with working docks, noisy halls, and the scent of tar and brine.
+
+## Appearance
+A broad timber-framed structure built against the docks, its walls hung with old nets and lanterns made from glass buoys. Inside, rough-hewn tables and a low ceiling trap smoke, laughter, and the scent of ale. A wide porch looks over the river, where boats unload daily catch.
+
+## Role in Society
+This is the working heart of the Guild of Free Fishermen — equal parts bargaining hall, memorial house, and communal tavern. Members debate prices, share profits, and vote on disputes while songs rise from the drinking hall below.  
+The guild acts like a union crossed with a VFW: proud, loud, and loyal to its own.
+
+## Features
+- **Guild Drinking Hall:** The social core; loud, smoky, and always alive.  
+- **Meeting Hall:** Used for votes, disputes, and memorials for those lost at sea.  
+- **Guildmaster’s Office:** Holds ledgers, permits, and disciplinary records.  
+- **Docks:** Maintained by guild hands; small boats line the pilings daily.  
+- **Fish Market:** Street stalls outside the hall sell fresh catch directly to citizens.
+
+## Notable Figures
+- **Garrin “Grayhook” Darral (Guildmaster):** Grizzled veteran with one good eye and an iron hook for a hand; fair-minded and respected by all.  
+- **Merra Tollin (Guild Clerk):** Sharp, ink-stained, and quick-witted; manages dues, licenses, and gossip with equal precision.
+
+## Culture
+The hall is noisy but disciplined, bound by custom and oath. Arguments often end in laughter or bruises, and every member knows who will stand with them when the tides turn rough.  
+A carved plaque near the entrance reads: *“One river, one net.”*
+
+## Adjacent Location — The Silver Minnow
+Across the alley lies **The Silver Minnow**, a cozy eatery known for its private booths, brine-glazed trout, and three upstairs rooms (two small, one suite). Fishermen bring their partners here on paydays, and visiting traders rent the rooms to watch the docks at night.
+
+**Proprietor:** Helra Vinn — former fisher turned cook, known for her steady hand and sharp tongue.  
+**Staff:** Cal Vinn (server, dockhand) and Pinna Lorr (quiet server rumored to have a smuggler’s past).
+
+## Rumors
+- The hall keeps a hidden tunnel beneath the docks for moving contraband or rescuing trapped boats.  
+- A ledger of black-market catches is said to be locked in Merra’s desk.  
+- Grayhook once served as a privateer for the Council of Free Captains, though he denies it.
+
+## Connections
+- bb:faction:guild-of-free-fishermen (member hall)
+- bb:district:crosswater (located in)
+- bb:location:east-bank-fishermans-guild-hall (sister hall)
+- bb:location:silver-minnow-eatery (across the alley)
