@@ -1,0 +1,88 @@
+---
+type: location
+id: bb:location:east-bank-fishermans-guild-hall
+name: East Bank Guild Hall — Guild of Free Fishermen
+parent_location: bb:district:salt-crown
+location_type: guildhall
+affiliation: Guild of Free Fishermen
+maps_available: false
+map_files: []
+tags: [guild, fishermen, salt-crown, labor, docks, black-brine]
+
+overview: >
+  The East Bank Guild Hall stands on the polished stone docks of Salt Crown,
+  where river meets commerce and fishmongers rub shoulders with merchants.
+  It represents the wealthier face of the Guild of Free Fishermen—a place where
+  contracts are signed, disputes are settled with handshakes and silver, and politics
+  drift like the tide beneath the surface.
+
+appearance: >
+  A handsome two-story structure of whitewashed stone and oak beams, trimmed with blue shutters
+  and a carved relief of crossed oars above the door. The interior smells faintly of salt and lemon oil.
+  Nautical trophies hang along the main hall—mounted fish, weathered nets, and portraits of guild founders.
+  From the upper windows, the harbor view stretches out toward the mists of the Black Brine.
+
+role_in_society: >
+  While the West Bank Guild Hall represents the working hands of the fishermen,
+  the East Bank Hall manages the guild’s official dealings—trade permits, taxation,
+  and negotiation with city officials. It also serves as a social club for captains,
+  foremen, and retired guildmasters who prefer politics to hauling nets.
+  It’s part labor office, part gentleman’s tavern, and part shrine to honest work.
+
+features:
+  - "Reception Hall – A grand entry where merchants and fish buyers meet guild representatives."
+  - "Guildmaster’s Office – Overlooks the harbor, decorated with ship models and ledgers stacked like battlements."
+  - "Council Room – Site of trade negotiations and arbitration hearings."
+  - "Captain’s Lounge – Private room for senior guild members, serving river rum and hot spiced eel broth."
+  - "Docks – Used primarily for larger guild vessels and cargo transfers."
+  - "Market Quay – A tidier version of Crosswater’s fish stalls, offering smoked and salted goods to wealthier clients."
+
+notable_npcs:
+  - name: Guildmaster Arven “Tidewise” Holt
+    role: East Bank Guildmaster
+    description: >
+      A broad-shouldered man with river-weathered skin and a trimmed beard gone to gray.
+      Arven earned his nickname for surviving a dozen shipwrecks by reading the currents when others panicked.
+      Once a deckhand under Garrin Grayhook, he now handles the guild’s diplomatic face—measured, polite,
+      and quietly ruthless in negotiation.
+  - name: Sella Dorn
+    role: Clerk of Ledgers
+    description: >
+      A meticulous half-elf woman who never removes her gloves, even when writing.
+      Sella keeps the guild’s records, contracts, and ledgers, and knows every merchant’s debts by heart.
+      She distrusts the West Bank’s rough ways but respects their results.
+  - name: Olin Marr
+    role: Dock Steward
+    description: >
+      A quiet veteran who ensures the guild vessels remain seaworthy and properly accounted for.
+      He knows every boat by the sound of its hull against the water and can spot a thief
+      at fifty yards.
+
+culture_and_politics: >
+  The East Bank faction of the Guild leans toward negotiation, regulation, and influence in city affairs.
+  While they occasionally clash with the West Bank’s more populist members, both sides respect
+  the shared creed: “No net untended, no fisher left behind.”
+  Behind closed doors, the East Bank hall wields considerable power in trade permits and pricing,
+  ensuring the guild’s continued dominance over the Black Brine’s fishing industry.
+
+connections:
+  - linked_to: bb:faction:guild-of-free-fishermen
+    relation: member_hall
+  - linked_to: bb:district:salt-crown
+    relation: located_in
+  - linked_to: bb:location:west-bank-fishermans-guild-hall
+    relation: sister_hall
+
+rumors:
+  - "Arven Holt secretly plans to merge the guild halls under a single charter, though the West Bank would resist."
+  - "Sella Dorn keeps a hidden ledger of bribes paid to Salt Crown officials."
+  - "The Captain’s Lounge doubles as a private gambling den for retired captains and harbor guards."
+  - "A series of disappearances among dock workers may be linked to late-night meetings at the hall."
+
+atmosphere: >
+  The East Bank Guild Hall feels orderly and professional compared to its Crosswater counterpart.
+  Lanterns glow in glass sconces, and soft conversation replaces raucous laughter.
+  Beneath the civility, however, lies the same salt-scarred determination shared by all who live
+  by the river’s mercy.
+
+---

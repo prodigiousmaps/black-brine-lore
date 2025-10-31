@@ -1,0 +1,86 @@
+---
+type: location
+id: bb:location:silver-minnow-eatery
+name: The Silver Minnow
+parent_location: bb:district:crosswater
+location_type: tavern
+maps_available: false
+map_files: []
+tags: [crosswater, tavern, eatery, romance, fishing-district, black-brine]
+
+overview: >
+  Nestled across a narrow alley from the West Bank Guild Hall, The Silver Minnow is a warm, romantic
+  eatery favored by guild members, sailors, and locals seeking quiet conversation after a day on the river.
+  Its curtained booths overlook the water, and candlelight glows through colored glass, reflecting off the
+  docks like a line of drifting stars.
+
+appearance: >
+  The Minnow is a two-story timber building with weathered blue shutters and fishnet curtains.
+  Inside, the scent of brine, lemon, and smoked perch fills the air. The floorboards creak pleasantly
+  beneath soft music and low laughter. On calm nights, the open windows catch the scent of the river
+  and the sound of gulls calling over the docks.
+
+role_in_society: >
+  The Silver Minnow serves as a neutral meeting ground for riverfolk, guild members, and visiting traders.
+  It’s one of Crosswater’s few places where fishermen dine beside merchants without argument.
+  The eatery’s romantic reputation also makes it a favorite for clandestine meetings and quiet farewells
+  before long voyages.
+
+features:
+  - "Riverside Booths – Private alcoves curtained in netting, offering intimate views of the water."
+  - "Candlelight Dining Room – Warmly lit interior decorated with maritime charms and painted driftwood art."
+  - "Kitchen – Known for its fried eel pies, smoked perch stew, and Helra’s secret brine-glazed trout."
+  - "Upstairs Rooms – Two small guest rooms and one larger suite for merchants or visiting guild officials."
+  - "Hidden Cellar – Rumored to contain a smuggler’s exit that connects to the riverside pilings, though staff deny it exists."
+
+menu_specialties:
+  - "Brine-Glazed Trout"
+  - "Smoked Perch Stew"
+  - "Eel Pie with Crumbed Herbs"
+  - "Salted Crab Fritters"
+  - "Riverwine and Warm Ale"
+
+notable_npcs:
+  - name: Helra Vinn
+    role: Proprietor and Head Cook
+    description: >
+      A sturdy woman in her fifties, Helra Vinn once captained a small fishing boat before turning to cooking.
+      Her sharp wit and soft heart earned her respect among the Guild of Free Fishermen.
+      Known for her secret brine glaze, she keeps the Minnow running with both kindness and authority.
+  - name: Cal Vinn
+    role: Server and Dockhand
+    description: >
+      Helra’s son, quick with a grin and steady with a mug. He divides his time between serving guests and
+      tying up fishing boats outside. He’s well-liked among the guild’s younger members, who call him “Minnow Cal.”
+  - name: Pinna Lorr
+    role: Server and Liaison
+    description: >
+      A quiet red-haired woman with a mysterious past. She has a talent for listening without judgment
+      and sometimes arranges private meetings between traders and guild representatives.
+      Rumor holds she once worked as a smuggler’s courier but turned over a new leaf after a run-in with the Harbor Watch.
+
+patronage: >
+  Regulars include guild fishers from both banks, traveling merchants, and couples seeking privacy.
+  On certain evenings, the upper suite hosts union leaders or smugglers finalizing quiet deals
+  under Helra’s polite discretion.
+
+connections:
+  - linked_to: bb:location:west-bank-fishermans-guild-hall
+    relation: across_the_alley
+  - linked_to: bb:faction:guild-of-free-fishermen
+    relation: favored_establishment
+  - linked_to: bb:district:crosswater
+    relation: located_in
+
+rumors:
+  - "Helra’s secret glaze recipe was originally stolen from a noble’s kitchen in Baldur’s Gate."
+  - "The Minnow’s cellar connects to a smuggler’s tunnel leading beneath the docks."
+  - "Cal has been seen leaving the east docks late at night with sealed packages."
+  - "A minor noble from Salt Crown keeps the upstairs suite rented year-round, though he’s rarely seen."
+
+atmosphere: >
+  Soft candlelight, the hum of the river, and quiet conversation make The Silver Minnow a pocket of peace
+  amid Crosswater’s rough edges. Patrons lower their voices instinctively, as if afraid the calm might break.
+  Outside, the water glows faintly with lanternlight—silver minnows darting beneath the planks.
+
+---
