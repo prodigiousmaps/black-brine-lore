@@ -7,9 +7,7 @@ aliases: [Watcher in the Fog, Lantern-Eyes, Moon Perch]
 creature_type: Aberration
 origin: Black Brine
 tags: [cryptid, nocturnal, urban-legend, black-brine, horror]
-image:
-  file: assets/creatures/potoo.png
-  alt_text: A dark, eerie humanoid creature with moth-like wings crouches on a peaked rooftop under a full moon, glowing eyes staring down at the misty city below.
+portrait: assets/creatures/potoo.png
 ---
 
 # Description
