@@ -1,5 +1,5 @@
 {
-  "total_files": 158,
+  "total_files": 161,
   "patches": [
     "patches\\yaml-format-template.yml",
     "patches\\andromida.yml",
@@ -53,7 +53,8 @@
     "patches\\lending-house.yml",
     "patches\\red-door-alchemy.yml",
     "patches\\ruperts-rest.yml",
-    "patches\\west-bank-fishermans-guild-hall.yml"
+    "patches\\west-bank-fishermans-guild-hall.yml",
+    "patches\\great-exchange-day.yml"
   ],
   "suggestions": [
     {
@@ -1413,6 +1414,15 @@
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Organizations\\trade-authority.md",
+      "field": "location",
+      "value": "bb:district:mistwalk",
+      "resolved_id": "bb:district:mistwalk",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -2923,6 +2933,42 @@
       "field": "parent_location",
       "value": "bb:city:black-brine",
       "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\economy-scrip.md",
+      "field": "appears_in",
+      "value": "bb:org:trade-authority",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\economy-scrip.md",
+      "field": "appears_in",
+      "value": "bb:district:customs",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\great-exchange-day.md",
+      "field": "appears_in",
+      "value": "bb:faction:trade-authority",
+      "resolved_id": "bb:faction:trade-authority",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\great-exchange-day.md",
+      "field": "appears_in",
+      "value": "bb:customs:scrip",
+      "resolved_id": "bb:customs:scrip",
       "method": "id",
       "score": 1.0,
       "note": ""

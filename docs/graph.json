@@ -3103,6 +3103,37 @@
       }
     },
     {
+      "id": "bb:faction:trade-authority",
+      "type": "faction",
+      "name": "Trade Authority of Black Brine",
+      "tags": [
+        "trade-authority",
+        "customs",
+        "economics",
+        "governance",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Organizations\\trade-authority.md",
+      "fm": {
+        "type": "faction",
+        "id": "bb:faction:trade-authority",
+        "name": "Trade Authority of Black Brine",
+        "summary": "The central economic and regulatory body of Black Brine, overseeing currency, tariffs, licensing, import/export controls, and the stability of island markets.",
+        "location": "bb:district:mistwalk",
+        "tags": [
+          "trade-authority",
+          "customs",
+          "economics",
+          "governance",
+          "black-brine"
+        ]
+      },
+      "body_excerpt": "# Trade Authority of Black Brine  \n## Structure, Power, and Function in Sedna’s Island Economy\n\n---\n\n## Overview\n\nThe Trade Authority (TA) is the economic heart and regulatory backbone of Black Brine.  \nIt oversees all commerce, currency, tariffs, licensing, and import/export activity on the island.  \nIn a city driven by piracy, unpredictable magic, and aggressively competitive markets, the Trade Authority stands as the closest thing to a stabilizing government force.\n\nTheir influence touches every citizen—dockhands, artisans, merchants, tavern owners, smugglers, and guilds alike.\n\n---\n\n## Core Mandates\n\nThe Trade Authority maintains **five central responsibilities**.\n\n---\n\n## 1. Regulate Currency (Scrip System)\n\nThe TA mints and manages **scrip**, the island’s primary currency. They monit…",
+      "raw": {
+        "location": "bb:district:mistwalk"
+      }
+    },
+    {
       "id": "bb:faction:union-of-lamp-lighters",
       "type": "faction",
       "name": "Union of Lamp Lighters",
@@ -6648,6 +6679,82 @@
       }
     },
     {
+      "id": "bb:customs:scrip",
+      "type": "customs",
+      "name": "Scrip of Black Brine",
+      "tags": [
+        "currency",
+        "scrip",
+        "economics",
+        "trade-authority",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\economy-scrip.md",
+      "fm": {
+        "type": "customs",
+        "id": "bb:customs:scrip",
+        "name": "Scrip of Black Brine",
+        "summary": "The standardized, Trade Authority–regulated currency of Black Brine; a stabilizing force, economic weapon, and mechanism of social control across Sedna.",
+        "tags": [
+          "currency",
+          "scrip",
+          "economics",
+          "trade-authority",
+          "black-brine"
+        ],
+        "appears_in": [
+          "bb:org:trade-authority",
+          "bb:district:customs"
+        ]
+      },
+      "body_excerpt": "# Scrip in Black Brine  \n## Currency, Control, and Daily Life on Sedna\n\n---\n\n## What Is Scrip?\n\nScrip is the official currency of Black Brine—small, copper-based discs embossed with the Trade Authority seal and drilled with a hole so they can be strung together.\n\nEach piece is:\n\n- standardized  \n- difficult to forge  \n- easy to transport  \n- widely recognized across Sedna  \n\nThough it contains very little intrinsic value, scrip is the backbone of the island’s economy.\n\n---\n\n## Why Scrip Exists\n\nBlack Brine sits at the crossroads of piracy, privateering, and mercantile trade. Ships arrive carrying:\n\n- gold  \n- foreign coin  \n- stolen treasure  \n- unstable inflows of wealth  \n\nIf gold circulated freely, the local economy would collapse each time a pirate unloaded a fortune.\n\nScrip stabilizes…",
+      "raw": {
+        "appears_in": [
+          "bb:org:trade-authority",
+          "bb:district:customs"
+        ]
+      }
+    },
+    {
+      "id": "bb:customs:great-exchange-day",
+      "type": "customs",
+      "name": "The Great Exchange Day",
+      "tags": [
+        "holiday",
+        "economics",
+        "trade-authority",
+        "scrip",
+        "customs",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\great-exchange-day.md",
+      "fm": {
+        "type": "customs",
+        "id": "bb:customs:great-exchange-day",
+        "name": "The Great Exchange Day",
+        "summary": "The annual civic and economic ritual during which citizens exchange gold for scrip without penalty, reaffirming the Trade Authority’s control over Sedna’s economy and shaping cultural life across Black Brine.",
+        "tags": [
+          "holiday",
+          "economics",
+          "trade-authority",
+          "scrip",
+          "customs",
+          "black-brine"
+        ],
+        "appears_in": [
+          "bb:customs:scrip",
+          "bb:faction:trade-authority"
+        ]
+      },
+      "body_excerpt": "# The Great Exchange Day  \n## Customs, Celebration, and Economic Significance in Black Brine\n\n---\n\n## Overview\n\nThe Great Exchange Day is one of the most important civic events in Black Brine.  \nHeld once per year, it is the **only** day when citizens may exchange gold for scrip with no fees or penalties.\n\nThe holiday serves three central purposes:\n\n- sweep gold out of circulation  \n- strengthen Trade Authority reserves  \n- measure the true economic health of the island  \n\nThough rooted in fiscal policy, the day has evolved into a lively ritual blending celebration, bureaucracy, tension, and tradition.\n\n---\n\n## I. Customs and Cultural Traditions\n\nThough created for economic stabilization, the Great Exchange Day has become deeply woven into Black Brine’s civic identity.\n\n### 1. Dawn Queue R…",
+      "raw": {
+        "appears_in": [
+          "bb:customs:scrip",
+          "bb:faction:trade-authority"
+        ]
+      }
+    },
+    {
       "id": "bb:customs:vessels",
       "type": "customs",
       "name": "Directive 11.4.2 – Rights & Procedures Regarding Ownership of a Discovered Vessel",
@@ -7128,6 +7235,11 @@
       "source": "bb:npc:rupert-richthorn",
       "rel": "located_in",
       "target": "bb:location:ruperts-rest"
+    },
+    {
+      "source": "bb:faction:trade-authority",
+      "rel": "located_in",
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:npc:aldo-vance",
@@ -8075,6 +8187,16 @@
       "target": "bb:district:crosswater"
     },
     {
+      "source": "bb:customs:great-exchange-day",
+      "rel": "appears_in",
+      "target": "bb:customs:scrip"
+    },
+    {
+      "source": "bb:customs:great-exchange-day",
+      "rel": "appears_in",
+      "target": "bb:faction:trade-authority"
+    },
+    {
       "source": "bb:npc:the-noose",
       "rel": "leads",
       "target": "bb:faction:butchers"
@@ -8117,12 +8239,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:blackmire"
+      "target": "bb:district:mistwalk"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
@@ -8132,12 +8254,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:districts",
@@ -8157,47 +8279,17 @@
     {
       "source": "bb:hub:customs",
       "rel": "organizes",
+      "target": "bb:customs:scrip"
+    },
+    {
+      "source": "bb:hub:customs",
+      "rel": "organizes",
       "target": "bb:creature:potoo"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:twilight-society"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:cult-forgotten-wind"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:guild-of-free-fishermen"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
+      "target": "bb:customs:great-exchange-day"
     },
     {
       "source": "bb:hub:factions",
@@ -8207,7 +8299,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
+      "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:factions",
@@ -8217,12 +8309,37 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:guild-of-free-fishermen"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:council-of-free-captains"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:trade-authority"
     },
     {
       "source": "bb:hub:factions",
@@ -8232,22 +8349,32 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:cult-forgotten-wind"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:union-of-lamp-lighters"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
+      "target": "bb:faction:butchers"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:fleet:red-wakes"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:faction:fishermens-union"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8257,27 +8384,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
       "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8287,7 +8394,37 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
     },
     {
       "source": "bb:hub:players",
@@ -8302,27 +8439,12 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:franklin"
+      "target": "bb:pc:sy"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:sy"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:apertures-theory"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:sedna-lore-poem"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:deep-green-supplies"
+      "target": "bb:pc:franklin"
     },
     {
       "source": "bb:hub:items",
@@ -8332,42 +8454,22 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
+      "target": "bb:item:deep-green-supplies"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
       "target": "bb:item:codex-salt-shadow"
     },
     {
-      "source": "bb:hub:house-rules",
+      "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
+      "target": "bb:item:sedna-lore-poem"
     },
     {
-      "source": "bb:hub:house-rules",
+      "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-stealth"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
+      "target": "bb:item:apertures-theory"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8377,7 +8479,22 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:jungle-weather-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:jungle-survival-training"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-event-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8387,7 +8504,7 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
+      "target": "bb:house-rules:jungle-environmental-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8397,12 +8514,32 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:firearms-training-mechanics"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-stealth"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:phased-threat-escalation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:jungle-passive-threat-level"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 165,
-    "edges": 282
+    "nodes": 168,
+    "edges": 288
   }
 }

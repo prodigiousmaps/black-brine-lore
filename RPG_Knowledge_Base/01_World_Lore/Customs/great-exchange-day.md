@@ -2,19 +2,20 @@
 type: customs
 id: bb:customs:great-exchange-day
 name: The Great Exchange Day
-summary: The annual civic and economic ritual during which citizens exchange gold for scrip without penalty, reaffirming the Trade Authority’s control over Sedna’s economy and shaping cultural life across Black Brine.
+summary: The annual civic and economic ritual during which citizens exchange gold
+  for scrip without penalty, reaffirming the Trade Authority’s control over Sedna’s
+  economy and shaping cultural life across Black Brine.
 tags:
-  - holiday
-  - economics
-  - trade-authority
-  - scrip
-  - customs
-  - black-brine
+- holiday
+- economics
+- trade-authority
+- scrip
+- customs
+- black-brine
 appears_in:
-  - bb:faction:trade-authority
-  - bb:customs:scrip
+- bb:customs:scrip
+- bb:faction:trade-authority
 ---
-
 # The Great Exchange Day  
 ## Customs, Celebration, and Economic Significance in Black Brine
 
