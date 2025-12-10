@@ -2958,8 +2958,8 @@
     {
       "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\great-exchange-day.md",
       "field": "appears_in",
-      "value": "bb:faction:trade-authority",
-      "resolved_id": "bb:faction:trade-authority",
+      "value": "bb:customs:scrip",
+      "resolved_id": "bb:customs:scrip",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -2967,8 +2967,8 @@
     {
       "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\great-exchange-day.md",
       "field": "appears_in",
-      "value": "bb:customs:scrip",
-      "resolved_id": "bb:customs:scrip",
+      "value": "bb:faction:trade-authority",
+      "resolved_id": "bb:faction:trade-authority",
       "method": "id",
       "score": 1.0,
       "note": ""
