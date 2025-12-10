@@ -1,5 +1,5 @@
 {
-  "total_files": 156,
+  "total_files": 158,
   "patches": [
     "patches\\yaml-format-template.yml",
     "patches\\andromida.yml",
@@ -2451,6 +2451,15 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\broadside-tavern.md",
+      "field": "parent_location",
+      "value": "bb:district:little-sedna",
+      "resolved_id": "bb:district:little-sedna",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\captains-club.md",
       "field": "parent_location",
       "value": "bb:district:mistwalk",
@@ -2911,6 +2920,15 @@
     },
     {
       "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\crows-chance.md",
+      "field": "parent_location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\laws-of-sea-vessel-claims.md",
       "field": "parent_location",
       "value": "bb:city:black-brine",
       "resolved_id": "bb:city:black-brine",

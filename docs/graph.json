@@ -5037,6 +5037,82 @@
       }
     },
     {
+      "id": "bb:location:broadside-tavern",
+      "type": "location",
+      "name": "Broadside Tavern",
+      "tags": [
+        "tavern",
+        "intrigue",
+        "performance",
+        "politics",
+        "neutral-ground",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\broadside-tavern.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:broadside-tavern",
+        "name": "Broadside Tavern",
+        "parent_location": "bb:district:little-sedna",
+        "location_type": "tavern",
+        "population": "variable (patrons, staff, performers)",
+        "government": "neutral ground (unofficially recognized by factions)",
+        "maps_available": false,
+        "map_files": [],
+        "tags": [
+          "tavern",
+          "intrigue",
+          "performance",
+          "politics",
+          "neutral-ground",
+          "black-brine"
+        ],
+        "overview": "The Broadside Tavern is more than a watering hole—it is a gaming hall, ale house, and steamy bath house all in one. Known for its multilevel drinking hall and nightly performances, it draws pirates, nobles, informants, and adventurers alike into its orbit.\n",
+        "geography": "Located in the northern district of Little Sedna, the Broadside is accessible by main street and dockside. Its ancient interior features a gaming floor lined with well-worn tables where citizens gather to play games of chance, strategy, and skill. A high mezzanine overlooks the gaming floor for those who prefer music and drinking.\n",
+        "notable_features": [
+          "The Mezzanine Stage: Hosts bards, illusionists, and playwrights. Performances often double as coded exchanges or fronts for clandestine dealings.",
+          "The Bath House: Fed by hot springs; a luxurious destination offering steaming baths, perfumed soaps, and restorative oils.",
+          "The Tideglass Bar: Renowned for rare spirits and fine liqueurs; its polished surface gleams like the midnight sea, reflecting faces with uncanny clarity.",
+          "Neutral Ground: Accepted as a political chessboard where pirate captains, council informants, and power brokers negotiate under a fragile veneer of discretion."
+        ],
+        "demographics": "Patrons vary nightly—pirates, merchants, nobles in disguise, foreign emissaries, and adventurers. Staff is small but skilled, led by Lira Vott and Baelin the Quiet.\n",
+        "government_politics": "The tavern operates as neutral ground, respected by rival gangs and factions. Agreements made here often carry weight across the city, enforced by the threat of collective retribution if neutrality is violated.\n",
+        "economy": "Profits flow from performances, exotic drinks, and fees for use of the bath house. Side income comes from debts, favors, and the information Lira Vott discreetly brokers.\n",
+        "culture_daily_life": "The Broadside is equal parts performance hall and game den. Nights blend revelry, danger, and whispered negotiations beneath layers of song, poetry, and stagecraft.\n",
+        "notable_npcs": [
+          {
+            "name": "Lira Vott",
+            "role": "Proprietor",
+            "description": "Former bard, now tavern mistress. Witty, watchful, and a broker of secrets. Magical and financial debts keep her tethered to Black Brine’s intrigues."
+          },
+          {
+            "name": "Baelin the Quiet",
+            "role": "Head Waiter",
+            "description": "Silent, precise, and ever-observant. Known for orchestrating the floor with subtle gestures, protecting patrons’ privacy."
+          }
+        ],
+        "adventure_hooks": [
+          "A saboteur approaches the party in the Whisper Room, drawing them into political machinations.",
+          "Performances on the Gilded Stage conceal coded messages about an impending betrayal.",
+          "A missing guest may be trapped in the tavern’s shifting enchantments, hinting at a hidden passage or planar crossing.",
+          "Lira’s debts embroil the party in rivalries, assassination plots, or retrieval of cursed relics hidden under the Tideglass Bar."
+        ],
+        "campaign_connections": [
+          "Rumors and job offers flow constantly—lost pirate ships, missing maps, and possible portals to the Underdark beneath the tavern floor.",
+          "Zhentarim, Harpers, and pirate crews use the Broadside as a maneuvering ground. Players may choose alliances or investigate disappearances linked to the Whisper Room.",
+          "The tavern is rumored to be built atop an ancient underwater temple. Prophecies foretell the return of a sea deity; storms and strange omens suggest its awakening."
+        ],
+        "secrets": [
+          "The shifting decor is powered by a bound spirit—unhappy, but bound to Lira’s debts. Freeing or bargaining with it could reshape the tavern’s nature.",
+          "Beneath the Tideglass Bar lies a sealed hatch leading to catacombs that may connect to a temple of the Hollow Goddess."
+        ]
+      },
+      "body_excerpt": "",
+      "raw": {
+        "parent_location": "bb:district:little-sedna"
+      }
+    },
+    {
       "id": "bb:location:captains-club",
       "type": "location",
       "name": "Captain’s Club",
@@ -6572,6 +6648,38 @@
       }
     },
     {
+      "id": "bb:customs:vessels",
+      "type": "customs",
+      "name": "Directive 11.4.2 – Rights & Procedures Regarding Ownership of a Discovered Vessel",
+      "tags": [
+        "law",
+        "harbor-inquisitoriate",
+        "trade-authority",
+        "maritime",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\laws-of-sea-vessel-claims.md",
+      "fm": {
+        "type": "customs",
+        "id": "bb:customs:vessels",
+        "parent_location": "bb:city:black-brine",
+        "origin": "Black Brine",
+        "name": "Directive 11.4.2 – Rights & Procedures Regarding Ownership of a Discovered Vessel",
+        "summary": "Legal instructions issued by the Harbor Inquisitoriate detailing custody, salvage rights, ownership adjudication, and provisional stewardship for vessels brought into Black Brine under unusual circumstances.",
+        "tags": [
+          "law",
+          "harbor-inquisitoriate",
+          "trade-authority",
+          "maritime",
+          "black-brine"
+        ]
+      },
+      "body_excerpt": "# Directive 11.4.2  \n## Rights & Procedures Regarding Ownership of a Discovered Vessel  \nIssued by the Harbor Inquisitoriate under mandate of the Trade Authority of Black Brine.\n\n---\n\n## I. Rights of Persons Who Bring a Vessel into Harbor\n\nAny group or individual who delivers a vessel to Black Brine under unusual, hazardous, or unexplained circumstances is granted the following rights:\n\n### 1. Right to Testify\nAll persons may present:\n- their account of events  \n- injuries sustained  \n- reasons for assuming control of the vessel  \n\nTestimony must be delivered truthfully under penalty of harbor law.\n\n### 2. Right to Protection\nWhile under investigation:\n- individuals are entitled to safety from retaliation  \n- Quiet Cloaks may be assigned to prevent tampering or coercion  \n\n### 3. Right to …",
+      "raw": {
+        "parent_location": "bb:city:black-brine"
+      }
+    },
+    {
       "id": "bb:location:western-jungle",
       "type": "location",
       "name": "Deep Green - Jungles of the West",
@@ -6829,6 +6937,14 @@
       "name": "Districts",
       "center": false,
       "ring_index": 0,
+      "source": null
+    },
+    {
+      "id": "bb:hub:customs",
+      "type": "hub",
+      "name": "customs",
+      "center": false,
+      "ring_index": 1,
       "source": null
     },
     {
@@ -7224,6 +7340,11 @@
       "target": "bb:location:island-of-sedna"
     },
     {
+      "source": "bb:location:broadside-tavern",
+      "rel": "located_in",
+      "target": "bb:district:little-sedna"
+    },
+    {
       "source": "bb:location:captains-club",
       "rel": "located_in",
       "target": "bb:district:mistwalk"
@@ -7405,6 +7526,11 @@
     },
     {
       "source": "bb:customs:crows-chance",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:customs:vessels",
       "rel": "located_in",
       "target": "bb:city:black-brine"
     },
@@ -7991,22 +8117,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:crosswater"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:salt-crown"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:districts",
@@ -8019,64 +8135,39 @@
       "target": "bb:district:mistwalk"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
+      "target": "bb:district:crosswater"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
+      "target": "bb:district:salt-crown"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:faction:cult-forgotten-wind"
+      "target": "bb:customs:crows-chance"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
+      "target": "bb:customs:vessels"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:faction:guild-of-free-fishermen"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:twilight-society"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
+      "target": "bb:creature:potoo"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
       "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:twilight-society"
     },
     {
       "source": "bb:hub:factions",
@@ -8091,7 +8182,32 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:council-of-free-captains"
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:cult-forgotten-wind"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:guild-of-free-fishermen"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:inquisitors-of-black-brine"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
@@ -8099,29 +8215,29 @@
       "target": "bb:faction:gutterlings"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
+      "target": "bb:faction:council-of-free-captains"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
+      "target": "bb:faction:fishermens-union"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:fleet:widow-makers"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
+      "target": "bb:faction:union-of-lamp-lighters"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-structure"
+      "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8131,7 +8247,37 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8141,17 +8287,12 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
+      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:sy"
+      "target": "bb:pc:andromeda"
     },
     {
       "source": "bb:hub:players",
@@ -8166,17 +8307,7 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:andromeda"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:deep-green-supplies"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:codex-salt-shadow"
+      "target": "bb:pc:sy"
     },
     {
       "source": "bb:hub:items",
@@ -8186,27 +8317,27 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
+      "target": "bb:item:sedna-lore-poem"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:deep-green-supplies"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
       "target": "bb:item:ruperts-welcome-speech"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:sedna-lore-poem"
+      "target": "bb:item:codex-salt-shadow"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:stealth-preparation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-passive-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
+      "target": "bb:house-rules:jungle-weather-events"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8216,27 +8347,12 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival-training"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
+      "target": "bb:house-rules:jungle-navigation"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
       "target": "bb:house-rules:jungle-event-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8251,17 +8367,42 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
+      "target": "bb:house-rules:jungle-environmental-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
       "target": "bb:house-rules:jungle-navigation-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival-training"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:stealth-preparation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-passive-threat-level"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 162,
-    "edges": 277
+    "nodes": 165,
+    "edges": 282
   }
 }
