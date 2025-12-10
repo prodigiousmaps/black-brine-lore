@@ -8,6 +8,11 @@ hubs:
     connects:
       by_type: [district]
 
+  - id: bb:hub:customs
+    name: customs
+    ring_index: 1
+    connects:
+      by_type: [customs]
 
   - id: bb:hub:factions
     name: Factions

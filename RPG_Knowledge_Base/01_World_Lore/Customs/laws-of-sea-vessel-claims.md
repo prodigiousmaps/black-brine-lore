@@ -1,6 +1,6 @@
 ---
 type: customs
-id: bb:law:vessels
+id: bb:customs:vessels
 parent_location: bb:city:black-brine
 origin: Black Brine
 name: Directive 11.4.2 – Rights & Procedures Regarding Ownership of a Discovered Vessel
