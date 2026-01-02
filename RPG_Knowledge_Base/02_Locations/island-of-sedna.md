@@ -6,8 +6,8 @@ parent_location: bb:location:geography-black-brine
 location_type: island
 population: unknown
 government: none
-maps_available: true
-map_files: [IMG_2090.jpg]
+appears_in:
+  - bb:location:twelvefold-veil-archipelago
 tags: [island, forbidden, jungle, sedna, mist, ruin]
 ---
 
