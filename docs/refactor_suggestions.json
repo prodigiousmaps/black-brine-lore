@@ -1,5 +1,5 @@
 {
-  "total_files": 162,
+  "total_files": 163,
   "patches": [
     "patches\\yaml-format-template.yml",
     "patches\\andromida.yml",
@@ -19,6 +19,8 @@
     "patches\\house-of-questions.yml",
     "patches\\malign-crew.yml",
     "patches\\miasma-fleet.yml",
+    "patches\\trade-authority.yml",
+    "patches\\cult-forgotten-wind.yml",
     "patches\\cult-verdant-unmaking.yml",
     "patches\\arlo-the-noose.yml",
     "patches\\vel-corven.yml",
@@ -1229,6 +1231,51 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\trade-authority.md",
+      "field": "location",
+      "value": "bb:location:black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\trade-authority.md",
+      "field": "allies",
+      "value": "bb:faction:house-of-questions",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\trade-authority.md",
+      "field": "rivals",
+      "value": "bb:faction:black-sashes",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\trade-authority.md",
+      "field": "rivals",
+      "value": "bb:faction:butchers",
+      "resolved_id": "bb:faction:butchers",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\trade-authority.md",
+      "field": "appears_in",
+      "value": "bb:location:black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\widow-makers.md",
       "field": "leaders",
       "value": "bb:npc:captain-veyla-dren",
@@ -1239,7 +1286,25 @@
     },
     {
       "path": "RPG_Knowledge_Base\\04_Factions\\Religious\\cult-forgotten-wind.md",
-      "field": "parent_location",
+      "field": "location",
+      "value": "bb:location:forbidden-west-sedna",
+      "resolved_id": "bb:location:forbidden-west-sedna",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Religious\\cult-forgotten-wind.md",
+      "field": "rivals",
+      "value": "bb:faction:black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Religious\\cult-forgotten-wind.md",
+      "field": "appears_in",
       "value": "bb:location:forbidden-west-sedna",
       "resolved_id": "bb:location:forbidden-west-sedna",
       "method": "id",

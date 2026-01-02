@@ -2543,6 +2543,68 @@
       }
     },
     {
+      "id": "bb:faction:trade-authority",
+      "type": "faction",
+      "name": "Black Brine Trade Authority",
+      "tags": [
+        "faction",
+        "government",
+        "economy",
+        "trade",
+        "scrip",
+        "regulation",
+        "black-brine",
+        "sedna"
+      ],
+      "source": "RPG_Knowledge_Base\\04_Factions\\Political\\trade-authority.md",
+      "fm": {
+        "type": "faction",
+        "id": "bb:faction:trade-authority",
+        "name": "Black Brine Trade Authority",
+        "summary": "The city’s economic engine and leash—issuer of scrip, regulator of strategic exports, and architect of the exchange system that keeps Black Brine fed, funded, and controllable.\n",
+        "location": "bb:location:black-brine",
+        "factions": [],
+        "allies": [
+          "bb:faction:house-of-questions"
+        ],
+        "rivals": [
+          "bb:faction:black-sashes",
+          "bb:faction:butchers"
+        ],
+        "appears_in": [
+          "bb:location:black-brine"
+        ],
+        "portrait": [
+          "assets/portraits/trade-authority.png"
+        ],
+        "tags": [
+          "faction",
+          "government",
+          "economy",
+          "trade",
+          "scrip",
+          "regulation",
+          "black-brine",
+          "sedna"
+        ]
+      },
+      "body_excerpt": "# Black Brine Trade Authority\n\n## Overview\nThe Black Brine Trade Authority (TA) is a quasi-governmental institution that\ncontrols currency, regulates key resources, and licenses exchange within Black\nBrine and its surrounding territories. Publicly framed as a neutral stabilizing\nforce, it functions in practice as the primary mechanism by which trade is\nconverted into political power.\n\n## Mandate\n- Issue and maintain confidence in **Trade Authority scrip**.\n- License and operate **Exchange Houses** for coin-to-scrip conversion.\n- Regulate strategic resources critical to city stability.\n- Maintain gold and material reserves for mainland settlement.\n- Coordinate investigations into counterfeiting and market manipulation.\n\n## Scrip\n**Physical Form**\n- Copper discs, approximately quarter-sized.…",
+      "raw": {
+        "location": "bb:location:black-brine",
+        "factions": [],
+        "allies": [
+          "bb:faction:house-of-questions"
+        ],
+        "rivals": [
+          "bb:faction:black-sashes",
+          "bb:faction:butchers"
+        ],
+        "appears_in": [
+          "bb:location:black-brine"
+        ]
+      }
+    },
+    {
       "id": "bb:fleet:widow-makers",
       "type": "faction",
       "name": "The Widow Makers",
@@ -2580,39 +2642,56 @@
       }
     },
     {
-      "id": "bb:faction:cult-forgotten-wind",
+      "id": "bb:faction:forgotten-wind",
       "type": "faction",
-      "name": "cult-forgotten-wind",
+      "name": "Cult of the Forgotten Wind",
       "tags": [
-        "NPC",
-        "legends",
-        "Hooks",
-        "Faction",
-        "Act1",
-        "Chapter1",
-        "ForgottenWind"
+        "faction",
+        "cult",
+        "religion",
+        "jungle",
+        "forgotten-wind",
+        "sedna",
+        "act1",
+        "chapter1"
       ],
       "source": "RPG_Knowledge_Base\\04_Factions\\Religious\\cult-forgotten-wind.md",
       "fm": {
         "type": "faction",
-        "collections": "religious faction",
-        "title": "Cult - Forgotten Wind",
-        "description": null,
-        "icon": null,
-        "parent_location": "bb:location:forbidden-west-sedna",
+        "id": "bb:faction:forgotten-wind",
+        "name": "Cult of the Forgotten Wind",
+        "summary": "A degenerated jungle cult bound by a brutal caste system, devoted to the worship of a false wind-goddess they believe imprisoned beneath the jungle of West Sedna.\n",
+        "location": "bb:location:forbidden-west-sedna",
+        "factions": [],
+        "allies": [],
+        "rivals": [
+          "bb:faction:black-brine"
+        ],
+        "appears_in": [
+          "bb:location:forbidden-west-sedna"
+        ],
         "tags": [
-          "NPC",
-          "legends",
-          "Hooks",
-          "Faction",
-          "Act1",
-          "Chapter1",
-          "ForgottenWind"
+          "faction",
+          "cult",
+          "religion",
+          "jungle",
+          "forgotten-wind",
+          "sedna",
+          "act1",
+          "chapter1"
         ]
       },
-      "body_excerpt": "# Cult - Forgotten Wind\n\n**The Caste System of the Cult of the Forgotten Wind**\n\n**After centuries of isolation, jungle survival, and devotion to a false god, the cult has degenerated into a monstrous hierarchy of fanatics. Each caste serves a distinct role, ensuring their survival as they await the return of their imprisoned goddess.**\n\n---\n\n## **1. The Howling Ones** *(Lowest Caste – Savage Hunters)*\n\n> *\"You will hear them before you see them—if you're lucky. If you're not, you will only hear the breath in your ear before the teeth sink in.\"*\n\n— Old Black Brine superstition\n\n- These **twisted remnants** of the original civilization have **lost most of their humanity** after centuries in the jungle.\n\n- Their **bones are warped**, their **eyes reflective like a predator’s**, and their **l…",
+      "body_excerpt": "# Cult of the Forgotten Wind\n\n## Overview\nAfter centuries of isolation, jungle survival, and devotion to a false god, the\nCult of the Forgotten Wind has degenerated into a monstrous hierarchy of\nfanatics. What was once a coherent culture has collapsed into a caste-bound\ntheocracy sustained by ritual violence, superstition, and the promise of divine\nreturn.\n\nThe cult believes their goddess—an imprisoned wind djinn—is destined to be\nfreed by a prophesied ship and its crew. They await this moment with absolute\ncertainty and lethal devotion.\n\n## Beliefs\n- The wind is sacred and omnipresent.\n- Flesh is temporary; transformation is inevitable.\n- Suffering prepares the faithful for ascension.\n- The goddess’s return will remake the world—and her followers.\n\n## Structure\nThe cult is divided into th…",
       "raw": {
-        "parent_location": "bb:location:forbidden-west-sedna"
+        "location": "bb:location:forbidden-west-sedna",
+        "factions": [],
+        "allies": [],
+        "rivals": [
+          "bb:faction:black-brine"
+        ],
+        "appears_in": [
+          "bb:location:forbidden-west-sedna"
+        ]
       }
     },
     {
@@ -7264,7 +7343,7 @@
       "target": "bb:district:mistwalk"
     },
     {
-      "source": "bb:faction:cult-forgotten-wind",
+      "source": "bb:faction:forgotten-wind",
       "rel": "located_in",
       "target": "bb:location:forbidden-west-sedna"
     },
@@ -7864,6 +7943,11 @@
       "target": "bb:pc:pinch"
     },
     {
+      "source": "bb:faction:trade-authority",
+      "rel": "rival_of",
+      "target": "bb:faction:butchers"
+    },
+    {
       "source": "bb:faction:verdant-unmaking",
       "rel": "rival_of",
       "target": "bb:faction:trade-authority"
@@ -8042,6 +8126,11 @@
       "source": "bb:hazard:ash-fall",
       "rel": "appears_in",
       "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:faction:forgotten-wind",
+      "rel": "appears_in",
+      "target": "bb:location:forbidden-west-sedna"
     },
     {
       "source": "bb:npc:the-noose",
@@ -8296,6 +8385,11 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
+      "target": "bb:district:mistwalk"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
       "target": "bb:district:little-sedna"
     },
     {
@@ -8306,7 +8400,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:mistwalk"
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:districts",
@@ -8319,14 +8413,9 @@
       "target": "bb:district:salt-crown"
     },
     {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:blackmire"
-    },
-    {
       "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:customs:great-exchange-day"
+      "target": "bb:creature:potoo"
     },
     {
       "source": "bb:hub:customs",
@@ -8336,12 +8425,12 @@
     {
       "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:creature:potoo"
+      "target": "bb:customs:vessels"
     },
     {
       "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:customs:vessels"
+      "target": "bb:customs:great-exchange-day"
     },
     {
       "source": "bb:hub:customs",
@@ -8356,57 +8445,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:council-of-free-captains"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:verdant-unmaking"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:cult-forgotten-wind"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
     },
     {
       "source": "bb:hub:factions",
@@ -8431,6 +8470,51 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:fishermens-union"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hellion-fleet"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:council-of-free-captains"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:inquisitors-of-black-brine"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:verdant-unmaking"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:forgotten-wind"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:twilight-society"
     },
     {
@@ -8439,19 +8523,14 @@
       "target": "bb:fleet:malign-crew"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:campaign:dead-sons-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8461,12 +8540,17 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
+      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8481,22 +8565,22 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
+      "target": "bb:campaign:deep-green:short-cut"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:campaign:fallen-city:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
       "target": "bb:pc:andromeda"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
-      "target": "bb:pc:sy"
     },
     {
       "source": "bb:hub:players",
@@ -8509,19 +8593,14 @@
       "target": "bb:pc:franklin"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:item:apertures-theory"
+      "target": "bb:pc:sy"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:sedna-lore-poem"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:ruperts-welcome-speech"
+      "target": "bb:item:codex-salt-shadow"
     },
     {
       "source": "bb:hub:items",
@@ -8531,57 +8610,17 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:codex-salt-shadow"
+      "target": "bb:item:ruperts-welcome-speech"
     },
     {
-      "source": "bb:hub:house-rules",
+      "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
+      "target": "bb:item:apertures-theory"
     },
     {
-      "source": "bb:hub:house-rules",
+      "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival-training"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:stealth-preparation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
+      "target": "bb:item:sedna-lore-poem"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8596,12 +8635,62 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:phased-threat-escalation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-weather-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival-training"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-event-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:stealth-preparation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-environmental-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:jungle-stealth"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:firearms-training-mechanics"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 169,
-    "edges": 290
+    "nodes": 170,
+    "edges": 292
   }
 }
