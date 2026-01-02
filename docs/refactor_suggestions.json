@@ -2,6 +2,7 @@
   "total_files": 166,
   "patches": [
     "patches\\yaml-format-template.yml",
+    "patches\\island-of-sedna.yml",
     "patches\\andromida.yml",
     "patches\\franklin-pierce.yml",
     "patches\\pinch.yml",
@@ -94,6 +95,15 @@
       "field": "parent_location",
       "value": "bb:location:geography-black-brine",
       "resolved_id": "bb:location:geography-black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\island-of-sedna.md",
+      "field": "appears_in",
+      "value": "bb:location:twelvefold-veil-archipelago",
+      "resolved_id": "bb:location:twelvefold-veil-archipelago",
       "method": "id",
       "score": 1.0,
       "note": ""
