@@ -1,5 +1,5 @@
 {
-  "total_files": 166,
+  "total_files": 167,
   "patches": [
     "patches\\yaml-format-template.yml",
     "patches\\island-of-sedna.yml",
@@ -59,8 +59,10 @@
     "patches\\ruperts-rest.yml",
     "patches\\west-bank-fishermans-guild-hall.yml",
     "patches\\great-exchange-day.yml",
+    "patches\\archipelago.yml",
     "patches\\grim-wake.yml",
-    "patches\\hollow-shoal.yml"
+    "patches\\hollow-shoal.yml",
+    "patches\\trackless-sea.yml"
   ],
   "suggestions": [
     {
@@ -93,8 +95,8 @@
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\island-of-sedna.md",
       "field": "parent_location",
-      "value": "bb:location:geography-black-brine",
-      "resolved_id": "bb:location:geography-black-brine",
+      "value": "bb:location:twelvefold-veil-archipelago",
+      "resolved_id": "bb:location:twelvefold-veil-archipelago",
       "method": "id",
       "score": 1.0,
       "note": ""
@@ -3098,20 +3100,20 @@
     },
     {
       "path": "RPG_Knowledge_Base\\01_World_Lore\\Environment\\archipelago.md",
-      "field": "location",
+      "field": "parent_location",
       "value": "bb:place:trackless-sea",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "resolved_id": "bb:place:trackless-sea",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
       "path": "RPG_Knowledge_Base\\01_World_Lore\\Environment\\archipelago.md",
       "field": "appears_in",
       "value": "bb:place:trackless-sea",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "resolved_id": "bb:place:trackless-sea",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -3143,6 +3145,51 @@
     },
     {
       "path": "RPG_Knowledge_Base\\01_World_Lore\\Environment\\hollow-shoal.md",
+      "field": "appears_in",
+      "value": "bb:location:twelvefold-veil-archipelago",
+      "resolved_id": "bb:location:twelvefold-veil-archipelago",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Environment\\trackless-sea.md",
+      "field": "parent_location",
+      "value": "bb:world:forgotten-realms",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Environment\\trackless-sea.md",
+      "field": "factions*",
+      "value": "bb:faction:moonshae-kingdoms",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Environment\\trackless-sea.md",
+      "field": "factions*",
+      "value": "bb:faction:pirate-fleets",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Environment\\trackless-sea.md",
+      "field": "factions*",
+      "value": "bb:faction:sea-cults",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Environment\\trackless-sea.md",
       "field": "appears_in",
       "value": "bb:location:twelvefold-veil-archipelago",
       "resolved_id": "bb:location:twelvefold-veil-archipelago",

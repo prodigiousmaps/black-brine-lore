@@ -86,7 +86,7 @@
         "type": "location",
         "id": "bb:location:island-of-sedna",
         "name": "Island of Sedna",
-        "parent_location": "bb:location:geography-black-brine",
+        "parent_location": "bb:location:twelvefold-veil-archipelago",
         "location_type": "island",
         "population": "unknown",
         "government": "none",
@@ -104,7 +104,7 @@
       },
       "body_excerpt": "# Overview\nThe Island of Sedna is the cursed, mist-shrouded heart of the Mother of Mists archipelago. Said to be the domain of the forgotten goddess Sedna, it is wrapped in legends of blood, betrayal, and the sea. Treacherous reefs and eternal fog conceal it, and the river that bisects the island is regarded as the last boundary of sanity before plunging into the wilderness.\n\n# Geography\n- **Black Brine River**: Where the freshwater Black River from the west meets the Brine River from the east; serves as a spiritual and cultural boundary.\n- **East Sedna**: Populated and cultivated; home to Black Brine city, fishing coves, and highlands.\n- **West Sedna**: Forbidden jungle, ruins, shrines, volcanic peaks; cursed and unexplored.\n- **Misty Shores**: Reef-choked coasts in eternal fog, nearly im…",
       "raw": {
-        "parent_location": "bb:location:geography-black-brine",
+        "parent_location": "bb:location:twelvefold-veil-archipelago",
         "appears_in": [
           "bb:location:twelvefold-veil-archipelago"
         ]
@@ -6937,7 +6937,7 @@
         "id": "bb:location:twelvefold-veil-archipelago",
         "name": "Twelvefold Veil Archipelago",
         "summary": "A mist-bound chain of twelve islands in the Trackless Sea, defined by unreliable navigation, ancient divine residue, and the dominant presence of Sedna Island.",
-        "location": "bb:place:trackless-sea",
+        "parent_location": "bb:place:trackless-sea",
         "factions": [],
         "allies": [],
         "rivals": [],
@@ -6956,7 +6956,7 @@
       },
       "body_excerpt": "# Twelvefold Veil Archipelago\n\n## Overview\nThe Twelvefold Veil Archipelago is a chain of twelve mapped islands and numerous smaller, unmapped islets scattered across a fog-heavy region of the Trackless Sea. Persistent mist, shifting currents, and inconsistent navigation define the region, giving rise to the name “the Veil.”\n\nThe archipelago is widely believed to be shaped not only by weather, but by lingering effects of an ancient divine conflict tied to sea powers now lost or obscured.\n\n## Appearance\nFrom a distance, the islands appear intermittently through fog banks, often seeming closer or farther than they truly are. Coastlines are irregular and difficult to chart, with reefs and shoals that shift subtly over time. Even clear days carry an oppressive haze.\n\nLantern lights, wreckage, a…",
       "raw": {
-        "location": "bb:place:trackless-sea",
+        "parent_location": "bb:place:trackless-sea",
         "factions": [],
         "allies": [],
         "rivals": [],
@@ -7054,6 +7054,63 @@
       "raw": {
         "location": "bb:location:twelvefold-veil-archipelago",
         "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:twelvefold-veil-archipelago"
+        ]
+      }
+    },
+    {
+      "id": "bb:place:trackless-sea",
+      "type": "location",
+      "name": "Trackless Sea",
+      "tags": [
+        "geography",
+        "ocean",
+        "sea",
+        "forgotten-realms",
+        "piracy",
+        "storms",
+        "ancient-magic"
+      ],
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\Environment\\trackless-sea.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:place:trackless-sea",
+        "name": "Trackless Sea",
+        "summary": "A vast, unpredictable ocean west of Faerûn, infamous for storms, shifting currents, piracy, and regions of lost or unreliable navigation. Much of its interior remains poorly charted.",
+        "location_type": "ocean",
+        "parent_location": "bb:world:forgotten-realms",
+        "factions": [
+          "bb:faction:moonshae-kingdoms",
+          "bb:faction:pirate-fleets",
+          "bb:faction:sea-cults"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:twelvefold-veil-archipelago"
+        ],
+        "portrait": [],
+        "tags": [
+          "geography",
+          "ocean",
+          "sea",
+          "forgotten-realms",
+          "piracy",
+          "storms",
+          "ancient-magic"
+        ]
+      },
+      "body_excerpt": "# Trackless Sea\n\n## Overview\nThe Trackless Sea is the broad expanse of ocean west of Faerûn, stretching beyond the Sword Coast and the Moonshae Isles into waters that few charts agree upon. It is named not for the absence of routes, but for their unreliability—currents shift, landmarks vanish beneath mist, and magical navigation often fails.\n\nWhile coastal trade routes are well traveled, the deeper reaches of the Trackless Sea remain dangerous, isolating distant islands and fostering cultures cut off from mainland influence.\n\n## Geography & Conditions\nThe sea is defined by powerful tides, frequent storms, and large regions of persistent fog. Reefs, submerged ruins, and unmarked shoals are common hazards. Weather patterns can change without warning, sometimes defying seasonal logic.\n\nCertai…",
+      "raw": {
+        "parent_location": "bb:world:forgotten-realms",
+        "factions": [
+          "bb:faction:moonshae-kingdoms",
+          "bb:faction:pirate-fleets",
+          "bb:faction:sea-cults"
+        ],
         "allies": [],
         "rivals": [],
         "appears_in": [
@@ -7379,7 +7436,7 @@
     {
       "source": "bb:location:island-of-sedna",
       "rel": "located_in",
-      "target": "bb:location:geography-black-brine"
+      "target": "bb:location:twelvefold-veil-archipelago"
     },
     {
       "source": "bb:pc:andromeda",
@@ -7920,6 +7977,11 @@
       "source": "bb:customs:vessels",
       "rel": "located_in",
       "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:location:twelvefold-veil-archipelago",
+      "rel": "located_in",
+      "target": "bb:place:trackless-sea"
     },
     {
       "source": "bb:island:grim-wake",
@@ -8502,12 +8564,22 @@
       "target": "bb:faction:trade-authority"
     },
     {
+      "source": "bb:location:twelvefold-veil-archipelago",
+      "rel": "appears_in",
+      "target": "bb:place:trackless-sea"
+    },
+    {
       "source": "bb:island:grim-wake",
       "rel": "appears_in",
       "target": "bb:location:twelvefold-veil-archipelago"
     },
     {
       "source": "bb:island:hollow-shoal",
+      "rel": "appears_in",
+      "target": "bb:location:twelvefold-veil-archipelago"
+    },
+    {
+      "source": "bb:place:trackless-sea",
       "rel": "appears_in",
       "target": "bb:location:twelvefold-veil-archipelago"
     },
@@ -8554,12 +8626,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:blackmire"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:salt-crown"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:districts",
@@ -8569,12 +8636,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:keelhauls"
+      "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:hub:districts",
@@ -8582,19 +8644,19 @@
       "target": "bb:district:crosswater"
     },
     {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:little-sedna"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:blackmire"
+    },
+    {
       "source": "bb:hub:customs",
       "rel": "organizes",
       "target": "bb:customs:scrip"
-    },
-    {
-      "source": "bb:hub:customs",
-      "rel": "organizes",
-      "target": "bb:customs:great-exchange-day"
-    },
-    {
-      "source": "bb:hub:customs",
-      "rel": "organizes",
-      "target": "bb:creature:potoo"
     },
     {
       "source": "bb:hub:customs",
@@ -8607,59 +8669,14 @@
       "target": "bb:customs:crows-chance"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
+      "target": "bb:customs:great-exchange-day"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:guild-of-free-fishermen"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:verdant-unmaking"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
+      "target": "bb:creature:potoo"
     },
     {
       "source": "bb:hub:factions",
@@ -8684,17 +8701,72 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:inquisitors-of-black-brine"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:forgotten-wind"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:verdant-unmaking"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:guild-of-free-fishermen"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:trade-authority"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
       "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:forgotten-wind"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8704,22 +8776,12 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:fallen-city:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8729,7 +8791,27 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8737,14 +8819,9 @@
       "target": "bb:campaign:dead-sons-structure"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
+      "target": "bb:pc:andromeda"
     },
     {
       "source": "bb:hub:players",
@@ -8754,17 +8831,17 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:sy"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
       "target": "bb:pc:pinch"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:andromeda"
+      "target": "bb:pc:sy"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:apertures-theory"
     },
     {
       "source": "bb:hub:items",
@@ -8779,7 +8856,7 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:apertures-theory"
+      "target": "bb:item:sedna-lore-poem"
     },
     {
       "source": "bb:hub:items",
@@ -8787,29 +8864,14 @@
       "target": "bb:item:deep-green-supplies"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:item:sedna-lore-poem"
+      "target": "bb:house-rules:jungle-passive-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:stealth-preparation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
+      "target": "bb:house-rules:jungle-survival"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8819,12 +8881,32 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-environmental-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-event-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:firearms-training-mechanics"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:jungle-navigation-events"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-passive-threat-level"
+      "target": "bb:house-rules:stealth-preparation"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8839,27 +8921,17 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
       "target": "bb:house-rules:phased-threat-escalation"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
       "target": "bb:house-rules:jungle-stealth"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 173,
-    "edges": 297
+    "nodes": 174,
+    "edges": 300
   }
 }
