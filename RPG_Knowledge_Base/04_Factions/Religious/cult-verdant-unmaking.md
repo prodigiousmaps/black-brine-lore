@@ -11,7 +11,7 @@ rivals:
 appears_in:
 - bb:island:sedna
 portrait:
-- assets/portraits/verdant-unmaking-sigil.png
+- assets/portraits/unmaking-knot.png
 tags:
 - cult
 - forbidden-faith
