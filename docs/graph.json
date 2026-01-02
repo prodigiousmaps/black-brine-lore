@@ -6918,6 +6918,148 @@
       }
     },
     {
+      "id": "bb:location:twelvefold-veil-archipelago",
+      "type": "location",
+      "name": "Twelvefold Veil Archipelago",
+      "tags": [
+        "geography",
+        "archipelago",
+        "trackless-sea",
+        "sedna",
+        "maritime",
+        "islands"
+      ],
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\Environment\\archipelago.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:location:twelvefold-veil-archipelago",
+        "name": "Twelvefold Veil Archipelago",
+        "summary": "A mist-bound chain of twelve islands in the Trackless Sea, defined by unreliable navigation, ancient divine residue, and the dominant presence of Sedna Island.",
+        "location": "bb:place:trackless-sea",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:place:trackless-sea"
+        ],
+        "portrait": [],
+        "tags": [
+          "geography",
+          "archipelago",
+          "trackless-sea",
+          "sedna",
+          "maritime",
+          "islands"
+        ]
+      },
+      "body_excerpt": "# Twelvefold Veil Archipelago\n\n## Overview\nThe Twelvefold Veil Archipelago is a chain of twelve mapped islands and numerous smaller, unmapped islets scattered across a fog-heavy region of the Trackless Sea. Persistent mist, shifting currents, and inconsistent navigation define the region, giving rise to the name “the Veil.”\n\nThe archipelago is widely believed to be shaped not only by weather, but by lingering effects of an ancient divine conflict tied to sea powers now lost or obscured.\n\n## Appearance\nFrom a distance, the islands appear intermittently through fog banks, often seeming closer or farther than they truly are. Coastlines are irregular and difficult to chart, with reefs and shoals that shift subtly over time. Even clear days carry an oppressive haze.\n\nLantern lights, wreckage, a…",
+      "raw": {
+        "location": "bb:place:trackless-sea",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:place:trackless-sea"
+        ]
+      }
+    },
+    {
+      "id": "bb:island:grim-wake",
+      "type": "location",
+      "name": "Grim Wake Island",
+      "tags": [
+        "geography",
+        "island",
+        "storms",
+        "shipwrecks",
+        "curses",
+        "omens",
+        "trackless-sea"
+      ],
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\Environment\\grim-wake.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:island:grim-wake",
+        "name": "Grim Wake Island",
+        "summary": "A storm-lashed, jagged island known for perpetual rough seas, wrecked hulks, and the belief that ships passing too close are followed by ill fortune long after they leave.",
+        "location": "bb:location:twelvefold-veil-archipelago",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:twelvefold-veil-archipelago"
+        ],
+        "portrait": [],
+        "tags": [
+          "geography",
+          "island",
+          "storms",
+          "shipwrecks",
+          "curses",
+          "omens",
+          "trackless-sea"
+        ]
+      },
+      "body_excerpt": "# Grim Wake Island\n\n## Overview\nGrim Wake Island rises sharply from the Trackless Sea as a spine of black stone and broken cliffs. Unlike Hollow Shoal, which hides beneath the waves, Grim Wake announces itself violently—through crashing surf, sudden squalls, and treacherous winds that seem to pull ships toward it.\n\nSailors believe that merely passing within sight of Grim Wake marks a vessel with bad luck. Storms follow in its wake, compasses drift, and tempers fray among the crew.\n\n## Appearance\nThe island is dominated by steep cliffs, narrow coves, and towering rock formations resembling splintered masts and grasping hands. Waves break constantly against the stone, sending salt spray high into the air.\n\nLittle vegetation grows here. What plant life exists is twisted and wind-scoured, clin…",
+      "raw": {
+        "location": "bb:location:twelvefold-veil-archipelago",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:twelvefold-veil-archipelago"
+        ]
+      }
+    },
+    {
+      "id": "bb:island:hollow-shoal",
+      "type": "location",
+      "name": "Hollow Shoal Island",
+      "tags": [
+        "geography",
+        "island",
+        "reefs",
+        "shipwrecks",
+        "mist",
+        "cryptids",
+        "trackless-sea"
+      ],
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\Environment\\hollow-shoal.md",
+      "fm": {
+        "type": "location",
+        "id": "bb:island:hollow-shoal",
+        "name": "Hollow Shoal Island",
+        "summary": "A low, treacherous island of reefs and mist-choked shallows, infamous for shipwrecks, cryptid sightings, and the sense that something beneath the water is watching.",
+        "location": "bb:location:twelvefold-veil-archipelago",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:twelvefold-veil-archipelago"
+        ],
+        "portrait": [],
+        "tags": [
+          "geography",
+          "island",
+          "reefs",
+          "shipwrecks",
+          "mist",
+          "cryptids",
+          "trackless-sea"
+        ]
+      },
+      "body_excerpt": "# Hollow Shoal Island\n\n## Overview\nHollow Shoal Island lies west of Sedna Island within the Twelvefold Veil Archipelago. It is less an island in the conventional sense and more a sprawling network of reefs, sandbars, and half-submerged rock formations that barely rise above the sea.\n\nThe island is avoided by most navigators, as charts are unreliable and tides behave unpredictably. Those who linger report strange sightings along the shoals—shapes in the fog, pale eyes above the waterline, and the feeling of being silently observed.\n\n## Appearance\nAt low tide, Hollow Shoal reveals jagged coral ridges, broken hulls, and ancient stone fragments protruding from the surf. At high tide, much of the island vanishes entirely, leaving only rippling water, foam, and mist.\n\nThe sea around the shoal is…",
+      "raw": {
+        "location": "bb:location:twelvefold-veil-archipelago",
+        "factions": [],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:twelvefold-veil-archipelago"
+        ]
+      }
+    },
+    {
       "id": "bb:location:western-jungle",
       "type": "location",
       "name": "Deep Green - Jungles of the West",
@@ -7778,6 +7920,16 @@
       "target": "bb:city:black-brine"
     },
     {
+      "source": "bb:island:grim-wake",
+      "rel": "located_in",
+      "target": "bb:location:twelvefold-veil-archipelago"
+    },
+    {
+      "source": "bb:island:hollow-shoal",
+      "rel": "located_in",
+      "target": "bb:location:twelvefold-veil-archipelago"
+    },
+    {
       "source": "bb:lore:djinn",
       "rel": "located_in",
       "target": "bb:story:rogue-wave"
@@ -8343,6 +8495,16 @@
       "target": "bb:faction:trade-authority"
     },
     {
+      "source": "bb:island:grim-wake",
+      "rel": "appears_in",
+      "target": "bb:location:twelvefold-veil-archipelago"
+    },
+    {
+      "source": "bb:island:hollow-shoal",
+      "rel": "appears_in",
+      "target": "bb:location:twelvefold-veil-archipelago"
+    },
+    {
       "source": "bb:npc:the-noose",
       "rel": "leads",
       "target": "bb:faction:butchers"
@@ -8385,6 +8547,16 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
+      "target": "bb:district:crosswater"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
       "target": "bb:district:salt-crown"
     },
     {
@@ -8400,22 +8572,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:blackmire"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:crosswater"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:customs:crows-chance"
+      "target": "bb:customs:scrip"
     },
     {
       "source": "bb:hub:customs",
@@ -8435,17 +8597,7 @@
     {
       "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:customs:scrip"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:trade-authority"
+      "target": "bb:customs:crows-chance"
     },
     {
       "source": "bb:hub:factions",
@@ -8455,7 +8607,47 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
+      "target": "bb:faction:inquisitors-of-black-brine"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:guild-of-free-fishermen"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:trade-authority"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widow-makers"
     },
     {
       "source": "bb:hub:factions",
@@ -8470,32 +8662,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:twilight-society"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:faction:fishermens-union"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
     },
     {
       "source": "bb:hub:factions",
@@ -8510,7 +8677,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
     },
     {
       "source": "bb:hub:factions",
@@ -8518,14 +8690,14 @@
       "target": "bb:faction:forgotten-wind"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
+      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:faction:guild-of-free-fishermen"
+      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8535,22 +8707,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
       "target": "bb:campaign:infiltration-temple-of-sedna"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8565,12 +8722,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+      "target": "bb:campaign:dead-sons-narrative"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8578,9 +8730,14 @@
       "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:pc:sy"
+      "target": "bb:campaign:fallen-city:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-structure"
     },
     {
       "source": "bb:hub:players",
@@ -8590,12 +8747,22 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:andromeda"
+      "target": "bb:pc:sy"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
       "target": "bb:pc:franklin"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:pc:andromeda"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:ruperts-welcome-speech"
     },
     {
       "source": "bb:hub:items",
@@ -8605,7 +8772,7 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:deep-green-supplies"
+      "target": "bb:item:codex-salt-shadow"
     },
     {
       "source": "bb:hub:items",
@@ -8615,32 +8782,17 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:codex-salt-shadow"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:ruperts-welcome-speech"
+      "target": "bb:item:deep-green-supplies"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
+      "target": "bb:house-rules:jungle-navigation"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:stealth-preparation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
+      "target": "bb:house-rules:jungle-navigation-events"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8655,7 +8807,22 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
+      "target": "bb:house-rules:jungle-event-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-environmental-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:firearms-training-mechanics"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:stealth-preparation"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8665,32 +8832,27 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:phased-threat-escalation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:jungle-survival"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation-events"
+      "target": "bb:house-rules:jungle-weather-events"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
       "target": "bb:house-rules:jungle-survival-training"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 170,
-    "edges": 292
+    "nodes": 173,
+    "edges": 296
   }
 }
