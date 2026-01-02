@@ -3,13 +3,12 @@ type: npc
 id: bb:npc:the-noose
 name: The Noose
 summary: 'Enforcer boss who leads the Butchers; a ruthless organizer of smuggling
-  and fear.
-
-  '
+  and fear.'
 location: bb:district:salt-crown
 factions:
 - bb:faction:butchers
 allies: []
+portrait: [assets/portraits/the-noose.jpg]
 rivals:
 - bb:faction:captains-council
 appears_in:
@@ -23,7 +22,6 @@ tags:
 ---
 # Arlo "The Noose" Vex
 
-[[IMG_2193]]
 
 **Smuggler King of Salt Crown | The Gentleman Executioner | Black Brine’s Silent Hangman**
 
