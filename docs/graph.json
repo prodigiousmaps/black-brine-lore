@@ -2616,6 +2616,58 @@
       }
     },
     {
+      "id": "bb:faction:verdant-unmaking",
+      "type": "faction",
+      "name": "The Verdant Unmaking",
+      "tags": [
+        "cult",
+        "forbidden-faith",
+        "far-realm",
+        "resurrection",
+        "moander",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\04_Factions\\Religious\\cult-verdant-unmaking.md",
+      "fm": {
+        "type": "faction",
+        "id": "bb:faction:verdant-unmaking",
+        "name": "The Verdant Unmaking",
+        "summary": "A secretive death-cult on Sedna that venerates decay, chaos, and repeated resurrection as a sacred path toward dissolution and forgotten godhood.",
+        "location": "bb:island:sedna",
+        "allies": [],
+        "rivals": [
+          "bb:faction:kelemvorite-clergy",
+          "bb:faction:trade-authority"
+        ],
+        "appears_in": [
+          "bb:island:sedna"
+        ],
+        "portrait": [
+          "assets/portraits/verdant-unmaking-sigil.png"
+        ],
+        "tags": [
+          "cult",
+          "forbidden-faith",
+          "far-realm",
+          "resurrection",
+          "moander",
+          "black-brine"
+        ]
+      },
+      "body_excerpt": "# The Verdant Unmaking\n\n## Overview\nThe Verdant Unmaking is a clandestine cult operating in the deep margins of Sedna, devoted to the belief that identity, morality, and order are false structures destined to rot away. Through repeated resurrection using a Far Realm organism known as the Returned Seed, adherents pursue progressive dissolution of the self, believing this decay brings them closer to a forgotten divine truth.\n\nThe cult claims to preserve suppressed doctrines of an erased god of rot and entropy, teaching that what survives repeated unmaking is closer to divinity than any ordered soul.\n\n## Belief System\nThe cult teaches that:\n- Structure is a lie imposed on a decaying cosmos\n- Identity is a temporary arrangement of matter and memory\n- Repeated resurrection strips away false for…",
+      "raw": {
+        "location": "bb:island:sedna",
+        "allies": [],
+        "rivals": [
+          "bb:faction:kelemvorite-clergy",
+          "bb:faction:trade-authority"
+        ],
+        "appears_in": [
+          "bb:island:sedna"
+        ]
+      }
+    },
+    {
       "id": "bb:npc:the-noose",
       "type": "npc",
       "name": "The Noose",
@@ -7812,6 +7864,11 @@
       "target": "bb:pc:pinch"
     },
     {
+      "source": "bb:faction:verdant-unmaking",
+      "rel": "rival_of",
+      "target": "bb:faction:trade-authority"
+    },
+    {
       "source": "bb:npc:rupert-richthorn",
       "rel": "rival_of",
       "target": "bb:npc:gun-deck-rosy"
@@ -8239,7 +8296,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
+      "target": "bb:district:little-sedna"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
@@ -8249,7 +8311,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:blackmire"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:districts",
@@ -8259,22 +8321,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:crosswater"
-    },
-    {
-      "source": "bb:hub:customs",
-      "rel": "organizes",
-      "target": "bb:customs:crows-chance"
-    },
-    {
-      "source": "bb:hub:customs",
-      "rel": "organizes",
-      "target": "bb:customs:vessels"
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:customs",
@@ -8292,14 +8339,14 @@
       "target": "bb:creature:potoo"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
+      "target": "bb:customs:vessels"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:faction:twilight-society"
+      "target": "bb:customs:crows-chance"
     },
     {
       "source": "bb:hub:factions",
@@ -8309,42 +8356,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:hub:factions",
@@ -8354,7 +8366,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:cult-forgotten-wind"
+      "target": "bb:fleet:hollow-fangs"
     },
     {
       "source": "bb:hub:factions",
@@ -8364,7 +8376,37 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:inquisitors-of-black-brine"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:verdant-unmaking"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:fishermens-union"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hellion-fleet"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:cult-forgotten-wind"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
     },
     {
       "source": "bb:hub:factions",
@@ -8374,27 +8416,27 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
+      "target": "bb:faction:gutterlings"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
+      "target": "bb:fleet:red-wakes"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:fleet:widow-makers"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-structure"
+      "target": "bb:faction:twilight-society"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
+      "target": "bb:fleet:malign-crew"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8404,17 +8446,12 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+      "target": "bb:campaign:fallen-city:fallen-city-structure"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8424,17 +8461,32 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:pc:sy"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
-      "target": "bb:pc:franklin"
+      "target": "bb:campaign:dead-sons-structure"
     },
     {
       "source": "bb:hub:players",
@@ -8444,17 +8496,17 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
+      "target": "bb:pc:sy"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
       "target": "bb:pc:pinch"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:item:ruperts-welcome-speech"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:codex-salt-shadow"
+      "target": "bb:pc:franklin"
     },
     {
       "source": "bb:hub:items",
@@ -8464,12 +8516,37 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
+      "target": "bb:item:sedna-lore-poem"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:ruperts-welcome-speech"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
       "target": "bb:item:deep-green-supplies"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:sedna-lore-poem"
+      "target": "bb:item:codex-salt-shadow"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-event-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-weather-events"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8484,7 +8561,27 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:jungle-environmental-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:phased-threat-escalation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:stealth-preparation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:firearms-training-mechanics"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8499,47 +8596,12 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
       "target": "bb:house-rules:jungle-stealth"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 168,
-    "edges": 288
+    "nodes": 169,
+    "edges": 290
   }
 }
