@@ -2973,6 +2973,56 @@
       }
     },
     {
+      "id": "bb:npc:raif-lockwood",
+      "type": "npc",
+      "name": "Raif Lockwood",
+      "tags": [
+        "npc",
+        "mercenary",
+        "veteran",
+        "marching-dead",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\raif-lockwood.md",
+      "fm": {
+        "type": "npc",
+        "id": "bb:npc:raif-lockwood",
+        "name": "Raif Lockwood",
+        "summary": "A former rifle officer known to veterans as “Dead Weight,” now a freelance security professional living quietly in Blackmire.",
+        "location": "bb:district:blackmire",
+        "factions": [],
+        "allies": [
+          "bb:district:blackmire"
+        ],
+        "rivals": [],
+        "appears_in": [
+          "bb:district:blackmire"
+        ],
+        "portrait": [
+          "assets/portraits/raif-lockwood.gif"
+        ],
+        "tags": [
+          "npc",
+          "mercenary",
+          "veteran",
+          "marching-dead",
+          "black-brine"
+        ]
+      },
+      "body_excerpt": "# Raif Lockwood (“Dead Weight”)\n\n## Overview\nRaif Lockwood is a discharged rifle officer who survives by being useful without being visible. He works security on ships and overland caravans, fixes firearms for locals, and avoids faction entanglements. Veterans recognize him immediately. Most others underestimate him.\n\n## Background\nBorn to minor gentry and pressed into service early, Raif served with the **9th March Rifles**, known as the *Marching Dead*. He specialized in rear-guard actions and holding ground under pressure. His habit of waiting until action truly mattered earned him the nickname “Dead Weight.” Peace ended his usefulness, and he drifted into contract work before settling in Black Brine.\n\n## Appearance\nTall, broad, and deliberate. Wears a patched land-service greatcoat and…",
+      "raw": {
+        "location": "bb:district:blackmire",
+        "factions": [],
+        "allies": [
+          "bb:district:blackmire"
+        ],
+        "rivals": [],
+        "appears_in": [
+          "bb:district:blackmire"
+        ]
+      }
+    },
+    {
       "id": "bb:npc:rupert-richthorn",
       "type": "npc",
       "name": "Rupert Richthorn",
@@ -7564,6 +7614,11 @@
       "target": "bb:location:house-of-questions"
     },
     {
+      "source": "bb:npc:raif-lockwood",
+      "rel": "located_in",
+      "target": "bb:district:blackmire"
+    },
+    {
       "source": "bb:npc:rupert-richthorn",
       "rel": "located_in",
       "target": "bb:location:ruperts-rest"
@@ -8169,6 +8224,11 @@
       "target": "bb:faction:trade-authority"
     },
     {
+      "source": "bb:npc:raif-lockwood",
+      "rel": "ally_of",
+      "target": "bb:district:blackmire"
+    },
+    {
       "source": "bb:npc:rupert-richthorn",
       "rel": "rival_of",
       "target": "bb:npc:gun-deck-rosy"
@@ -8387,6 +8447,11 @@
       "source": "bb:npc:inquisitor-zunizar",
       "rel": "appears_in",
       "target": "bb:location:house-of-questions"
+    },
+    {
+      "source": "bb:npc:raif-lockwood",
+      "rel": "appears_in",
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:npc:rupert-richthorn",
@@ -8626,22 +8691,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:mistwalk"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:salt-crown"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:districts",
@@ -8651,22 +8701,22 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
+      "target": "bb:district:mistwalk"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:little-sedna"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
       "target": "bb:district:blackmire"
     },
     {
-      "source": "bb:hub:customs",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:creature:potoo"
-    },
-    {
-      "source": "bb:hub:customs",
-      "rel": "organizes",
-      "target": "bb:customs:crows-chance"
-    },
-    {
-      "source": "bb:hub:customs",
-      "rel": "organizes",
-      "target": "bb:customs:great-exchange-day"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:customs",
@@ -8676,12 +8726,27 @@
     {
       "source": "bb:hub:customs",
       "rel": "organizes",
+      "target": "bb:customs:crows-chance"
+    },
+    {
+      "source": "bb:hub:customs",
+      "rel": "organizes",
+      "target": "bb:creature:potoo"
+    },
+    {
+      "source": "bb:hub:customs",
+      "rel": "organizes",
+      "target": "bb:customs:great-exchange-day"
+    },
+    {
+      "source": "bb:hub:customs",
+      "rel": "organizes",
       "target": "bb:customs:scrip"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:gutterlings"
+      "target": "bb:faction:verdant-unmaking"
     },
     {
       "source": "bb:hub:factions",
@@ -8691,17 +8756,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
+      "target": "bb:fleet:gilded-rats"
     },
     {
       "source": "bb:hub:factions",
@@ -8711,22 +8766,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:fleet:hellion-fleet"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:trade-authority"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:forgotten-wind"
     },
     {
       "source": "bb:hub:factions",
@@ -8736,7 +8776,27 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:forgotten-wind"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:gutterlings"
     },
     {
       "source": "bb:hub:factions",
@@ -8746,17 +8806,17 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
+      "target": "bb:faction:trade-authority"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
+      "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:verdant-unmaking"
+      "target": "bb:faction:union-of-lamp-lighters"
     },
     {
       "source": "bb:hub:factions",
@@ -8769,9 +8829,9 @@
       "target": "bb:fleet:malign-crew"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:fleet:widow-makers"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8786,12 +8846,17 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
+      "target": "bb:campaign:fallen-city:fallen-city-structure"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
+      "target": "bb:campaign:dead-sons-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8801,12 +8866,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
+      "target": "bb:campaign:deep-green:vine-sanctum"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8816,17 +8876,12 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+      "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:pc:sy"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
-      "target": "bb:pc:franklin"
+      "target": "bb:campaign:infiltration-temple-of-sedna"
     },
     {
       "source": "bb:hub:players",
@@ -8836,17 +8891,22 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
+      "target": "bb:pc:franklin"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
       "target": "bb:pc:andromeda"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:pc:sy"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
       "target": "bb:item:ruperts-welcome-speech"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:apertures-theory"
     },
     {
       "source": "bb:hub:items",
@@ -8864,6 +8924,21 @@
       "target": "bb:item:deep-green-supplies"
     },
     {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:apertures-theory"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation"
+    },
+    {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
       "target": "bb:house-rules:phased-threat-escalation"
@@ -8871,17 +8946,12 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-passive-threat-level"
+      "target": "bb:house-rules:jungle-weather-events"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
       "target": "bb:house-rules:jungle-survival-training"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8896,7 +8966,7 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
+      "target": "bb:house-rules:jungle-environmental-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8906,7 +8976,7 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-stealth"
+      "target": "bb:house-rules:jungle-passive-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8916,22 +8986,17 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
+      "target": "bb:house-rules:jungle-stealth"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
+      "target": "bb:house-rules:jungle-travel-phases"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 174,
-    "edges": 300
+    "nodes": 175,
+    "edges": 303
   }
 }

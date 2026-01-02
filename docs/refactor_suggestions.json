@@ -1,5 +1,5 @@
 {
-  "total_files": 167,
+  "total_files": 168,
   "patches": [
     "patches\\yaml-format-template.yml",
     "patches\\island-of-sedna.yml",
@@ -27,6 +27,7 @@
     "patches\\vel-corven.yml",
     "patches\\gun-deck-rosy.yml",
     "patches\\inquisitor-zunizar.yml",
+    "patches\\raif-lockwood.yml",
     "patches\\rupert-richthorn.yml",
     "patches\\aldo-vance.yml",
     "patches\\big-mags.yml",
@@ -1492,6 +1493,33 @@
       "field": "appears_in",
       "value": "bb:location:house-of-questions",
       "resolved_id": "bb:location:house-of-questions",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\raif-lockwood.md",
+      "field": "location",
+      "value": "bb:district:blackmire",
+      "resolved_id": "bb:district:blackmire",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\raif-lockwood.md",
+      "field": "allies",
+      "value": "bb:district:blackmire",
+      "resolved_id": "bb:district:blackmire",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\03_NPCs\\Major_Characters\\raif-lockwood.md",
+      "field": "appears_in",
+      "value": "bb:district:blackmire",
+      "resolved_id": "bb:district:blackmire",
       "method": "id",
       "score": 1.0,
       "note": ""
