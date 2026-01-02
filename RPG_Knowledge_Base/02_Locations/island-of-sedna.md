@@ -2,7 +2,7 @@
 type: location
 id: bb:location:island-of-sedna
 name: Island of Sedna
-parent_location: bb:location:geography-black-brine
+parent_location: bb:location:twelvefold-veil-archipelago
 location_type: island
 population: unknown
 government: none

@@ -3,7 +3,7 @@ type: location
 id: bb:location:twelvefold-veil-archipelago
 name: Twelvefold Veil Archipelago
 summary: A mist-bound chain of twelve islands in the Trackless Sea, defined by unreliable navigation, ancient divine residue, and the dominant presence of Sedna Island.
-location: bb:place:trackless-sea
+parent_location: bb:place:trackless-sea
 factions: []
 allies: []
 rivals: []
