@@ -2380,6 +2380,16 @@
       }
     },
     {
+      "id": "bb:page:house-caldron",
+      "type": "page",
+      "name": "house-caldron",
+      "tags": [],
+      "source": "RPG_Knowledge_Base\\04_Factions\\Political\\house-caldron.md",
+      "fm": {},
+      "body_excerpt": "",
+      "raw": {}
+    },
+    {
       "id": "bb:faction:inquisitors-of-black-brine",
       "type": "faction",
       "name": "Inquisitors of Black Brine",
@@ -8694,7 +8704,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
+      "target": "bb:district:keelhauls"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:hub:districts",
@@ -8709,32 +8724,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:salt-crown"
+      "target": "bb:district:little-sedna"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
       "target": "bb:district:blackmire"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:customs",
-      "rel": "organizes",
-      "target": "bb:customs:great-exchange-day"
-    },
-    {
-      "source": "bb:hub:customs",
-      "rel": "organizes",
-      "target": "bb:customs:vessels"
-    },
-    {
-      "source": "bb:hub:customs",
-      "rel": "organizes",
-      "target": "bb:customs:crows-chance"
     },
     {
       "source": "bb:hub:customs",
@@ -8744,42 +8739,42 @@
     {
       "source": "bb:hub:customs",
       "rel": "organizes",
+      "target": "bb:customs:vessels"
+    },
+    {
+      "source": "bb:hub:customs",
+      "rel": "organizes",
+      "target": "bb:customs:great-exchange-day"
+    },
+    {
+      "source": "bb:hub:customs",
+      "rel": "organizes",
       "target": "bb:customs:scrip"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
+      "target": "bb:customs:crows-chance"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
+      "target": "bb:faction:twilight-society"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
+      "target": "bb:faction:guild-of-free-fishermen"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:gutterlings"
+      "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:verdant-unmaking"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:forgotten-wind"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
+      "target": "bb:fleet:miasma"
     },
     {
       "source": "bb:hub:factions",
@@ -8794,12 +8789,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
+      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
+      "target": "bb:faction:gutterlings"
     },
     {
       "source": "bb:hub:factions",
@@ -8814,27 +8809,72 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:guild-of-free-fishermen"
+      "target": "bb:faction:fishermens-union"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
+      "target": "bb:faction:verdant-unmaking"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:twilight-society"
+      "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
+      "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
+      "target": "bb:faction:forgotten-wind"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8844,7 +8884,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
+      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8857,39 +8897,14 @@
       "target": "bb:campaign:dead-sons-structure"
     },
     {
-      "source": "bb:hub:campaigns",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
+      "target": "bb:pc:franklin"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:sy"
+      "target": "bb:pc:andromeda"
     },
     {
       "source": "bb:hub:players",
@@ -8899,12 +8914,17 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:franklin"
+      "target": "bb:pc:sy"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:pc:andromeda"
+      "target": "bb:item:apertures-theory"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:codex-salt-shadow"
     },
     {
       "source": "bb:hub:items",
@@ -8922,14 +8942,19 @@
       "target": "bb:item:ruperts-welcome-speech"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:item:apertures-theory"
+      "target": "bb:house-rules:jungle-passive-threat-level"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:item:codex-salt-shadow"
+      "target": "bb:house-rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:firearms-training-mechanics"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8944,37 +8969,12 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival-training"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:jungle-navigation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-passive-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:stealth-preparation"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8989,17 +8989,27 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-event-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:jungle-weather-events"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival-training"
+      "target": "bb:house-rules:stealth-preparation"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 175,
+    "nodes": 176,
     "edges": 303
   }
 }
