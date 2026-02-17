@@ -56,6 +56,7 @@
     "patches\\yurra-the-mireborn.yml",
     "patches\\code-of-black-brine.yml",
     "patches\\lending-house.yml",
+    "patches\\old-salt-eatery.yml",
     "patches\\red-door-alchemy.yml",
     "patches\\ruperts-rest.yml",
     "patches\\west-bank-fishermans-guild-hall.yml",
@@ -2822,7 +2823,25 @@
     },
     {
       "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\old-salt-eatery.md",
-      "field": "parent_location",
+      "field": "location",
+      "value": "bb:district:blackmire",
+      "resolved_id": "bb:district:blackmire",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\old-salt-eatery.md",
+      "field": "rivals",
+      "value": "bb:location:crooked-lantern",
+      "resolved_id": "bb:location:crooked-lantern",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\old-salt-eatery.md",
+      "field": "appears_in",
       "value": "bb:district:blackmire",
       "resolved_id": "bb:district:blackmire",
       "method": "id",

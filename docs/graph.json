@@ -6054,79 +6054,49 @@
       "type": "location",
       "name": "Old Salt Eatery",
       "tags": [
+        "location",
         "tavern",
-        "eatery",
-        "local haunt",
         "blackmire",
-        "food"
+        "food",
+        "rumor-hub",
+        "black-brine"
       ],
       "source": "RPG_Knowledge_Base\\02_Locations\\Points_of_Interest\\old-salt-eatery.md",
       "fm": {
         "type": "location",
         "id": "bb:location:old-salt-eatery",
         "name": "Old Salt Eatery",
-        "parent_location": "bb:district:blackmire",
-        "location_type": "tavern",
-        "population": "variable",
-        "government": "private ownership",
-        "maps_available": false,
-        "map_files": [],
+        "summary": "A half-sunken Blackmire tavern built on stilts above a sluggish canal, known for its ever-changing stew, eel-filled bar, and reputation as strictly neutral ground.",
+        "location": "bb:district:blackmire",
+        "factions": [],
+        "allies": [],
+        "rivals": [
+          "bb:location:crooked-lantern"
+        ],
+        "appears_in": [
+          "bb:district:blackmire"
+        ],
+        "portrait": [],
         "tags": [
+          "location",
           "tavern",
-          "eatery",
-          "local haunt",
           "blackmire",
-          "food"
-        ],
-        "overview": "A battered, half-sunken tavern perched on stilts above the Blackmire muck, the Old Salt Eatery is the district’s most reliable source of food, gossip, and cheap grog. It smells like burnt fish, spilled brine, and old secrets. Locals swear the soup tastes different every day—mostly because it does.\n",
-        "geography": "Located near the center of Blackmire, where the sludge channels narrow, the eatery hangs partially over a slow-moving canal. Lanterns strung on ropes sway in the fog, and planks creak with every footfall.\n",
-        "notable_features": [
-          "Signature dish, “Saltfather’s Stew” (ingredients unknown)",
-          "Fish tank bar table filled with eels",
-          "Daily “Catch & Gamble” game where patrons bet on swamp creatures",
-          "Salt-crusted floorboards said to be blessed by Sedna (or cursed by the cook)"
-        ],
-        "demographics": "Mostly Blackmire locals, laborers, smugglers, out-of-luck pirates, and the occasional Inquisitor.\n",
-        "government_and_politics": "Neutral ground—no blades drawn, no questions asked. Run by old sea dog Garrik “Salttooth” Vane, a retired cook with a hook for a hand and a tongue sharp as a filet knife.\n",
-        "economy": "Cheap meals, local brews, underground betting. Sometimes used for dead drops or hushed meetings in curtained corners.\n",
-        "culture": "Rowdy, reeking of brine and spice. Tables carved with old names and forgotten crews. Every night carries a different flavor of danger, but the regulars wouldn’t eat anywhere else.\n",
-        "notable_npcs": [
-          {
-            "name": "Garrik \"Salttooth\" Vane",
-            "role": "owner",
-            "note": "Claims to have cooked for three pirate kings; one-eyed; hook hand."
-          },
-          {
-            "name": "Krixie",
-            "role": "server",
-            "note": "Halfling with sticky fingers and a sharp memory."
-          },
-          {
-            "name": "Branwell",
-            "role": "regular",
-            "note": "Off-duty dockhand who’s always there, always watching."
-          }
-        ],
-        "adventure_hooks": [
-          "A regular customer was poisoned—accident, or message?",
-          "Vane has a map etched on a fishbone, but refuses to sell it.",
-          "Something is whispering through the eels in the bar tank…"
-        ],
-        "secrets": [
-          "The cellar opens into an old smuggler tunnel sealed for years.",
-          "Salttooth Vane once sailed with Bloodshot and knows more than he lets on.",
-          "The stew’s secret ingredient may be alchemically active—an accident or a weapon?"
-        ],
-        "connected_locations": [
-          "Miremarket (supply runs)",
-          "The Crooked Lantern (rival establishment)",
-          "Whisperer’s Hollow (local legend tied to the menu)"
-        ],
-        "connected_location_ids": null
+          "food",
+          "rumor-hub",
+          "black-brine"
+        ]
       },
-      "body_excerpt": "",
+      "body_excerpt": "# Old Salt Eatery\n\n## Overview\nA battered, tide-warped tavern perched above the Blackmire muck, the Old Salt Eatery is the district’s most reliable source of hot food, cheap grog, and whispered intelligence. It smells of burnt fish, cracked pepper, damp timber, and brine that never fully dries. The stew changes daily—sometimes subtly, sometimes dramatically—and the regulars insist that the flavor follows the mood of the tides.\n\n## Appearance\nConstructed from salvaged hull timber and old pier pilings, the building leans slightly toward the canal as if listening. Lanterns hang from tarred rope lines and sway in the fog. Inside, long communal tables dominate the main room. At the center stands the eel-tank bar—thick glass filled with restless blackmire eels that snap at passing fingers.\n\nThe …",
       "raw": {
-        "parent_location": "bb:district:blackmire"
+        "location": "bb:district:blackmire",
+        "factions": [],
+        "allies": [],
+        "rivals": [
+          "bb:location:crooked-lantern"
+        ],
+        "appears_in": [
+          "bb:district:blackmire"
+        ]
       }
     },
     {
@@ -8322,6 +8292,11 @@
       "target": "bb:npc:three-tooth-mavin"
     },
     {
+      "source": "bb:location:old-salt-eatery",
+      "rel": "rival_of",
+      "target": "bb:location:crooked-lantern"
+    },
+    {
       "source": "bb:location:west-bank-fishermans-guild-hall",
       "rel": "ally_of",
       "target": "bb:location:silver-minnow-eatery"
@@ -8627,6 +8602,11 @@
       "target": "bb:location:miremarket"
     },
     {
+      "source": "bb:location:old-salt-eatery",
+      "rel": "appears_in",
+      "target": "bb:district:blackmire"
+    },
+    {
       "source": "bb:location:west-bank-fishermans-guild-hall",
       "rel": "appears_in",
       "target": "bb:district:crosswater"
@@ -8704,12 +8684,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:salt-crown"
+      "target": "bb:district:little-sedna"
     },
     {
       "source": "bb:hub:districts",
@@ -8719,12 +8694,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
+      "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:districts",
@@ -8732,9 +8707,14 @@
       "target": "bb:district:blackmire"
     },
     {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:crosswater"
+    },
+    {
       "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:creature:potoo"
+      "target": "bb:customs:crows-chance"
     },
     {
       "source": "bb:hub:customs",
@@ -8749,12 +8729,62 @@
     {
       "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:customs:scrip"
+      "target": "bb:creature:potoo"
     },
     {
       "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:customs:crows-chance"
+      "target": "bb:customs:scrip"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:guild-of-free-fishermen"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:verdant-unmaking"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:fishermens-union"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:trade-authority"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hellion-fleet"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widow-makers"
     },
     {
       "source": "bb:hub:factions",
@@ -8764,7 +8794,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:guild-of-free-fishermen"
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:forgotten-wind"
     },
     {
       "source": "bb:hub:factions",
@@ -8779,17 +8814,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:trade-authority"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:faction:council-of-free-captains"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
@@ -8799,92 +8824,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:verdant-unmaking"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:forgotten-wind"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8894,17 +8834,57 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:dead-sons-structure"
     },
     {
-      "source": "bb:hub:players",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:pc:franklin"
+      "target": "bb:campaign:fallen-city:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
       "target": "bb:pc:andromeda"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:pc:franklin"
     },
     {
       "source": "bb:hub:players",
@@ -8915,6 +8895,16 @@
       "source": "bb:hub:players",
       "rel": "organizes",
       "target": "bb:pc:sy"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:deep-green-supplies"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:ruperts-welcome-speech"
     },
     {
       "source": "bb:hub:items",
@@ -8932,19 +8922,54 @@
       "target": "bb:item:sedna-lore-poem"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:item:deep-green-supplies"
+      "target": "bb:house-rules:phased-threat-escalation"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:item:ruperts-welcome-speech"
+      "target": "bb:house-rules:stealth-preparation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-stealth"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-event-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
       "target": "bb:house-rules:jungle-passive-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-environmental-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-weather-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival-training"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8959,57 +8984,12 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-stealth"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival-training"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
       "target": "bb:house-rules:jungle-navigation-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:stealth-preparation"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 176,
-    "edges": 303
+    "edges": 305
   }
 }

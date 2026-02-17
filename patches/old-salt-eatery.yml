@@ -1,0 +1,6 @@
+path: C:\Users\FiveA\OneDrive\Documents\GitHub\black-brine-lore\RPG_Knowledge_Base\02_Locations\Points_of_Interest\old-salt-eatery.md
+set:
+  rivals:
+  - bb:location:crooked-lantern
+  appears_in:
+  - bb:district:blackmire
