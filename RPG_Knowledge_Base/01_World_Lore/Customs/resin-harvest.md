@@ -4,6 +4,7 @@ id: bb:economy:resin-harvest-refinement
 name: Black Brine — Resin Harvest & Refinement
 summary: A hazardous, high-value industry centered on the extraction and processing of volatile resin into essential industrial and alchemical materials.
 location: bb:location:black-brine
+member_of: bb:hub:economy
 factions:
 - bb:faction:trade-authority
 allies: []

@@ -4,6 +4,7 @@ id: bb:economy:agriculture-biological
 name: Black Brine — Agricultural & Biological Production
 summary: A hazardous, tightly controlled food and bio-resource system centered on brine-adapted crops and regulated fisheries.
 location: bb:location:black-brine
+member_of: bb:hub:economy
 factions:
 - bb:faction:trade-authority
 allies: []

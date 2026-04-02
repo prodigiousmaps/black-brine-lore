@@ -4,6 +4,7 @@ id: bb:economy:manufacturing-industry
 name: Black Brine — Manufacturing & Industry
 summary: A tightly controlled industrial sector focused on refinement, repair, and the stabilization of hazardous materials.
 location: bb:location:black-brine
+member_of: bb:hub:economy
 factions:
 - bb:faction:trade-authority
 allies: []
