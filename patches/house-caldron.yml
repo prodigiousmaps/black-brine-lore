@@ -1,0 +1,8 @@
+path: C:\Users\FiveA\OneDrive\Documents\GitHub\black-brine-lore\RPG_Knowledge_Base\04_Factions\Political\house-caldron.md
+set:
+  allies:
+  - bb:faction:trade-authority
+  rivals:
+  - bb:faction:black-sashes
+  - bb:faction:independent-farmers
+  - bb:faction:small-merchant-cooperatives

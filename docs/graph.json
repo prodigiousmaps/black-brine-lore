@@ -2497,14 +2497,66 @@
       }
     },
     {
-      "id": "bb:page:house-caldron",
-      "type": "page",
-      "name": "house-caldron",
-      "tags": [],
+      "id": "bb:faction:house-caldron",
+      "type": "faction",
+      "name": "House Caldron",
+      "tags": [
+        "faction",
+        "noble-house",
+        "trade",
+        "import-export",
+        "economy",
+        "manipulation",
+        "black-brine",
+        "sedna"
+      ],
       "source": "RPG_Knowledge_Base\\04_Factions\\Political\\house-caldron.md",
-      "fm": {},
-      "body_excerpt": "",
-      "raw": {}
+      "fm": {
+        "type": "faction",
+        "id": "bb:faction:house-caldron",
+        "name": "House Caldron",
+        "summary": "An old noble import–export house that presents itself as a stabilizing force in Black Brine’s volatile economy while quietly manipulating supply chains, prices, and competition to maintain dominance.\n",
+        "location": "bb:location:black-brine",
+        "factions": [],
+        "allies": [
+          "bb:faction:trade-authority"
+        ],
+        "rivals": [
+          "bb:faction:black-sashes",
+          "bb:faction:independent-farmers",
+          "bb:faction:small-merchant-cooperatives"
+        ],
+        "appears_in": [
+          "bb:location:black-brine"
+        ],
+        "portrait": [],
+        "tags": [
+          "faction",
+          "noble-house",
+          "trade",
+          "import-export",
+          "economy",
+          "manipulation",
+          "black-brine",
+          "sedna"
+        ]
+      },
+      "body_excerpt": "# House Caldron\n\n## Overview\nHouse Caldron is a long-established noble family whose wealth predates Black\nBrine’s rise as a pirate haven. While piracy injects chaos and wealth into the\ncity, House Caldron thrives through predictability—controlling logistics,\ninsurance, warehousing, and mainland trade relationships that pirates and\nsmall merchants cannot easily access.\n\n## Business Interests\n\n### Import / Export\nBulk movement of mainland goods (grain, tools, textiles, luxuries) into\nBlack Brine and export of Sedna’s regulated resources through licensed channels.\n- Preferential docking contracts\n- Mainland credit relationships\n- Long-term shipping insurance\n\n### Warehousing\nOwnership of bonded warehouses near the docks used to store goods pending\nTrade Authority inspection.\n- Storage fees pr…",
+      "raw": {
+        "location": "bb:location:black-brine",
+        "factions": [],
+        "allies": [
+          "bb:faction:trade-authority"
+        ],
+        "rivals": [
+          "bb:faction:black-sashes",
+          "bb:faction:independent-farmers",
+          "bb:faction:small-merchant-cooperatives"
+        ],
+        "appears_in": [
+          "bb:location:black-brine"
+        ]
+      }
     },
     {
       "id": "bb:faction:inquisitors-of-black-brine",
@@ -8674,6 +8726,16 @@
       "target": "bb:faction:shadow-cloaks"
     },
     {
+      "source": "bb:faction:house-caldron",
+      "rel": "ally_of",
+      "target": "bb:faction:trade-authority"
+    },
+    {
+      "source": "bb:faction:house-caldron",
+      "rel": "rival_of",
+      "target": "bb:faction:black-sashes"
+    },
+    {
       "source": "bb:faction:shadow-cloaks",
       "rel": "ally_of",
       "target": "bb:faction:constabulary"
@@ -9191,7 +9253,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:districts",
@@ -9201,17 +9263,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:crosswater"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:little-sedna"
     },
     {
       "source": "bb:hub:districts",
@@ -9219,14 +9276,24 @@
       "target": "bb:district:salt-crown"
     },
     {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:keelhauls"
+    },
+    {
       "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:creature:potoo"
+      "target": "bb:customs:scrip"
     },
     {
       "source": "bb:hub:customs",
       "rel": "organizes",
       "target": "bb:customs:vessels"
+    },
+    {
+      "source": "bb:hub:customs",
+      "rel": "organizes",
+      "target": "bb:creature:potoo"
     },
     {
       "source": "bb:hub:customs",
@@ -9239,94 +9306,9 @@
       "target": "bb:customs:crows-chance"
     },
     {
-      "source": "bb:hub:customs",
-      "rel": "organizes",
-      "target": "bb:customs:scrip"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:verdant-unmaking"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:black-sashes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:trade-authority"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:tide-wardens"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:council-of-free-captains"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:twilight-society"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
-    },
-    {
       "source": "bb:hub:factions",
       "rel": "organizes",
       "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:shadow-cloaks"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:forgotten-wind"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:constabulary"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:factions",
@@ -9336,12 +9318,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:gutterlings"
+      "target": "bb:fleet:malign-crew"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:guild-of-free-fishermen"
+      "target": "bb:faction:gutterlings"
     },
     {
       "source": "bb:hub:factions",
@@ -9351,17 +9333,92 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:trade-authority"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:constabulary"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:guild-of-free-fishermen"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:house-caldron"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:shadow-cloaks"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:verdant-unmaking"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:fishermens-union"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:fleet:red-wakes"
     },
     {
-      "source": "bb:hub:economic",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:economy:resin-harvest-refinement"
+      "target": "bb:faction:tide-wardens"
     },
     {
-      "source": "bb:hub:economic",
+      "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:economy:key-exports"
+      "target": "bb:fleet:hellion-fleet"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:council-of-free-captains"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widow-makers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:forgotten-wind"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:black-sashes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:hub:economic",
@@ -9376,17 +9433,17 @@
     {
       "source": "bb:hub:economic",
       "rel": "organizes",
+      "target": "bb:economy:key-exports"
+    },
+    {
+      "source": "bb:hub:economic",
+      "rel": "organizes",
+      "target": "bb:economy:resin-harvest-refinement"
+    },
+    {
+      "source": "bb:hub:economic",
+      "rel": "organizes",
       "target": "bb:economy:agriculture-biological"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
       "source": "bb:hub:campaigns",
@@ -9396,27 +9453,7 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-structure"
+      "target": "bb:campaign:dead-sons-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -9426,7 +9463,42 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:pc:andromeda"
     },
     {
       "source": "bb:hub:players",
@@ -9436,27 +9508,12 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:pinch"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
       "target": "bb:pc:sy"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:andromeda"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:ruperts-welcome-speech"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:codex-salt-shadow"
+      "target": "bb:pc:pinch"
     },
     {
       "source": "bb:hub:items",
@@ -9466,7 +9523,17 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
+      "target": "bb:item:codex-salt-shadow"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
       "target": "bb:item:sedna-lore-poem"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:ruperts-welcome-speech"
     },
     {
       "source": "bb:hub:items",
@@ -9476,22 +9543,7 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival-training"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-passive-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
+      "target": "bb:house-rules:jungle-survival"
     },
     {
       "source": "bb:hub:house-rules",
@@ -9501,7 +9553,7 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
+      "target": "bb:house-rules:jungle-survival-training"
     },
     {
       "source": "bb:hub:house-rules",
@@ -9511,7 +9563,7 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
+      "target": "bb:house-rules:firearms-training-mechanics"
     },
     {
       "source": "bb:hub:house-rules",
@@ -9521,7 +9573,27 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:jungle-environmental-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-passive-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-travel-phases"
     },
     {
       "source": "bb:hub:house-rules",
@@ -9531,17 +9603,12 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
+      "target": "bb:house-rules:phased-threat-escalation"
     }
   ],
   "unresolved": [],
   "stats": {
     "nodes": 185,
-    "edges": 329
+    "edges": 332
   }
 }

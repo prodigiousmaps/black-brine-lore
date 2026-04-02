@@ -19,6 +19,7 @@
     "patches\\constabulary.yml",
     "patches\\hellion-fleet.yml",
     "patches\\hollow-fangs.yml",
+    "patches\\house-caldron.yml",
     "patches\\house-of-questions.yml",
     "patches\\malign-crew.yml",
     "patches\\miasma-fleet.yml",
@@ -1265,6 +1266,60 @@
       "resolved_id": "bb:npc:captain-lysara-vale",
       "method": "id",
       "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\house-caldron.md",
+      "field": "location",
+      "value": "bb:location:black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\house-caldron.md",
+      "field": "allies",
+      "value": "bb:faction:trade-authority",
+      "resolved_id": "bb:faction:trade-authority",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\house-caldron.md",
+      "field": "rivals",
+      "value": "bb:faction:black-sashes",
+      "resolved_id": "bb:faction:black-sashes",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\house-caldron.md",
+      "field": "rivals",
+      "value": "bb:faction:independent-farmers",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\house-caldron.md",
+      "field": "rivals",
+      "value": "bb:faction:small-merchant-cooperatives",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\house-caldron.md",
+      "field": "appears_in",
+      "value": "bb:location:black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
