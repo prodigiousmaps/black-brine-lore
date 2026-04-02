@@ -10,7 +10,7 @@ summary: >
 location: bb:location:black-brine
 
 allies:
-  - bb:faction:black-brine-trade-authority
+  - bb:faction:trade-authority
 
 rivals:
   - bb:faction:black-sashes
