@@ -1,5 +1,5 @@
 {
-  "total_files": 169,
+  "total_files": 174,
   "patches": [
     "patches\\yaml-format-template.yml",
     "patches\\island-of-sedna.yml",
@@ -3092,6 +3092,33 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\agriculture-biological.md",
+      "field": "location",
+      "value": "bb:location:black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\agriculture-biological.md",
+      "field": "factions*",
+      "value": "bb:faction:trade-authority",
+      "resolved_id": "bb:faction:trade-authority",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\agriculture-biological.md",
+      "field": "appears_in",
+      "value": "bb:location:black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\crows-chance.md",
       "field": "parent_location",
       "value": "bb:city:black-brine",
@@ -3137,12 +3164,120 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\key-exports.md",
+      "field": "location",
+      "value": "bb:location:black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\key-exports.md",
+      "field": "factions*",
+      "value": "bb:faction:trade-authority",
+      "resolved_id": "bb:faction:trade-authority",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\key-exports.md",
+      "field": "appears_in",
+      "value": "bb:location:black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\laws-of-sea-vessel-claims.md",
       "field": "parent_location",
       "value": "bb:city:black-brine",
       "resolved_id": "bb:city:black-brine",
       "method": "id",
       "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\manufacturing-industry.md",
+      "field": "location",
+      "value": "bb:location:black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\manufacturing-industry.md",
+      "field": "factions*",
+      "value": "bb:faction:trade-authority",
+      "resolved_id": "bb:faction:trade-authority",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\manufacturing-industry.md",
+      "field": "appears_in",
+      "value": "bb:location:black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\natural-resources.md",
+      "field": "location",
+      "value": "bb:location:black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\natural-resources.md",
+      "field": "factions*",
+      "value": "bb:faction:trade-authority",
+      "resolved_id": "bb:faction:trade-authority",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\natural-resources.md",
+      "field": "appears_in",
+      "value": "bb:location:black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\resin-harvest.md",
+      "field": "location",
+      "value": "bb:location:black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\resin-harvest.md",
+      "field": "factions*",
+      "value": "bb:faction:trade-authority",
+      "resolved_id": "bb:faction:trade-authority",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\resin-harvest.md",
+      "field": "appears_in",
+      "value": "bb:location:black-brine",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {

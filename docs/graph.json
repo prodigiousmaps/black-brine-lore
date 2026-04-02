@@ -6816,6 +6816,52 @@
       }
     },
     {
+      "id": "bb:economy:agriculture-biological",
+      "type": "economic",
+      "name": "Black Brine — Agricultural & Biological Production",
+      "tags": [
+        "economy",
+        "agriculture",
+        "biological",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\agriculture-biological.md",
+      "fm": {
+        "type": "economic",
+        "id": "bb:economy:agriculture-biological",
+        "name": "Black Brine — Agricultural & Biological Production",
+        "summary": "A hazardous, tightly controlled food and bio-resource system centered on brine-adapted crops and regulated fisheries.",
+        "location": "bb:location:black-brine",
+        "factions": [
+          "bb:faction:trade-authority"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:black-brine"
+        ],
+        "portrait": [],
+        "tags": [
+          "economy",
+          "agriculture",
+          "biological",
+          "black-brine"
+        ]
+      },
+      "body_excerpt": "# Black Brine — Agricultural & Biological Production\n\n## Overview\nBlack Brine’s agriculture is specialized and survival-focused, built around brine-tolerant crops and controlled aquatic harvesting rather than abundance farming.\n\n## Appearance\nFields are low, waterlogged, and segmented by channels of dark brine. Kelp lines, eel traps, and fungal racks are common sights. Workers wear protective gear against salt exposure and mist events.\n\n## Role in Society\nFood production ensures baseline stability, but its greater value lies in supporting preservation industries and producing rare biological materials like brineheart.\n\n## Features\n- **Brineheart Cultivation:** The island’s signature crop; used for sustenance, preservation, alchemy, and ritual purposes.\n- **Salt-Resilient Crops:** Marsh gra…",
+      "raw": {
+        "location": "bb:location:black-brine",
+        "factions": [
+          "bb:faction:trade-authority"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:black-brine"
+        ]
+      }
+    },
+    {
       "id": "bb:customs:crows-chance",
       "type": "customs",
       "name": "Crow’s Chance",
@@ -6921,6 +6967,52 @@
       }
     },
     {
+      "id": "bb:economy:key-exports",
+      "type": "economic",
+      "name": "Black Brine — Key Exports",
+      "tags": [
+        "economy",
+        "exports",
+        "trade",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\key-exports.md",
+      "fm": {
+        "type": "economic",
+        "id": "bb:economy:key-exports",
+        "name": "Black Brine — Key Exports",
+        "summary": "The controlled export profile of Black Brine, focused on durable, high-utility goods and anomalous materials.",
+        "location": "bb:location:black-brine",
+        "factions": [
+          "bb:faction:trade-authority"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:black-brine"
+        ],
+        "portrait": [],
+        "tags": [
+          "economy",
+          "exports",
+          "trade",
+          "black-brine"
+        ]
+      },
+      "body_excerpt": "# Black Brine — Key Exports\n\n## Overview\nBlack Brine exports emphasize durability, scarcity control, and function under extreme conditions. Raw abundance is secondary to processed reliability.\n\n## Appearance\nExport goods are typically sealed, stamped, and standardized—barrels, crates, and resin-marked containers bearing Trade Authority insignia.\n\n## Role in Society\nExports are the city’s primary leverage. Control of export licensing determines power, influence, and access to foreign markets.\n\n## Features\n- **Brineheart Products:** Whole hearts, pressed rations, and concentrates.\n- **Refined Resin:** Fuels, sealants, binding agents, and alchemical bases.\n- **Mist Glass:** Rare, mist-formed glass used in optics and ritual apparatus.\n- **Preserved Goods:** Salted fish, meats, and brined veget…",
+      "raw": {
+        "location": "bb:location:black-brine",
+        "factions": [
+          "bb:faction:trade-authority"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:black-brine"
+        ]
+      }
+    },
+    {
       "id": "bb:customs:vessels",
       "type": "customs",
       "name": "Directive 11.4.2 – Rights & Procedures Regarding Ownership of a Discovered Vessel",
@@ -6950,6 +7042,144 @@
       "body_excerpt": "# Directive 11.4.2  \n## Rights & Procedures Regarding Ownership of a Discovered Vessel  \nIssued by the Harbor Inquisitoriate under mandate of the Trade Authority of Black Brine.\n\n---\n\n## I. Rights of Persons Who Bring a Vessel into Harbor\n\nAny group or individual who delivers a vessel to Black Brine under unusual, hazardous, or unexplained circumstances is granted the following rights:\n\n### 1. Right to Testify\nAll persons may present:\n- their account of events  \n- injuries sustained  \n- reasons for assuming control of the vessel  \n\nTestimony must be delivered truthfully under penalty of harbor law.\n\n### 2. Right to Protection\nWhile under investigation:\n- individuals are entitled to safety from retaliation  \n- Quiet Cloaks may be assigned to prevent tampering or coercion  \n\n### 3. Right to …",
       "raw": {
         "parent_location": "bb:city:black-brine"
+      }
+    },
+    {
+      "id": "bb:economy:manufacturing-industry",
+      "type": "economic",
+      "name": "Black Brine — Manufacturing & Industry",
+      "tags": [
+        "economy",
+        "industry",
+        "manufacturing",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\manufacturing-industry.md",
+      "fm": {
+        "type": "economic",
+        "id": "bb:economy:manufacturing-industry",
+        "name": "Black Brine — Manufacturing & Industry",
+        "summary": "A tightly controlled industrial sector focused on refinement, repair, and the stabilization of hazardous materials.",
+        "location": "bb:location:black-brine",
+        "factions": [
+          "bb:faction:trade-authority"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:black-brine"
+        ],
+        "portrait": [],
+        "tags": [
+          "economy",
+          "industry",
+          "manufacturing",
+          "black-brine"
+        ]
+      },
+      "body_excerpt": "# Black Brine — Manufacturing & Industry\n\n## Overview\nBlack Brine’s industry prioritizes refinement over production. Workshops and yards transform unstable, rare, or salvaged materials into reliable, export-ready goods.\n\n## Appearance\nIndustrial zones are dense and functional—resin vats, curing racks, ropewalks, and low, reinforced workshops. Surfaces are stained with salt, pitch, and chemical residue.\n\n## Role in Society\nManufacturing converts the island’s hazardous resources into controlled value. Licensing determines who can operate, and industrial output is closely tied to Trade Authority quotas.\n\n## Features\n- **Resin Refineries:** Distillation and grading of raw resin into fuels, sealants, and reagents.\n- **Mist Glass Workshops:** Small, controlled facilities producing lenses, panes,…",
+      "raw": {
+        "location": "bb:location:black-brine",
+        "factions": [
+          "bb:faction:trade-authority"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:black-brine"
+        ]
+      }
+    },
+    {
+      "id": "bb:economy:minerals-natural-resources",
+      "type": "economic",
+      "name": "Black Brine — Minerals & Natural Resources",
+      "tags": [
+        "economy",
+        "resources",
+        "minerals",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\natural-resources.md",
+      "fm": {
+        "type": "economic",
+        "id": "bb:economy:minerals-natural-resources",
+        "name": "Black Brine — Minerals & Natural Resources",
+        "summary": "An anomaly-driven resource base where salt, mist phenomena, and salvage outweigh traditional mining.",
+        "location": "bb:location:black-brine",
+        "factions": [
+          "bb:faction:trade-authority"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:black-brine"
+        ],
+        "portrait": [],
+        "tags": [
+          "economy",
+          "resources",
+          "minerals",
+          "black-brine"
+        ]
+      },
+      "body_excerpt": "# Black Brine — Minerals & Natural Resources\n\n## Overview\nBlack Brine is poor in conventional ore but rich in environmental and anomalous resources. Extraction focuses on what the island produces through salt, mist, and wreckage rather than deep mining.\n\n## Appearance\nResource zones include blinding white salt flats, dark brine pools, coral-stone outcroppings, and wreckage fields half-consumed by tide and sediment. Mist glass zones are unstable and often restricted.\n\n## Role in Society\nResource control underpins the city’s economy. Access to salt, resin sources, and mist-affected zones is tightly licensed, ensuring centralized oversight of all valuable extraction.\n\n## Features\n- **Salt & Brine Deposits:** Large-scale production for preservation, trade, and alchemical use.\n- **Mist Glass Fo…",
+      "raw": {
+        "location": "bb:location:black-brine",
+        "factions": [
+          "bb:faction:trade-authority"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:black-brine"
+        ]
+      }
+    },
+    {
+      "id": "bb:economy:resin-harvest-refinement",
+      "type": "economic",
+      "name": "Black Brine — Resin Harvest & Refinement",
+      "tags": [
+        "economy",
+        "resin",
+        "industry",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\01_World_Lore\\Customs\\resin-harvest.md",
+      "fm": {
+        "type": "economic",
+        "id": "bb:economy:resin-harvest-refinement",
+        "name": "Black Brine — Resin Harvest & Refinement",
+        "summary": "A hazardous, high-value industry centered on the extraction and processing of volatile resin into essential industrial and alchemical materials.",
+        "location": "bb:location:black-brine",
+        "factions": [
+          "bb:faction:trade-authority"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:black-brine"
+        ],
+        "portrait": [],
+        "tags": [
+          "economy",
+          "resin",
+          "industry",
+          "black-brine"
+        ]
+      },
+      "body_excerpt": "# Black Brine — Resin Harvest & Refinement\n\n## Overview\nResin is a core strategic resource in Black Brine. Harvested from brine-adapted and mist-touched growths, it is refined into fuels, sealants, and alchemical compounds critical to the city’s economy.\n\n## Appearance\nHarvest zones are dense, twisted groves of mangroves and brine pines, often shrouded in mist. Refinement yards feature vats, stills, and hardened channels stained with dark amber residue.\n\n## Role in Society\nResin underpins maritime survival—sealing hulls, preserving materials, and fueling industry. Its production is tightly licensed, and control of resin flow equates to economic leverage.\n\n## Features\n- **Resin Harvesting:** Extracted from mangroves, brine pines, and mist-altered flora in controlled zones.\n- **Hazard Condit…",
+      "raw": {
+        "location": "bb:location:black-brine",
+        "factions": [
+          "bb:faction:trade-authority"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:location:black-brine"
+        ]
       }
     },
     {
@@ -8152,6 +8382,31 @@
       "target": "bb:faction:guild-of-free-fishermen"
     },
     {
+      "source": "bb:economy:agriculture-biological",
+      "rel": "member_of",
+      "target": "bb:faction:trade-authority"
+    },
+    {
+      "source": "bb:economy:key-exports",
+      "rel": "member_of",
+      "target": "bb:faction:trade-authority"
+    },
+    {
+      "source": "bb:economy:manufacturing-industry",
+      "rel": "member_of",
+      "target": "bb:faction:trade-authority"
+    },
+    {
+      "source": "bb:economy:minerals-natural-resources",
+      "rel": "member_of",
+      "target": "bb:faction:trade-authority"
+    },
+    {
+      "source": "bb:economy:resin-harvest-refinement",
+      "rel": "member_of",
+      "target": "bb:faction:trade-authority"
+    },
+    {
       "source": "bb:pc:andromeda",
       "rel": "ally_of",
       "target": "bb:npc:rupert-richthorn"
@@ -8694,17 +8949,12 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:salt-crown"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:blackmire"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:salt-crown"
     },
     {
       "source": "bb:hub:districts",
@@ -8712,19 +8962,19 @@
       "target": "bb:district:crosswater"
     },
     {
-      "source": "bb:hub:customs",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:customs:crows-chance"
-    },
-    {
-      "source": "bb:hub:customs",
-      "rel": "organizes",
-      "target": "bb:customs:vessels"
+      "target": "bb:district:keelhauls"
     },
     {
       "source": "bb:hub:customs",
       "rel": "organizes",
       "target": "bb:customs:great-exchange-day"
+    },
+    {
+      "source": "bb:hub:customs",
+      "rel": "organizes",
+      "target": "bb:customs:crows-chance"
     },
     {
       "source": "bb:hub:customs",
@@ -8737,6 +8987,16 @@
       "target": "bb:customs:scrip"
     },
     {
+      "source": "bb:hub:customs",
+      "rel": "organizes",
+      "target": "bb:customs:vessels"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:fishermens-union"
+    },
+    {
       "source": "bb:hub:factions",
       "rel": "organizes",
       "target": "bb:fleet:hollow-fangs"
@@ -8744,7 +9004,42 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:guild-of-free-fishermen"
+      "target": "bb:fleet:widow-makers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:council-of-free-captains"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:forgotten-wind"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:verdant-unmaking"
     },
     {
       "source": "bb:hub:factions",
@@ -8759,32 +9054,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:verdant-unmaking"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:trade-authority"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
+      "target": "bb:faction:gutterlings"
     },
     {
       "source": "bb:hub:factions",
@@ -8794,12 +9064,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:forgotten-wind"
+      "target": "bb:faction:trade-authority"
     },
     {
       "source": "bb:hub:factions",
@@ -8809,27 +9074,17 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
+      "target": "bb:faction:guild-of-free-fishermen"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:council-of-free-captains"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
+      "target": "bb:fleet:hellion-fleet"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
+      "target": "bb:campaign:dead-sons-structure"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8844,27 +9099,12 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
       "target": "bb:campaign:fallen-city:fallen-city-structure"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:dead-sons-narrative"
+      "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
       "source": "bb:hub:campaigns",
@@ -8874,7 +9114,27 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
+      "target": "bb:campaign:deep-green:short-cut"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:dead-sons-narrative"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:skull-garden"
+    },
+    {
+      "source": "bb:hub:players",
+      "rel": "organizes",
+      "target": "bb:pc:sy"
     },
     {
       "source": "bb:hub:players",
@@ -8884,27 +9144,27 @@
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:franklin"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
       "target": "bb:pc:pinch"
     },
     {
       "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:pc:sy"
+      "target": "bb:pc:franklin"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:deep-green-supplies"
+      "target": "bb:item:sedna-lore-poem"
     },
     {
       "source": "bb:hub:items",
       "rel": "organizes",
       "target": "bb:item:ruperts-welcome-speech"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:deep-green-supplies"
     },
     {
       "source": "bb:hub:items",
@@ -8917,34 +9177,9 @@
       "target": "bb:item:codex-salt-shadow"
     },
     {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:sedna-lore-poem"
-    },
-    {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
       "target": "bb:house-rules:phased-threat-escalation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:stealth-preparation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-stealth"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-passive-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8959,17 +9194,12 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
       "target": "bb:house-rules:jungle-travel-phases"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival-training"
+      "target": "bb:house-rules:jungle-passive-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
@@ -8979,17 +9209,42 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
+      "target": "bb:house-rules:jungle-event-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:stealth-preparation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-stealth"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
       "target": "bb:house-rules:jungle-navigation-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:firearms-training-mechanics"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival-training"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 176,
-    "edges": 305
+    "nodes": 181,
+    "edges": 310
   }
 }
