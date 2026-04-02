@@ -9191,12 +9191,7 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:blackmire"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:crosswater"
+      "target": "bb:district:little-sedna"
     },
     {
       "source": "bb:hub:districts",
@@ -9206,7 +9201,17 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:little-sedna"
+      "target": "bb:district:keelhauls"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:crosswater"
+    },
+    {
+      "source": "bb:hub:districts",
+      "rel": "organizes",
+      "target": "bb:district:blackmire"
     },
     {
       "source": "bb:hub:districts",
@@ -9214,19 +9219,19 @@
       "target": "bb:district:salt-crown"
     },
     {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:keelhauls"
-    },
-    {
       "source": "bb:hub:customs",
       "rel": "organizes",
-      "target": "bb:customs:great-exchange-day"
+      "target": "bb:creature:potoo"
     },
     {
       "source": "bb:hub:customs",
       "rel": "organizes",
       "target": "bb:customs:vessels"
+    },
+    {
+      "source": "bb:hub:customs",
+      "rel": "organizes",
+      "target": "bb:customs:great-exchange-day"
     },
     {
       "source": "bb:hub:customs",
@@ -9239,16 +9244,6 @@
       "target": "bb:customs:scrip"
     },
     {
-      "source": "bb:hub:customs",
-      "rel": "organizes",
-      "target": "bb:creature:potoo"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:hellion-fleet"
-    },
-    {
       "source": "bb:hub:factions",
       "rel": "organizes",
       "target": "bb:faction:verdant-unmaking"
@@ -9256,22 +9251,37 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:inquisitors-of-black-brine"
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:black-sashes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:trade-authority"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:miasma"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:fishermens-union"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widow-makers"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
       "target": "bb:faction:tide-wardens"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:butchers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
     },
     {
       "source": "bb:hub:factions",
@@ -9286,42 +9296,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:hollow-fangs"
+      "target": "bb:faction:inquisitors-of-black-brine"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:trade-authority"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:black-sashes"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:guild-of-free-fishermen"
+      "target": "bb:faction:butchers"
     },
     {
       "source": "bb:hub:factions",
@@ -9331,17 +9311,12 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:forgotten-wind"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
       "target": "bb:fleet:malign-crew"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:forgotten-wind"
     },
     {
       "source": "bb:hub:factions",
@@ -9351,7 +9326,32 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
+      "target": "bb:fleet:hellion-fleet"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:gilded-rats"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:guild-of-free-fishermen"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:hollow-fangs"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:red-wakes"
     },
     {
       "source": "bb:hub:economic",
@@ -9361,7 +9361,7 @@
     {
       "source": "bb:hub:economic",
       "rel": "organizes",
-      "target": "bb:economy:agriculture-biological"
+      "target": "bb:economy:key-exports"
     },
     {
       "source": "bb:hub:economic",
@@ -9376,17 +9376,7 @@
     {
       "source": "bb:hub:economic",
       "rel": "organizes",
-      "target": "bb:economy:key-exports"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:infiltration-temple-of-sedna"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:dead-sons-structure"
+      "target": "bb:economy:agriculture-biological"
     },
     {
       "source": "bb:hub:campaigns",
@@ -9396,17 +9386,22 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:fallen-city:fallen-city-structure"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
       "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:infiltration-temple-of-sedna"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:short-cut"
     },
     {
       "source": "bb:hub:campaigns",
@@ -9421,22 +9416,17 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
+      "target": "bb:campaign:fallen-city:fallen-city-structure"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
       "target": "bb:campaign:dead-sons-narrative"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
-      "target": "bb:pc:andromeda"
-    },
-    {
-      "source": "bb:hub:players",
-      "rel": "organizes",
-      "target": "bb:pc:sy"
+      "target": "bb:campaign:dead-sons-structure"
     },
     {
       "source": "bb:hub:players",
@@ -9449,14 +9439,14 @@
       "target": "bb:pc:pinch"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:item:sedna-lore-poem"
+      "target": "bb:pc:sy"
     },
     {
-      "source": "bb:hub:items",
+      "source": "bb:hub:players",
       "rel": "organizes",
-      "target": "bb:item:codex-salt-shadow"
+      "target": "bb:pc:andromeda"
     },
     {
       "source": "bb:hub:items",
@@ -9466,7 +9456,7 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:apertures-theory"
+      "target": "bb:item:codex-salt-shadow"
     },
     {
       "source": "bb:hub:items",
@@ -9474,24 +9464,14 @@
       "target": "bb:item:deep-green-supplies"
     },
     {
-      "source": "bb:hub:house-rules",
+      "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-passive-threat-level"
+      "target": "bb:item:sedna-lore-poem"
     },
     {
-      "source": "bb:hub:house-rules",
+      "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
+      "target": "bb:item:apertures-theory"
     },
     {
       "source": "bb:hub:house-rules",
@@ -9501,32 +9481,12 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-navigation-events"
+      "target": "bb:house-rules:jungle-passive-threat-level"
     },
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
       "target": "bb:house-rules:firearms-training-mechanics"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-stealth"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
     },
     {
       "source": "bb:hub:house-rules",
@@ -9537,6 +9497,46 @@
       "source": "bb:hub:house-rules",
       "rel": "organizes",
       "target": "bb:house-rules:stealth-preparation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-event-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-weather-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-environmental-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-stealth"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation-events"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-navigation"
     }
   ],
   "unresolved": [],
