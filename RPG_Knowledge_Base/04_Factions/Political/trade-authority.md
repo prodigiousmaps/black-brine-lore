@@ -7,6 +7,7 @@ summary: >
   exports, and architect of the exchange system that keeps Black Brine fed,
   funded, and controllable.
 location: bb:location:black-brine
+member_of: bb:hub:economy
 factions: []
 allies:
   - bb:faction:house-of-questions
