@@ -2575,7 +2575,7 @@
         "name": "Black Brine Trade Authority",
         "summary": "The city’s economic engine and leash—issuer of scrip, regulator of strategic exports, and architect of the exchange system that keeps Black Brine fed, funded, and controllable.\n",
         "location": "bb:location:black-brine",
-        "member_of": "bb:hub:economy",
+        "member_of": "bb:hub:economic",
         "factions": [],
         "allies": [
           "bb:faction:house-of-questions"
@@ -6833,7 +6833,7 @@
         "name": "Black Brine — Agricultural & Biological Production",
         "summary": "A hazardous, tightly controlled food and bio-resource system centered on brine-adapted crops and regulated fisheries.",
         "location": "bb:location:black-brine",
-        "member_of": "bb:hub:economy",
+        "member_of": "bb:hub:economic",
         "factions": [
           "bb:faction:trade-authority"
         ],
@@ -6985,7 +6985,7 @@
         "name": "Black Brine — Key Exports",
         "summary": "The controlled export profile of Black Brine, focused on durable, high-utility goods and anomalous materials.",
         "location": "bb:location:black-brine",
-        "member_of": "bb:hub:economy",
+        "member_of": "bb:hub:economic",
         "factions": [
           "bb:faction:trade-authority"
         ],
@@ -7064,7 +7064,7 @@
         "name": "Black Brine — Manufacturing & Industry",
         "summary": "A tightly controlled industrial sector focused on refinement, repair, and the stabilization of hazardous materials.",
         "location": "bb:location:black-brine",
-        "member_of": "bb:hub:economy",
+        "member_of": "bb:hub:economic",
         "factions": [
           "bb:faction:trade-authority"
         ],
@@ -7111,7 +7111,7 @@
         "name": "Black Brine — Minerals & Natural Resources",
         "summary": "An anomaly-driven resource base where salt, mist phenomena, and salvage outweigh traditional mining.",
         "location": "bb:location:black-brine",
-        "member_of": "bb:hub:economy",
+        "member_of": "bb:hub:economic",
         "factions": [
           "bb:faction:trade-authority"
         ],
@@ -7158,7 +7158,7 @@
         "name": "Black Brine — Resin Harvest & Refinement",
         "summary": "A hazardous, high-value industry centered on the extraction and processing of volatile resin into essential industrial and alchemical materials.",
         "location": "bb:location:black-brine",
-        "member_of": "bb:hub:economy",
+        "member_of": "bb:hub:economic",
         "factions": [
           "bb:faction:trade-authority"
         ],
