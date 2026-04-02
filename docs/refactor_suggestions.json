@@ -1,5 +1,5 @@
 {
-  "total_files": 178,
+  "total_files": 177,
   "patches": [
     "patches\\yaml-format-template.yml",
     "patches\\island-of-sedna.yml",
@@ -1733,15 +1733,6 @@
       "resolved_id": null,
       "method": "none",
       "score": 0.0,
-      "note": ""
-    },
-    {
-      "path": "RPG_Knowledge_Base\\03_NPCs\\Organizations\\trade-authority.md",
-      "field": "location",
-      "value": "bb:district:mistwalk",
-      "resolved_id": "bb:district:mistwalk",
-      "method": "id",
-      "score": 1.0,
       "note": ""
     },
     {
