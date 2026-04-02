@@ -12,7 +12,8 @@ allies:
 rivals: []
 appears_in:
 - bb:city:black-brine
-portrait: []
+portrait:
+- assets/portraits/shadow.png
 tags:
 - faction
 - investigation
