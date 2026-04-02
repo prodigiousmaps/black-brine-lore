@@ -4,7 +4,7 @@ id: bb:economy:key-exports
 name: Black Brine — Key Exports
 summary: The controlled export profile of Black Brine, focused on durable, high-utility goods and anomalous materials.
 location: bb:location:black-brine
-member_of: bb:hub:economy
+member_of: bb:hub:economic
 factions:
 - bb:faction:trade-authority
 allies: []

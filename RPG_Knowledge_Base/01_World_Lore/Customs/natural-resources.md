@@ -4,7 +4,7 @@ id: bb:economy:minerals-natural-resources
 name: Black Brine — Minerals & Natural Resources
 summary: An anomaly-driven resource base where salt, mist phenomena, and salvage outweigh traditional mining.
 location: bb:location:black-brine
-member_of: bb:hub:economy
+member_of: bb:hub:economic
 factions:
 - bb:faction:trade-authority
 allies: []
