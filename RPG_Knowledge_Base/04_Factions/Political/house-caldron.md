@@ -7,6 +7,7 @@ summary: >
   in Black Brine’s volatile economy while quietly manipulating supply chains,
   prices, and competition to maintain dominance.
 location: bb:location:black-brine
+member_of: bb:hub:factions
 factions: []
 allies:
   - bb:faction:trade-authority
