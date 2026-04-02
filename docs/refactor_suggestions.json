@@ -1153,19 +1153,19 @@
     {
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\black-sashes.md",
       "field": "rivals",
-      "value": "bb:faction:trade-authority",
-      "resolved_id": "bb:faction:trade-authority",
-      "method": "id",
-      "score": 1.0,
+      "value": "bb:faction:captains-council",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\black-sashes.md",
       "field": "rivals",
-      "value": "bb:faction:captains-council",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "value": "bb:faction:trade-authority",
+      "resolved_id": "bb:faction:trade-authority",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
@@ -1180,19 +1180,19 @@
     {
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\black-sashes.md",
       "field": "appears_in",
-      "value": "bb:district:salt-crown",
-      "resolved_id": "bb:district:salt-crown",
-      "method": "id",
-      "score": 1.0,
+      "value": "bb:district:dagger-docks",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
       "note": ""
     },
     {
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\black-sashes.md",
       "field": "appears_in",
-      "value": "bb:district:dagger-docks",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "value": "bb:district:salt-crown",
+      "resolved_id": "bb:district:salt-crown",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {
