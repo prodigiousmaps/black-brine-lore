@@ -1,0 +1,6 @@
+path: C:\Users\FiveA\OneDrive\Documents\GitHub\black-brine-lore\RPG_Knowledge_Base\04_Factions\Political\constabulary.md
+set:
+  allies:
+  - bb:faction:shadow-cloaks
+  appears_in:
+  - bb:city:black-brine

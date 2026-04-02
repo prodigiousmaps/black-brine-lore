@@ -2,20 +2,22 @@
 type: faction
 id: bb:faction:black-sashes
 name: The Black Sashes
-summary: A covert, cell-based intelligence network that manipulates information, labor, and trade to undermine centralized power in Black Brine.
+summary: A covert, cell-based intelligence network that manipulates information, labor,
+  and trade to undermine centralized power in Black Brine.
 location: bb:location:faction-hub
 factions:
 - bb:faction:faction-hub
 allies:
 - bb:faction:guild-of-free-fishermen
 rivals:
-- bb:faction:trade-authority
 - bb:faction:captains-council
+- bb:faction:trade-authority
 appears_in:
 - bb:district:crosswater
-- bb:district:salt-crown
 - bb:district:dagger-docks
-portrait: [assets/portraits/black-sashes.png]
+- bb:district:salt-crown
+portrait:
+- assets/portraits/black-sashes.png
 tags:
 - faction
 - covert

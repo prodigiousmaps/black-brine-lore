@@ -1,5 +1,5 @@
 {
-  "total_files": 174,
+  "total_files": 178,
   "patches": [
     "patches\\yaml-format-template.yml",
     "patches\\island-of-sedna.yml",
@@ -15,11 +15,14 @@
     "patches\\ash-fall.yml",
     "patches\\butchers.yml",
     "patches\\twilight-society.yml",
+    "patches\\black-sashes.yml",
+    "patches\\constabulary.yml",
     "patches\\hellion-fleet.yml",
     "patches\\hollow-fangs.yml",
     "patches\\house-of-questions.yml",
     "patches\\malign-crew.yml",
     "patches\\miasma-fleet.yml",
+    "patches\\shadow-cloaks.yml",
     "patches\\trade-authority.yml",
     "patches\\cult-forgotten-wind.yml",
     "patches\\cult-verdant-unmaking.yml",
@@ -1121,6 +1124,114 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\black-sashes.md",
+      "field": "location",
+      "value": "bb:location:faction-hub",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\black-sashes.md",
+      "field": "factions*",
+      "value": "bb:faction:faction-hub",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\black-sashes.md",
+      "field": "allies",
+      "value": "bb:faction:guild-of-free-fishermen",
+      "resolved_id": "bb:faction:guild-of-free-fishermen",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\black-sashes.md",
+      "field": "rivals",
+      "value": "bb:faction:trade-authority",
+      "resolved_id": "bb:faction:trade-authority",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\black-sashes.md",
+      "field": "rivals",
+      "value": "bb:faction:captains-council",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\black-sashes.md",
+      "field": "appears_in",
+      "value": "bb:district:crosswater",
+      "resolved_id": "bb:district:crosswater",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\black-sashes.md",
+      "field": "appears_in",
+      "value": "bb:district:salt-crown",
+      "resolved_id": "bb:district:salt-crown",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\black-sashes.md",
+      "field": "appears_in",
+      "value": "bb:district:dagger-docks",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\constabulary.md",
+      "field": "location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\constabulary.md",
+      "field": "factions*",
+      "value": "bb:faction:house-of-questions",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\constabulary.md",
+      "field": "allies",
+      "value": "bb:faction:shadow-cloaks",
+      "resolved_id": "bb:faction:shadow-cloaks",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\constabulary.md",
+      "field": "appears_in",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\gilded-rats.md",
       "field": "leaders",
       "value": "bb:npc:captain-garrick-salt",
@@ -1247,6 +1358,69 @@
       "note": ""
     },
     {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\shadow-cloaks.md",
+      "field": "location",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\shadow-cloaks.md",
+      "field": "factions*",
+      "value": "bb:faction:house-of-questions",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\shadow-cloaks.md",
+      "field": "allies",
+      "value": "bb:faction:constabulary",
+      "resolved_id": "bb:faction:constabulary",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\shadow-cloaks.md",
+      "field": "appears_in",
+      "value": "bb:city:black-brine",
+      "resolved_id": "bb:city:black-brine",
+      "method": "id",
+      "score": 1.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\tide-wardens.md",
+      "field": "location",
+      "value": "bb:region:east-sedna",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\tide-wardens.md",
+      "field": "factions*",
+      "value": "bb:faction:house-of-questions",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
+      "path": "RPG_Knowledge_Base\\04_Factions\\Political\\tide-wardens.md",
+      "field": "appears_in",
+      "value": "bb:region:east-sedna",
+      "resolved_id": null,
+      "method": "none",
+      "score": 0.0,
+      "note": ""
+    },
+    {
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\trade-authority.md",
       "field": "location",
       "value": "bb:location:black-brine",
@@ -1268,9 +1442,9 @@
       "path": "RPG_Knowledge_Base\\04_Factions\\Political\\trade-authority.md",
       "field": "rivals",
       "value": "bb:faction:black-sashes",
-      "resolved_id": null,
-      "method": "none",
-      "score": 0.0,
+      "resolved_id": "bb:faction:black-sashes",
+      "method": "id",
+      "score": 1.0,
       "note": ""
     },
     {

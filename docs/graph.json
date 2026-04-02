@@ -2231,6 +2231,121 @@
       }
     },
     {
+      "id": "bb:faction:black-sashes",
+      "type": "faction",
+      "name": "The Black Sashes",
+      "tags": [
+        "faction",
+        "covert",
+        "intelligence",
+        "rebellion",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\04_Factions\\Political\\black-sashes.md",
+      "fm": {
+        "type": "faction",
+        "id": "bb:faction:black-sashes",
+        "name": "The Black Sashes",
+        "summary": "A covert, cell-based intelligence network that manipulates information, labor, and trade to undermine centralized power in Black Brine.",
+        "location": "bb:location:faction-hub",
+        "factions": [
+          "bb:faction:faction-hub"
+        ],
+        "allies": [
+          "bb:faction:guild-of-free-fishermen"
+        ],
+        "rivals": [
+          "bb:faction:captains-council",
+          "bb:faction:trade-authority"
+        ],
+        "appears_in": [
+          "bb:district:crosswater",
+          "bb:district:dagger-docks",
+          "bb:district:salt-crown"
+        ],
+        "portrait": [
+          "assets/portraits/black-sashes.png"
+        ],
+        "tags": [
+          "faction",
+          "covert",
+          "intelligence",
+          "rebellion",
+          "black-brine"
+        ]
+      },
+      "body_excerpt": "# The Black Sashes\n\n## Overview\nThe Black Sashes are a decentralized intelligence and subversive network operating across Black Brine. They do not present themselves as a formal organization, instead existing as a series of loosely connected cells bound by shared philosophy and coded communication.\n\nTheir purpose is not conquest, but disruption—undermining systems that concentrate power while redistributing influence to those who operate outside the control of fleets, merchants, and centralized authority.\n\n## Structure\nThe Black Sashes operate through independent cells with no publicly recognized leadership.\n\n- Cells function autonomously.\n- Members rarely know operatives outside their immediate circle.\n- Communication relies on coded signals, rumor chains, and symbolic markers.\n- Leadersh…",
+      "raw": {
+        "location": "bb:location:faction-hub",
+        "factions": [
+          "bb:faction:faction-hub"
+        ],
+        "allies": [
+          "bb:faction:guild-of-free-fishermen"
+        ],
+        "rivals": [
+          "bb:faction:captains-council",
+          "bb:faction:trade-authority"
+        ],
+        "appears_in": [
+          "bb:district:crosswater",
+          "bb:district:dagger-docks",
+          "bb:district:salt-crown"
+        ]
+      }
+    },
+    {
+      "id": "bb:faction:constabulary",
+      "type": "faction",
+      "name": "Black Brine Constabulary",
+      "tags": [
+        "faction",
+        "law",
+        "constabulary",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\04_Factions\\Political\\constabulary.md",
+      "fm": {
+        "type": "faction",
+        "id": "bb:faction:constabulary",
+        "name": "Black Brine Constabulary",
+        "summary": "The primary law enforcement body maintaining order in the streets and docks of Black Brine.",
+        "location": "bb:city:black-brine",
+        "parent": "bb:faction:house-of-questions",
+        "factions": [
+          "bb:faction:house-of-questions"
+        ],
+        "allies": [
+          "bb:faction:shadow-cloaks"
+        ],
+        "rivals": [],
+        "appears_in": [
+          "bb:city:black-brine"
+        ],
+        "portrait": [],
+        "tags": [
+          "faction",
+          "law",
+          "constabulary",
+          "black-brine"
+        ]
+      },
+      "body_excerpt": "# Black Brine Constabulary\n\n## Overview\nThe visible arm of law in Black Brine, tasked with maintaining order in the streets, docks, and public spaces.\n\n## Appearance\nDark blue coats, salt-stained leather armor, tricorn hats, pistols and short swords standard issue.\n\n## Role in Society\nThey enforce day-to-day law, protect commerce, and respond to disturbances. They defer complex investigations to the House of Questions.\n\n## Features\n- District-based command structure\n- Strong dockside presence\n- Reliance on numbers and coordinated response\n\n## Notable Figures\n- **High Constable:** Oversees city-wide operations.\n\n## Rumors\n- Some units are quietly on merchant payrolls.\n- Certain districts enforce “selective law.”\n\n## Connections\n- bb:faction:house-of-questions (parent organization)\n- bb:fact…",
+      "raw": {
+        "location": "bb:city:black-brine",
+        "factions": [
+          "bb:faction:house-of-questions"
+        ],
+        "allies": [
+          "bb:faction:shadow-cloaks"
+        ],
+        "rivals": [],
+        "appears_in": [
+          "bb:city:black-brine"
+        ]
+      }
+    },
+    {
       "id": "bb:fleet:gilded-rats",
       "type": "faction",
       "name": "The Gilded Rats",
@@ -2551,6 +2666,106 @@
       "raw": {
         "leaders": [
           "bb:npc:captain-bor-harvann"
+        ]
+      }
+    },
+    {
+      "id": "bb:faction:shadow-cloaks",
+      "type": "faction",
+      "name": "Shadow Cloak Agents",
+      "tags": [
+        "faction",
+        "investigation",
+        "covert",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\04_Factions\\Political\\shadow-cloaks.md",
+      "fm": {
+        "type": "faction",
+        "id": "bb:faction:shadow-cloaks",
+        "name": "Shadow Cloak Agents",
+        "summary": "Elite investigative operatives of the House of Questions specializing in covert operations and interrogation.",
+        "location": "bb:city:black-brine",
+        "parent": "bb:faction:house-of-questions",
+        "factions": [
+          "bb:faction:house-of-questions"
+        ],
+        "allies": [
+          "bb:faction:constabulary"
+        ],
+        "rivals": [],
+        "appears_in": [
+          "bb:city:black-brine"
+        ],
+        "portrait": [],
+        "tags": [
+          "faction",
+          "investigation",
+          "covert",
+          "black-brine"
+        ]
+      },
+      "body_excerpt": "# Shadow Cloak Agents\n\n## Overview\nHighly trained operatives handling investigations, intelligence gathering, and sensitive enforcement actions.\n\n## Appearance\nForm-fitting black leather armor, masked from the nose down, minimal markings, practical and intimidating.\n\n## Role in Society\nThey investigate crimes, uncover conspiracies, and interrogate suspects. When they arrive, a situation is no longer routine.\n\n## Features\n- Covert surveillance networks\n- Advanced interrogation methods\n- Authority to override local enforcement\n\n## Notable Figures\n- **Senior Inquirer:** Leads major investigations and operations.\n\n## Rumors\n- They know things before they happen.\n- No one lies to them twice.\n\n## Connections\n- bb:faction:house-of-questions (parent organization)\n- bb:faction:constabulary (field c…",
+      "raw": {
+        "location": "bb:city:black-brine",
+        "factions": [
+          "bb:faction:house-of-questions"
+        ],
+        "allies": [
+          "bb:faction:constabulary"
+        ],
+        "rivals": [],
+        "appears_in": [
+          "bb:city:black-brine"
+        ]
+      }
+    },
+    {
+      "id": "bb:faction:tide-wardens",
+      "type": "faction",
+      "name": "Tide Wardens",
+      "tags": [
+        "faction",
+        "supernatural",
+        "frontier",
+        "tide-wardens",
+        "black-brine"
+      ],
+      "source": "RPG_Knowledge_Base\\04_Factions\\Political\\tide-wardens.md",
+      "fm": {
+        "type": "faction",
+        "id": "bb:faction:tide-wardens",
+        "name": "Tide Wardens",
+        "summary": "Frontier enforcers of ancient maritime and supernatural laws across the coasts, jungles, and outer settlements.",
+        "location": "bb:region:east-sedna",
+        "parent": "bb:faction:house-of-questions",
+        "factions": [
+          "bb:faction:house-of-questions"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:region:east-sedna"
+        ],
+        "portrait": [],
+        "tags": [
+          "faction",
+          "supernatural",
+          "frontier",
+          "tide-wardens",
+          "black-brine"
+        ]
+      },
+      "body_excerpt": "# Tide Wardens\n\n## Overview\nA dispersed order tasked with confronting supernatural threats and maintaining ancient balances beyond the city.\n\n## Appearance\nWeathered leathers, oilskin cloaks, bone and stone ward charms, gear marked by salt and time.\n\n## Role in Society\nThey operate outside the city, dealing with corruption, relics, and disturbances tied to deeper forces. Their authority supersedes local law when invoked.\n\n## Features\n- Autonomous territorial wardens\n- Knowledge of ancient rites and wards\n- Rapid, decisive intervention methods\n\n## Notable Figures\n- **Sable Marr (Tide Warden):** Oversees the Central Valley of East Sedna.\n\n## Rumors\n- They do not arrest—only resolve.\n- They answer to older laws than the city itself.\n\n## Connections\n- bb:faction:house-of-questions (parent orga…",
+      "raw": {
+        "location": "bb:region:east-sedna",
+        "factions": [
+          "bb:faction:house-of-questions"
+        ],
+        "allies": [],
+        "rivals": [],
+        "appears_in": [
+          "bb:region:east-sedna"
         ]
       }
     },
@@ -7816,9 +8031,19 @@
       "target": "bb:district:salt-crown"
     },
     {
+      "source": "bb:faction:constabulary",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
+    },
+    {
       "source": "bb:faction:inquisitors-of-black-brine",
       "rel": "located_in",
       "target": "bb:district:mistwalk"
+    },
+    {
+      "source": "bb:faction:shadow-cloaks",
+      "rel": "located_in",
+      "target": "bb:city:black-brine"
     },
     {
       "source": "bb:faction:forgotten-wind",
@@ -8466,6 +8691,31 @@
       "target": "bb:pc:pinch"
     },
     {
+      "source": "bb:faction:black-sashes",
+      "rel": "ally_of",
+      "target": "bb:faction:guild-of-free-fishermen"
+    },
+    {
+      "source": "bb:faction:black-sashes",
+      "rel": "rival_of",
+      "target": "bb:faction:trade-authority"
+    },
+    {
+      "source": "bb:faction:constabulary",
+      "rel": "ally_of",
+      "target": "bb:faction:shadow-cloaks"
+    },
+    {
+      "source": "bb:faction:shadow-cloaks",
+      "rel": "ally_of",
+      "target": "bb:faction:constabulary"
+    },
+    {
+      "source": "bb:faction:trade-authority",
+      "rel": "rival_of",
+      "target": "bb:faction:black-sashes"
+    },
+    {
       "source": "bb:faction:trade-authority",
       "rel": "rival_of",
       "target": "bb:faction:butchers"
@@ -8664,6 +8914,26 @@
       "source": "bb:hazard:ash-fall",
       "rel": "appears_in",
       "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:faction:black-sashes",
+      "rel": "appears_in",
+      "target": "bb:district:crosswater"
+    },
+    {
+      "source": "bb:faction:black-sashes",
+      "rel": "appears_in",
+      "target": "bb:district:salt-crown"
+    },
+    {
+      "source": "bb:faction:constabulary",
+      "rel": "appears_in",
+      "target": "bb:city:black-brine"
+    },
+    {
+      "source": "bb:faction:shadow-cloaks",
+      "rel": "appears_in",
+      "target": "bb:city:black-brine"
     },
     {
       "source": "bb:faction:forgotten-wind",
@@ -8958,16 +9228,6 @@
     {
       "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:district:crosswater"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
-      "target": "bb:district:mistwalk"
-    },
-    {
-      "source": "bb:hub:districts",
-      "rel": "organizes",
       "target": "bb:district:keelhauls"
     },
     {
@@ -8981,19 +9241,14 @@
       "target": "bb:district:blackmire"
     },
     {
-      "source": "bb:hub:customs",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:customs:vessels"
+      "target": "bb:district:mistwalk"
     },
     {
-      "source": "bb:hub:customs",
+      "source": "bb:hub:districts",
       "rel": "organizes",
-      "target": "bb:customs:great-exchange-day"
-    },
-    {
-      "source": "bb:hub:customs",
-      "rel": "organizes",
-      "target": "bb:creature:potoo"
+      "target": "bb:district:crosswater"
     },
     {
       "source": "bb:hub:customs",
@@ -9003,7 +9258,32 @@
     {
       "source": "bb:hub:customs",
       "rel": "organizes",
+      "target": "bb:customs:great-exchange-day"
+    },
+    {
+      "source": "bb:hub:customs",
+      "rel": "organizes",
+      "target": "bb:customs:vessels"
+    },
+    {
+      "source": "bb:hub:customs",
+      "rel": "organizes",
       "target": "bb:customs:scrip"
+    },
+    {
+      "source": "bb:hub:customs",
+      "rel": "organizes",
+      "target": "bb:creature:potoo"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:union-of-lamp-lighters"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:malign-crew"
     },
     {
       "source": "bb:hub:factions",
@@ -9013,12 +9293,7 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:gutterlings"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:twilight-society"
+      "target": "bb:fleet:gilded-rats"
     },
     {
       "source": "bb:hub:factions",
@@ -9028,12 +9303,72 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
+      "target": "bb:faction:twilight-society"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:guild-of-free-fishermen"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:constabulary"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:black-sashes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
       "target": "bb:faction:council-of-free-captains"
     },
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:fleet:miasma"
+      "target": "bb:faction:tide-wardens"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:widow-makers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:fleet:red-wakes"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:forgotten-wind"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:gutterlings"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:shadow-cloaks"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:butchers"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:fishermens-union"
+    },
+    {
+      "source": "bb:hub:factions",
+      "rel": "organizes",
+      "target": "bb:faction:trade-authority"
     },
     {
       "source": "bb:hub:factions",
@@ -9048,52 +9383,22 @@
     {
       "source": "bb:hub:factions",
       "rel": "organizes",
-      "target": "bb:faction:butchers"
+      "target": "bb:fleet:miasma"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:economic",
       "rel": "organizes",
-      "target": "bb:fleet:red-wakes"
+      "target": "bb:economy:resin-harvest-refinement"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:economic",
       "rel": "organizes",
-      "target": "bb:faction:trade-authority"
+      "target": "bb:economy:agriculture-biological"
     },
     {
-      "source": "bb:hub:factions",
+      "source": "bb:hub:economic",
       "rel": "organizes",
-      "target": "bb:faction:guild-of-free-fishermen"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:widow-makers"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:fishermens-union"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:gilded-rats"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:forgotten-wind"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:faction:union-of-lamp-lighters"
-    },
-    {
-      "source": "bb:hub:factions",
-      "rel": "organizes",
-      "target": "bb:fleet:malign-crew"
+      "target": "bb:economy:manufacturing-industry"
     },
     {
       "source": "bb:hub:economic",
@@ -9106,34 +9411,19 @@
       "target": "bb:economy:minerals-natural-resources"
     },
     {
-      "source": "bb:hub:economic",
+      "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:economy:manufacturing-industry"
-    },
-    {
-      "source": "bb:hub:economic",
-      "rel": "organizes",
-      "target": "bb:economy:agriculture-biological"
-    },
-    {
-      "source": "bb:hub:economic",
-      "rel": "organizes",
-      "target": "bb:economy:resin-harvest-refinement"
+      "target": "bb:campaign:deep-green:short-cut"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:vine-sanctum"
+      "target": "bb:campaign:deep-green:skull-garden"
     },
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
       "target": "bb:campaign:dead-sons-narrative"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:treefall-maze"
     },
     {
       "source": "bb:hub:campaigns",
@@ -9148,22 +9438,22 @@
     {
       "source": "bb:hub:campaigns",
       "rel": "organizes",
-      "target": "bb:campaign:deep-green:jungle-camp"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:skull-garden"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
-      "target": "bb:campaign:deep-green:short-cut"
-    },
-    {
-      "source": "bb:hub:campaigns",
-      "rel": "organizes",
       "target": "bb:campaign:fallen-city:fallen-city-memory-palace"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:treefall-maze"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:vine-sanctum"
+    },
+    {
+      "source": "bb:hub:campaigns",
+      "rel": "organizes",
+      "target": "bb:campaign:deep-green:jungle-camp"
     },
     {
       "source": "bb:hub:campaigns",
@@ -9193,17 +9483,7 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
-      "target": "bb:item:codex-salt-shadow"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
       "target": "bb:item:ruperts-welcome-speech"
-    },
-    {
-      "source": "bb:hub:items",
-      "rel": "organizes",
-      "target": "bb:item:apertures-theory"
     },
     {
       "source": "bb:hub:items",
@@ -9213,52 +9493,17 @@
     {
       "source": "bb:hub:items",
       "rel": "organizes",
+      "target": "bb:item:apertures-theory"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
+      "target": "bb:item:codex-salt-shadow"
+    },
+    {
+      "source": "bb:hub:items",
+      "rel": "organizes",
       "target": "bb:item:sedna-lore-poem"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-weather-events"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-travel-phases"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-survival"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:phased-threat-escalation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:stealth-preparation"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-environmental-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:firearms-training-mechanics"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-passive-threat-level"
-    },
-    {
-      "source": "bb:hub:house-rules",
-      "rel": "organizes",
-      "target": "bb:house-rules:jungle-stealth"
     },
     {
       "source": "bb:hub:house-rules",
@@ -9268,7 +9513,52 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
+      "target": "bb:house-rules:jungle-passive-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:stealth-preparation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:phased-threat-escalation"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-environmental-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-stealth"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-event-threat-level"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
       "target": "bb:house-rules:jungle-survival-training"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-survival"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-travel-phases"
+    },
+    {
+      "source": "bb:hub:house-rules",
+      "rel": "organizes",
+      "target": "bb:house-rules:jungle-weather-events"
     },
     {
       "source": "bb:hub:house-rules",
@@ -9278,12 +9568,12 @@
     {
       "source": "bb:hub:house-rules",
       "rel": "organizes",
-      "target": "bb:house-rules:jungle-event-threat-level"
+      "target": "bb:house-rules:firearms-training-mechanics"
     }
   ],
   "unresolved": [],
   "stats": {
-    "nodes": 182,
-    "edges": 315
+    "nodes": 186,
+    "edges": 330
   }
 }

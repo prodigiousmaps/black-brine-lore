@@ -1,0 +1,11 @@
+path: C:\Users\FiveA\OneDrive\Documents\GitHub\black-brine-lore\RPG_Knowledge_Base\04_Factions\Political\black-sashes.md
+set:
+  allies:
+  - bb:faction:guild-of-free-fishermen
+  rivals:
+  - bb:faction:captains-council
+  - bb:faction:trade-authority
+  appears_in:
+  - bb:district:crosswater
+  - bb:district:dagger-docks
+  - bb:district:salt-crown
